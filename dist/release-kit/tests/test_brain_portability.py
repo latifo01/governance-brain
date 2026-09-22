@@ -304,6 +304,15 @@ def test_private_handoff_excludes_nested_runtime_caches(tmp_path):
     assert not (handoff / "state/workshop/proposals/lot/workspace.json").exists()
 
 
+def test_private_handoff_rejects_unexcluded_windows_incompatible_path(tmp_path):
+    synthetic_seed(tmp_path)
+    assert mod.bootstrap(tmp_path, apply=True)["reconstructed"] == 1
+    private_policy(tmp_path)
+    put(tmp_path, "state/workshop/proposals/lot/file.txt:Zone.Identifier", "sidecar")
+    with pytest.raises(ValueError, match="WINDOWS_INCOMPATIBLE_HANDOFF_PATH"):
+        mod.private_handoff(tmp_path, write=False)
+
+
 def test_private_handoff_rejects_changed_source_and_public_target(tmp_path):
     synthetic_seed(tmp_path)
     mod.bootstrap(tmp_path, apply=True)

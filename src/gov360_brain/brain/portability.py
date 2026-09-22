@@ -498,6 +498,8 @@ def private_handoff(root: Path, output: Path | str | None = None, *, write: bool
             if any(_prefix_match(relative, item) for item in excluded):
                 continue
             parts = PurePosixPath(relative).parts
+            if any(":" in part or part.rstrip(" .") != part for part in parts):
+                raise ValueError("WINDOWS_INCOMPATIBLE_HANDOFF_PATH")
             if parts[0] not in {"sources", "ingest"}:
                 if any(part in {"__pycache__", ".pytest_cache", ".pytest_tmp"} for part in parts):
                     continue

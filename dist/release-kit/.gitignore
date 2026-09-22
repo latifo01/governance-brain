@@ -31,6 +31,8 @@ dist/cdo-handoff/
 *.tmp
 *.part
 *.lock
+!uv.lock
+!**/uv.lock
 *.crdownload
 *.download
 

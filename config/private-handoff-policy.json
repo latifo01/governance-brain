@@ -66,6 +66,12 @@
     "state/runs",
     "state/render_cache",
     "state/watch",
-    "dist/cdo-handoff"
+    "dist/cdo-handoff",
+    "sources/02_AI_Security_Frameworks/OWASP GenAl State of Agentic Al Security and Governance.pdf:Zone.Identifier",
+    "sources/02_AI_Security_Frameworks/OWASP Top 10 for LLM Applications 2026.pdf:Zone.Identifier",
+    "sources/06_ISO_Standards_not_downloaded/ISO 27001-2022 rm.pdf:Zone.Identifier",
+    "sources/06_ISO_Standards_not_downloaded/ISO-IEC-23894-2023.pdf:Zone.Identifier",
+    "sources/06_ISO_Standards_not_downloaded/ISO-IEC-42001-2023.pdf:Zone.Identifier",
+    "sources/09_Operational_Risk_manual/ORX_Reference_Taxonomy_summary_report.pdf:Zone.Identifier"
   ]
 }

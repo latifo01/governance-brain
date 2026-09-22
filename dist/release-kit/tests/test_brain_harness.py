@@ -212,6 +212,7 @@ def test_local_sandbox_stages_outputs_and_clears_environment(tmp_path: Path, mon
         staged.write_text("staged\n", encoding="utf-8")
         return _HARNESS.subprocess.CompletedProcess(args, 0, b"", b"")
 
+    monkeypatch.setattr(_HARNESS.shutil, "which", lambda _: "/usr/bin/bwrap")
     monkeypatch.setattr(_HARNESS.subprocess, "run", fake_run)
     output = tmp_path / raw["output_files"][0]
     result = run_local_sandbox(task, tmp_path, ["/usr/bin/python3", "-c", "pass"])
@@ -230,6 +231,7 @@ def test_local_sandbox_rejects_missing_or_undeclared_outputs(tmp_path: Path, mon
     def no_output(args, **kwargs):
         return _HARNESS.subprocess.CompletedProcess(args, 0, b"", b"")
 
+    monkeypatch.setattr(_HARNESS.shutil, "which", lambda _: "/usr/bin/bwrap")
     monkeypatch.setattr(_HARNESS.subprocess, "run", no_output)
     with pytest.raises(HarnessError, match="missing="):
         run_local_sandbox(task, tmp_path, ["/usr/bin/python3", "-c", "pass"])
@@ -256,6 +258,7 @@ def test_local_sandbox_failure_does_not_create_final_output(tmp_path: Path, monk
     def fake_run(args, **kwargs):
         return _HARNESS.subprocess.CompletedProcess(args, 7, b"", b"failed")
 
+    monkeypatch.setattr(_HARNESS.shutil, "which", lambda _: "/usr/bin/bwrap")
     monkeypatch.setattr(_HARNESS.subprocess, "run", fake_run)
     result = run_local_sandbox(task, tmp_path, ["/usr/bin/python3", "-c", "pass"])
     assert result.returncode == 7

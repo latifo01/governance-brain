@@ -3,20 +3,20 @@
 ## Status
 
 - Review status: **PARTIAL**
-- Readiness: **BLOCKED**
+- Readiness: **CI RERUN REQUIRED**
 - Intended target: private repository `github.com/latifo01/governance-brain`
 - Review date: 2026-09-22
 - Final manifest SHA-256: **pending final snapshot construction**
 
-The local inputs and deterministic builder are ready for final snapshot
-construction. An intermediate snapshot was built and verified byte for byte:
+The local inputs and deterministic builder are ready. An intermediate snapshot
+was built and verified byte for byte:
 its 4,961 declared payload files matched their sizes and SHA-256 records, with
 no extra file, symlink or forbidden path. Its manifest SHA-256 was
 `eafb52d8ece67ff07973970d72a78a3450592b09193be60dd233b5a1a1eb12f8`.
 This is a pre-report verification receipt, not the final handoff identity. The
-coordinator must rebuild after this report is present, then verify and record
-the resulting final manifest externally. No commit, tag, push, release or
-remote repository was created by this review.
+coordinator records the resulting final manifest externally. The private remote
+was subsequently created by the coordinator; this review created no tag or
+GitHub Release.
 
 ## Scope and authorization
 
@@ -43,7 +43,7 @@ scope does not require Git LFS under GitHub's normal file-size thresholds.
 | `uv run --offline --no-sync gov360 brain validate` | PASS: valid, zero errors, zero evidence findings, 177 notes, 971 sections, 514 reviewed sections, 170 publication-verified notes and 5 retained warnings. |
 | `uv run --offline --no-sync gov360 brain build --check` | PASS: current, no changed path, source baseline unchanged, zero writes and zero LLM calls. |
 | `uv run --offline --no-sync python -m gov360_brain.workshop check-derived` | PASS: current; 50 questions, 32 dependencies; registry SHA-256 `f24a884676774a7c687da9054cd72c4d67d6b7ced18a215fc76d5d74cfc1db64`; Canvas SHA-256 `177c21d2bdc91fdcd89c58f69963fdbef97715f4996114eb0ba7dc3c123e43b5`. |
-| `uv run --offline --no-sync pytest -o addopts='' -p no:cacheprovider --basetemp=/tmp/cdo-handoff-pytest-summary -q -ra` | PASS: 185 passed, 1 skipped. The skipped Bubblewrap test reports that namespace creation is restricted in this Linux runner. |
+| `uv run --offline --no-sync pytest -q` | PASS after the portability correction: 186 passed, 1 skipped. The skipped Bubblewrap integration test reports that namespace creation is restricted in this Linux runner. |
 | Extended operational credential-pattern scan | PASS: zero private-key, OpenAI/OpenRouter-key, GitHub-token or AWS-access-key patterns found outside source and ingest content. The handoff builder's own fail-closed secret scan also completed during the dry run. |
 | Machine-specific path scan over code, tools, wrappers, CI, configuration and documentation | PASS: zero `C:\\Users\\...`, `D:\\...` or `/home/abdelatif/...` runtime/documentation hits. |
 | `plantuml -checkonly docs/architecture/governance-brain-lifecycle.puml` | PASS; the dark PlantUML source parses and its SVG is present. |
@@ -65,29 +65,26 @@ the interpreter through `.venv\\Scripts\\python.exe`, then runs the workshop,
 Brain, test and OpenCode configuration checks. The CI also clones the repository
 into a Windows path containing a space.
 
-PowerShell is not installed in this Linux review environment. The Windows
-script was inspected, but neither it nor the `windows-latest` GitHub Actions job
-has been executed here. Successful Windows CI remains a release condition after
-the first private push.
+PowerShell is not installed in this Linux review environment. The first hosted
+Windows checkout identified six Linux `Zone.Identifier` sidecars whose `:`
+names are invalid on NTFS. They are not manifested originals and the portable
+handoff now excludes those sidecars explicitly while retaining all 48
+manifested originals. A successful corrected Windows CI rerun remains a release
+condition.
 
 ## Remaining blockers and limits
 
-1. The verified intermediate `dist/cdo-handoff/` predates this report. The
-   coordinator must rebuild it after this report, rerun `handoff --check`, and
-   verify every final manifest record against the resulting files.
-2. The current working tree intentionally contains extensive unpublished and
+1. The current working tree intentionally contains extensive unpublished and
    untracked work. The requested continuation repository must be created from
    the deterministic snapshot with a clean new history, never by copying the
    current `.git` directory.
-3. Existing originals are not tracked by the current repository history, so a
+2. Existing originals are not tracked by the current repository history, so a
    historical Git diff cannot establish their immutability. The manifest/hash
    check above is the applicable pre-snapshot integrity control; the new private
    repository's CI will reject later modification or deletion of recorded
    originals.
-4. Native Windows execution and the GitHub-hosted Windows CI are pending.
-5. GitHub CLI authentication for `latifo01` is currently invalid. Remote
-   creation and push must wait for operator re-authentication.
-6. The private authorization is not permission to make the repository public,
+3. The corrected GitHub-hosted Ubuntu and Windows CI rerun is pending.
+4. The private authorization is not permission to make the repository public,
    publish third-party material elsewhere, create a public OKF release, or
    claim approval of notes and questions.
 
@@ -113,9 +110,7 @@ PowerShell -ExecutionPolicy Bypass -File .\tools\setup-windows.ps1 -CheckOnly
 
 ## Recommendation
 
-Build and verify the final snapshot, record its manifest SHA-256 in the
-coordinator's final release record, and exercise the clean clone on Ubuntu and
-Windows CI. Once those checks pass, re-authenticate `gh`, create only the
-configured private remote, push the new initial history, confirm repository
-visibility, and invite the CDO. Creating a tag or GitHub Release requires a
-separate operator instruction.
+Rebuild and verify the corrected snapshot, record its manifest SHA-256 in the
+coordinator's final release record, push it to the configured private remote and
+require both hosted CI jobs to pass before inviting the CDO. Creating a tag or
+GitHub Release requires a separate operator instruction.

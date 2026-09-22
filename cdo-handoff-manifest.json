@@ -11,7 +11,7 @@
     ],
     "status": "APPROVED"
   },
-  "authorization_policy_sha256": "f7775275a4da154c83f1be6ae6ac977210d7d9365c48c8d2afa6284d09fa26f7",
+  "authorization_policy_sha256": "6500677b1849af4c44caf5a10b73ddfed7f5a649aa1a0a5c9f6c67d5a121b8f6",
   "corpus": {
     "logical_sources": 47,
     "ready_sources": 46,
@@ -1251,8 +1251,8 @@
     },
     {
       "path": "config/private-handoff-policy.json",
-      "sha256": "f7775275a4da154c83f1be6ae6ac977210d7d9365c48c8d2afa6284d09fa26f7",
-      "size": 1315
+      "sha256": "6500677b1849af4c44caf5a10b73ddfed7f5a649aa1a0a5c9f6c67d5a121b8f6",
+      "size": 1889
     },
     {
       "path": "config/profiles/approved-remote.yaml",
@@ -2611,8 +2611,8 @@
     },
     {
       "path": "dist/release-kit/.gitignore",
-      "sha256": "cf844795662d8d12037c708a2d46f69a41f20349c6980321cd255b1c97bc17f2",
-      "size": 762
+      "sha256": "dbe930423a916fae658669e8385d894d0bd1c3efd7ef9b935ab2f1a9200eec77",
+      "size": 783
     },
     {
       "path": "dist/release-kit/.opencode/agents/cdo-program-lead.md",
@@ -2761,7 +2761,7 @@
     },
     {
       "path": "dist/release-kit/brain-release.json",
-      "sha256": "c98b79212779ee0c41c1f4f400d45036821f9365f0e3bb8745488c6a61bb1b33",
+      "sha256": "0babd58d31d14a2efb9c869dc7c45605cc0134b6229c3b1b5c6d002e7260bcd3",
       "size": 27703
     },
     {
@@ -3121,8 +3121,8 @@
     },
     {
       "path": "dist/release-kit/src/gov360_brain/brain/portability.py",
-      "sha256": "fffdf3beb4ac36b22c80bb28f0c4ffcd28317a5b5c5b2ad7d441169c5584c485",
-      "size": 41393
+      "sha256": "4fd38f064e182e959c413c4c89e641c6b462bb06278a1bdb1a434aa672ad701c",
+      "size": 41543
     },
     {
       "path": "dist/release-kit/src/gov360_brain/brain/releases.py",
@@ -3271,8 +3271,8 @@
     },
     {
       "path": "dist/release-kit/tests/test_brain_harness.py",
-      "sha256": "280fcfed04c6fd0b523077c13f92c98b79ef2aac0d27a05cc849ccc87ea10e1c",
-      "size": 12838
+      "sha256": "021bcca9db5c22c98762dca202d511567273fb24ce1f782c566121bc9d97cfad",
+      "size": 13072
     },
     {
       "path": "dist/release-kit/tests/test_brain_impact.py",
@@ -3286,8 +3286,8 @@
     },
     {
       "path": "dist/release-kit/tests/test_brain_portability.py",
-      "sha256": "0e4f3d4d34c48c1f1675d1b789751ffbc73ae881c7762936195de4c753f3d72d",
-      "size": 17355
+      "sha256": "dcc7719f831386d416b5dde10c3872965be41e1d808da59fdd8e7851fd0028d6",
+      "size": 17781
     },
     {
       "path": "dist/release-kit/tests/test_brain_qualified_context.py",
@@ -3346,8 +3346,8 @@
     },
     {
       "path": "docs/windows-setup.md",
-      "sha256": "f543fd95ef0286ce0ceba19d35cb1f6e19a2693ba9ac921340a23d6ee3a4d817",
-      "size": 2942
+      "sha256": "38b6651054a005cd14b37ed53be97ab7c73f38f6c27155ce6e4565e38e8548b3",
+      "size": 3238
     },
     {
       "path": "domain_packs/_template/domain.yaml",
@@ -18295,19 +18295,9 @@
       "size": 2661139
     },
     {
-      "path": "sources/02_AI_Security_Frameworks/OWASP GenAl State of Agentic Al Security and Governance.pdf:Zone.Identifier",
-      "sha256": "b952d24cf701bc4e7a7d21e1ae85c611824e80579a89836c0cb49b193446ccfe",
-      "size": 25
-    },
-    {
       "path": "sources/02_AI_Security_Frameworks/OWASP Top 10 for LLM Applications 2026.pdf",
       "sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
       "size": 2402520
-    },
-    {
-      "path": "sources/02_AI_Security_Frameworks/OWASP Top 10 for LLM Applications 2026.pdf:Zone.Identifier",
-      "sha256": "b952d24cf701bc4e7a7d21e1ae85c611824e80579a89836c0cb49b193446ccfe",
-      "size": 25
     },
     {
       "path": "sources/02_AI_Security_Frameworks/OWASP-Top-10-for-Agentic-Applications-2026-12.6-1.pdf",
@@ -18450,29 +18440,14 @@
       "size": 487089
     },
     {
-      "path": "sources/06_ISO_Standards_not_downloaded/ISO 27001-2022 rm.pdf:Zone.Identifier",
-      "sha256": "b952d24cf701bc4e7a7d21e1ae85c611824e80579a89836c0cb49b193446ccfe",
-      "size": 25
-    },
-    {
       "path": "sources/06_ISO_Standards_not_downloaded/ISO-IEC-23894-2023.pdf",
       "sha256": "5bf139ef553b98dbfc2e8734e991216bae47fb99b73881b89f3ca3e39f71c8b4",
       "size": 877135
     },
     {
-      "path": "sources/06_ISO_Standards_not_downloaded/ISO-IEC-23894-2023.pdf:Zone.Identifier",
-      "sha256": "b952d24cf701bc4e7a7d21e1ae85c611824e80579a89836c0cb49b193446ccfe",
-      "size": 25
-    },
-    {
       "path": "sources/06_ISO_Standards_not_downloaded/ISO-IEC-42001-2023.pdf",
       "sha256": "3220aeccaea0fd2b95807eaae1ab88ed74cf059f1add022e712ffa4afcbd50f8",
       "size": 1002689
-    },
-    {
-      "path": "sources/06_ISO_Standards_not_downloaded/ISO-IEC-42001-2023.pdf:Zone.Identifier",
-      "sha256": "b952d24cf701bc4e7a7d21e1ae85c611824e80579a89836c0cb49b193446ccfe",
-      "size": 25
     },
     {
       "path": "sources/06_ISO_Standards_not_downloaded/README.md",
@@ -18508,11 +18483,6 @@
       "path": "sources/09_Operational_Risk_manual/ORX_Reference_Taxonomy_summary_report.pdf",
       "sha256": "b9ec7fb975d65600b14cd7383c0630753d4b899e0c3d44c33121472f52e6c1b3",
       "size": 559854
-    },
-    {
-      "path": "sources/09_Operational_Risk_manual/ORX_Reference_Taxonomy_summary_report.pdf:Zone.Identifier",
-      "sha256": "b952d24cf701bc4e7a7d21e1ae85c611824e80579a89836c0cb49b193446ccfe",
-      "size": 25
     },
     {
       "path": "sources/09_Operational_Risk_manual/README.md",
@@ -18626,8 +18596,8 @@
     },
     {
       "path": "src/gov360_brain/brain/portability.py",
-      "sha256": "fffdf3beb4ac36b22c80bb28f0c4ffcd28317a5b5c5b2ad7d441169c5584c485",
-      "size": 41393
+      "sha256": "4fd38f064e182e959c413c4c89e641c6b462bb06278a1bdb1a434aa672ad701c",
+      "size": 41543
     },
     {
       "path": "src/gov360_brain/brain/releases.py",
@@ -24686,8 +24656,8 @@
     },
     {
       "path": "state/workshop/release-preparation/2026-09-22-cdo-github-handoff.md",
-      "sha256": "9a532f0cafcd8a19285c0acb22fab4d2dbf4f306cfe916109159f4601908f2b5",
-      "size": 7793
+      "sha256": "e1b0f56660dd77430279c3e47e4e05728895c3f193fec22019f01addee1fea86",
+      "size": 7369
     },
     {
       "path": "state/workshop/reviews/release-review.json",
@@ -24726,8 +24696,8 @@
     },
     {
       "path": "tests/test_brain_harness.py",
-      "sha256": "280fcfed04c6fd0b523077c13f92c98b79ef2aac0d27a05cc849ccc87ea10e1c",
-      "size": 12838
+      "sha256": "021bcca9db5c22c98762dca202d511567273fb24ce1f782c566121bc9d97cfad",
+      "size": 13072
     },
     {
       "path": "tests/test_brain_impact.py",
@@ -24741,8 +24711,8 @@
     },
     {
       "path": "tests/test_brain_portability.py",
-      "sha256": "0e4f3d4d34c48c1f1675d1b789751ffbc73ae881c7762936195de4c753f3d72d",
-      "size": 17355
+      "sha256": "dcc7719f831386d416b5dde10c3872965be41e1d808da59fdd8e7851fd0028d6",
+      "size": 17781
     },
     {
       "path": "tests/test_brain_qualified_context.py",

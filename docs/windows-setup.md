@@ -44,6 +44,11 @@ The script checks the Windows virtual environment, the vault, derived outputs,
 tests and OpenCode configuration. It never calls an LLM. `brain wiki` contains
 a space; always quote it in PowerShell commands.
 
+Linux `Zone.Identifier` sidecar files are not source documents and contain no
+document body. The portable handoff excludes the six such sidecars found beside
+the originals because `:` is not a valid Windows filename character; every
+manifested original and its recorded SHA-256 remain included.
+
 Open the vault with Obsidian by choosing the `brain wiki` directory. The
 questionnaire Canvas is derived from the Markdown questions and must be rebuilt,
 not edited as canonical content.

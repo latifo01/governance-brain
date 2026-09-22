@@ -117,8 +117,8 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "cf844795662d8d12037c708a2d46f69a41f20349c6980321cd255b1c97bc17f2",
-      "size": 762
+      "sha256": "dbe930423a916fae658669e8385d894d0bd1c3efd7ef9b935ab2f1a9200eec77",
+      "size": 783
     },
     {
       "path": ".opencode/agents/cdo-program-lead.md",
@@ -622,8 +622,8 @@
     },
     {
       "path": "src/gov360_brain/brain/portability.py",
-      "sha256": "fffdf3beb4ac36b22c80bb28f0c4ffcd28317a5b5c5b2ad7d441169c5584c485",
-      "size": 41393
+      "sha256": "4fd38f064e182e959c413c4c89e641c6b462bb06278a1bdb1a434aa672ad701c",
+      "size": 41543
     },
     {
       "path": "src/gov360_brain/brain/releases.py",
@@ -772,8 +772,8 @@
     },
     {
       "path": "tests/test_brain_harness.py",
-      "sha256": "280fcfed04c6fd0b523077c13f92c98b79ef2aac0d27a05cc849ccc87ea10e1c",
-      "size": 12838
+      "sha256": "021bcca9db5c22c98762dca202d511567273fb24ce1f782c566121bc9d97cfad",
+      "size": 13072
     },
     {
       "path": "tests/test_brain_impact.py",
@@ -787,8 +787,8 @@
     },
     {
       "path": "tests/test_brain_portability.py",
-      "sha256": "0e4f3d4d34c48c1f1675d1b789751ffbc73ae881c7762936195de4c753f3d72d",
-      "size": 17355
+      "sha256": "dcc7719f831386d416b5dde10c3872965be41e1d808da59fdd8e7851fd0028d6",
+      "size": 17781
     },
     {
       "path": "tests/test_brain_qualified_context.py",
