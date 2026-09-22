@@ -1,0 +1,46 @@
+                        Law & Compliance in AI Security & Data Protection
+
+
+    (d) the specific risks of harm likely to have an impact on the categories of natural
+  persons or groups of persons identified pursuant to point (c) of this paragraph, taking
+         into account the information given by the provider pursuant to Article 13;
+ (e) a description of the implementation of human oversight measures, according to the
+                                   instructions for use;
+ (f) the measures to be taken in the case of the materialisation of those risks, including
+          the arrangements for internal governance and complaint mechanisms.
+A careful read of the list above suggests a considerable overlap with the impacts to
+fundamental rights covered by a DPIA. To a lesser extent, the same can be said of
+HRIAs. While there is no single list of elements required by a HRIA, as the
+methodologies are chosen based on business requirements, they all cover the impact of
+AI systems on human rights, which include the fundamental rights outlined above.
+It might be possible in some cases to offer a single report that covers all the points
+required by data protection law and those human rights-focused instruments. Even if
+that is not the case, much of the work done in the elaboration of the DPIA will be
+relevant for drafting those reports. Hence, the DPIA, the FRIA, and the myriad forms of
+HRIA should not be seen as competitors, but as allies in the shared goal of producing
+trustworthy AI.
+
+Session 10.3. Pursuing fairness in AI technologies
+
+ By the end of this session, learners will be able to outline a data protection
+ impact assessment for an AI system or model and combine that assessment
+ with other assessments that might be required by EU law.
+
+Fairness is a critical concept for AI. Many of the problematic uses of AI technologies we
+discussed in Unit 4 can be ultimately traced to the unfair impact that the use of AI has to
+individuals in those circumstances. Furthermore, Article 5 GDPR establishes fairness as
+one of the guiding principles of personal data processing.18 For all the widespread
+agreement that fairness matters, it can be exceedingly difficult to pin down how exactly it
+matters and what we should do about it. In this session, we will examine how to find the
+substance of the legal duties of fairness under the GDPR.
+We will not examine here the definitions of fairness metrics. Learners interested in those
+technical details would be well-advised to consult the companion training module. 19 This
+session discusses, instead, some factors that data protection professionals must
+
+
+
+18 On that, see Session 6.3 of this training module.
+19 Enrico Glerean,   Elements of Secure AI Systems.
+
+                                                       171
+

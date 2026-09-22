@@ -1,0 +1,42 @@
+[agents]
+max_concurrent_threads_per_session = 3
+
+[agents.source_extractor]
+description = "Extract locator-backed evidence candidates from validated Markdown units."
+config_file = "agents/source_extractor.toml"
+
+[agents.evidence_auditor]
+description = "Audit extracted evidence against validated Markdown units."
+config_file = "agents/evidence_auditor.toml"
+
+[agents.knowledge_architect]
+description = "Propose concepts, rules, relations, and domain changes from verified evidence."
+config_file = "agents/knowledge_architect.toml"
+
+[agents.questionnaire_curator]
+description = "Propose bilingual, evidence-backed questionnaire changes."
+config_file = "agents/questionnaire_curator.toml"
+
+[agents.vault_reviewer]
+description = "Review a proposed Obsidian change set and report blocking defects."
+config_file = "agents/vault_reviewer.toml"
+
+[agents.cdo_program_lead]
+description = "Select the next evidence-first roadmap lot and review gates."
+config_file = "agents/cdo_program_lead.toml"
+
+[agents.questionnaire_reviewer]
+description = "Independently review bilingual question lots and dependency logic."
+config_file = "agents/questionnaire_reviewer.toml"
+
+[agents.domain_builder]
+description = "Build one assigned fast-lane domain shard from reviewed evidence."
+config_file = "agents/domain_builder.toml"
+
+[agents.release_reviewer]
+description = "Independently review a consolidated fast-lane domain release."
+config_file = "agents/release_reviewer.toml"
+
+[agents.git_helper]
+description = "Prepare a sanitized local release kit and reproducibility report."
+config_file = "agents/git_helper.toml"

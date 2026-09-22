@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY",
+  "evidence_lock_sha256": "20de355505ac41340c4e659044d2a21001354c5234150eb4b19dc64adf692482",
+  "reviewer_identity": "codex-model-validation-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "RECEIPT_VERIFIED",
+      "detail": "Seventeen selected SR 26-2, SR 11-7, NIST AI RMF and Playbook units resolve with exact source, unit and fidelity hashes."
+    },
+    {
+      "severity": "INFO",
+      "code": "SECTION_BINDINGS_VERIFIED",
+      "detail": "Eight substantive sections across the proposed note and question have one exact reviewed evidence binding."
+    },
+    {
+      "severity": "INFO",
+      "code": "NON_BINDING_SCOPE",
+      "detail": "The evidence supports scoped supervisory guidance and voluntary framework expectations; no universal legal obligation is asserted."
+    },
+    {
+      "severity": "WARNING",
+      "code": "SECTOR_SCOPE",
+      "detail": "SR 26-2 and SR 11-7 retain their banking supervisory scope; NIST AI RMF remains voluntary."
+    }
+  ]
+}

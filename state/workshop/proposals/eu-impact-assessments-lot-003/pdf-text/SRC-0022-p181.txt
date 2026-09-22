@@ -1,0 +1,47 @@
+                               Unit 10. Fairness and Accountability
+
+
+rights and freedoms of natural persons. That same provision highlights that the use of
+“new technologies” is likely to trigger the need for an impact assessment. This session,
+accordingly, discusses when a DPIA is required for AI systems and what should be
+contained in that assessment.
+In particular, a DPIA is required when there is:9
+    1. A systematic and extensive evaluation of personal aspects relating to natural
+       personals, which offers the base for decisions that produce legal effects (or
+       similarly significant effects) for the concerned legal person.
+    2. Large-scale processing of special categories of personal data10 or personal data
+       relating to criminal convictions and offences.11
+    3. A systematic monitoring of a publicly accessible area on a large scale. 12
+Some of those hypotheses are also present in the AI Act’s list of high-risk AI systems
+under Annex III. This does not mean, however, that a DPIA is only needed for systems
+classified as high-risk under the AI Act. After all, the GDPR uses the risks of processing
+as the relevant criterion for determining the need for a DPIA, whereas the AI Act is
+concerned with the technical system as a whole. Often, systems that are not particularly
+risky from a technical standpoint might nonetheless create problems when (mis)used in
+sensitive contexts, as shown, for example, by various spreadsheets used for assessing
+the risk of benefits fraud in Dutch municipalities. Technical complexity is a complicating
+factor when choosing the measures that need to be applied, but the lack of complexity is
+not necessarily a sign that an application does not create data protection risks.
+DPIA before the deployment of an AI system
+For deployers, the first step is to self-assess whether the AI system’s processing of
+personal data constitutes a high risk to the rights and freedoms of natural persons. This
+is likely to be the case for a system classified as high-risk under the proposed AI Act, as
+the Act’s risk classification is based on the impact of AI systems in fundamental rights.
+For example, consider a scenario where InnovaHospital decides to use AI in a medical
+device that fall into the most strictly regulated classes of the Medical Devices
+Regulation. The use of an inadequate AI system can create risks to (among others) the
+right to health of the patients exposed to the device. As such, the system not only meets
+the AI Act’s definition of high risk under Article 6(1). It is also likely to create the kind of
+high risk that demands a DPIA under the GDPR.
+However, the DPIA’s risk requirement might be met even if a system is not classified as
+high-risk under the AI Act. For instance, AI applications in tax administration could pose
+
+
+9 Article 35(3) GDPR.
+10 Article 9(1) GDPR.
+11 Article 10 GDPR.
+12 Learners working in law enforcement should also consider Article 5(1)(h) AI Act.
+
+
+                                                   168
+

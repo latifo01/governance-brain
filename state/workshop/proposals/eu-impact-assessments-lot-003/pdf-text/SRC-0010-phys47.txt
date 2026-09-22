@@ -1,0 +1,66 @@
+4.5.2016           EN                           Official Journal of the European Union                                      L 119/47
+
+     (d) the prevention, investigation, detection or prosecution of criminal offences or the execution of criminal penalties,
+         including the safeguarding against and the prevention of threats to public security;
+
+     (e) other important objectives of general public interest of the Union or of a Member State, in particular an important
+         economic or financial interest of the Union or of a Member State, including monetary, budgetary and taxation a
+         matters, public health and social security;
+
+     (f) the protection of judicial independence and judicial proceedings;
+
+     (g) the prevention, investigation, detection and prosecution of breaches of ethics for regulated professions;
+
+     (h) a monitoring, inspection or regulatory function connected, even occasionally, to the exercise of official authority in
+         the cases referred to in points (a) to (e) and (g);
+
+     (i) the protection of the data subject or the rights and freedoms of others;
+
+     (j) the enforcement of civil law claims.
+
+     2.    In particular, any legislative measure referred to in paragraph 1 shall contain specific provisions at least, where
+     relevant, as to:
+
+     (a) the purposes of the processing or categories of processing;
+
+     (b) the categories of personal data;
+
+     (c) the scope of the restrictions introduced;
+
+     (d) the safeguards to prevent abuse or unlawful access or transfer;
+
+     (e) the specification of the controller or categories of controllers;
+
+     (f) the storage periods and the applicable safeguards taking into account the nature, scope and purposes of the
+         processing or categories of processing;
+
+     (g) the risks to the rights and freedoms of data subjects; and
+
+     (h) the right of data subjects to be informed about the restriction, unless that may be prejudicial to the purpose of the
+         restriction.
+
+
+                                                              CHAPTER IV
+
+                                                       Controller and processor
+
+                                                              Sec ti on 1
+
+                                                       G e ner a l o bl iga tio ns
+
+                                                               Article 24
+
+                                                  Responsibility of the controller
+
+     1.   Taking into account the nature, scope, context and purposes of processing as well as the risks of varying likelihood
+     and severity for the rights and freedoms of natural persons, the controller shall implement appropriate technical and
+     organisational measures to ensure and to be able to demonstrate that processing is performed in accordance with this
+     Regulation. Those measures shall be reviewed and updated where necessary.
+
+     2.   Where proportionate in relation to processing activities, the measures referred to in paragraph 1 shall include the
+     implementation of appropriate data protection policies by the controller.
+
+     3.    Adherence to approved codes of conduct as referred to in Article 40 or approved certification mechanisms as
+     referred to in Article 42 may be used as an element by which to demonstrate compliance with the obligations of the
+     controller.
+

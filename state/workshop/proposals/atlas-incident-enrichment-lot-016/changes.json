@@ -1,0 +1,210 @@
+{
+  "schema_version": 1,
+  "proposal_id": "atlas-incident-enrichment-lot-016",
+  "stage": "KNOWLEDGE_SYNTHESIS",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0015-compromised-pytorch-dependency-chain.md",
+      "id": "atlas-aml-cs0015-compromised-pytorch-dependency-chain",
+      "element": "AML.CS0015",
+      "evidence_refs": [
+        "atlas-aml-cs0015-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters.md",
+      "id": "atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters",
+      "element": "AML.CS0023",
+      "evidence_refs": [
+        "atlas-aml-cs0023-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0024-morris-ii-worm-rag-based-attack.md",
+      "id": "atlas-aml-cs0024-morris-ii-worm-rag-based-attack",
+      "element": "AML.CS0024",
+      "evidence_refs": [
+        "atlas-aml-cs0024-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+      "id": "atlas-aml-cs0027-organization-confusion-on-hugging-face",
+      "element": "AML.CS0027",
+      "evidence_refs": [
+        "atlas-aml-cs0027-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack.md",
+      "id": "atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack",
+      "element": "AML.CS0028",
+      "evidence_refs": [
+        "atlas-aml-cs0028-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0031-malicious-models-on-hugging-face.md",
+      "id": "atlas-aml-cs0031-malicious-models-on-hugging-face",
+      "element": "AML.CS0031",
+      "evidence_refs": [
+        "atlas-aml-cs0031-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio.md",
+      "id": "atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio",
+      "element": "AML.CS0037",
+      "evidence_refs": [
+        "atlas-aml-cs0037-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants.md",
+      "id": "atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants",
+      "element": "AML.CS0041",
+      "evidence_refs": [
+        "atlas-aml-cs0041-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor.md",
+      "id": "atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor",
+      "element": "AML.CS0045",
+      "evidence_refs": [
+        "atlas-aml-cs0045-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill.md",
+      "id": "atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill",
+      "element": "AML.CS0049",
+      "evidence_refs": [
+        "atlas-aml-cs0049-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration.md",
+      "id": "atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration",
+      "element": "AML.CS0053",
+      "evidence_refs": [
+        "atlas-aml-cs0053-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool.md",
+      "id": "atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool",
+      "element": "AML.CS0054",
+      "evidence_refs": [
+        "atlas-aml-cs0054-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration.md",
+      "id": "atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration",
+      "element": "AML.CS0059",
+      "evidence_refs": [
+        "atlas-aml-cs0059-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack.md",
+      "id": "atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack",
+      "element": "AML.CS0064",
+      "evidence_refs": [
+        "atlas-aml-cs0064-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack.md",
+      "id": "atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack",
+      "element": "AML.CS0065",
+      "evidence_refs": [
+        "atlas-aml-cs0065-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt.md",
+      "id": "atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt",
+      "element": "AML.CS0066",
+      "evidence_refs": [
+        "atlas-aml-cs0066-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure.md",
+      "id": "atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure",
+      "element": "AML.CS0068",
+      "evidence_refs": [
+        "atlas-aml-cs0068-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems.md",
+      "id": "atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems",
+      "element": "AML.CS0071",
+      "evidence_refs": [
+        "atlas-aml-cs0071-src-0046-objects"
+      ]
+    },
+    {
+      "change_type": "NOOP",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/2022-air-canada-chatbot.md",
+      "id": "2022-air-canada-chatbot",
+      "reason": "Existing case study is a distinct non-ATLAS incident; no overwrite or semantic merge proposed."
+    },
+    {
+      "change_type": "NOOP",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/2023-chevrolet-of-watsonville.md",
+      "id": "2023-chevrolet-of-watsonville",
+      "reason": "Existing case study is a distinct non-ATLAS incident; no overwrite or semantic merge proposed."
+    }
+  ],
+  "evidence": {
+    "source_id": "SRC-0046",
+    "source_sha256": "6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c",
+    "unit_sha256": "13c6eac080be6463bbeafa9ffd309df83ca5c421052f603bbbb34f8ce96d00ab",
+    "locator": "/objects",
+    "audit_status": "AUDITED_BY_SOURCE_EXTRACTION_RECEIPT"
+  },
+  "approval": "PENDING"
+}

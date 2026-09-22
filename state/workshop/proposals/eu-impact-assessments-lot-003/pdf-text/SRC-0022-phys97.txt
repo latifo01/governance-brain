@@ -1,0 +1,45 @@
+                                  Unit 5. Inception Stage
+
+
+   5. Access to and enjoyment of essential private services and essential public
+      services and benefits.
+   6. Law enforcement, in so far as the use of AI is permitted under EU or national law.
+   7. Migration, asylum, and border control management, in so far as the use of AI is
+      permitted under EU or national law; and
+   8. Administration of justice and democratic processes.
+Within each point, the EU lawmaker has designated one or more applications
+considered high-risk. Any other applications within that domain are not classified as
+such. For example, the use of AI for risk assessment in pricing in relation to natural
+persons for life and health insurance is covered under Point 5 above. By exclusion, risk
+assessment and pricing with regard to the insurance of legal persons or of other types of
+insurance for natural persons is exempt from the rules on high-risk AI. So, the rules on
+high-risk AI under Annex III only apply to a narrow set of applications designated as
+especially risky.
+Derogations from the high-risk classification
+A system might escape the rules on high-risk AI even if it is designed for a listed
+purpose. Article 6(3) AI Act stipulates that a system is not considered high-risk if it does
+not “pose a significant risk of harm to the health, safety or fundamental rights of natural
+persons”. In general lines, this derogation covers situations in which the AI system plays
+only a marginal role in the outcomes. As currently formulated, this is the case whenever
+one of the four conditions below applies:
+    a. The system is intended to perform a narrow procedural task, such as
+       automatically archiving the work done by a human.
+    b. It is intended to improve the result of a previously completed human activity, for
+       example by improving a report written by a human analyst.
+    c. It is intended to detect decision-making patterns or deviations from prior
+       decision-making, without replacing or influencing human assessment, for
+       example by flagging whether a transaction involves a much larger monetary
+       value than usual; or
+    d. The AI system is intended to perform a preparatory task to an assessment
+       relevant for the purposes listed in Annex III, leaving the assessment itself in
+       human hands.
+The examples listed above are merely indicative, as the degree of human involvement
+in a particular case might mean that the derogation is not applicable. Determining its
+applicability requires a contextual assessment. The only general rule in that regard is
+that any system that carries out profiling in the context of Annex III applications is
+considered high-risk, regardless of any subsequent human involvement.
+
+
+
+                                            84
+

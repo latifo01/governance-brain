@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "reviewer_identity": "codex-release-reviewer-atlas-incident-enrichment-lot-016",
+  "reviewed_at": "2026-09-15T15:20:17Z",
+  "candidate_sha256": "c844670bdb8a42561412a9a2328123da4c9c98d84e0482e4a4e707c9b97d4662",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "info",
+      "scope": "overlay",
+      "finding": "The overlay contains exactly 18 declared ADD knowledge notes in Famous AI incidents; manifest files, change IDs, and paths match.",
+      "status": "verified"
+    },
+    {
+      "severity": "info",
+      "scope": "schema-and-links",
+      "finding": "Combined vault validation passes with 107 notes and zero errors; IDs and filenames are stable, domains are registered, and all Obsidian links resolve.",
+      "status": "verified"
+    },
+    {
+      "severity": "info",
+      "scope": "editorial-rule",
+      "finding": "The 18 proposed incident notes contain Summary, Applicability, ATLAS mapping, Governance considerations, Related concepts, and Source references, with no generic Limits section; source references and factual caveats remain present where needed.",
+      "status": "verified"
+    },
+    {
+      "severity": "info",
+      "scope": "duplicates",
+      "finding": "The two existing non-ATLAS incident notes are explicitly NOOP and are not overwritten; no duplicate IDs were found.",
+      "status": "verified"
+    },
+    {
+      "severity": "info",
+      "scope": "derived-outputs",
+      "finding": "The active derived registry and Canvas remain current and unchanged because the proposal contains no questions.",
+      "status": "verified"
+    },
+    {
+      "severity": "info",
+      "scope": "lane",
+      "finding": "The manifest declares evidence_changes and risk_tier strict; the strict lane is appropriate and the evidence lock is present.",
+      "status": "verified"
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "brain-coverage-review.schema.json",
+  "title": "Governance Brain criterion coverage decision records",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "records"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "evaluated_at": {"type": "string", "format": "date-time"},
+    "records": {"type": "array", "items": {"$ref": "#/$defs/record"}}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "nonempty": {"type": "string", "minLength": 1},
+    "date_or_datetime": {"type": ["string", "null"], "minLength": 1},
+    "note_ref": {
+      "type": "object", "additionalProperties": false,
+      "required": ["note_id", "note_sha256"],
+      "properties": {"note_id": {"$ref": "#/$defs/nonempty"}, "note_sha256": {"$ref": "#/$defs/sha256"}}
+    },
+    "section_ref": {
+      "type": "object", "additionalProperties": false,
+      "required": ["section_id", "note_id", "section_sha256"],
+      "properties": {
+        "section_id": {"$ref": "#/$defs/nonempty"}, "note_id": {"$ref": "#/$defs/nonempty"},
+        "note_sha256": {"$ref": "#/$defs/sha256"}, "section_sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "question_ref": {
+      "type": "object", "additionalProperties": false,
+      "required": ["question_id", "question_sha256"],
+      "properties": {"question_id": {"$ref": "#/$defs/nonempty"}, "question_sha256": {"$ref": "#/$defs/sha256"}}
+    },
+    "evidence_ref": {
+      "type": "object", "additionalProperties": false,
+      "required": ["evidence_ref", "evidence_sha256"],
+      "properties": {"evidence_ref": {"$ref": "#/$defs/nonempty"}, "evidence_sha256": {"$ref": "#/$defs/sha256"}}
+    },
+    "input_hashes": {
+      "type": "object", "additionalProperties": false,
+      "required": ["catalogue_sha256", "base_matrix_sha256"],
+      "properties": {
+        "catalogue_sha256": {"$ref": "#/$defs/sha256"},
+        "base_matrix_sha256": {"$ref": "#/$defs/sha256"},
+        "files": {"type": "object", "additionalProperties": {"$ref": "#/$defs/sha256"}}
+      }
+    },
+    "review": {
+      "type": "object", "additionalProperties": false,
+      "required": ["reviewer_identity", "reviewed_at", "verdict", "payload_sha256"],
+      "properties": {
+        "reviewer_identity": {"$ref": "#/$defs/nonempty"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "verdict": {"const": "APPROVED"},
+        "payload_sha256": {"$ref": "#/$defs/sha256"},
+        "review_expires_at": {"$ref": "#/$defs/date_or_datetime"}
+      }
+    },
+    "approval": {
+      "type": "object", "additionalProperties": false, "required": ["status"],
+      "properties": {
+        "status": {"enum": ["APPROVED", "NOT_REQUIRED", "PENDING"]},
+        "approver_identity": {"type": ["string", "null"]},
+        "approved_at": {"type": ["string", "null"]},
+        "payload_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+        "expires_at": {"$ref": "#/$defs/date_or_datetime"}
+      }
+    },
+    "record": {
+      "type": "object", "additionalProperties": false,
+      "required": ["record_id", "cell_id", "pillar_id", "criterion", "decision", "justification",
+                    "note_refs", "section_refs", "question_refs", "evidence_refs", "input_hashes",
+                    "author_identity", "review", "approval", "requires_human_approval", "expires_at",
+                    "payload_sha256"],
+      "properties": {
+        "record_id": {"$ref": "#/$defs/nonempty"}, "cell_id": {"$ref": "#/$defs/nonempty"},
+        "pillar_id": {"$ref": "#/$defs/nonempty"}, "criterion": {"$ref": "#/$defs/nonempty"},
+        "decision": {"enum": ["EVIDENCE_APPROVED", "NAVIGATION_ONLY", "REVIEW_REQUIRED", "SOURCE_GAP"]},
+        "justification": {"$ref": "#/$defs/nonempty"},
+        "note_refs": {"type": "array", "items": {"$ref": "#/$defs/note_ref"}},
+        "section_refs": {"type": "array", "items": {"$ref": "#/$defs/section_ref"}},
+        "question_refs": {"type": "array", "items": {"$ref": "#/$defs/question_ref"}},
+        "evidence_refs": {"type": "array", "items": {"$ref": "#/$defs/evidence_ref"}},
+        "input_hashes": {"$ref": "#/$defs/input_hashes"},
+        "author_identity": {"$ref": "#/$defs/nonempty"},
+        "review": {"$ref": "#/$defs/review"}, "approval": {"$ref": "#/$defs/approval"},
+        "requires_human_approval": {"type": "boolean"},
+        "expires_at": {"$ref": "#/$defs/date_or_datetime"},
+        "payload_sha256": {"$ref": "#/$defs/sha256"}
+      }
+    }
+  }
+}

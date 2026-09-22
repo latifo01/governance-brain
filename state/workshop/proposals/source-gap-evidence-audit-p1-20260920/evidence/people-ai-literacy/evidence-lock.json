@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "gov20-src-0001-p0011",
+    "gov20-src-0002-p0009",
+    "org29-src-0040-p0072",
+    "org29-src-0040-p0082",
+    "org29-src-0040-p0083"
+  ],
+  "excluded_evidence_refs": [
+    "gov20-src-0009-p0026"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2"
+    },
+    {
+      "path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606"
+    }
+  ],
+  "eligible_count": 5,
+  "excluded_count": 1
+}

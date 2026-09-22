@@ -1,0 +1,48 @@
+{
+  "candidate_sha256": "5249c6958c073d072290119af75ffd94428dd284da30b5c5ca63d1dad0504d58",
+  "derived": {
+    "canvas_sha256": "ae4a031f9db5a24747a0ec9c17ec7be1f9df751c59fbcb86b8f9cdf9c1875cd5",
+    "dependencies": 22,
+    "questions": 38,
+    "registry_sha256": "5b6d9828e285f70a58a5ae21e74eb0e56c99be9feae9ae73690c8c4231db9af2"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-assurance-and-independent-review.md",
+      "proposal_id": "operations-assurance-lot-028",
+      "sha256": "9fc3f7a69d13bad2f7491e82e945bf6db472eb452f2e659802e305aed74172e7"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-incident-response-resilience.md",
+      "proposal_id": "operations-assurance-lot-028",
+      "sha256": "011d546ab6348a25a39ad79aacbda213aba3eae56af57cbf4e1aa03648aa600b"
+    },
+    {
+      "path": "questions/assurance/aud-001-independent-ai-assurance.md",
+      "proposal_id": "operations-assurance-lot-028",
+      "sha256": "b3f8a219ab1cb886ba002559aa55a3418aea43404307482f5cc97373df91cad3"
+    },
+    {
+      "path": "questions/assurance/aud-002-assurance-finding-closure.md",
+      "proposal_id": "operations-assurance-lot-028",
+      "sha256": "729098dc01aeb3b91cb88bf0ed09190537ae0c0069bb47fbb38a10a1c6df1013"
+    },
+    {
+      "path": "questions/operational/ori-001-ai-incident-response-playbook.md",
+      "proposal_id": "operations-assurance-lot-028",
+      "sha256": "56ee80ce9f75c6b658e0ade41c7408db1f6841bc396e56817fbf8df0925e9aa7"
+    },
+    {
+      "path": "questions/operational/ori-002-recovery-validation-and-lessons-learned.md",
+      "proposal_id": "operations-assurance-lot-028",
+      "sha256": "145f1249528d3dcca25f0d8c87c0ff288a27b671aef86c60d91acae1309fd654"
+    }
+  ],
+  "materialized_files": 6,
+  "notes": 125,
+  "proposal_ids": [
+    "operations-assurance-lot-028"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

@@ -1,0 +1,48 @@
+{
+  "candidate_sha256": "5c7e83687cc247d715788c6d55e21afd450191e883caededabd606b4e0014b70",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "Data & AI Laws/Data Privacy/automatic-decision-making-assessment-adma.md",
+      "proposal_id": "gdpr-lineage-republication-001",
+      "sha256": "850883fae98f8fcb0f5261dcc5db4d935c76ea84e434af4edf2e8afa50b29558"
+    },
+    {
+      "path": "Data & AI Laws/Data Privacy/data-protection-authority-dpa.md",
+      "proposal_id": "gdpr-lineage-republication-001",
+      "sha256": "eca5a01781855a21476bf10cf4ea3c142b6cb5f547f2f41d3ed95fe91acdcb93"
+    },
+    {
+      "path": "Data & AI Laws/Data Privacy/data-protection-officer-dpo.md",
+      "proposal_id": "gdpr-lineage-republication-001",
+      "sha256": "95ae379ebe33f8916221944968cb755f0f29154fea5c8074941f60a5b67838c4"
+    },
+    {
+      "path": "Data & AI Laws/Data Privacy/data-subject-access-requests.md",
+      "proposal_id": "gdpr-lineage-republication-001",
+      "sha256": "bbfc4b6f03aa473e3a502684e62a46ceb56016c7857759b5fb9423849ee75ffd"
+    },
+    {
+      "path": "Data & AI Laws/Data Privacy/gdpr.md",
+      "proposal_id": "gdpr-lineage-republication-001",
+      "sha256": "f8a3c393423c35ed86ce1cfb287b6c5ddf0e9648cfb7682352b4cacd9ae89ced"
+    },
+    {
+      "path": "Data & AI Laws/Data Privacy/legitimate-interest.md",
+      "proposal_id": "gdpr-lineage-republication-001",
+      "sha256": "990ae822143778ac72a2bd9165101a03a6f0274792cff4d850b3daa62826a490"
+    }
+  ],
+  "materialized_files": 6,
+  "notes": 109,
+  "proposal_ids": [
+    "gdpr-lineage-republication-001"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

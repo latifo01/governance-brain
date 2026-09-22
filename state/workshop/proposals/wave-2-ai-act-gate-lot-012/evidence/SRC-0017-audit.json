@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "stage": "EVIDENCE_AUDIT",
+  "status": "AUDITED",
+  "source_id": "SRC-0017",
+  "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+  "assignment_sha256": "f846571485ca7684b5fe6c40f96aeb091624e26a1075d48a0b741e99c454d451",
+  "extraction_receipt_sha256": "2fb5e3e1c62cb92d835f04f7191dac366cedf246a6b1c437334d35d33ae03440",
+  "authority_verdict": "NON_BINDING_INTERPRETIVE",
+  "authority_basis": "Commission definition guidance that expressly identifies itself as non-binding; accepted items may support interpretation only and cannot establish an obligation or prohibition.",
+  "coverage": {
+    "candidate_ids_assigned": [
+      "w2-012-src-0017-ec-001",
+      "w2-012-src-0017-ec-002",
+      "w2-012-src-0017-ec-003",
+      "w2-012-src-0017-ec-004",
+      "w2-012-src-0017-ec-005",
+      "w2-012-src-0017-ec-006",
+      "w2-012-src-0017-ec-007",
+      "w2-012-src-0017-ec-008",
+      "w2-012-src-0017-ec-009",
+      "w2-012-src-0017-ec-010",
+      "w2-012-src-0017-ec-011",
+      "w2-012-src-0017-ec-012"
+    ],
+    "candidate_ids_audited": [
+      "w2-012-src-0017-ec-001",
+      "w2-012-src-0017-ec-002",
+      "w2-012-src-0017-ec-003",
+      "w2-012-src-0017-ec-004",
+      "w2-012-src-0017-ec-005",
+      "w2-012-src-0017-ec-006",
+      "w2-012-src-0017-ec-007",
+      "w2-012-src-0017-ec-008",
+      "w2-012-src-0017-ec-009",
+      "w2-012-src-0017-ec-010",
+      "w2-012-src-0017-ec-011",
+      "w2-012-src-0017-ec-012"
+    ],
+    "omitted": []
+  },
+  "verdicts": [
+    {"candidate_id": "w2-012-src-0017-ec-001", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports the threshold, system-specific assessment and explicit non-binding framing."},
+    {"candidate_id": "w2-012-src-0017-ec-002", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports all seven interpretive definition elements and the Article 3(1) context."},
+    {"candidate_id": "w2-012-src-0017-ec-003", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports the lifecycle view and non-continuous presence of definition elements."},
+    {"candidate_id": "w2-012-src-0017-ec-004", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports autonomy as a context-sensitive oversight and risk-mitigation consideration."},
+    {"candidate_id": "w2-012-src-0017-ec-005", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports optional post-deployment adaptiveness and its distinction from autonomy."},
+    {"candidate_id": "w2-012-src-0017-ec-006", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports the internal-objective and external-intended-purpose distinction with the stated origins."},
+    {"candidate_id": "w2-012-src-0017-ec-007", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports inference as the interpretive distinction from solely human-specified rule execution."},
+    {"candidate_id": "w2-012-src-0017-ec-008", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports inference across the building and use phases and the relevance of system-building techniques."},
+    {"candidate_id": "w2-012-src-0017-ec-009", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports the narrow statistical-baseline examples and the recorded absence of a general safe harbour."},
+    {"candidate_id": "w2-012-src-0017-ec-010", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports the four output categories and their differing levels of human involvement."},
+    {"candidate_id": "w2-012-src-0017-ec-011", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned unit supports the functional distinction between evaluated recommendations and directly produced decisions."},
+    {"candidate_id": "w2-012-src-0017-ec-012", "status": "REJECTED", "reason_code": "UNSUPPORTED_INFERENCE", "finding": "Page 12 begins the environment-influence element but ends before its complete explanation and does not support the claimed general workflow linkage."}
+  ],
+  "unresolved_items": [
+    "Candidate w2-012-src-0017-ec-012 requires a narrower claim or an additional validated continuation unit before reuse."
+  ],
+  "warnings": [
+    "Eleven candidates are verified only as non-binding interpretive context; none may support an obligation or prohibition.",
+    "One candidate was rejected because part of its claim exceeds the assigned excerpt."
+  ]
+}

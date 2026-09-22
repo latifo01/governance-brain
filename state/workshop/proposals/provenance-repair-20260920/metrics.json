@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "proposal_id": "provenance-repair-20260920",
+  "counts": {
+    "knowledge": 18,
+    "question": 5,
+    "index": 0
+  },
+  "notes": 23,
+  "evidence_refs": 118,
+  "evidence_audit_pass": 113,
+  "evidence_audit_blocked": 5,
+  "status": "DRAFT",
+  "active_vault_written": false
+}

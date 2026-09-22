@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "proposal_id": "atlas-complementarity-lot-015",
+  "stage": "KNOWLEDGE_PROPOSAL",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {"change_type": "CREATE", "id": "ai-agent-authority-expansion-controls", "target": "AI Risk Mitigations/ai-agent-authority-expansion-controls.md", "element": "AML.M0037", "evidence_refs": ["SRC-0046:key-0003.md:/objects"]},
+    {"change_type": "CREATE", "id": "ai-agent-scope-drift-detection", "target": "AI Risk Mitigations/ai-agent-scope-drift-detection.md", "element": "AML.M0038", "evidence_refs": ["SRC-0046:key-0003.md:/objects"]},
+    {"change_type": "NOOP", "id": "human-in-the-loop-for-ai-agent-actions", "target": "AI Risk Mitigations/human-in-the-loop-for-ai-agent-actions.md", "element": "AML.M0029", "evidence_refs": ["SRC-0044:sheet-001-mitigations-001.md:row-31"]},
+    {"change_type": "NOOP", "id": "owasp-atlas-overlap", "target": "AI Risk Mitigations/genai-guardrails.md", "element": "SRC-0026/SRC-0027", "evidence_refs": ["SRC-0026:validated-units", "SRC-0027:validated-units"]}
+  ],
+  "evidence": {"source_ids": ["SRC-0044", "SRC-0026", "SRC-0027"]},
+  "approval": "PENDING"
+}

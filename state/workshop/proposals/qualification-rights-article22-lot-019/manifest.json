@@ -1,0 +1,30 @@
+{
+  "author_identity": "codex-qualification-rights-domain-builder",
+  "candidate_sha256": "4df2683bbe3353551bcb0269c38785ee66b9a281bd69255ffe47b02d8e9fd26c",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "gdpr-article-22-automated-decision-making"
+    ]
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "description": "Bounded repair of the previously unresolved Article 22 Governance considerations section using reviewed operative GDPR evidence.",
+  "domain": "DATA_PROTECTION",
+  "evidence_changes": true,
+  "files": [
+    "Data & AI Laws/Data Privacy/gdpr-article-22-automated-decision-making.md"
+  ],
+  "proposal_id": "qualification-rights-article22-lot-019",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "article22-governance-repair"
+  ],
+  "status": "INTEGRATED"
+}

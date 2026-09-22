@@ -1,0 +1,275 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-state-p0-20260920",
+  "proposal_type": "coverage-register-state-update",
+  "status": "PROPOSAL_READY",
+  "scope": "Record the approved and integrated P0 release in the programme coverage register; no vault, source, ingest, evidence-library or derived-matrix changes.",
+  "human_approval_required": true,
+  "active_vault_changes": false,
+  "source_changes": false,
+  "ingest_changes": false,
+  "derived_matrix_changes": false,
+  "coverage_register_changes": true,
+  "inputs": {
+    "coverage_register": {
+      "path": "state/workshop/coverage/coverage-register.json",
+      "sha256": "8638b15c5c904703611fdee5c58b9c3e47d5694e39fda1da55f0953cf6f26d5c"
+    },
+    "p0_candidate": {
+      "proposal_id": "p0-coverage-completion-20260920",
+      "candidate_sha256": "62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d",
+      "manifest_sha256": "20f85c5c3d0b23d6cd387a632b7e10aa7fa837259d5b24856f7fa47e8ede7c51",
+      "evidence_lock_sha256": "4d0ee7c9a750f4b1da819f290f72cd71daa8128d8c494a02667e9d465b49a553",
+      "coverage_map_sha256": "e190e198cc1708599d8717016ec53c55a1e8ae087005271d1881441d8d9a9bf8",
+      "integration_report_sha256": "3ce22ca6f5d2f8a472200159e7ad0bf25f4213db8e6e9ddeae5185952ffa9a1b",
+      "integration_report_path": "state/workshop/proposals/p0-coverage-completion-20260920/review/integration-report.json"
+    },
+    "active_catalogue": {
+      "path": "state/derived/brain/catalogue.json",
+      "sha256": "baa8951930720bb6057627a353a8ab11c9dd4ddd2381cab9d19dbbb6719e91ac"
+    },
+    "active_coverage_matrix": {
+      "path": "state/derived/brain/coverage-matrix.json",
+      "sha256": "08d9f90f6eca23440b9481a03ac38bfd0f93ab3d24885d70990f69eefb7b0251"
+    }
+  },
+  "prior_state": {
+    "pillar_statuses": {
+      "ai-strategy-value": "SOURCE_GAP",
+      "data-governance-quality": "SOURCE_GAP"
+    }
+  },
+  "proposed_state": {
+    "pillar_statuses": {
+      "ai-strategy-value": "APPROVED",
+      "data-governance-quality": "APPROVED"
+    }
+  },
+  "criterion_rows": [
+    {
+      "cell_id": "ai-strategy-value:definition_scope_terminology",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "definition_scope_terminology",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:roles_decisions",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "roles_decisions",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:risks_impacts",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "risks_impacts",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:lifecycle_controls",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "lifecycle_controls",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:evidence_artifacts",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "evidence_artifacts",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:metrics_monitoring_incidents",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "metrics_monitoring_incidents",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:exceptions_conflicts",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "exceptions_conflicts",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:questionnaire_coverage",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "questionnaire_coverage",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:source_provenance",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "source_provenance",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "ai-strategy-value:domain_index_links",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "domain_index_links",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "NAVIGATION_ONLY",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:definition_scope_terminology",
+      "pillar_id": "data-governance-quality",
+      "criterion": "definition_scope_terminology",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:roles_decisions",
+      "pillar_id": "data-governance-quality",
+      "criterion": "roles_decisions",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:risks_impacts",
+      "pillar_id": "data-governance-quality",
+      "criterion": "risks_impacts",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:lifecycle_controls",
+      "pillar_id": "data-governance-quality",
+      "criterion": "lifecycle_controls",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:evidence_artifacts",
+      "pillar_id": "data-governance-quality",
+      "criterion": "evidence_artifacts",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:metrics_monitoring_incidents",
+      "pillar_id": "data-governance-quality",
+      "criterion": "metrics_monitoring_incidents",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:exceptions_conflicts",
+      "pillar_id": "data-governance-quality",
+      "criterion": "exceptions_conflicts",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:questionnaire_coverage",
+      "pillar_id": "data-governance-quality",
+      "criterion": "questionnaire_coverage",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:source_provenance",
+      "pillar_id": "data-governance-quality",
+      "criterion": "source_provenance",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "REVIEWED",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    },
+    {
+      "cell_id": "data-governance-quality:domain_index_links",
+      "pillar_id": "data-governance-quality",
+      "criterion": "domain_index_links",
+      "prior_status": "SOURCE_GAP",
+      "proposed_status": "APPROVED",
+      "basis": "approved-and-integrated-p0-release",
+      "evidence_state": "NAVIGATION_ONLY",
+      "publication_state": "INTEGRATED",
+      "complete_status": "NOT_EMITTED"
+    }
+  ],
+  "decision_rule": "APPROVED records the exact approved/integrated release. COMPLETE is not emitted because the diagnostic matrix remains UNASSESSED and the two index criteria are navigation-only; completion requires a later criterion-specific reviewed rationale.",
+  "change_count": 2,
+  "base_sha256": "8638b15c5c904703611fdee5c58b9c3e47d5694e39fda1da55f0953cf6f26d5c",
+  "target_sha256": "1797f31dbbd6e2bfbafdda22cd17b12a236864e5b9ae33ed3cb3376fee423f89",
+  "candidate_sha256": "61b7c7e46b1448fe4ce0e0fbebb58b34c3589172f301105304764f07f249b975"
+}

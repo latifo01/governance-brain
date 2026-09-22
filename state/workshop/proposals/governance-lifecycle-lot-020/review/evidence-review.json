@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY",
+  "evidence_lock_sha256": "ec7bf5f39e543a480e6102ec5ff93ea8591aa2376f473892f81f0024b5c4cb25",
+  "reviewer_identity": "codex-governance-lifecycle-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {"severity": "INFO", "code": "RECEIPT_VERIFIED", "detail": "The evidence receipt resolves eleven selected validated ingest units with exact hashes and no duplicate references."},
+    {"severity": "INFO", "code": "SECTION_BINDINGS_VERIFIED", "detail": "All six substantive sections in the proposed note have one exact reviewed evidence binding."},
+    {"severity": "INFO", "code": "SOURCE_AUTHORITY_BOUNDED", "detail": "EDPB material is used as GUIDANCE and the Microsoft transparency report as RESEARCH; no binding claim is emitted."},
+    {"severity": "WARNING", "code": "LEGAL_CURRENCY_UNKNOWN", "detail": "Current amendments, supervisory interpretations and sector-specific applicability were not assessed."},
+    {"severity": "WARNING", "code": "VISUAL_FIDELITY_LIMITED", "detail": "The local fidelity receipt is hash-bound and descriptive; the Microsoft page with REVIEW_REQUIRED is not used for diagram claims."}
+  ]
+}

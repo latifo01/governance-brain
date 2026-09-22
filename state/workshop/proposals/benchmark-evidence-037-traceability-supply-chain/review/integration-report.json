@@ -1,0 +1,28 @@
+{
+  "candidate_sha256": "0c204059f1ce0d6bc60c5ac9e78f89611aea71959631a173076f92404234b13b",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "77e507862c110a110ec118a6556bc73ef7397005fee02c03385b11f34b92261a"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/traceability.md",
+      "proposal_id": "benchmark-evidence-037-traceability-supply-chain",
+      "sha256": "0839aa114f61e23d8f20c765dcc2052f4fd11360a35b8cab12506f4cfd6f68b7"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+      "proposal_id": "benchmark-evidence-037-traceability-supply-chain",
+      "sha256": "95a4d10cc099d87d672469325533ecddac73b2660348b77b96a345656bd7a13e"
+    }
+  ],
+  "materialized_files": 2,
+  "notes": 136,
+  "proposal_ids": [
+    "benchmark-evidence-037-traceability-supply-chain"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

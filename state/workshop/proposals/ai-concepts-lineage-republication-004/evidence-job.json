@@ -1,0 +1,486 @@
+{
+  "fidelity_concepts": {
+    "path": "state/workshop/brain-upgrade/concepts-lineage-fidelity.json",
+    "sha256": "5c595784473bf6b7773aa662c740d9c7b235b82277a28b6710727b908d4b3cae"
+  },
+  "notes": {
+    "agentic-ai": {
+      "note_sha256": "c2f4f1e8d0623368c1b24c92c732dcac58e0c1a4814edd6d9ab1a21b7fc10325",
+      "path": "brain wiki/AI concepts/agentic-ai.md",
+      "sections": [
+        {
+          "heading_path": [
+            "Agentic AI",
+            "Summary"
+          ],
+          "section_id": "agentic-ai:91c3dcc4fda96a05",
+          "section_sha256": "3239105e55500406de584336ad11a25c7ed32d3392aa21489181d13968beb5c9"
+        },
+        {
+          "heading_path": [
+            "Agentic AI",
+            "Applicability"
+          ],
+          "section_id": "agentic-ai:7ea19e65e2f12354",
+          "section_sha256": "11694c70c7c2b20cdf4ac6a9e1a0b9ed587012b34c9e534daa7ae14cc896cc92"
+        },
+        {
+          "heading_path": [
+            "Agentic AI",
+            "Governance Considerations"
+          ],
+          "section_id": "agentic-ai:103d2c4c2aac95dd",
+          "section_sha256": "6b4dbc5348e7d4b21690f594023c171f4e151f70f3a918286fa54f3ca6606f83"
+        },
+        {
+          "heading_path": [
+            "Agentic AI",
+            "Limits"
+          ],
+          "section_id": "agentic-ai:5c214296ff9b9397",
+          "section_sha256": "ca6962ce30e9285c696badf9250c6453baf4015d951c6bef1b88db53c81f85d9"
+        },
+        {
+          "heading_path": [
+            "Agentic AI",
+            "Related Concepts"
+          ],
+          "section_id": "agentic-ai:19097b65f74f961a",
+          "section_sha256": "18a5cb64574408c10b42c98c11bacb4a13d696629d4c07cf8502c5f44f14b23f"
+        },
+        {
+          "heading_path": [
+            "Agentic AI",
+            "Source References"
+          ],
+          "section_id": "agentic-ai:841b92242553d730",
+          "section_sha256": "f63f7af804f918933956aa8a9546b2bd4bae343d77406dc3e1621586ec186fca"
+        }
+      ]
+    },
+    "generative-ai": {
+      "note_sha256": "72af38e0e2dd1daf5b13ebc8cd042ce911ab30e9dbb7f005cd9127a798e329b5",
+      "path": "brain wiki/AI concepts/generative-ai.md",
+      "sections": [
+        {
+          "heading_path": [
+            "Generative AI",
+            "Summary"
+          ],
+          "section_id": "generative-ai:5b8145ec92eb59d3",
+          "section_sha256": "b528533aa318eaca0b9dce836af3104840dc2e283fd0bfe9ab87b28c00ca8ff4"
+        },
+        {
+          "heading_path": [
+            "Generative AI",
+            "Applicability"
+          ],
+          "section_id": "generative-ai:f7d4911cf446303a",
+          "section_sha256": "2f2b1a3916e38bb0bf0f6de75292e5f2847eaece375f3251f678e2bbba94b6bb"
+        },
+        {
+          "heading_path": [
+            "Generative AI",
+            "Governance Considerations"
+          ],
+          "section_id": "generative-ai:0a49e0fd839ec401",
+          "section_sha256": "f723a12fc7bfea8948debd7a7805ad39298627d24b13f70f92caa849bdffa8ec"
+        },
+        {
+          "heading_path": [
+            "Generative AI",
+            "Limits"
+          ],
+          "section_id": "generative-ai:6437c79ef40a3313",
+          "section_sha256": "f0763acf82d39dda5e86aeb77b068ffe4982dd52bb280ec13f719926f5800177"
+        },
+        {
+          "heading_path": [
+            "Generative AI",
+            "Related Concepts"
+          ],
+          "section_id": "generative-ai:a00a7ea0dd364f36",
+          "section_sha256": "433af0e33c5ce8b04dc4e9b4cb10fc76da52f09f60fc3299bc7dbcaa1c6c4e79"
+        },
+        {
+          "heading_path": [
+            "Generative AI",
+            "Source References"
+          ],
+          "section_id": "generative-ai:f7b548b4569dce65",
+          "section_sha256": "30ca075c244119d4fe90361800cecf77feec5728952663a15880f009437d60b4"
+        }
+      ]
+    },
+    "gpai-model": {
+      "note_sha256": "d5d541d27f112c2122f12e0a034c050738d01add4701aee9b840ee573b0b0209",
+      "path": "brain wiki/AI concepts/gpai-model.md",
+      "sections": [
+        {
+          "heading_path": [
+            "General-purpose AI model",
+            "Summary"
+          ],
+          "section_id": "gpai-model:54744a63b5f189f5",
+          "section_sha256": "035643f056e32c2354eae2511d88d74fb4823ee236c70003454b100117692f53"
+        },
+        {
+          "heading_path": [
+            "General-purpose AI model",
+            "Applicability"
+          ],
+          "section_id": "gpai-model:df152baa6a80dac6",
+          "section_sha256": "c67d00a855e941b16a32a9fa8856931c7d7f0f55260d12c232773ea678c1ec52"
+        },
+        {
+          "heading_path": [
+            "General-purpose AI model",
+            "Governance Considerations"
+          ],
+          "section_id": "gpai-model:065e4d631af959b0",
+          "section_sha256": "23b954d17c597d374cb2aacdf8b68fa70221c6a35c625a221e557ea9d2b26cf2"
+        },
+        {
+          "heading_path": [
+            "General-purpose AI model",
+            "Limits"
+          ],
+          "section_id": "gpai-model:a150e49a6a9fa71c",
+          "section_sha256": "43c15ac2dcdc2551b92345bf696d286930460edf408ac392f1a53fc84f9c8215"
+        },
+        {
+          "heading_path": [
+            "General-purpose AI model",
+            "Related Concepts"
+          ],
+          "section_id": "gpai-model:7f310d61e9a5472d",
+          "section_sha256": "035c6257689d446705ebf0b68059bfd11fa93559ef371810f5749f14ce2ad7c2"
+        },
+        {
+          "heading_path": [
+            "General-purpose AI model",
+            "Source References"
+          ],
+          "section_id": "gpai-model:62727155e596b5cb",
+          "section_sha256": "1de330b10c1100002fa6e4052254df4d5fe1b3805a123352b4fb5380056ed86b"
+        }
+      ]
+    },
+    "machine-learning": {
+      "note_sha256": "5ce0e160aa684f8df77c4859db507ff1349e94c008830cb9ac7eb9843ec6cb70",
+      "path": "brain wiki/AI concepts/machine-learning.md",
+      "sections": [
+        {
+          "heading_path": [
+            "Machine learning",
+            "Summary"
+          ],
+          "section_id": "machine-learning:94a8e88a22a1a97d",
+          "section_sha256": "de1055c216c1b6f9e8e2a5895bb2e97bee007f494cb5cb09b42ac51b1f5b61f1"
+        },
+        {
+          "heading_path": [
+            "Machine learning",
+            "Applicability"
+          ],
+          "section_id": "machine-learning:eb0e2171e7a33319",
+          "section_sha256": "6a0d5719624d3ecb9badf83fb745b95e5275c77a7f49749c63fe288fc837c24f"
+        },
+        {
+          "heading_path": [
+            "Machine learning",
+            "Governance Considerations"
+          ],
+          "section_id": "machine-learning:42f43fcf8ac653c8",
+          "section_sha256": "b19c3321bc139f1374437c120a3c03b45d19232250343b0cfd82da4e509026d5"
+        },
+        {
+          "heading_path": [
+            "Machine learning",
+            "Limits"
+          ],
+          "section_id": "machine-learning:b63a6f22fd87a592",
+          "section_sha256": "72be1b70b89085ca45bac0f6cbc21ba0f9ce5f9e693de908e91e9c3cc729206b"
+        },
+        {
+          "heading_path": [
+            "Machine learning",
+            "Related Concepts"
+          ],
+          "section_id": "machine-learning:8b9d97c9b7a78dbf",
+          "section_sha256": "ebf7d28680c57a665421c0e6cd1b536d826b4be6b9b6e3128d4745ca79487707"
+        },
+        {
+          "heading_path": [
+            "Machine learning",
+            "Source References"
+          ],
+          "section_id": "machine-learning:bf4d332cd7d166bd",
+          "section_sha256": "7b94238c249ed249025a8ce33fc27f016999d13bcbda8244176c8eef813f6d68"
+        }
+      ]
+    },
+    "predictive-ai": {
+      "note_sha256": "1b58a34fa1c921c1cf25aa758b242f9320c69220d4c8d4c4412e695f085fee79",
+      "path": "brain wiki/AI concepts/predictive-ai.md",
+      "sections": [
+        {
+          "heading_path": [
+            "Predictive AI",
+            "Summary"
+          ],
+          "section_id": "predictive-ai:15fc5cb89d16674a",
+          "section_sha256": "1f321b6b95cf05fbc9670f187633416c8bd79abce13fe22e3c54028baa673eb7"
+        },
+        {
+          "heading_path": [
+            "Predictive AI",
+            "Applicability"
+          ],
+          "section_id": "predictive-ai:e826319f536d495d",
+          "section_sha256": "6980534d29eb73387000746e965786989218c61afde131eb4fa5a46705b937bf"
+        },
+        {
+          "heading_path": [
+            "Predictive AI",
+            "Governance Considerations"
+          ],
+          "section_id": "predictive-ai:c69d140368600d55",
+          "section_sha256": "54c7716937494905f0b50d1ae65a24d2b5cb45fa539eceba2a9ba13feea350e8"
+        },
+        {
+          "heading_path": [
+            "Predictive AI",
+            "Limits"
+          ],
+          "section_id": "predictive-ai:ce0d11e0f2a622e1",
+          "section_sha256": "72df146eaf30a89182cb7b68a0ae51c11c745e4972cd023ca0cfb5b338ae92f9"
+        },
+        {
+          "heading_path": [
+            "Predictive AI",
+            "Related Concepts"
+          ],
+          "section_id": "predictive-ai:073dbbbd2e0ad261",
+          "section_sha256": "e447e9694fa9f34b35a9c0e4131670ef1f4c8078579537eef9e568c1026c6834"
+        },
+        {
+          "heading_path": [
+            "Predictive AI",
+            "Source References"
+          ],
+          "section_id": "predictive-ai:8d6b286003bdd534",
+          "section_sha256": "231f017075d4133f550b67d249db6ac353c2e27775315a008b6e0332156e4b71"
+        }
+      ]
+    },
+    "retrieval-augmented-generation": {
+      "note_sha256": "d5727fc8b234c68269f603a506fdaa8efd63eab4a80f8c29d93bfc9e2917df2a",
+      "path": "brain wiki/AI concepts/retrieval-augmented-generation.md",
+      "sections": [
+        {
+          "heading_path": [
+            "Retrieval-Augmented Generation (RAG)",
+            "Summary"
+          ],
+          "section_id": "retrieval-augmented-generation:536e11172868a2e9",
+          "section_sha256": "cc38a6696a0ff7755d83ec0555daa5e79e2fc74e3eab16441a140ab1ec35979a"
+        },
+        {
+          "heading_path": [
+            "Retrieval-Augmented Generation (RAG)",
+            "Applicability"
+          ],
+          "section_id": "retrieval-augmented-generation:a38b433fbf8421a2",
+          "section_sha256": "cd594193ef81c4f5335289b561a6b294cbcc3da28d1623117cd62ad87f9c29f4"
+        },
+        {
+          "heading_path": [
+            "Retrieval-Augmented Generation (RAG)",
+            "Governance Considerations"
+          ],
+          "section_id": "retrieval-augmented-generation:326e25e28d7f650d",
+          "section_sha256": "ecc6f71c0b8baa343a639e71723652395dccade5d2e31becee31f1be8274a41f"
+        },
+        {
+          "heading_path": [
+            "Retrieval-Augmented Generation (RAG)",
+            "Limits"
+          ],
+          "section_id": "retrieval-augmented-generation:1cbfced84482895f",
+          "section_sha256": "05141b2570f7a36441321729ea8b2d15092a836567bafc8ce79adf1ea99943d8"
+        },
+        {
+          "heading_path": [
+            "Retrieval-Augmented Generation (RAG)",
+            "Related Concepts"
+          ],
+          "section_id": "retrieval-augmented-generation:3ed3036a67b3c3de",
+          "section_sha256": "cf08ba47bd8ab35c2ff75c0d4f9cf03bfb2dc353c57b360edd9447cef1c17afa"
+        },
+        {
+          "heading_path": [
+            "Retrieval-Augmented Generation (RAG)",
+            "Source References"
+          ],
+          "section_id": "retrieval-augmented-generation:1a5a4f446a7a4932",
+          "section_sha256": "5c455a4687184fe61f5393eac3fec2e10308ce9cbc5f0057a2d35b98bfbdacb5"
+        }
+      ]
+    }
+  },
+  "release_id": "ai-concepts-lineage-republication-004",
+  "schema_version": 1,
+  "shard": "ai-concepts (6 notes, GUIDANCE/RESEARCH authorities only — no BINDING sources; definitional notes)",
+  "unit_assignment": {
+    "agentic-ai": [
+      "SRC-0015/p0002",
+      "SRC-0015/p0006",
+      "SRC-0027/p0011"
+    ],
+    "generative-ai": [
+      "SRC-0017/p0012",
+      "SRC-0009/p0010",
+      "SRC-0009/p0016"
+    ],
+    "gpai-model": [
+      "SRC-0015/p0002"
+    ],
+    "machine-learning": [
+      "SRC-0017/p0007"
+    ],
+    "predictive-ai": [
+      "SRC-0017/p0011",
+      "SRC-0017/p0012",
+      "SRC-0015/p0002"
+    ],
+    "retrieval-augmented-generation": [
+      "SRC-0026/p0034",
+      "SRC-0026/p0050",
+      "SRC-0026/p0052"
+    ]
+  },
+  "units": {
+    "SRC-0009/p0010": {
+      "authority": "RESEARCH",
+      "content": "Microsoft Responsible AI Transparency Report",
+      "fidelity": "concepts",
+      "locator": "Page 10",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_file_sha256": "01401bafdfc32110b78ea4bac61148e320e10a8f2e8daddc6be2b6631a94ca59",
+      "unit_path": "ingest/SRC-0009/units/p0010.md",
+      "unit_sha256": "9b3880abc4c1650d731dcdfa434a09491f914271ed1cc17e71572eddcd5c19e0"
+    },
+    "SRC-0009/p0016": {
+      "authority": "RESEARCH",
+      "content": "Microsoft Responsible AI Transparency Report",
+      "fidelity": "concepts",
+      "locator": "Page 16",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_file_sha256": "cddf3a698db16b5052d78f6d54783b7ada41f162d212045708d0836cdecbc6c8",
+      "unit_path": "ingest/SRC-0009/units/p0016.md",
+      "unit_sha256": "8c27fb9b2cb4c76569cfd10dc5f0f076a0256fdbca5260d0c5c87f1d381f07c5"
+    },
+    "SRC-0015/p0002": {
+      "authority": "GUIDANCE",
+      "content": "AI Agents under EU Law working paper (April 2026)",
+      "fidelity": "concepts",
+      "locator": "Page 2",
+      "source_id": "SRC-0015",
+      "source_sha256": "de9c595a97bf5027e53d490a3c71201bb4c2ffa8a876b80bad8c413ff94679c9",
+      "unit_file_sha256": "4b3cb2f09237d94235b43f279b2a0324c8db92942ba37c5e8a1db43332ffdd67",
+      "unit_path": "ingest/SRC-0015/units/p0002.md",
+      "unit_sha256": "575b58f8668932284d90c1d814c9a577111e3e49fe47f756039261e473f3cc10"
+    },
+    "SRC-0015/p0006": {
+      "authority": "GUIDANCE",
+      "content": "AI Agents under EU Law working paper (April 2026)",
+      "fidelity": "concepts",
+      "locator": "Page 6",
+      "source_id": "SRC-0015",
+      "source_sha256": "de9c595a97bf5027e53d490a3c71201bb4c2ffa8a876b80bad8c413ff94679c9",
+      "unit_file_sha256": "4b82ed2513ab44e38dc5b74eed90fe94311aaba9a436eaa7a49ec16ee194b3c8",
+      "unit_path": "ingest/SRC-0015/units/p0006.md",
+      "unit_sha256": "3a7fc23218b5935b643787e37ffac8fd4c946050d39ce61d789c6b0fccca915b"
+    },
+    "SRC-0017/p0007": {
+      "authority": "GUIDANCE",
+      "content": "Guidelines on the definition of an AI system (Commission)",
+      "fidelity": "concepts",
+      "locator": "Page 7",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "unit_file_sha256": "5a0c31f2d701d4abb7bc40ed6060b916be227b379e3cf484ae09ce15986924f4",
+      "unit_path": "ingest/SRC-0017/units/p0007.md",
+      "unit_sha256": "99f07ff39d9d4d2dfc1e2f7ca98d373ea3b74712188c2cd890e3258e36d77729"
+    },
+    "SRC-0017/p0011": {
+      "authority": "GUIDANCE",
+      "content": "Guidelines on the definition of an AI system (Commission)",
+      "fidelity": "concepts",
+      "locator": "Page 11",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "unit_file_sha256": "ee1025244a42aaaf14155e65c3bf10ba56eac384c57c71c2253599eba24d3b99",
+      "unit_path": "ingest/SRC-0017/units/p0011.md",
+      "unit_sha256": "79eb2d46c5d1a82b1ac1114ebe1d49f02be20e08df71509475c2fbff8f00a5fd"
+    },
+    "SRC-0017/p0012": {
+      "authority": "GUIDANCE",
+      "content": "Guidelines on the definition of an AI system (Commission)",
+      "fidelity": "concepts",
+      "locator": "Page 12",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "unit_file_sha256": "2a2c44ec8befff288f5bd3b714192e45daffc8231e53ac7b208049fd86666718",
+      "unit_path": "ingest/SRC-0017/units/p0012.md",
+      "unit_sha256": "dc2cf5f775d9ea006459378300e8d2768e52ea7cf95be699f56a4f0d08d4f576"
+    },
+    "SRC-0026/p0034": {
+      "authority": "GUIDANCE",
+      "content": "OWASP Top 10 for LLM Applications 2026",
+      "fidelity": "concepts",
+      "locator": "Page 34",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_file_sha256": "c9763d9ac2e09800d3063cf311a2b24697bee066c8149fce0f8179a9b54899dd",
+      "unit_path": "ingest/SRC-0026/units/p0034.md",
+      "unit_sha256": "9037a1a9b2303ac5cfb92ce49349b96fdb2b7b8ec2443eacfc3037c384dc5bf6"
+    },
+    "SRC-0026/p0050": {
+      "authority": "GUIDANCE",
+      "content": "OWASP Top 10 for LLM Applications 2026",
+      "fidelity": "concepts",
+      "locator": "Page 50",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_file_sha256": "a4f745833a21720398a71d9cefc1f5f8627e75384f693536f9c6352e1de07399",
+      "unit_path": "ingest/SRC-0026/units/p0050.md",
+      "unit_sha256": "b3278ab44440c5a90c0bc436e636fbec7d15a2b0458f737ad95df73f4b3fae0a"
+    },
+    "SRC-0026/p0052": {
+      "authority": "GUIDANCE",
+      "content": "OWASP Top 10 for LLM Applications 2026",
+      "fidelity": "concepts",
+      "locator": "Page 52",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_file_sha256": "ab565519d08465bcafc5b494a14ba4c4e791d1281e8245fcf1bb61608dbe1c48",
+      "unit_path": "ingest/SRC-0026/units/p0052.md",
+      "unit_sha256": "ce72f6a5f742ecdd54ca093134d7d41f9d2c8a0dd94e420d826dd7ae6598d04f"
+    },
+    "SRC-0027/p0011": {
+      "authority": "GUIDANCE",
+      "content": "OWASP Top 10 for Agentic Applications 2026",
+      "fidelity": "concepts",
+      "locator": "Page 11",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_file_sha256": "62af7b9b2d37dd3b5410c093ef81c904113d9cc25eb787ea347dc001a80e72bb",
+      "unit_path": "ingest/SRC-0027/units/p0011.md",
+      "unit_sha256": "9dad2c1b3933450b0cb3b6a515f0adaa3650d598a533927bb59f631f3a84dcaf"
+    }
+  }
+}

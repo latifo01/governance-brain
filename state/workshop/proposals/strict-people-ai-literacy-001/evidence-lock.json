@@ -1,0 +1,16 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "sal-gov20-src-0001-p0011",
+    "sal-gov20-src-0002-p0009",
+    "sal-org29-src-0040-p0072",
+    "sal-org29-src-0040-p0082",
+    "sal-org29-src-0040-p0083"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/strict-people-ai-literacy-001.json",
+      "sha256": "a2fa6df228e8edfe549ff241d8f14157eef348c705bedb8fa96749dfea809f8e"
+    }
+  ]
+}

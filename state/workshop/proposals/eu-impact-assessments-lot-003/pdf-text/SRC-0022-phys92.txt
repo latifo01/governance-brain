@@ -1,0 +1,46 @@
+                          Law & Compliance in AI Security & Data Protection
+
+
+on the deployer of some public-sector applications.4 Furthermore, awareness of the use
+of AI is needed if data subjects decide to exercise their rights to obtain meaningful
+information about how a decision involving an AI system or model is produced. 5 This list
+is not meant to exhaust the duties in which information about the use of AI is relevant,
+just to exemplify why an inventory can be useful for overall compliance.
+Building the AI inventory
+But what can a data protection professional do to build or update an inventory of AI
+systems? Comprehensive coverage of all AI systems in an organization will require a
+good strategy for collecting information, as well as a constant effort to ensure the
+inventory stays up to date. There is no alternative to a thorough examination of data
+practices to ensure nothing is being missed. But the following paragraphs highlight a few
+issues that one should not overlook.
+Communication as a source of information about AI systems
+First, communication is essential to ensure that no AI system or model is being
+overlooked. By gathering information from departments within the organization, as well
+as from individuals, the data protection professional can find systems and models that
+would otherwise escape their attention. They can also establish themselves as a
+reference point for AI within the organization, thus creating a virtuous circle in which
+individuals and departments proactively supply information about AI.
+Consider a few forms of communication that might be relevant:
+         1. The data protection professional can make direct requests of information to
+            departments about any AI projects that they might be using. This approach is
+            likely to yield information about systems that a department is developing, or
+            that it is aware of using. But a data protection professional might need to
+            assist the department with guidance to find AI systems being used in the
+            background.
+         2. A good rapport between the data protection professional and the
+            organization’s inner structures might lead to voluntary reporting of information
+            about AI. For example, the UNw data protection officer might position
+            themselves as a neutral observer and thus establish contact with both rival
+            departments.
+         3. Data protection professionals might gain valuable information from addressing
+            individual queries. For example, a human resources specialist at
+            InnovaHospital might contact the hospital’s DPO if they are not sure that the
+            new tool they are using relies on AI. After investigation, the data protection
+            professional might find out that AI is indeed being used. Even if it is not, this
+
+4 Article 26(8) AI Act.
+5 Articles 13–15 GDPR.
+
+
+                                                 79
+

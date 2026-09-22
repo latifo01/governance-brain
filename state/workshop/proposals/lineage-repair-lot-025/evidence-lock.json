@@ -1,0 +1,13 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "lineage25-src-0011-p0296",
+    "lineage25-src-0011-p0297"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/ai-board-lineage-025.json",
+      "sha256": "11ceaeb43788e2b888d082017da4a78db3dc4af52fea231ad2cb9f4a56edf3bf"
+    }
+  ]
+}

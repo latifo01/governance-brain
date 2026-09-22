@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "proposal_id": "atlas-complementarity-lot-015",
+  "reviewer_identity": "codex-release-reviewer",
+  "reviewed_at": "2026-09-15T17:10:00+02:00",
+  "candidate_sha256": "ebb6510eefd28d203293611f1b89b34e64dd08bce631dec77c27f84df2bfc721",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [],
+  "checks": {
+    "manifest": "PASS",
+    "evidence_audit": "PASS",
+    "overlay_validation": "PASS",
+    "provenance": "PASS_SOURCE_AND_UNIT_HASHES",
+    "authority": "PASS_NON_BINDING_SECURITY_KNOWLEDGE",
+    "links": "PASS",
+    "duplicates": "PASS_FOR_TWO_PROPOSED_NOTES",
+    "scope": "PASS_BOUNDED_TO_TWO_CREATE_NOTES",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS",
+    "active_vault_unchanged": "PASS",
+    "integrate_preview": "PASS"
+  },
+  "notes": "The candidate is limited to two new knowledge notes for AML.M0037 and AML.M0038. Incident enrichments are explicitly deferred. Evidence, provenance, links, schema and deterministic integration preview pass. Human approval remains required."
+}

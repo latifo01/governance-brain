@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "proposal_id": "fria-question-update-20260919",
+  "reviewer_identity": "codex-fria-question-duplicate-fix-reviewer",
+  "reviewed_at": "2026-09-19T23:59:00+02:00",
+  "evidence_lock_sha256": "30b383690a37d5c4923e251a735f5b3b5212024608dd05493043444daf92db7c",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "UNIQUE_REFERENCE_REMEDIATION",
+      "detail": "The three question-specific references resolve to the same reviewed source units and locators as the approved question candidate, with globally unique evidence IDs."
+    },
+    {
+      "severity": "INFO",
+      "code": "ACTIVE_CONTENT_UNCHANGED",
+      "detail": "The approved question Markdown content and note hash are unchanged; this correction repairs only shared evidence identity collision."
+    },
+    {
+      "severity": "WARNING",
+      "code": "NEW_APPROVAL_REQUIRED",
+      "detail": "The evidence-lock hash changed, so a new exact candidate approval is required before publication metadata is finalized."
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 2,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "DATA_PRIVACY"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 2
+    },
+    "native_unit_count": 2,
+    "normalized_unit_count": 2,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 2,
+    "unit_count": 2
+  },
+  "relative_source_paths": [
+    "sources/04_Data_Protection/edpb_summary_202401_legitimateinterest_en.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0021",
+  "source_kind": "document",
+  "source_sha256": "67beda547b78ed958e6e3069d4aed57d542f31d92c56b1968c34e7b7217cfa8d",
+  "units": [
+    {
+      "content_sha256": "d6620f701a14ffc67270a3c91d1ea39cc11d6104d66b8f801d3bb9a89ae44fac",
+      "file_sha256": "b611a666cdf1ce9e8eafbdd2c42feba4add9251841a26ad421d210299eeca63f",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "e451e8f1589a5344bc8ab6837989cadf1e621c9e5b24a0c65659076ded7f32c7",
+      "file_sha256": "eba76d8d718e50d27c35590ee8de387965524921ed3a481cbf97e21723b92205",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 3531,
+      "native_unit_count": 2,
+      "normalized_unit_count": 2
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

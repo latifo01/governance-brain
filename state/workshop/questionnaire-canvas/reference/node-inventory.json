@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "canvas_sha256": "e602be42f5828992c1d1f7bae1f31f207527f7a0b82dffc2973a8a55293f7188",
+  "classifications": ["CATEGORY", "EXISTING_QUESTION", "CANDIDATE", "ACTION"],
+  "nodes": [
+    {"node_id": "4a00faec45642f7c", "title": "EU AI Act compliance", "classification": "CATEGORY"},
+    {"node_id": "094e57d1d87adeaa", "title": "GDPR", "classification": "CATEGORY"},
+    {"node_id": "ce3849bcc25d12aa", "title": "FRIA", "classification": "EXISTING_QUESTION", "question_ids": ["legal-002-fria-trigger"]},
+    {"node_id": "487aa8af209af009", "title": "Redesign to remove prohibited usage", "classification": "ACTION"},
+    {"node_id": "3584c51dd448e7f1", "title": "Predictive AI", "classification": "CANDIDATE", "candidate_id": "core-005-predictive-capability"},
+    {"node_id": "7d280bb51b01857d", "title": "Hallucinations", "classification": "EXISTING_QUESTION", "question_ids": ["risk-009-misinformation-overreliance"]},
+    {"node_id": "bbfea03831d38bf5", "title": "Is it AI", "classification": "CANDIDATE", "candidate_id": "core-003-ai-system-determination"},
+    {"node_id": "5f75aaeae4097bf5", "title": "What kind of AI is it", "classification": "CATEGORY", "split_into": ["core-005-predictive-capability", "core-006-generative-capability", "core-007-agentic-capability"]},
+    {"node_id": "54c4ba2f469a9ef9", "title": "Personal Data", "classification": "CANDIDATE", "candidate_id": "core-009-personal-data-involvement"},
+    {"node_id": "8e420faa7e117ee7", "title": "DPIA", "classification": "EXISTING_QUESTION", "question_ids": ["legal-003-dpia-ai-processing"]},
+    {"node_id": "06025b5b508a522a", "title": "ADMA", "classification": "EXISTING_QUESTION", "question_ids": ["legal-004-automated-decision-safeguards"]},
+    {"node_id": "0a03f0a6a114fcb8", "title": "Automatic decision Article 22", "classification": "CANDIDATE", "candidate_id": "core-012-automated-decision-trigger"},
+    {"node_id": "9f07165f15dadc99", "title": "EU AI Act jurisdiction", "classification": "CANDIDATE", "candidate_id": "core-010-eu-ai-act-scope"},
+    {"node_id": "0abef3488bba086e", "title": "High-risk activities", "classification": "EXISTING_QUESTION", "question_ids": ["legal-001-ai-act-classification-record"]},
+    {"node_id": "0d8137cbcd03c3dc", "title": "Prohibited usage", "classification": "CANDIDATE", "candidate_id": "core-011-prohibited-practice-screening"},
+    {"node_id": "6149440c895cdba1", "title": "End of analysis", "classification": "ACTION"},
+    {"node_id": "c117fcd0f2011920", "title": "Agentic AI", "classification": "CANDIDATE", "candidate_id": "core-007-agentic-capability"},
+    {"node_id": "06f32c7e5d15688c", "title": "Generative AI", "classification": "CANDIDATE", "candidate_id": "core-006-generative-capability"},
+    {"node_id": "2f634f6a7efbfa11", "title": "Users and affected people", "classification": "CANDIDATE", "candidate_id": "core-008-users-affected-people"},
+    {"node_id": "65b452638cd9c95a", "title": "Prompt Injection", "classification": "EXISTING_QUESTION", "question_ids": ["risk-005-prompt-injection-threat-model"]},
+    {"node_id": "77cec555223187d4", "title": "Business purpose", "classification": "CANDIDATE", "candidate_id": "core-001-business-purpose"}
+  ],
+  "non_canvas_gaps_added": [
+    "core-002-accountable-owner",
+    "core-004-system-boundary"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "7b3e53c0194494a7bcfa2f6c0efda055ed5b915363c96142041bb75f16d2fd99",
+  "reviewer_identity": "codex-model-validation-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {"severity": "INFO", "code": "EVIDENCE_LOCK_RESOLVED", "detail": "The strict release resolves seventeen reviewed non-binding evidence references through one hash-bound receipt.", "evidence_lock_sha256": "20de355505ac41340c4e659044d2a21001354c5234150eb4b19dc64adf692482"},
+    {"severity": "INFO", "code": "CANDIDATE_REPRODUCED", "detail": "The deterministic preview is valid for two ADD records: one knowledge note and one bilingual question.", "candidate_sha256": "7b3e53c0194494a7bcfa2f6c0efda055ed5b915363c96142041bb75f16d2fd99", "files": 2, "would_write": 2},
+    {"severity": "INFO", "code": "DUPLICATE_SCOPE_CHECKED", "detail": "Existing model validation, monitoring, backtesting and documentation notes remain unchanged and are linked as complementary concepts."},
+    {"severity": "WARNING", "code": "HUMAN_APPROVAL_PENDING", "detail": "Approval is required for this exact candidate before integration.", "approval_file": "state/workshop/proposals/model-validation-lot-023/review/approval.md"}
+  ]
+}

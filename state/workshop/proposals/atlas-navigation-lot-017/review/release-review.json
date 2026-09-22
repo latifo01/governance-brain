@@ -1,0 +1,34 @@
+{
+  "candidate_sha256": "705bc43e8fbd4a2dc86670aa794229ddaa2af50b3265ad8bdff882563b7c8265",
+  "findings": [
+    {
+      "message": "Independent review completed in split steps due to intermittent empty responses from the reviewer model; every check question was answered explicitly by the release-reviewer agent.",
+      "severity": "INFO"
+    },
+    {
+      "message": "Index note atlas-incidents-index contains only bare wikilink lines, no prose; no duplicated note ids.",
+      "severity": "INFO"
+    },
+    {
+      "message": "All 19 wikilink targets resolve: 18 ATLAS case-study notes under Famous AI incidents/ plus mitre-atlas at Norms & Frameworks/mitre-atlas.md; link resolution also machine-verified by the deterministic preview.",
+      "severity": "INFO"
+    },
+    {
+      "message": "Manifest declares fast lane with no strict triggers; ADD-only change of one index file; empty evidence-lock legitimate for pure navigation.",
+      "severity": "INFO"
+    },
+    {
+      "message": "The reviewer model returned unreliable wikilink counts during testing (10/12 vs 19 actual); counts were re-verified deterministically, structural judgements only relied on the agent.",
+      "severity": "WARNING"
+    },
+    {
+      "message": "Review grants no approval; human hash-bound approval remains a separate decision.",
+      "severity": "INFO"
+    }
+  ],
+  "lane": "fast",
+  "release_id": "atlas-navigation-lot-017",
+  "reviewed_at": "2026-09-16T17:05:00Z",
+  "reviewer_identity": "opencode-release-reviewer-20260916-r4",
+  "verdict": "READY_FOR_HUMAN_APPROVAL"
+}

@@ -1,0 +1,37 @@
+{
+  "author_identity": "codex-governance-question-domain-builder",
+  "candidate_sha256": "27277a697a8a74c60c31dc9bfe003a919c3746f985a28b8ef940680598fc8547",
+  "changes": {
+    "ADD": [
+      "gov-001-governance-decision-rights",
+      "gov-002-lifecycle-change-reassessment",
+      "gov-003-incident-and-abnormal-behaviour-records",
+      "gov-004-governance-documentation-update-triggers",
+      "gov-005-role-specific-ai-literacy"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "GOVERNANCE_ACCOUNTABILITY",
+  "evidence_changes": true,
+  "files": [
+    "questions/governance/gov-001-governance-decision-rights.md",
+    "questions/governance/gov-002-lifecycle-change-reassessment.md",
+    "questions/governance/gov-003-incident-and-abnormal-behaviour-records.md",
+    "questions/governance/gov-004-governance-documentation-update-triggers.md",
+    "questions/governance/gov-005-role-specific-ai-literacy.md"
+  ],
+  "proposal_id": "governance-question-lot-024",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "governance-questionnaire"
+  ],
+  "status": "INTEGRATED"
+}

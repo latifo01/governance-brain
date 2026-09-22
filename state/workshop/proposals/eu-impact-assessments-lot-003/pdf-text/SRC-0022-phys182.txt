@@ -1,0 +1,46 @@
+                       Law & Compliance in AI Security & Data Protection
+
+
+significant privacy risks due to the potential for affecting individuals’ legal rights. As
+such, they are likely to require a data protection assessment, even if the use of AI in tax
+is explicitly excluded from the AI Act’s definition of “law enforcement.” This example
+illustrates that the AI Act can offer a guideline to the application of Article 35 GDPR, but
+it does not replace a data controller’s careful evaluation of the context.
+When conducting DPIAs for high-risk AI systems, deployers must integrate information
+provided by the developer.13 At the very least, this means deployers should use the
+developer-provided instructions for use, which often outline the AI system’s operational
+parameters, limitations, and specific conditions for safe use. This information is critical
+for understanding how the system might impact data subjects and for identifying
+appropriate safeguards that align with GDPR’s accountability standards.
+DPIA during the AI development process
+The AI Act does not create a similar obligation for providers. That is, organizations
+developing high-risk AI systems are not obliged to incorporate into the DPIA any
+information they obtain from upstream providers. Nonetheless, those organizations are
+likely to need to carry out a DPIA themselves. This is because any processing of
+personal data in the training process is likely to meet the requirements from Article 35(1)
+GDPR:
+    -   If such processing occurs, its goal is to create a system that, by definition, poses
+        a high risk to the rights and freedoms of the natural persons affected by the
+        system.14 As such, the risk criterion is likely to be met for the training process.
+    -   The training of an AI system is, at least for the time being, an operation involving
+        novel technologies. In the future, when techniques for training AI mature enough,
+        this might no longer be the case.
+    -   Many AI systems are trained with the use of personal data. Whenever that is the
+        case, the training might fall within the scope of the GDPR.15
+Considering these factors, a provider developing an AI system will likely need to conduct
+a DPIA before they can commercialize that system or put into service. As they do so,
+they might benefit from the information made available in their own technical
+documentation. Additionally, they might want to use information obtained from their own
+providers. For example, InnovaHospital might want to refer to ChatGPT’s documentation
+as it assesses a chatbot that uses this model. Doing so will allow an organization to see
+the bigger picture of risks associated with a system.
+Likewise, developers of general-purpose AI models trained on personal data would do
+well to carry out a DPIA before placing their products on the market. If a general-
+
+13 As mandated by Article 26 AI Act.
+14 Which are not necessarily the same persons whose data is being processed.
+15 See Unit 6 of this training module.
+
+
+                                                169
+

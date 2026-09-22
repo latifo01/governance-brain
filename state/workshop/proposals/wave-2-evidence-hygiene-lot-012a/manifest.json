@@ -1,0 +1,88 @@
+{
+  "authority_boundary": {
+    "binding_premise_sources": [
+      "SRC-0011",
+      "SRC-0043"
+    ],
+    "immutability": "Lot-012 evidence receipts, verified-evidence.jsonl, candidate hash 538d4a61ab7d88071108cf5ca9ed3adce697eed0ac3e9dd32740f816e6de5d53 and all integrated artifacts are immutable; all new records are written only in this lot's evidence namespace.",
+    "interpretive_sources": [],
+    "no_new_legal_claims": "This lot regenerates unit-level authority fields, completes a cross-page lineage, and applies citation, descriptor, link and typographic changes only; every published legal conclusion, question intent, topic, option, dependency, note ID and path remains unchanged.",
+    "regeneration_rule": "Regenerated unit-level fields must agree with the source-level BINDING classification (SRC-0011 event CLS-15259D7CE5986ADEA4F8; SRC-0043 event CLS-BDD96D5F37B77E8CD3C4) and the lot-012 currentness resolution receipts; any surfaced conflict is flagged and adjudicated, never silently stamped.",
+    "temporal_qualifiers_unchanged": {
+      "article_5_new_items": "2026-12-02",
+      "article_5_pre_existing": "2025-02-02",
+      "article_6_1_annex_i_application_date": "2028-08-02",
+      "article_6_2_annex_iii_application_date": "2027-12-02",
+      "public_authority_systems": "2030-08-02"
+    }
+  },
+  "changes": {
+    "ADD": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-system",
+      "ai-act-index",
+      "core-003-ai-system-determination",
+      "eu-ai-act",
+      "high-risk-ai-system-classification",
+      "risk-002-backtesting-design",
+      "risk-003-model-monitoring-response"
+    ]
+  },
+  "closes_follow_ups": [
+    "W-1",
+    "W-2",
+    "I-1",
+    "I-2",
+    "I-3",
+    "I-4",
+    "QC-5",
+    "V-3"
+  ],
+  "domains": [
+    "AI",
+    "LEGAL",
+    "LEGAL_REGULATORY",
+    "RISK",
+    "PROCESS"
+  ],
+  "files": [
+    "AI concepts/ai-system.md",
+    "Data & AI Laws/eu-ai-act.md",
+    "Data & AI Laws/high-risk-ai-system-classification.md",
+    "indexes/ai-act-index.md",
+    "questions/core/core-003-ai-system-determination.md",
+    "questions/risk/risk-002-backtesting-design.md",
+    "questions/risk/risk-003-model-monitoring-response.md"
+  ],
+  "planned_changes": {
+    "ADD": [],
+    "NOOP": [
+      "ai-act-prohibited-practices",
+      "core-010-eu-ai-act-scope"
+    ],
+    "UPDATE": [
+      "ai-system",
+      "eu-ai-act",
+      "high-risk-ai-system-classification",
+      "ai-act-index",
+      "core-003-ai-system-determination",
+      "risk-002-backtesting-design",
+      "risk-003-model-monitoring-response"
+    ]
+  },
+  "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+  "published": true,
+  "review_sequence": [
+    "source-extractor",
+    "evidence-auditor",
+    "knowledge-architect",
+    "questionnaire-curator",
+    "questionnaire-reviewer",
+    "vault-reviewer",
+    "human-approval"
+  ],
+  "schema_version": 1,
+  "status": "INTEGRATED",
+  "wave": 2
+}

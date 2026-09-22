@@ -1,0 +1,31 @@
+{
+  "author_identity": "codex-dpia-fria-rights-domain-builder",
+  "candidate_sha256": "1e5926c67d747f99c5ac0c38d6bf119f77364c25492d6257d4a45b73d935b6eb",
+  "changes": {
+    "ADD": [
+      "data-subject-rights-ai",
+      "legal-005-data-subject-rights-readiness"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "domain": "DATA_PRIVACY",
+  "evidence_changes": true,
+  "files": [
+    "Data & AI Laws/Data Privacy/data-subject-rights-ai.md",
+    "questions/legal/legal-005-data-subject-rights-readiness.md"
+  ],
+  "proposal_id": "dpia-fria-rights-lot-022",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "dpia-fria-rights"
+  ],
+  "status": "INTEGRATED"
+}

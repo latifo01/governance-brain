@@ -1,0 +1,10 @@
+{"domain_id":"AI_SECURITY","pack_path":"domain_packs/ai-security/domain.yaml","question_prefix":"SEC","schema_version":1,"slug":"ai-security","status":"ACTIVE"}
+{"domain_id":"AUDIT_ASSURANCE","pack_path":"domain_packs/audit-assurance/domain.yaml","question_prefix":"AUD","schema_version":1,"slug":"audit-assurance","status":"ACTIVE"}
+{"domain_id":"DATA_PRIVACY","pack_path":"domain_packs/data-privacy/domain.yaml","question_prefix":"DPR","schema_version":1,"slug":"data-privacy","status":"ACTIVE"}
+{"domain_id":"GOVERNANCE_ACCOUNTABILITY","pack_path":"domain_packs/governance-accountability/domain.yaml","question_prefix":"GOV","schema_version":1,"slug":"governance-accountability","status":"ACTIVE"}
+{"domain_id":"HUMAN_OVERSIGHT_RESPONSIBLE_AI","pack_path":"domain_packs/human-oversight-responsible-ai/domain.yaml","question_prefix":"HRA","schema_version":1,"slug":"human-oversight-responsible-ai","status":"ACTIVE"}
+{"domain_id":"LEGAL_REGULATORY","pack_path":"domain_packs/legal-regulatory/domain.yaml","question_prefix":"LEG","schema_version":1,"slug":"legal-regulatory","status":"ACTIVE"}
+{"domain_id":"MODEL_RISK","pack_path":"domain_packs/model-risk/domain.yaml","question_prefix":"MOD","schema_version":1,"slug":"model-risk","status":"ACTIVE"}
+{"domain_id":"OPERATIONAL_RESILIENCE_INCIDENTS","pack_path":"domain_packs/operational-resilience-incidents/domain.yaml","question_prefix":"ORI","schema_version":1,"slug":"operational-resilience-incidents","status":"ACTIVE"}
+{"domain_id":"THIRD_PARTIES_SUPPLY_CHAIN","pack_path":"domain_packs/third-parties-supply-chain/domain.yaml","question_prefix":"TPS","schema_version":1,"slug":"third-parties-supply-chain","status":"ACTIVE"}
+{"domain_id":"TRANSPARENCY_DISCLOSURE","pack_path":"domain_packs/transparency-disclosure/domain.yaml","question_prefix":"TRA","schema_version":1,"slug":"transparency-disclosure","status":"ACTIVE"}

@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "cc178c35e0b3e634b7f4832719843a3254f8e58c7d079fcd36f46a09ca776f6a",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "87a57b02277dd8c0381b2fc4a605bd4920e4c8df6c6d623facda2146b9595850"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/fundamental-right-impact-assessment-fria.md",
+      "proposal_id": "fria-article27-completion-20260919",
+      "sha256": "7c5a4e324359b0a1e9433add77408c4826718e17b653c2fa9527178520f09ab5"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 148,
+  "proposal_ids": [
+    "fria-article27-completion-20260919"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

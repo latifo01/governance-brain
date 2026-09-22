@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-discovery-p0-20260920",
+  "review_id": "conditional-gdpr-evidence-audit-001",
+  "status": "AUDITED_WITH_BLOCKERS",
+  "method": "Independent criterion-scope and applicability audit of GDPR shortlist rows; no currentness assertion, evidence resolution or publication.",
+  "input": {
+    "binding_applicability_review_path": "state/workshop/proposals/source-discovery-p0-20260920/analysis/binding-applicability-review-001.json",
+    "binding_applicability_review_sha256": "610c38925bc19019ad8775fa827e4a8b7a5a34356e377638fa1d80e6eb79195b"
+  },
+  "records": [
+    {
+      "cell_id": "data-governance-quality:roles_decisions",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0016.md",
+      "locator": "Page 16",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "19e67c2247679cca0cae8ce3ab4b7e609a431de1a1c1ae08db31a0cc721fe233",
+      "unit_file_sha256": "d0688c4eb87be1ef5b0e52a7a568de8d12b7d176dd34ac684badf97bc6b2f1a6",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "DIRECT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Supports accountable processing roles, records, security or DPIA evidence only when personal-data processing and the cited GDPR trigger are established."
+    },
+    {
+      "cell_id": "data-governance-quality:roles_decisions",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0049.md",
+      "locator": "Page 49",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "645a1a0434fed2074cd5c57a841ebd64e6ea5ebe1b63975ec7e9a6d9dd7bcd0f",
+      "unit_file_sha256": "b34c8cbbb489b4f5b3e4ae3141ab4b6d1f4efd33470e476e65296a04306caf6c",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "DIRECT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Supports accountable processing roles, records, security or DPIA evidence only when personal-data processing and the cited GDPR trigger are established."
+    },
+    {
+      "cell_id": "data-governance-quality:roles_decisions",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0050.md",
+      "locator": "Page 50",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "fec870fcd1704ad6af4f21f576f7337c93fb2b1c5f98222198d47db53ef627d6",
+      "unit_file_sha256": "ebedf8fcf5429506e5f35308566ea0d92acb674acf6b9638822ba3b1e994f6ca",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "DIRECT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Supports accountable processing roles, records, security or DPIA evidence only when personal-data processing and the cited GDPR trigger are established."
+    },
+    {
+      "cell_id": "data-governance-quality:roles_decisions",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0023.md",
+      "locator": "Page 23",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "aff49243394fe315604c5d4d779f9c3666bacdbca4bdedfe4fcf58cc27a8afee",
+      "unit_file_sha256": "713c7f370dedb587ff947848080b05cdf2df77aec34a6fc9915305abead5fbc6",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "ADJACENT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CRITERION_SCOPE_LIMIT_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Adjacent privacy governance or enforcement context; it must not be used alone to assert general data quality, lifecycle quality or quality metrics."
+    },
+    {
+      "cell_id": "data-governance-quality:evidence_artifacts",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0051.md",
+      "locator": "Page 51",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "50b445fc94e11d0b56eb44caa2a42c97753e2b3188cbb299a8dff03780deb506",
+      "unit_file_sha256": "f79c5512c99554b7aed31c6e82d849dc3aa87b0b433508c498c3bc18d13a968c",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "DIRECT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Supports accountable processing roles, records, security or DPIA evidence only when personal-data processing and the cited GDPR trigger are established."
+    },
+    {
+      "cell_id": "data-governance-quality:exceptions_conflicts",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0027.md",
+      "locator": "Page 27",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "d69cdf6b13bf309a45124e5295f030e1f7287b60e4aa98eda1f4a0769b792664",
+      "unit_file_sha256": "338af9ef27654a85fe7e1354d48486d396ea6e5d36950b9181be676edce7d002",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "ADJACENT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CRITERION_SCOPE_LIMIT_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Adjacent privacy governance or enforcement context; it must not be used alone to assert general data quality, lifecycle quality or quality metrics."
+    },
+    {
+      "cell_id": "data-governance-quality:exceptions_conflicts",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0020.md",
+      "locator": "Page 20",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "eeebb0ba6bcde6e8c29684e1a087f6c7a5b1b06ef50f80649cd8a215d793ee05",
+      "unit_file_sha256": "0a3f361c10c668d53c060cc489bd6466e4010f27be9c856787a59ba5bc81e7ec",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "ADJACENT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CRITERION_SCOPE_LIMIT_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Adjacent privacy governance or enforcement context; it must not be used alone to assert general data quality, lifecycle quality or quality metrics."
+    },
+    {
+      "cell_id": "data-governance-quality:exceptions_conflicts",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0051.md",
+      "locator": "Page 51",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "50b445fc94e11d0b56eb44caa2a42c97753e2b3188cbb299a8dff03780deb506",
+      "unit_file_sha256": "f79c5512c99554b7aed31c6e82d849dc3aa87b0b433508c498c3bc18d13a968c",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "ADJACENT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CRITERION_SCOPE_LIMIT_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Adjacent privacy governance or enforcement context; it must not be used alone to assert general data quality, lifecycle quality or quality metrics."
+    },
+    {
+      "cell_id": "data-governance-quality:exceptions_conflicts",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0026.md",
+      "locator": "Page 26",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "cfdc06d81f835e74650dfb046e430753a4b14c730d1cc43f3e90b3bf6b8df27b",
+      "unit_file_sha256": "56da9083d7e7c8adc06942f596d5185e997f838e7c8730db005fe4cdfc8c64c1",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "ADJACENT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CRITERION_SCOPE_LIMIT_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Adjacent privacy governance or enforcement context; it must not be used alone to assert general data quality, lifecycle quality or quality metrics."
+    },
+    {
+      "cell_id": "data-governance-quality:questionnaire_coverage",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "locator": "Page 54",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "DIRECT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Supports accountable processing roles, records, security or DPIA evidence only when personal-data processing and the cited GDPR trigger are established."
+    },
+    {
+      "cell_id": "data-governance-quality:questionnaire_coverage",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0018.md",
+      "locator": "Page 18",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "9a17b098fb1ba94729535f66a26946a7869a95de57b6ce1b6f4c4c0a81ff1f86",
+      "unit_file_sha256": "e3da33167b1f1bfd91f75d50b6b8d349faa9fba35055a4c7b14f8bda636303d1",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "DIRECT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Supports accountable processing roles, records, security or DPIA evidence only when personal-data processing and the cited GDPR trigger are established."
+    },
+    {
+      "cell_id": "data-governance-quality:questionnaire_coverage",
+      "source_id": "SRC-0010",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "locator": "Page 53",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "authority": "BINDING_CANDIDATE_PENDING_APPLICABILITY_REVIEW",
+      "visual_review": "NONE",
+      "scope_disposition": "DIRECT_CONDITIONAL",
+      "applicability": "CONDITIONAL_ON_PERSONAL_DATA_PROCESSING",
+      "currentness": "UNVERIFIED",
+      "evidence_status": "UNRESOLVED",
+      "publication_eligibility": false,
+      "blockers": [
+        "PERSONAL_DATA_APPLICABILITY_TRIGGER_REQUIRED",
+        "CURRENTNESS_AND_EFFECTIVE_DATE_REVIEW_REQUIRED",
+        "INDEPENDENT_EVIDENCE_REVIEW_REQUIRED"
+      ],
+      "review_note": "Supports accountable processing roles, records, security or DPIA evidence only when personal-data processing and the cited GDPR trigger are established."
+    }
+  ],
+  "counts": {
+    "records": 12,
+    "direct_conditional": 7,
+    "adjacent_conditional": 5,
+    "currentness_verified": 0,
+    "evidence_resolved": 0,
+    "publication_eligible": 0
+  },
+  "gates": {
+    "personal_data_trigger_resolved": false,
+    "currentness_verified": false,
+    "independent_evidence_review_complete": false,
+    "evidence_lock_eligible": false,
+    "human_approval_required": true,
+    "active_vault_changes": false,
+    "sources_changes": false,
+    "ingest_changes": false
+  },
+  "audit_sha256": "c7d4271e63a96fa911ad015a32691be960faa9a79bea3aca93ec62c3194b5378"
+}

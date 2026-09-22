@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+  "proposal_id": "source-gap-evidence-audit-p1-20260920",
+  "evidence": [
+    {
+      "evidence_ref": "org29-src-0040-p0028",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0028.md",
+      "unit_sha256": "cafb82055d74abdbffdb365542b93303dc472d80b9d40dedfadac3047be2418b",
+      "unit_file_sha256": "e992a84d10086774cc5782eb2a61e3c6519ae0f8a8f15d3dd8a16699e3932c43",
+      "locator": "Page 28",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0030",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0030.md",
+      "unit_sha256": "e2c105e43c9150b2d5fd54c25a1671fff120866e90d71ef825c6a6d9b276c75e",
+      "unit_file_sha256": "e076baecabe42d25076df4a809ae809e0875fb8e3b7880c7f9e6aa08f567154d",
+      "locator": "Page 30",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:b08710c43320a467",
+          "section_sha256": "9b0becca82083f50bef5f19de1e61bbc00b0882dca178205f179dafc722bca4c",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0107"
+          ]
+        },
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:b09c9aa895adc7d4",
+          "section_sha256": "821d478c613b1068101dafac52436c433908a03090c307856c61f745349b5aae",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0059"
+          ]
+        },
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:13ea7560299f0192",
+          "section_sha256": "e2e9f1d5e34b35bd790488cc8381b66e9a22e67b7691da1edb4e2c3a846cc3f0",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0032",
+            "org29-src-0040-p0033",
+            "org29-src-0040-p0038",
+            "org29-src-0040-p0039",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0072",
+            "org29-src-0040-p0127"
+          ]
+        },
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:fc556c1d1063edd5",
+          "section_sha256": "9d746e7e5296e732bada3bb785b6475cec31840bfde6d58900919fd333cc7cb2",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0107",
+            "org29-src-0040-p0127"
+          ]
+        },
+        {
+          "note_id": "gov-006-societal-impact-feedback",
+          "note_sha256": "3db96d72b77bce97c739f85da24757e3c265a061e4553d44d6a0336eaef04dbc",
+          "section_id": "gov-006-societal-impact-feedback:73b1bee0b3f5d7e0",
+          "section_sha256": "8ba08151e1cad4ec28b1b83197f10064aee52135325f7a6ee89834b22e72b9f2",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0059"
+          ]
+        },
+        {
+          "note_id": "gov-006-societal-impact-feedback",
+          "note_sha256": "3db96d72b77bce97c739f85da24757e3c265a061e4553d44d6a0336eaef04dbc",
+          "section_id": "gov-006-societal-impact-feedback:bdb4a7e2799c60d0",
+          "section_sha256": "3ca3e1b43c192b9e9bdbb99e20e129a8d3ed4021b69548589025e849df8cb628",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0032",
+            "org29-src-0040-p0033",
+            "org29-src-0040-p0038",
+            "org29-src-0040-p0039",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0072"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0035",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0035.md",
+      "unit_sha256": "98a2b39b2884a60b87b4f74adef7445be8064bdee3b2844445576ed7e8e89ffc",
+      "unit_file_sha256": "33509b9fb484e8c7ea15a5be744838eee0e5640531e22482f21e0f00791e3126",
+      "locator": "Page 35",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0036",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0036.md",
+      "unit_sha256": "134f9f3b8be4acb77b287e6feb5bbf5156aa16c6b95edc904dd70109ed8a4fcd",
+      "unit_file_sha256": "d323c488e78cfeb7e405fbf1251f413ba1e129360dc7d1c580d287de0b991bf1",
+      "locator": "Page 36",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0059",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0059.md",
+      "unit_sha256": "b5f9e80ca7bebc58a3dd24ffc8dee8842017ac2bbc59d5d8daf37d7bd3d2355f",
+      "unit_file_sha256": "cac576a5deeb75cdd32ba3befb6c2d9bf75b7e3d6cc0932fc0c59c129003d4a2",
+      "locator": "Page 59",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:b09c9aa895adc7d4",
+          "section_sha256": "821d478c613b1068101dafac52436c433908a03090c307856c61f745349b5aae",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0059"
+          ]
+        },
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:13ea7560299f0192",
+          "section_sha256": "e2e9f1d5e34b35bd790488cc8381b66e9a22e67b7691da1edb4e2c3a846cc3f0",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0032",
+            "org29-src-0040-p0033",
+            "org29-src-0040-p0038",
+            "org29-src-0040-p0039",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0072",
+            "org29-src-0040-p0127"
+          ]
+        },
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:fc556c1d1063edd5",
+          "section_sha256": "9d746e7e5296e732bada3bb785b6475cec31840bfde6d58900919fd333cc7cb2",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0107",
+            "org29-src-0040-p0127"
+          ]
+        },
+        {
+          "note_id": "gov-006-societal-impact-feedback",
+          "note_sha256": "3db96d72b77bce97c739f85da24757e3c265a061e4553d44d6a0336eaef04dbc",
+          "section_id": "gov-006-societal-impact-feedback:73b1bee0b3f5d7e0",
+          "section_sha256": "8ba08151e1cad4ec28b1b83197f10064aee52135325f7a6ee89834b22e72b9f2",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0059"
+          ]
+        },
+        {
+          "note_id": "gov-006-societal-impact-feedback",
+          "note_sha256": "3db96d72b77bce97c739f85da24757e3c265a061e4553d44d6a0336eaef04dbc",
+          "section_id": "gov-006-societal-impact-feedback:bdb4a7e2799c60d0",
+          "section_sha256": "3ca3e1b43c192b9e9bdbb99e20e129a8d3ed4021b69548589025e849df8cb628",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0032",
+            "org29-src-0040-p0033",
+            "org29-src-0040-p0038",
+            "org29-src-0040-p0039",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0072"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0127",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0127.md",
+      "unit_sha256": "583e279e769939699e63fd75cb269e5ffc94aeda32cbfcc2a3914e37a1853acc",
+      "unit_file_sha256": "7cc18ffd51556447fcef55617687efb6df8da4444e0110b062c519c0df705339",
+      "locator": "Page 127",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:13ea7560299f0192",
+          "section_sha256": "e2e9f1d5e34b35bd790488cc8381b66e9a22e67b7691da1edb4e2c3a846cc3f0",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0032",
+            "org29-src-0040-p0033",
+            "org29-src-0040-p0038",
+            "org29-src-0040-p0039",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0072",
+            "org29-src-0040-p0127"
+          ]
+        },
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:fc556c1d1063edd5",
+          "section_sha256": "9d746e7e5296e732bada3bb785b6475cec31840bfde6d58900919fd333cc7cb2",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0107",
+            "org29-src-0040-p0127"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    }
+  ],
+  "counts": {
+    "total": 6,
+    "eligible": 6,
+    "excluded": 0
+  }
+}

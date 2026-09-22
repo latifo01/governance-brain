@@ -1,0 +1,46 @@
+{
+  "checks": {
+    "brain": "PENDING",
+    "derived": "PENDING",
+    "independent_review": "PENDING",
+    "portability": "PENDING",
+    "retrieval": "PENDING",
+    "tests": "PENDING",
+    "workshop": "PENDING"
+  },
+  "diagnostic_document": "pland.md",
+  "knowledge_publication": "NOT_REQUESTED_FOR_THIS_TECHNICAL_CANDIDATE",
+  "objective_document": "plan.md",
+  "remote_git_publication": "NOT_AUTHORIZED",
+  "risk_tier": "strict",
+  "schema_version": 1,
+  "scope": "approved architecture delivery; no automatic claim of complete governance coverage",
+  "status": "IN_PROGRESS",
+  "unknown_policy": "missing telemetry is unknown, never zero",
+  "usage": {
+    "cost": null,
+    "input_tokens": null,
+    "llm_calls": null,
+    "output_tokens": null
+  },
+  "workers": [
+    {
+      "model": "gpt-5.6-luna",
+      "owned_output": "implementation/coverage",
+      "reasoning_effort": "high",
+      "session": "plan_coverage"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "owned_output": "implementation/retrieval",
+      "reasoning_effort": "high",
+      "session": "plan_retrieval"
+    },
+    {
+      "model": "gpt-5.6-luna",
+      "owned_output": "implementation/atlas",
+      "reasoning_effort": "high",
+      "session": "plan_atlas_portability"
+    }
+  ]
+}

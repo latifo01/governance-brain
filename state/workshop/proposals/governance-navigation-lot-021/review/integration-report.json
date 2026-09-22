@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "a3eddf985d5272f8cd856f2187dea0ddd87926d2369baa4b9584a1ef6ae56cf0",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "indexes/internal-regulation-index.md",
+      "proposal_id": "governance-navigation-lot-021",
+      "sha256": "62fee1eb00f676dc3d04d4f3645cef243ec4f5267966cd638c24d160f78ab863"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 110,
+  "proposal_ids": [
+    "governance-navigation-lot-021"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

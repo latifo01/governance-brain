@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "stage": "KNOWLEDGE_PROPOSAL",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md",
+      "id": "data-protection-impact-assessments-dpia"
+    }
+  ],
+  "evidence": {
+    "receipt": "state/workshop/evidence-library/roadmap-article35-strict-20260919.json",
+    "evidence_lock_sha256": "472d68d8f2edba67039707035672de6306680e6cf25c079cd6c26838ac7b269f"
+  },
+  "approval": "PENDING"
+}

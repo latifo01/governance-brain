@@ -1,0 +1,26 @@
+{
+  "candidate_sha256": "eb887dcfa8061854d2946f3803cb305249977fef34ec1f7fecec451862e1f264",
+  "changes": {
+    "ADD": [
+      "gdpr-article-22-automated-decision-making"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "domain": "LEGAL_REGULATORY",
+  "evidence_changes": true,
+  "files": [
+    "Data & AI Laws/Data Privacy/gdpr-article-22-automated-decision-making.md"
+  ],
+  "proposal_id": "legal-regulatory-release-013",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 2,
+  "shards": [],
+  "status": "INTEGRATED"
+}

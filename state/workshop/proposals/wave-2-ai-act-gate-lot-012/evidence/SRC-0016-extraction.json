@@ -1,0 +1,432 @@
+{
+  "schema_version": 1,
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "stage": "EXTRACT",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "source_id": "SRC-0016",
+  "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+  "assignment_sha256": "f846571485ca7684b5fe6c40f96aeb091624e26a1075d48a0b741e99c454d451",
+  "coverage": {
+    "assigned_locators": [
+      "Page 6",
+      "Page 7",
+      "Page 8",
+      "Page 9",
+      "Page 10",
+      "Page 11",
+      "Page 12",
+      "Page 13",
+      "Page 14",
+      "Page 15",
+      "Page 16",
+      "Page 17",
+      "Page 18",
+      "Page 19",
+      "Page 20",
+      "Page 21"
+    ],
+    "covered_locators": [
+      "Page 6",
+      "Page 7",
+      "Page 8",
+      "Page 9",
+      "Page 10",
+      "Page 11",
+      "Page 12",
+      "Page 13",
+      "Page 14",
+      "Page 15",
+      "Page 16",
+      "Page 17",
+      "Page 18",
+      "Page 19",
+      "Page 20",
+      "Page 21"
+    ],
+    "omitted": []
+  },
+  "evidence_candidates": [
+    {
+      "candidate_id": "w2-012-src-0016-ec-001",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 6",
+      "unit_content_sha256": "31965781c7638af3f180b76250595adc5ed07c7c6c73c593aeff3f36ae102508",
+      "unit_file_sha256": "593f908b803326d1881fe2bc49b54bb2fd2cb24e30be1e4fa11e8f4cfc3faa77",
+      "claim": "The Commission guidelines describe a four-tier AI Act risk framing and state that Article 5 screening addresses practices presented as unacceptable risk.",
+      "evidence_kind": "context",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Commission interpretation; the guidelines expressly state that they are non-binding."
+      ],
+      "uncertainties": [
+        "Risk categories and legal effects require confirmation against the reviewed AI Act text."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-002",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 7",
+      "unit_content_sha256": "07ba5c1991ee43f1a7f96aab693956ff73ec4409ac6f388a25f3824dfe5a62ac",
+      "unit_file_sha256": "fc1c6dbf4e29d37a5854d4213c082fa3a0a8ccd9f0bfe82a521781ec3a4de0d8",
+      "claim": "Article 5 screening is described as a case-specific assessment; examples in the guidelines are indicative rather than determinative.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Assessment depends on the facts and conditions of the individual use case."
+      ],
+      "uncertainties": [
+        "The guideline does not supply an exhaustive decision procedure."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-003",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 8",
+      "unit_content_sha256": "6a7613ee674b0556df9d5c8d3b7049eff05171b4e68c287efd375b89e403be16",
+      "unit_file_sha256": "4d2b68897d93b0a641a2f8d85f64583cd4dd6f88160aee25bb29b48ffa195886",
+      "claim": "The screening overview groups the relevant practices into manipulation or deception, exploitation of vulnerabilities, social scoring, individual criminal-risk assessment, untargeted facial-image scraping, emotion recognition, biometric categorisation, and real-time remote biometric identification.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Several categories contain purpose, harm, context, actor, or exception conditions."
+      ],
+      "uncertainties": [
+        "Exact elements and exceptions must be taken from audited binding Article 5 evidence."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-004",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 9",
+      "unit_content_sha256": "ffff5f603738c366d3acd643d17d6b37ee580c18c07933f5f825d8a6ac19bc9e",
+      "unit_file_sha256": "fb11b5e4627ae334566d1ec1dad97b88d5a8ebdf15cddf62459540e8f099feba",
+      "claim": "The guidelines distinguish placing an AI system on the Union market, putting it into service for first use or own use, and using it after those events when scoping an Article 5 assessment.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The real-time remote biometric identification category is described as applying specifically to use."
+      ],
+      "uncertainties": [
+        "Definitions cited from the AI Act require confirmation against the binding source."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-005",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 10",
+      "unit_content_sha256": "aa8aae3420973f90f3486925bafce34c7b3e307aa77acaaa5473ee95d16ba173",
+      "unit_file_sha256": "f9835c508144b93d7dd7f9d7076e5ba7977919c5fea2fc137b2f56826faabe9f",
+      "claim": "The guidelines interpret use broadly across the lifecycle and across integration into services, processes, infrastructure, or larger systems, including misuse that may amount to a screened practice.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This is Commission interpretation and is non-binding."
+      ],
+      "uncertainties": [
+        "The breadth of misuse coverage needs binding-source and case-specific review."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-006",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 10",
+      "unit_content_sha256": "aa8aae3420973f90f3486925bafce34c7b3e307aa77acaaa5473ee95d16ba173",
+      "unit_file_sha256": "f9835c508144b93d7dd7f9d7076e5ba7977919c5fea2fc137b2f56826faabe9f",
+      "claim": "For Article 5 screening, the guidelines focus on provider and deployer responsibility and describe Union establishment, Union market activity, or use of system output in the Union as relevant connecting factors.",
+      "evidence_kind": "actor",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Role and territorial scope depend on the facts and the AI Act definitions."
+      ],
+      "uncertainties": [
+        "Actor qualification must be confirmed against reviewed binding provisions."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-007",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 11",
+      "unit_content_sha256": "f3adf8d244f2582dbf6cabdbf91d0043e2cb64db50bb26f5a7daf3bd2727aad5",
+      "unit_file_sha256": "481e48d8cbf95548491b5fc643db8fc290b359a61077677f6e0c7496c9c3aad2",
+      "claim": "A deployer is described as the organisation or person that controls the decision and manner of professional system use; staff or contractors acting under an organisation’s procedures and control are generally treated as acting for that deployer.",
+      "evidence_kind": "actor",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Personal non-professional activity is treated separately."
+      ],
+      "uncertainties": [
+        "Responsibility allocation remains fact-specific and requires binding-source review."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-008",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 11",
+      "unit_content_sha256": "f3adf8d244f2582dbf6cabdbf91d0043e2cb64db50bb26f5a7daf3bd2727aad5",
+      "unit_file_sha256": "481e48d8cbf95548491b5fc643db8fc290b359a61077677f6e0c7496c9c3aad2",
+      "claim": "One operator may simultaneously hold provider and deployer roles, so an Article 5 gate should record each role and the control exercised over design, supply, and actual use.",
+      "evidence_kind": "actor",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Role accumulation can arise for in-house development and use."
+      ],
+      "uncertainties": [
+        "Downstream duties for each role are outside this extraction and require binding evidence."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-009",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 12",
+      "unit_content_sha256": "431e81b5f36404c373a40c35c0eba6c127f8ec805228d214f3e7e38a7dc45919",
+      "unit_file_sha256": "a4be00eb7252c4038f7e79cbf8526c20dce590f2be5f7a80e977374d83837dea",
+      "claim": "The guidelines describe the military, defence, and national-security exclusion as purpose-based and limited to systems used exclusively for those purposes.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Entity identity alone does not establish the exclusion."
+      ],
+      "uncertainties": [
+        "The meaning of national security and exclusive purpose requires legal review against binding authority."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-010",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 13",
+      "unit_content_sha256": "1a82e9aab155a5e2c7b13fa832a886502ffd70f56e7e4b79b50d9ad928a906d1",
+      "unit_file_sha256": "86e0c991c1fa25251fec4715da1730f47b71c8efa2a92c2257a8cfe690b6e245",
+      "claim": "A dual-use system offered for both excluded and non-excluded purposes is described as remaining within AI Act scope for the non-excluded route, while use exclusively for national-security, defence, or military purposes may remain excluded.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Purpose and actual use must be separated in the assessment record."
+      ],
+      "uncertainties": [
+        "Application to mixed or changing purposes is case-specific."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-011",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 13",
+      "unit_content_sha256": "1a82e9aab155a5e2c7b13fa832a886502ffd70f56e7e4b79b50d9ad928a906d1",
+      "unit_file_sha256": "86e0c991c1fa25251fec4715da1730f47b71c8efa2a92c2257a8cfe690b6e245",
+      "claim": "The guidelines describe a separate exclusion for specified third-country or international-organisation judicial or law-enforcement cooperation where adequate fundamental-rights safeguards are present.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The cooperation framework and safeguards are both material conditions."
+      ],
+      "uncertainties": [
+        "Competent-authority assessment and binding-source confirmation are required."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-012",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 14",
+      "unit_content_sha256": "8df4684076a4080973de473ef89f07936dccf34faacf15692e6ec4196441394a",
+      "unit_file_sha256": "6cfa381691087a43e71aa4be64d6d68ab9cfae9e4663aae9fdaee39d4a522a17",
+      "claim": "Pre-market research, testing, or development activity and systems developed and put into service solely for scientific research are described as scope exclusions, subject to distinct limits.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Real-world testing and later market placement or putting into service are treated separately."
+      ],
+      "uncertainties": [
+        "The two research exclusions have different conditions that require binding-source confirmation."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-013",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 15",
+      "unit_content_sha256": "a6ebf6b95ca1d7e6c91a0789f942e210afbe80da9e033d215c0089594e92e78f",
+      "unit_file_sha256": "28a185b91d8fea5ca6857240c4a3165295dfd39a66b15c2c9fca3cc01f090b4c",
+      "claim": "The personal non-professional exclusion is described as affecting deployer obligations for qualifying natural-person use rather than removing every other actor or legal framework from consideration.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Professional, economic, representative, or criminal activity is described as outside this narrow personal-use framing."
+      ],
+      "uncertainties": [
+        "Other Union and national laws may still apply."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-014",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 16",
+      "unit_content_sha256": "a3dd1635e3f18cee282ac69e72f3b5ac86ae061c5fe6a4cadee44f677643583d",
+      "unit_file_sha256": "eb58dec6c7fdc18ec3af763c5f1d3facb6bf6c3123f5a6638ab0c2d6eb35a119",
+      "claim": "The guidelines describe the free and open-source exclusion as unavailable when the system is placed on the market or put into service as high-risk, within an Article 5 category, or within the specified transparency route.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Licence status alone does not conclude the scope analysis."
+      ],
+      "uncertainties": [
+        "Exact conditions require review against the binding AI Act text."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-015",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 16",
+      "unit_content_sha256": "a3dd1635e3f18cee282ac69e72f3b5ac86ae061c5fe6a4cadee44f677643583d",
+      "unit_file_sha256": "eb58dec6c7fdc18ec3af763c5f1d3facb6bf6c3123f5a6638ab0c2d6eb35a119",
+      "claim": "A system associated with an Annex III use may require both Article 5 screening and high-risk classification because a specific deployment can meet a screened-practice condition even when the broader use category is high-risk.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Article 5 and Article 6 gates are related but yield distinct outcomes."
+      ],
+      "uncertainties": [
+        "Exceptions and classification routes must be confirmed from binding evidence."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-016",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 17",
+      "unit_content_sha256": "e126e09180b4fb5d78a64d8cd7b4db5e84008d80e4a0064319480f5927c7e13a",
+      "unit_file_sha256": "b6a67ca90f78ceec1f369e44a82a190d7ce4a3ad2a7dfeb1f25380867a761dcb",
+      "claim": "The guidelines state that an Article 6(3) non-high-risk outcome does not remove the system from Article 5 screening.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The Article 5 gate remains independently applicable."
+      ],
+      "uncertainties": [
+        "The legal effect must be confirmed against reviewed binding provisions."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-017",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 17",
+      "unit_content_sha256": "e126e09180b4fb5d78a64d8cd7b4db5e84008d80e4a0064319480f5927c7e13a",
+      "unit_file_sha256": "b6a67ca90f78ceec1f369e44a82a190d7ce4a3ad2a7dfeb1f25380867a761dcb",
+      "claim": "The guidelines apply Article 5 screening to systems with a specific intended purpose and to general-purpose systems used directly or integrated into another system.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Responsibility is described as depending on role and control in the value chain."
+      ],
+      "uncertainties": [
+        "Measures for general-purpose systems are expressed as Commission expectations, not binding conclusions in this source."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-018",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 18",
+      "unit_content_sha256": "12011b84cf93819c05811a15526aa5e62cd2d4699dcc4655979e20b1d258f0b0",
+      "unit_file_sha256": "2b94cd50010b36d61f363163de99ac0ebc00e92e7532980579af9ac21c0a2565",
+      "claim": "The guidelines recommend proportionate safeguards, use restrictions, instructions, human oversight, and responsive action when a provider becomes aware of a screened misuse.",
+      "evidence_kind": "control",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Measures depend on the provider’s control, available information, feasibility, and the system context."
+      ],
+      "uncertainties": [
+        "Monitoring must be assessed under applicable Union law and cannot be inferred as universally required from this non-binding source."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-019",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 19",
+      "unit_content_sha256": "dcf2f2e4de04cc7e72b15f57a65656688e75dff6e7e9e87845d148a4527bddb6",
+      "unit_file_sha256": "d8db9f1c0d27392b669d42905cda0ff7d84ffe11af2901c9e3c6dcc535c21a92",
+      "claim": "Passing the Article 5 gate is described as insufficient to establish compliance with other applicable Union law, including data protection, equality, employment, consumer, and fundamental-rights rules.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Parallel legal regimes may restrict a use that is not captured by Article 5."
+      ],
+      "uncertainties": [
+        "The applicable parallel regime depends on actors, data, purpose, sector, and jurisdiction."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-020",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 20",
+      "unit_content_sha256": "4cf891281cd83faa7df5cb04a2dc9fba28897945b824b666abf0cbfd9df7e72d",
+      "unit_file_sha256": "3a924eae24112b029677dfd65b753985acf4c03b9b853f52f6a840a36188279e",
+      "claim": "For certain law-enforcement biometric uses, the guidelines describe the AI Act and data-protection rules as operating together and state that the AI Act does not itself supply a personal-data processing legal basis.",
+      "evidence_kind": "conflict",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The described interaction is limited to specified biometric and law-enforcement contexts."
+      ],
+      "uncertainties": [
+        "This specialised legal interaction requires authoritative legal review before use as a rule."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0016-ec-021",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 21",
+      "unit_content_sha256": "99261824da33d44aeec368180ffc31c93439774ea7f25b02d205733e047ccb19",
+      "unit_file_sha256": "4d9cd9d3603d503a7f4389ff3066afc8df8bcc22aa1c9814ea8626805afb2fa2",
+      "claim": "An Article 5 exception is described as incapable of justifying non-compliance with another applicable Union-law obligation.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The Article 5 and parallel-law assessments must be recorded separately."
+      ],
+      "uncertainties": [
+        "Exact legal consequences require confirmation from binding sources."
+      ]
+    }
+  ],
+  "unresolved_items": [],
+  "warnings": [
+    "Authority limited to non-binding Commission interpretation; every legal proposition remains pending independent evidence audit."
+  ]
+}

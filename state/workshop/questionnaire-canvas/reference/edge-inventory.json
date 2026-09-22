@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "canvas_sha256": "e602be42f5828992c1d1f7bae1f31f207527f7a0b82dffc2973a8a55293f7188",
+  "edges": [
+    {"edge_id": "5a09f8c0b1b5cb56", "from": "bbfea03831d38bf5", "to": "5f75aaeae4097bf5", "label": "yes"},
+    {"edge_id": "7740ab98f26e9aa8", "from": "bbfea03831d38bf5", "to": "6149440c895cdba1", "label": "no"},
+    {"edge_id": "e28eaa267baed5c3", "from": "0d8137cbcd03c3dc", "to": "487aa8af209af009", "label": "yes"},
+    {"edge_id": "0a9011751c71e0dc", "from": "0d8137cbcd03c3dc", "to": "0abef3488bba086e", "label": "no"},
+    {"edge_id": "a8bbc02ffc0e1079", "from": "bbfea03831d38bf5", "to": "9f07165f15dadc99", "label": "yes"},
+    {"edge_id": "c727a48591a8ce44", "from": "9f07165f15dadc99", "to": "0d8137cbcd03c3dc", "label": "yes"},
+    {"edge_id": "fa01fc5bcc87fd94", "from": "0abef3488bba086e", "to": "ce3849bcc25d12aa"},
+    {"edge_id": "17fd0597406c6122", "from": "bbfea03831d38bf5", "to": "54c4ba2f469a9ef9"},
+    {"edge_id": "0a0f71ae0440d547", "from": "54c4ba2f469a9ef9", "to": "0a03f0a6a114fcb8"},
+    {"edge_id": "bc4b56b5c9e28dcb", "from": "54c4ba2f469a9ef9", "to": "8e420faa7e117ee7", "label": "yes"},
+    {"edge_id": "64da98f0e75cbeb7", "from": "0a03f0a6a114fcb8", "to": "06025b5b508a522a", "label": "yes"},
+    {"edge_id": "10355bb81bbe3668", "from": "5f75aaeae4097bf5", "to": "3584c51dd448e7f1", "label": "Predictive models"},
+    {"edge_id": "4501dd1484ee24b1", "from": "5f75aaeae4097bf5", "to": "06f32c7e5d15688c", "label": "GenAI"},
+    {"edge_id": "c666d034f36e9fb9", "from": "5f75aaeae4097bf5", "to": "c117fcd0f2011920", "label": "Agentic AI"},
+    {"edge_id": "b410c265af4278d6", "from": "06f32c7e5d15688c", "to": "2f634f6a7efbfa11"},
+    {"edge_id": "89a6d4cc93b8521f", "from": "c117fcd0f2011920", "to": "2f634f6a7efbfa11"},
+    {"edge_id": "1ab950af955b2400", "from": "2f634f6a7efbfa11", "to": "7d280bb51b01857d", "label": "Customers"},
+    {"edge_id": "3394aa8b5c87ee2f", "from": "2f634f6a7efbfa11", "to": "7d280bb51b01857d", "label": "Internal users"},
+    {"edge_id": "d3b8e73a2af5c0b2", "from": "2f634f6a7efbfa11", "to": "65b452638cd9c95a"},
+    {"edge_id": "3011bc5bd36d5fda", "from": "2f634f6a7efbfa11", "to": "65b452638cd9c95a", "label": "Customers"}
+  ]
+}

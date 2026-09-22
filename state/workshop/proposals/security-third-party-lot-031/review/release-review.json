@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "candidate_sha256": "5b750e6cb3a63d6846d8a7fb1a1579ade0917740cb26714b04a613959e161a17",
+  "reviewer_identity": "codex-security-third-party-independent-reviewer",
+  "reviewed_at": "2026-09-17T16:35:48+00:00",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_VALID",
+      "detail": "Deterministic integration validates the exact eight-file candidate and reports valid=true, with no writes applied."
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_BOUND",
+      "detail": "The candidate resolves to evidence lock dbf46a5d7800757b17b0bdb6ddcfe23fe4e0b0731fe47a48ca566b77e509f921, matching the reviewed evidence record and its 57 locked references."
+    },
+    {
+      "severity": "INFO",
+      "code": "SCHEMA_LINKS_AND_DEPENDENCIES_VALID",
+      "detail": "The four knowledge notes and four question notes use the active note types and registered domains; deterministic validation accepts their links, stable IDs, question dependencies and paths."
+    },
+    {
+      "severity": "INFO",
+      "code": "BILINGUAL_INTENTS_VALID",
+      "detail": "Each question has one assessable boolean intent with equivalent French and English wording, and its guidance matches the declared topic and dependency."
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "The manifest and reviewed evidence keep the release free of binding claims and legal interpretation; the knowledge notes state the guidance and research limits explicitly."
+    },
+    {
+      "severity": "INFO",
+      "code": "STRICT_LANE_CORRECT",
+      "detail": "The manifest declares risk_tier strict and evidence_changes true, consistent with the evidence-bearing release."
+    }
+  ]
+}

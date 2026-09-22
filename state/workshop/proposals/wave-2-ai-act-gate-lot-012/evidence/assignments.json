@@ -1,0 +1,617 @@
+{
+  "assignment_sha256": "f846571485ca7684b5fe6c40f96aeb091624e26a1075d48a0b741e99c454d451",
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "schema_version": 1,
+  "sources": [
+    {
+      "authority_input": "BINDING_REVIEW_INPUT_RECONFIRM",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "units": [
+        {
+          "content_sha256": "0d8ae5711bdd3b6484047c22712d1db282cc7aec4fc151b00bb3894815d18d97",
+          "file_sha256": "6ff4854a754a95fc444aac7e78a9b401bf38d4a4ecbb7a5474a6f6032f40d43f",
+          "index": 156,
+          "integrity": "PASS",
+          "locator": "Page 156",
+          "path": "ingest/SRC-0011/units/p0156.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "af196ac8d87baf4032b3558d2ea71d011e522f711f5b8272a7314a1d1da19fc4",
+          "file_sha256": "0c0a47b36e5065e7a7d4ba997db89763f16feaf6c4c47379b29398ad70d3d1dd",
+          "index": 157,
+          "integrity": "PASS",
+          "locator": "Page 157",
+          "path": "ingest/SRC-0011/units/p0157.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "52dd5c2ffdae2d4c9d34121670671dc3bc973059c312bd669ae6679aff7ae9e2",
+          "file_sha256": "d89137117f2e877bb40a57415d40f5b3af758ea8af561b74db610b6921f86e49",
+          "index": 158,
+          "integrity": "PASS",
+          "locator": "Page 158",
+          "path": "ingest/SRC-0011/units/p0158.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "ecf9a58cfbf6bbb2417a590cbaa22297a6ade95d6e6219ae7f4bbd675fd56907",
+          "file_sha256": "8042a12b2e431bbf566cbf4c5a96925dae06c6cf8908695624f06d476c9c1fb5",
+          "index": 159,
+          "integrity": "PASS",
+          "locator": "Page 159",
+          "path": "ingest/SRC-0011/units/p0159.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "a1fb96e40d7d8f56561dd694fdc2440110b09e015e9a139ab727d56afd072f35",
+          "file_sha256": "f53e359e9561cabd14350cbbcebdbbe13c348ccdc69f931a719358e625a83d25",
+          "index": 160,
+          "integrity": "PASS",
+          "locator": "Page 160",
+          "path": "ingest/SRC-0011/units/p0160.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "f33f3ff55b9c8b01b9a8ca6879821f442265e4ac277d104978dd9357e320866a",
+          "file_sha256": "0fc6bca146db2a2c1718dd5f5b2559c67bb237c4ed5a3873ee25dc255158c8c9",
+          "index": 161,
+          "integrity": "PASS",
+          "locator": "Page 161",
+          "path": "ingest/SRC-0011/units/p0161.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "ab7caa547f8a42e2bda151d8415ce6a1de315e7a035ed7b7d18c5d04fbca6d1c",
+          "file_sha256": "26fee1b1290cf7fbe8f354324f95ac2bcdd58400fa5bd2041c179ce92e3ed4a6",
+          "index": 162,
+          "integrity": "PASS",
+          "locator": "Page 162",
+          "path": "ingest/SRC-0011/units/p0162.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "8aa2d0b72d146cb81d2ab48958e61ebdf17abb3f87ff99823a6221d244056d71",
+          "file_sha256": "07506e310004b36b98b4e03afb54ff566f5d773b2b9beb642e662a03aa88e6da",
+          "index": 163,
+          "integrity": "PASS",
+          "locator": "Page 163",
+          "path": "ingest/SRC-0011/units/p0163.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "701d32fa73a3d991a00c1be9f46070284efd6b4abc3707e3c3968f491bf39af0",
+          "file_sha256": "b05934380bae9f3b8aeb5f0ad58c99d655d75d7eb1e8015a98887a3cab5c727d",
+          "index": 164,
+          "integrity": "PASS",
+          "locator": "Page 164",
+          "path": "ingest/SRC-0011/units/p0164.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "a2aca3e843edd26de030dfe59c1564e582500d0089b8f468b20c42aeaeeaa4a5",
+          "file_sha256": "f4690a4a1d8f46ddd29c3750c194ce949f0032309127d2692dc306969910b29b",
+          "index": 165,
+          "integrity": "PASS",
+          "locator": "Page 165",
+          "path": "ingest/SRC-0011/units/p0165.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "73c191b9bc3300220569364a9332bc0d1518fa4c256106a892bc15c12838d251",
+          "file_sha256": "b80906c6f9a0dac563ff038b8f4cf5989696232be3c86c95d885a4dcd853f151",
+          "index": 172,
+          "integrity": "PASS",
+          "locator": "Page 172",
+          "path": "ingest/SRC-0011/units/p0172.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "922c132a25822e7d2b621e7f12e4d8a902922f0394805848d025640be5331a29",
+          "file_sha256": "b4b6419377ca30c871d56b23ab646e6a212b1884d3e58b3954912b5039999f68",
+          "index": 173,
+          "integrity": "PASS",
+          "locator": "Page 173",
+          "path": "ingest/SRC-0011/units/p0173.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "82600f055789be49e0e571c47ac8799805e39252ef890870a1342f0626e0554d",
+          "file_sha256": "202fc4d6c1afc88fb65819ca18ac14e5381fe4c0f0287b51106756aeee15fae7",
+          "index": 174,
+          "integrity": "PASS",
+          "locator": "Page 174",
+          "path": "ingest/SRC-0011/units/p0174.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "815cce7d68919561d5ff745ccf166193ceffeacf750295f781d5b9fa7008e250",
+          "file_sha256": "e3547ceabd91989d7e65531192a2ae2998b994273d7ca10de90b8b65d1192c0c",
+          "index": 175,
+          "integrity": "PASS",
+          "locator": "Page 175",
+          "path": "ingest/SRC-0011/units/p0175.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "f78444a9ed3ab7054d86294c447f28177b4d87ffd1588b5d436b8e953e41f5e5",
+          "file_sha256": "ff51cfb29c51fbc982fcff4e77ea3b07d87957b2dda818bb57e45c6190672af5",
+          "index": 176,
+          "integrity": "PASS",
+          "locator": "Page 176",
+          "path": "ingest/SRC-0011/units/p0176.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "b2d9c691a826d3ae4084767f1e174549500d32e3a35357b85946e4ba7953bca4",
+          "file_sha256": "5e4cbe031780ffa337e101383c0384df5fcbd5465e9ef22d586609ef3d101315",
+          "index": 177,
+          "integrity": "PASS",
+          "locator": "Page 177",
+          "path": "ingest/SRC-0011/units/p0177.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "712c55ec9193638c85d49ad37dd0b11f6a2ee7124467bae73401268a43e0001c",
+          "file_sha256": "2f390e760d29ed5bf9a351aa2f24e5c7a618dc17b7549d061bf7ecc90a4f97d7",
+          "index": 178,
+          "integrity": "PASS",
+          "locator": "Page 178",
+          "path": "ingest/SRC-0011/units/p0178.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "b94ea3f70b6aaa04e3f0102d6254bee879cc2a856da5268104e463221aacb3e6",
+          "file_sha256": "3c3885f6c2f3661e7bc0c5dce2da34d4ff965eaddc13ef9c35f06ec766e4831d",
+          "index": 179,
+          "integrity": "PASS",
+          "locator": "Page 179",
+          "path": "ingest/SRC-0011/units/p0179.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "2dfb4a92eadd1e7b2ef713b2b05b6036eac1a250c8eecd0eaf26afefbac0ecba",
+          "file_sha256": "3e9e4153e61ad82132678ce792d32066400ab76c3f52a6e889284bf4c980477b",
+          "index": 180,
+          "integrity": "PASS",
+          "locator": "Page 180",
+          "path": "ingest/SRC-0011/units/p0180.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "5cb4bfc3f4aaa27a4cb7ef16598a84c89dbda6e9ef7166d88ad4dca3cc20143a",
+          "file_sha256": "8bd5a208a66e8dfd0a00f0b63ee2d3a8265ef91d82dcb4edae00f3be542b23d8",
+          "index": 181,
+          "integrity": "PASS",
+          "locator": "Page 181",
+          "path": "ingest/SRC-0011/units/p0181.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "a554657ceb93a55dfcf8d0af339a2e61b220db6dc91eba1f9b9691781e19ba2f",
+          "file_sha256": "058b9207fe3414e1ff6dcbf4b85c8c9e64ec3590526871954f8ea44890cb5fff",
+          "index": 377,
+          "integrity": "PASS",
+          "locator": "Page 377",
+          "path": "ingest/SRC-0011/units/p0377.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "f8294ffa6150486a195f70fadeaad4e0e56d5536c72ba46a66a37b2680807282",
+          "file_sha256": "d101dee740e08f0ded5dd3b2d8501c17f4593f4d8072f34f3b8bd456846f33ac",
+          "index": 378,
+          "integrity": "PASS",
+          "locator": "Page 378",
+          "path": "ingest/SRC-0011/units/p0378.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "2a75be9458e02eb5a1890f95c438c62b4a82cb05bea4ca50a1081b3bb0bb596f",
+          "file_sha256": "b794d014856f471515dc6c1e7614ae2676b4464c6de993523253bcd5ddf90c67",
+          "index": 379,
+          "integrity": "PASS",
+          "locator": "Page 379",
+          "path": "ingest/SRC-0011/units/p0379.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "cb0c46115a711ed03237a06b7f8b10bdcd62ac0e2759953cb17793873d6d6ce1",
+          "file_sha256": "8dab17972a50c1b55ff8fdcef37f1d6e3e849230181775e3c9ba0aca79af9841",
+          "index": 380,
+          "integrity": "PASS",
+          "locator": "Page 380",
+          "path": "ingest/SRC-0011/units/p0380.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "90fb9a2fdad9c7c5891676992f9a4f939b00829dfad008e69d0a8e86f05ea85a",
+          "file_sha256": "dfa56f453790eb9894da6bebf4a24ee15ce3abd4b3b8d495900b21037af344e5",
+          "index": 381,
+          "integrity": "PASS",
+          "locator": "Page 381",
+          "path": "ingest/SRC-0011/units/p0381.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "16cfef1053120a4c3ecd83866d0a1597a68c712b155ec6464e2cf8fec5717119",
+          "file_sha256": "1b929dc9c0fe7e7263fc1331be560623ec155e9be7f6529d9ea2ce6af5065564",
+          "index": 382,
+          "integrity": "PASS",
+          "locator": "Page 382",
+          "path": "ingest/SRC-0011/units/p0382.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "a53300fed81f04bcf6d7f245465ec753098a1daf2876b58601b488a26950d2a5",
+          "file_sha256": "1cf23f328cd8ce02f03559a264dad0a9fe4f7011bfd397440c095a02d2e55906",
+          "index": 383,
+          "integrity": "PASS",
+          "locator": "Page 383",
+          "path": "ingest/SRC-0011/units/p0383.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "2002754bef1e8362a7a535d8b5d22b33f2ae7f952097d26935ef91c0d614a712",
+          "file_sha256": "868915f5b725066e07d3cc7ec4991f49616c778eb27e5eb8b6baeaa6ab0eef86",
+          "index": 384,
+          "integrity": "PASS",
+          "locator": "Page 384",
+          "path": "ingest/SRC-0011/units/p0384.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "341e65744e127a2c34ba2c9f723dee338916e9585ffcfe0b4a9c5fa5e8be0198",
+          "file_sha256": "1db693db6a61960f935297d7de32f99076ff75b4abf382582fafa2f9f8393d5d",
+          "index": 385,
+          "integrity": "PASS",
+          "locator": "Page 385",
+          "path": "ingest/SRC-0011/units/p0385.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "39e0d6604563bb782fc291eab7a28a0dcfba8bdf7aedd8e38ccf3b56c7cb8e6f",
+          "file_sha256": "5407bd828cddc503d7eea8e3028ef2e123b4647c8b19c9a56f6ca91005711b8d",
+          "index": 386,
+          "integrity": "PASS",
+          "locator": "Page 386",
+          "path": "ingest/SRC-0011/units/p0386.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "33907982e3f479ca4efdc03c60512958eba35f14f0706d1e79785f5a93305a71",
+          "file_sha256": "5259f0db44a648402e6ddad2a7001d7cb39d06c8a2a04a4b676e2fead7353402",
+          "index": 387,
+          "integrity": "PASS",
+          "locator": "Page 387",
+          "path": "ingest/SRC-0011/units/p0387.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "25bd13f3d55aa2094c7dd8aa501865cf897150a774058980655bf329973bb40b",
+          "file_sha256": "966cfdfec6b1fb08230ecc376383760bda423fff634157d5fb96325af864c118",
+          "index": 388,
+          "integrity": "PASS",
+          "locator": "Page 388",
+          "path": "ingest/SRC-0011/units/p0388.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "eefb35b79f3d1f0ddbc90c5a85b6a71ac6dd402efdadcc2cec3e7f58851a044e",
+          "file_sha256": "9c0708015d560b43aebd6339f54b858e3c9f1d12ddbac3ae9cf1a765ac3b1c09",
+          "index": 389,
+          "integrity": "PASS",
+          "locator": "Page 389",
+          "path": "ingest/SRC-0011/units/p0389.md",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "authority_input": "NON_BINDING_INTERPRETATION",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "units": [
+        {
+          "content_sha256": "31965781c7638af3f180b76250595adc5ed07c7c6c73c593aeff3f36ae102508",
+          "file_sha256": "593f908b803326d1881fe2bc49b54bb2fd2cb24e30be1e4fa11e8f4cfc3faa77",
+          "index": 6,
+          "integrity": "PASS",
+          "locator": "Page 6",
+          "path": "ingest/SRC-0016/units/p0006.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "07ba5c1991ee43f1a7f96aab693956ff73ec4409ac6f388a25f3824dfe5a62ac",
+          "file_sha256": "fc1c6dbf4e29d37a5854d4213c082fa3a0a8ccd9f0bfe82a521781ec3a4de0d8",
+          "index": 7,
+          "integrity": "PASS",
+          "locator": "Page 7",
+          "path": "ingest/SRC-0016/units/p0007.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "6a7613ee674b0556df9d5c8d3b7049eff05171b4e68c287efd375b89e403be16",
+          "file_sha256": "4d2b68897d93b0a641a2f8d85f64583cd4dd6f88160aee25bb29b48ffa195886",
+          "index": 8,
+          "integrity": "PASS",
+          "locator": "Page 8",
+          "path": "ingest/SRC-0016/units/p0008.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "ffff5f603738c366d3acd643d17d6b37ee580c18c07933f5f825d8a6ac19bc9e",
+          "file_sha256": "fb11b5e4627ae334566d1ec1dad97b88d5a8ebdf15cddf62459540e8f099feba",
+          "index": 9,
+          "integrity": "PASS",
+          "locator": "Page 9",
+          "path": "ingest/SRC-0016/units/p0009.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "aa8aae3420973f90f3486925bafce34c7b3e307aa77acaaa5473ee95d16ba173",
+          "file_sha256": "f9835c508144b93d7dd7f9d7076e5ba7977919c5fea2fc137b2f56826faabe9f",
+          "index": 10,
+          "integrity": "PASS",
+          "locator": "Page 10",
+          "path": "ingest/SRC-0016/units/p0010.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "f3adf8d244f2582dbf6cabdbf91d0043e2cb64db50bb26f5a7daf3bd2727aad5",
+          "file_sha256": "481e48d8cbf95548491b5fc643db8fc290b359a61077677f6e0c7496c9c3aad2",
+          "index": 11,
+          "integrity": "PASS",
+          "locator": "Page 11",
+          "path": "ingest/SRC-0016/units/p0011.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "431e81b5f36404c373a40c35c0eba6c127f8ec805228d214f3e7e38a7dc45919",
+          "file_sha256": "a4be00eb7252c4038f7e79cbf8526c20dce590f2be5f7a80e977374d83837dea",
+          "index": 12,
+          "integrity": "PASS",
+          "locator": "Page 12",
+          "path": "ingest/SRC-0016/units/p0012.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "1a82e9aab155a5e2c7b13fa832a886502ffd70f56e7e4b79b50d9ad928a906d1",
+          "file_sha256": "86e0c991c1fa25251fec4715da1730f47b71c8efa2a92c2257a8cfe690b6e245",
+          "index": 13,
+          "integrity": "PASS",
+          "locator": "Page 13",
+          "path": "ingest/SRC-0016/units/p0013.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "8df4684076a4080973de473ef89f07936dccf34faacf15692e6ec4196441394a",
+          "file_sha256": "6cfa381691087a43e71aa4be64d6d68ab9cfae9e4663aae9fdaee39d4a522a17",
+          "index": 14,
+          "integrity": "PASS",
+          "locator": "Page 14",
+          "path": "ingest/SRC-0016/units/p0014.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "a6ebf6b95ca1d7e6c91a0789f942e210afbe80da9e033d215c0089594e92e78f",
+          "file_sha256": "28a185b91d8fea5ca6857240c4a3165295dfd39a66b15c2c9fca3cc01f090b4c",
+          "index": 15,
+          "integrity": "PASS",
+          "locator": "Page 15",
+          "path": "ingest/SRC-0016/units/p0015.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "a3dd1635e3f18cee282ac69e72f3b5ac86ae061c5fe6a4cadee44f677643583d",
+          "file_sha256": "eb58dec6c7fdc18ec3af763c5f1d3facb6bf6c3123f5a6638ab0c2d6eb35a119",
+          "index": 16,
+          "integrity": "PASS",
+          "locator": "Page 16",
+          "path": "ingest/SRC-0016/units/p0016.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "e126e09180b4fb5d78a64d8cd7b4db5e84008d80e4a0064319480f5927c7e13a",
+          "file_sha256": "b6a67ca90f78ceec1f369e44a82a190d7ce4a3ad2a7dfeb1f25380867a761dcb",
+          "index": 17,
+          "integrity": "PASS",
+          "locator": "Page 17",
+          "path": "ingest/SRC-0016/units/p0017.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "12011b84cf93819c05811a15526aa5e62cd2d4699dcc4655979e20b1d258f0b0",
+          "file_sha256": "2b94cd50010b36d61f363163de99ac0ebc00e92e7532980579af9ac21c0a2565",
+          "index": 18,
+          "integrity": "PASS",
+          "locator": "Page 18",
+          "path": "ingest/SRC-0016/units/p0018.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "dcf2f2e4de04cc7e72b15f57a65656688e75dff6e7e9e87845d148a4527bddb6",
+          "file_sha256": "d8db9f1c0d27392b669d42905cda0ff7d84ffe11af2901c9e3c6dcc535c21a92",
+          "index": 19,
+          "integrity": "PASS",
+          "locator": "Page 19",
+          "path": "ingest/SRC-0016/units/p0019.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "4cf891281cd83faa7df5cb04a2dc9fba28897945b824b666abf0cbfd9df7e72d",
+          "file_sha256": "3a924eae24112b029677dfd65b753985acf4c03b9b853f52f6a840a36188279e",
+          "index": 20,
+          "integrity": "PASS",
+          "locator": "Page 20",
+          "path": "ingest/SRC-0016/units/p0020.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "99261824da33d44aeec368180ffc31c93439774ea7f25b02d205733e047ccb19",
+          "file_sha256": "4d9cd9d3603d503a7f4389ff3066afc8df8bcc22aa1c9814ea8626805afb2fa2",
+          "index": 21,
+          "integrity": "PASS",
+          "locator": "Page 21",
+          "path": "ingest/SRC-0016/units/p0021.md",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "authority_input": "NON_BINDING_INTERPRETATION",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "units": [
+        {
+          "content_sha256": "49053f6e7528412dddf6563c304f6a143e9065f7b342a82cc35e4a25dbc3a0e9",
+          "file_sha256": "9e45a12f6336ed5ab8e64aa57757482913326238b7db8d425767c1a71b8fd1b6",
+          "index": 2,
+          "integrity": "PASS",
+          "locator": "Page 2",
+          "path": "ingest/SRC-0017/units/p0002.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "f62b10bc2498d7dbeb06ff99223f173276542904a9f68b440bf27f9a5cb7c7f6",
+          "file_sha256": "941aee572b2afc330fee2c0394b860803c3362014ee9ceca30cb74103c381083",
+          "index": 3,
+          "integrity": "PASS",
+          "locator": "Page 3",
+          "path": "ingest/SRC-0017/units/p0003.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "ee8ff77614401b816911b5322f13c45aa4a35396ec70f5f6a5e9771f2027eeb2",
+          "file_sha256": "406018865bb3967fffd4a6aa8513d9ff4c335d3d609b063c4a736a7eb19d4408",
+          "index": 5,
+          "integrity": "PASS",
+          "locator": "Page 5",
+          "path": "ingest/SRC-0017/units/p0005.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "9d8c59a83af3d61f0c16a0633698eea3f4208f714f7f39e762c0b74a2b8349cc",
+          "file_sha256": "050d84ec3d750f84be24a155c64f3ba4834ecebe6023c7ed82d5f4c4911228ee",
+          "index": 6,
+          "integrity": "PASS",
+          "locator": "Page 6",
+          "path": "ingest/SRC-0017/units/p0006.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "79eb2d46c5d1a82b1ac1114ebe1d49f02be20e08df71509475c2fbff8f00a5fd",
+          "file_sha256": "ee1025244a42aaaf14155e65c3bf10ba56eac384c57c71c2253599eba24d3b99",
+          "index": 11,
+          "integrity": "PASS",
+          "locator": "Page 11",
+          "path": "ingest/SRC-0017/units/p0011.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "dc2cf5f775d9ea006459378300e8d2768e52ea7cf95be699f56a4f0d08d4f576",
+          "file_sha256": "2a2c44ec8befff288f5bd3b714192e45daffc8231e53ac7b208049fd86666718",
+          "index": 12,
+          "integrity": "PASS",
+          "locator": "Page 12",
+          "path": "ingest/SRC-0017/units/p0012.md",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "authority_input": "NON_BINDING_TRAINING_CONTEXT",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "units": [
+        {
+          "content_sha256": "3898b7b4b3794001bd1b30dcf9a24b90c5b2a0ce2681f4c0c16c3f4d36b03250",
+          "file_sha256": "19c500419876d5f55a860f86a6eae6ec035dbb8493fc2be4e883f105c02960b5",
+          "index": 95,
+          "integrity": "PASS",
+          "locator": "Page 95",
+          "path": "ingest/SRC-0022/units/p0095.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "52a2dc833595dc571386548689086f4fd17e314ffea3e8328441b432ace897a4",
+          "file_sha256": "1b15ff25e958088d981965b783747e9c32f64bda7fa4e7509d5bb72b434be522",
+          "index": 96,
+          "integrity": "PASS",
+          "locator": "Page 96",
+          "path": "ingest/SRC-0022/units/p0096.md",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "content_sha256": "e28dd35c84cadc1651d1272b9736b2d5782fd644fc1591b7618d68968d20b5fa",
+          "file_sha256": "2087755ee4d10e593981963744335a8cb16f95a86d60e2ef02613112fe7be77c",
+          "index": 97,
+          "integrity": "PASS",
+          "locator": "Page 97",
+          "path": "ingest/SRC-0022/units/p0097.md",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ]
+    }
+  ],
+  "stage": "EXTRACT",
+  "status": "ASSIGNED"
+}

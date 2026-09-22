@@ -1,0 +1,32 @@
+{
+  "author_identity": "codex-benchmark-evidence-037-knowledge-architect",
+  "candidate_sha256": "0c204059f1ce0d6bc60c5ac9e78f89611aea71959631a173076f92404234b13b",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "traceability",
+      "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "AI_SECURITY",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/traceability.md",
+    "Famous AI incidents/atlas-aml-cs0027-organization-confusion-on-hugging-face.md"
+  ],
+  "proposal_id": "benchmark-evidence-037-traceability-supply-chain",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "traceability",
+    "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+  ],
+  "status": "INTEGRATED"
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-036-security-oversight",
+  "stage": "KNOWLEDGE_AND_QUESTION_PROPOSAL",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/human-oversight.md",
+      "id": "human-oversight"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "AI Risks/prompt-injection.md",
+      "id": "prompt-injection"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "question",
+      "path": "questions/risk/risk-005-prompt-injection-threat-model.md",
+      "id": "risk-005-prompt-injection-threat-model"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "question",
+      "path": "questions/risk/risk-008-human-oversight-authority.md",
+      "id": "risk-008-human-oversight-authority"
+    }
+  ],
+  "evidence": {
+    "receipt": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/evidence-library-receipt.json",
+    "evidence_lock_sha256": "a7e575260c701525786027304fa3448934967fd583427393918580fb1caed438"
+  },
+  "approval": "PENDING"
+}

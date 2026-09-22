@@ -1,0 +1,8 @@
+name = "git_helper"
+description = "Prepare a sanitized local release kit and reproducibility report."
+developer_instructions = """
+Follow AGENTS.md and the canonical role prompt at prompts/roles/git_helper.md.
+Prepare only the assigned local dist kit and release-preparation report using
+deterministic tools. Preserve sources, ingest and others' edits. Do not stage,
+commit, tag, push or publish without an explicit later operator instruction.
+"""

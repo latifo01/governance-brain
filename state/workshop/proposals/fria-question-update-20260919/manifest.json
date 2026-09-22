@@ -1,0 +1,29 @@
+{
+  "author_identity": "codex-fria-question-domain-builder",
+  "candidate_sha256": "7e1537498e7d875504f0e1e4c7898d78367d42cc08df174500c34bc1bf9252e5",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "legal-002-fria-trigger"
+    ]
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "domain": "LEGAL_REGULATORY",
+  "evidence_changes": true,
+  "files": [
+    "questions/legal/legal-002-fria-trigger.md"
+  ],
+  "proposal_id": "fria-question-update-20260919",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "fria-question"
+  ],
+  "status": "INTEGRATED"
+}

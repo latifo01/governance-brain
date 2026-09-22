@@ -1,0 +1,36 @@
+7.     La Commission publie des rapports annuels sur l'utilisation de systèmes d'identification
+       biométriques à distance en temps réel dans des espaces accessibles au public à des fins
+       répressives, fondés sur des données agrégées dans les États membres sur la base des
+       rapports annuels visés au paragraphe 6. Ces rapports annuels n'incluent pas de données
+       opérationnelles sensibles sur les activités répressives connexes.
+
+8.     Le présent article ne porte pas atteinte aux interdictions qui s'appliquent lorsqu'une
+       pratique en matière d'IA enfreint d'autres dispositions du droit de l'Union.
+
+
+                                         Chapitre III
+                             Systèmes d'IA à haut risque
+
+
+                                           SECTION 1
+      CLASSIFICATION DE SYSTEMES D'IA COMME SYSTEMES A HAUT RISQUE
+
+
+
+                                             Article 6
+       Règles relatives à la classification de systèmes d'IA comme systèmes à haut risque
+
+1.     Un système d'IA mis sur le marché ou mis en service, qu'il soit ou non indépendant des
+       produits visés aux points a) et b), est considéré comme étant à haut risque lorsque les deux
+       conditions suivantes sont remplies:
+
+       a)    le système d'IA est destiné à être utilisé comme composant de sécurité d'un produit
+             couvert par la législation d'harmonisation de l'Union dont la liste figure à l'annexe I,
+             ou le système d'IA constitue lui-même un tel produit;
+
+
+
+
+PE-CONS 24/1/24 REV 1                                                                             178
+                                                                                                  FR
+

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-035-model-lifecycle",
+  "status": "PROPOSAL_READY",
+  "source_count": 5,
+  "assigned_unit_count": 107,
+  "candidate_count": 101,
+  "verified_candidate_count": 73,
+  "uncertain_candidate_count": 28,
+  "uncertain_candidates_excluded": 28,
+  "target_count": 6,
+  "scenario_family_count": 3,
+  "evidence_binding_count": 24,
+  "authority_counts": {
+    "RESEARCH": 1,
+    "GUIDANCE": 3,
+    "FRAMEWORK": 1,
+    "BINDING": 0
+  },
+  "active_vault_modified": false,
+  "shared_state_modified": false,
+  "benchmark_config_modified": false,
+  "limits": [
+    "No publication, approval, active-vault or derived artefact was performed.",
+    "Only the 73 VERIFIED candidates are included; all 28 UNCERTAIN candidates are excluded.",
+    "No binding claims, legal interpretations or universal requirements are proposed.",
+    "SRC-0018 remains Commission guidance distinct from AI Act text; SRC-0036/SRC-0038 remain supervisory context; SRC-0039 remains voluntary."
+  ]
+}

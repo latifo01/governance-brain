@@ -1,0 +1,37 @@
+2.     Lorsqu'elle évalue les conditions visées au paragraphe 1, point b), la Commission tient
+       compte des critères suivants:
+
+       a)   la destination du système d'IA;
+
+       b)   la mesure dans laquelle un système d'IA a été utilisé ou est susceptible de l'être;
+
+       c)   la nature et la quantité des données traitées et utilisées par le système d'IA, en
+            particulier le traitement ou l'absence de traitement des catégories particulières de
+            données à caractère personnel;
+
+       d)   la mesure dans laquelle le système d'IA agit de manière autonome et la mesure dans
+            laquelle l'homme peut intervenir pour annuler une décision ou des recommandations
+            susceptibles de causer un préjudice potentiel;
+
+       e)   la mesure dans laquelle l'utilisation d'un système d'IA a déjà causé un préjudice à la
+            santé et à la sécurité, a eu une incidence négative sur les droits fondamentaux ou a
+            suscité de graves préoccupations quant à la probabilité de ce préjudice ou de cette
+            incidence négative, tel que cela ressort, par exemple, des rapports ou allégations
+            documentées soumis aux autorités nationales compétentes ou d'autres rapports, le cas
+            échéant;
+
+       f)   l'ampleur potentielle d'un tel préjudice ou d'une telle incidence négative, notamment
+            en ce qui concerne son intensité et sa capacité d'affecter plusieurs personnes ou
+            d'affecter un groupe particulier de personnes de manière disproportionnée;
+
+       g)   la mesure dans laquelle les personnes ayant potentiellement subi un préjudice ou une
+            incidence négative dépendent des résultats obtenus au moyen d'un système d'IA,
+            notamment parce qu'il n'est pas raisonnablement possible, pour des raisons pratiques
+            ou juridiques, de s'affranchir de ces résultats;
+
+
+
+
+PE-CONS 24/1/24 REV 1                                                                              182
+                                                                                                   FR
+

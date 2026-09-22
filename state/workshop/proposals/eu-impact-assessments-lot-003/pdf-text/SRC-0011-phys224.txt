@@ -1,0 +1,33 @@
+4.     Si l'une des obligations prévues au présent article est déjà remplie au moyen de l'analyse
+       d'impact relative à la protection des données réalisée en application de l'article 35 du
+       règlement (UE) 2016/679 ou de l'article 27 de la directive (UE) 2016/680, l'analyse
+       d'impact sur les droits fondamentaux visée au paragraphe 1 du présent article complète
+       ladite analyse d'impact relative à la protection des données.
+
+5.     Le Bureau de l'IA élabore un modèle de questionnaire, y compris au moyen d'un outil
+       automatisé, afin d'aider les déployeurs à se conformer de manière simplifiée aux
+       obligations qui leur incombent en vertu du présent article.
+
+                                           SECTION 4
+                 AUTORITES NOTIFIANTES ET ORGANISMES NOTIFIES
+
+
+
+                                            Article 28
+                                       Autorités notifiantes
+
+1.     Chaque État membre désigne ou établit au moins une autorité notifiante chargée de mettre
+       en place et d'accomplir les procédures nécessaires à l'évaluation, à la désignation et à la
+       notification des organismes d'évaluation de la conformité et à leur contrôle. Ces procédures
+       sont élaborées en coopération entre les autorités notifiantes de tous les États membres.
+
+2.     Les États membres peuvent décider que l'évaluation et le contrôle visés au paragraphe 1
+       doivent être effectués par un organisme national d'accréditation au sens du règlement (CE)
+       n° 765/2008 et conformément à ses dispositions.
+
+
+
+
+PE-CONS 24/1/24 REV 1                                                                                223
+                                                                                                  FR
+

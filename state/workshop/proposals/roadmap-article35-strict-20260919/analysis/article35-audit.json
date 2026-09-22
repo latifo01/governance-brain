@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "workstream": "roadmap-point-6-article-35-strict-audit",
+  "method": "Read-only inventory of Article 35-related active notes and current reviewed section bindings. This is a gate inventory, not a legal conclusion.",
+  "scope": [
+    "GDPR Article 35 DPIA operative requirements",
+    "AI Act Article 27 FRIA relationship where relevant",
+    "separation from GDPR Article 22 automated decision safeguards"
+  ],
+  "notes": [
+    {
+      "note_id": "ai-impact-assessment-aiia",
+      "path": "Norms & Frameworks/ai-impact-assessment-aiia.md",
+      "binding_count": 0,
+      "reviewed_binding_count": 0,
+      "evidence_refs": 0,
+      "authorities": {},
+      "status": "NO_CURRENT_BINDING_RECEIPT",
+      "strict_follow_up": "Audit Article 35 operative requirements claim-by-claim; preserve Article 22/27 boundaries and do not infer completeness from adjacent notes."
+    },
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "path": "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md",
+      "binding_count": 8,
+      "reviewed_binding_count": 8,
+      "evidence_refs": 8,
+      "authorities": {
+        "BINDING": 4,
+        "GUIDANCE": 4
+      },
+      "status": "PARTIAL_REVIEWED_CONTEXT",
+      "strict_follow_up": "Audit Article 35 operative requirements claim-by-claim; preserve Article 22/27 boundaries and do not infer completeness from adjacent notes."
+    },
+    {
+      "note_id": "fundamental-right-impact-assessment-fria",
+      "path": "AI Risk Mitigations/fundamental-right-impact-assessment-fria.md",
+      "binding_count": 8,
+      "reviewed_binding_count": 8,
+      "evidence_refs": 9,
+      "authorities": {
+        "BINDING": 7,
+        "GUIDANCE": 2
+      },
+      "status": "PARTIAL_REVIEWED_CONTEXT",
+      "strict_follow_up": "Audit Article 35 operative requirements claim-by-claim; preserve Article 22/27 boundaries and do not infer completeness from adjacent notes."
+    },
+    {
+      "note_id": "gdpr",
+      "path": "Data & AI Laws/Data Privacy/gdpr.md",
+      "binding_count": 5,
+      "reviewed_binding_count": 5,
+      "evidence_refs": 28,
+      "authorities": {
+        "BINDING": 25,
+        "GUIDANCE": 3
+      },
+      "status": "PARTIAL_REVIEWED_CONTEXT",
+      "strict_follow_up": "Audit Article 35 operative requirements claim-by-claim; preserve Article 22/27 boundaries and do not infer completeness from adjacent notes."
+    },
+    {
+      "note_id": "gdpr-article-22-automated-decision-making",
+      "path": "Data & AI Laws/Data Privacy/gdpr-article-22-automated-decision-making.md",
+      "binding_count": 9,
+      "reviewed_binding_count": 9,
+      "evidence_refs": 7,
+      "authorities": {
+        "BINDING": 7
+      },
+      "status": "PARTIAL_REVIEWED_CONTEXT",
+      "strict_follow_up": "Audit Article 35 operative requirements claim-by-claim; preserve Article 22/27 boundaries and do not infer completeness from adjacent notes."
+    }
+  ],
+  "required_next_release": {
+    "risk_tier": "strict",
+    "requires_source_extraction": true,
+    "requires_evidence_audit": true,
+    "requires_independent_release_review": true,
+    "requires_human_approval": true
+  },
+  "conclusion": "Adjacent DPIA/FRIA and Article 22 material is present, but Article 35 completeness must be established by its own claim-level strict evidence release."
+}

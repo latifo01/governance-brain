@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "review_kind": "local_ingest_lineage_review",
+  "method": "hash-bound review of selected validated Markdown units; no legal conclusion",
+  "reviewer_identity": "codex-security-agents-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "results": [
+    {
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 10",
+      "unit_path": "ingest/SRC-0026/units/p0010.md",
+      "unit_file_sha256": "d1be278acb738a07bc9c1e9b40bf34996aa983b63d9c5227d69a4b36df286c6c",
+      "unit_content_sha256": "1e079b84e0c06cb6adea796baf5670389e5347c345fc5f90af0272fb5090936e",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 11",
+      "unit_path": "ingest/SRC-0026/units/p0011.md",
+      "unit_file_sha256": "4c999333e6d421b9c504f9189e54a7b69131f9dbd000038868328c5701c731d9",
+      "unit_content_sha256": "66c2b463e56b8e23a41fb97fba09c5445f366c2e0bc97abf28da1132ce66d31a",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 12",
+      "unit_path": "ingest/SRC-0026/units/p0012.md",
+      "unit_file_sha256": "1cfba4e0154a048c96ae27e2d0743a858fcdeccc7cdfce4658758a4810b266df",
+      "unit_content_sha256": "436d3b986575a0f607a14600038e62cef6853d18e2042e570ec91350dd18ffbb",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 30",
+      "unit_path": "ingest/SRC-0026/units/p0030.md",
+      "unit_file_sha256": "7e6e578acb7e59935336ba93f7ddafd55f793727dc4e39c0c074c957d8232f3c",
+      "unit_content_sha256": "d6d62eaad8e14d65a6cf0222dbe17fa01d90b3a3e0202979d7bdba1818affdf0",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "locator": "Page 11",
+      "unit_path": "ingest/SRC-0027/units/p0011.md",
+      "unit_file_sha256": "62af7b9b2d37dd3b5410c093ef81c904113d9cc25eb787ea347dc001a80e72bb",
+      "unit_content_sha256": "9dad2c1b3933450b0cb3b6a515f0adaa3650d598a533927bb59f631f3a84dcaf",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "locator": "Page 33",
+      "unit_path": "ingest/SRC-0027/units/p0033.md",
+      "unit_file_sha256": "054d918a5b79cb9e264043f31974db49387db3cf85b4cf85722c1b303e90cfd6",
+      "unit_content_sha256": "e9573b439fb81438f806fd0b6eaf24be71c66ed4a8a59e95b1ab2760f082c6f5",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "locator": "Page 38",
+      "unit_path": "ingest/SRC-0027/units/p0038.md",
+      "unit_file_sha256": "e5c424785ae6f7506c33f80078326c620ce3fb7e17db212706a1789c495a1ab6",
+      "unit_content_sha256": "390515da16b1932836298c26ad0c515ee062459a9cd484366cb68cf40486ba14",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 32",
+      "unit_path": "ingest/SRC-0039/units/p0032.md",
+      "unit_file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+      "unit_content_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 35",
+      "unit_path": "ingest/SRC-0039/units/p0035.md",
+      "unit_file_sha256": "9c378153e475afecb6438fda22c12e7a4d0af0fafe7055b4619a1934f41f2add",
+      "unit_content_sha256": "7c2df886cf5671889f4e54cfd1e5097145ed938a3c5ac78ed1e4c151c06ebcef",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 38",
+      "unit_path": "ingest/SRC-0039/units/p0038.md",
+      "unit_file_sha256": "ff1de0e3693819bc5f7068ef4a1481d154d2891deacc1b5ab16e03374914b60f",
+      "unit_content_sha256": "d3f4eff907102e22e34b18552cff5f1a2cc62a4631a6a9361cff58129a950c2a",
+      "result": "REVIEWED"
+    }
+  ]
+}

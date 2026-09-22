@@ -1,0 +1,28 @@
+{
+  "candidate_sha256": "f41449735fe6a0bdd300c9dcf805922f12dfdf6779411e1e8bcb5aebf3bb816c",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "indexes/data-protection-index.md",
+      "proposal_id": "orphan-navigation-lot-018",
+      "sha256": "dbbbfc2b7f00e41ee1f87e97bdfdca31f6e1d1c43c6525a84e91a7e44589e044"
+    },
+    {
+      "path": "indexes/risk-index.md",
+      "proposal_id": "orphan-navigation-lot-018",
+      "sha256": "8ec129a77dfe65755747372a28f0346a9157194f58f8b6bab08067d5dbc89f50"
+    }
+  ],
+  "materialized_files": 2,
+  "notes": 109,
+  "proposal_ids": [
+    "orphan-navigation-lot-018"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

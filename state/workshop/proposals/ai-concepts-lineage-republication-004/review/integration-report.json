@@ -1,0 +1,48 @@
+{
+  "candidate_sha256": "7b2453ee8c89e1611d18b39909c15d3fa8944881ba220e40c78e8cc95ab5dd70",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "87a57b02277dd8c0381b2fc4a605bd4920e4c8df6c6d623facda2146b9595850"
+  },
+  "files": [
+    {
+      "path": "AI concepts/agentic-ai.md",
+      "proposal_id": "ai-concepts-lineage-republication-004",
+      "sha256": "c2f4f1e8d0623368c1b24c92c732dcac58e0c1a4814edd6d9ab1a21b7fc10325"
+    },
+    {
+      "path": "AI concepts/generative-ai.md",
+      "proposal_id": "ai-concepts-lineage-republication-004",
+      "sha256": "72af38e0e2dd1daf5b13ebc8cd042ce911ab30e9dbb7f005cd9127a798e329b5"
+    },
+    {
+      "path": "AI concepts/gpai-model.md",
+      "proposal_id": "ai-concepts-lineage-republication-004",
+      "sha256": "d5d541d27f112c2122f12e0a034c050738d01add4701aee9b840ee573b0b0209"
+    },
+    {
+      "path": "AI concepts/machine-learning.md",
+      "proposal_id": "ai-concepts-lineage-republication-004",
+      "sha256": "5ce0e160aa684f8df77c4859db507ff1349e94c008830cb9ac7eb9843ec6cb70"
+    },
+    {
+      "path": "AI concepts/predictive-ai.md",
+      "proposal_id": "ai-concepts-lineage-republication-004",
+      "sha256": "1b58a34fa1c921c1cf25aa758b242f9320c69220d4c8d4c4412e695f085fee79"
+    },
+    {
+      "path": "AI concepts/retrieval-augmented-generation.md",
+      "proposal_id": "ai-concepts-lineage-republication-004",
+      "sha256": "d5727fc8b234c68269f603a506fdaa8efd63eab4a80f8c29d93bfc9e2917df2a"
+    }
+  ],
+  "materialized_files": 6,
+  "notes": 136,
+  "proposal_ids": [
+    "ai-concepts-lineage-republication-004"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

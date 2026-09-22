@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "handoff_id": "cdo-private-handoff-20260922",
+  "target": {
+    "host": "github.com",
+    "repository": "latifo01/governance-brain",
+    "visibility": "private"
+  },
+  "authorization": {
+    "status": "APPROVED",
+    "recorded_at": "2026-09-22",
+    "scope": [
+      "sources/**",
+      "ingest/**",
+      "brain wiki/**",
+      "state/**",
+      "dist/**"
+    ],
+    "public_redistribution": "NOT_AUTHORIZED"
+  },
+  "include_roots": [
+    ".agents",
+    ".codex",
+    ".github",
+    ".opencode",
+    ".vscode",
+    "brain wiki",
+    "config",
+    "dist",
+    "docs",
+    "domain_packs",
+    "ingest",
+    "prompts",
+    "proposals",
+    "sources",
+    "src",
+    "state",
+    "tests",
+    "tools"
+  ],
+  "include_files": [
+    ".gitattributes",
+    ".gitignore",
+    ".python-version",
+    "AGENTS.md",
+    "LICENSE",
+    "README.md",
+    "ROADMAP.md",
+    "THIRD_PARTY_NOTICES.md",
+    "WORKSHOP.md",
+    "manuel.md",
+    "opencode.json",
+    "outils.md",
+    "plan.md",
+    "presentation.md",
+    "pyproject.toml",
+    "uv.lock"
+  ],
+  "exclude_paths": [
+    ".git",
+    ".venv",
+    ".pytest_cache",
+    ".pytest_tmp",
+    ".opencode/node_modules",
+    "brain wiki/.obsidian/workspace.json",
+    "state/runs",
+    "state/render_cache",
+    "state/watch",
+    "dist/cdo-handoff"
+  ]
+}

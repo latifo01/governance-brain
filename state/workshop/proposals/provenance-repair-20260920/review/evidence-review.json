@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "proposal_id": "provenance-repair-20260920",
+  "reviewer_identity": "codex-provenance-repair-20260920-independent-reviewer",
+  "reviewed_at": "2026-09-20T00:30:00Z",
+  "evidence_lock_sha256": "46e54cffb998031b065a3d7b2db287561daed61293df10a9b86665d6282c85d5",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "VISUAL_FIDELITY_REVIEWED",
+      "detail": "Five SRC-0009 pages were checked by native-text comparison and embedded-image inspection."
+    },
+    {
+      "severity": "INFO",
+      "code": "LINEAGE_RECHECKED",
+      "detail": "Source, content and unit file hashes remain bound to the original validated Markdown."
+    },
+    {
+      "severity": "WARNING",
+      "code": "FULL_PAGE_RENDERER_UNAVAILABLE",
+      "detail": "The local environment lacked a PDF page renderer; no image-only claim was accepted."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING"
+    }
+  ]
+}

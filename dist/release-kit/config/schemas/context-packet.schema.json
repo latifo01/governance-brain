@@ -1,0 +1,127 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gov360.local/schemas/context-packet.schema.json",
+  "title": "Governance Brain assistant context packet",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "packet_id", "release_id", "query", "project_context",
+    "access_scope", "selection", "items", "citations", "exclusions",
+    "conflicts", "gaps"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "packet_id": {"type": "string", "pattern": "^CTX-[a-f0-9]{16}$"},
+    "release_id": {"type": "string", "minLength": 1},
+    "query": {"type": "string", "minLength": 1},
+    "project_context": {"type": "object"},
+    "access_scope": {"type": "object"},
+    "selection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["token_budget", "estimated_tokens", "candidate_count", "selected_count"],
+      "properties": {
+        "token_budget": {"type": "integer", "minimum": 32},
+        "estimated_tokens": {"type": "integer", "minimum": 0},
+        "candidate_count": {"type": "integer", "minimum": 0},
+        "selected_count": {"type": "integer", "minimum": 0}
+      }
+    },
+    "items": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/item"}
+    },
+    "citations": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/citation"}
+    },
+    "exclusions": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/exclusion"}
+    },
+    "conflicts": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/conflict"}
+    },
+    "gaps": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/gap"}
+    }
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "item": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "item_id", "kind", "title", "text", "status", "authority", "domains",
+        "score", "matched_tokens", "citation_ids", "source_ids", "evidence_refs",
+        "date_status", "evidence_level"
+      ],
+      "properties": {
+        "item_id": {"type": "string", "minLength": 1},
+        "kind": {"enum": ["KNOWLEDGE", "EVIDENCE", "QUESTION", "VAULT", "UNIT"]},
+        "title": {"type": "string"},
+        "text": {"type": "string", "minLength": 1},
+        "status": {"enum": ["PUBLISHED", "APPROVED", "VERIFIED", "VALIDATED", "ACTIVE"]},
+        "authority": {"enum": ["BINDING", "GUIDANCE", "STANDARD", "FRAMEWORK", "DATASET", "RESEARCH", "UNCLASSIFIED"]},
+        "domains": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "score": {"type": "number", "minimum": 0},
+        "matched_tokens": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "citation_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^CIT-[a-f0-9]{16}$"}},
+        "source_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"}},
+        "evidence_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "date_status": {"enum": ["KNOWN", "UNKNOWN"]},
+        "evidence_level": {"enum": ["VERIFIED", "REVIEWED_WITH_VERIFIED_EVIDENCE", "UNVERIFIED_SOURCE_TEXT"]}
+      }
+    },
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["citation_id", "source_id", "source_sha256", "locator", "locator_kind", "unit_content_sha256", "ingest_path", "authority", "source_status"],
+      "properties": {
+        "citation_id": {"type": "string", "pattern": "^CIT-[a-f0-9]{16}$"},
+        "source_id": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
+        "source_sha256": {"$ref": "#/$defs/sha256"},
+        "locator": {"type": "string", "minLength": 1},
+        "locator_kind": {"type": "string", "minLength": 1},
+        "unit_content_sha256": {"$ref": "#/$defs/sha256"},
+        "ingest_path": {"type": "string", "pattern": "^ingest/"},
+        "authority": {"enum": ["BINDING", "GUIDANCE", "STANDARD", "FRAMEWORK", "DATASET", "RESEARCH", "UNCLASSIFIED"]},
+        "source_status": {"type": "string", "minLength": 1}
+      }
+    },
+    "exclusion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_id", "reason"],
+      "properties": {
+        "candidate_id": {"type": "string", "minLength": 1},
+        "reason": {"type": "string", "minLength": 1},
+        "count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "conflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["conflict_id", "status", "domains", "subject_ids", "summary"],
+      "properties": {
+        "conflict_id": {"type": "string", "minLength": 1},
+        "status": {"type": "string", "minLength": 1},
+        "domains": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "subject_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+        "summary": {"type": "string", "minLength": 1}
+      }
+    },
+    "gap": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message", "related_ids"],
+      "properties": {
+        "code": {"type": "string", "minLength": 1},
+        "message": {"type": "string", "minLength": 1},
+        "related_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string"}}
+      }
+    }
+  }
+}

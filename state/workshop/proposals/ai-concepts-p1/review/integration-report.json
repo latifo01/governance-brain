@@ -1,0 +1,64 @@
+{
+  "candidate_sha256": "1d8ef7e74cc49e16faa73efc956820779e6a80ec97ee50f24e4af5939d49a66f",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "87a57b02277dd8c0381b2fc4a605bd4920e4c8df6c6d623facda2146b9595850"
+  },
+  "files": [
+    {
+      "path": "AI concepts/adversarial-machine-learning.md",
+      "proposal_id": "ai-concepts-p0",
+      "sha256": "8226c9291fbdb6431373b8a05c19a97ab10d2360ae67747d2d6da7955d80a273"
+    },
+    {
+      "path": "AI concepts/ai-evaluation-and-tevv.md",
+      "proposal_id": "ai-concepts-p0",
+      "sha256": "4a945ad0f00f29cb2105b19393df406e119eaa7448db8e82140b24a6289d3fd2"
+    },
+    {
+      "path": "AI concepts/ai-lifecycle.md",
+      "proposal_id": "ai-concepts-p0",
+      "sha256": "e0edf6a4c8c3962e05a2e7ed3cdfb3277e28a65d827f96d62a992c721310b05d"
+    },
+    {
+      "path": "AI concepts/ai-robustness-and-reliability.md",
+      "proposal_id": "ai-concepts-p0",
+      "sha256": "c92c340f2161ef852821d1e19836ebf9d5af05e53214659bbd08632221c3f144"
+    },
+    {
+      "path": "AI concepts/explainability-and-interpretability.md",
+      "proposal_id": "ai-concepts-p0",
+      "sha256": "67754e03a23d3567125972c47cf65e6ab36de280c94eba17252078ffd8fefe84"
+    },
+    {
+      "path": "AI concepts/model-and-concept-drift.md",
+      "proposal_id": "ai-concepts-p0",
+      "sha256": "25a78b6c5995b4ca818b1f68dfa31357a851530432dedf6348b12e57c2966966"
+    },
+    {
+      "path": "AI concepts/ai-conformity-assessment.md",
+      "proposal_id": "ai-concepts-p1",
+      "sha256": "ff772c25f0b68178f8a943ffcb27c2fa7f75368591a778b0ba3c3ac7e270bbfe"
+    },
+    {
+      "path": "AI concepts/open-weight-models.md",
+      "proposal_id": "ai-concepts-p1",
+      "sha256": "a8449e21b99eedd63bed74d7cd8149dd6bbe89092de38138e37410691f9c7040"
+    },
+    {
+      "path": "AI concepts/privacy-preserving-ai.md",
+      "proposal_id": "ai-concepts-p1",
+      "sha256": "001f85a187832e8f46520fd49fc6840e2a2fcdbd327be844a351c3aef35d9dcd"
+    }
+  ],
+  "materialized_files": 9,
+  "notes": 145,
+  "proposal_ids": [
+    "ai-concepts-p0",
+    "ai-concepts-p1"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

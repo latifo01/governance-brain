@@ -1,0 +1,593 @@
+{
+ "schema_version": 1,
+ "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+ "stage": "EVIDENCE_AUDIT",
+ "audit_kind": "AUTHORITY_REGENERATION",
+ "status": "AUDITED",
+ "review_date": "2026-09-14",
+ "scope": "Regeneration of unit-level authority fields for the lot-012 rows flagged W-1/W-2/I-1 (SRC-0011 pages 156-165, 175, 179-181) and verification of the two cross-page successor candidates; lot-012 artifacts are read-only lineage.",
+ "source_id": "SRC-0011",
+ "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+ "amending_source_id": "SRC-0043",
+ "amending_source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+ "assignment_sha256": "7582e3978ad2fcdde322d83b1b104a6a80b96e1e3aa769aa46bbcfeb21c83593",
+ "input_receipts": {
+  "lot-012/manifest.json": "4d6d10371f8d5704fb7801b7f22c5b48dc17d7a637c4c37e2a6ad31caab53837",
+  "lot-012/evidence/verified-evidence.jsonl": "0d0ee7c4485ccda22f110a4da12fd6768e883511e03e0426d0c37f480bab0dab",
+  "lot-012/evidence/SRC-0011-audit.json": "404920cbfaa7d7a9968a7c9f2529c313743c699316ee26cd251b5429fc26ca08",
+  "extractions/SRC-0011-crosspage-reextraction.json": "e10f764eae6fd73bd03e5fe60f29a4481d741b5b93ffa8e3d1fbcd67f0764757",
+  "assignments.json": "3f9bf34c45968b93a1872937b22b376e50458f26989bb9285a9b1b31b1b443f0"
+ },
+ "authority_verdict": "BINDING",
+ "authority_basis": "SRC-0011 is classified BINDING at source level (event CLS-15259D7CE5986ADEA4F8) and SRC-0043 (event CLS-BDD96D5F37B77E8CD3C4) is the reviewed binding amending act. Regenerated unit-level fields agree with those classifications and with the lot-012 currentness resolution receipts. Three rows surfaced amendment interactions and are adjudicated explicitly (EV-4B613128BC8B45B8FE32 superseded in part; EV-52FCFF5AE12D252FC7D2 and EV-6013938AC3D71A0D36EC regenerated only in combination with the amended provisions). No row was silently stamped.",
+ "coverage": {
+  "regenerated_rows": 39,
+  "new_cross_page_candidates": 2
+ },
+ "verdicts": [
+  {
+   "evidence_ref": "EV-1E1596EF08D31CB00343",
+   "locator": "Page 175",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING_COMBINATION_REVIEWED",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: matches resolved siblings S11-P0174-03/S11-P0175-02 on the same unit hash."
+  },
+  {
+   "evidence_ref": "EV-06A2171C7E6E3CBB707F",
+   "locator": "Page 175",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING_COMBINATION_REVIEWED",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: matches resolved siblings on the same unit hash; normativity remains context."
+  },
+  {
+   "evidence_ref": "EV-EC50D631272D235C9FCA",
+   "locator": "Page 179",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING_COMBINATION_REVIEWED",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: matches resolved sibling EV-E0EFE312E5D1848C22BB on the same page-179 unit hash."
+  },
+  {
+   "evidence_ref": "EV-3AFB826E9C884A3C4E0F",
+   "locator": "Page 179",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING_COMBINATION_REVIEWED",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-1: complete lineage in successor candidate S11A-P0179-180-01 (Pages 179-180)."
+  },
+  {
+   "evidence_ref": "EV-816A08EA0F494702D35B",
+   "locator": "Page 181",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING_COMBINATION_REVIEWED",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-1: profiling override; complete lineage in successor candidate S11A-P0180-181-01."
+  },
+  {
+   "evidence_ref": "EV-0290ED06EE7B2D0A1DF9",
+   "locator": "Page 181",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING_COMBINATION_REVIEWED",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-1: Commission delegated-act power at Article 6(6)."
+  },
+  {
+   "evidence_ref": "EV-0C8A1E341D9AC0B039F3",
+   "locator": "Page 159",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "I-1: SRC-0043 audit records the AI-system definition as not reproduced or amended (AI_SYSTEM_DEFINITION_NOT_REPRODUCED)."
+  },
+  {
+   "evidence_ref": "EV-4B613128BC8B45B8FE32",
+   "locator": "Page 157",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "SUPERSEDED_IN_PART_BY_AMENDING_ACT",
+    "usable_for_binding": false
+   },
+   "verdict": "SUPERSEDED_IN_PART",
+   "note": "CONFLICT adjudicated: the Article 2(2) enumeration in the base row (Articles 102 to 109 and Article 112) is superseded by the amended enumeration (Article 6(1), Article 60a and Articles 102 to 112, SRC-0043 Page 15, EV-E580D7991904512B4BD8). The base enumeration must not be cited as current; usable_for_binding remains false for this row and the amended row governs."
+  },
+  {
+   "evidence_ref": "EV-52FCFF5AE12D252FC7D2",
+   "locator": "Page 158",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING_COMBINATION_REVIEWED",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "CONFLICT adjudicated: the claim is unchanged by amended Article 2(7) (SRC-0043 Page 15, EV-4BAD95FD37AF4E580A5B, without prejudice to Articles 4a and 59); the base qualifier cross-reference to Article 10(5) is superseded by Article 4a. Regenerated in combination with the amended provision."
+  },
+  {
+   "evidence_ref": "EV-6013938AC3D71A0D36EC",
+   "locator": "Page 161",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING_COMBINATION_REVIEWED",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "CONFLICT adjudicated: the safety-component definition was amended by SRC-0043 Page 16 (EV-59F047615588CBAAF770, operative). The base definition is usable only in combination with the amended definition; the amended row governs."
+  },
+  {
+   "evidence_ref": "EV-BC83181CAF22832282E4",
+   "locator": "Page 157",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: Article 2(3) military, defence and national-security exclusion; SRC-0043 audit records no change to Article 2(3). Confirms the published phrasing in ai-act-prohibited-practices."
+  },
+  {
+   "evidence_ref": "EV-563E637955D79E552070",
+   "locator": "Page 159",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: Article 2(12) free and open-source exclusion; SRC-0043 audit records no change to Article 2(12)."
+  },
+  {
+   "evidence_ref": "EV-72A6D8766E68ACCE8A6F",
+   "locator": "Page 156",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-61C72E9C0E07D8DAA3A6",
+   "locator": "Page 157",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-12E26082EDCA93FE4E3E",
+   "locator": "Page 158",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-1D79302BB03CFD563EED",
+   "locator": "Page 158",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-AA19BC074511A36C2BFB",
+   "locator": "Page 159",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-AC76D5690286BDD88F0D",
+   "locator": "Page 159",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-EE384BB9AFCB17AA92D6",
+   "locator": "Page 159",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-0567C6B3D9D61DBAA650",
+   "locator": "Page 160",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-C59BC40BAC510D8DA20A",
+   "locator": "Page 160",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-E39E94973C474D4A0335",
+   "locator": "Page 160",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-F12609A0036544EBBF8C",
+   "locator": "Page 160",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-04F5AE4515BAEA6CC1E0",
+   "locator": "Page 161",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-54D514B6B7FED198DB46",
+   "locator": "Page 161",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-A92854883D61AA225BFE",
+   "locator": "Page 161",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-6B3DB8FBA4EFE9D201DD",
+   "locator": "Page 162",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-A38E01B855EC920E3227",
+   "locator": "Page 162",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-3396D63C0D4BDC6700B3",
+   "locator": "Page 163",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-B445A3A92E83404F2EBE",
+   "locator": "Page 163",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-219C611DDF7DAB234354",
+   "locator": "Page 164",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-8414CEAD3FF95E6818E1",
+   "locator": "Page 164",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-9497C575D64A3C578F1E",
+   "locator": "Page 164",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-9DE7050B4F8896521F87",
+   "locator": "Page 164",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-08B66569BD47183A76E4",
+   "locator": "Page 165",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-200269698360F9E0A89F",
+   "locator": "Page 165",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-9FC01CE1163C6796D353",
+   "locator": "Page 165",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-A912C056F4CF8162AE3B",
+   "locator": "Page 165",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-F49C7321194FA63331BC",
+   "locator": "Page 165",
+   "lot_012_fields": {
+    "source_authority": "UNCERTAIN",
+    "usable_for_binding": false
+   },
+   "regenerated_fields": {
+    "source_authority": "BINDING",
+    "usable_for_binding": true
+   },
+   "verdict": "REGENERATED",
+   "note": "W-2: pages 156-165 Article 2/Article 3 unit; source-level BINDING classification; SRC-0043 audit records no amendment to this provision."
+  },
+  {
+   "evidence_ref": "EV-CEB2789CF4466DAF1051",
+   "candidate_id": "S11A-P0179-180-01",
+   "locator": "Pages 179-180",
+   "verdict": "EXTRACTED_AND_VERIFIED",
+   "note": "Cross-page lineage complete (lineage_units); consistent with the amended Article 6 provisions and route-specific application dates."
+  },
+  {
+   "evidence_ref": "EV-18236EA4E04B763B5DE0",
+   "candidate_id": "S11A-P0180-181-01",
+   "locator": "Pages 180-181",
+   "verdict": "EXTRACTED_AND_VERIFIED",
+   "note": "Cross-page lineage complete (lineage_units); consistent with the amended Article 6 provisions and route-specific application dates."
+  }
+ ],
+ "unresolved_items": [],
+ "warnings": [
+  "EV-4B613128BC8B45B8FE32: the base Article 2(2) enumeration is superseded; use the amended enumeration (SRC-0043 Page 15). No published vault note relies on the superseded wording."
+ ]
+}

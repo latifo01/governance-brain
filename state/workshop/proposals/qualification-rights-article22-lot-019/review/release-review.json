@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "4df2683bbe3353551bcb0269c38785ee66b9a281bd69255ffe47b02d8e9fd26c",
+  "reviewer_identity": "codex-qualification-rights-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The strict release resolves the four locked BINDING evidence references through the independently reviewed Article 22 governance receipt.",
+      "evidence_lock_sha256": "7bb78c27901ee647596045c24b41ff0375c39d3ea583850955a347549c97ee77"
+    },
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "The deterministic preview is valid for one UPDATE note and one file to write; the active vault remains at 109 notes after integration.",
+      "candidate_sha256": "4df2683bbe3353551bcb0269c38785ee66b9a281bd69255ffe47b02d8e9fd26c",
+      "files": 1,
+      "would_write": 1
+    },
+    {
+      "severity": "INFO",
+      "code": "SCOPE_CONFIRMED",
+      "detail": "The release changes only the declared Article 22 note and does not add questions, IDs, taxonomy, paths or contract changes.",
+      "changes": {"ADD": 0, "UPDATE": 1, "SUPERSEDE": 0}
+    },
+    {
+      "severity": "WARNING",
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "detail": "Current legal currency remains unknown and must be considered by the human approver.",
+      "status": "OPEN"
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "Approval is required for this exact candidate before integration.",
+      "approval_file": "state/workshop/proposals/qualification-rights-article22-lot-019/review/approval.md"
+    }
+  ]
+}

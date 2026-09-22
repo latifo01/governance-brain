@@ -1,0 +1,29 @@
+{
+  "author_identity": "codex-governance-lifecycle-domain-builder",
+  "candidate_sha256": "3fee3d9c002b5aedbacf2577cfbbc91a7689a08e2e00f75b4e7800e743b5df17",
+  "changes": {
+    "ADD": [
+      "ai-governance-accountability"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "GOVERNANCE_ACCOUNTABILITY",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/ai-governance-accountability.md"
+  ],
+  "proposal_id": "governance-lifecycle-lot-020",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "governance-accountability-lifecycle"
+  ],
+  "status": "INTEGRATED"
+}

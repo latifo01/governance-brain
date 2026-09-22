@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "stage": "INDEPENDENT_CURRENTNESS_REVIEW",
+  "verdict": "EVIDENCE_READY",
+  "review_date": "2026-09-19",
+  "review_scope": {
+    "base_assignment_path": "state/workshop/proposals/roadmap-article35-strict-20260919/analysis/currentness-assignment.json",
+    "base_assignment_sha256": "8c8ab862fa27abd2b99e2174df40a2957b97618500b0cf090dcb153fddfcef2b",
+    "base_extraction_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/extraction.json",
+    "base_extraction_sha256": "aa2e3a107355a726e9857bc73b066078b66716975b30237d20d649ca0bac3fd5",
+    "base_evidence_audit_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/evidence-audit.json",
+    "base_evidence_audit_sha256": "6caa2427bceb892add423c1e18b7cccc29d2a55cb2bd5bc0785d133c541a17f8",
+    "addendum_assignment_path": "state/workshop/proposals/roadmap-article35-strict-20260919/analysis/currentness-addendum-assignment.json",
+    "addendum_assignment_sha256": "4950907ba38ff62c4ca3f55ec01d5e70faafaeb0e2285a10da16ff5e881b33bb",
+    "addendum_extraction_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/extraction-currentness-addendum.json",
+    "addendum_extraction_sha256": "c06a0e0ff64a68378fb3bfe560ed68abdc3a6da3482dc9b5a357a9e18f9252d2",
+    "currentness_resolution_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/audits/article35-currentness-resolution.json",
+    "currentness_resolution_sha256": "8f8b769e4e32cd8fe7ca4412e3a76c41189638ca266aefaed9b1b867642a7be8",
+    "candidate_count_reviewed": 15,
+    "assigned_addendum_units": 2,
+    "article26_qualifier_assignment_path": "state/workshop/proposals/roadmap-article35-strict-20260919/analysis/article26-qualifier-assignment.json",
+    "article26_qualifier_assignment_sha256": "949c6ff45da04f31b6d6a236bc15d109da5f7e6369131c5c22a39a24dcaa7531",
+    "article26_qualifier_extraction_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/extraction-article26-qualifier.json",
+    "article26_qualifier_extraction_sha256": "0a04be4db5ff644794a7407e454a4675320fb754b271be5d75eaa23a09249883",
+    "assigned_article26_qualifier_units": 2,
+    "gdpr_currentness_assignment_path": "state/workshop/proposals/roadmap-article35-strict-20260919/analysis/gdpr-currentness-addendum-assignment.json",
+    "gdpr_currentness_assignment_sha256": "5019fa15ec0bd866328fa91c2c285325638fce35da768b03453f060e8681eed4",
+    "gdpr_currentness_addendum_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/audits/gdpr-currentness-addendum.json",
+    "gdpr_currentness_addendum_sha256": "8e27cf75d10bdfe1305595a88401136ca14820b40b5b918a0b069e5faad3dd2c",
+    "currentness_resolution_v2_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/audits/article35-currentness-resolution-v2.json",
+    "currentness_resolution_v2_sha256": "5d235fe6869581242ba0953b5bf5eceb91b17e3b9fb82db8587d02ab0889961d",
+    "src0047_document_path": "ingest/SRC-0047/document.json",
+    "src0047_document_sha256": "92cbba8df5effa3a99d0d967a603e95fb71b0a21c494ff2408dc3076ae8c2c31",
+    "source_manifest_sha256": "873176622eeee6d33a3e373dda4cc267f3275cc8aca4d536f3d0f78822739e8a"
+  },
+  "integrity_review": {
+    "assignment_coverage": "COMPLETE",
+    "addendum_assignment_matches_extraction": true,
+    "locator_review": "PASS",
+    "unit_hash_review": "PASS",
+    "source_hash_receipts": "PASS",
+    "result": "All requested GDPR currentness receipts match their stated hashes. The six SRC-0010 Article 35/36/39 unit file hashes match the extraction and the currentness assignment. SRC-0047 document metadata and the two scoped units match their receipt hashes.",
+    "article26_assignment_matches_extraction": true,
+    "article26_unit_hash_review": "PASS",
+    "gdpr_currentness_receipt_hash": "PASS",
+    "resolution_v2_hash": "PASS",
+    "gdpr_assignment_hash": "PASS",
+    "gdpr_local_unit_hashes": "PASS",
+    "src0047_document_hash": "PASS"
+  },
+  "unit_hash_checks": [
+    {
+      "source_id": "SRC-0043",
+      "locator": "Page 20",
+      "unit_path": "ingest/SRC-0043/units/p0020.md",
+      "expected_unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38",
+      "actual_unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38",
+      "result": "PASS"
+    },
+    {
+      "source_id": "SRC-0043",
+      "locator": "Page 35",
+      "unit_path": "ingest/SRC-0043/units/p0035.md",
+      "expected_unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "actual_unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "result": "PASS"
+    }
+  ],
+  "authority_review": {
+    "src_0010": "BINDING_CURRENT_CONSOLIDATED_AS_OF_2026-09-19_RETRIEVAL",
+    "src_0011": "BINDING_BASE_TEXT_ARTICLE_26_QUALIFIED_AND_ARTICLE_27_BASE_WORDING_SUPERSEDED",
+    "src_0022": "GUIDANCE_CONTEXT_ONLY",
+    "src_0043": "BINDING_AMENDING_ACT",
+    "src_0043_audit_sha256": "661be71e60bdb8a8cfd7cbcdedf160f90edf3563c540c08b1a50c7226a52b570",
+    "src_0043_fidelity_sha256": "e2286cbb68903e5e04fe947be230f1e5454d6f23991e214fe32d680d7d31dbdc",
+    "basis": "The reviewed SRC-0043 audit identifies the amending act as binding and the fidelity receipt covers all 41 pages, including the operative Pages 20 and 35 and entry-into-force Page 41. The amending act is not a complete consolidated AI Act text.",
+    "source_manifest_sha256": "873176622eeee6d33a3e373dda4cc267f3275cc8aca4d536f3d0f78822739e8a",
+    "gdpr_currentness_addendum_sha256": "8e27cf75d10bdfe1305595a88401136ca14820b40b5b918a0b069e5faad3dd2c",
+    "currentness_resolution_v2_sha256": "5d235fe6869581242ba0953b5bf5eceb91b17e3b9fb82db8587d02ab0889961d",
+    "gdpr_basis": "The official EUR-Lex currentness receipt reports the 04/05/2016 consolidated version and an exact binary duplicate of SRC-0010. The local validated SRC-0010 units therefore remain the evidence-bearing text for the cited Articles 35, 36 and 39 as of the retrieval date."
+  },
+  "candidate_review": [
+    {
+      "candidate_id": "art35-src-0010-p0053-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "CURRENT_CONSOLIDATED_AS_OF_2026-09-19",
+      "usable_for_binding": true,
+      "limitation": "The Article 35(1) paraphrase and qualifier are supported. It is usable as bounded current binding evidence as of the 2026-09-19 EUR-Lex retrieval date; future amendments, corrigenda and national procedural rules remain outside this receipt."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0053-ec-002",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "CURRENT_CONSOLIDATED_AS_OF_2026-09-19",
+      "usable_for_binding": true,
+      "limitation": "The Article 35(2)-(3) paraphrase is bounded and supported. It is usable as bounded current binding evidence as of the 2026-09-19 EUR-Lex retrieval date; future amendments, corrigenda and national procedural rules remain outside this receipt."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0054-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "CURRENT_CONSOLIDATED_AS_OF_2026-09-19",
+      "usable_for_binding": true,
+      "limitation": "The Article 35(7) minimum-content paraphrase is supported. It is usable as bounded current binding evidence as of the 2026-09-19 EUR-Lex retrieval date; future amendments, corrigenda and national procedural rules remain outside this receipt."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0054-ec-002",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "CURRENT_CONSOLIDATED_AS_OF_2026-09-19",
+      "usable_for_binding": true,
+      "limitation": "The appropriateness and changed-risk qualifiers are preserved. It is usable as bounded current binding evidence as of the 2026-09-19 EUR-Lex retrieval date; future amendments, corrigenda and national procedural rules remain outside this receipt."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0055-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "CURRENT_CONSOLIDATED_AS_OF_2026-09-19",
+      "usable_for_binding": true,
+      "limitation": "The Article 36 prior-consultation boundary is preserved. It is usable as bounded current binding evidence as of the 2026-09-19 EUR-Lex retrieval date; future amendments, corrigenda and national procedural rules remain outside this receipt."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0056-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "CURRENT_CONSOLIDATED_AS_OF_2026-09-19",
+      "usable_for_binding": true,
+      "limitation": "The Article 39 DPO-task boundary is preserved. It is usable as bounded current binding evidence as of the 2026-09-19 EUR-Lex retrieval date; future amendments, corrigenda and national procedural rules remain outside this receipt."
+    },
+    {
+      "candidate_id": "art35-src-0011-p0220-ec-001",
+      "result": "REJECTED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "REPLACED_BY_QUALIFIED_ADDENDUM",
+      "usable_for_binding": false,
+      "limitation": "The unqualified base candidate is rejected for binding release use; the qualified Article 26(9)+Article 113 addendum is the current formulation.",
+      "reason_code": "INCOMPLETE_TEMPORAL_SCOPE"
+    },
+    {
+      "candidate_id": "art35-src-0011-p0224-ec-001",
+      "result": "REJECTED",
+      "authority": "SUPERSEDED_BINDING_TEXT",
+      "support": "SUPPORTED_AS_BASE_TEXT_ONLY",
+      "currentness": "SUPERSEDED",
+      "usable_for_binding": false,
+      "limitation": "SRC-0043 Page 20 replaces Article 27(4) and (5); the earlier SRC-0011 Page 224 wording must not be published as current text."
+    },
+    {
+      "candidate_id": "art35-src-0022-p0183-ec-001",
+      "result": "SUPPORTED_AS_CONTEXT_ONLY",
+      "authority": "NON_BINDING_CONTEXT",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "NOT_A_LEGAL_CURRENTNESS_SOURCE",
+      "usable_for_binding": false,
+      "limitation": "Educational material may orient the relationship among DPIA, FRIA and HRIA, but cannot resolve GDPR or AI Act currentness or establish an obligation."
+    },
+    {
+      "candidate_id": "art35-src-0022-p0184-ec-001",
+      "result": "SUPPORTED_AS_CONTEXT_ONLY",
+      "authority": "NON_BINDING_CONTEXT",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "NOT_A_LEGAL_CURRENTNESS_SOURCE",
+      "usable_for_binding": false,
+      "limitation": "Educational examples of FRIA elements cannot establish legally required content or resolve currentness."
+    },
+    {
+      "candidate_id": "art35-addendum-src-0043-p0020-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_AMENDING_ACT",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "AMENDED_TEXT_IN_FORCE_WITH_TEMPORAL_QUALIFIER",
+      "usable_for_binding": true,
+      "limitation": "This amended Article 27(4) candidate supersedes the base wording and may support binding use only when the Article 113 route and applicability qualifier are retained."
+    },
+    {
+      "candidate_id": "art35-addendum-src-0043-p0020-ec-002",
+      "result": "VERIFIED",
+      "authority": "BINDING_AMENDING_ACT",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "AMENDED_TEXT_IN_FORCE_WITH_TEMPORAL_QUALIFIER",
+      "usable_for_binding": true,
+      "limitation": "This amended Article 27(5) candidate supersedes the base wording and may support binding use only when the Article 113 route and applicability qualifier are retained."
+    },
+    {
+      "candidate_id": "art35-addendum-src-0043-p0035-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_AMENDING_ACT",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "OPERATIVE_SCHEDULE",
+      "usable_for_binding": true,
+      "limitation": "The dates are route-dependent and include the stated Article 6(5) exception; they are not a universal application date for every AI system."
+    },
+    {
+      "candidate_id": "art35-article26-qualified-src-0011-p0220-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_BASE_ACT_WITH_AMENDMENT_QUALIFIER",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "RESOLVED_WITH_ROUTE_QUALIFIER",
+      "usable_for_binding": true,
+      "limitation": "Use only together with the Article 113 schedule candidate; the wording remains qualified by where applicable and does not establish a universal DPIA obligation."
+    },
+    {
+      "candidate_id": "art35-article26-qualified-src-0043-p0035-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_AMENDING_ACT",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "OPERATIVE_ROUTE_DEPENDENT_SCHEDULE",
+      "usable_for_binding": true,
+      "limitation": "The 2 December 2027 and 2 August 2028 dates depend on the Article 6(2)/Annex III or Article 6(1)/Annex I route and preserve the Article 6(5) exception."
+    }
+  ],
+  "currentness_findings": [
+    {
+      "target": "GDPR Articles 35, 36 and 39",
+      "result": "RESOLVED_WITH_OFFICIAL_CONSOLIDATED_DUPLICATE",
+      "evidence": [
+        "SRC-0010 Pages 53-56",
+        "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/audits/gdpr-currentness-addendum.json"
+      ],
+      "finding": "The official EUR-Lex current page check is retrieval-date bounded to 2026-09-19, and the downloaded PDF is byte-identical to SRC-0010. The six cited GDPR candidates are verified for binding use with their original applicability qualifiers."
+    },
+    {
+      "target": "SRC-0047 separation",
+      "result": "RESOLVED_BY_EXCLUSION",
+      "evidence": [
+        "SRC-0047 Page 1",
+        "SRC-0047 Page 27"
+      ],
+      "finding": "The procedural regulation is kept separate. Its Article 35/36 headings are not conflated with GDPR Articles 35/36, and SRC-0047 is excluded from the evidence-lock."
+    },
+    {
+      "target": "AI Act Article 26(9)",
+      "result": "RESOLVED_WITH_ROUTE_QUALIFIER",
+      "evidence": [
+        "SRC-0011 Page 220",
+        "SRC-0043 Page 35",
+        "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/extraction-article26-qualifier.json"
+      ],
+      "finding": "The qualified addendum combines unchanged Article 26(9) wording with the amended Article 113 schedule. The original unqualified candidate remains rejected for binding release use."
+    },
+    {
+      "target": "AI Act Article 27(4)-(5)",
+      "result": "RESOLVED_WITH_SUPERSESSION",
+      "evidence": [
+        "SRC-0043 Page 20"
+      ],
+      "finding": "The amended Article 27 wording supersedes the earlier SRC-0011 Page 224 candidate and is retained with the Article 113 temporal qualifier."
+    }
+  ],
+  "blockers": [],
+  "required_resolution": [
+    "Assemble the strict evidence-lock from only the verified candidates and the qualified Article 26/27 formulations.",
+    "Exclude the rejected unqualified Article 26 candidate, the superseded Article 27 candidate and all SRC-0047 evidence.",
+    "Preserve retrieval-date, route-dependent, applicability and future-amendment limitations in the evidence-lock.",
+    "Obtain the configured human approval before any future-vault or active-vault publication."
+  ],
+  "warnings": [
+    "This review uses validated Markdown units and hash-bound receipts; no source original was read.",
+    "GDPR currentness is bounded to the official EUR-Lex retrieval date 2026-09-19. Future amendments, corrigenda and national procedural rules remain outside the conclusion.",
+    "SRC-0047 Page 1 remains marked REVIEW_REQUIRED for visual review, so SRC-0047 is excluded entirely from the evidence-lock; its Page 27 scope separation is retained as a boundary check.",
+    "The amending act must be combined deterministically with the reviewed base AI Act text; it is not a consolidated regulation.",
+    "This verdict is evidence-lock readiness only, not legal advice, human approval or publication approval.",
+    "No source, ingest unit, vault note, index or prior receipt was modified by this review."
+  ],
+  "article26_qualifier_unit_hash_checks": [
+    {
+      "source_id": "SRC-0011",
+      "locator": "Page 220",
+      "unit_path": "ingest/SRC-0011/units/p0220.md",
+      "expected_unit_file_sha256": "f0ba15053d06d6a000f5e018964f5a6aab23491633837e0b5ce8722f0a49eeb8",
+      "actual_unit_file_sha256": "f0ba15053d06d6a000f5e018964f5a6aab23491633837e0b5ce8722f0a49eeb8",
+      "result": "PASS"
+    },
+    {
+      "source_id": "SRC-0043",
+      "locator": "Page 35",
+      "unit_path": "ingest/SRC-0043/units/p0035.md",
+      "expected_unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "actual_unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "result": "PASS"
+    }
+  ],
+  "superseding_receipts": {
+    "article26_qualifier_assignment_sha256": "949c6ff45da04f31b6d6a236bc15d109da5f7e6369131c5c22a39a24dcaa7531",
+    "article26_qualifier_extraction_sha256": "0a04be4db5ff644794a7407e454a4675320fb754b271be5d75eaa23a09249883",
+    "effect": "RESOLVES_GDPR_CURRENTNESS_BLOCKER_FOR_CITED_ARTICLES_AS_OF_2026-09-19",
+    "remaining_release_blocker": "NONE_FOR_EVIDENCE_LOCK_ASSEMBLY",
+    "gdpr_currentness_addendum_sha256": "8e27cf75d10bdfe1305595a88401136ca14820b40b5b918a0b069e5faad3dd2c",
+    "article35_currentness_resolution_v2_sha256": "5d235fe6869581242ba0953b5bf5eceb91b17e3b9fb82db8587d02ab0889961d"
+  },
+  "src0047_separation_review": {
+    "result": "PASS_WITH_EXPLICIT_EXCLUSION",
+    "source_id": "SRC-0047",
+    "source_sha256": "fbb100e32f32f524351aef43c2b64b98c67dbb795f3ff53dec8e97af8ec3a031",
+    "document_path": "ingest/SRC-0047/document.json",
+    "document_sha256": "92cbba8df5effa3a99d0d967a603e95fb71b0a21c494ff2408dc3076ae8c2c31",
+    "scoped_units": [
+      {
+        "path": "ingest/SRC-0047/units/p0001.md",
+        "file_sha256": "12af57eb04aed331515a260456631302eaca62387f514a8e2ec60bc8866fa44d",
+        "expected_file_sha256": "12af57eb04aed331515a260456631302eaca62387f514a8e2ec60bc8866fa44d",
+        "visual_review": "REVIEW_REQUIRED",
+        "use": "identity/context only"
+      },
+      {
+        "path": "ingest/SRC-0047/units/p0027.md",
+        "file_sha256": "6e5dbd3690cfe54005ce776909b7591d376cc0aeaff52737afdafa08d4e00ff0",
+        "expected_file_sha256": "6e5dbd3690cfe54005ce776909b7591d376cc0aeaff52737afdafa08d4e00ff0",
+        "visual_review": "NONE",
+        "use": "scope separation"
+      }
+    ],
+    "finding": "SRC-0047 is a separate procedural regulation. Its Article 35 and Article 36 are provisions of that regulation and are excluded from the wording and currentness of GDPR Articles 35, 36 and 39. SRC-0047 supplies no evidence for the Article 35 release.",
+    "use_boundary": "EXCLUDED_FROM_EVIDENCE_LOCK"
+  },
+  "evidence_lock_readiness": "READY_FOR_EVIDENCE_LOCK_ASSEMBLY",
+  "readiness_boundary": "This verdict authorises deterministic evidence-lock assembly only. It is not human approval, publication approval or a vault integration decision."
+}

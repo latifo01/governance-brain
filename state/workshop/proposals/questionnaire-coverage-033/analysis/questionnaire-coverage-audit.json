@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "proposal_id": "questionnaire-coverage-033",
+  "scope": "Questionnaire coverage inventory only; no active question changes",
+  "question_count": 43,
+  "pillar_count": 15,
+  "questionnaire_registry_sha256": "27ad1eb2720206bd2c6b3dcbd99420ec64a127afdb21af61810a17c6c7eb11eb",
+  "coverage_matrix_sha256": "368c56204f8415aae1c9b821d5112d04bfa1699b6940aec2d84ddcafd28dd67d",
+  "pillars": [
+    {
+      "pillar_id": "ai-security",
+      "cells": 10,
+      "question_count": 29,
+      "question_ids": [
+        "aud-001-independent-ai-assurance",
+        "core-006-generative-capability",
+        "core-007-agentic-capability",
+        "core-008-users-affected-people",
+        "core-011-prohibited-practice-screening",
+        "core-013-high-risk-ai-classification",
+        "gov-003-incident-and-abnormal-behaviour-records",
+        "gov-006-societal-impact-feedback",
+        "gov-007-third-party-ai-assurance",
+        "legal-001-ai-act-classification-record",
+        "legal-002-fria-trigger",
+        "legal-003-dpia-ai-processing",
+        "legal-004-automated-decision-safeguards",
+        "ori-001-ai-incident-response-playbook",
+        "ori-002-recovery-validation-and-lessons-learned",
+        "risk-001-model-validation-evidence",
+        "risk-002-backtesting-design",
+        "risk-003-model-monitoring-response",
+        "risk-004-model-documentation-completeness",
+        "risk-005-prompt-injection-threat-model",
+        "risk-006-guardrail-placement",
+        "risk-007-red-team-remediation",
+        "risk-008-human-oversight-authority",
+        "risk-009-misinformation-overreliance",
+        "risk-010-sensitive-data-disclosure-surfaces",
+        "risk-011-data-quality-evaluation",
+        "risk-012-ai-supply-chain-inventory",
+        "risk-013-agent-identity-and-access",
+        "risk-014-mcp-tool-governance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "ai-strategy-value",
+      "cells": 10,
+      "question_count": 35,
+      "question_ids": [
+        "aud-002-assurance-finding-closure",
+        "core-001-business-purpose",
+        "core-002-accountable-owner",
+        "core-003-ai-system-determination",
+        "core-004-system-boundary",
+        "core-005-predictive-capability",
+        "core-006-generative-capability",
+        "core-007-agentic-capability",
+        "core-008-users-affected-people",
+        "core-009-personal-data-involvement",
+        "core-010-eu-ai-act-scope",
+        "core-011-prohibited-practice-screening",
+        "core-012-automated-decision-trigger",
+        "core-013-high-risk-ai-classification",
+        "gov-002-lifecycle-change-reassessment",
+        "gov-004-governance-documentation-update-triggers",
+        "legal-001-ai-act-classification-record",
+        "legal-002-fria-trigger",
+        "legal-003-dpia-ai-processing",
+        "legal-004-automated-decision-safeguards",
+        "legal-005-data-subject-rights-readiness",
+        "ori-001-ai-incident-response-playbook",
+        "risk-001-model-validation-evidence",
+        "risk-002-backtesting-design",
+        "risk-003-model-monitoring-response",
+        "risk-004-model-documentation-completeness",
+        "risk-005-prompt-injection-threat-model",
+        "risk-006-guardrail-placement",
+        "risk-007-red-team-remediation",
+        "risk-008-human-oversight-authority",
+        "risk-009-misinformation-overreliance",
+        "risk-010-sensitive-data-disclosure-surfaces",
+        "risk-011-data-quality-evaluation",
+        "risk-012-ai-supply-chain-inventory",
+        "risk-014-mcp-tool-governance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "audit-assurance",
+      "cells": 10,
+      "question_count": 4,
+      "question_ids": [
+        "aud-001-independent-ai-assurance",
+        "aud-002-assurance-finding-closure",
+        "gov-004-governance-documentation-update-triggers",
+        "gov-007-third-party-ai-assurance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "data-governance-quality",
+      "cells": 10,
+      "question_count": 36,
+      "question_ids": [
+        "aud-001-independent-ai-assurance",
+        "core-001-business-purpose",
+        "core-002-accountable-owner",
+        "core-003-ai-system-determination",
+        "core-004-system-boundary",
+        "core-005-predictive-capability",
+        "core-006-generative-capability",
+        "core-007-agentic-capability",
+        "core-008-users-affected-people",
+        "core-009-personal-data-involvement",
+        "core-010-eu-ai-act-scope",
+        "core-011-prohibited-practice-screening",
+        "core-012-automated-decision-trigger",
+        "core-013-high-risk-ai-classification",
+        "gov-003-incident-and-abnormal-behaviour-records",
+        "gov-006-societal-impact-feedback",
+        "legal-001-ai-act-classification-record",
+        "legal-002-fria-trigger",
+        "legal-003-dpia-ai-processing",
+        "legal-004-automated-decision-safeguards",
+        "legal-005-data-subject-rights-readiness",
+        "ori-002-recovery-validation-and-lessons-learned",
+        "risk-001-model-validation-evidence",
+        "risk-002-backtesting-design",
+        "risk-003-model-monitoring-response",
+        "risk-004-model-documentation-completeness",
+        "risk-005-prompt-injection-threat-model",
+        "risk-006-guardrail-placement",
+        "risk-007-red-team-remediation",
+        "risk-008-human-oversight-authority",
+        "risk-009-misinformation-overreliance",
+        "risk-010-sensitive-data-disclosure-surfaces",
+        "risk-011-data-quality-evaluation",
+        "risk-012-ai-supply-chain-inventory",
+        "risk-013-agent-identity-and-access",
+        "risk-014-mcp-tool-governance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "data-protection",
+      "cells": 10,
+      "question_count": 6,
+      "question_ids": [
+        "core-009-personal-data-involvement",
+        "core-012-automated-decision-trigger",
+        "legal-003-dpia-ai-processing",
+        "legal-004-automated-decision-safeguards",
+        "legal-005-data-subject-rights-readiness",
+        "risk-010-sensitive-data-disclosure-surfaces"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "governance-accountability-policy",
+      "cells": 10,
+      "question_count": 12,
+      "question_ids": [
+        "aud-001-independent-ai-assurance",
+        "aud-002-assurance-finding-closure",
+        "core-001-business-purpose",
+        "core-002-accountable-owner",
+        "core-004-system-boundary",
+        "gov-001-governance-decision-rights",
+        "gov-002-lifecycle-change-reassessment",
+        "gov-003-incident-and-abnormal-behaviour-records",
+        "gov-004-governance-documentation-update-triggers",
+        "gov-005-role-specific-ai-literacy",
+        "gov-006-societal-impact-feedback",
+        "gov-007-third-party-ai-assurance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "legal-regulatory",
+      "cells": 10,
+      "question_count": 12,
+      "question_ids": [
+        "core-003-ai-system-determination",
+        "core-009-personal-data-involvement",
+        "core-010-eu-ai-act-scope",
+        "core-011-prohibited-practice-screening",
+        "core-012-automated-decision-trigger",
+        "core-013-high-risk-ai-classification",
+        "legal-001-ai-act-classification-record",
+        "legal-002-fria-trigger",
+        "legal-003-dpia-ai-processing",
+        "legal-004-automated-decision-safeguards",
+        "legal-005-data-subject-rights-readiness",
+        "risk-008-human-oversight-authority"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "lifecycle-engineering-change",
+      "cells": 10,
+      "question_count": 26,
+      "question_ids": [
+        "aud-002-assurance-finding-closure",
+        "core-001-business-purpose",
+        "core-002-accountable-owner",
+        "core-004-system-boundary",
+        "core-005-predictive-capability",
+        "gov-002-lifecycle-change-reassessment",
+        "gov-004-governance-documentation-update-triggers",
+        "legal-001-ai-act-classification-record",
+        "legal-002-fria-trigger",
+        "legal-003-dpia-ai-processing",
+        "legal-004-automated-decision-safeguards",
+        "legal-005-data-subject-rights-readiness",
+        "ori-001-ai-incident-response-playbook",
+        "risk-001-model-validation-evidence",
+        "risk-002-backtesting-design",
+        "risk-003-model-monitoring-response",
+        "risk-004-model-documentation-completeness",
+        "risk-005-prompt-injection-threat-model",
+        "risk-006-guardrail-placement",
+        "risk-007-red-team-remediation",
+        "risk-008-human-oversight-authority",
+        "risk-009-misinformation-overreliance",
+        "risk-010-sensitive-data-disclosure-surfaces",
+        "risk-011-data-quality-evaluation",
+        "risk-012-ai-supply-chain-inventory",
+        "risk-014-mcp-tool-governance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "model-risk-validation-tev",
+      "cells": 10,
+      "question_count": 29,
+      "question_ids": [
+        "aud-001-independent-ai-assurance",
+        "core-005-predictive-capability",
+        "core-006-generative-capability",
+        "core-007-agentic-capability",
+        "core-008-users-affected-people",
+        "core-011-prohibited-practice-screening",
+        "core-013-high-risk-ai-classification",
+        "gov-002-lifecycle-change-reassessment",
+        "gov-003-incident-and-abnormal-behaviour-records",
+        "gov-006-societal-impact-feedback",
+        "legal-001-ai-act-classification-record",
+        "legal-002-fria-trigger",
+        "legal-003-dpia-ai-processing",
+        "legal-004-automated-decision-safeguards",
+        "ori-002-recovery-validation-and-lessons-learned",
+        "risk-001-model-validation-evidence",
+        "risk-002-backtesting-design",
+        "risk-003-model-monitoring-response",
+        "risk-004-model-documentation-completeness",
+        "risk-005-prompt-injection-threat-model",
+        "risk-006-guardrail-placement",
+        "risk-007-red-team-remediation",
+        "risk-008-human-oversight-authority",
+        "risk-009-misinformation-overreliance",
+        "risk-010-sensitive-data-disclosure-surfaces",
+        "risk-011-data-quality-evaluation",
+        "risk-012-ai-supply-chain-inventory",
+        "risk-013-agent-identity-and-access",
+        "risk-014-mcp-tool-governance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "operational-resilience-incidents",
+      "cells": 10,
+      "question_count": 3,
+      "question_ids": [
+        "gov-003-incident-and-abnormal-behaviour-records",
+        "ori-001-ai-incident-response-playbook",
+        "ori-002-recovery-validation-and-lessons-learned"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "people-ai-literacy-change",
+      "cells": 10,
+      "question_count": 12,
+      "question_ids": [
+        "aud-001-independent-ai-assurance",
+        "aud-002-assurance-finding-closure",
+        "core-001-business-purpose",
+        "core-002-accountable-owner",
+        "core-004-system-boundary",
+        "gov-001-governance-decision-rights",
+        "gov-002-lifecycle-change-reassessment",
+        "gov-003-incident-and-abnormal-behaviour-records",
+        "gov-004-governance-documentation-update-triggers",
+        "gov-005-role-specific-ai-literacy",
+        "gov-006-societal-impact-feedback",
+        "gov-007-third-party-ai-assurance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "responsible-ai-human-oversight",
+      "cells": 10,
+      "question_count": 3,
+      "question_ids": [
+        "core-008-users-affected-people",
+        "gov-005-role-specific-ai-literacy",
+        "gov-006-societal-impact-feedback"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "sustainability-societal-impact",
+      "cells": 10,
+      "question_count": 3,
+      "question_ids": [
+        "core-008-users-affected-people",
+        "gov-005-role-specific-ai-literacy",
+        "gov-006-societal-impact-feedback"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "third-parties-supply-chain",
+      "cells": 10,
+      "question_count": 4,
+      "question_ids": [
+        "gov-007-third-party-ai-assurance",
+        "risk-012-ai-supply-chain-inventory",
+        "risk-013-agent-identity-and-access",
+        "risk-014-mcp-tool-governance"
+      ],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "REVIEW_QUESTIONNAIRE_COVERAGE_WITH_EVIDENCE"
+    },
+    {
+      "pillar_id": "transparency-explainability-documentation",
+      "cells": 10,
+      "question_count": 0,
+      "question_ids": [],
+      "coverage_status_counts": {
+        "UNASSESSED": 10
+      },
+      "action": "SOURCE_GAP_REVIEW_BEFORE_QUESTION_DRAFT"
+    }
+  ],
+  "constraints": [
+    "Markdown questions remain canonical; registry and Canvas are derived.",
+    "No question is added without reviewed evidence and a stable topic.",
+    "Dependencies must remain acyclic and bilingual intent equivalent.",
+    "Coverage status is not inferred from question presence alone."
+  ]
+}

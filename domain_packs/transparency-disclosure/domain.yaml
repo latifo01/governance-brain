@@ -1,0 +1,16 @@
+schema_version: 1
+domain_id: TRANSPARENCY_DISCLOSURE
+slug: transparency-disclosure
+status: ACTIVE
+labels:
+  en: Transparency & Disclosure
+  fr: Transparence et information
+description: Documentation, explainability, notices, disclosures, traceability, and communication to affected parties.
+question_prefix: TRA
+languages: [en, fr]
+source_roots:
+  - sources/05_EU_AI_Legislation
+  - sources/10_Responsible_AI
+review_policy: HUMAN_APPROVAL
+aliases: []
+

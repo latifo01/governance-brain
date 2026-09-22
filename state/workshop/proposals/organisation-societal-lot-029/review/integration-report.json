@@ -1,0 +1,33 @@
+{
+  "candidate_sha256": "b710f9ba5c33209432f27d32c85baa597a7116eb03af7b850dd5a9e90cc5d666",
+  "derived": {
+    "canvas_sha256": "d7c63555d5af79f0f35286e4769a4aca147e173b9d1a68fd095a8e21b9942a1d",
+    "dependencies": 23,
+    "questions": 39,
+    "registry_sha256": "d8ca0a425bbb2a6d8034f148387b1cd2fda3f3b13767f8bd4b88b967c90896a5"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-literacy-and-change-management.md",
+      "proposal_id": "organisation-societal-lot-029",
+      "sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-societal-impact-and-stakeholder-engagement.md",
+      "proposal_id": "organisation-societal-lot-029",
+      "sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc"
+    },
+    {
+      "path": "questions/governance/gov-006-societal-impact-feedback.md",
+      "proposal_id": "organisation-societal-lot-029",
+      "sha256": "3db96d72b77bce97c739f85da24757e3c265a061e4553d44d6a0336eaef04dbc"
+    }
+  ],
+  "materialized_files": 3,
+  "notes": 128,
+  "proposal_ids": [
+    "organisation-societal-lot-029"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

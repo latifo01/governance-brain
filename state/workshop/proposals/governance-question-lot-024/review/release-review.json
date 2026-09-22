@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "27277a697a8a74c60c31dc9bfe003a919c3746f985a28b8ef940680598fc8547",
+  "reviewer_identity": "codex-governance-question-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The strict release resolves nine reviewed evidence references through the hash-bound question receipt.",
+      "evidence_lock_sha256": "9ab3c59b614ad43ec6d6c9dd119b4423b16f71d9a44a30a51f918d27cfcc3b25"
+    },
+    {
+      "severity": "INFO",
+      "code": "QUESTION_CATALOGUE_CHECKED",
+      "detail": "Five additions have unique IDs and topics, equivalent FR/EN intent, valid domains and acyclic dependencies."
+    },
+    {
+      "severity": "INFO",
+      "code": "SCOPE_CONFIRMED",
+      "detail": "The proposal changes only five question notes under the governance questionnaire overlay; active vault, Canvas, indexes, taxonomy and sources remain unchanged."
+    },
+    {
+      "severity": "WARNING",
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "detail": "The cited governance materials are not current-law evidence and are used for assessable governance controls only."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "The exact candidate hash must be approved before deterministic integration."
+    }
+  ]
+}

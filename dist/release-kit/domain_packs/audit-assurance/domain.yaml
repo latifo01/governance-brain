@@ -1,0 +1,16 @@
+schema_version: 1
+domain_id: AUDIT_ASSURANCE
+slug: audit-assurance
+status: ACTIVE
+labels:
+  en: Audit & Assurance
+  fr: Audit et assurance
+description: Independent review, evidence quality, control testing, assurance conclusions, and remediation tracking.
+question_prefix: AUD
+languages: [en, fr]
+source_roots:
+  - sources/01_AI_Auditing
+  - sources/06_ISO_Standards_not_downloaded
+review_policy: HUMAN_APPROVAL
+aliases: []
+

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "a3eddf985d5272f8cd856f2187dea0ddd87926d2369baa4b9584a1ef6ae56cf0",
+  "reviewer_identity": "codex-governance-navigation-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {"severity": "INFO", "code": "LINK_TARGET_EXISTS", "detail": "The index link resolves to the integrated ai-governance-accountability note."},
+    {"severity": "INFO", "code": "SCOPE_CONFIRMED", "detail": "The release updates only indexes/internal-regulation-index.md and introduces no new knowledge or regulatory claim."},
+    {"severity": "INFO", "code": "CANDIDATE_REPRODUCED", "detail": "The deterministic preview is valid for one UPDATE index file and one write."},
+    {"severity": "INFO", "code": "HUMAN_APPROVAL_RECORDED", "detail": "The operator requested this graph addition in chat; the approval record binds that authorization to the candidate hash."}
+  ]
+}

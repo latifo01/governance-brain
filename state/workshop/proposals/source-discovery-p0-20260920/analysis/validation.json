@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-discovery-p0-20260920",
+  "status": "PASS",
+  "checks": {
+    "json_parse": true,
+    "exactly_20_p0_cells": true,
+    "both_pillars_exact": true,
+    "all_candidate_source_ids_exist": true,
+    "all_paths_relative": true,
+    "no_domain_pack_activation": true,
+    "no_completion_status": true,
+    "no_mutation_scopes": true,
+    "candidate_hash_present": true,
+    "unit_candidate_inventory_present": true,
+    "unit_candidate_inventory_hash_matches": true,
+    "candidate_hash_matches": true,
+    "unit_review_audit_present": true,
+    "unit_review_audit_hash_matches": true,
+    "audit_blocks_unreviewed_units": true
+  },
+  "artifacts": {
+    "json": "state/workshop/proposals/source-discovery-p0-20260920/analysis/source-discovery-p0-20260920.json",
+    "markdown": "state/workshop/proposals/source-discovery-p0-20260920/analysis/source-discovery-p0-20260920.md"
+  },
+  "notes": "Discovery routing only; no evidence is resolved and no publication is authorized."
+}

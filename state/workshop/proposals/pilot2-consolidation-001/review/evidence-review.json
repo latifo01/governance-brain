@@ -1,0 +1,53 @@
+{
+  "evidence_lock_sha256": "105a836e77b5a469bef132d35e8dc7b77ef5c548136a35f2cb6db6c52f4bba2b",
+  "findings": [
+    {
+      "code": "EVIDENCE_ITEMS_VERIFIED",
+      "message": "Fresh independent review of the regenerated receipts aiact-fria-republication-001.json and gdpr-dpia-republication-001.json: 12/12 evidence items verified against their ingest units (locators, source hashes, unit content hashes, authority).",
+      "severity": "INFO"
+    },
+    {
+      "code": "SECTION_BINDINGS_VERIFIED",
+      "message": "12/12 section bindings traced to the proposed future-vault notes; every obligation statement rests on reviewed BINDING sources (SRC-0010, SRC-0011); SRC-0022 guidance uses remain visibly marked non-binding.",
+      "severity": "INFO"
+    },
+    {
+      "code": "LOCK_REGENERATED",
+      "message": "Evidence lock regenerated deterministically: 60 unique evidence refs, 4 receipt hashes matching current files; library resolution returns 60/60 records REVIEWED and 25/25 bindings REVIEWED with no findings.",
+      "severity": "INFO"
+    },
+    {
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "message": "valid_from/valid_until remain null across SRC-0010, SRC-0011 and SRC-0022; currency dates unverified.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "FIDELITY_SCOPE_LIMITED",
+      "message": "Token-multiset coverage establishes neither layout fidelity nor legal correctness.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "SOURCE_CLASSIFICATION_MISSING",
+      "message": "No classification event exists for SRC-0022; its GUIDANCE label is author-assigned and confined to visibly marked non-binding uses.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "BINDING_REF_GAP",
+      "message": "DPIA Summary binding omits SRC-0022 Page 182, which directly supports one clause; Page 181 is cited.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "QUALIFIER_OMITTED",
+      "message": "FRIA Applicability gloss omits the Annex III point 5(b) financial-fraud carve-out present on cited SRC-0011 Page 386.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "BOUNDED_REVIEW_ONLY",
+      "message": "Review bounded to the 12 cited units and four locked receipts; grants no publication approval and no legal conclusion.",
+      "severity": "INFO"
+    }
+  ],
+  "reviewed_at": "2026-09-16T15:12:00Z",
+  "reviewer_identity": "opencode-evidence-auditor-20260916-r2",
+  "verdict": "EVIDENCE_READY"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-discovery-p0-20260920",
+  "check_id": "currentness-check-001",
+  "status": "PARTIAL_CURRENTNESS_CHECK_WITH_BLOCKERS",
+  "method": "Official EUR-Lex identity and legal-status check; no source text copied and no local evidence eligibility granted.",
+  "retrieved_at": "2026-09-20",
+  "checks": [
+    {
+      "source_id": "SRC-0010",
+      "official_uri": "https://eur-lex.europa.eu/eli/reg/2016/679",
+      "official_identifier": "02016R0679-20160504",
+      "status": "IDENTITY_AND_IN_FORCE_STATUS_CONFIRMED",
+      "scope": "The official page identifies the GDPR consolidated text and marks the act in force.",
+      "limitations": [
+        "The local source manifest groups two PDF paths under one source_id; exact PDF-to-unit mapping remains unresolved.",
+        "The EUR-Lex consolidated page is a documentation tool; the authentic Official Journal text remains the legal reference.",
+        "National derogations, supervisory-authority lists and project-specific applicability are not resolved by this check."
+      ],
+      "evidence_lock_eligible": false
+    },
+    {
+      "source_id": "SRC-0011",
+      "official_uri": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/eng",
+      "official_identifier": "02024R1689-20260727",
+      "status": "AMENDMENT_IMPACT_REVIEW_REQUIRED",
+      "scope": "The official consolidated AI Act page exposes a 2026 amended version; the local 2024 OJ units require article-level amendment checking before standalone currentness is asserted.",
+      "limitations": [
+        "The check does not establish that the selected older unit is superseded or remains unchanged.",
+        "Relative dates and transitional language require article-level comparison."
+      ],
+      "evidence_lock_eligible": false
+    }
+  ],
+  "global_gates": {
+    "all_local_pdf_mappings_verified": false,
+    "all_article_amendments_checked": false,
+    "personal_data_applicability_resolved": false,
+    "evidence_resolved": false,
+    "publication_eligible": false,
+    "human_approval_required": true,
+    "active_vault_changes": false,
+    "sources_changes": false,
+    "ingest_changes": false
+  },
+  "check_sha256": "b53762887aef5d9116f37b0647d393d672783bf9f816ebf4e4befac10a28b2d6"
+}

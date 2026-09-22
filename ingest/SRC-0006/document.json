@@ -1,0 +1,191 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 1,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "AUDIT_ASSURANCE",
+    "LEGAL_REGULATORY"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": true,
+      "page_count": 14
+    },
+    "native_unit_count": 14,
+    "normalized_unit_count": 14,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 14,
+    "unit_count": 14
+  },
+  "relative_source_paths": [
+    "sources/06_ISO_Standards_not_downloaded/ISO-IEC-42001-2023.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0006",
+  "source_kind": "document",
+  "source_sha256": "3220aeccaea0fd2b95807eaae1ab88ed74cf059f1add022e712ffa4afcbd50f8",
+  "units": [
+    {
+      "content_sha256": "e053062ee14d75e60f60ac9eaf79d94f76522a41b9d55559967d0d007c0ae141",
+      "file_sha256": "7c6dd17197932be340cc0cffaa160d399a98607fc8b74c10eeffb68232c527af",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "4c60e290e384694a431b16b8f15fcfd68c986a229525db4d8e36d22ccfb2ecc7",
+      "file_sha256": "738e85c9bd56acb6df7ea42eccc643fc303f1ed36a2585478b2fbc36dc7e52d7",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "dc33736d2ccd7c46bcf0bb1508d009522432c5648db20611bc038c62ed8f1da7",
+      "file_sha256": "5f477504fac00cfcb6abd12d4fe446e0d201754c761707c8a1a74471b3548106",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "1025b98107bd01de583824109884ca06f4782ddb2a21f21dd68c0c1812dd7898",
+      "file_sha256": "8227587bc2cbf3432fc7ca0d2b8c7dbdd553a663dbe47fe41c90e30d2022798e",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "0d37e9b126eb48b420d13fc10f15787f381fbd9e9dc78a5280def08b80cdf88e",
+      "file_sha256": "6dfc0272221e431fd1e90258860a207e5c8cd73697d933118b24ad18484bbb7e",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "8cab49dcb74fa886632e4f5d8ef5162840a32b04aa84d664301b8e3887448c85",
+      "file_sha256": "3782ef8698d6fd5d0d644d69e10f5709ef3a86ec68b2dd0ad4453a740be5d603",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "d08ef12966b3f395f06dcb17739adeb56fe4f470e0a09bd9079d13188a6afd86",
+      "file_sha256": "d2dcecbd8e46ec46490ce2980eaef3b732ec9a4abf2163802b7a27fbb1eacd44",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "ec4ae71fbda362ff7adb09ca58165375d166481470b7c37ffecc0520d2d425f2",
+      "file_sha256": "03571166e37c1938c00453f1569d7fd3e05103dce87ea0ca9040f72d36ea936f",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "604fbc66d0d608a95b8cff7cb74dd58dc5f1e51d92a2e6abba507395fa953fac",
+      "file_sha256": "b36a6301880a3a80d5da651a98665b8082fe37c309df8e47782b72c8d1caf42f",
+      "filename": "units/p0009.md",
+      "index": 9,
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "872ff0e3262e7817ec9b6d9be852f7a9a8f6ab6e9432650a3de34737b7488f2e",
+      "file_sha256": "84bc9a630061e697cb5107aa634132c492eca898c967e77b0e47eb2f09af0a7b",
+      "filename": "units/p0010.md",
+      "index": 10,
+      "locator": "Page 10",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "27d2ea741b716e19cbeaccfb1d8ddd6fc9874512585161b755cb510b01a84b70",
+      "file_sha256": "eac6dc6fe9ebda7cf6d02d594dbbcdef772069a3287bb40d123a10e6c45d2875",
+      "filename": "units/p0011.md",
+      "index": 11,
+      "locator": "Page 11",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "7051348dd06fd6b244b9b1fe1b65adf662ae11b1a1e066858eb25cb3f3a1f3e4",
+      "file_sha256": "a46f208615a9d1b627189e9b71c9cb26e63510d6e1977b164b621da75e33da0a",
+      "filename": "units/p0012.md",
+      "index": 12,
+      "locator": "Page 12",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "46170e8ecf4ea25f7671f4c964b87961f78f844e11352014ab56f90a84ea1d1f",
+      "file_sha256": "9ea0a81721f1b57d6fe8902589e8519cdc242cf56a1f1864402726e484fd6991",
+      "filename": "units/p0013.md",
+      "index": 13,
+      "locator": "Page 13",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "fa3f1c414ee319a5e0bca36f761f1e1ac93c0a4b060dfaa9ab1f41cee0e28f36",
+      "file_sha256": "d43b6cbd3355c65d92da38535fd75fe27bf516f83e4c1cc8834d22755717f7ed",
+      "filename": "units/p0014.md",
+      "index": 14,
+      "locator": "Page 14",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 37185,
+      "native_unit_count": 14,
+      "normalized_unit_count": 14
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

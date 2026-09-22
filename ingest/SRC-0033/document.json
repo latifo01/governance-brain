@@ -1,0 +1,181 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 0,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "AI_SECURITY",
+    "THIRD_PARTIES_SUPPLY_CHAIN"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 13
+    },
+    "native_unit_count": 13,
+    "normalized_unit_count": 13,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 13,
+    "unit_count": 13
+  },
+  "relative_source_paths": [
+    "sources/03_CoSAI/CoSAI preparing-defenders-of-ai-systems.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0033",
+  "source_kind": "document",
+  "source_sha256": "c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc",
+  "units": [
+    {
+      "content_sha256": "3cbbb30fb485b3f50fac69ac791de06d2e28706fb3feb95716bbf960060b49aa",
+      "file_sha256": "89c2672bb4d6c47abcf752c046a6573f630bdb695b1e6a8bdfca6d7a6e86fefb",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "934db557f2443625f52575b795f85fd4c34aee867360b611c65e074581dad491",
+      "file_sha256": "2759e53c0e64c613ba55b53cbde9a07d81173d66fec0692bdfc5232cf22dca1a",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "94ecb2f7180d6f905bf5107b8b499d92b6387ce5a945f209acc5df9beedf4954",
+      "file_sha256": "2c982d523ba7293e0107bb27379d74c661f77462727882863b8c36d5d82c8670",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "bd90fdc99907e6f39db1c2fd3db13d2047eb99d3e73fb10bf1b78372bbb1b99e",
+      "file_sha256": "02d6789a4173b4350374b7c1352bf47eb02e4fb8477694bedef6e0f6548078d5",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "264accb6207c5c51d86bdfd9773bd54116e4e092031efa98e507df5a4766a642",
+      "file_sha256": "12523ff8dc7147e47dd2ebe159f63a94c1b867c3a4df128b49ebf00a7d5d2c36",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "55378f65fd818ba6c19372d9de56b3bcfef62b203d54be6ea2b157ecc7ef99b3",
+      "file_sha256": "8201ab314ce7f4113672b1bc9032d175007a7d1e3880fc5e60037aceb9ae0ebc",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "5d7ab7cf68795642e8d03263071dc2f77c3b8c97c8dc730243f5455cdf7fda38",
+      "file_sha256": "d98b349d67aedde3b7a3584ca821cb2f3fc1b6bdf6208da51f25f97829204feb",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "b043b6a8680ba8f9442ebef88af5718317bcadde6250b5dfc38f72d1eec4aa94",
+      "file_sha256": "dc321d0d1f65fab6ed2fd5a9c6cb05fa12246947642aa00bac7b6c15b008dd3e",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "684d9da822aa7e1fffa62471e97dbe24211b7084375883c01c2615db4cf7baeb",
+      "file_sha256": "ca18e76607514d3066e77c8dfc6ddd8ffaf9f7bf37406fa5c81dc11043381798",
+      "filename": "units/p0009.md",
+      "index": 9,
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "413ba73c462627d0af41e7f6c7855dc835ce5d3b64cec19ec2b6bfffb62fa7d4",
+      "file_sha256": "f59ae1e273391c76e0b72377da941f80f915ce07d655926625658fbe16910075",
+      "filename": "units/p0010.md",
+      "index": 10,
+      "locator": "Page 10",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "532e3c11535f8e0804d0c6af288bf9daf8c3ee5394b523d596603ac0c58ad387",
+      "file_sha256": "f649646708f35e6706d48022d5d911645003e088a818ea5d45565a1b8cafc3e7",
+      "filename": "units/p0011.md",
+      "index": 11,
+      "locator": "Page 11",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "26005dc1d3ce4fb291d94e59695cdcee23ba47c44fb16f7d16bbcfb61050cff8",
+      "file_sha256": "7ac8a47d4cb1e77b1c59c65504933b4b1428c927d5c9bb553133a7ec5775c879",
+      "filename": "units/p0012.md",
+      "index": 12,
+      "locator": "Page 12",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "f00ac9d6fff9b024656bc12805154f1dc83573bf5a2e500a1108c4c514465f5c",
+      "file_sha256": "093e3a442b5fa44dfebab2d64fe7b087895309959fe57f9f678963c62d2bc485",
+      "filename": "units/p0013.md",
+      "index": 13,
+      "locator": "Page 13",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 35724,
+      "native_unit_count": 13,
+      "normalized_unit_count": 13
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

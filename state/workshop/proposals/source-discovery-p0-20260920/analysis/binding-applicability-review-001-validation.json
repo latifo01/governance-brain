@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-discovery-p0-20260920",
+  "review_id": "binding-applicability-review-001-validation",
+  "status": "PASS",
+  "input_review_sha256": "ade3c10ce27cf767c5eefbb62bb0611010d4b462d008817345145b2bc1d18329",
+  "checks": {
+    "records_match_input": true,
+    "no_raw_source_text": true,
+    "no_evidence_resolved": true,
+    "no_publication": true,
+    "no_active_vault_changes": true,
+    "source_and_ingest_unchanged": true,
+    "hashes_present": true
+  },
+  "counts": {
+    "records": 26,
+    "ai_strategy_out_of_scope": 14,
+    "data_governance_conditional": 12,
+    "evidence_resolved": 0,
+    "publication_candidates": 0,
+    "supersession_review_required": 1,
+    "binding_route_rows": 23,
+    "context_route_rows": 3
+  },
+  "validation_sha256": "de2a0e578508df41444a81728861ae0c6cba1ee24215c90d621bf8110bb91f4c"
+}

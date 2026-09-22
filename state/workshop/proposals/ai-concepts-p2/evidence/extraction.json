@@ -1,0 +1,327 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p2",
+  "stage": "EXTRACT",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "assignment_sha256": "8f60b21d01b453da5cb77a6446afd0747613ffc7b2d499be9efeb84a83379861",
+  "scope": {
+    "target_ids": [
+      "uncertainty-and-calibration",
+      "multimodal-ai",
+      "synthetic-data"
+    ],
+    "source_ids": ["SRC-0009", "SRC-0036", "SRC-0039"]
+  },
+  "coverage": [
+    {
+      "source_id": "SRC-0036",
+      "assigned_locators": ["Page 7", "Page 9", "Page 10", "Page 11"],
+      "covered_locators": ["Page 7", "Page 9", "Page 10", "Page 11"],
+      "omitted": [],
+      "unresolved_items": []
+    },
+    {
+      "source_id": "SRC-0039",
+      "assigned_locators": ["Page 28", "Page 29", "Page 30", "Page 33"],
+      "covered_locators": ["Page 28", "Page 29", "Page 30", "Page 33"],
+      "omitted": [],
+      "unresolved_items": []
+    },
+    {
+      "source_id": "SRC-0009",
+      "assigned_locators": ["Page 10", "Page 16"],
+      "covered_locators": ["Page 10", "Page 16"],
+      "omitted": [],
+      "unresolved_items": [
+        "Both assigned units are marked REVIEW_REQUIRED. Text-only candidates are retained provisionally; figure or layout-dependent claims are not retained."
+      ]
+    }
+  ],
+  "evidence_candidates": [
+    {
+      "candidate_id": "aic-p2-src-0036-p0007-ec-001",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0007.md",
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "unit_content_sha256": "a66ff86bdcb5a4578d96d4d6fd578ef98dd7e6b23e216991bc74f820df0531dc",
+      "unit_file_sha256": "b519d3ab5b07d79abdb3988aa7ac0580e9dee0de38e0273c9b7e81dec0c08874",
+      "claim": "Within its banking model-risk guidance, the source describes effective challenge as critical analysis by objective experts with suitable expertise, sufficient independence and organizational standing to affect change across the model lifecycle.",
+      "evidence_kind": "governance",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The source is supervisory model-risk guidance for banking organisations; it is not a universal legal requirement."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports independent challenge of uncertainty measures, calibration results and model-use decisions."
+    },
+    {
+      "candidate_id": "aic-p2-src-0036-p0009-ec-001",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0009.md",
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "unit_content_sha256": "ce9d4d57bed3d3dd5f827497303dc3a697e652ee5d7060745d4ee0954e3b6714",
+      "unit_file_sha256": "580001998850c50baf8e41a8a030f3e7b2e37d550860e5196583d3dc61ce6890",
+      "claim": "The source states that using a model beyond its intended purpose introduces additional uncertainty and risk, and that extension to a new use should prompt analysis of the new use, its limitations and the adequacy of existing controls.",
+      "evidence_kind": "risk",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The statement is bounded to the model-use and model-risk context described by the source."
+      ],
+      "uncertainties": [],
+      "relevance": "Defines a governance trigger for revisiting uncertainty assumptions when context or intended use changes."
+    },
+    {
+      "candidate_id": "aic-p2-src-0036-p0009-ec-002",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0009.md",
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "unit_content_sha256": "ce9d4d57bed3d3dd5f827497303dc3a697e652ee5d7060745d4ee0954e3b6714",
+      "unit_file_sha256": "580001998850c50baf8e41a8a030f3e7b2e37d550860e5196583d3dc61ce6890",
+      "claim": "The source presents validation as an assessment of expected performance, reliability and limitations; it connects detected deterioration and meaningful deviations from acceptable performance ranges with possible adjustment, recalibration or redevelopment.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "No universal acceptable-performance range or recalibration threshold is specified."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports the link between calibration evidence, reliability limits and corrective action."
+    },
+    {
+      "candidate_id": "aic-p2-src-0036-p0010-ec-001",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0010.md",
+      "locator": "Page 10",
+      "locator_kind": "page",
+      "unit_content_sha256": "a9d686c32b747508b981cbd13d6b9459626ae7dd30b8a7ea88208924e42e65b0",
+      "unit_file_sha256": "07acdadc0a0bda9925b6d66a5d93ece7ad30ac223014000654e59d4c586baafa",
+      "claim": "The source describes validation as generally occurring before first use; where use precedes completed validation, it points to stronger attention to limitations, communication of those limitations and controls such as restricted use or closer monitoring.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The source describes sound practice for its banking model-risk context and does not establish a general prohibition on pre-validation use."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports risk-based handling of confidence and calibration evidence before and during deployment."
+    },
+    {
+      "candidate_id": "aic-p2-src-0036-p0011-ec-001",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0011.md",
+      "locator": "Page 11",
+      "locator_kind": "page",
+      "unit_content_sha256": "cebb3eb0d79edbd81e0f9558da25981a125abc971f79e2b823612cac6c146a33",
+      "unit_file_sha256": "aa64e9f63456a6f166720d6db04f28b24a98032a1f97c0aea407024cff99b727",
+      "claim": "The source describes outcomes analysis as comparing model outputs with corresponding real-world outcomes and identifies back-testing, outlier analysis and ongoing monitoring as possible forms of analysis; material errors or persistent deviations may warrant adjustment, recalibration or redevelopment.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The appropriate approach depends on the model objectives, methodology and data availability."
+      ],
+      "uncertainties": [],
+      "relevance": "Connects calibration and uncertainty claims to observed outcomes and a documented response loop."
+    },
+    {
+      "candidate_id": "aic-p2-src-0039-p0028-ec-001",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0028.md",
+      "locator": "Page 28",
+      "locator_kind": "page",
+      "unit_content_sha256": "521f411644d01eb7dab20fb43c840359707dfbe00e1d72f429b211e02790da2a",
+      "unit_file_sha256": "bc7c8d30729f64d1c9323c11030b4087e3dd99c08537e315d1dcc93d7078d10e",
+      "claim": "The NIST AI RMF GOVERN categories include planned ongoing monitoring and periodic review, defined roles, AI-system inventory and safe decommissioning processes.",
+      "evidence_kind": "governance",
+      "normativity_candidate": "framework",
+      "visual_dependency": false,
+      "qualifiers": [
+        "NIST AI RMF is a voluntary, outcome-focused framework; these categories are not legal obligations."
+      ],
+      "uncertainties": [],
+      "relevance": "Provides a framework anchor for maintaining uncertainty and calibration evidence over the lifecycle."
+    },
+    {
+      "candidate_id": "aic-p2-src-0039-p0029-ec-001",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0029.md",
+      "locator": "Page 29",
+      "locator_kind": "page",
+      "unit_content_sha256": "c9d34a79fc87d4964f095d334b822d98ebc4352693c876b5cd14b8eeaf066300",
+      "unit_file_sha256": "32f6a3f061a191168139b2c7e24b53ab00cc8dfd3139697ca910218070738f5e",
+      "claim": "The NIST AI RMF GOVERN categories call for documented risk and impact communication, practices for AI testing and incident identification, feedback from relevant actors and processes addressing third-party AI and data risks.",
+      "evidence_kind": "governance",
+      "normativity_candidate": "framework",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The source is a voluntary framework and the categories should be adapted to the system and organisation."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports documenting the context and stakeholders needed to interpret calibration results."
+    },
+    {
+      "candidate_id": "aic-p2-src-0039-p0030-ec-001",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0030.md",
+      "locator": "Page 30",
+      "locator_kind": "page",
+      "unit_content_sha256": "eeb9308986d824c4d415604e258073e48a2d9d2bb7530cd89a301253612f70fb",
+      "unit_file_sha256": "40ba83d46bd174e24e07601a2fd8d81af804e456c0e32ca226f53cdd14c692d7",
+      "claim": "The NIST AI RMF describes complexity and limited visibility as sources of uncertainty in risk management, and states that contextual mapping helps identify limitations, negative impacts and risks arising when systems are used beyond intended contexts; context and impacts should be revisited as they evolve.",
+      "evidence_kind": "context",
+      "normativity_candidate": "framework",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This is framework context rather than a universal calibration method or legal test."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports contextual interpretation of confidence and uncertainty instead of treating a score as portable across uses."
+    },
+    {
+      "candidate_id": "aic-p2-src-0039-p0033-ec-001",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0033.md",
+      "locator": "Page 33",
+      "locator_kind": "page",
+      "unit_content_sha256": "de022cf2b8f82975598a5839143a82a49b70f1ab04c198dbedc63eb5ca6e1514",
+      "unit_file_sha256": "73fac658ae439d48b255ca9ddaf06cc4cf90f4b293e94c99e168e6f28f6b3ee3",
+      "claim": "The NIST AI RMF MEASURE function describes quantitative, qualitative or mixed-method assessment, with software testing and performance assessment that include measures of uncertainty, performance benchmarks, reporting and documentation; independent review can improve effectiveness and mitigate bias or conflicts.",
+      "evidence_kind": "control",
+      "normativity_candidate": "framework",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The framework does not prescribe one metric, calibration technique or acceptance threshold."
+      ],
+      "uncertainties": [],
+      "relevance": "Directly supports the uncertainty-and-calibration concept's measurement and review guidance."
+    },
+    {
+      "candidate_id": "aic-p2-src-0039-p0033-ec-002",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0033.md",
+      "locator": "Page 33",
+      "locator_kind": "page",
+      "unit_content_sha256": "de022cf2b8f82975598a5839143a82a49b70f1ab04c198dbedc63eb5ca6e1514",
+      "unit_file_sha256": "73fac658ae439d48b255ca9ddaf06cc4cf90f4b293e94c99e168e6f28f6b3ee3",
+      "claim": "The NIST AI RMF describes measurement outcomes as informing management responses such as recalibration, impact mitigation or removal, and says measurement and risk-management practices should continue as knowledge, methods, risks and impacts evolve.",
+      "evidence_kind": "control",
+      "normativity_candidate": "framework",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The listed responses are framework options, not mandatory outcomes."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports explicit action thresholds and review decisions without inventing a universal threshold."
+    },
+    {
+      "candidate_id": "aic-p2-src-0009-p0010-ec-001",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0010.md",
+      "locator": "Page 10",
+      "locator_kind": "page",
+      "unit_content_sha256": "9b3880abc4c1650d731dcdfa434a09491f914271ed1cc17e71572eddcd5c19e0",
+      "unit_file_sha256": "01401bafdfc32110b78ea4bac61148e320e10a8f2e8daddc6be2b6631a94ca59",
+      "claim": "The source describes an automated AI-risk measurement pipeline in which a target system is exercised by an adversarial conversation simulator, outputs form a test dataset, an evaluator system annotates harmful or undesirable content against human-developed policies, and metrics inform downstream mitigations; it reports expansion across risk types and modalities, including image and audio processing.",
+      "evidence_kind": "practice",
+      "normativity_candidate": "context",
+      "visual_dependency": true,
+      "qualifiers": [
+        "This is a Microsoft research and product-practice account, not a universal safety standard or legal requirement.",
+        "The unit is marked REVIEW_REQUIRED; the candidate is limited to text stated in the unit and does not rely on figure layout."
+      ],
+      "uncertainties": [
+        "Visual fidelity of the pipeline diagram and any claims dependent on it remain unreviewed."
+      ],
+      "relevance": "Supports modality-aware evaluation design and separation of target, adversarial simulator, evaluator and metrics."
+    },
+    {
+      "candidate_id": "aic-p2-src-0009-p0016-ec-001",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0016.md",
+      "locator": "Page 16",
+      "locator_kind": "page",
+      "unit_content_sha256": "8c27fb9b2cb4c76569cfd10dc5f0f076a0256fdbca5260d0c5c87f1d381f07c5",
+      "unit_file_sha256": "cddf3a698db16b5052d78f6d54783b7ada41f162d212045708d0836cdecbc6c8",
+      "claim": "The source's Phi case study describes a multimodal model family spanning vision, speech, audio and text, and reports red-team coverage for modality-specific risks, multilingual and low-resource language cases, context manipulation and sensitive-attribute inference from image, speech or audio inputs.",
+      "evidence_kind": "case_study",
+      "normativity_candidate": "context",
+      "visual_dependency": true,
+      "qualifiers": [
+        "The case study documents Microsoft's practice; it does not establish that the reported models are safe or that every multimodal system requires the same tests.",
+        "The unit is marked REVIEW_REQUIRED; text-only claims are retained provisionally."
+      ],
+      "uncertainties": [
+        "Visual fidelity of the case-study timeline and model list remains unreviewed."
+      ],
+      "relevance": "Supports multimodal-ai applicability and modality-, language- and context-specific evaluation."
+    },
+    {
+      "candidate_id": "aic-p2-src-0009-p0016-ec-002",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0016.md",
+      "locator": "Page 16",
+      "locator_kind": "page",
+      "unit_content_sha256": "8c27fb9b2cb4c76569cfd10dc5f0f076a0256fdbca5260d0c5c87f1d381f07c5",
+      "unit_file_sha256": "cddf3a698db16b5052d78f6d54783b7ada41f162d212045708d0836cdecbc6c8",
+      "claim": "The source's described break-fix process curates and synthetically generates additional safety datasets from vulnerability insights, uses them in post-training, evaluates release candidates, red teams them and feeds identified vulnerabilities back into further dataset curation and safety training.",
+      "evidence_kind": "practice",
+      "normativity_candidate": "context",
+      "visual_dependency": true,
+      "qualifiers": [
+        "This is a documented Microsoft development practice, not evidence that synthetic data is representative, private, anonymous or sufficient for regulatory testing.",
+        "The unit is marked REVIEW_REQUIRED; the candidate is limited to the textual five-step description."
+      ],
+      "uncertainties": [
+        "The source does not establish generalisation from synthetic cases to real-world populations or outcomes."
+      ],
+      "relevance": "Supports synthetic-data governance as a traceable input to iterative evaluation and red teaming."
+    }
+  ],
+  "classification_proposals": [
+    {
+      "source_id": "SRC-0036",
+      "classification": "GUIDANCE",
+      "basis": "Supervisory model-risk guidance; supports scoped expectations and controls in its banking context, not universal legal obligations."
+    },
+    {
+      "source_id": "SRC-0039",
+      "classification": "FRAMEWORK",
+      "basis": "NIST AI RMF 1.0 is a voluntary, outcome-focused framework and cannot by itself establish a legal obligation."
+    },
+    {
+      "source_id": "SRC-0009",
+      "classification": "RESEARCH",
+      "basis": "Microsoft Responsible AI Transparency Report documents organisational research and product practices; it is contextual evidence, not a binding standard."
+    }
+  ],
+  "unresolved_items": [
+    "SRC-0009 Pages 10 and 16 are marked REVIEW_REQUIRED. Existing token-fidelity checks do not establish layout or figure fidelity; an evidence auditor must confirm the text-only scope before reuse.",
+    "The sources do not define a universal calibration method, confidence threshold, acceptable-performance range or cross-modal safety criterion.",
+    "SR 26-2 is scoped to banking model-risk practice, NIST AI RMF is voluntary, and the Microsoft report is research or practice context; none supports a universal legal obligation.",
+    "The candidates do not establish that synthetic data is anonymous, representative, privacy-preserving or sufficient for compliance testing.",
+    "No candidate asserts that a multimodal system is safe, fair, compliant or validated solely because the cited practices are used."
+  ],
+  "warnings": [
+    "No raw source text is reproduced in this receipt.",
+    "Extraction records supported statements from assigned validated Markdown units; it does not establish extraction fidelity, legal correctness, currentness, evidence review or human approval.",
+    "Unreviewed visual or figure-dependent claims are excluded from the candidate set."
+  ]
+}

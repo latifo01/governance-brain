@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gov360:brain-research:1",
+  "title": "Explicit validated ingest research, not governance assistance",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "mode": {
+      "const": "ingest_research"
+    },
+    "query_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "units": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "source_sha256": {
+            "type": "string"
+          },
+          "unit_sha256": {
+            "type": "string"
+          },
+          "unit_file_sha256": {
+            "type": "string"
+          },
+          "locator": {
+            "type": "string"
+          },
+          "visual_review_signal": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "excerpt_sha256": {
+            "type": "string"
+          },
+          "non_exhaustive": {
+            "type": "boolean"
+          },
+          "excerpt_start": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "excerpt_end": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "truncated": {
+            "type": "boolean"
+          },
+          "evidence_status": {
+            "const": "UNREVIEWED_RESEARCH"
+          },
+          "authority": {
+            "const": "UNKNOWN"
+          },
+          "review_status": {
+            "const": "NOT_ASSESSED"
+          },
+          "redistribution": {
+            "const": "UNKNOWN"
+          }
+        },
+        "required": [
+          "path",
+          "source_id",
+          "source_sha256",
+          "unit_sha256",
+          "unit_file_sha256",
+          "locator",
+          "visual_review_signal",
+          "text",
+          "excerpt_sha256",
+          "non_exhaustive",
+          "excerpt_start",
+          "excerpt_end",
+          "truncated",
+          "evidence_status",
+          "authority",
+          "review_status",
+          "redistribution"
+        ]
+      }
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exclusions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "budget": {
+      "type": "object",
+      "required": [
+        "limit",
+        "estimated_tokens",
+        "method"
+      ],
+      "properties": {
+        "limit": {
+          "type": "integer",
+          "minimum": 512
+        },
+        "estimated_tokens": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "method": {
+          "const": "serialized-utf8-bytes-divided-by-four"
+        }
+      },
+      "additionalProperties": false
+    },
+    "data_policy": {
+      "const": "local-only-untrusted-research-not-approved-governance-knowledge"
+    }
+  },
+  "required": [
+    "schema_version",
+    "mode",
+    "query_sha256",
+    "units",
+    "gaps",
+    "exclusions",
+    "budget",
+    "data_policy"
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 2,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "AI_SECURITY",
+    "THIRD_PARTIES_SUPPLY_CHAIN"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 14
+    },
+    "native_unit_count": 14,
+    "normalized_unit_count": 14,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 14,
+    "unit_count": 14
+  },
+  "relative_source_paths": [
+    "sources/03_CoSAI/CoSAI signing-ml-artifacts.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0035",
+  "source_kind": "document",
+  "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+  "units": [
+    {
+      "content_sha256": "472f6e93a9f5e3b7f51a4d32d580b2a156a815d204b2aeeb2a405becef3f4143",
+      "file_sha256": "2c7c0d1b71946290847323eb54810cdc55236db14f36bcc5afc2ad5afa788459",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "8029da50ba83ca50128fdb19fd9b363b52f48fec7d0709ce40622f76d6095345",
+      "file_sha256": "17c506eefd1a29b3eac2b3b7a34ab85e1049950389a67bb669cb9333e717fa9a",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "a4159533a5833a6073be5a1e9d914475afe67482d590756a91c46f7d2a90c68d",
+      "file_sha256": "39cc3540f6c578beb85563f8f1ded5c52d2e465686bbe496f93514a155d3d81f",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "5378224d5a15efa98fd399d3c3c2a2f5951650b2c9f28e096bc9e1d7599ed233",
+      "file_sha256": "bc2d44345fe4674129313201d2c3021f8b1a83c2e1e7956e754396f631669905",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "2f9ef0d0eb80b27ec00adc8322a214b1c0ed2593795cae0b94881179e0aa10ee",
+      "file_sha256": "808fea5ea2298c4dd026122cdaf6817d33752c037073eaa688fce8464a943050",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "d90b505cc47e3e727ae79ff85ec6aeaf1f48fa93dcdd16770e08e45fc90f5893",
+      "file_sha256": "3114e952aa37a89e0922808e113e0378709e30101cb924d55a278295b5fd7a8d",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "474cdf9143a38d337191392f349b42bf22467abc575bfa0bf46752d8630cd9ca",
+      "file_sha256": "04cb6b395e3668bc1eb39895801a47abb34578e889ae1439f5f5477c029a0251",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "c21aef3ffc00990518768009c959d0ebb412c75da02175de66e198dff7bf2718",
+      "file_sha256": "49cdef8d9e82e2be473a132643605ae55ace6a64ee9bdf8acc8b04394f7d2a99",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "b5e40e1a093cdcbbad9cf024a3549619c74bab09802be4638e1581b5d6848fc1",
+      "file_sha256": "d572eb93a618356f7974e63a8e4a2a2f3cb71a14b3534e35f6c39420abae62d3",
+      "filename": "units/p0009.md",
+      "index": 9,
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "85bb25274b80c223eb5d599fc2200b22b29d8530dfb4fc5caf5da95737b80c3d",
+      "file_sha256": "018dfaf9991e9ef73632ad297f9214cd090ef8d45a554100d9d9b7948aead4f1",
+      "filename": "units/p0010.md",
+      "index": 10,
+      "locator": "Page 10",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "29d42ebbce10232b72a931e49b542bcd9da2314d3fcf785dabfe566331d0a563",
+      "file_sha256": "dcf99551b3e0556f741b62ca758ad9b15c40ec28897e5745917fe887640248ca",
+      "filename": "units/p0011.md",
+      "index": 11,
+      "locator": "Page 11",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "7d3b72c8bd64e074cc642acf9013c83e36e50ca4e982865039506521703b98a7",
+      "file_sha256": "d3057a00ce1e289c6cedf86b749cbc08ebf95d5c84590b28ba87bed493955d6d",
+      "filename": "units/p0012.md",
+      "index": 12,
+      "locator": "Page 12",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "c5a0853485da842b3f9d8de8e201c1e8ac11fe07e445de742df6a8735ddc1b85",
+      "file_sha256": "564e8a0157961e9a7ffddf0cddc7c83cab3ded66422581062fd4c30eda86d156",
+      "filename": "units/p0013.md",
+      "index": 13,
+      "locator": "Page 13",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "e6db73c8d778d7aa22fb430f4d4e7d3c86fbeff88ce958e55a6252b559af615b",
+      "file_sha256": "7f52e43fe32823adf17d6f2aae02a2a0cc7e3bfd15e75c4a8dbd671b9f73a833",
+      "filename": "units/p0014.md",
+      "index": 14,
+      "locator": "Page 14",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 39246,
+      "native_unit_count": 14,
+      "normalized_unit_count": 14
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

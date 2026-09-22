@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "3fee3d9c002b5aedbacf2577cfbbc91a7689a08e2e00f75b4e7800e743b5df17",
+  "reviewer_identity": "codex-governance-lifecycle-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {"severity": "INFO", "code": "EVIDENCE_LOCK_RESOLVED", "detail": "The strict release resolves eleven reviewed evidence references through one hash-bound receipt.", "evidence_lock_sha256": "ec7bf5f39e543a480e6102ec5ff93ea8591aa2376f473892f81f0024b5c4cb25"},
+    {"severity": "INFO", "code": "CANDIDATE_REPRODUCED", "detail": "The deterministic preview is valid for one ADD knowledge note; the active vault remains unchanged.", "candidate_sha256": "3fee3d9c002b5aedbacf2577cfbbc91a7689a08e2e00f75b4e7800e743b5df17", "files": 1, "would_write": 1},
+    {"severity": "INFO", "code": "SCOPE_CONFIRMED", "detail": "The release adds only ai-governance-accountability and does not modify questions, taxonomy, prompts, contracts or sources."},
+    {"severity": "WARNING", "code": "NON_BINDING_CONTEXT", "detail": "The proposed controls are guidance or research context and must not be read as legal obligations."},
+    {"severity": "WARNING", "code": "HUMAN_APPROVAL_PENDING", "detail": "Approval is required for this exact candidate before integration.", "approval_file": "state/workshop/proposals/governance-lifecycle-lot-020/review/approval.md"}
+  ]
+}

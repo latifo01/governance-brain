@@ -1,0 +1,33 @@
+{
+  "author_identity": "codex-ai-concepts-p2-knowledge-architect",
+  "candidate_sha256": "ffa730a3de3797bfd82e701161d2c469db0d29aac2fecc56de85cb6dac1c5cf9",
+  "changes": {
+    "ADD": [
+      "multimodal-ai",
+      "synthetic-data",
+      "uncertainty-and-calibration"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "AI",
+  "evidence_changes": true,
+  "files": [
+    "AI concepts/multimodal-ai.md",
+    "AI concepts/synthetic-data.md",
+    "AI concepts/uncertainty-and-calibration.md"
+  ],
+  "proposal_id": "ai-concepts-p2",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "ai-concepts-p2"
+  ],
+  "status": "INTEGRATED"
+}

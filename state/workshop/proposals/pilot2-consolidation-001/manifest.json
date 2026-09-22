@@ -1,0 +1,34 @@
+{
+  "author_identity": "opencode-domain-builder",
+  "candidate_sha256": "44c3ef2fb3d98b73fb1edbff9f87098a92d91a384c1486d4d73586bdc613d28c",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-act-prohibited-practices",
+      "data-protection-impact-assessments-dpia",
+      "fundamental-right-impact-assessment-fria",
+      "high-risk-ai-system-classification"
+    ]
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "description": "Republication of the four pilot notes with corrections (Route 2 wording, Article 5(1)(c)/(d) additions, guidance-mapped DPIA/FRIA passages) under resolved reviewed evidence.",
+  "domain": "LEGAL_REGULATORY",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/fundamental-right-impact-assessment-fria.md",
+    "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md",
+    "Data & AI Laws/ai-act-prohibited-practices.md",
+    "Data & AI Laws/high-risk-ai-system-classification.md"
+  ],
+  "proposal_id": "pilot2-consolidation-001",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [],
+  "status": "INTEGRATED"
+}

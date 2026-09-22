@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "proposal_id": "governance-question-lot-024",
+  "stage": "QUESTIONNAIRE_PROPOSAL",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/governance/gov-001-governance-decision-rights.md",
+      "id": "gov-001-governance-decision-rights"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/governance/gov-002-lifecycle-change-reassessment.md",
+      "id": "gov-002-lifecycle-change-reassessment"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/governance/gov-003-incident-and-abnormal-behaviour-records.md",
+      "id": "gov-003-incident-and-abnormal-behaviour-records"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/governance/gov-004-governance-documentation-update-triggers.md",
+      "id": "gov-004-governance-documentation-update-triggers"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/governance/gov-005-role-specific-ai-literacy.md",
+      "id": "gov-005-role-specific-ai-literacy"
+    }
+  ],
+  "evidence": {
+    "receipt": "state/workshop/evidence-library/governance-questions-024.json",
+    "evidence_lock_sha256": "9ab3c59b614ad43ec6d6c9dd119b4423b16f71d9a44a30a51f918d27cfcc3b25"
+  },
+  "approval": "PENDING"
+}

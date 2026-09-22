@@ -1,0 +1,1 @@
+**Prompt injection** is a security vulnerability in AI models where an attacker crafts malicious text input to override the model's original instructions, system rules, or safety guardrails, forcing it to perform unintended actions (such as leaking sensitive data, executing unauthorized code, or bypassing safety filters).

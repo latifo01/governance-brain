@@ -1,0 +1,192 @@
+{
+  "schema_version": 1,
+  "receipt_id": "organisation-societal-lot-029-fidelity",
+  "method": "Validated ingest lineage and native-text consistency check over the selected NIST AI RMF Playbook units.",
+  "limitations": [
+    "This receipt checks ingest hashes and locators; it does not establish legal authority or human approval.",
+    "The NIST AI RMF Playbook is used as voluntary framework guidance.",
+    "Only textual unit content is used; no external remote content is introduced."
+  ],
+  "results": [
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 4",
+      "unit_file_sha256": "6400974d1624f890c8123f0d87e82d2683c724d7f7fc10941f0b1ccd978a7adc",
+      "unit_content_sha256": "8c6c01a0ddd92461ae4bc1de232d59352f70ae49d85b2120fcdddb042538f71b",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 6",
+      "unit_file_sha256": "ba87842be5035779aa211a3463c8d6d7e78b58cefb453f6239645de8cbf8df43",
+      "unit_content_sha256": "7fc155cd3a98c76ca5bb6dcee48034031ad17841b0574266c1eb6777d82c77e1",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 13",
+      "unit_file_sha256": "f08db41609d46c6f0dd783c74b0f9bed43d48827cbe24759596c699a41f43a46",
+      "unit_content_sha256": "25b04d71f1fcda61b131889d0a658b4a1a4ff2ecd049540417bf103b84a7c0dd",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 15",
+      "unit_file_sha256": "98bd829f20c6792c12f813331218e13e0f97093bd5f843a617685de74ec68adb",
+      "unit_content_sha256": "bc926be7885ea1965909250557e972bb39e47b1d91aed6ad3b3ec2743ab89d9c",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 28",
+      "unit_file_sha256": "e992a84d10086774cc5782eb2a61e3c6519ae0f8a8f15d3dd8a16699e3932c43",
+      "unit_content_sha256": "cafb82055d74abdbffdb365542b93303dc472d80b9d40dedfadac3047be2418b",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 30",
+      "unit_file_sha256": "e076baecabe42d25076df4a809ae809e0875fb8e3b7880c7f9e6aa08f567154d",
+      "unit_content_sha256": "e2c105e43c9150b2d5fd54c25a1671fff120866e90d71ef825c6a6d9b276c75e",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 31",
+      "unit_file_sha256": "e8b2621ee9164e24e3b2d8ff6bb999193e89ca78794061ae4f2100395c456ba8",
+      "unit_content_sha256": "e0650d74420381ec4be82da59cf87afd8d84c019e6d6d2daf8ee059207b43e83",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 32",
+      "unit_file_sha256": "ac5953a1dd5e08bf9c445c60349e801339d03624a380fd351815aa4d63020a6c",
+      "unit_content_sha256": "8263888f285329c8504a352478d7b42cb6f4f69574c396ac4e44f553cb28c595",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 33",
+      "unit_file_sha256": "544ac31b7130184b64178c1ac0b050f606db298893a2abf38a1c5267783b5723",
+      "unit_content_sha256": "03b9a97ad442aa82b5302db4611cbf6b44a1fcc571d410a34ae046066a028706",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 35",
+      "unit_file_sha256": "33509b9fb484e8c7ea15a5be744838eee0e5640531e22482f21e0f00791e3126",
+      "unit_content_sha256": "98a2b39b2884a60b87b4f74adef7445be8064bdee3b2844445576ed7e8e89ffc",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 36",
+      "unit_file_sha256": "d323c488e78cfeb7e405fbf1251f413ba1e129360dc7d1c580d287de0b991bf1",
+      "unit_content_sha256": "134f9f3b8be4acb77b287e6feb5bbf5156aa16c6b95edc904dd70109ed8a4fcd",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 38",
+      "unit_file_sha256": "798f0ef506f0532fa0ace636d0ce36eaf2c744c4c3612e435f12e3e74189b202",
+      "unit_content_sha256": "4afe119e5e1864774c8a8f0e078d59078c97105526a605d63f9f1c3c88b61e8d",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 39",
+      "unit_file_sha256": "08054f3e9df94d4bcd6e8439a56e8702598869ea241c34dddcedb6fb8379d4b4",
+      "unit_content_sha256": "1adfd525dfc5aba8a48837054622171898991dcee70d0e6be143ace9930feb7d",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 59",
+      "unit_file_sha256": "cac576a5deeb75cdd32ba3befb6c2d9bf75b7e3d6cc0932fc0c59c129003d4a2",
+      "unit_content_sha256": "b5f9e80ca7bebc58a3dd24ffc8dee8842017ac2bbc59d5d8daf37d7bd3d2355f",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 72",
+      "unit_file_sha256": "0a4fd748efd6e9ac352915822ab9df6ed4cb3f1f34367a9f72eb48d52dca79a5",
+      "unit_content_sha256": "9ea2a99caeac24f6f72dafbdd9d5c22b500864d6f3e813f77c16a6c1837fbcfe",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 73",
+      "unit_file_sha256": "2371f6f26ee1b9074e850ce6e60fd88152bbef92ccb11efff19f3bbde6331b78",
+      "unit_content_sha256": "3fbea99abdfb110a1a10d174697cc1d48c11e334cef8c15623730999de23d10e",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 82",
+      "unit_file_sha256": "f16b3ca236167aab2be09bdb8cfce8892cf21bc566b6c1eb6629e215f4d9b637",
+      "unit_content_sha256": "1b14ab94d49b74ab13a3a9fd5f36e05a310e0faf7a49163cbe0fb9d246682316",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 83",
+      "unit_file_sha256": "203168c49dfdfeeefc8f3b6c2206f2abcb8a061ae2870a5e65cd38c69fcc723d",
+      "unit_content_sha256": "d9bae7d3c24abbda6fca8de31f216da3dbdbff6a24720ba889a4d8257bb2dce3",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 127",
+      "unit_file_sha256": "7cc18ffd51556447fcef55617687efb6df8da4444e0110b062c519c0df705339",
+      "unit_content_sha256": "583e279e769939699e63fd75cb269e5ffc94aeda32cbfcc2a3914e37a1853acc",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "locator": "Page 107",
+      "unit_file_sha256": "b26dd066c1e359d8c00f324f48cd48afc465553439e5660b7d8d336dc342af70",
+      "unit_content_sha256": "bedc3ac89412fe258c598d403340abfa29a3a33f1eb3df456bfdec21662dd359",
+      "result": "REVIEWED",
+      "method": "unit metadata, file hash, content hash and source manifest match"
+    }
+  ]
+}

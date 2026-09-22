@@ -1,0 +1,832 @@
+{
+  "edges": [
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "01d9486a4cebfb51",
+      "label": "yes",
+      "toNode": "d35fe8b13bf72c8a",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "47e3cb04449fc24c",
+      "fromSide": "right",
+      "id": "050dc5e05e931627",
+      "label": "no-prohibited-practice-identified",
+      "toNode": "74949a1d30934876",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "0e162997ae3f49f9",
+      "fromSide": "right",
+      "id": "085985c1fead6f46",
+      "label": "high-risk",
+      "toNode": "d65bb40497a4ccc1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "0b1c6bd62a89bac7",
+      "label": "yes",
+      "toNode": "cf61cd689058e495",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "aed2667a63282ed8",
+      "fromSide": "right",
+      "id": "0fb6c1710cb6cc9e",
+      "label": "yes",
+      "toNode": "79bb08cd7b842640",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "13492c6f4b581353",
+      "label": "yes",
+      "toNode": "44e5b17e357fb0d1",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "b1340c79be4ea817",
+      "fromSide": "right",
+      "id": "2144bc556de664c8",
+      "label": "yes",
+      "toNode": "7ee14c85b4998006",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "d35fe8b13bf72c8a",
+      "fromSide": "right",
+      "id": "3327fb000f40dae8",
+      "label": "yes",
+      "toNode": "aed2667a63282ed8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "402ebefd6a7e9930",
+      "label": "yes",
+      "toNode": "84427aae5c974a4b",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8a6bb20a64b7b8a8",
+      "fromSide": "right",
+      "id": "4d1e959b2183f567",
+      "label": "yes",
+      "toNode": "9024d337be090a1d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "57aa0621e4921412",
+      "label": "yes",
+      "toNode": "9eb7d674de2d9186",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "5c9279198209af4c",
+      "fromSide": "right",
+      "id": "62cfc9b4dcb1e60f",
+      "label": "yes",
+      "toNode": "2abf536dab33d966",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "left",
+      "id": "6b2a68f1a82194da",
+      "label": "yes",
+      "toNode": "38a5651d613eedf7",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "d35fe8b13bf72c8a",
+      "fromSide": "right",
+      "id": "72ea5ad38aa73f01",
+      "label": "yes",
+      "toNode": "de9dd87d91c8b161",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "7a55b02c8b4183d8",
+      "label": "yes",
+      "toNode": "2ad8a63a29e74462",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "7ed13f9dcea7365f",
+      "label": "yes",
+      "toNode": "3d103f9a59699a8d",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "81fc73efbff0f2a8",
+      "label": "yes",
+      "toNode": "13b36224d8214a07",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "28b3961f0e7212c1",
+      "fromSide": "right",
+      "id": "8eae12cb0839ba95",
+      "label": "yes",
+      "toNode": "47e3cb04449fc24c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "left",
+      "id": "8f3aa258ce38ec5c",
+      "label": "yes",
+      "toNode": "28b3961f0e7212c1",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "932968db80bf19aa",
+      "label": "yes",
+      "toNode": "6ac1731c85911911",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "left",
+      "id": "94bad5b2543ea0dc",
+      "label": "yes",
+      "toNode": "30fea4be8c2113ad",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "d35fe8b13bf72c8a",
+      "fromSide": "right",
+      "id": "a0e26b38c40cbeeb",
+      "label": "yes",
+      "toNode": "0571dc42e2b89bd3",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "8a6bb20a64b7b8a8",
+      "fromSide": "right",
+      "id": "a536ea0f62db2155",
+      "label": "yes",
+      "toNode": "09494b06d90beb14",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "left",
+      "id": "a8badbb02d03feb6",
+      "label": "yes",
+      "toNode": "dd933b426e3c85fd",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "d35fe8b13bf72c8a",
+      "fromSide": "right",
+      "id": "ae05d96ab63187d4",
+      "label": "yes",
+      "toNode": "9adda8389e7ce9ed",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "47e3cb04449fc24c",
+      "fromSide": "left",
+      "id": "b53bf39ff21e4ffc",
+      "label": "no-prohibited-practice-identified",
+      "toNode": "0e162997ae3f49f9",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "38a5651d613eedf7",
+      "fromSide": "right",
+      "id": "b9eec0d783ed1218",
+      "label": "yes",
+      "toNode": "9dccd8b3d6b778e8",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "left",
+      "id": "c8f04015d995db8b",
+      "label": "yes",
+      "toNode": "8a6bb20a64b7b8a8",
+      "toSide": "right"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "cd2546bdb1319cd3",
+      "label": "yes",
+      "toNode": "5c9279198209af4c",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "17199ed75bf9ecfd",
+      "fromSide": "right",
+      "id": "d09a8dc3dbdb3e98",
+      "label": "yes",
+      "toNode": "59e8a763c84e2825",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "9f7bd4a3acb013b3",
+      "fromSide": "right",
+      "id": "e0fa187eeeab12f0",
+      "label": "yes",
+      "toNode": "0cb1befbd984bfdb",
+      "toSide": "left"
+    },
+    {
+      "fromNode": "38a5651d613eedf7",
+      "fromSide": "right",
+      "id": "f03644a32108eb39",
+      "label": "yes",
+      "toNode": "c614f353f0943f4d",
+      "toSide": "left"
+    }
+  ],
+  "nodes": [
+    {
+      "color": "1",
+      "height": 150,
+      "id": "d8facdcc742e77f1",
+      "text": "# Governance questionnaire\n\nGenerated from canonical Markdown questions. Answers are not stored in this Canvas.",
+      "type": "text",
+      "width": 520,
+      "x": 0,
+      "y": -260
+    },
+    {
+      "color": "4",
+      "height": 900,
+      "id": "0fc23d5b493a7a7f",
+      "label": "Core",
+      "type": "group",
+      "width": 980,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-001-business-purpose.md",
+      "height": 120,
+      "id": "e5d441b44fa51d7d",
+      "type": "file",
+      "width": 260,
+      "x": 40,
+      "y": 70
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-002-accountable-owner.md",
+      "height": 120,
+      "id": "92c2d1d00918b3a6",
+      "type": "file",
+      "width": 260,
+      "x": 340,
+      "y": 70
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-003-ai-system-determination.md",
+      "height": 120,
+      "id": "9f7bd4a3acb013b3",
+      "type": "file",
+      "width": 260,
+      "x": 640,
+      "y": 70
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-004-system-boundary.md",
+      "height": 120,
+      "id": "30fea4be8c2113ad",
+      "type": "file",
+      "width": 260,
+      "x": 40,
+      "y": 230
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-005-predictive-capability.md",
+      "height": 120,
+      "id": "dd933b426e3c85fd",
+      "type": "file",
+      "width": 260,
+      "x": 340,
+      "y": 230
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-006-generative-capability.md",
+      "height": 120,
+      "id": "84427aae5c974a4b",
+      "type": "file",
+      "width": 260,
+      "x": 640,
+      "y": 230
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-007-agentic-capability.md",
+      "height": 120,
+      "id": "8a6bb20a64b7b8a8",
+      "type": "file",
+      "width": 260,
+      "x": 40,
+      "y": 390
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-008-users-affected-people.md",
+      "height": 120,
+      "id": "38a5651d613eedf7",
+      "type": "file",
+      "width": 260,
+      "x": 340,
+      "y": 390
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-009-personal-data-involvement.md",
+      "height": 120,
+      "id": "d35fe8b13bf72c8a",
+      "type": "file",
+      "width": 260,
+      "x": 640,
+      "y": 390
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-010-eu-ai-act-scope.md",
+      "height": 120,
+      "id": "28b3961f0e7212c1",
+      "type": "file",
+      "width": 260,
+      "x": 40,
+      "y": 550
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-011-prohibited-practice-screening.md",
+      "height": 120,
+      "id": "47e3cb04449fc24c",
+      "type": "file",
+      "width": 260,
+      "x": 340,
+      "y": 550
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-012-automated-decision-trigger.md",
+      "height": 120,
+      "id": "aed2667a63282ed8",
+      "type": "file",
+      "width": 260,
+      "x": 640,
+      "y": 550
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-013-high-risk-ai-classification.md",
+      "height": 120,
+      "id": "0e162997ae3f49f9",
+      "type": "file",
+      "width": 260,
+      "x": 40,
+      "y": 710
+    },
+    {
+      "color": "4",
+      "file": "questions/core/core-014-ai-strategy-value-record.md",
+      "height": 120,
+      "id": "b1340c79be4ea817",
+      "type": "file",
+      "width": 260,
+      "x": 340,
+      "y": 710
+    },
+    {
+      "color": "5",
+      "height": 260,
+      "id": "307f541ff3ec2c4c",
+      "label": "Assurance",
+      "type": "group",
+      "width": 680,
+      "x": 1100,
+      "y": 0
+    },
+    {
+      "color": "5",
+      "file": "questions/assurance/aud-001-independent-ai-assurance.md",
+      "height": 120,
+      "id": "17199ed75bf9ecfd",
+      "type": "file",
+      "width": 260,
+      "x": 1140,
+      "y": 70
+    },
+    {
+      "color": "5",
+      "file": "questions/assurance/aud-002-assurance-finding-closure.md",
+      "height": 120,
+      "id": "59e8a763c84e2825",
+      "type": "file",
+      "width": 260,
+      "x": 1440,
+      "y": 70
+    },
+    {
+      "color": "2",
+      "height": 740,
+      "id": "e55de6576a5628c1",
+      "label": "Governance",
+      "type": "group",
+      "width": 980,
+      "x": 1900,
+      "y": 0
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-001-governance-decision-rights.md",
+      "height": 120,
+      "id": "5e1f0fa0bcc4b964",
+      "type": "file",
+      "width": 260,
+      "x": 1940,
+      "y": 70
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-002-lifecycle-change-reassessment.md",
+      "height": 120,
+      "id": "3d103f9a59699a8d",
+      "type": "file",
+      "width": 260,
+      "x": 2240,
+      "y": 70
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-003-incident-and-abnormal-behaviour-records.md",
+      "height": 120,
+      "id": "cf61cd689058e495",
+      "type": "file",
+      "width": 260,
+      "x": 2540,
+      "y": 70
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-004-governance-documentation-update-triggers.md",
+      "height": 120,
+      "id": "13b36224d8214a07",
+      "type": "file",
+      "width": 260,
+      "x": 1940,
+      "y": 230
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-005-role-specific-ai-literacy.md",
+      "height": 120,
+      "id": "9eb7d674de2d9186",
+      "type": "file",
+      "width": 260,
+      "x": 2240,
+      "y": 230
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-006-societal-impact-feedback.md",
+      "height": 120,
+      "id": "c614f353f0943f4d",
+      "type": "file",
+      "width": 260,
+      "x": 2540,
+      "y": 230
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-007-third-party-ai-assurance.md",
+      "height": 120,
+      "id": "44e5b17e357fb0d1",
+      "type": "file",
+      "width": 260,
+      "x": 1940,
+      "y": 390
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-008-ai-strategy-metrics-and-review.md",
+      "height": 120,
+      "id": "7ee14c85b4998006",
+      "type": "file",
+      "width": 260,
+      "x": 2240,
+      "y": 390
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-009-lifecycle-release-and-rollback.md",
+      "height": 120,
+      "id": "0cb1befbd984bfdb",
+      "type": "file",
+      "width": 260,
+      "x": 2540,
+      "y": 390
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-010-ai-literacy-effectiveness.md",
+      "height": 120,
+      "id": "6ac1731c85911911",
+      "type": "file",
+      "width": 260,
+      "x": 1940,
+      "y": 550
+    },
+    {
+      "color": "2",
+      "file": "questions/governance/gov-011-sustainability-impact-metrics.md",
+      "height": 120,
+      "id": "9dccd8b3d6b778e8",
+      "type": "file",
+      "width": 260,
+      "x": 2240,
+      "y": 550
+    },
+    {
+      "color": "3",
+      "height": 420,
+      "id": "95db158f23789306",
+      "label": "Legal",
+      "type": "group",
+      "width": 980,
+      "x": 3000,
+      "y": 0
+    },
+    {
+      "color": "3",
+      "file": "questions/legal/legal-001-ai-act-classification-record.md",
+      "height": 120,
+      "id": "74949a1d30934876",
+      "type": "file",
+      "width": 260,
+      "x": 3040,
+      "y": 70
+    },
+    {
+      "color": "3",
+      "file": "questions/legal/legal-002-fria-trigger.md",
+      "height": 120,
+      "id": "d65bb40497a4ccc1",
+      "type": "file",
+      "width": 260,
+      "x": 3340,
+      "y": 70
+    },
+    {
+      "color": "3",
+      "file": "questions/legal/legal-003-dpia-ai-processing.md",
+      "height": 120,
+      "id": "9adda8389e7ce9ed",
+      "type": "file",
+      "width": 260,
+      "x": 3640,
+      "y": 70
+    },
+    {
+      "color": "3",
+      "file": "questions/legal/legal-004-automated-decision-safeguards.md",
+      "height": 120,
+      "id": "79bb08cd7b842640",
+      "type": "file",
+      "width": 260,
+      "x": 3040,
+      "y": 230
+    },
+    {
+      "color": "3",
+      "file": "questions/legal/legal-005-data-subject-rights-readiness.md",
+      "height": 120,
+      "id": "de9dd87d91c8b161",
+      "type": "file",
+      "width": 260,
+      "x": 3340,
+      "y": 230
+    },
+    {
+      "color": "3",
+      "file": "questions/legal/legal-006-personal-data-governance-trigger.md",
+      "height": 120,
+      "id": "0571dc42e2b89bd3",
+      "type": "file",
+      "width": 260,
+      "x": 3640,
+      "y": 230
+    },
+    {
+      "color": "6",
+      "height": 260,
+      "id": "be5cf8f74af1e1e7",
+      "label": "Operational",
+      "type": "group",
+      "width": 680,
+      "x": 4100,
+      "y": 0
+    },
+    {
+      "color": "6",
+      "file": "questions/operational/ori-001-ai-incident-response-playbook.md",
+      "height": 120,
+      "id": "5c9279198209af4c",
+      "type": "file",
+      "width": 260,
+      "x": 4140,
+      "y": 70
+    },
+    {
+      "color": "6",
+      "file": "questions/operational/ori-002-recovery-validation-and-lessons-learned.md",
+      "height": 120,
+      "id": "2abf536dab33d966",
+      "type": "file",
+      "width": 260,
+      "x": 4440,
+      "y": 70
+    },
+    {
+      "color": "1",
+      "height": 900,
+      "id": "6c0152266b626bc1",
+      "label": "Risk",
+      "type": "group",
+      "width": 980,
+      "x": 4900,
+      "y": 0
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-001-model-validation-evidence.md",
+      "height": 120,
+      "id": "41eadd958a767d25",
+      "type": "file",
+      "width": 260,
+      "x": 4940,
+      "y": 70
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-002-backtesting-design.md",
+      "height": 120,
+      "id": "5b08a265f57f2c01",
+      "type": "file",
+      "width": 260,
+      "x": 5240,
+      "y": 70
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-003-model-monitoring-response.md",
+      "height": 120,
+      "id": "cf8daaf8d78781c4",
+      "type": "file",
+      "width": 260,
+      "x": 5540,
+      "y": 70
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-004-model-documentation-completeness.md",
+      "height": 120,
+      "id": "e6cd7a1f15b62d31",
+      "type": "file",
+      "width": 260,
+      "x": 4940,
+      "y": 230
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-005-prompt-injection-threat-model.md",
+      "height": 120,
+      "id": "fa3bba4f749a6a1f",
+      "type": "file",
+      "width": 260,
+      "x": 5240,
+      "y": 230
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-006-guardrail-placement.md",
+      "height": 120,
+      "id": "d102320598a12ff6",
+      "type": "file",
+      "width": 260,
+      "x": 5540,
+      "y": 230
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-007-red-team-remediation.md",
+      "height": 120,
+      "id": "46c4070194567812",
+      "type": "file",
+      "width": 260,
+      "x": 4940,
+      "y": 390
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-008-human-oversight-authority.md",
+      "height": 120,
+      "id": "36e37dfa6376138c",
+      "type": "file",
+      "width": 260,
+      "x": 5240,
+      "y": 390
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-009-misinformation-overreliance.md",
+      "height": 120,
+      "id": "d3ea78d91013435a",
+      "type": "file",
+      "width": 260,
+      "x": 5540,
+      "y": 390
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-010-sensitive-data-disclosure-surfaces.md",
+      "height": 120,
+      "id": "2db27509c5d68cd7",
+      "type": "file",
+      "width": 260,
+      "x": 4940,
+      "y": 550
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-011-data-quality-evaluation.md",
+      "height": 120,
+      "id": "d3585dd56cb2ca4b",
+      "type": "file",
+      "width": 260,
+      "x": 5240,
+      "y": 550
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-012-ai-supply-chain-inventory.md",
+      "height": 120,
+      "id": "2ad8a63a29e74462",
+      "type": "file",
+      "width": 260,
+      "x": 5540,
+      "y": 550
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-013-agent-identity-and-access.md",
+      "height": 120,
+      "id": "9024d337be090a1d",
+      "type": "file",
+      "width": 260,
+      "x": 4940,
+      "y": 710
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-014-mcp-tool-governance.md",
+      "height": 120,
+      "id": "09494b06d90beb14",
+      "type": "file",
+      "width": 260,
+      "x": 5240,
+      "y": 710
+    },
+    {
+      "color": "1",
+      "file": "questions/risk/risk-015-data-governance-quality-evidence.md",
+      "height": 120,
+      "id": "112f3079f1e3ebf1",
+      "type": "file",
+      "width": 260,
+      "x": 5540,
+      "y": 710
+    }
+  ]
+}

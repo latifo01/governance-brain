@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-gaps-033",
+  "status": "PLAN_ONLY",
+  "release_order": [
+    {
+      "release_id": "benchmark-evidence-034-governance-core",
+      "priority": "P0",
+      "lane": "strict",
+      "targets": [
+        "core-001-business-purpose",
+        "core-002-accountable-owner",
+        "iso-42001"
+      ],
+      "scenario_families": [
+        "eval-01",
+        "eval-02"
+      ],
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0017",
+        "SRC-0039"
+      ],
+      "work": "Extract only relevant units; audit locators and ISO preview limits; bind evidence to the existing note/question sections; independent release review."
+    },
+    {
+      "release_id": "benchmark-evidence-035-model-lifecycle",
+      "priority": "P0",
+      "lane": "strict",
+      "targets": [
+        "ai-model-validation",
+        "risk-001-model-validation-evidence",
+        "ai-model-documentation",
+        "ai-model-transparency",
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ],
+      "scenario_families": [
+        "eval-06",
+        "eval-09",
+        "eval-11"
+      ],
+      "source_ids": [
+        "SRC-0009",
+        "SRC-0018",
+        "SRC-0036",
+        "SRC-0038",
+        "SRC-0039"
+      ],
+      "work": "Separate supervisory/model-risk evidence from voluntary AI RMF and Article 50 guidance; review image-warning pages where used; construct only evidence-supported sections and questions."
+    },
+    {
+      "release_id": "benchmark-evidence-036-security-oversight",
+      "priority": "P0",
+      "lane": "strict",
+      "targets": [
+        "prompt-injection",
+        "risk-005-prompt-injection-threat-model",
+        "human-oversight",
+        "risk-008-human-oversight-authority"
+      ],
+      "scenario_families": [
+        "eval-07",
+        "eval-08"
+      ],
+      "source_ids": [
+        "SRC-0009",
+        "SRC-0016",
+        "SRC-0026",
+        "SRC-0027",
+        "SRC-0039"
+      ],
+      "work": "Audit direct/indirect injection and agent goal-hijack locators; distinguish AI Act-specific material from security guidance; retain current limits and no universal legal claim."
+    },
+    {
+      "release_id": "benchmark-evidence-037-traceability-supply-chain",
+      "priority": "P1",
+      "lane": "strict",
+      "targets": [
+        "traceability",
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+      ],
+      "scenario_families": [
+        "eval-10",
+        "eval-13"
+      ],
+      "source_ids": [
+        "SRC-0035",
+        "SRC-0036",
+        "SRC-0038",
+        "SRC-0046"
+      ],
+      "work": "Re-review signing/provenance and supervisory records; revalidate the exact ATLAS CS0027 object and its incident limits; bind only the audited references."
+    }
+  ],
+  "parallelization": {
+    "allowed": "source extraction and bounded fidelity checks may run in parallel by release",
+    "serialization": "evidence lock consolidation, independent review, human approval and deterministic integration remain per-release and sequential",
+    "do_not": "Do not alter config/brain-evaluation.json to mask evidence gaps; do not create placeholder notes or claims."
+  },
+  "acceptance": {
+    "per_release": [
+      "all assigned sources ingest-valid",
+      "all evidence refs resolve with source/unit hashes and locators",
+      "target sections have current reviewed evidence",
+      "independent release review READY_FOR_HUMAN_APPROVAL",
+      "exact human approval hash recorded"
+    ],
+    "benchmark": "rerun brain evaluate after each approved integration; preserve 15/15 negative passes; report readiness changes without marking coverage COMPLETE"
+  }
+}

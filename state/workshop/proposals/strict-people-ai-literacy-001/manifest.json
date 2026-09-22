@@ -1,0 +1,33 @@
+{
+  "author_identity": "codex-source-gap-literacy-builder",
+  "candidate_sha256": "9bc17ff79c9e722b3db777f24a01323260bb66b6040f4641d8d343ef09fb715e",
+  "changes": {
+    "ADD": [
+      "gov-010-ai-literacy-effectiveness"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-literacy-and-change-management"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "GOVERNANCE_ACCOUNTABILITY",
+  "evidence_audit_proposal": "source-gap-evidence-audit-p1-20260920",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/ai-literacy-and-change-management.md",
+    "questions/governance/gov-010-ai-literacy-effectiveness.md"
+  ],
+  "proposal_id": "strict-people-ai-literacy-001",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "people-ai-literacy-change"
+  ],
+  "status": "INTEGRATED"
+}

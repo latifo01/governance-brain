@@ -1,0 +1,38 @@
+{
+  "candidate_sha256": "9c8885080f42d06bd12f1fdcfd10785336eeb5d53b1413f3005d4fb97c0f81bd",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "87a57b02277dd8c0381b2fc4a605bd4920e4c8df6c6d623facda2146b9595850"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/human-oversight.md",
+      "proposal_id": "benchmark-evidence-036-security-oversight",
+      "sha256": "670155d1aae9f25e113c1ae1653166c9241e7a60904914fa6227ef0826f322ce"
+    },
+    {
+      "path": "AI Risks/prompt-injection.md",
+      "proposal_id": "benchmark-evidence-036-security-oversight",
+      "sha256": "a93925c940b8097bc2e68fc687df8e9422cf4bbb2eaaf9464464aac072005013"
+    },
+    {
+      "path": "questions/risk/risk-005-prompt-injection-threat-model.md",
+      "proposal_id": "benchmark-evidence-036-security-oversight",
+      "sha256": "5167005d4492cef98603d9013da395d5d7d2bc9b79bdc2bf90318c7f1d67d210"
+    },
+    {
+      "path": "questions/risk/risk-008-human-oversight-authority.md",
+      "proposal_id": "benchmark-evidence-036-security-oversight",
+      "sha256": "7a360e5e6af749641ee6b828941e519b4ffae490bbb30f7189b7728af96c7839"
+    }
+  ],
+  "materialized_files": 4,
+  "notes": 136,
+  "proposal_ids": [
+    "benchmark-evidence-036-security-oversight"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

@@ -1,0 +1,15 @@
+schema_version: 1
+domain_id: EXAMPLE_DOMAIN
+slug: example-domain
+status: DRAFT
+labels:
+  en: Example domain
+  fr: Domaine d'exemple
+description: Replace this description before requesting activation.
+question_prefix: EX
+languages: [en, fr]
+source_roots:
+  - sources/example-domain
+review_policy: HUMAN_APPROVAL
+aliases: []
+

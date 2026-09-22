@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-036-security-oversight",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "9c8885080f42d06bd12f1fdcfd10785336eeb5d53b1413f3005d4fb97c0f81bd",
+  "reviewer_identity": "codex-benchmark-evidence-036-security-oversight-independent-release-reviewer-v2",
+  "reviewed_at": "2026-09-18T00:00:00Z",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic integration preview validates the exact four-file candidate and reports valid=true with would_write=4; no active-vault write was applied.",
+      "candidate_sha256": "9c8885080f42d06bd12f1fdcfd10785336eeb5d53b1413f3005d4fb97c0f81bd"
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The evidence lock resolves twelve unique reviewed references through the hash-bound shared receipt; all twelve substantive section bindings are reviewed.",
+      "evidence_lock_sha256": "a7e575260c701525786027304fa3448934967fd583427393918580fb1caed438"
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "The twelve receipt records resolve source_id, source SHA-256, ingest unit path, unit content SHA-256, unit file SHA-256 and stable page locators against assigned validated Markdown units."
+    },
+    {
+      "severity": "INFO",
+      "code": "REFERENCE_CORRECTION_VERIFIED",
+      "detail": "The former stale SRC-0027 ec-007 binding is absent; the prompt-injection Summary binding now references verified SRC-0026 Page 11 ec-007. No uncertain candidate is used."
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_AND_LINKS_VALID",
+      "detail": "The four existing UPDATE IDs and their future-vault files pass deterministic proposal validation; IDs, registered domains, paths and existing links are valid.",
+      "file_count": 4
+    },
+    {
+      "severity": "INFO",
+      "code": "QUESTION_GRAPH_VALIDATED",
+      "detail": "Both questions retain stable topics, one boolean intent, equivalent French and English wording, and null dependencies; no duplicate ID or dependency cycle is introduced."
+    },
+    {
+      "severity": "WARNING",
+      "code": "NON_BINDING_AUTHORITY_SCOPE",
+      "detail": "The release contains research, OWASP guidance and voluntary/framework material only. The notes do not assert universal legal obligations."
+    },
+    {
+      "severity": "INFO",
+      "code": "UNCERTAIN_EVIDENCE_EXCLUDED",
+      "detail": "The three SRC-0009/SRC-0016 uncertain candidates remain outside the evidence lock and are not used by any binding."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This verdict establishes readiness only. Human approval must bind the exact candidate SHA-256 before deterministic integration.",
+      "approval_file": "state/workshop/proposals/benchmark-evidence-036-security-oversight/review/approval.md"
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_12_REFERENCES",
+    "shared_receipt": "PASS_12_RECORDS_12_BINDINGS",
+    "evidence_audit": "PASS_12_VERIFIED_3_EXCLUDED",
+    "fidelity_review": "PASS_12_REVIEWED_RESULTS",
+    "authority_boundary": "PASS_NO_BINDING_SOURCE_OR_CLAIM",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "question_bilingual_equivalence": "PASS",
+    "question_dependencies": "PASS_ACYCLIC",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS"
+  }
+}

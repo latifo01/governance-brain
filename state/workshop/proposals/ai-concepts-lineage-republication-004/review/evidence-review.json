@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "evidence_lock_sha256": "f299090b82e84703cc31014521bf88039e9e0c8e66d0a6a0d702fd94cada89b6",
+  "reviewer_identity": "codex-ai-concepts-lineage-evidence-auditor",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "RECEIPT_VERIFIED",
+      "detail": "Eleven locked references resolve to the current hash-bound receipt and validated ingest units."
+    },
+    {
+      "severity": "INFO",
+      "code": "SECTION_BINDINGS_VERIFIED",
+      "detail": "Twenty-four substantive sections across the six concept updates have exact reviewed bindings. Related Concepts sections are deterministic navigation made only of links and are exempt."
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "The release uses GUIDANCE and RESEARCH evidence only. No binding claim, prohibition, legal interpretation or universal obligation is introduced."
+    },
+    {
+      "severity": "WARNING",
+      "code": "VISUAL_AND_EDITORIAL_LIMITS",
+      "detail": "The receipt records text-scoped fidelity and editorial clauses as limitations; figure-dependent claims remain excluded and token agreement does not establish legal correctness."
+    }
+  ]
+}

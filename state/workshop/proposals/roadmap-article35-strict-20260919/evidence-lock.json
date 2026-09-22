@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "art35-addendum-src-0043-p0020-ec-001",
+    "art35-addendum-src-0043-p0020-ec-002",
+    "art35-addendum-src-0043-p0035-ec-001",
+    "art35-article26-qualified-src-0011-p0220-ec-001",
+    "art35-article26-qualified-src-0043-p0035-ec-001",
+    "art35-src-0010-p0053-ec-001",
+    "art35-src-0010-p0053-ec-002",
+    "art35-src-0010-p0054-ec-001",
+    "art35-src-0010-p0054-ec-002",
+    "art35-src-0010-p0055-ec-001",
+    "art35-src-0010-p0056-ec-001",
+    "art35-src-0022-p0183-ec-001",
+    "art35-src-0022-p0184-ec-001"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/roadmap-article35-strict-20260919.json",
+      "sha256": "66cae2f3ab104ed4802dd1a03a335d6e5dfd526b6776b7fbbbc1ed61dd9c2c3a"
+    }
+  ],
+  "excluded_candidates": [
+    "art35-src-0011-p0220-ec-001",
+    "art35-src-0011-p0224-ec-001"
+  ],
+  "excluded_sources": [
+    "SRC-0047"
+  ],
+  "review_basis": {
+    "review_path": "state/workshop/proposals/roadmap-article35-strict-20260919/review/currentness-independent-review.json",
+    "review_sha256": "79e989a3ac625895dd42b3fae07b202b3b7a0515cccf98aec0954ffe83ccb3b9",
+    "verdict": "EVIDENCE_READY"
+  },
+  "receipt_candidate_sha256": "f47c1d90cec5ae426625946a5af68cfc9ac01df93cf26545d1642d1f947bfe21"
+}

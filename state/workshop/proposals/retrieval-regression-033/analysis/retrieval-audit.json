@@ -1,0 +1,943 @@
+{
+  "schema_version": 1,
+  "workstream": "retrieval-regression-033",
+  "generated_at": "2026-09-17",
+  "scope": "diagnostic only; no active code, configuration, vault, receipt, or benchmark changes",
+  "inputs": {
+    "evaluation_config_sha256": "540b416c6e31e149a95baf26376aac34c0ebb0ab6ca8fdbe8372d23a1bec8270",
+    "catalogue_file_sha256": "c61a56733f380649831815b011eac9a034d476ca1306dad3d15ff190dc47060d",
+    "catalogue_build_sha256": "bb39e9ad7c81fbbd88f2a97394b9cf2e14bb6f28fcf8faf484f7756cdbae547c",
+    "default_token_budget": 6000
+  },
+  "baseline": {
+    "scenario_count": 45,
+    "positive_count": 30,
+    "ready_positive_count": 12,
+    "unavailable_positive_count": 18,
+    "readiness": 0.4,
+    "recall_at_5": 1.0,
+    "negative_count": 15,
+    "negative_pass_count": 15,
+    "accepted": false,
+    "complete_suite": true
+  },
+  "causes": {
+    "unavailable_positive_scenarios": 18,
+    "unavailable_scenario_ids": [
+      "eval-01-en",
+      "eval-01-fr",
+      "eval-02-en",
+      "eval-02-fr",
+      "eval-06-en",
+      "eval-06-fr",
+      "eval-07-en",
+      "eval-07-fr",
+      "eval-08-en",
+      "eval-08-fr",
+      "eval-09-en",
+      "eval-09-fr",
+      "eval-10-en",
+      "eval-10-fr",
+      "eval-11-en",
+      "eval-11-fr",
+      "eval-13-en",
+      "eval-13-fr"
+    ],
+    "unique_expected_note_ids_blocked_by_assistance_evidence_gate": [
+      "ai-model-documentation",
+      "ai-model-monitoring",
+      "ai-model-transparency",
+      "ai-model-validation",
+      "atlas-aml-cs0027-organization-confusion-on-hugging-face",
+      "core-001-business-purpose",
+      "core-002-accountable-owner",
+      "human-oversight",
+      "iso-42001",
+      "prompt-injection",
+      "risk-001-model-validation-evidence",
+      "risk-003-model-monitoring-response",
+      "risk-005-prompt-injection-threat-model",
+      "risk-008-human-oversight-authority",
+      "traceability"
+    ],
+    "sections_evidence_status": {
+      "REVIEWED": 162,
+      "UNRESOLVED": 557
+    },
+    "publication_lineage_unresolved_warnings": 45,
+    "budget_gap_on_positive_scenarios_at_6000": 29
+  },
+  "budget_sensitivity": [
+    {
+      "token_budget": 256,
+      "ready_positive": 12,
+      "hit_ready_positive": 0,
+      "recall_at_5": 0.0,
+      "negative_pass": 15,
+      "positive_budget_omission_count": 30
+    },
+    {
+      "token_budget": 512,
+      "ready_positive": 12,
+      "hit_ready_positive": 0,
+      "recall_at_5": 0.0,
+      "negative_pass": 15,
+      "positive_budget_omission_count": 30
+    },
+    {
+      "token_budget": 1024,
+      "ready_positive": 12,
+      "hit_ready_positive": 7,
+      "recall_at_5": 0.5833333333333334,
+      "negative_pass": 15,
+      "positive_budget_omission_count": 30
+    },
+    {
+      "token_budget": 2048,
+      "ready_positive": 12,
+      "hit_ready_positive": 11,
+      "recall_at_5": 0.9166666666666666,
+      "negative_pass": 15,
+      "positive_budget_omission_count": 30
+    },
+    {
+      "token_budget": 4096,
+      "ready_positive": 12,
+      "hit_ready_positive": 12,
+      "recall_at_5": 1.0,
+      "negative_pass": 15,
+      "positive_budget_omission_count": 29
+    },
+    {
+      "token_budget": 6000,
+      "ready_positive": 12,
+      "hit_ready_positive": 12,
+      "recall_at_5": 1.0,
+      "negative_pass": 15,
+      "positive_budget_omission_count": 29
+    },
+    {
+      "token_budget": 8000,
+      "ready_positive": 12,
+      "hit_ready_positive": 12,
+      "recall_at_5": 1.0,
+      "negative_pass": 15,
+      "positive_budget_omission_count": 27
+    },
+    {
+      "token_budget": 12000,
+      "ready_positive": 12,
+      "hit_ready_positive": 12,
+      "recall_at_5": 1.0,
+      "negative_pass": 15,
+      "positive_budget_omission_count": 27
+    }
+  ],
+  "top5": [
+    {
+      "id": "eval-01-en",
+      "pillar": "ai-strategy-value",
+      "language": "en",
+      "expected_note_ids": [
+        "core-001-business-purpose"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "high-risk-ai-system-classification",
+        "risk-011-data-quality-evaluation",
+        "ai-incident-response-resilience",
+        "fundamental-right-impact-assessment-fria",
+        "gdpr-article-22-automated-decision-making"
+      ],
+      "target_in_top5": false,
+      "sections": 9,
+      "estimated_tokens": 5981,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-01-fr",
+      "pillar": "ai-strategy-value",
+      "language": "fr",
+      "expected_note_ids": [
+        "core-001-business-purpose"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "high-risk-ai-system-classification",
+        "risk-011-data-quality-evaluation",
+        "ai-incident-response-resilience",
+        "fundamental-right-impact-assessment-fria",
+        "gdpr-article-22-automated-decision-making"
+      ],
+      "target_in_top5": false,
+      "sections": 9,
+      "estimated_tokens": 5981,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-02-en",
+      "pillar": "governance-accountability-policy",
+      "language": "en",
+      "expected_note_ids": [
+        "core-002-accountable-owner",
+        "iso-42001"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-governance-accountability",
+        "ai-incident-response-resilience",
+        "gov-001-governance-decision-rights",
+        "aud-002-assurance-finding-closure",
+        "risk-014-mcp-tool-governance"
+      ],
+      "target_in_top5": false,
+      "sections": 7,
+      "estimated_tokens": 5582,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-02-fr",
+      "pillar": "governance-accountability-policy",
+      "language": "fr",
+      "expected_note_ids": [
+        "core-002-accountable-owner",
+        "iso-42001"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-governance-accountability",
+        "ai-incident-response-resilience",
+        "aud-002-assurance-finding-closure",
+        "gov-007-third-party-ai-assurance",
+        "automatic-decision-making-assessment-adma"
+      ],
+      "target_in_top5": false,
+      "sections": 8,
+      "estimated_tokens": 5584,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-03-en",
+      "pillar": "legal-regulatory",
+      "language": "en",
+      "expected_note_ids": [
+        "high-risk-ai-system-classification"
+      ],
+      "eligible_expected_note_ids": [
+        "high-risk-ai-system-classification"
+      ],
+      "top5_note_ids": [
+        "high-risk-ai-system-classification",
+        "data-protection-impact-assessments-dpia",
+        "fundamental-right-impact-assessment-fria",
+        "ai-act-prohibited-practices",
+        "gov-002-lifecycle-change-reassessment"
+      ],
+      "target_in_top5": true,
+      "sections": 8,
+      "estimated_tokens": 5962,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-03-fr",
+      "pillar": "legal-regulatory",
+      "language": "fr",
+      "expected_note_ids": [
+        "high-risk-ai-system-classification"
+      ],
+      "eligible_expected_note_ids": [
+        "high-risk-ai-system-classification"
+      ],
+      "top5_note_ids": [
+        "high-risk-ai-system-classification",
+        "fundamental-right-impact-assessment-fria",
+        "data-protection-impact-assessments-dpia",
+        "ai-act-prohibited-practices",
+        "gov-002-lifecycle-change-reassessment"
+      ],
+      "target_in_top5": true,
+      "sections": 8,
+      "estimated_tokens": 5962,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-04-en",
+      "pillar": "data-protection",
+      "language": "en",
+      "expected_note_ids": [
+        "gdpr-article-22-automated-decision-making"
+      ],
+      "eligible_expected_note_ids": [
+        "gdpr-article-22-automated-decision-making"
+      ],
+      "top5_note_ids": [
+        "gdpr",
+        "gdpr-article-22-automated-decision-making",
+        "data-protection-officer-dpo"
+      ],
+      "target_in_top5": true,
+      "sections": 5,
+      "estimated_tokens": 5989,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-04-fr",
+      "pillar": "data-protection",
+      "language": "fr",
+      "expected_note_ids": [
+        "gdpr-article-22-automated-decision-making"
+      ],
+      "eligible_expected_note_ids": [
+        "gdpr-article-22-automated-decision-making"
+      ],
+      "top5_note_ids": [
+        "gdpr",
+        "gdpr-article-22-automated-decision-making",
+        "data-protection-officer-dpo"
+      ],
+      "target_in_top5": true,
+      "sections": 5,
+      "estimated_tokens": 5989,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-05-en",
+      "pillar": "data-governance-quality",
+      "language": "en",
+      "expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "eligible_expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "top5_note_ids": [
+        "risk-011-data-quality-evaluation",
+        "ai-data-quality-and-validation",
+        "risk-012-ai-supply-chain-inventory"
+      ],
+      "target_in_top5": true,
+      "sections": 5,
+      "estimated_tokens": 5763,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-05-fr",
+      "pillar": "data-governance-quality",
+      "language": "fr",
+      "expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "eligible_expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "top5_note_ids": [
+        "risk-011-data-quality-evaluation",
+        "ai-data-quality-and-validation",
+        "risk-012-ai-supply-chain-inventory"
+      ],
+      "target_in_top5": true,
+      "sections": 5,
+      "estimated_tokens": 5763,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-06-en",
+      "pillar": "model-risk-validation-tev",
+      "language": "en",
+      "expected_note_ids": [
+        "ai-model-validation",
+        "risk-001-model-validation-evidence"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-data-quality-and-validation",
+        "ai-assurance-and-independent-review",
+        "ai-literacy-and-change-management",
+        "risk-011-data-quality-evaluation",
+        "ori-001-ai-incident-response-playbook"
+      ],
+      "target_in_top5": false,
+      "sections": 9,
+      "estimated_tokens": 5549,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-06-fr",
+      "pillar": "model-risk-validation-tev",
+      "language": "fr",
+      "expected_note_ids": [
+        "ai-model-validation",
+        "risk-001-model-validation-evidence"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-data-quality-and-validation",
+        "ai-assurance-and-independent-review",
+        "genai-guardrails",
+        "ai-literacy-and-change-management",
+        "ori-002-recovery-validation-and-lessons-learned"
+      ],
+      "target_in_top5": false,
+      "sections": 10,
+      "estimated_tokens": 5800,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-07-en",
+      "pillar": "ai-security",
+      "language": "en",
+      "expected_note_ids": [
+        "prompt-injection",
+        "risk-005-prompt-injection-threat-model"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "genai-guardrails",
+        "mcp-and-agent-tool-governance",
+        "ori-002-recovery-validation-and-lessons-learned",
+        "ai-data-quality-and-validation"
+      ],
+      "target_in_top5": false,
+      "sections": 5,
+      "estimated_tokens": 5906,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-07-fr",
+      "pillar": "ai-security",
+      "language": "fr",
+      "expected_note_ids": [
+        "prompt-injection",
+        "risk-005-prompt-injection-threat-model"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "genai-guardrails",
+        "mcp-and-agent-tool-governance",
+        "ai-incident-response-resilience"
+      ],
+      "target_in_top5": false,
+      "sections": 4,
+      "estimated_tokens": 5454,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-08-en",
+      "pillar": "responsible-ai-human-oversight",
+      "language": "en",
+      "expected_note_ids": [
+        "human-oversight",
+        "risk-008-human-oversight-authority"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-agent-identity-and-access-control",
+        "data-protection-authority-dpa",
+        "genai-guardrails"
+      ],
+      "target_in_top5": false,
+      "sections": 3,
+      "estimated_tokens": 5678,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-08-fr",
+      "pillar": "responsible-ai-human-oversight",
+      "language": "fr",
+      "expected_note_ids": [
+        "human-oversight",
+        "risk-008-human-oversight-authority"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "data-protection-authority-dpa",
+        "automatic-decision-making-assessment-adma",
+        "genai-guardrails",
+        "ai-literacy-and-change-management",
+        "ai-governance-accountability"
+      ],
+      "target_in_top5": false,
+      "sections": 8,
+      "estimated_tokens": 5855,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-09-en",
+      "pillar": "transparency-explainability-documentation",
+      "language": "en",
+      "expected_note_ids": [
+        "ai-model-documentation",
+        "ai-model-transparency"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-governance-accountability",
+        "gov-004-governance-documentation-update-triggers",
+        "ai-assurance-and-independent-review",
+        "ai-data-quality-and-validation",
+        "high-risk-ai-system-classification"
+      ],
+      "target_in_top5": false,
+      "sections": 9,
+      "estimated_tokens": 5778,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-09-fr",
+      "pillar": "transparency-explainability-documentation",
+      "language": "fr",
+      "expected_note_ids": [
+        "ai-model-documentation",
+        "ai-model-transparency"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-governance-accountability",
+        "gov-004-governance-documentation-update-triggers",
+        "ai-assurance-and-independent-review",
+        "ai-data-quality-and-validation",
+        "high-risk-ai-system-classification"
+      ],
+      "target_in_top5": false,
+      "sections": 9,
+      "estimated_tokens": 5778,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-10-en",
+      "pillar": "third-parties-supply-chain",
+      "language": "en",
+      "expected_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-supply-chain-governance",
+        "data-subject-access-requests",
+        "data-protection-officer-dpo"
+      ],
+      "target_in_top5": false,
+      "sections": 3,
+      "estimated_tokens": 5479,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-10-fr",
+      "pillar": "third-parties-supply-chain",
+      "language": "fr",
+      "expected_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-supply-chain-governance",
+        "ori-001-ai-incident-response-playbook",
+        "gov-005-role-specific-ai-literacy"
+      ],
+      "target_in_top5": false,
+      "sections": 3,
+      "estimated_tokens": 5736,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-11-en",
+      "pillar": "operational-resilience-incidents",
+      "language": "en",
+      "expected_note_ids": [
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-incident-response-resilience",
+        "genai-guardrails",
+        "ori-001-ai-incident-response-playbook",
+        "ai-societal-impact-and-stakeholder-engagement",
+        "data-protection-authority-dpa"
+      ],
+      "target_in_top5": false,
+      "sections": 7,
+      "estimated_tokens": 5531,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-11-fr",
+      "pillar": "operational-resilience-incidents",
+      "language": "fr",
+      "expected_note_ids": [
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "data-protection-authority-dpa",
+        "ai-governance-accountability",
+        "gov-003-incident-and-abnormal-behaviour-records",
+        "ai-act-prohibited-practices",
+        "genai-guardrails"
+      ],
+      "target_in_top5": false,
+      "sections": 7,
+      "estimated_tokens": 5675,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-12-en",
+      "pillar": "lifecycle-engineering-change",
+      "language": "en",
+      "expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "eligible_expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "top5_note_ids": [
+        "ai-literacy-and-change-management",
+        "gov-002-lifecycle-change-reassessment",
+        "ai-governance-accountability",
+        "ai-data-quality-and-validation",
+        "ai-incident-response-resilience"
+      ],
+      "target_in_top5": true,
+      "sections": 10,
+      "estimated_tokens": 5786,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-12-fr",
+      "pillar": "lifecycle-engineering-change",
+      "language": "fr",
+      "expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "eligible_expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "top5_note_ids": [
+        "ai-literacy-and-change-management",
+        "ai-governance-accountability"
+      ],
+      "target_in_top5": true,
+      "sections": 3,
+      "estimated_tokens": 2547,
+      "gaps": []
+    },
+    {
+      "id": "eval-13-en",
+      "pillar": "audit-assurance",
+      "language": "en",
+      "expected_note_ids": [
+        "traceability"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-assurance-and-independent-review",
+        "aud-001-independent-ai-assurance",
+        "gov-007-third-party-ai-assurance",
+        "aud-002-assurance-finding-closure"
+      ],
+      "target_in_top5": false,
+      "sections": 7,
+      "estimated_tokens": 5980,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-13-fr",
+      "pillar": "audit-assurance",
+      "language": "fr",
+      "expected_note_ids": [
+        "traceability"
+      ],
+      "eligible_expected_note_ids": [],
+      "top5_note_ids": [
+        "ai-assurance-and-independent-review",
+        "aud-001-independent-ai-assurance",
+        "aud-002-assurance-finding-closure",
+        "gov-007-third-party-ai-assurance"
+      ],
+      "target_in_top5": false,
+      "sections": 7,
+      "estimated_tokens": 5819,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-14-en",
+      "pillar": "people-ai-literacy-change",
+      "language": "en",
+      "expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "eligible_expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "top5_note_ids": [
+        "gov-005-role-specific-ai-literacy",
+        "ai-literacy-and-change-management",
+        "ai-governance-accountability",
+        "legitimate-interest",
+        "fundamental-right-impact-assessment-fria"
+      ],
+      "target_in_top5": true,
+      "sections": 7,
+      "estimated_tokens": 5827,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-14-fr",
+      "pillar": "people-ai-literacy-change",
+      "language": "fr",
+      "expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "eligible_expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "top5_note_ids": [
+        "ai-literacy-and-change-management",
+        "gov-005-role-specific-ai-literacy",
+        "ai-governance-accountability",
+        "ai-assurance-and-independent-review",
+        "ai-incident-response-resilience"
+      ],
+      "target_in_top5": true,
+      "sections": 7,
+      "estimated_tokens": 4943,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-15-en",
+      "pillar": "sustainability-societal-impact",
+      "language": "en",
+      "expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "eligible_expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "top5_note_ids": [
+        "gov-006-societal-impact-feedback",
+        "ai-societal-impact-and-stakeholder-engagement",
+        "data-protection-impact-assessments-dpia",
+        "fundamental-right-impact-assessment-fria",
+        "gov-002-lifecycle-change-reassessment"
+      ],
+      "target_in_top5": true,
+      "sections": 7,
+      "estimated_tokens": 5895,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    },
+    {
+      "id": "eval-15-fr",
+      "pillar": "sustainability-societal-impact",
+      "language": "fr",
+      "expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "eligible_expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "top5_note_ids": [
+        "gov-006-societal-impact-feedback",
+        "data-protection-impact-assessments-dpia",
+        "ai-societal-impact-and-stakeholder-engagement",
+        "fundamental-right-impact-assessment-fria",
+        "gov-002-lifecycle-change-reassessment"
+      ],
+      "target_in_top5": true,
+      "sections": 9,
+      "estimated_tokens": 5865,
+      "gaps": [
+        "sections_omitted_for_budget"
+      ]
+    }
+  ],
+  "negative_cases": [
+    {
+      "id": "eval-01-negative",
+      "pass": true,
+      "gaps": [
+        "no_matching_sections"
+      ]
+    },
+    {
+      "id": "eval-02-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-03-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-04-negative",
+      "pass": true,
+      "gaps": [
+        "no_matching_sections"
+      ]
+    },
+    {
+      "id": "eval-05-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-06-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-07-negative",
+      "pass": true,
+      "gaps": [
+        "no_matching_sections"
+      ]
+    },
+    {
+      "id": "eval-08-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-09-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-10-negative",
+      "pass": true,
+      "gaps": [
+        "no_matching_sections"
+      ]
+    },
+    {
+      "id": "eval-11-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-12-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-13-negative",
+      "pass": true,
+      "gaps": [
+        "no_matching_sections"
+      ]
+    },
+    {
+      "id": "eval-14-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    },
+    {
+      "id": "eval-15-negative",
+      "pass": true,
+      "gaps": [
+        "no_eligible_evidence"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "P0",
+      "action": "Create reviewed evidence releases for the 15 unique expected note IDs blocked by the assistance evidence gate; do not mark benchmark readiness from lexical retrieval alone."
+    },
+    {
+      "priority": "P1",
+      "action": "Retain the 6000-token default or test a fixed 4096-token benchmark budget in a separate approved proposal; 4096 is the smallest tested budget with 12/12 recall on currently eligible positives."
+    },
+    {
+      "priority": "P1",
+      "action": "Treat sections_omitted_for_budget as a diagnostic on graph/extra sections; do not remove the gap or bypass budget enforcement."
+    },
+    {
+      "priority": "P2",
+      "action": "Resolve the 45 publication-lineage warnings through provenance work; retrieval filtering must continue to exclude unresolved evidence in assistance mode."
+    },
+    {
+      "priority": "P2",
+      "action": "After each evidence release rerun the same 45 cases and require 15/15 negative pass plus >=0.9 recall among all ready positives."
+    }
+  ]
+}

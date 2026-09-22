@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "proposal_id": "p0-coverage-completion-20260920",
+  "status": "READY_FOR_HUMAN_APPROVAL",
+  "objective": "Address 20 P0 coverage cells through evidence-bound future-vault notes and questions.",
+  "coverage": {
+    "ai-strategy-value": 10,
+    "data-governance-quality": 10
+  },
+  "future_vault_files": 24,
+  "knowledge_notes": 18,
+  "questions": 4,
+  "indexes": 2,
+  "evidence_refs": 96,
+  "gdp_local_units": 11,
+  "gdp_direct_candidate_pages": 7,
+  "gdp_adjacent_context_pages": 4,
+  "gates": {
+    "evidence_lock_bound": true,
+    "independent_release_review_required": true,
+    "human_approval_required": true,
+    "active_vault_changes": false,
+    "sources_changes": false,
+    "ingest_changes": false
+  },
+  "receipt_sha256": "888d400e20e9dc5db50ec0a42f9057dc62d551361b22542067cafe172b3d81a7",
+  "fidelity_sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab",
+  "candidate_sha256": "62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d",
+  "evidence_lock_sha256": "4d0ee7c9a750f4b1da819f290f72cd71daa8128d8c494a02667e9d465b49a553",
+  "coverage_map_sha256": "a1a5e99079d175da927f80914cc8710151a9ef627b6d2b11cb3d162268d14d01",
+  "release_review": "review/release-review.json",
+  "evidence_review": "review/evidence-review.json"
+}

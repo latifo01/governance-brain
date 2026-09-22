@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "dpia22-src-0010-p0043",
+    "dpia22-src-0010-p0044",
+    "dpia22-src-0010-p0045",
+    "dpia22-src-0010-p0046"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/dpia-fria-rights-022.json",
+      "sha256": "c10765a0fa02c28cf1fcb1d00a09b5e99279c38c7f78af38c44ef094fce93cb9"
+    }
+  ]
+}

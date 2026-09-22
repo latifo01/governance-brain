@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "proposal_id": "atlas-complementarity-lot-015",
+  "stage": "COMPLEMENTARITY_AUDIT",
+  "status": "PROPOSAL_READY",
+  "catalog": {"source_id": "SRC-0046", "object_count": 308, "relation_count": 1088, "case_studies": 72},
+  "changes": [
+    {"change_type": "ENRICH", "id": "atlas-control-crosswalk", "target": "AI Risk Mitigations/genai-guardrails.md", "elements": ["AML.M0024", "AML.M0025", "AML.M0026", "AML.M0027", "AML.M0028", "AML.M0030", "AML.M0031", "AML.M0032", "AML.M0033", "AML.M0035", "AML.M0036", "AML.T0002.002", "AML.T0010.005", "AML.T0011.002", "AML.T0053", "AML.T0086", "AML.T0102"], "evidence_refs": ["SRC-0046:key-0003.md:/objects"]},
+    {"change_type": "NOOP", "id": "human-in-the-loop-for-ai-agent-actions", "target": "AI Risk Mitigations/human-in-the-loop-for-ai-agent-actions.md", "element": "AML.M0029", "evidence_refs": ["SRC-0046:key-0003.md:/objects"]},
+    {"change_type": "CREATE", "id": "ai-agent-authority-expansion-controls", "target": null, "element": "AML.M0037", "evidence_refs": ["SRC-0046:key-0003.md:/objects"]},
+    {"change_type": "CREATE", "id": "ai-agent-scope-drift-detection", "target": null, "element": "AML.M0038", "evidence_refs": ["SRC-0046:key-0003.md:/objects"]},
+    {"change_type": "ENRICH", "id": "atlas-priority-case-studies", "target": "Famous AI incidents", "elements": ["AML.CS0027", "AML.CS0028", "AML.CS0031", "AML.CS0041", "AML.CS0045", "AML.CS0049", "AML.CS0053", "AML.CS0054", "AML.CS0064", "AML.CS0065", "AML.CS0068", "AML.CS0071", "AML.CS0037", "AML.CS0059", "AML.CS0066", "AML.CS0023", "AML.CS0024", "AML.CS0015"], "evidence_refs": ["SRC-0046:key-0003.md:/objects"]}
+  ],
+  "evidence": {"source_ids": ["SRC-0046"], "source_sha256": "6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c", "unit_sha256": "7b18ef3f2ed64ab84d1204bca642c073f03b8264b4a2fe3bb2f19ab84cbd5241", "locator": "/objects"},
+  "approval": "PENDING"
+}

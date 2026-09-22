@@ -1,0 +1,19 @@
+{
+  "catalogue_sha256": "2f462fd698086ea08718a2dc588b2ba7af0d84c080d8d6d82002a2369b9430f1",
+  "evidence_findings": 0,
+  "llm_calls": 0,
+  "llm_cost": null,
+  "note_types": {
+    "index": 11,
+    "knowledge": 116,
+    "question": 50
+  },
+  "notes": 177,
+  "orphan_knowledge": 0,
+  "publication_verified_notes": 170,
+  "reviewed_sections": 514,
+  "schema_version": 1,
+  "sections": 971,
+  "sources": 47,
+  "valid": true
+}

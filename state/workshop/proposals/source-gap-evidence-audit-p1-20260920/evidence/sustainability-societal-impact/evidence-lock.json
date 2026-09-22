@@ -1,0 +1,20 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "org29-src-0040-p0028",
+    "org29-src-0040-p0030",
+    "org29-src-0040-p0035",
+    "org29-src-0040-p0036",
+    "org29-src-0040-p0059",
+    "org29-src-0040-p0127"
+  ],
+  "excluded_evidence_refs": [],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606"
+    }
+  ],
+  "eligible_count": 6,
+  "excluded_count": 0
+}

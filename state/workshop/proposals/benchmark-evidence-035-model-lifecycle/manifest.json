@@ -1,0 +1,39 @@
+{
+  "author_identity": "codex-benchmark-evidence-035-knowledge-architect",
+  "candidate_sha256": "8cb6dfe6a40c39989520fc5bc9bf0b6014f8b9c0736d5bb3350c47830ee86730",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-model-validation",
+      "risk-001-model-validation-evidence",
+      "ai-model-documentation",
+      "ai-model-transparency",
+      "ai-model-monitoring",
+      "risk-003-model-monitoring-response"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "MODEL_RISK",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/ai-model-documentation.md",
+    "AI Risk Mitigations/ai-model-monitoring.md",
+    "AI Risk Mitigations/ai-model-transparency.md",
+    "AI Risk Mitigations/ai-model-validation.md",
+    "questions/risk/risk-001-model-validation-evidence.md",
+    "questions/risk/risk-003-model-monitoring-response.md"
+  ],
+  "proposal_id": "benchmark-evidence-035-model-lifecycle",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "model-lifecycle"
+  ],
+  "status": "INTEGRATED"
+}

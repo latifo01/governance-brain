@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "proposal_id": "questionnaire-coverage-033",
+  "question_count": 43,
+  "pillars": 15,
+  "audit_sha256": "2b34a15a34d365b83b86337d72f48a82df837ed0e1494cf8da29482881d82843",
+  "active_changes": false
+}

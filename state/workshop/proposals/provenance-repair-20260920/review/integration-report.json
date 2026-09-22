@@ -1,0 +1,133 @@
+{
+  "candidate_sha256": "606d74575bd55c66e58cc06d97e758278d3d51648b4f44669e10a833016f8133",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "8aa02eecc411dafe78b1b146da49e14a3302444bc838b84856823228fcd67800"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-model-backtesting.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "fa4046a0de9b57caf5c9e145db1194e9768f03794a6023b9801060c345641991"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-model-fairness-and-bias-avoidance.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "65057f36d02935e1388b906d18f2f48012bc7e65c8fff4ff22ec50febe66981a"
+    },
+    {
+      "path": "AI Risk Mitigations/red-teaming.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "1becbad2d88db77cd376cb1ca41272487091db665347e95c104d39845415bdbf"
+    },
+    {
+      "path": "AI Risks/data-leakage.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "ef61a9156de11e91867bcc1121b95f98270de8d533f17a1b4f18dbc2ea1e8d20"
+    },
+    {
+      "path": "AI Risks/hallucinations.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "86092207ca553b63d46c845d6f1008b530416876665655e99fb2e6856e9308da"
+    },
+    {
+      "path": "AI Risks/toxic-or-biased-outputs.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "670e162124d751efbf78135f85935deeb4a467097b209d99c510fafb19eeb0d7"
+    },
+    {
+      "path": "Norms & Frameworks/ai-impact-assessment-aiia.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "a3b31efa38712dcafbd4fcb9e2ee95a49b6867017fe7f8a1cc19883785cbbf59"
+    },
+    {
+      "path": "Norms & Frameworks/aiuc-1.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "13f18d9cc24b9efdd93343607b405ab7db6eedf66b7b4c7bc4aca63faead60ae"
+    },
+    {
+      "path": "Norms & Frameworks/iso-23894.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "168a331c5ff959b2f68e0bdf145dda50497a2d4b04072f84c35d1f61bd659055"
+    },
+    {
+      "path": "Norms & Frameworks/iso-27001.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "4a0f4289a5d3b7d8121b33a4361eb7478ed60d356c8ee6addc1ae0279d4c0d5e"
+    },
+    {
+      "path": "Norms & Frameworks/iso-31000.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "7f69a001c70dd6230838bd962a4254ca59a8114af50937d2f01d8108a58b9b70"
+    },
+    {
+      "path": "Norms & Frameworks/mitre-atlas.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "c21c72fed81c0188d5af1b186c4086afd91e689fdecd61166eb89b143c8911d7"
+    },
+    {
+      "path": "Norms & Frameworks/nist-ai-rmf.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "eb14c6557a934c9015cccf8c2c8ea7c11d3ece1f05acd3e39bf97ec61231e169"
+    },
+    {
+      "path": "Organizations/cjeu.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "8deb2a33d5ab767c09c641be74cdcff7d758cfd70ac04df4b13ea7b8cc1e4ae0"
+    },
+    {
+      "path": "Organizations/cosai.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "2c950a8eb4c3c1ce9890aba66fc8ad86fddfbf942d1aeed88c78b612fb2108d8"
+    },
+    {
+      "path": "Organizations/edpb.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "ca0dc868175c4e63660f4865b0bfb6d6ead24ddd24b594d49fa2f3f6a66e44c7"
+    },
+    {
+      "path": "Organizations/edps.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "733473bfdfb87fd98d1aa988db78193d679f19a79567e1fb320cae4b8da865a1"
+    },
+    {
+      "path": "Organizations/european-ai-office-eaio.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "2ade8fc8360060a0edd266e722787e21282a1e557fc2f68cdbe9012931032eeb"
+    },
+    {
+      "path": "questions/risk/risk-004-model-documentation-completeness.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "23ddf22bb57cf43bdb369597e02d14d59fb8ed9d96c2b267d9dfce17e855c881"
+    },
+    {
+      "path": "questions/risk/risk-006-guardrail-placement.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "c08a2b57878070bc9ce53a2f18116e3acaf0a6f18c3164b27bb50c41315436e7"
+    },
+    {
+      "path": "questions/risk/risk-007-red-team-remediation.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "dd1ae3215521a8b81c17507a561c67dfb2ec8c38d86ffc6d75cb5c70edb5255d"
+    },
+    {
+      "path": "questions/risk/risk-009-misinformation-overreliance.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "8e9022f77223ab664b0c31220232c59371a61ef4835ff4617ab51813cf438911"
+    },
+    {
+      "path": "questions/risk/risk-010-sensitive-data-disclosure-surfaces.md",
+      "proposal_id": "provenance-repair-20260920",
+      "sha256": "afd954feb26b93fa32304eabcfa6cbac00a4fae1e5dc482a632906fa6813ef54"
+    }
+  ],
+  "materialized_files": 23,
+  "notes": 148,
+  "proposal_ids": [
+    "provenance-repair-20260920"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

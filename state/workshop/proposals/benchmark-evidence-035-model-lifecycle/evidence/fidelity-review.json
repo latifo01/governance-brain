@@ -1,0 +1,711 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-035-model-lifecycle",
+  "reviewer_identity": "codex-benchmark-evidence-035-auditor",
+  "reviewed_at": "2026-09-18T00:00:00Z",
+  "extraction_receipt_path": "extraction.json",
+  "extraction_receipt_sha256": "f5c89d04c3517a2aa1f63023cbb500794874298eba771dd2998e895891bada35",
+  "results": [
+    {
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "locator": "Page 28",
+      "unit_file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+      "unit_content_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "locator": "Page 33",
+      "unit_file_sha256": "42a8e0e5b133acc61dbe354a9bd3cd54194d7904673eda66a6923ed00b4f7482",
+      "unit_content_sha256": "4b45d121e1818961fea4c707c94bc934de81abcdfd76800703c90548dd0a3aab",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "locator": "Page 34",
+      "unit_file_sha256": "0d92a0bb4672bdd6e516b6f5a926de691a4c4d40f9c58375c8743e6bbf200c3d",
+      "unit_content_sha256": "591cfe7ca76ed79939091fa0589fd5a1b5df204b4500a4cb9fcbb62860dc67cf",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "locator": "Page 35",
+      "unit_file_sha256": "87ab421647987e7e2edcb29167bef445f862e57a3830063d384c1ea45b0c2e07",
+      "unit_content_sha256": "434447c8711d314b72d7fc6a6a5aee9a9d555d6079eed9dab553c76829cd0425",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 4",
+      "unit_file_sha256": "d1e17475d59dcb337a063dde45f9a61f4ed0b89ec0ae49f05ef711aa873ddee0",
+      "unit_content_sha256": "bf54803df3da779bcd85bafd4b5f843f7214d442e52e63216bb05c20b54c69f4",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 5",
+      "unit_file_sha256": "dc89b9ad0ba76e0c16fbc52d3721c9f2a271696f1f5174d54a1b33190c1aa144",
+      "unit_content_sha256": "34f96fbced761a0e5075a0931a2a9ff5bf9f1e2164303bbf59b25c0573eac477",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 6",
+      "unit_file_sha256": "80d593327efbc8604f34ca1c9322f84ed253afabde1ec959dfb202c78c1f3408",
+      "unit_content_sha256": "5f7435e877309d473e6b5d2b71adfa796791ee08beba3ba050d2edb374d03515",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 7",
+      "unit_file_sha256": "2834d7f178dc51cceeeee7d5170ce55235842979f0185f82468cc395794216ae",
+      "unit_content_sha256": "071492af44e6fd4b9bb043b9c3acfe099def981c3fa8667fc964b7445a28d0f6",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 10",
+      "unit_file_sha256": "2e8764c9c988b3f73f90377cf7f5e91eaddf083a33bca6bfa365df801b03a71c",
+      "unit_content_sha256": "538f4c5cdf6ebbecb65c1eb3b369cf4e6c9b0f432c2c07579f6c299d073849d3",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 11",
+      "unit_file_sha256": "aaaeb7f341716b1c65c6a2a8e3f805c0c610434ec9c3c5a80f71b76f7b5483e9",
+      "unit_content_sha256": "18be9aef464ceeab563e1478526c1d2faa6799b0dd19ab5ca6c14a4301dfbc66",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 13",
+      "unit_file_sha256": "f85c0d4443376bab55c8f72f1f6140d5666d09cf35f4d7f1999c8e817b5390ec",
+      "unit_content_sha256": "e5b9b31916e902266a12b21b78ff2700ddfc84929c4420e2b5df3ea50b4c0e36",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 14",
+      "unit_file_sha256": "5f8b580acbefa95f62d7fc83dea03b4bd086beb74e6118c6ae2095c99d45aea9",
+      "unit_content_sha256": "ad36b7d237dafe081f7f42b85f00bc21b7aa64a639fa5c69db8bc2c971780889",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 15",
+      "unit_file_sha256": "f62072484219caa0de559627ded38d413ff3f56132bd68cfc8d2e54d2a51da88",
+      "unit_content_sha256": "d8bb9bb97791cf5c8f1fdbf15798ed40bd73562a7f166634ee0cf517cea401d4",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 16",
+      "unit_file_sha256": "0e541414f156f90bb4151fc01a34d39013402da58621c367acf487a3260d5085",
+      "unit_content_sha256": "2323f14cb19057119cdff43700d8aa9c7c6b5c027e24ffc577a3f24e3b62a79a",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 20",
+      "unit_file_sha256": "a9e30e790f649d3380d31fe5e81646f375be1bca96a1c6d9f70fe83cce54d52e",
+      "unit_content_sha256": "c12bc2bb30f20e7bb22f051cd9b6567718b0ff813c4336ecffe56f045767c38d",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 24",
+      "unit_file_sha256": "be328f018bc422af93fc368019b4999cf4fbf45fb20186e1bc9d9a306de74680",
+      "unit_content_sha256": "53c77f035a693df5f88a78938e1687cdc559e217cfb04fa6c5fc3c3e2c6efc85",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 25",
+      "unit_file_sha256": "2237d212318ba55006f0dc5bcfdf58e616a30e70fc476006685cbc7fb5e4a781",
+      "unit_content_sha256": "69d384e26e5b07ae6cb7b755724377cd789ec055895c22893abc3dd71fbb8480",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 26",
+      "unit_file_sha256": "d8a5a52ab7baa304d1dbb6197129ab49c48549f1024ed03f3c5bcfe92e1f54cd",
+      "unit_content_sha256": "88189e3665042f643384f94b1d2d5ec3cc0b3815a5beb242f1d1b4f8774e9a61",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 27",
+      "unit_file_sha256": "84904d99630c709131f8f0d408018e715a2def56192dd4eb5700895fcc1a2528",
+      "unit_content_sha256": "b7fd4e831a1aa09d2063b1e6ec036161f427ba1b1aee298594d25bb1e94850a2",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 28",
+      "unit_file_sha256": "26fe371bafe37572c777b478d66eca77b41dab1c10b80777a04dc7216c1429bd",
+      "unit_content_sha256": "75759617b796cb5d69cf4e28206284ed3ad9cefb779c000fd48680d79537fbad",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 29",
+      "unit_file_sha256": "887f81feb31bc67160498efdf9e567a81ee78bd83f58012618a5eb5a52c12ba8",
+      "unit_content_sha256": "264da769294bd1a77fa560b4fb645a0afc538f9060d779b4fd04733d5cf9cc8e",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 32",
+      "unit_file_sha256": "c21e97281b529647d040c149f6431924886aef297837c0fc017ba72bdfadad68",
+      "unit_content_sha256": "35bfb6be7ef504ee6ee0374cafeb16443835f552d5b71d92a626b7145db652c1",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 33",
+      "unit_file_sha256": "d423d844b1721722b416b1cc650bdab30e4d84ab73fd4d8cf1b98d9dab4e5da9",
+      "unit_content_sha256": "48480d52ed413600686862c3f0cbc6725b782cf69fe0c7f4e74cae2756915b3e",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 44",
+      "unit_file_sha256": "3e1db49583cb3ddcc0485fe24f090e43791df354efb91d67ecd054e2a270264a",
+      "unit_content_sha256": "ab0f803b7d6813140da4e7306a1118159d0c1b9decf15b2fce1faea274be413d",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 45",
+      "unit_file_sha256": "f0c0eebb4b5cd36548436e189b693bbaaa6dd7380c9a63ba5f8c6ebc3cb10676",
+      "unit_content_sha256": "674ab743b19f95389e49635236a47012bbc63d4ee8ca14e1436d477f20048bdd",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 46",
+      "unit_file_sha256": "6c88f1bc18927d1596f8a24220d26fc16f8bc8eb8f706c0e7486caebbb0bffa3",
+      "unit_content_sha256": "9b3cfbb9c950c3fa739b2087bb3c48d12a5332894b095031813286e81e700505",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 47",
+      "unit_file_sha256": "14a69153d5c8fc860d06fb40d136ede2559b68d8ab92e5a5028f6aebf40c52df",
+      "unit_content_sha256": "cfd0c99bdc626cdb0989e1d174d248154276dc95031fd3b132c89f1eddb18a02",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 48",
+      "unit_file_sha256": "0388ec52be1cf0b9fc110b44c95bb2f0e897df8770246edd71b488f1d278b399",
+      "unit_content_sha256": "9646d07ce65c50bb1117aed4a5d0d4189998f99ee87e15bec1f7877eb20d3f37",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 49",
+      "unit_file_sha256": "edd9335488a110771df75abe96e83d6c0ffb9959028f5cfb8fa18f0ee9110236",
+      "unit_content_sha256": "402d816be2d94f78493d3aa8f6e5e1e13b1fcf53017370174361012609b041da",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 50",
+      "unit_file_sha256": "8d334e4d8acc12a374aa68944457fdf00af1383c3c6b0c3920d2cd0ad128a140",
+      "unit_content_sha256": "497b41bc373c0fcb63114068b51fcba50c14ba3bdc437721e7727f34d4fd49cf",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "locator": "Page 51",
+      "unit_file_sha256": "9b224647d646e5ab8835b5a7337dda7c9af6830cc8482cda3e532a71c2d4fb83",
+      "unit_content_sha256": "aef4fd94423e7edab384a9bb63b0fbe56221d7b06a0ec03c859b5e957a52f9d6",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 3",
+      "unit_file_sha256": "27afd27ccc6e7adca435172c69d81e9498a188c682f1a21022d8614812a3bfff",
+      "unit_content_sha256": "ab5bfc41d093885cd81182099d32e9592bb1995c6e387e8a68b64a0b314d7887",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 4",
+      "unit_file_sha256": "da5d74e0748387a682d68b5f60d6ab6208cbb06377ff442c52376e3f59e361f9",
+      "unit_content_sha256": "d1ecfe57f728692dc7971a88c246332a5ebe0dc34bfee427747a26bb24fcfd30",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 5",
+      "unit_file_sha256": "7a2f438e6a922f679b87f81e1220fb360ee5eb164ab544e0927ed996ac0c14da",
+      "unit_content_sha256": "0cca436bb57a709cc5bea57ff32ab92f63f68b6e31f89af96068217c6f0949c0",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 6",
+      "unit_file_sha256": "caf8012b64c1c82af815a7927693992f08104e0f4da61d376304bcc7dda54733",
+      "unit_content_sha256": "c4be3f3f73e612bb68b3e776b6bc5c7544e5ce3c8cd9c21f92c4824b951f2668",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 7",
+      "unit_file_sha256": "b519d3ab5b07d79abdb3988aa7ac0580e9dee0de38e0273c9b7e81dec0c08874",
+      "unit_content_sha256": "a66ff86bdcb5a4578d96d4d6fd578ef98dd7e6b23e216991bc74f820df0531dc",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 8",
+      "unit_file_sha256": "eb8849e7fc295f0ba69c6b4ccd73292749bbd1566afef5edf3651e555935a63d",
+      "unit_content_sha256": "36e25926b74ec476b4c1955ca191b9ac6c1d809237c4565dd9cf06d9695ab786",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 9",
+      "unit_file_sha256": "580001998850c50baf8e41a8a030f3e7b2e37d550860e5196583d3dc61ce6890",
+      "unit_content_sha256": "ce9d4d57bed3d3dd5f827497303dc3a697e652ee5d7060745d4ee0954e3b6714",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 10",
+      "unit_file_sha256": "07acdadc0a0bda9925b6d66a5d93ece7ad30ac223014000654e59d4c586baafa",
+      "unit_content_sha256": "a9d686c32b747508b981cbd13d6b9459626ae7dd30b8a7ea88208924e42e65b0",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 11",
+      "unit_file_sha256": "aa64e9f63456a6f166720d6db04f28b24a98032a1f97c0aea407024cff99b727",
+      "unit_content_sha256": "cebb3eb0d79edbd81e0f9558da25981a125abc971f79e2b823612cac6c146a33",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 12",
+      "unit_file_sha256": "5e5a10bb006fdc14067d6432f75f831a0c1c9f0521d257e49f5b2e2c5abf4214",
+      "unit_content_sha256": "03f780e0b8674338c40a8bd67a2edb8090dd3fe89a94878c7d9b9380548390bc",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 13",
+      "unit_file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+      "unit_content_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 14",
+      "unit_file_sha256": "515e610648ddec4170cae79790f4028c7b21445b6f4c33536149946656d5af12",
+      "unit_content_sha256": "eb7ab2878d456a3a0de88f260af593d06ba057e235a856018f1cc764e4863c93",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 9",
+      "unit_file_sha256": "cd5d58ea4c3d4091f641b3ba11be246bdcc743f58fe2810fcfaba0380c664531",
+      "unit_content_sha256": "f3e81739bd22251e4d1e6d6127f617a649508a6216edc6571c4dff0a9ee1ba81",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 10",
+      "unit_file_sha256": "6e6f4688acbccf08e25e20565a79cec1730a2798ee0764172d2bfc3de042dfe6",
+      "unit_content_sha256": "424db57a5b7964b2aea1d4dcbd6d6a51fe4953d900c7b88e11a55bae25208dc6",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 11",
+      "unit_file_sha256": "52e81952f5463689e68ee6ae4d3aade3422ab9509511ffe19f08aee7a5c7cc14",
+      "unit_content_sha256": "2367ab80f6e243ca3b15de05416e05e5e8a5653472c8bc505d40adaca2a29770",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 12",
+      "unit_file_sha256": "e74c481c9ec1189c00dd9d0d935fbdfd95bccfa8b07f16910d6523a87f3e4b43",
+      "unit_content_sha256": "6638dfa78204e0e2c92ea67334637b34c6add8685754aec351c49077162a3590",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 13",
+      "unit_file_sha256": "e3cc0eb2c48bc0bc411dca7b6b94746114ad14cdc936df8a064fe5595bbe444b",
+      "unit_content_sha256": "204f04b00b6034925392b8cfbfadc7dcdfdbba5629e36b11d01bfc7afa5a33ce",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 14",
+      "unit_file_sha256": "442787cb43607b8d453a33296424e2896ccd9d275296abeede00217e3645e3c5",
+      "unit_content_sha256": "f0216265a138e196180f41f4aa59f26949e4de0176db0c506f77b7497b38699c",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 19",
+      "unit_file_sha256": "4ae38bae64b04241a9a3e3a2009e18379aa9d0f6056878a9ceed639d9f6788c0",
+      "unit_content_sha256": "cd40c4c5370072e0513212997a18907787d6850e4aec8be6956c902460fda651",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 20",
+      "unit_file_sha256": "a0861e7e22132a30cd5695e2c633451231bd0c3f3d83fbfeb1c1b6945bb8de69",
+      "unit_content_sha256": "a3ef9d9a9127cc2e8dee3e4d25807177b139dec76e0b4e21c05c622de76263ed",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 23",
+      "unit_file_sha256": "0ef7f312c95d3f3358afc23cb6d3df5115720de1f41cc4c1ac13c3d6491f9f87",
+      "unit_content_sha256": "dbdb328eb2328aeab4f31703198bdb957cf31f4f46450023625ce7490984505f",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 24",
+      "unit_file_sha256": "54290c86e222f4cb1aa7cd31b1c73d9a4a9dfc002f97553b47bf303857491df5",
+      "unit_content_sha256": "ae75ae4b4f9e80ba631fba13ac6a147b29066982c5da5a2bb981acbbca8d5ff9",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 25",
+      "unit_file_sha256": "f4ddf2163b1dca124ee605cac9ed23166878e90506719fc8c48b2af5fef67aa2",
+      "unit_content_sha256": "dd3175af3d7f0bd24b5502cda22174c90d4c4dd9840ec7ac6c508cf09ea9bf96",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 26",
+      "unit_file_sha256": "e43ba7ea8d71e4049e3c1eac0ef735ff8f2c195ed882618e26fc10a60448077e",
+      "unit_content_sha256": "566a16e17c171763616492213a3b37421078a0d63baf643f31d7fcfee934290f",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 27",
+      "unit_file_sha256": "b168358739b1695a4992b9e6a8e36467c08f96741b0cb81796f9ae017d371426",
+      "unit_content_sha256": "5bf996e75f9b8e7e3bc9a21870c865906e011176bec408fc3daabd3eeea0c8b0",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 28",
+      "unit_file_sha256": "bc7c8d30729f64d1c9323c11030b4087e3dd99c08537e315d1dcc93d7078d10e",
+      "unit_content_sha256": "521f411644d01eb7dab20fb43c840359707dfbe00e1d72f429b211e02790da2a",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 29",
+      "unit_file_sha256": "32f6a3f061a191168139b2c7e24b53ab00cc8dfd3139697ca910218070738f5e",
+      "unit_content_sha256": "c9d34a79fc87d4964f095d334b822d98ebc4352693c876b5cd14b8eeaf066300",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 30",
+      "unit_file_sha256": "40ba83d46bd174e24e07601a2fd8d81af804e456c0e32ca226f53cdd14c692d7",
+      "unit_content_sha256": "eeb9308986d824c4d415604e258073e48a2d9d2bb7530cd89a301253612f70fb",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 31",
+      "unit_file_sha256": "ecffb3d85aff358158c2146b81247b62fe7d399ade60bcd4ab979023a56d5076",
+      "unit_content_sha256": "44a114c762f77234248abc7bbb3a37a8d10689119753e41c3801192198958cd8",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 32",
+      "unit_file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+      "unit_content_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 33",
+      "unit_file_sha256": "4b67ee60cea7ec6910893d30c3709a071d6072e3cfe4c47b2c11944b23ca05fb",
+      "unit_content_sha256": "de022cf2b8f82975598a5839143a82a49b70f1ab04c198dbedc63eb5ca6e1514",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 34",
+      "unit_file_sha256": "4a993b22fe7d513c3a4bd0a29af77058c4692f0fdd401aa37d5f8e4cf0acccd4",
+      "unit_content_sha256": "c721e01ce436180b63165e69fb45c7a2994b59916bbbaf6676777b9efd11701d",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 35",
+      "unit_file_sha256": "9c378153e475afecb6438fda22c12e7a4d0af0fafe7055b4619a1934f41f2add",
+      "unit_content_sha256": "7c2df886cf5671889f4e54cfd1e5097145ed938a3c5ac78ed1e4c151c06ebcef",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 36",
+      "unit_file_sha256": "1f9fd40ed70351959e58dd61c3bfa534684fd68063b8588f38999a16226bcf47",
+      "unit_content_sha256": "222e2f94f1578d073561d97026ec51ac4934f8c01be272fddc639e398726a545",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 37",
+      "unit_file_sha256": "882a5e7f9abe541347758055c17d6c3bc5ff0a03852038df9058f7538db9a681",
+      "unit_content_sha256": "70995f881cc7f2563d8f541900ec5d39c94f5d24c14e43d6fb5669d1593101d6",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 38",
+      "unit_file_sha256": "ff1de0e3693819bc5f7068ef4a1481d154d2891deacc1b5ab16e03374914b60f",
+      "unit_content_sha256": "d3f4eff907102e22e34b18552cff5f1a2cc62a4631a6a9361cff58129a950c2a",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 40",
+      "unit_file_sha256": "ab0a1baa0f1033127955454856c1f3d361bd4bf3bb3df44b345e0380873a0533",
+      "unit_content_sha256": "c8a32ba5ada453e6926cdd098e1f9e420fce80c09c095534eb9c73554903f348",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 41",
+      "unit_file_sha256": "f30e89ebfbb106b12ed700b6b8f89ad8a999df16ca039a5bdbcd2a58fa0ea831",
+      "unit_content_sha256": "4776066e53382666714293156082d44a5e97e09b1aa45c9db1be54ae5e7f0d5b",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 42",
+      "unit_file_sha256": "83d7984bb993a43322b51cfcd77982ae4bba5f975f82a4eab4f5c7f73f9007ed",
+      "unit_content_sha256": "79ad38aace1bc1f870070024a985e270418b3ab176982a9010a62814580c8f17",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 45",
+      "unit_file_sha256": "6c471013c7e708e3795cf6420ba5df75cc32dabad343f437d4c55cf5be8f6ab7",
+      "unit_content_sha256": "297d8959055aa6adddf8a80417c9068d7a9b2958d098417e20ff798b8e56f1a0",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 46",
+      "unit_file_sha256": "080548269158c2f77f4ee5fa427b80a3f4f623db50e4ced88d1c09dd9b1e8fe0",
+      "unit_content_sha256": "68a515bb18fccb39bf60f6337be7b25d3eb9aef859f00e17e3f1b071a1d91420",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 47",
+      "unit_file_sha256": "9e8f1dd29ca7dfe6d4de20998a05c36d64ab7848b6605452770f1c78f17e9415",
+      "unit_content_sha256": "e40b7f1678e2f79be535676b7254b72518706031a3e6984dddcc2c6d2f05f552",
+      "visual_review": "NONE",
+      "result": "REVIEWED"
+    }
+  ],
+  "findings": [
+    {
+      "severity": "UNCERTAIN",
+      "code": "VISUAL_REVIEW_REQUIRED",
+      "source_id": "SRC-0009",
+      "detail": "17 candidates cite assigned SRC-0009 units marked REVIEW_REQUIRED; they are excluded from reviewed evidence until visual fidelity is resolved."
+    },
+    {
+      "severity": "UNCERTAIN",
+      "code": "IMAGE_INSPECTION_WARNING",
+      "source_id": "SRC-0038",
+      "detail": "11 candidates cite assigned SRC-0038 units carrying image-inspection warnings; they are excluded from reviewed evidence until fidelity review is resolved."
+    },
+    {
+      "severity": "INFO",
+      "code": "GUIDANCE_SCOPE",
+      "source_id": "SRC-0018",
+      "detail": "Commission Article 50 material is guidance and must remain separate from the binding AI Act text."
+    },
+    {
+      "severity": "INFO",
+      "code": "NON_PRESCRIPTIVE_SCOPE",
+      "source_id": "SRC-0036",
+      "detail": "Supervisory model-risk guidance is non-prescriptive and bounded to its stated banking/model-risk context."
+    },
+    {
+      "severity": "INFO",
+      "code": "HISTORICAL_GUIDANCE",
+      "source_id": "SRC-0038",
+      "detail": "Historical supervisory guidance is retained as contextual material and is not treated as current law."
+    },
+    {
+      "severity": "INFO",
+      "code": "NON_BINDING_FRAMEWORK",
+      "source_id": "SRC-0039",
+      "detail": "NIST AI RMF is voluntary and non-prescriptive; it cannot alone establish a legal obligation."
+    },
+    {
+      "severity": "INFO",
+      "code": "NON_BINDING_RESEARCH",
+      "source_id": "SRC-0009",
+      "detail": "Vendor responsible-AI reporting is descriptive research context and does not establish universal requirements."
+    }
+  ]
+}

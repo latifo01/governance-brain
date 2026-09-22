@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "instructions": [
+    "AGENTS.md",
+    "WORKSHOP.md"
+  ],
+  "permission": {
+    "bash": "ask",
+    "edit": {
+      "*": "ask",
+      "sources/**": "deny"
+    },
+    "external_directory": "deny",
+    "read": {
+      "*": "allow",
+      "**/.env*": "deny",
+      ".env*": "deny",
+      "ingest/**": "ask",
+      "sources/**": "deny"
+    }
+  },
+  "share": "disabled"
+}

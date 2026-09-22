@@ -1,0 +1,22 @@
+{
+  "active_files_to_modify_after_approval": [
+    "config/brain-evaluation.json"
+  ],
+  "active_vault_files_to_modify_after_approval": [],
+  "artifacts": [
+    "analysis/benchmark-diagnostic.json",
+    "analysis/coverage-triage.json",
+    "proposal/benchmark-update.json",
+    "README.md"
+  ],
+  "candidate_sha256": "6ca0138a638dd9ddbe120ee3d171b3cf90ae841e96407b697269d29aed4711f2",
+  "current_catalogue_sha256": "307a8c2c42640e49be6006ec24d7cd3a0a7722b4fc2e87073bb497b2f9ad0212",
+  "current_evaluation_config_sha256": "0761b0c9f5464b8387da80e8d61728115ab6292ec3a14798f2ec1add1be70bae",
+  "human_approval_required": true,
+  "proposal_id": "benchmark-coverage-032",
+  "risk_tier": "fast",
+  "schema_version": 1,
+  "scope": "benchmark configuration and coverage diagnostic",
+  "source_files_to_modify": [],
+  "status": "APPROVED"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "be034-src-0006-ec-001",
+    "be034-src-0006-ec-002",
+    "be034-src-0006-ec-003",
+    "be034-src-0006-ec-004",
+    "be034-src-0006-ec-005",
+    "be034-src-0006-ec-006",
+    "be034-src-0006-ec-007",
+    "be034-src-0006-ec-008",
+    "be034-src-0017-ec-001",
+    "be034-src-0017-ec-002",
+    "be034-src-0017-ec-003",
+    "be034-src-0017-ec-004",
+    "be034-src-0017-ec-005",
+    "be034-src-0017-ec-006",
+    "be034-src-0017-ec-007",
+    "be034-src-0017-ec-008",
+    "be034-src-0039-ec-001",
+    "be034-src-0039-ec-002",
+    "be034-src-0039-ec-003",
+    "be034-src-0039-ec-004",
+    "be034-src-0039-ec-005",
+    "be034-src-0039-ec-006",
+    "be034-src-0039-ec-007",
+    "be034-src-0039-ec-008",
+    "be034-src-0039-ec-009",
+    "be034-src-0039-ec-010",
+    "be034-src-0039-ec-011",
+    "be034-src-0039-ec-012",
+    "be034-src-0039-ec-013",
+    "be034-src-0039-ec-014",
+    "be034-src-0039-ec-015",
+    "be034-src-0039-ec-016"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/benchmark-evidence-034-governance-core.json",
+      "sha256": "bc61e27d6831aac9d527e62176b9f75c81a458382ec77b52a81c6172ad201023"
+    }
+  ]
+}

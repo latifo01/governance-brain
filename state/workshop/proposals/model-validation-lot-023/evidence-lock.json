@@ -1,0 +1,28 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "model23-src-0036-p0006",
+    "model23-src-0036-p0008",
+    "model23-src-0036-p0009",
+    "model23-src-0036-p0010",
+    "model23-src-0036-p0011",
+    "model23-src-0036-p0013",
+    "model23-src-0036-p0014",
+    "model23-src-0038-p0003",
+    "model23-src-0038-p0011",
+    "model23-src-0038-p0013",
+    "model23-src-0039-p0028",
+    "model23-src-0039-p0029",
+    "model23-src-0039-p0030",
+    "model23-src-0039-p0031",
+    "model23-src-0040-p0034",
+    "model23-src-0040-p0035",
+    "model23-src-0040-p0036"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/model-validation-023.json",
+      "sha256": "4f50ed36dcb8eb496afe6a57e704be66fa77958bbe88276ff7cee568aafe9405"
+    }
+  ]
+}

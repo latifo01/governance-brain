@@ -1,0 +1,8 @@
+{
+  "cost": 0,
+  "input_tokens": 0,
+  "llm_calls": 0,
+  "models": [],
+  "output_tokens": 0,
+  "schema_version": 2
+}

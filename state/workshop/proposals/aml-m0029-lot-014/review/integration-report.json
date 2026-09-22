@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "c62bf6112e2ad6cdde53bac0b1449042d1df3164e3f0c33ba6f8d6ca0ea73c5a",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/human-in-the-loop-for-ai-agent-actions.md",
+      "proposal_id": "aml-m0029-lot-014",
+      "sha256": "f3fb1dba58983257b9b9482311042f3f5dbe89fbe0877cf35ff7a85540e7d0c8"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 87,
+  "proposal_ids": [
+    "aml-m0029-lot-014"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

@@ -1,0 +1,16 @@
+schema_version: 1
+domain_id: GOVERNANCE_ACCOUNTABILITY
+slug: governance-accountability
+status: ACTIVE
+labels:
+  en: Governance & Accountability
+  fr: Gouvernance et responsabilité
+description: Governance structures, decision rights, ownership, accountability, and oversight of AI systems.
+question_prefix: GOV
+languages: [en, fr]
+source_roots:
+  - sources/01_AI_Auditing
+  - sources/10_Responsible_AI
+review_policy: HUMAN_APPROVAL
+aliases: []
+

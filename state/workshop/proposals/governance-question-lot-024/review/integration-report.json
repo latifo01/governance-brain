@@ -1,0 +1,43 @@
+{
+  "candidate_sha256": "27277a697a8a74c60c31dc9bfe003a919c3746f985a28b8ef940680598fc8547",
+  "derived": {
+    "canvas_sha256": "e68ec8e3ff4920624d8c1ab205963d9710bca82ce52078ef29f869dd0011ac2a",
+    "dependencies": 19,
+    "questions": 33,
+    "registry_sha256": "3fb1bca37d79c6ac9139ec8e0975570bf09bd002a6391f9f4f834315b45662a4"
+  },
+  "files": [
+    {
+      "path": "questions/governance/gov-001-governance-decision-rights.md",
+      "proposal_id": "governance-question-lot-024",
+      "sha256": "f2c7d033e67026d96f60d0b3c40496dfe650ebb8acb429c95fa716dd264d7dff"
+    },
+    {
+      "path": "questions/governance/gov-002-lifecycle-change-reassessment.md",
+      "proposal_id": "governance-question-lot-024",
+      "sha256": "c5dfce5fd48d9f7660ff44e2f7e15701a9fdf507b76d55d1202ad30984d55391"
+    },
+    {
+      "path": "questions/governance/gov-003-incident-and-abnormal-behaviour-records.md",
+      "proposal_id": "governance-question-lot-024",
+      "sha256": "0502b9312b166f544170076174e4422c38a9ba95fa3c7a6001b16d0e895e1921"
+    },
+    {
+      "path": "questions/governance/gov-004-governance-documentation-update-triggers.md",
+      "proposal_id": "governance-question-lot-024",
+      "sha256": "272f05019a74cf400ff1e8e72e7a85a1549a43a678a48e29be4d31a4de056b1c"
+    },
+    {
+      "path": "questions/governance/gov-005-role-specific-ai-literacy.md",
+      "proposal_id": "governance-question-lot-024",
+      "sha256": "7f93dab188a07e447dea0a188758323804b1b1df0b7cc76752bfe41ec273b86a"
+    }
+  ],
+  "materialized_files": 5,
+  "notes": 117,
+  "proposal_ids": [
+    "governance-question-lot-024"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

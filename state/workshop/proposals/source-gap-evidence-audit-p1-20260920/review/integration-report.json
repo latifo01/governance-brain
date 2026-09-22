@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-gap-evidence-audit-p1-20260920",
+  "candidate_sha256": "859d579a2ccd90d08e183fc6d64f3ec4cebb2acb7a3a448e85f4fbd4bf130e00",
+  "approved": true,
+  "applied": true,
+  "active_vault_changed": false,
+  "sources_changed": false,
+  "ingest_changed": false,
+  "evidence_library_changed": false,
+  "evidence_lock_sha256": "e33f0e9c19e537f00cc43aa4c9b8f8795d73f92efe9f5e2018b6df2b7e1dd7ca",
+  "eligible_references": 18,
+  "excluded_references": [
+    "gov20-src-0009-p0006",
+    "gov20-src-0009-p0026"
+  ]
+}

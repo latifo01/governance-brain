@@ -1,0 +1,33 @@
+{
+  "candidate_sha256": "ffa730a3de3797bfd82e701161d2c469db0d29aac2fecc56de85cb6dac1c5cf9",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "87a57b02277dd8c0381b2fc4a605bd4920e4c8df6c6d623facda2146b9595850"
+  },
+  "files": [
+    {
+      "path": "AI concepts/multimodal-ai.md",
+      "proposal_id": "ai-concepts-p2",
+      "sha256": "386b8bcc1ea0384fbd996ff1ae185d481817e8f018992d9ca072e83cf8b8942c"
+    },
+    {
+      "path": "AI concepts/synthetic-data.md",
+      "proposal_id": "ai-concepts-p2",
+      "sha256": "280a473c2714c2573ee94f54ed9a3c218626cbea4e1be06b81bbaca2096d7173"
+    },
+    {
+      "path": "AI concepts/uncertainty-and-calibration.md",
+      "proposal_id": "ai-concepts-p2",
+      "sha256": "1683ed0a656879923609cbcdbe3514f28612b08a25bcb63e44e219e7ae2a7aef"
+    }
+  ],
+  "materialized_files": 3,
+  "notes": 148,
+  "proposal_ids": [
+    "ai-concepts-p2"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

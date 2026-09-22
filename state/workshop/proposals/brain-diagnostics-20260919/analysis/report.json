@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "proposal_id": "brain-diagnostics-20260919",
+  "status": "PARTIAL",
+  "checks": {
+    "build-check.json": {
+      "sha256": "7c7325491ca5522de338d85133fec195b871b915ad251778369be4ab68237aa8",
+      "exit_code": 0,
+      "valid": true,
+      "accepted": null,
+      "ready_positive_count": null,
+      "negative_pass_count": null,
+      "recall_at_5": null,
+      "current": true
+    },
+    "build.json": {
+      "sha256": "7c7325491ca5522de338d85133fec195b871b915ad251778369be4ab68237aa8",
+      "exit_code": null,
+      "valid": true,
+      "accepted": null,
+      "ready_positive_count": null,
+      "negative_pass_count": null,
+      "recall_at_5": null,
+      "current": true
+    },
+    "evaluate.json": {
+      "sha256": "c875307feafda5403dcc765572437758a706f32adcfb5e163f9d5ca342483495",
+      "exit_code": 0,
+      "valid": null,
+      "accepted": true,
+      "ready_positive_count": 30,
+      "negative_pass_count": 15,
+      "recall_at_5": 1.0,
+      "current": null
+    },
+    "report.json": {
+      "sha256": "1d1d7e3f05b9e472e87d27d2bf6f06e83b5da24dd17e18078a6cc6924e8d6c06",
+      "exit_code": null,
+      "valid": null,
+      "accepted": null,
+      "ready_positive_count": null,
+      "negative_pass_count": null,
+      "recall_at_5": null,
+      "current": null
+    },
+    "validate.json": {
+      "sha256": "00d79b7f8b6d0a30518dc4b8e5f247804244ea4bcb2ddba727aee468a3ed6ea4",
+      "exit_code": 1,
+      "valid": true,
+      "accepted": null,
+      "ready_positive_count": null,
+      "negative_pass_count": null,
+      "recall_at_5": null,
+      "current": null
+    }
+  },
+  "notes": 148,
+  "sections": 800,
+  "reviewed_sections": 298,
+  "orphan_knowledge": 7,
+  "warnings": 35,
+  "source_ingest_vault_writes": 0
+}

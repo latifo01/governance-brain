@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY",
+  "evidence_lock_sha256": "f0ec780789853bc6e922e1d2c5ca04f0f714cd91717ab7648736395f52520fa3",
+  "reviewer_identity": "codex-dpia-fria-rights-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "RECEIPT_VERIFIED",
+      "detail": "Four validated GDPR units resolve with exact source, unit and local fidelity hashes."
+    },
+    {
+      "severity": "INFO",
+      "code": "SECTION_BINDINGS_VERIFIED",
+      "detail": "Seven substantive sections across one knowledge note and one question have exact note and section bindings."
+    },
+    {
+      "severity": "INFO",
+      "code": "DPIA_FRIA_REUSE_CONFIRMED",
+      "detail": "The lot adds rights routing without duplicating the already reviewed DPIA and FRIA notes."
+    },
+    {
+      "severity": "WARNING",
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "detail": "Current amendments and supervisory interpretations were not assessed."
+    },
+    {
+      "severity": "WARNING",
+      "code": "FACT_SPECIFIC_APPLICABILITY",
+      "detail": "The note is routing knowledge; it does not decide a project-specific right, exception or response."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "candidate_sha256": "538d4a61ab7d88071108cf5ca9ed3adce697eed0ac3e9dd32740f816e6de5d53",
+  "files": [
+    {
+      "path": "AI concepts/ai-system.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "d02c1af4c0a7cc91f9bf13d2fa350ebd2633969935c0be15e8d890c55e46c3ba"
+    },
+    {
+      "path": "Data & AI Laws/ai-act-prohibited-practices.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "509b19dc22a8c483be054dd1d2ed4b42bdcc549e5006ffa69307857638bb4f1a"
+    },
+    {
+      "path": "Data & AI Laws/eu-ai-act.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "c96609b2f4f8e64b3b232f30ee4c3eef6e99ff5cdc8f5909e334f37ee47b6447"
+    },
+    {
+      "path": "Data & AI Laws/high-risk-ai-system-classification.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "c8d4894f74fd9587a60db65b94e199cd4b9c85dd858235b28fc185cfc8108e84"
+    },
+    {
+      "path": "indexes/ai-act-index.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "d9e85781bb606fb85760002c09fe65b6ac43f51fab90b6330e8a2f222669c5d8"
+    },
+    {
+      "path": "questions/core/core-003-ai-system-determination.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "210f0fed60336eb19b3205361f8ab0757751f75a151ed7fe01646cb954387b5b"
+    },
+    {
+      "path": "questions/core/core-011-prohibited-practice-screening.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "4108b617fde7b3e61b48d7c98352a1322d3af703626ea806d8fee7e14a989653"
+    },
+    {
+      "path": "questions/core/core-013-high-risk-ai-classification.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "1f46564c3aae238c2ddef68551ebcb22c6637f94d6720a0bc58010cf228f2380"
+    },
+    {
+      "path": "questions/legal/legal-001-ai-act-classification-record.md",
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "sha256": "fe95e6c956e134ac986a5a789771d9cafbeca930d49bb8e9aed96f5a471204c4"
+    }
+  ],
+  "materialized_files": 9,
+  "notes": 86,
+  "proposal_ids": [
+    "wave-2-ai-act-gate-lot-012"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

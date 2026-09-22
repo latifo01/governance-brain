@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "proposal_id": "aml-m0029-lot-014",
+  "reviewer_identity": "codex-evidence-auditor",
+  "reviewed_at": "2026-09-15T15:10:00+02:00",
+  "evidence_lock_sha256": "4c738d7c446886a22123b2d0744c8873b605c12a5d2da346c68a8be2d3f8edff",
+  "verdict": "EVIDENCE_READY",
+  "findings": [],
+  "basis": "SRC-0044 audit is AUDITED; AML.M0029 and AML.T0053, AML.T0086, AML.T0101 are covered with stable locators and hashes. MITRE ATLAS is non-binding security guidance."
+}

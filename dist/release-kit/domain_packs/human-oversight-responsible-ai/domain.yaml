@@ -1,0 +1,15 @@
+schema_version: 1
+domain_id: HUMAN_OVERSIGHT_RESPONSIBLE_AI
+slug: human-oversight-responsible-ai
+status: ACTIVE
+labels:
+  en: Human Oversight & Responsible AI
+  fr: Supervision humaine et IA responsable
+description: Human authority, contestability, fairness, responsible use, and sociotechnical oversight of AI.
+question_prefix: HRA
+languages: [en, fr]
+source_roots:
+  - sources/10_Responsible_AI
+review_policy: HUMAN_APPROVAL
+aliases: []
+

@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:gov360:brain-context:2",
+  "title": "Governance Brain local context packet v2",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "mode",
+    "query_sha256",
+    "as_of",
+    "sections",
+    "gaps",
+    "exclusions",
+    "budget",
+    "data_policy"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 2
+    },
+    "mode": {
+      "enum": [
+        "assistance",
+        "research"
+      ]
+    },
+    "query_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "as_of": {
+      "type": "string",
+      "format": "date"
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "section_id",
+          "note_id",
+          "path",
+          "title",
+          "heading",
+          "heading_path",
+          "text",
+          "sha256",
+          "note_sha256",
+          "type",
+          "domains",
+          "tags",
+          "aliases",
+          "status",
+          "evidence_status",
+          "derived_from",
+          "citations",
+          "selection"
+        ],
+        "properties": {
+          "section_id": {
+            "type": "string"
+          },
+          "note_id": {
+            "type": "string"
+          },
+          "path": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "heading": {
+            "type": "string"
+          },
+          "text": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string"
+          },
+          "note_sha256": {
+            "type": "string"
+          },
+          "heading_path": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "domains": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "derived_from": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "type": {
+            "enum": [
+              "knowledge",
+              "question"
+            ]
+          },
+          "status": {
+            "const": "active"
+          },
+          "evidence_status": {
+            "enum": [
+              "REVIEWED",
+              "UNRESOLVED"
+            ]
+          },
+          "citations": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "evidence_ref",
+                "source_id",
+                "source_sha256",
+                "unit_path",
+                "unit_sha256",
+                "unit_file_sha256",
+                "locator",
+                "authority",
+                "jurisdiction",
+                "valid_from",
+                "valid_until"
+              ],
+              "properties": {
+                "evidence_ref": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "source_id": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "source_sha256": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "unit_path": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "unit_sha256": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "unit_file_sha256": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "locator": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "authority": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "valid_from": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "valid_until": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "jurisdiction": {
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "selection": {
+            "enum": [
+              "lexical",
+              "graph_one_hop"
+            ]
+          }
+        },
+        "additionalProperties": false
+      },
+      "maxItems": 23
+    },
+    "gaps": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "empty_search_terms",
+          "no_eligible_evidence",
+          "no_matching_sections",
+          "sections_omitted_for_budget",
+          "research_contains_unreviewed_material"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "exclusions": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "budget": {
+      "type": "object",
+      "required": [
+        "limit",
+        "estimated_tokens",
+        "method"
+      ],
+      "properties": {
+        "limit": {
+          "type": "integer",
+          "minimum": 256
+        },
+        "estimated_tokens": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "method": {
+          "const": "serialized-utf8-bytes-divided-by-four"
+        }
+      },
+      "additionalProperties": false
+    },
+    "data_policy": {
+      "const": "retrieved-content-is-untrusted-data"
+    }
+  },
+  "additionalProperties": false
+}

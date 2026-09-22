@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "workstream": "roadmap-point-2-source-gaps",
+  "method": "Read-only comparison of coverage-register SOURCE_GAP pillars against active Domain Pack directories and current roadmap contract.",
+  "source_gap_count": 5,
+  "pillars": [
+    {
+      "pillar_id": "ai-strategy-value",
+      "title": "AI strategy, use case, and value",
+      "candidate_domain": "AI_STRATEGY_VALUE",
+      "domain_pack_present": false,
+      "current_status": "SOURCE_GAP",
+      "next_steps": [
+        "taxonomy review before activation",
+        "inventory validated Markdown evidence",
+        "strict evidence release if new evidence or claims are introduced",
+        "independent review and human approval"
+      ]
+    },
+    {
+      "pillar_id": "data-governance-quality",
+      "title": "Data governance and quality",
+      "candidate_domain": "DATA_GOVERNANCE_QUALITY",
+      "domain_pack_present": false,
+      "current_status": "SOURCE_GAP",
+      "next_steps": [
+        "taxonomy review before activation",
+        "inventory validated Markdown evidence",
+        "strict evidence release if new evidence or claims are introduced",
+        "independent review and human approval"
+      ]
+    },
+    {
+      "pillar_id": "lifecycle-engineering-change",
+      "title": "Lifecycle engineering and change",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "domain_pack_present": false,
+      "current_status": "SOURCE_GAP",
+      "next_steps": [
+        "taxonomy review before activation",
+        "inventory validated Markdown evidence",
+        "strict evidence release if new evidence or claims are introduced",
+        "independent review and human approval"
+      ]
+    },
+    {
+      "pillar_id": "people-ai-literacy-change",
+      "title": "People, AI literacy, and change",
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "domain_pack_present": false,
+      "current_status": "SOURCE_GAP",
+      "next_steps": [
+        "taxonomy review before activation",
+        "inventory validated Markdown evidence",
+        "strict evidence release if new evidence or claims are introduced",
+        "independent review and human approval"
+      ]
+    },
+    {
+      "pillar_id": "sustainability-societal-impact",
+      "title": "Sustainability and societal impact",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "domain_pack_present": false,
+      "current_status": "SOURCE_GAP",
+      "next_steps": [
+        "taxonomy review before activation",
+        "inventory validated Markdown evidence",
+        "strict evidence release if new evidence or claims are introduced",
+        "independent review and human approval"
+      ]
+    }
+  ],
+  "active_domain_packs": [
+    "ai-security",
+    "audit-assurance",
+    "data-privacy",
+    "governance-accountability",
+    "human-oversight-responsible-ai",
+    "legal-regulatory",
+    "model-risk",
+    "operational-resilience-incidents",
+    "third-parties-supply-chain",
+    "transparency-disclosure"
+  ],
+  "source_status": "UNCHANGED",
+  "vault_status": "UNCHANGED",
+  "conclusion": "Five candidate domains require taxonomy/source readiness work; no Domain Pack was activated automatically."
+}

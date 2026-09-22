@@ -1,0 +1,29 @@
+{
+  "author_identity": "codex-lineage-repair-domain-builder",
+  "candidate_sha256": "c39f8f681969eba0efd81f9d81b504db62351a45dfc0199b0b89d78295784017",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-board"
+    ]
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "domain": "GOVERNANCE_ACCOUNTABILITY",
+  "evidence_changes": true,
+  "files": [
+    "Organizations/ai-board.md"
+  ],
+  "proposal_id": "lineage-repair-lot-025",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "ai-board-lineage-repair"
+  ],
+  "status": "INTEGRATED"
+}

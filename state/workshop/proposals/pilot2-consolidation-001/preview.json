@@ -1,0 +1,13 @@
+{
+ "candidate_hash": "bbb75b12c8ad314ffd452b45e014db992000ff1461817544b4be8b58618eeb88",
+ "manifest_hash": "3b3f76d330fd6d95735c2fb17630195157069d91c513f2fd79614314643c703d",
+ "lock_hash": "2835106b7244838fac127c5929bdf3e1af56027519898320060a0ba921e9bfa1",
+ "receipt_hashes": {
+  "aiact-fria-republication-001": "093e9c70cda6ef2ec69645c472a8b6ccf45a589c5b3525a7f0e72c1f37f32e09",
+  "aiact-highrisk-republication-001": "3cb599728eb7aa8d09907e8be82cac8b1947fde90d304ed74f312c2bf73d9c6b",
+  "aiact-prohibited-republication-001": "f3e7320b2288e18b3cfa53febcc38c166ad5f0dc609f19ad05256ddd34e79cb3",
+  "gdpr-dpia-republication-001": "65839bfdb67d3eba56a7b13ba336f91b39e16c3a923884117415dd1cb07adeb7"
+ },
+ "status": "PREVIEW",
+ "generated_at": "2026-09-16T03:45:00+00:00"
+}

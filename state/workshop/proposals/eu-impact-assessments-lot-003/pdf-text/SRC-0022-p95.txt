@@ -1,0 +1,46 @@
+                                  Unit 5. Inception Stage
+
+
+Prohibited AI applications
+Article 5(1) AI Act establishes a list of prohibited AI practices. In some cases, those
+practices are themselves illegal or at least questionable, but the addition of AI would
+have the potential to amplify the harms. One such prohibition is that of Article 5(1)(a),
+which bans the use of AI to materially distort the behaviour of a person or group of
+persons in a way that causes or is likely to cause them to harm themselves or others.
+This means, for instance, that an application that uses AI to incite conflicts within a
+society is likely to be unlawful.
+Other prohibitions deal with practices that are not in themselves unlawful but become
+risky when done at the scale enabled by AI. For example, the AI Act bans the use of
+emotion inference systems in the workplace or in educational institutions.7 This
+provision also illustrates another feature of the AI Act’s system of prohibitions: they
+sometimes allow for exceptions. In this case, the use of emotion inference systems is
+allowed when the system is intended to be put in place or into the market for medical or
+safety reasons. Those exceptions can be quite big, as shown by the fact that most of
+Article 5 AI Act is dedicated to laying down conditions in which law enforcement can use
+real-time biometric identification systems that are theoretically prohibited by Article
+5(1)(h). But, without such an exception, no number of technical safeguards can allow
+the lawful use of a system covered by Article 5.
+High-risk AI systems
+The AI Act distinguishes between two types of high-risk AI systems. Some systems are
+classified as such because they are used in products that are, in themselves, subject to
+harmonized product safety law at the EU level. Others are classified as such because
+the EU lawmaker has deemed that the risks they create to fundamental rights,
+democracy, and the rule of law are big enough to warrant special attention. For the most
+part, those two kinds of high-risk AI systems are largely subject to the same rules. Still,
+there are a few differences between the classification procedures applicable to each
+one.
+Product safety law
+When it comes to systems already covered by product safety law, Article 6(1) AI Act
+establishes two conditions for the high-risk classification.
+The first condition relates to the intended purpose of the system: the system must be a
+product covered by the product safety legislation listed in Annex I AI Act, or a safety
+component of such a product. For example, the toys produced by DigiToys are
+regulated by the Toy Safety Directive,8 and so they meet this first requirement. Likewise,
+if InnovaHospital decides to incorporate AI into medical devices, those devices might be
+
+7 Article 5(1)(f) AI Act.
+8 Directive 2009/48/EC.
+
+
+                                             82
+

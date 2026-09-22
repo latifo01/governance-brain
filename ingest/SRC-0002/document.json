@@ -1,0 +1,191 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 1,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "AUDIT_ASSURANCE",
+    "GOVERNANCE_ACCOUNTABILITY"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 14
+    },
+    "native_unit_count": 14,
+    "normalized_unit_count": 14,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 14,
+    "unit_count": 14
+  },
+  "relative_source_paths": [
+    "sources/01_AI_Auditing/ai-auditing_proposal-for-ai-leaflets_edpb-spe-programme_en.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0002",
+  "source_kind": "document",
+  "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+  "units": [
+    {
+      "content_sha256": "55e01efd0a0e9cc842482a1cab07899311e81a7e4aede4ffc13c7556de7b9d39",
+      "file_sha256": "3f63ad808697af2853b934a46b70cd80209c09dcad7a348772a8d4d15685a1bb",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "a3b06dfd35bbf8e40e51a2f2286835930619f2226d66c5f63a8881eccddf6f4c",
+      "file_sha256": "c9d37a54ddc975eb6d5e7b1b407cc955f4e322632a42a533319c7bb99becbb47",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "1211fbd22ea28d58346ce7fce7f287793dbd9f6f06519eeb9892d9b37b2f3feb",
+      "file_sha256": "5249bbb1315bc826f4345ede6bbdc63f57dc0b38a3914e4d21868a21ecc7c7fe",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "8effcb6abbe7ed48186e0f3fb9d5e10c386b642d33110af75a3c09bb4cdb963c",
+      "file_sha256": "00f277b1536cf11ccad593e8557d52e0ee6058d62e708afe62f00f97ddc659ed",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "728a66bcdb9f97d2d3dc5ee6c81a3f9dd0c4895ae58f4c5c2e734fb128f14166",
+      "file_sha256": "46533bdbeb0703035f2a9ab9f170c16ead1a4cf1285879548ec21dd166880ffa",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "cbe4a4ec0c2d148b19e23938453c5531d347755299ef6738177b967a29d92f5f",
+      "file_sha256": "7279cb2aa6630149d7f4651704a5eb5dbbda292dade66e375e75ddf3c9c87261",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "7f67b613eb37ed8fe164de3a71f9b5072f65f103d39378083573d882f06f9753",
+      "file_sha256": "768f75cbd45b635999b525c83f63230d5c1e2cd73720d3041d59c91f51954c52",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "dd08fe1c774fed697bcb045139342b0ffeb11868ec5f073bb37d7aa350fa007b",
+      "file_sha256": "318e25cbe755449b6c31cb9566bb8a00e04da76d2d6d1fd34b447ed1dddac9fe",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "5d850e0e987babbcbf0f5d9d00c25f5aa0561c6205480f11277d87a5ab28fc52",
+      "file_sha256": "e93584abd9a8580c362a3fff4f5eda8e799be89d024354645eadde94fcc3b69c",
+      "filename": "units/p0009.md",
+      "index": 9,
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "filename": "units/p0010.md",
+      "index": 10,
+      "locator": "Page 10",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "7ca44d4b72df7aa6b214afa03cb8ff2bbe7668738a6e78735c3cceb0416abc06",
+      "file_sha256": "0265b7f3bba5b1a4489c80a974aa44ff8791364c3436a9cbaf6730edc0073be2",
+      "filename": "units/p0011.md",
+      "index": 11,
+      "locator": "Page 11",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "9bf04af886a23cb308986c73f58d0c92811750d5514ae119a5bb4d22d855a359",
+      "file_sha256": "2c2a18e8ca9c64fd33a389f09b0d9bca638a32721e0dfc1c776ec265303308b0",
+      "filename": "units/p0012.md",
+      "index": 12,
+      "locator": "Page 12",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "9e91e19ab712964d557fad7025aaaa5cbb1f7757e170a9bacb75d73a9e9e2343",
+      "file_sha256": "76d222d90f1cc5baf0c5c032ca2ae0635f7e88f4744923f17e6e97252aa08178",
+      "filename": "units/p0013.md",
+      "index": 13,
+      "locator": "Page 13",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "272a355b1cf58acba69b62bb3bbea681b3caa92bf28b52d4ea74f25a04564acd",
+      "file_sha256": "413d36639e07a3b1fe7e12ceda6106af53b861704a628f54624d617cd3c2b7d4",
+      "filename": "units/p0014.md",
+      "index": 14,
+      "locator": "Page 14",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 36180,
+      "native_unit_count": 14,
+      "normalized_unit_count": 14
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

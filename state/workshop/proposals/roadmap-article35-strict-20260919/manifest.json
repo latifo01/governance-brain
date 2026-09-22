@@ -1,0 +1,29 @@
+{
+  "author_identity": "codex-article35-domain-builder",
+  "candidate_sha256": "9491d5dd7075d6f2cc3569862a8eaa705232838419b72e0822a00c2f3bf6dac8",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "data-protection-impact-assessments-dpia"
+    ]
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "domain": "DATA_PRIVACY",
+  "evidence_changes": true,
+  "files": [
+    "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md"
+  ],
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "article35-dpia"
+  ],
+  "status": "INTEGRATED"
+}

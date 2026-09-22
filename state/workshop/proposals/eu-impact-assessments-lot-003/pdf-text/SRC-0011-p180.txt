@@ -1,0 +1,35 @@
+       b)    le produit dont le composant de sécurité visé au point a) est le système d'IA, ou le
+             système d'IA lui-même en tant que produit, est soumis à une évaluation de
+             conformité par un tiers en vue de la mise sur le marché ou de la mise en service de ce
+             produit conformément à la législation d'harmonisation de l'Union dont la liste figure
+             à l'annexe I.
+
+2.     Outre les systèmes d'IA à haut risque visés au paragraphe 1, les systèmes d'IA visés à
+       l'annexe III sont considérés comme étant à haut risque.
+
+3.     Par dérogation au paragraphe 2, un système d'IA visé à l'annexe III n'est pas considéré
+       comme étant à haut risque lorsqu'il ne présente pas de risque important de préjudice pour la
+       santé, la sécurité ou les droits fondamentaux des personnes physiques, y compris en n'ayant
+       pas d'incidence significative sur le résultat de la prise de décision.
+
+       Le premier alinéa s'applique lorsqu'une des conditions suivantes est remplie:
+
+       a)    le système d'IA est destiné à accomplir un tâche procédurale étroite;
+
+       b)    le système d'IA est destiné à améliorer le résultat d'une activité humaine
+             préalablement réalisée;
+
+       c)    le système d'IA est destiné à détecter les constantes en matière de prise de décision
+             ou les écarts par rapport aux constantes habituelles antérieures et n'est pas destiné à
+             se substituer à l'évaluation humaine préalablement réalisée, ni à influencer celle-ci,
+             sans examen humain approprié; ou
+
+       d)    le système d'IA est destiné à exécuter une tâche préparatoire en vue d'une évaluation
+             pertinente aux fins des cas d'utilisation visés à l'annexe III.
+
+
+
+
+PE-CONS 24/1/24 REV 1                                                                               179
+                                                                                                 FR
+

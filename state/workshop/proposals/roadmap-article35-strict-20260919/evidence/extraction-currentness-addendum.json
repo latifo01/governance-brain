@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "stage": "EXTRACT_CURRENTNESS_ADDENDUM",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "assignment_sha256": "4950907ba38ff62c4ca3f55ec01d5e70faafaeb0e2285a10da16ff5e881b33bb",
+  "scope": {
+    "target_ids": [
+      "fundamental-right-impact-assessment-fria",
+      "data-protection-impact-assessments-dpia"
+    ],
+    "source_ids": [
+      "SRC-0043"
+    ],
+    "assigned_units": 2
+  },
+  "coverage": [
+    {
+      "source_id": "SRC-0043",
+      "assigned_locators": [
+        "Page 20",
+        "Page 35"
+      ],
+      "covered_locators": [
+        "Page 20",
+        "Page 35"
+      ],
+      "omitted": [],
+      "unresolved_items": [
+        "GDPR currentness remains unresolved outside this addendum."
+      ]
+    }
+  ],
+  "evidence_candidates": [
+    {
+      "candidate_id": "art35-addendum-src-0043-p0020-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0020.md",
+      "locator": "Page 20",
+      "locator_kind": "page",
+      "unit_content_sha256": "24eb2a464443dc4ada59da54d94951581b306e5323c3f6a4bb676cc6ff649185",
+      "unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38",
+      "claim": "Amended AI Act Article 27(4) allows a deployer, where obligations under that Article are already met through a GDPR Article 35 DPIA or Article 27 of Directive (EU) 2016/680 assessment, to include cross-references to relevant DPIA sections or include relevant parts in the fundamental-rights impact assessment.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This candidate supersedes the earlier SRC-0011 Page 224 wording for Article 27(4)."
+      ],
+      "uncertainties": [],
+      "relevance": "Current FRIA/DPIA coordination rule."
+    },
+    {
+      "candidate_id": "art35-addendum-src-0043-p0020-ec-002",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0020.md",
+      "locator": "Page 20",
+      "locator_kind": "page",
+      "unit_content_sha256": "24eb2a464443dc4ada59da54d94951581b306e5323c3f6a4bb676cc6ff649185",
+      "unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38",
+      "claim": "Amended AI Act Article 27(5) requires the AI Office to develop a questionnaire template, including through an automated tool, and states that the template should, where relevant, allow deployers to include cross-references to relevant DPIA sections or relevant parts in the FRIA.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This candidate supersedes the earlier SRC-0011 Page 224 wording for Article 27(5)."
+      ],
+      "uncertainties": [],
+      "relevance": "Current questionnaire-design and cross-reference rule."
+    },
+    {
+      "candidate_id": "art35-addendum-src-0043-p0035-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0035.md",
+      "locator": "Page 35",
+      "locator_kind": "page",
+      "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+      "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "claim": "The amended AI Act Article 113 schedule provides that Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for systems classified as high-risk under Article 6(2) and Annex III, and from 2 August 2028 for systems classified as high-risk under Article 6(1) and Annex I, subject to the stated exception for Article 6(5).",
+      "evidence_kind": "temporal_scope",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The application date must be selected by the applicable high-risk classification route; it is not a universal date for every AI system."
+      ],
+      "uncertainties": [],
+      "relevance": "Temporal qualifier for Article 26 and Article 27 applicability."
+    }
+  ],
+  "classification_proposals": [
+    {
+      "source_id": "SRC-0043",
+      "proposed_authority": "BINDING",
+      "basis": "Official amending Regulation (EU) 2026/1744; the source is classified BINDING and its entry into force is separately supported by the reviewed Page 41 unit."
+    }
+  ],
+  "unresolved_items": [
+    "Independent audit must confirm supersession of the old Article 27 wording and the route-dependent Article 113 dates.",
+    "GDPR Articles 35, 36 and 39 currentness remains unresolved."
+  ],
+  "warnings": [
+    "This addendum does not grant an evidence lock, publication status or human approval.",
+    "No source original or active vault note was modified."
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "candidate_sha256": "c844670bdb8a42561412a9a2328123da4c9c98d84e0482e4a4e707c9b97d4662",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0015-compromised-pytorch-dependency-chain.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "49776068dc14a90d1139e5403e60aeb9c1cabdf9a43f65354483ea7e16341692"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "ae367e80d96e862929b07b971d0f2ffa763c048bfa92de66c866063619ac7ad4"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0024-morris-ii-worm-rag-based-attack.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "65362d073824549d48c6eb0010479aafaf1509ed43b9a535821668805e2c43b7"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "ce2667ff5e8c8522435a38c65fbf3069bad8f8726211535988245619e3c24a00"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "e1dcd350cd2cd4b1cc8a43fc223c29c0724a53180c455a2dfd7ae1619cf92607"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0031-malicious-models-on-hugging-face.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "7669691a0f9378a90558c86ba2e59ad65e2febedcad4e629c786afac34f012bc"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "4a91f8696ce2d939a6ee2b422493b414e1821177f95569d53a5860e1983ca231"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "095a495b584fcd2e5fa8dca7c9e0e1e12231f077cb3388cbb61af014064b11c1"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "12abe39452763b37c72ad02fcec14aa489eaca9848aa111adb15cc460689919f"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "617d8564721ca87c51950b0a745bcd7349b88674d31e22b7756b14b56ae1a2e7"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "3e2f9a28befd1efb9ccf2e3b88047ef7311ad905dbda7be20279b5dbce89b64a"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "d4592547f80a772aa3050cc37a9494555e7ec1e0fa9ebd75837731fb9c151581"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "a960fb3d831dadb7e58db9bfce841f6a9b29a07c26fb09a388984f2f2451cff7"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "8e271461e8e60ec739f97f2303cc0fb48b36bcc8225803e76b505570341afb8b"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "b694c4be1adf8bb19a8e6df6594ba463a73d915e1e245e872281f54b764b46c4"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "ae98323eb16095683397df638ced44b08e282d1518bd490e6f3bdb535d225253"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "007219175fa4fecbe732b841e00ade807cc04f470d3d9d121d6944a685cb4107"
+    },
+    {
+      "path": "Famous AI incidents/atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems.md",
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "sha256": "7ff4f9b916b7ef7ccc46f1d21541d1a912aab1e6d892a9f5f3363dc763af5347"
+    }
+  ],
+  "materialized_files": 18,
+  "notes": 107,
+  "proposal_ids": [
+    "atlas-incident-enrichment-lot-016"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

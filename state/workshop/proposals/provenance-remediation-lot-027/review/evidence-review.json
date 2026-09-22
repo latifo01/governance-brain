@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY",
+  "evidence_lock_sha256": "5892be2de667d285a33bb5eb01e7a11209717caf570a561d2c8cbb1302d954b3",
+  "reviewer_identity": "codex-provenance-remediation-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "RECEIPT_VERIFIED",
+      "detail": "Seventeen validated model-risk and AI RMF units resolve with exact source, unit and fidelity hashes."
+    },
+    {
+      "severity": "INFO",
+      "code": "SECTION_BINDINGS_VERIFIED",
+      "detail": "Eight current section bindings cover the two selected notes."
+    },
+    {
+      "severity": "INFO",
+      "code": "PUBLICATION_LINEAGE_REPAIR",
+      "detail": "A new receipt uses globally unique evidence references while preserving the original source IDs, unit hashes, locators and fidelity inputs."
+    },
+    {
+      "severity": "WARNING",
+      "code": "SECTOR_SCOPE",
+      "detail": "SR 26-2 and SR 11-7 remain bounded to their supervisory scope; NIST AI RMF is framework context."
+    },
+    {
+      "severity": "WARNING",
+      "code": "REMAINING_PROVENANCE_GAPS",
+      "detail": "Forty-five other publication-lineage warnings remain outside this bounded lot and are listed in provenance-gaps.md."
+    }
+  ]
+}

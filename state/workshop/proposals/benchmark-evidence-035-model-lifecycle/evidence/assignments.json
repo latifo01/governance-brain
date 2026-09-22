@@ -1,0 +1,1164 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-035-model-lifecycle",
+  "stage": "ASSIGNMENT",
+  "status": "ASSIGNED_PENDING_EXTRACTION",
+  "scope": {
+    "source_ids": [
+      "SRC-0009",
+      "SRC-0018",
+      "SRC-0036",
+      "SRC-0038",
+      "SRC-0039"
+    ],
+    "target_ids": [
+      "ai-model-validation",
+      "risk-001-model-validation-evidence",
+      "ai-model-documentation",
+      "ai-model-transparency",
+      "ai-model-monitoring",
+      "risk-003-model-monitoring-response"
+    ],
+    "scenario_families": [
+      "eval-06",
+      "eval-09",
+      "eval-11"
+    ],
+    "assigned_locator_policy": "Relevant locators only; all non-selected valid units are explicitly listed as omitted; visual/warning units remain provisional."
+  },
+  "source_assignments": [
+    {
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "GOVERNANCE_ACCOUNTABILITY",
+        "HUMAN_OVERSIGHT_RESPONSIBLE_AI",
+        "TRANSPARENCY_DISCLOSURE"
+      ],
+      "assigned_unit_count": 23,
+      "total_source_units": 35,
+      "units": [
+        {
+          "filename": "units/p0006.md",
+          "locator": "Page 6",
+          "locator_kind": "page",
+          "content_sha256": "ebc07658b042ce7f8cbbb091ff93b0a4730b7b1ef9f4950ea819a0d335b191ca",
+          "file_sha256": "95776257fc0f685861c2727ed5cd892203e152fd4c9f5c48281dc13ddc88f415",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0007.md",
+          "locator": "Page 7",
+          "locator_kind": "page",
+          "content_sha256": "917b4702f157ad3c38f6dffc4cf723cbbff64270eb9f03702105b741bb96bfe0",
+          "file_sha256": "1f239c73e24ca52fcd2708c9b354f7dc9749058876c2afd6a393e10c6f97603e",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0008.md",
+          "locator": "Page 8",
+          "locator_kind": "page",
+          "content_sha256": "6f5d68c554522001b45c7024b6f7fa43fd6468292611eeb44c83e16490e41e4c",
+          "file_sha256": "62b90475052885dfae8a3cc623df8a80139b1ff6529aa225633ec961cda0c84e",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0009.md",
+          "locator": "Page 9",
+          "locator_kind": "page",
+          "content_sha256": "d7a73e0a3afdfa2b518e788dbc18c8ff14dbdd2336ba76fc9f734347f7b370c5",
+          "file_sha256": "265e04709250834cb7c0e2c468929b005c45f61d534844e439fdb5b9d0a3c151",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "locator_kind": "page",
+          "content_sha256": "9b3880abc4c1650d731dcdfa434a09491f914271ed1cc17e71572eddcd5c19e0",
+          "file_sha256": "01401bafdfc32110b78ea4bac61148e320e10a8f2e8daddc6be2b6631a94ca59",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "90673689a3ac8470ad296181ee39b0bf68936504df77d4d046b797ac46244480",
+          "file_sha256": "7f3a18057d5f5615b53b4970fa59769f9d2cd0f221bacab733e9d629053c0213",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "03accb5f306da8a1a5f37347af8e17adf554c82712ef16188eaba9d4d1d99649",
+          "file_sha256": "c310f2d51e41ab944562e3d308945ec95085a5bb28294770de1c6dc76443ec55",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0015.md",
+          "locator": "Page 15",
+          "locator_kind": "page",
+          "content_sha256": "3a4aa5740b988a943195cd3e880cac691e67898c7651823f16ed998f58c11554",
+          "file_sha256": "63268b8c94389c606612242c37c185161290418e62ed4d634ec589529a99f2b3",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0016.md",
+          "locator": "Page 16",
+          "locator_kind": "page",
+          "content_sha256": "8c27fb9b2cb4c76569cfd10dc5f0f076a0256fdbca5260d0c5c87f1d381f07c5",
+          "file_sha256": "cddf3a698db16b5052d78f6d54783b7ada41f162d212045708d0836cdecbc6c8",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0017.md",
+          "locator": "Page 17",
+          "locator_kind": "page",
+          "content_sha256": "352220598c0266ab368b0005c05f4acd416ca237e18b42a0423e85e48ba1953a",
+          "file_sha256": "d0c6f279e00163fdf35ed1aeed75bace9d188af8935a4eabc50c8a98a5953498",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0019.md",
+          "locator": "Page 19",
+          "locator_kind": "page",
+          "content_sha256": "afd7dee00af7f3e946105757380b542a7bf4a97826e5bbd36e2db0ac066f03ab",
+          "file_sha256": "f730e12e14bf7c1baede938c6d9499d4efb13ebdbdb63f01de68c00a951226f2",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0020.md",
+          "locator": "Page 20",
+          "locator_kind": "page",
+          "content_sha256": "4c9d31990e1625e566016e0e24530e11f04d5b7bcb3aef2d1c93443fc2ebede2",
+          "file_sha256": "8daaf89be8f0ff1125a79b45e252c9314e1f9c7d503ca06a69c43e0cc5ee2901",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0021.md",
+          "locator": "Page 21",
+          "locator_kind": "page",
+          "content_sha256": "fc4d9f192a715c7f42a883568929960895ea4bf51ddca265a4ea8feb75c4f83b",
+          "file_sha256": "3c2a15069854f6712b2467781614961c75dd58c286db9dd0998ff58c69b64f6e",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0022.md",
+          "locator": "Page 22",
+          "locator_kind": "page",
+          "content_sha256": "809e7d44e005b72a08315f3de0fcfd689f2b49cf65311055b8a252bad65086be",
+          "file_sha256": "8627cfdd78713e6f988f5d0fc8b1a16f827ec854f5f3fb2a1977a77eea6e4be0",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0025.md",
+          "locator": "Page 25",
+          "locator_kind": "page",
+          "content_sha256": "80cb44c6cedb260087fe6c57d820832491aedb00fd066a85a051be2d97e771d4",
+          "file_sha256": "46cb0d8c626a138c0821a43f22c08d296f831812c3b9fad8f905ca29607053d9",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0026.md",
+          "locator": "Page 26",
+          "locator_kind": "page",
+          "content_sha256": "c1eb84e21a76668d73065c44166204a8e97c96b4667e0e746ae98b8eb5b4ca07",
+          "file_sha256": "8608ee961a4656a37574610c6174860df43e694b7f6aac294fd1baca9799b678",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0027.md",
+          "locator": "Page 27",
+          "locator_kind": "page",
+          "content_sha256": "7e348dbd9fe9b6c4dd307926b72065127b51b2eeaca7f7064d2e49d540c3c0e7",
+          "file_sha256": "d17af4982af859116e3a014b134974916c4e64bde28c1ddc3b2b184fba2206ce",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0028.md",
+          "locator": "Page 28",
+          "locator_kind": "page",
+          "content_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+          "file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0029.md",
+          "locator": "Page 29",
+          "locator_kind": "page",
+          "content_sha256": "8612589f38a14956d072c8b333ef5f2e736d5a7d5e595303bbe3a61d9c704af7",
+          "file_sha256": "12da889d7071f9dfc038a31b9617cb1b8ccf68603b4aae220dd209368d6c7eef",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0032.md",
+          "locator": "Page 32",
+          "locator_kind": "page",
+          "content_sha256": "0df3c7f71ebe54880a9022160f5acccc419db437158e32246e0d015c3da3a6a4",
+          "file_sha256": "3236179185fc42994c44ae3b804f36371c448bde271037b26d4f6141600c46a4",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0033.md",
+          "locator": "Page 33",
+          "locator_kind": "page",
+          "content_sha256": "4b45d121e1818961fea4c707c94bc934de81abcdfd76800703c90548dd0a3aab",
+          "file_sha256": "42a8e0e5b133acc61dbe354a9bd3cd54194d7904673eda66a6923ed00b4f7482",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0034.md",
+          "locator": "Page 34",
+          "locator_kind": "page",
+          "content_sha256": "591cfe7ca76ed79939091fa0589fd5a1b5df204b4500a4cb9fcbb62860dc67cf",
+          "file_sha256": "0d92a0bb4672bdd6e516b6f5a926de691a4c4d40f9c58375c8743e6bbf200c3d",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0035.md",
+          "locator": "Page 35",
+          "locator_kind": "page",
+          "content_sha256": "434447c8711d314b72d7fc6a6a5aee9a9d555d6079eed9dab553c76829cd0425",
+          "file_sha256": "87ab421647987e7e2edcb29167bef445f862e57a3830063d384c1ea45b0c2e07",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ],
+      "omitted_locators": [
+        "Page 1",
+        "Page 2",
+        "Page 3",
+        "Page 4",
+        "Page 5",
+        "Page 13",
+        "Page 14",
+        "Page 18",
+        "Page 23",
+        "Page 24",
+        "Page 30",
+        "Page 31"
+      ],
+      "assignment_notes": "Visual review required; candidates remain provisional."
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "LEGAL_REGULATORY",
+        "TRANSPARENCY_DISCLOSURE"
+      ],
+      "assigned_unit_count": 28,
+      "total_source_units": 51,
+      "units": [
+        {
+          "filename": "units/p0004.md",
+          "locator": "Page 4",
+          "locator_kind": "page",
+          "content_sha256": "bf54803df3da779bcd85bafd4b5f843f7214d442e52e63216bb05c20b54c69f4",
+          "file_sha256": "d1e17475d59dcb337a063dde45f9a61f4ed0b89ec0ae49f05ef711aa873ddee0",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0005.md",
+          "locator": "Page 5",
+          "locator_kind": "page",
+          "content_sha256": "34f96fbced761a0e5075a0931a2a9ff5bf9f1e2164303bbf59b25c0573eac477",
+          "file_sha256": "dc89b9ad0ba76e0c16fbc52d3721c9f2a271696f1f5174d54a1b33190c1aa144",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0006.md",
+          "locator": "Page 6",
+          "locator_kind": "page",
+          "content_sha256": "5f7435e877309d473e6b5d2b71adfa796791ee08beba3ba050d2edb374d03515",
+          "file_sha256": "80d593327efbc8604f34ca1c9322f84ed253afabde1ec959dfb202c78c1f3408",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0007.md",
+          "locator": "Page 7",
+          "locator_kind": "page",
+          "content_sha256": "071492af44e6fd4b9bb043b9c3acfe099def981c3fa8667fc964b7445a28d0f6",
+          "file_sha256": "2834d7f178dc51cceeeee7d5170ce55235842979f0185f82468cc395794216ae",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "locator_kind": "page",
+          "content_sha256": "538f4c5cdf6ebbecb65c1eb3b369cf4e6c9b0f432c2c07579f6c299d073849d3",
+          "file_sha256": "2e8764c9c988b3f73f90377cf7f5e91eaddf083a33bca6bfa365df801b03a71c",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "18be9aef464ceeab563e1478526c1d2faa6799b0dd19ab5ca6c14a4301dfbc66",
+          "file_sha256": "aaaeb7f341716b1c65c6a2a8e3f805c0c610434ec9c3c5a80f71b76f7b5483e9",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "0a45b174f6c3619d8b114973ae61ee5102ee8647c83cb110c953c3135fd5ae8f",
+          "file_sha256": "2650e2a78aac8b9ef92bf21e4877cce7c982093e0af4ea46730a1b9b67b4c036",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0013.md",
+          "locator": "Page 13",
+          "locator_kind": "page",
+          "content_sha256": "e5b9b31916e902266a12b21b78ff2700ddfc84929c4420e2b5df3ea50b4c0e36",
+          "file_sha256": "f85c0d4443376bab55c8f72f1f6140d5666d09cf35f4d7f1999c8e817b5390ec",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0014.md",
+          "locator": "Page 14",
+          "locator_kind": "page",
+          "content_sha256": "ad36b7d237dafe081f7f42b85f00bc21b7aa64a639fa5c69db8bc2c971780889",
+          "file_sha256": "5f8b580acbefa95f62d7fc83dea03b4bd086beb74e6118c6ae2095c99d45aea9",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0015.md",
+          "locator": "Page 15",
+          "locator_kind": "page",
+          "content_sha256": "d8bb9bb97791cf5c8f1fdbf15798ed40bd73562a7f166634ee0cf517cea401d4",
+          "file_sha256": "f62072484219caa0de559627ded38d413ff3f56132bd68cfc8d2e54d2a51da88",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0016.md",
+          "locator": "Page 16",
+          "locator_kind": "page",
+          "content_sha256": "2323f14cb19057119cdff43700d8aa9c7c6b5c027e24ffc577a3f24e3b62a79a",
+          "file_sha256": "0e541414f156f90bb4151fc01a34d39013402da58621c367acf487a3260d5085",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0020.md",
+          "locator": "Page 20",
+          "locator_kind": "page",
+          "content_sha256": "c12bc2bb30f20e7bb22f051cd9b6567718b0ff813c4336ecffe56f045767c38d",
+          "file_sha256": "a9e30e790f649d3380d31fe5e81646f375be1bca96a1c6d9f70fe83cce54d52e",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0024.md",
+          "locator": "Page 24",
+          "locator_kind": "page",
+          "content_sha256": "53c77f035a693df5f88a78938e1687cdc559e217cfb04fa6c5fc3c3e2c6efc85",
+          "file_sha256": "be328f018bc422af93fc368019b4999cf4fbf45fb20186e1bc9d9a306de74680",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0025.md",
+          "locator": "Page 25",
+          "locator_kind": "page",
+          "content_sha256": "69d384e26e5b07ae6cb7b755724377cd789ec055895c22893abc3dd71fbb8480",
+          "file_sha256": "2237d212318ba55006f0dc5bcfdf58e616a30e70fc476006685cbc7fb5e4a781",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0026.md",
+          "locator": "Page 26",
+          "locator_kind": "page",
+          "content_sha256": "88189e3665042f643384f94b1d2d5ec3cc0b3815a5beb242f1d1b4f8774e9a61",
+          "file_sha256": "d8a5a52ab7baa304d1dbb6197129ab49c48549f1024ed03f3c5bcfe92e1f54cd",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0027.md",
+          "locator": "Page 27",
+          "locator_kind": "page",
+          "content_sha256": "b7fd4e831a1aa09d2063b1e6ec036161f427ba1b1aee298594d25bb1e94850a2",
+          "file_sha256": "84904d99630c709131f8f0d408018e715a2def56192dd4eb5700895fcc1a2528",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0028.md",
+          "locator": "Page 28",
+          "locator_kind": "page",
+          "content_sha256": "75759617b796cb5d69cf4e28206284ed3ad9cefb779c000fd48680d79537fbad",
+          "file_sha256": "26fe371bafe37572c777b478d66eca77b41dab1c10b80777a04dc7216c1429bd",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0029.md",
+          "locator": "Page 29",
+          "locator_kind": "page",
+          "content_sha256": "264da769294bd1a77fa560b4fb645a0afc538f9060d779b4fd04733d5cf9cc8e",
+          "file_sha256": "887f81feb31bc67160498efdf9e567a81ee78bd83f58012618a5eb5a52c12ba8",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0032.md",
+          "locator": "Page 32",
+          "locator_kind": "page",
+          "content_sha256": "35bfb6be7ef504ee6ee0374cafeb16443835f552d5b71d92a626b7145db652c1",
+          "file_sha256": "c21e97281b529647d040c149f6431924886aef297837c0fc017ba72bdfadad68",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0033.md",
+          "locator": "Page 33",
+          "locator_kind": "page",
+          "content_sha256": "48480d52ed413600686862c3f0cbc6725b782cf69fe0c7f4e74cae2756915b3e",
+          "file_sha256": "d423d844b1721722b416b1cc650bdab30e4d84ab73fd4d8cf1b98d9dab4e5da9",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0044.md",
+          "locator": "Page 44",
+          "locator_kind": "page",
+          "content_sha256": "ab0f803b7d6813140da4e7306a1118159d0c1b9decf15b2fce1faea274be413d",
+          "file_sha256": "3e1db49583cb3ddcc0485fe24f090e43791df354efb91d67ecd054e2a270264a",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0045.md",
+          "locator": "Page 45",
+          "locator_kind": "page",
+          "content_sha256": "674ab743b19f95389e49635236a47012bbc63d4ee8ca14e1436d477f20048bdd",
+          "file_sha256": "f0c0eebb4b5cd36548436e189b693bbaaa6dd7380c9a63ba5f8c6ebc3cb10676",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0046.md",
+          "locator": "Page 46",
+          "locator_kind": "page",
+          "content_sha256": "9b3cfbb9c950c3fa739b2087bb3c48d12a5332894b095031813286e81e700505",
+          "file_sha256": "6c88f1bc18927d1596f8a24220d26fc16f8bc8eb8f706c0e7486caebbb0bffa3",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0047.md",
+          "locator": "Page 47",
+          "locator_kind": "page",
+          "content_sha256": "cfd0c99bdc626cdb0989e1d174d248154276dc95031fd3b132c89f1eddb18a02",
+          "file_sha256": "14a69153d5c8fc860d06fb40d136ede2559b68d8ab92e5a5028f6aebf40c52df",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0048.md",
+          "locator": "Page 48",
+          "locator_kind": "page",
+          "content_sha256": "9646d07ce65c50bb1117aed4a5d0d4189998f99ee87e15bec1f7877eb20d3f37",
+          "file_sha256": "0388ec52be1cf0b9fc110b44c95bb2f0e897df8770246edd71b488f1d278b399",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0049.md",
+          "locator": "Page 49",
+          "locator_kind": "page",
+          "content_sha256": "402d816be2d94f78493d3aa8f6e5e1e13b1fcf53017370174361012609b041da",
+          "file_sha256": "edd9335488a110771df75abe96e83d6c0ffb9959028f5cfb8fa18f0ee9110236",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0050.md",
+          "locator": "Page 50",
+          "locator_kind": "page",
+          "content_sha256": "497b41bc373c0fcb63114068b51fcba50c14ba3bdc437721e7727f34d4fd49cf",
+          "file_sha256": "8d334e4d8acc12a374aa68944457fdf00af1383c3c6b0c3920d2cd0ad128a140",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0051.md",
+          "locator": "Page 51",
+          "locator_kind": "page",
+          "content_sha256": "aef4fd94423e7edab384a9bb63b0fbe56221d7b06a0ec03c859b5e957a52f9d6",
+          "file_sha256": "9b224647d646e5ab8835b5a7337dda7c9af6830cc8482cda3e532a71c2d4fb83",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ],
+      "omitted_locators": [
+        "Page 1",
+        "Page 2",
+        "Page 3",
+        "Page 8",
+        "Page 9",
+        "Page 17",
+        "Page 18",
+        "Page 19",
+        "Page 21",
+        "Page 22",
+        "Page 23",
+        "Page 30",
+        "Page 31",
+        "Page 34",
+        "Page 35",
+        "Page 36",
+        "Page 37",
+        "Page 38",
+        "Page 39",
+        "Page 40",
+        "Page 41",
+        "Page 42",
+        "Page 43"
+      ],
+      "assignment_notes": "No ingest visual warnings on assigned units."
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "MODEL_RISK"
+      ],
+      "assigned_unit_count": 12,
+      "total_source_units": 14,
+      "units": [
+        {
+          "filename": "units/p0003.md",
+          "locator": "Page 3",
+          "locator_kind": "page",
+          "content_sha256": "ab5bfc41d093885cd81182099d32e9592bb1995c6e387e8a68b64a0b314d7887",
+          "file_sha256": "27afd27ccc6e7adca435172c69d81e9498a188c682f1a21022d8614812a3bfff",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0004.md",
+          "locator": "Page 4",
+          "locator_kind": "page",
+          "content_sha256": "d1ecfe57f728692dc7971a88c246332a5ebe0dc34bfee427747a26bb24fcfd30",
+          "file_sha256": "da5d74e0748387a682d68b5f60d6ab6208cbb06377ff442c52376e3f59e361f9",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0005.md",
+          "locator": "Page 5",
+          "locator_kind": "page",
+          "content_sha256": "0cca436bb57a709cc5bea57ff32ab92f63f68b6e31f89af96068217c6f0949c0",
+          "file_sha256": "7a2f438e6a922f679b87f81e1220fb360ee5eb164ab544e0927ed996ac0c14da",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0006.md",
+          "locator": "Page 6",
+          "locator_kind": "page",
+          "content_sha256": "c4be3f3f73e612bb68b3e776b6bc5c7544e5ce3c8cd9c21f92c4824b951f2668",
+          "file_sha256": "caf8012b64c1c82af815a7927693992f08104e0f4da61d376304bcc7dda54733",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0007.md",
+          "locator": "Page 7",
+          "locator_kind": "page",
+          "content_sha256": "a66ff86bdcb5a4578d96d4d6fd578ef98dd7e6b23e216991bc74f820df0531dc",
+          "file_sha256": "b519d3ab5b07d79abdb3988aa7ac0580e9dee0de38e0273c9b7e81dec0c08874",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0008.md",
+          "locator": "Page 8",
+          "locator_kind": "page",
+          "content_sha256": "36e25926b74ec476b4c1955ca191b9ac6c1d809237c4565dd9cf06d9695ab786",
+          "file_sha256": "eb8849e7fc295f0ba69c6b4ccd73292749bbd1566afef5edf3651e555935a63d",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0009.md",
+          "locator": "Page 9",
+          "locator_kind": "page",
+          "content_sha256": "ce9d4d57bed3d3dd5f827497303dc3a697e652ee5d7060745d4ee0954e3b6714",
+          "file_sha256": "580001998850c50baf8e41a8a030f3e7b2e37d550860e5196583d3dc61ce6890",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "locator_kind": "page",
+          "content_sha256": "a9d686c32b747508b981cbd13d6b9459626ae7dd30b8a7ea88208924e42e65b0",
+          "file_sha256": "07acdadc0a0bda9925b6d66a5d93ece7ad30ac223014000654e59d4c586baafa",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "cebb3eb0d79edbd81e0f9558da25981a125abc971f79e2b823612cac6c146a33",
+          "file_sha256": "aa64e9f63456a6f166720d6db04f28b24a98032a1f97c0aea407024cff99b727",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "03f780e0b8674338c40a8bd67a2edb8090dd3fe89a94878c7d9b9380548390bc",
+          "file_sha256": "5e5a10bb006fdc14067d6432f75f831a0c1c9f0521d257e49f5b2e2c5abf4214",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0013.md",
+          "locator": "Page 13",
+          "locator_kind": "page",
+          "content_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+          "file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0014.md",
+          "locator": "Page 14",
+          "locator_kind": "page",
+          "content_sha256": "eb7ab2878d456a3a0de88f260af593d06ba057e235a856018f1cc764e4863c93",
+          "file_sha256": "515e610648ddec4170cae79790f4028c7b21445b6f4c33536149946656d5af12",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ],
+      "omitted_locators": [
+        "Page 1",
+        "Page 2"
+      ],
+      "assignment_notes": "No ingest visual warnings on assigned units."
+    },
+    {
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "MODEL_RISK"
+      ],
+      "assigned_unit_count": 14,
+      "total_source_units": 21,
+      "units": [
+        {
+          "filename": "units/p0006.md",
+          "locator": "Page 6",
+          "locator_kind": "page",
+          "content_sha256": "8c33ec49ad812ff2209025d27b6cfb14cff535753b846dc849f9d13c3a943c22",
+          "file_sha256": "fb6b8026c949394517051b7f44a933165114ca3368837de43ad1d6ecd3513f94",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0009.md",
+          "locator": "Page 9",
+          "locator_kind": "page",
+          "content_sha256": "84259ef7a2c1bb30142702c3e80cf72522e665dfb5451352d445195043bb6b95",
+          "file_sha256": "e30dde6fcb5e049eb036e981d6b5a3a9cf6bba3bb058eed7143ed4de88a6f450",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "locator_kind": "page",
+          "content_sha256": "da512e05c570da1ffc0003484363843503a98a07236dc90eb4cbad9ead61a76d",
+          "file_sha256": "b748984b274a54c26ffdc5c6ca24e520cf70ff260dada1a34c9ddac50001a754",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "1e0201351f4a60012b4536b63d721f147e3d349c1328a648170c45326d66ecc0",
+          "file_sha256": "37dc3093d475cc43b7098a2c47861621a80f1e3eb62da0d2124d715037af8051",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "7f9390fd52096a5b3bc250bfd9b57dcc22e8e206ca2bd0b8bab30c3f037d11da",
+          "file_sha256": "27a185f9c92afbd081ec0ebcf2a98b4e69d1ef3d0c5538ed3d02779e1f965405",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0013.md",
+          "locator": "Page 13",
+          "locator_kind": "page",
+          "content_sha256": "f8160599c5188188953cc8075df0261f70060e8661bec04f38ddc927041bf281",
+          "file_sha256": "9b3aae0931d35df1e2f027d875306496137fda259357359344df1c4d348c287c",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0014.md",
+          "locator": "Page 14",
+          "locator_kind": "page",
+          "content_sha256": "0a75c73d7e5d24bad4157801f02ce6be04ff8c328e5629aad38ded35728a0744",
+          "file_sha256": "625bbfbdd09c9a1f33b349db374c873582eef62d452e340bcb546bcca5f6f189",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0015.md",
+          "locator": "Page 15",
+          "locator_kind": "page",
+          "content_sha256": "766d7779339a1efb4571a02372a72da1c3c7bc6d108e46197bdadf1d8c6ab334",
+          "file_sha256": "d360a8ee002d26323796729f031fa9034ce876ac3da17e9b72d675a069699380",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0016.md",
+          "locator": "Page 16",
+          "locator_kind": "page",
+          "content_sha256": "9f48480f34f2ebfb2526200d7af8ab5012cad1d7835de15d5f76c86039f72438",
+          "file_sha256": "432214d3d8aabd35ae2eb83186e942b055ca1b2e47424f881c06a45a49b345b2",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0017.md",
+          "locator": "Page 17",
+          "locator_kind": "page",
+          "content_sha256": "58f3b63a79e14b11b1fd68c3968c556bcef3f3586f3b02c3adb7537c40be05bf",
+          "file_sha256": "6368071efdd350f86a006381cd27346cf20fcb12dff541566550df519485e1d7",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0018.md",
+          "locator": "Page 18",
+          "locator_kind": "page",
+          "content_sha256": "bd767805409e0509ec91e769d4232ce6e409b22ff3d20422782c56b9fbf98cc4",
+          "file_sha256": "4a7f34597c978c23e30874d21c48395f5dff53903e4c601e6e6acfb433e469a4",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0019.md",
+          "locator": "Page 19",
+          "locator_kind": "page",
+          "content_sha256": "6bda81bdf15c6c90c0f28801830d6089483769d49b276a668232290269c23c71",
+          "file_sha256": "a3383565ded745c78dab35f32478c0c12faee58faf2a4086210c872aaf4de653",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0020.md",
+          "locator": "Page 20",
+          "locator_kind": "page",
+          "content_sha256": "196ca2ed798c70bcbb223a98bd1b80b09a546ae2afc03eae68ee476fe84a878f",
+          "file_sha256": "66944ecfe4f4821970a99cd6b60d0065c040c0bd61ebf9c980ffd6f689ab964e",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0021.md",
+          "locator": "Page 21",
+          "locator_kind": "page",
+          "content_sha256": "61f377fca205b258d21a21a6fba4b39001f35673665eea58c33eafaaa14cdc2f",
+          "file_sha256": "1689d72d3c2ca4dbe4514945ed84a7f397452b76e0b3d09d34ad0a00ce30b43a",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        }
+      ],
+      "omitted_locators": [
+        "Page 1",
+        "Page 2",
+        "Page 3",
+        "Page 4",
+        "Page 5",
+        "Page 7",
+        "Page 8"
+      ],
+      "assignment_notes": "Visual review required; candidates remain provisional."
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "MODEL_RISK"
+      ],
+      "assigned_unit_count": 30,
+      "total_source_units": 48,
+      "units": [
+        {
+          "filename": "units/p0009.md",
+          "locator": "Page 9",
+          "locator_kind": "page",
+          "content_sha256": "f3e81739bd22251e4d1e6d6127f617a649508a6216edc6571c4dff0a9ee1ba81",
+          "file_sha256": "cd5d58ea4c3d4091f641b3ba11be246bdcc743f58fe2810fcfaba0380c664531",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "locator_kind": "page",
+          "content_sha256": "424db57a5b7964b2aea1d4dcbd6d6a51fe4953d900c7b88e11a55bae25208dc6",
+          "file_sha256": "6e6f4688acbccf08e25e20565a79cec1730a2798ee0764172d2bfc3de042dfe6",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "2367ab80f6e243ca3b15de05416e05e5e8a5653472c8bc505d40adaca2a29770",
+          "file_sha256": "52e81952f5463689e68ee6ae4d3aade3422ab9509511ffe19f08aee7a5c7cc14",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "6638dfa78204e0e2c92ea67334637b34c6add8685754aec351c49077162a3590",
+          "file_sha256": "e74c481c9ec1189c00dd9d0d935fbdfd95bccfa8b07f16910d6523a87f3e4b43",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0013.md",
+          "locator": "Page 13",
+          "locator_kind": "page",
+          "content_sha256": "204f04b00b6034925392b8cfbfadc7dcdfdbba5629e36b11d01bfc7afa5a33ce",
+          "file_sha256": "e3cc0eb2c48bc0bc411dca7b6b94746114ad14cdc936df8a064fe5595bbe444b",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0014.md",
+          "locator": "Page 14",
+          "locator_kind": "page",
+          "content_sha256": "f0216265a138e196180f41f4aa59f26949e4de0176db0c506f77b7497b38699c",
+          "file_sha256": "442787cb43607b8d453a33296424e2896ccd9d275296abeede00217e3645e3c5",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0019.md",
+          "locator": "Page 19",
+          "locator_kind": "page",
+          "content_sha256": "cd40c4c5370072e0513212997a18907787d6850e4aec8be6956c902460fda651",
+          "file_sha256": "4ae38bae64b04241a9a3e3a2009e18379aa9d0f6056878a9ceed639d9f6788c0",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0020.md",
+          "locator": "Page 20",
+          "locator_kind": "page",
+          "content_sha256": "a3ef9d9a9127cc2e8dee3e4d25807177b139dec76e0b4e21c05c622de76263ed",
+          "file_sha256": "a0861e7e22132a30cd5695e2c633451231bd0c3f3d83fbfeb1c1b6945bb8de69",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0023.md",
+          "locator": "Page 23",
+          "locator_kind": "page",
+          "content_sha256": "dbdb328eb2328aeab4f31703198bdb957cf31f4f46450023625ce7490984505f",
+          "file_sha256": "0ef7f312c95d3f3358afc23cb6d3df5115720de1f41cc4c1ac13c3d6491f9f87",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0024.md",
+          "locator": "Page 24",
+          "locator_kind": "page",
+          "content_sha256": "ae75ae4b4f9e80ba631fba13ac6a147b29066982c5da5a2bb981acbbca8d5ff9",
+          "file_sha256": "54290c86e222f4cb1aa7cd31b1c73d9a4a9dfc002f97553b47bf303857491df5",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0025.md",
+          "locator": "Page 25",
+          "locator_kind": "page",
+          "content_sha256": "dd3175af3d7f0bd24b5502cda22174c90d4c4dd9840ec7ac6c508cf09ea9bf96",
+          "file_sha256": "f4ddf2163b1dca124ee605cac9ed23166878e90506719fc8c48b2af5fef67aa2",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0026.md",
+          "locator": "Page 26",
+          "locator_kind": "page",
+          "content_sha256": "566a16e17c171763616492213a3b37421078a0d63baf643f31d7fcfee934290f",
+          "file_sha256": "e43ba7ea8d71e4049e3c1eac0ef735ff8f2c195ed882618e26fc10a60448077e",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0027.md",
+          "locator": "Page 27",
+          "locator_kind": "page",
+          "content_sha256": "5bf996e75f9b8e7e3bc9a21870c865906e011176bec408fc3daabd3eeea0c8b0",
+          "file_sha256": "b168358739b1695a4992b9e6a8e36467c08f96741b0cb81796f9ae017d371426",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0028.md",
+          "locator": "Page 28",
+          "locator_kind": "page",
+          "content_sha256": "521f411644d01eb7dab20fb43c840359707dfbe00e1d72f429b211e02790da2a",
+          "file_sha256": "bc7c8d30729f64d1c9323c11030b4087e3dd99c08537e315d1dcc93d7078d10e",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0029.md",
+          "locator": "Page 29",
+          "locator_kind": "page",
+          "content_sha256": "c9d34a79fc87d4964f095d334b822d98ebc4352693c876b5cd14b8eeaf066300",
+          "file_sha256": "32f6a3f061a191168139b2c7e24b53ab00cc8dfd3139697ca910218070738f5e",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0030.md",
+          "locator": "Page 30",
+          "locator_kind": "page",
+          "content_sha256": "eeb9308986d824c4d415604e258073e48a2d9d2bb7530cd89a301253612f70fb",
+          "file_sha256": "40ba83d46bd174e24e07601a2fd8d81af804e456c0e32ca226f53cdd14c692d7",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0031.md",
+          "locator": "Page 31",
+          "locator_kind": "page",
+          "content_sha256": "44a114c762f77234248abc7bbb3a37a8d10689119753e41c3801192198958cd8",
+          "file_sha256": "ecffb3d85aff358158c2146b81247b62fe7d399ade60bcd4ab979023a56d5076",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0032.md",
+          "locator": "Page 32",
+          "locator_kind": "page",
+          "content_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+          "file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0033.md",
+          "locator": "Page 33",
+          "locator_kind": "page",
+          "content_sha256": "de022cf2b8f82975598a5839143a82a49b70f1ab04c198dbedc63eb5ca6e1514",
+          "file_sha256": "4b67ee60cea7ec6910893d30c3709a071d6072e3cfe4c47b2c11944b23ca05fb",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0034.md",
+          "locator": "Page 34",
+          "locator_kind": "page",
+          "content_sha256": "c721e01ce436180b63165e69fb45c7a2994b59916bbbaf6676777b9efd11701d",
+          "file_sha256": "4a993b22fe7d513c3a4bd0a29af77058c4692f0fdd401aa37d5f8e4cf0acccd4",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0035.md",
+          "locator": "Page 35",
+          "locator_kind": "page",
+          "content_sha256": "7c2df886cf5671889f4e54cfd1e5097145ed938a3c5ac78ed1e4c151c06ebcef",
+          "file_sha256": "9c378153e475afecb6438fda22c12e7a4d0af0fafe7055b4619a1934f41f2add",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0036.md",
+          "locator": "Page 36",
+          "locator_kind": "page",
+          "content_sha256": "222e2f94f1578d073561d97026ec51ac4934f8c01be272fddc639e398726a545",
+          "file_sha256": "1f9fd40ed70351959e58dd61c3bfa534684fd68063b8588f38999a16226bcf47",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0037.md",
+          "locator": "Page 37",
+          "locator_kind": "page",
+          "content_sha256": "70995f881cc7f2563d8f541900ec5d39c94f5d24c14e43d6fb5669d1593101d6",
+          "file_sha256": "882a5e7f9abe541347758055c17d6c3bc5ff0a03852038df9058f7538db9a681",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0038.md",
+          "locator": "Page 38",
+          "locator_kind": "page",
+          "content_sha256": "d3f4eff907102e22e34b18552cff5f1a2cc62a4631a6a9361cff58129a950c2a",
+          "file_sha256": "ff1de0e3693819bc5f7068ef4a1481d154d2891deacc1b5ab16e03374914b60f",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0040.md",
+          "locator": "Page 40",
+          "locator_kind": "page",
+          "content_sha256": "c8a32ba5ada453e6926cdd098e1f9e420fce80c09c095534eb9c73554903f348",
+          "file_sha256": "ab0a1baa0f1033127955454856c1f3d361bd4bf3bb3df44b345e0380873a0533",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0041.md",
+          "locator": "Page 41",
+          "locator_kind": "page",
+          "content_sha256": "4776066e53382666714293156082d44a5e97e09b1aa45c9db1be54ae5e7f0d5b",
+          "file_sha256": "f30e89ebfbb106b12ed700b6b8f89ad8a999df16ca039a5bdbcd2a58fa0ea831",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0042.md",
+          "locator": "Page 42",
+          "locator_kind": "page",
+          "content_sha256": "79ad38aace1bc1f870070024a985e270418b3ab176982a9010a62814580c8f17",
+          "file_sha256": "83d7984bb993a43322b51cfcd77982ae4bba5f975f82a4eab4f5c7f73f9007ed",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0045.md",
+          "locator": "Page 45",
+          "locator_kind": "page",
+          "content_sha256": "297d8959055aa6adddf8a80417c9068d7a9b2958d098417e20ff798b8e56f1a0",
+          "file_sha256": "6c471013c7e708e3795cf6420ba5df75cc32dabad343f437d4c55cf5be8f6ab7",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0046.md",
+          "locator": "Page 46",
+          "locator_kind": "page",
+          "content_sha256": "68a515bb18fccb39bf60f6337be7b25d3eb9aef859f00e17e3f1b071a1d91420",
+          "file_sha256": "080548269158c2f77f4ee5fa427b80a3f4f623db50e4ced88d1c09dd9b1e8fe0",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0047.md",
+          "locator": "Page 47",
+          "locator_kind": "page",
+          "content_sha256": "e40b7f1678e2f79be535676b7254b72518706031a3e6984dddcc2c6d2f05f552",
+          "file_sha256": "9e8f1dd29ca7dfe6d4de20998a05c36d64ab7848b6605452770f1c78f17e9415",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ],
+      "omitted_locators": [
+        "Page 1",
+        "Page 2",
+        "Page 3",
+        "Page 4",
+        "Page 5",
+        "Page 6",
+        "Page 7",
+        "Page 8",
+        "Page 15",
+        "Page 16",
+        "Page 17",
+        "Page 18",
+        "Page 21",
+        "Page 22",
+        "Page 39",
+        "Page 43",
+        "Page 44",
+        "Page 48"
+      ],
+      "assignment_notes": "No ingest visual warnings on assigned units."
+    }
+  ],
+  "unit_count": 107,
+  "assignment_sha256": "7cbdea1ae0edf2b43c6c1eab0499fd7a1e6286f8c1ac2b51ae26706e3b205e66"
+}

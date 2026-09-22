@@ -1,0 +1,28 @@
+{
+  "candidate_sha256": "ebb6510eefd28d203293611f1b89b34e64dd08bce631dec77c27f84df2bfc721",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-agent-authority-expansion-controls.md",
+      "proposal_id": "atlas-complementarity-lot-015",
+      "sha256": "4c1cb7b8d7a0a36d0b380511b38ec9bb5afdb8f3246e75fa85e78a87cb5cc93d"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-agent-scope-drift-detection.md",
+      "proposal_id": "atlas-complementarity-lot-015",
+      "sha256": "cbf653c0eb8550037e32e23719c49763502f3a0a8ebee58a4afb82aef4ea5580"
+    }
+  ],
+  "materialized_files": 2,
+  "notes": 89,
+  "proposal_ids": [
+    "atlas-complementarity-lot-015"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

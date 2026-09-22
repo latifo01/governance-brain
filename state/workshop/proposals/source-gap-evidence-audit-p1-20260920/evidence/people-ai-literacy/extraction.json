@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "candidate_domain": "PEOPLE_AI_LITERACY",
+  "proposal_id": "source-gap-evidence-audit-p1-20260920",
+  "evidence": [
+    {
+      "evidence_ref": "gov20-src-0001-p0011",
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0011.md",
+      "unit_sha256": "2bebbf22e79fcb7398cada2e6f70011d9d1336df8b1fcde8266313ae598e9a29",
+      "unit_file_sha256": "44438d92683d60307fb3ca2231c7e9b2d2185c966a0901db7675ce5a7f5d77a8",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "receipt_path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "receipt_sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:0993df55661c4971",
+          "section_sha256": "dc805a5317cb2f0568284280d5fdca4f986a7ced1a6ea5c81eecb1c3bb13dd31",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "gov20-src-0001-p0011",
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0009",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006",
+            "gov20-src-0009-p0026"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0009",
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0009.md",
+      "unit_sha256": "5d850e0e987babbcbf0f5d9d00c25f5aa0561c6205480f11277d87a5ab28fc52",
+      "unit_file_sha256": "e93584abd9a8580c362a3fff4f5eda8e799be89d024354645eadde94fcc3b69c",
+      "locator": "Page 9",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "receipt_path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "receipt_sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:1c38bd4dd961f6f9",
+          "section_sha256": "1a026cddb7f740bae36f3295ec567098f63e61520a5c66d59aaf09451cef38bf",
+          "modality": "context",
+          "evidence_refs": [
+            "gov20-src-0002-p0004",
+            "gov20-src-0002-p0009"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:0993df55661c4971",
+          "section_sha256": "dc805a5317cb2f0568284280d5fdca4f986a7ced1a6ea5c81eecb1c3bb13dd31",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "gov20-src-0001-p0011",
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0009",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006",
+            "gov20-src-0009-p0026"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:5a49b1ee08e5c52c",
+          "section_sha256": "9ec99c101e3f885a3db31ab7963364ee618599f8953ea0127cf7e000cd2a5b00",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0009",
+            "gov20-src-0002-p0011",
+            "gov20-src-0003-p0007"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "gov20-src-0009-p0026",
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0026.md",
+      "unit_sha256": "c1eb84e21a76668d73065c44166204a8e97c96b4667e0e746ae98b8eb5b4ca07",
+      "unit_file_sha256": "8608ee961a4656a37574610c6174860df43e694b7f6aac294fd1baca9799b678",
+      "locator": "Page 26",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "receipt_path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "receipt_sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "REVIEW_REQUIRED",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:0993df55661c4971",
+          "section_sha256": "dc805a5317cb2f0568284280d5fdca4f986a7ced1a6ea5c81eecb1c3bb13dd31",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "gov20-src-0001-p0011",
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0009",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006",
+            "gov20-src-0009-p0026"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": false,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": "VISUAL_REVIEW_REQUIRED"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0072",
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0072.md",
+      "unit_sha256": "9ea2a99caeac24f6f72dafbdd9d5c22b500864d6f3e813f77c16a6c1837fbcfe",
+      "unit_file_sha256": "0a4fd748efd6e9ac352915822ab9df6ed4cb3f1f34367a9f72eb48d52dca79a5",
+      "locator": "Page 72",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:c2813f5d47059751",
+          "section_sha256": "275828a96c2f0afca1c5c58c6d44159dc0cb45ae0382e2e0701207db5cba7da9",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0004",
+            "org29-src-0040-p0013",
+            "org29-src-0040-p0072",
+            "org29-src-0040-p0073",
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        },
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:d920840482c46b2f",
+          "section_sha256": "8fcc353255464a844095c309b4d933b23b347cbb1219dbd5090da47f7f26c147",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0072",
+            "org29-src-0040-p0073"
+          ]
+        },
+        {
+          "note_id": "ai-societal-impact-and-stakeholder-engagement",
+          "note_sha256": "a476aac17ec5a13eb86468e5fa7ded1a55f0e9a4f336b1c0569a7d63c89baadc",
+          "section_id": "ai-societal-impact-and-stakeholder-engagement:13ea7560299f0192",
+          "section_sha256": "e2e9f1d5e34b35bd790488cc8381b66e9a22e67b7691da1edb4e2c3a846cc3f0",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0032",
+            "org29-src-0040-p0033",
+            "org29-src-0040-p0038",
+            "org29-src-0040-p0039",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0072",
+            "org29-src-0040-p0127"
+          ]
+        },
+        {
+          "note_id": "gov-006-societal-impact-feedback",
+          "note_sha256": "3db96d72b77bce97c739f85da24757e3c265a061e4553d44d6a0336eaef04dbc",
+          "section_id": "gov-006-societal-impact-feedback:bdb4a7e2799c60d0",
+          "section_sha256": "3ca3e1b43c192b9e9bdbb99e20e129a8d3ed4021b69548589025e849df8cb628",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0030",
+            "org29-src-0040-p0031",
+            "org29-src-0040-p0032",
+            "org29-src-0040-p0033",
+            "org29-src-0040-p0038",
+            "org29-src-0040-p0039",
+            "org29-src-0040-p0059",
+            "org29-src-0040-p0072"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0082",
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0082.md",
+      "unit_sha256": "1b14ab94d49b74ab13a3a9fd5f36e05a310e0faf7a49163cbe0fb9d246682316",
+      "unit_file_sha256": "f16b3ca236167aab2be09bdb8cfce8892cf21bc566b6c1eb6629e215f4d9b637",
+      "locator": "Page 82",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:f6262ad6349964a1",
+          "section_sha256": "6e8c98b33b6ef3f9be248180f6482bc5c3d57d58244670dca29df8089aa15f12",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        },
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:4130c51fdc1a6e47",
+          "section_sha256": "a3937bb8cf2a51f2f9e7db1c437d194299ebcfe703130a8288d6403d8f59f187",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        },
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:c2813f5d47059751",
+          "section_sha256": "275828a96c2f0afca1c5c58c6d44159dc0cb45ae0382e2e0701207db5cba7da9",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0004",
+            "org29-src-0040-p0013",
+            "org29-src-0040-p0072",
+            "org29-src-0040-p0073",
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        },
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:925003b14370c8b6",
+          "section_sha256": "6688ba73d91684970bad83b8d50eda143924994ba8907d564132376a7c9a8f88",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0083",
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0083.md",
+      "unit_sha256": "d9bae7d3c24abbda6fca8de31f216da3dbdbff6a24720ba889a4d8257bb2dce3",
+      "unit_file_sha256": "203168c49dfdfeeefc8f3b6c2206f2abcb8a061ae2870a5e65cd38c69fcc723d",
+      "locator": "Page 83",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "receipt_path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "receipt_sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:f6262ad6349964a1",
+          "section_sha256": "6e8c98b33b6ef3f9be248180f6482bc5c3d57d58244670dca29df8089aa15f12",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        },
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:4130c51fdc1a6e47",
+          "section_sha256": "a3937bb8cf2a51f2f9e7db1c437d194299ebcfe703130a8288d6403d8f59f187",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        },
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:c2813f5d47059751",
+          "section_sha256": "275828a96c2f0afca1c5c58c6d44159dc0cb45ae0382e2e0701207db5cba7da9",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "org29-src-0040-p0004",
+            "org29-src-0040-p0013",
+            "org29-src-0040-p0072",
+            "org29-src-0040-p0073",
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        },
+        {
+          "note_id": "ai-literacy-and-change-management",
+          "note_sha256": "526808dc84a83a28f45cdccc72d6926dac7630ec59c0dbc7aed878e58efc6780",
+          "section_id": "ai-literacy-and-change-management:925003b14370c8b6",
+          "section_sha256": "6688ba73d91684970bad83b8d50eda143924994ba8907d564132376a7c9a8f88",
+          "modality": "context",
+          "evidence_refs": [
+            "org29-src-0040-p0082",
+            "org29-src-0040-p0083"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    }
+  ],
+  "counts": {
+    "total": 6,
+    "eligible": 5,
+    "excluded": 1
+  }
+}

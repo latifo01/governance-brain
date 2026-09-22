@@ -1,0 +1,280 @@
+{
+  "schema_version": 1,
+  "receipt_id": "strict-ai-lifecycle-change-001",
+  "author_identity": "strict-ai-lifecycle-change-001-evidence-constructor",
+  "evidence": [
+    {
+      "evidence_ref": "slc-be035-src-0018-p0004",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0004.md",
+      "unit_sha256": "bf54803df3da779bcd85bafd4b5f843f7214d442e52e63216bb05c20b54c69f4",
+      "unit_file_sha256": "d1e17475d59dcb337a063dde45f9a61f4ed0b89ec0ae49f05ef711aa873ddee0",
+      "locator": "Page 4",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "slc-be035-src-0018-p0005",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0005.md",
+      "unit_sha256": "34f96fbced761a0e5075a0931a2a9ff5bf9f1e2164303bbf59b25c0573eac477",
+      "unit_file_sha256": "dc89b9ad0ba76e0c16fbc52d3721c9f2a271696f1f5174d54a1b33190c1aa144",
+      "locator": "Page 5",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "slc-be035-src-0018-p0010",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0010.md",
+      "unit_sha256": "538f4c5cdf6ebbecb65c1eb3b369cf4e6c9b0f432c2c07579f6c299d073849d3",
+      "unit_file_sha256": "2e8764c9c988b3f73f90377cf7f5e91eaddf083a33bca6bfa365df801b03a71c",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "slc-be035-src-0039-p0019",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0019.md",
+      "unit_sha256": "cd40c4c5370072e0513212997a18907787d6850e4aec8be6956c902460fda651",
+      "unit_file_sha256": "4ae38bae64b04241a9a3e3a2009e18379aa9d0f6056878a9ceed639d9f6788c0",
+      "locator": "Page 19",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "slc-gov20-src-0001-p0017",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0017.md",
+      "unit_sha256": "b95d5f3b2ab3f9992887fe446ae1e4015e257a57204ce2818587333baadfd8be",
+      "unit_file_sha256": "04f76de176d8c5641cdaf617f866cb359bc162315fa7c290ec4001150201391d",
+      "locator": "Page 17",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "slc-gov20-src-0002-p0008",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0008.md",
+      "unit_sha256": "dd08fe1c774fed697bcb045139342b0ffeb11868ec5f073bb37d7aa350fa007b",
+      "unit_file_sha256": "318e25cbe755449b6c31cb9566bb8a00e04da76d2d6d1fd34b447ed1dddac9fe",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "slc-gov20-src-0002-p0010",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0010.md",
+      "unit_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "unit_file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "ai-lifecycle-change-gates",
+      "note_sha256": "5eeced1c69027f3281c9ec0c2b78b6d3c2d505c5e21b826bbc21097442089987",
+      "section_id": "ai-lifecycle-change-gates:f9b6c16fa61c9b93",
+      "section_sha256": "45d2599b471fc3e1fb752bca782fcd5cdf252cf7b6a6236fa268bcbafb95f14a",
+      "evidence_refs": [
+        "slc-gov20-src-0002-p0008"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-lifecycle-change-gates",
+      "note_sha256": "5eeced1c69027f3281c9ec0c2b78b6d3c2d505c5e21b826bbc21097442089987",
+      "section_id": "ai-lifecycle-change-gates:ce5b9ee6e6415d44",
+      "section_sha256": "e37ae26f80ed75a0b667d61834d7e2bb478cff76dda9eabd4e2c040885e5a010",
+      "evidence_refs": [
+        "slc-gov20-src-0002-p0010"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-lifecycle-change-gates",
+      "note_sha256": "5eeced1c69027f3281c9ec0c2b78b6d3c2d505c5e21b826bbc21097442089987",
+      "section_id": "ai-lifecycle-change-gates:8e8e2af3a3a2d87d",
+      "section_sha256": "4f7beaa8db7cf655bb4a6816709b062c6230fe780b93d980c0807ba1a2ceb811",
+      "evidence_refs": [
+        "slc-be035-src-0018-p0005"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-lifecycle-change-gates",
+      "note_sha256": "5eeced1c69027f3281c9ec0c2b78b6d3c2d505c5e21b826bbc21097442089987",
+      "section_id": "ai-lifecycle-change-gates:16b8d73aa841523b",
+      "section_sha256": "da4dccf4ec5d58d02c2a610c6c8068e2cfc307c4f76dfd7940015d5321015b5e",
+      "evidence_refs": [
+        "slc-gov20-src-0001-p0017"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-lifecycle",
+      "note_sha256": "c0aef641777f5eb8aa6c763b0bbce53b0b8db99a66dae35506709c8cf53d50e0",
+      "section_id": "ai-lifecycle:fb2092a39fe5d53a",
+      "section_sha256": "b22366b650f791c5966b84883802d49548de07395b85fded5d040d5f299892e2",
+      "evidence_refs": [
+        "slc-be035-src-0039-p0019"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-lifecycle",
+      "note_sha256": "c0aef641777f5eb8aa6c763b0bbce53b0b8db99a66dae35506709c8cf53d50e0",
+      "section_id": "ai-lifecycle:18690509bd1f80b0",
+      "section_sha256": "ea9fb5da6a82a064899a4e033ef2c56fd62b9d06daf6eeeb52c9eb17e8059a0e",
+      "evidence_refs": [
+        "slc-gov20-src-0002-p0008"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-lifecycle",
+      "note_sha256": "c0aef641777f5eb8aa6c763b0bbce53b0b8db99a66dae35506709c8cf53d50e0",
+      "section_id": "ai-lifecycle:d71bcaa70cf5b7b4",
+      "section_sha256": "44b7e36f8b6bcdca561d211cbd0928edc9c888fa566508851f6a067cb42396e7",
+      "evidence_refs": [
+        "slc-gov20-src-0001-p0017",
+        "slc-be035-src-0018-p0004"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-lifecycle",
+      "note_sha256": "c0aef641777f5eb8aa6c763b0bbce53b0b8db99a66dae35506709c8cf53d50e0",
+      "section_id": "ai-lifecycle:43bb72ea768bb811",
+      "section_sha256": "e6c0a3eb4bc96ba640a1eba9363e7d56bb90561026574cfc185084245ff4ccb3",
+      "evidence_refs": [
+        "slc-gov20-src-0002-p0010"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "gov-009-lifecycle-release-and-rollback",
+      "note_sha256": "2dc56a0a0818b05c044d3024f6d9f4678ab55fa23c3d59c13ee5381df69c3465",
+      "section_id": "gov-009-lifecycle-release-and-rollback:07467e19c12cbfad",
+      "section_sha256": "9c6102227d950839668a821013e2bc91bdd304ca063b061e10849fe800e4033c",
+      "evidence_refs": [
+        "slc-gov20-src-0001-p0017"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "gov-009-lifecycle-release-and-rollback",
+      "note_sha256": "2dc56a0a0818b05c044d3024f6d9f4678ab55fa23c3d59c13ee5381df69c3465",
+      "section_id": "gov-009-lifecycle-release-and-rollback:015a58b87c9bdbb2",
+      "section_sha256": "eeb651ae75e0b7b7135ea064968699b92970c3de613e3ac18ef2c94e800d35a4",
+      "evidence_refs": [
+        "slc-gov20-src-0002-p0010"
+      ],
+      "modality": "context"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-strict-lifecycle-independent-evidence-reviewer",
+    "reviewed_at": "2026-09-20T00:00:00+00:00",
+    "candidate_sha256": "94ec9fef21018ca2a083d4e6f198c59db439a80a78b489fd7655f95ae2e8c7ed",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "count": 10
+      },
+      {
+        "severity": "INFO",
+        "code": "EVIDENCE_ITEMS_VERIFIED",
+        "count": 7
+      },
+      {
+        "severity": "WARNING",
+        "code": "NON_BINDING_SCOPE",
+        "detail": "The reviewed sources support guidance, framework or research context; no binding obligation is asserted."
+      }
+    ]
+  }
+}

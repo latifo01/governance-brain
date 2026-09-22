@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-036-security-oversight",
+  "stage": "ASSIGNMENT",
+  "status": "ASSIGNED_PENDING_EXTRACTION",
+  "scope": {
+    "source_ids": [
+      "SRC-0009",
+      "SRC-0016",
+      "SRC-0026",
+      "SRC-0027",
+      "SRC-0039"
+    ],
+    "target_ids": [
+      "prompt-injection",
+      "risk-005-prompt-injection-threat-model",
+      "human-oversight",
+      "risk-008-human-oversight-authority"
+    ],
+    "scenario_families": [
+      "eval-07",
+      "eval-08"
+    ],
+    "assigned_locator_policy": "Relevant locators only; all non-selected valid units are omitted explicitly; units requiring fidelity review remain assigned but cannot be treated as eligible evidence."
+  },
+  "source_assignments": [
+    {
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "GOVERNANCE_ACCOUNTABILITY",
+        "HUMAN_OVERSIGHT_RESPONSIBLE_AI",
+        "TRANSPARENCY_DISCLOSURE"
+      ],
+      "assigned_unit_count": 2,
+      "total_source_units": 35,
+      "units": [
+        {
+          "filename": "units/p0022.md",
+          "locator": "Page 22",
+          "locator_kind": "page",
+          "content_sha256": "809e7d44e005b72a08315f3de0fcfd689f2b49cf65311055b8a252bad65086be",
+          "file_sha256": "8627cfdd78713e6f988f5d0fc8b1a16f827ec854f5f3fb2a1977a77eea6e4be0",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        },
+        {
+          "filename": "units/p0028.md",
+          "locator": "Page 28",
+          "locator_kind": "page",
+          "content_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+          "file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+          "visual_review": "NONE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        }
+      ],
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "LEGAL_REGULATORY",
+        "TRANSPARENCY_DISCLOSURE"
+      ],
+      "assigned_unit_count": 2,
+      "total_source_units": 134,
+      "units": [
+        {
+          "filename": "units/p0117.md",
+          "locator": "Page 117",
+          "locator_kind": "page",
+          "content_sha256": "2bcc8937ad541b1f742238d20e5b4a04381f6793ece080904ecf5a0010802c2c",
+          "file_sha256": "20257c662423bd796621bc175ec426708c477c4ef0b57ac25824ed40e586fff5",
+          "visual_review": "NONE",
+          "warnings": [],
+          "fidelity_status": "PENDING_TARGET_PAGE_REVIEW"
+        },
+        {
+          "filename": "units/p0125.md",
+          "locator": "Page 125",
+          "locator_kind": "page",
+          "content_sha256": "a92b02d70b114f87c105037fe4f8966b5c37e9856acadaf5a58ff9cdc47089ac",
+          "file_sha256": "680f1cd39606e173e70517afe3b6cf40ea57d76506fa08807010f95e940f3f9e",
+          "visual_review": "NONE",
+          "warnings": [],
+          "fidelity_status": "PENDING_TARGET_PAGE_REVIEW"
+        }
+      ],
+      "fidelity_inputs": []
+    },
+    {
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "AI_SECURITY"
+      ],
+      "assigned_unit_count": 3,
+      "total_source_units": 122,
+      "units": [
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "locator_kind": "page",
+          "content_sha256": "1e079b84e0c06cb6adea796baf5670389e5347c345fc5f90af0272fb5090936e",
+          "file_sha256": "d1be278acb738a07bc9c1e9b40bf34996aa983b63d9c5227d69a4b36df286c6c",
+          "visual_review": "DECORATIVE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "66c2b463e56b8e23a41fb97fba09c5445f366c2e0bc97abf28da1132ce66d31a",
+          "file_sha256": "4c999333e6d421b9c504f9189e54a7b69131f9dbd000038868328c5701c731d9",
+          "visual_review": "DECORATIVE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        },
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "436d3b986575a0f607a14600038e62cef6853d18e2042e570ec91350dd18ffbb",
+          "file_sha256": "1cfba4e0154a048c96ae27e2d0743a858fcdeccc7cdfce4658758a4810b266df",
+          "visual_review": "DECORATIVE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        }
+      ],
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/security-agents-fidelity.json",
+          "sha256": "ad004232d6bf59bc6143449eece8b738cb4af4a70f9177898c334f4a60cbcb20"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "AI_SECURITY"
+      ],
+      "assigned_unit_count": 3,
+      "total_source_units": 57,
+      "units": [
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "locator_kind": "page",
+          "content_sha256": "5d43e8b7084a31babde002d2a45bf3c4dcacf0c7df6cf7c52c801c936a115bcd",
+          "file_sha256": "3d103366f2e5b82835826f96e87c7fd530df1114abfc5af2e1d530ba5adab8c1",
+          "visual_review": "DECORATIVE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "9dad2c1b3933450b0cb3b6a515f0adaa3650d598a533927bb59f631f3a84dcaf",
+          "file_sha256": "62af7b9b2d37dd3b5410c093ef81c904113d9cc25eb787ea347dc001a80e72bb",
+          "visual_review": "DECORATIVE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        },
+        {
+          "filename": "units/p0033.md",
+          "locator": "Page 33",
+          "locator_kind": "page",
+          "content_sha256": "e9573b439fb81438f806fd0b6eaf24be71c66ed4a8a59e95b1ab2760f082c6f5",
+          "file_sha256": "054d918a5b79cb9e264043f31974db49387db3cf85b4cf85722c1b303e90cfd6",
+          "visual_review": "DECORATIVE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        }
+      ],
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/security-agents-fidelity.json",
+          "sha256": "ad004232d6bf59bc6143449eece8b738cb4af4a70f9177898c334f4a60cbcb20"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "MODEL_RISK"
+      ],
+      "assigned_unit_count": 2,
+      "total_source_units": 48,
+      "units": [
+        {
+          "filename": "units/p0032.md",
+          "locator": "Page 32",
+          "locator_kind": "page",
+          "content_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+          "file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+          "visual_review": "NONE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        },
+        {
+          "filename": "units/p0045.md",
+          "locator": "Page 45",
+          "locator_kind": "page",
+          "content_sha256": "297d8959055aa6adddf8a80417c9068d7a9b2958d098417e20ff798b8e56f1a0",
+          "file_sha256": "6c471013c7e708e3795cf6420ba5df75cc32dabad343f437d4c55cf5be8f6ab7",
+          "visual_review": "NONE",
+          "warnings": [],
+          "fidelity_status": "REVIEWED_RECEIPT_AVAILABLE"
+        }
+      ],
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/security-agents-fidelity.json",
+          "sha256": "ad004232d6bf59bc6143449eece8b738cb4af4a70f9177898c334f4a60cbcb20"
+        }
+      ]
+    }
+  ],
+  "unit_count": 12,
+  "assignment_sha256": "f49dadf5df074a2bd8b39285f9e7ee3db172f9e62ea3e5b86f6113fbd3c4dd64"
+}

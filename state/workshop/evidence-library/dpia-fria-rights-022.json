@@ -1,0 +1,209 @@
+{
+  "schema_version": 1,
+  "receipt_id": "dpia-fria-rights-022",
+  "author_identity": "codex-dpia-fria-rights-domain-builder",
+  "evidence": [
+    {
+      "evidence_ref": "dpia22-src-0010-p0043",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0043.md",
+      "unit_sha256": "d23a9282fc84871ec738ec841dfca0b2fa2691da07a9a989ba7dac19ab491194",
+      "unit_file_sha256": "434e35807c6d6ed651f4359ec7a1899e33a59aa1b23e28519416fb8bf3ffe759",
+      "locator": "Page 43",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "dpia22-src-0010-p0044",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0044.md",
+      "unit_sha256": "4bbd71ede98ec20e07562e817fe47a6b3e1d558be4ea243756e0b5a76ba5c328",
+      "unit_file_sha256": "09ccfd02e46b83ae532aceb06d45a3ee3d8f1312e14de998fb49bb383dffa0d0",
+      "locator": "Page 44",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity-2.json",
+          "sha256": "4af56ed89fa0ee7549e1f589e3d0827bbb60b13e4a3633cd9141f83d29ad4797"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "dpia22-src-0010-p0045",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0045.md",
+      "unit_sha256": "f5e2c64c8b095efdba90beaebd5161ef6c995979b35dcd9264e19fa7d9015a2c",
+      "unit_file_sha256": "f0bcaf3cda694d53b9f6dcbbf005f3a3f40d267224024f14b686b71c33e42468",
+      "locator": "Page 45",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity-2.json",
+          "sha256": "4af56ed89fa0ee7549e1f589e3d0827bbb60b13e4a3633cd9141f83d29ad4797"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "dpia22-src-0010-p0046",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0046.md",
+      "unit_sha256": "406c57dad0e00f1f18d34035072c090a992088c9e0b8fd5544e00e0b2e46139d",
+      "unit_file_sha256": "121aa50e9262e71b1336bb7438e82a6901629c92d30aad18336c60fa682b8f0b",
+      "locator": "Page 46",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-pilot-fidelity.json",
+          "sha256": "772492156c42a984bbc96050dc9b489fe4a753c39172ca399c02bd96e2ce749a"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "data-subject-rights-ai",
+      "note_sha256": "f3495e9dfedf96685f8db510dcc2b6842173ca790f5b6c06eedd48352e0fcf09",
+      "section_id": "data-subject-rights-ai:0d592e02abed9cc5",
+      "section_sha256": "a7931a684c7f33832fab34af2eb3950f9ab9950d8f882840f687d9da2d6f6523",
+      "evidence_refs": [
+        "dpia22-src-0010-p0043",
+        "dpia22-src-0010-p0044",
+        "dpia22-src-0010-p0045",
+        "dpia22-src-0010-p0046"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-subject-rights-ai",
+      "note_sha256": "f3495e9dfedf96685f8db510dcc2b6842173ca790f5b6c06eedd48352e0fcf09",
+      "section_id": "data-subject-rights-ai:dbaf451a46f744ac",
+      "section_sha256": "c93caf15bedf50dd88019d0cdabb15ab5b0e4f1e9a76c9c40ecfdae609695ceb",
+      "evidence_refs": [
+        "dpia22-src-0010-p0043",
+        "dpia22-src-0010-p0046"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "data-subject-rights-ai",
+      "note_sha256": "f3495e9dfedf96685f8db510dcc2b6842173ca790f5b6c06eedd48352e0fcf09",
+      "section_id": "data-subject-rights-ai:a9d9c8aedeecb8ba",
+      "section_sha256": "d60b109d33c39436e8561ee411b2f9a543220db4825593914c88979e439e7892",
+      "evidence_refs": [
+        "dpia22-src-0010-p0043",
+        "dpia22-src-0010-p0044",
+        "dpia22-src-0010-p0045",
+        "dpia22-src-0010-p0046"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-subject-rights-ai",
+      "note_sha256": "f3495e9dfedf96685f8db510dcc2b6842173ca790f5b6c06eedd48352e0fcf09",
+      "section_id": "data-subject-rights-ai:47adb491810b2a7f",
+      "section_sha256": "9d768cf4bd8416d711c920a046d44a93881e59ef8c5af1af43dab237d80da9b1",
+      "evidence_refs": [
+        "dpia22-src-0010-p0043",
+        "dpia22-src-0010-p0046"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-subject-rights-ai",
+      "note_sha256": "f3495e9dfedf96685f8db510dcc2b6842173ca790f5b6c06eedd48352e0fcf09",
+      "section_id": "data-subject-rights-ai:4111e8048344e095",
+      "section_sha256": "2a13b01560cb1ff6f2125afb5fa8b8c189ecfc29d5264eea92ee5e1a8c40d90e",
+      "evidence_refs": [
+        "dpia22-src-0010-p0043",
+        "dpia22-src-0010-p0046"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "legal-005-data-subject-rights-readiness",
+      "note_sha256": "e19c8ce6e60c5e86756f6d278bce4ab35650c53d07bc2b3afffefb418eb45c36",
+      "section_id": "legal-005-data-subject-rights-readiness:f3e5d64714d0b2f7",
+      "section_sha256": "3a25f72f04a4b6b267a31b9b51ff6f7a029b025d7fee329e054e4083e2e39fa9",
+      "evidence_refs": [
+        "dpia22-src-0010-p0043",
+        "dpia22-src-0010-p0046"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "legal-005-data-subject-rights-readiness",
+      "note_sha256": "e19c8ce6e60c5e86756f6d278bce4ab35650c53d07bc2b3afffefb418eb45c36",
+      "section_id": "legal-005-data-subject-rights-readiness:d6f7d4e282b68d74",
+      "section_sha256": "69836a59e061074ead48c7a34228c0b5ff92fd240abdfe5366907a543cad6027",
+      "evidence_refs": [
+        "dpia22-src-0010-p0043",
+        "dpia22-src-0010-p0044",
+        "dpia22-src-0010-p0045",
+        "dpia22-src-0010-p0046"
+      ],
+      "modality": "recommendation"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-dpia-fria-rights-evidence-auditor",
+    "reviewed_at": "2026-09-17T00:00:00+00:00",
+    "candidate_sha256": "00f2fe3304ded68e9707e0c26f88881ffb6624e86f1bff05f2c13cc67402a249",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "EVIDENCE_ITEMS_VERIFIED",
+        "detail": "Four validated GDPR units resolve with exact source, unit and fidelity hashes."
+      },
+      {
+        "severity": "INFO",
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "detail": "Seven substantive future-vault sections have exact note and section bindings."
+      },
+      {
+        "severity": "INFO",
+        "code": "AUTHORITY_BOUNDED",
+        "detail": "All claims are bounded to the reviewed BINDING GDPR text; no new source classification is introduced."
+      },
+      {
+        "severity": "WARNING",
+        "code": "LEGAL_CURRENCY_UNKNOWN",
+        "detail": "Current amendments and supervisory interpretations were not assessed."
+      },
+      {
+        "severity": "WARNING",
+        "code": "FACT_SPECIFIC_APPLICABILITY",
+        "detail": "The note provides routing knowledge and does not decide any project-specific right or response."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1331 @@
+{
+  "schema_version": 1,
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "stage": "EXTRACT",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "source_id": "SRC-0011",
+  "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+  "assignment_sha256": "f846571485ca7684b5fe6c40f96aeb091624e26a1075d48a0b741e99c454d451",
+  "coverage": {
+    "assigned_locators": [
+      "Page 156",
+      "Page 157",
+      "Page 158",
+      "Page 159",
+      "Page 160",
+      "Page 161",
+      "Page 162",
+      "Page 163",
+      "Page 164",
+      "Page 165",
+      "Page 172",
+      "Page 173",
+      "Page 174",
+      "Page 175",
+      "Page 176",
+      "Page 177",
+      "Page 178",
+      "Page 179",
+      "Page 180",
+      "Page 181",
+      "Page 377",
+      "Page 378",
+      "Page 379",
+      "Page 380",
+      "Page 381",
+      "Page 382",
+      "Page 383",
+      "Page 384",
+      "Page 385",
+      "Page 386",
+      "Page 387",
+      "Page 388",
+      "Page 389"
+    ],
+    "covered_locators": [
+      "Page 156",
+      "Page 157",
+      "Page 158",
+      "Page 159",
+      "Page 160",
+      "Page 161",
+      "Page 162",
+      "Page 163",
+      "Page 164",
+      "Page 165",
+      "Page 172",
+      "Page 173",
+      "Page 174",
+      "Page 175",
+      "Page 176",
+      "Page 177",
+      "Page 178",
+      "Page 179",
+      "Page 180",
+      "Page 181",
+      "Page 377",
+      "Page 378",
+      "Page 379",
+      "Page 380",
+      "Page 381",
+      "Page 382",
+      "Page 383",
+      "Page 384",
+      "Page 385",
+      "Page 386",
+      "Page 387",
+      "Page 388",
+      "Page 389"
+    ],
+    "omitted": []
+  },
+  "evidence_candidates": [
+    {
+      "candidate_id": "S11-P0156-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 156",
+      "unit_content_sha256": "0d8ae5711bdd3b6484047c22712d1db282cc7aec4fc151b00bb3894815d18d97",
+      "unit_file_sha256": "6ff4854a754a95fc444aac7e78a9b401bf38d4a4ecbb7a5474a6f6032f40d43f",
+      "claim": "The Regulation applies to specified providers, deployers, importers, distributors, product manufacturers, authorised representatives and affected persons connected with the Union.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Providers may be established in the Union or a third country when placing AI systems, putting them into service, or placing general-purpose AI models on the Union market.",
+        "Deployers are covered when established or located in the Union.",
+        "Third-country providers and deployers are covered when AI-system outputs are used in the Union.",
+        "Affected persons are covered when located in the Union."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0157-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 157",
+      "unit_content_sha256": "af196ac8d87baf4032b3558d2ea71d011e522f711f5b8272a7314a1d1da19fc4",
+      "unit_file_sha256": "0c0a47b36e5065e7a7d4ba997db89763f16feaf6c4c47379b29398ad70d3d1dd",
+      "claim": "For Article 6(1) high-risk AI systems related to products governed by Annex I Section B legislation, only the provisions enumerated in Article 2(2) apply.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The enumerated provisions are Article 6(1), Articles 102 to 109 and Article 112.",
+        "Article 57 applies only insofar as AI Act high-risk requirements have been integrated into the relevant harmonisation legislation."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0157-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 157",
+      "unit_content_sha256": "af196ac8d87baf4032b3558d2ea71d011e522f711f5b8272a7314a1d1da19fc4",
+      "unit_file_sha256": "0c0a47b36e5065e7a7d4ba997db89763f16feaf6c4c47379b29398ad70d3d1dd",
+      "claim": "The Regulation excludes matters outside Union-law competence and does not affect Member State competences in national security.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The identity or type of entity performing national-security tasks does not alter this boundary."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0157-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 157",
+      "unit_content_sha256": "af196ac8d87baf4032b3558d2ea71d011e522f711f5b8272a7314a1d1da19fc4",
+      "unit_file_sha256": "0c0a47b36e5065e7a7d4ba997db89763f16feaf6c4c47379b29398ad70d3d1dd",
+      "claim": "AI systems are excluded insofar as they are placed on the market, put into service or used exclusively for military, defence or national-security purposes.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The exclusion applies with or without modifications and regardless of the type of actor.",
+        "Outputs used in the Union are also excluded when the system is not marketed or put into service there and the outputs are used exclusively for those purposes."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0158-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 158",
+      "unit_content_sha256": "52dd5c2ffdae2d4c9d34121670671dc3bc973059c312bd669ae6679aff7ae9e2",
+      "unit_file_sha256": "d89137117f2e877bb40a57415d40f5b3af758ea8af561b74db610b6921f86e49",
+      "claim": "Certain third-country public authorities and international organisations are excluded when using AI in law-enforcement or judicial cooperation with the Union or Member States.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The third country or international organisation must provide adequate safeguards for individuals’ fundamental rights and freedoms."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0158-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 158",
+      "unit_content_sha256": "52dd5c2ffdae2d4c9d34121670671dc3bc973059c312bd669ae6679aff7ae9e2",
+      "unit_file_sha256": "d89137117f2e877bb40a57415d40f5b3af758ea8af561b74db610b6921f86e49",
+      "claim": "AI systems, AI models and their outputs are excluded when specifically developed and put into service solely for scientific research and development.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Both specific development and sole scientific research-and-development purpose constrain the exclusion."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0158-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 158",
+      "unit_content_sha256": "52dd5c2ffdae2d4c9d34121670671dc3bc973059c312bd669ae6679aff7ae9e2",
+      "unit_file_sha256": "d89137117f2e877bb40a57415d40f5b3af758ea8af561b74db610b6921f86e49",
+      "claim": "Union personal-data, privacy and communications-confidentiality law continues to apply to personal data processed in connection with AI Act rights and obligations.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The AI Act does not affect the listed data-protection instruments, subject to the stated Article 10(5) and Article 59 qualifications."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0158-04",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 158",
+      "unit_content_sha256": "52dd5c2ffdae2d4c9d34121670671dc3bc973059c312bd669ae6679aff7ae9e2",
+      "unit_file_sha256": "d89137117f2e877bb40a57415d40f5b3af758ea8af561b74db610b6921f86e49",
+      "claim": "Pre-market or pre-service research, testing and development activities concerning AI systems or models are excluded, but real-world testing is not.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Excluded activities must still comply with applicable Union law."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0159-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 159",
+      "unit_content_sha256": "ecf9a58cfbf6bbb2417a590cbaa22297a6ade95d6e6219ae7f4bbd675fd56907",
+      "unit_file_sha256": "8042a12b2e431bbf566cbf4c5a96925dae06c6cf8908695624f06d476c9c1fb5",
+      "claim": "The Regulation leaves other Union consumer-protection and product-safety rules unaffected.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0159-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 159",
+      "unit_content_sha256": "ecf9a58cfbf6bbb2417a590cbaa22297a6ade95d6e6219ae7f4bbd675fd56907",
+      "unit_file_sha256": "8042a12b2e431bbf566cbf4c5a96925dae06c6cf8908695624f06d476c9c1fb5",
+      "claim": "Obligations on deployers do not apply to natural persons using AI systems in a strictly personal, non-professional activity.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0159-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 159",
+      "unit_content_sha256": "ecf9a58cfbf6bbb2417a590cbaa22297a6ade95d6e6219ae7f4bbd675fd56907",
+      "unit_file_sha256": "8042a12b2e431bbf566cbf4c5a96925dae06c6cf8908695624f06d476c9c1fb5",
+      "claim": "Union and Member State rules or collective agreements may provide workers with more favourable protection concerning employer use of AI systems.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0159-04",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 159",
+      "unit_content_sha256": "ecf9a58cfbf6bbb2417a590cbaa22297a6ade95d6e6219ae7f4bbd675fd56907",
+      "unit_file_sha256": "8042a12b2e431bbf566cbf4c5a96925dae06c6cf8908695624f06d476c9c1fb5",
+      "claim": "AI systems released under free and open-source licences are generally excluded from the Regulation.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The exclusion does not apply when such a system is placed on the market or put into service as high-risk, within Article 5, or within Article 50."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0159-05",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 159",
+      "unit_content_sha256": "ecf9a58cfbf6bbb2417a590cbaa22297a6ade95d6e6219ae7f4bbd675fd56907",
+      "unit_file_sha256": "8042a12b2e431bbf566cbf4c5a96925dae06c6cf8908695624f06d476c9c1fb5",
+      "claim": "An AI system is an automated system designed to operate with varying levels of autonomy that may adapt after deployment and infers from inputs how to generate outputs capable of influencing physical or virtual environments.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Objectives may be explicit or implicit.",
+        "Outputs include predictions, content, recommendations or decisions."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0160-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 160",
+      "unit_content_sha256": "a1fb96e40d7d8f56561dd694fdc2440110b09e015e9a139ab727d56afd072f35",
+      "unit_file_sha256": "f53e359e9561cabd14350cbbcebdbbe13c348ccdc69f931a719358e625a83d25",
+      "claim": "Risk combines the probability of harm with its severity.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0160-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 160",
+      "unit_content_sha256": "a1fb96e40d7d8f56561dd694fdc2440110b09e015e9a139ab727d56afd072f35",
+      "unit_file_sha256": "f53e359e9561cabd14350cbbcebdbbe13c348ccdc69f931a719358e625a83d25",
+      "claim": "A provider is an actor that develops or has developed an AI system or general-purpose AI model and markets it, or puts the AI system into service, under its own name or trademark.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Actors may include natural or legal persons, public authorities, agencies or other bodies.",
+        "Provision may be for payment or free of charge."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0160-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 160",
+      "unit_content_sha256": "a1fb96e40d7d8f56561dd694fdc2440110b09e015e9a139ab727d56afd072f35",
+      "unit_file_sha256": "f53e359e9561cabd14350cbbcebdbbe13c348ccdc69f931a719358e625a83d25",
+      "claim": "A deployer is an actor using an AI system under its own authority, except for personal non-professional use.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Actors may include natural or legal persons, public authorities, agencies or other bodies."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0160-04",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 160",
+      "unit_content_sha256": "a1fb96e40d7d8f56561dd694fdc2440110b09e015e9a139ab727d56afd072f35",
+      "unit_file_sha256": "f53e359e9561cabd14350cbbcebdbbe13c348ccdc69f931a719358e625a83d25",
+      "claim": "Operator is the collective term for a provider, product manufacturer, deployer, authorised representative, importer or distributor.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0161-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 161",
+      "unit_content_sha256": "f33f3ff55b9c8b01b9a8ca6879821f442265e4ac277d104978dd9357e320866a",
+      "unit_file_sha256": "0fc6bca146db2a2c1718dd5f5b2559c67bb237c4ed5a3873ee25dc255158c8c9",
+      "claim": "Putting into service means supplying an AI system for first use directly to a deployer or for own use in the Union according to its intended purpose.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0161-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 161",
+      "unit_content_sha256": "f33f3ff55b9c8b01b9a8ca6879821f442265e4ac277d104978dd9357e320866a",
+      "unit_file_sha256": "0fc6bca146db2a2c1718dd5f5b2559c67bb237c4ed5a3873ee25dc255158c8c9",
+      "claim": "Intended purpose is the provider-intended use of an AI system, including its specific context and conditions of use as described in instructions, advertising or sales material, statements and technical documentation.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0161-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 161",
+      "unit_content_sha256": "f33f3ff55b9c8b01b9a8ca6879821f442265e4ac277d104978dd9357e320866a",
+      "unit_file_sha256": "0fc6bca146db2a2c1718dd5f5b2559c67bb237c4ed5a3873ee25dc255158c8c9",
+      "claim": "Reasonably foreseeable misuse is use outside the intended purpose that can result from reasonably foreseeable human behaviour or interaction with other systems, including AI systems.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0161-04",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 161",
+      "unit_content_sha256": "f33f3ff55b9c8b01b9a8ca6879821f442265e4ac277d104978dd9357e320866a",
+      "unit_file_sha256": "0fc6bca146db2a2c1718dd5f5b2559c67bb237c4ed5a3873ee25dc255158c8c9",
+      "claim": "A safety component performs a safety function for a product or AI system, or creates danger to persons’ or property health and safety if it fails or malfunctions.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0162-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 162",
+      "unit_content_sha256": "ab7caa547f8a42e2bda151d8415ce6a1de315e7a035ed7b7d18c5d04fbca6d1c",
+      "unit_file_sha256": "26fee1b1290cf7fbe8f354324f95ac2bcdd58400fa5bd2041c179ce92e3ed4a6",
+      "claim": "Conformity assessment is the procedure for demonstrating compliance with the Chapter III Section 2 requirements for a high-risk AI system.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0162-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 162",
+      "unit_content_sha256": "ab7caa547f8a42e2bda151d8415ce6a1de315e7a035ed7b7d18c5d04fbca6d1c",
+      "unit_file_sha256": "26fee1b1290cf7fbe8f354324f95ac2bcdd58400fa5bd2041c179ce92e3ed4a6",
+      "claim": "A substantial modification is an unanticipated post-market or post-service change that harms compliance with Chapter III Section 2 requirements or changes the intended purpose assessed.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The change was not foreseen or planned in the provider’s initial conformity assessment."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0163-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 163",
+      "unit_content_sha256": "8aa2d0b72d146cb81d2ab48958e61ebdf17abb3f87ff99823a6221d244056d71",
+      "unit_file_sha256": "07506e310004b36b98b4e03afb54ff566f5d773b2b9beb642e662a03aa88e6da",
+      "claim": "Training data are data used to train an AI system by adjusting its trainable parameters.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0163-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 163",
+      "unit_content_sha256": "8aa2d0b72d146cb81d2ab48958e61ebdf17abb3f87ff99823a6221d244056d71",
+      "unit_file_sha256": "07506e310004b36b98b4e03afb54ff566f5d773b2b9beb642e662a03aa88e6da",
+      "claim": "Validation data evaluate the trained AI system and tune its non-trainable parameters and learning process, including to avoid underfitting or overfitting.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0164-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 164",
+      "unit_content_sha256": "701d32fa73a3d991a00c1be9f46070284efd6b4abc3707e3c3968f491bf39af0",
+      "unit_file_sha256": "b05934380bae9f3b8aeb5f0ad58c99d655d75d7eb1e8015a98887a3cab5c727d",
+      "claim": "Biometric data are personal data resulting from specific technical processing of a natural person’s physical, physiological or behavioural characteristics.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Examples given are facial images and fingerprint data."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0164-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 164",
+      "unit_content_sha256": "701d32fa73a3d991a00c1be9f46070284efd6b4abc3707e3c3968f491bf39af0",
+      "unit_file_sha256": "b05934380bae9f3b8aeb5f0ad58c99d655d75d7eb1e8015a98887a3cab5c727d",
+      "claim": "Biometric identification automatically recognises human characteristics to establish a natural person’s identity by comparing their biometric data with stored biometric data of persons.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0164-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 164",
+      "unit_content_sha256": "701d32fa73a3d991a00c1be9f46070284efd6b4abc3707e3c3968f491bf39af0",
+      "unit_file_sha256": "b05934380bae9f3b8aeb5f0ad58c99d655d75d7eb1e8015a98887a3cab5c727d",
+      "claim": "Biometric verification is an automated one-to-one identity check, including authentication, against biometric data previously supplied by the person.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0164-04",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 164",
+      "unit_content_sha256": "701d32fa73a3d991a00c1be9f46070284efd6b4abc3707e3c3968f491bf39af0",
+      "unit_file_sha256": "b05934380bae9f3b8aeb5f0ad58c99d655d75d7eb1e8015a98887a3cab5c727d",
+      "claim": "Special categories of personal data are the categories referred to in the GDPR, Law Enforcement Directive and Union-institution data-protection provisions cited by Article 3(37).",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0165-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 165",
+      "unit_content_sha256": "a2aca3e843edd26de030dfe59c1564e582500d0089b8f468b20c42aeaeeaa4a5",
+      "unit_file_sha256": "f4690a4a1d8f46ddd29c3750c194ce949f0032309127d2692dc306969910b29b",
+      "claim": "An emotion-recognition system recognises or infers a natural person’s emotions or intentions from biometric data.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0165-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 165",
+      "unit_content_sha256": "a2aca3e843edd26de030dfe59c1564e582500d0089b8f468b20c42aeaeeaa4a5",
+      "unit_file_sha256": "f4690a4a1d8f46ddd29c3750c194ce949f0032309127d2692dc306969910b29b",
+      "claim": "A biometric-categorisation system assigns natural persons to specific categories on the basis of biometric data.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "A function merely ancillary to another commercial service and strictly necessary for objective technical reasons is excluded from this definition."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0165-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 165",
+      "unit_content_sha256": "a2aca3e843edd26de030dfe59c1564e582500d0089b8f468b20c42aeaeeaa4a5",
+      "unit_file_sha256": "f4690a4a1d8f46ddd29c3750c194ce949f0032309127d2692dc306969910b29b",
+      "claim": "A remote biometric-identification system identifies natural persons without their active involvement, generally at a distance, by comparing their biometric data with a database.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0165-04",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 165",
+      "unit_content_sha256": "a2aca3e843edd26de030dfe59c1564e582500d0089b8f468b20c42aeaeeaa4a5",
+      "unit_file_sha256": "f4690a4a1d8f46ddd29c3750c194ce949f0032309127d2692dc306969910b29b",
+      "claim": "Real-time remote biometric identification performs acquisition, comparison and identification without significant delay.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Slight delay remains real-time when needed to prevent circumvention."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0165-05",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 165",
+      "unit_content_sha256": "a2aca3e843edd26de030dfe59c1564e582500d0089b8f468b20c42aeaeeaa4a5",
+      "unit_file_sha256": "f4690a4a1d8f46ddd29c3750c194ce949f0032309127d2692dc306969910b29b",
+      "claim": "Post-remote biometric identification is remote biometric identification other than real-time remote biometric identification.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0172-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 172",
+      "unit_content_sha256": "73c191b9bc3300220569364a9332bc0d1518fa4c256106a892bc15c12838d251",
+      "unit_file_sha256": "b80906c6f9a0dac563ff038b8f4cf5989696232be3c86c95d885a4dcd853f151",
+      "claim": "Placing on the market, putting into service or using AI that employs subliminal, deliberately manipulative or deceptive techniques is prohibited when the specified behavioural and harm conditions are met.",
+      "evidence_kind": "prohibition",
+      "normativity_candidate": "prohibition",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The technique must have the objective or effect of materially distorting a person’s or group’s behaviour by appreciably impairing informed decision-making.",
+        "It must cause a decision that would not otherwise have been taken.",
+        "It must cause or be reasonably likely to cause significant harm to that person, another person or a group."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0172-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 172",
+      "unit_content_sha256": "73c191b9bc3300220569364a9332bc0d1518fa4c256106a892bc15c12838d251",
+      "unit_file_sha256": "b80906c6f9a0dac563ff038b8f4cf5989696232be3c86c95d885a4dcd853f151",
+      "claim": "Placing on the market, putting into service or using AI that exploits vulnerabilities linked to age, disability, or a specific social or economic situation is prohibited when the specified behavioural and harm conditions are met.",
+      "evidence_kind": "prohibition",
+      "normativity_candidate": "prohibition",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The objective or effect must be materially to distort the behaviour of the person or a member of the group.",
+        "The distortion must cause or be reasonably likely to cause significant harm to that person or a third party."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0173-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 173",
+      "unit_content_sha256": "922c132a25822e7d2b621e7f12e4d8a902922f0394805848d025640be5331a29",
+      "unit_file_sha256": "b4b6419377ca30c871d56b23ab646e6a212b1884d3e58b3954912b5039999f68",
+      "claim": "Using AI for social scoring over time is prohibited when scoring based on social behaviour or known, inferred or predicted personal characteristics produces a listed adverse-treatment outcome.",
+      "evidence_kind": "prohibition",
+      "normativity_candidate": "prohibition",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Covered outcomes are adverse treatment in an unrelated social context, or adverse treatment unjustified or disproportionate to the social behaviour or its gravity."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0173-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 173",
+      "unit_content_sha256": "922c132a25822e7d2b621e7f12e4d8a902922f0394805848d025640be5331a29",
+      "unit_file_sha256": "b4b6419377ca30c871d56b23ab646e6a212b1884d3e58b3954912b5039999f68",
+      "claim": "AI assessment or prediction of a natural person’s risk of committing a crime is prohibited when based solely on profiling or assessment of personality traits or characteristics.",
+      "evidence_kind": "prohibition",
+      "normativity_candidate": "prohibition",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The prohibition does not cover AI supporting a human assessment of involvement in criminal activity that is already based on objective and verifiable facts directly linked to criminal activity."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0173-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 173",
+      "unit_content_sha256": "922c132a25822e7d2b621e7f12e4d8a902922f0394805848d025640be5331a29",
+      "unit_file_sha256": "b4b6419377ca30c871d56b23ab646e6a212b1884d3e58b3954912b5039999f68",
+      "claim": "AI systems that create or expand facial-recognition databases through untargeted scraping of facial images from the internet or CCTV are prohibited.",
+      "evidence_kind": "prohibition",
+      "normativity_candidate": "prohibition",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The prohibition covers placing on the market, putting into service for that specific purpose, or using such systems."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0174-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 174",
+      "unit_content_sha256": "82600f055789be49e0e571c47ac8799805e39252ef890870a1342f0626e0554d",
+      "unit_file_sha256": "202fc4d6c1afc88fb65819ca18ac14e5381fe4c0f0287b51106756aeee15fae7",
+      "claim": "AI inference of a natural person’s emotions in workplaces or educational institutions is prohibited.",
+      "evidence_kind": "prohibition",
+      "normativity_candidate": "prohibition",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Medical or safety reasons are excepted.",
+        "The prohibition covers placing on the market, putting into service for that specific purpose, or use."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0174-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 174",
+      "unit_content_sha256": "82600f055789be49e0e571c47ac8799805e39252ef890870a1342f0626e0554d",
+      "unit_file_sha256": "202fc4d6c1afc88fb65819ca18ac14e5381fe4c0f0287b51106756aeee15fae7",
+      "claim": "Biometric categorisation that individually categorises natural persons to deduce or infer specified sensitive attributes is prohibited.",
+      "evidence_kind": "prohibition",
+      "normativity_candidate": "prohibition",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Specified attributes include race, political opinions, trade-union affiliation, religious or philosophical beliefs, sex life and sexual orientation.",
+        "Lawfully acquired biometric datasets may still be labelled or filtered on biometric data, and biometric data may be categorised in law enforcement.",
+        "The prohibition covers placing on the market, putting into service for that specific purpose, or use."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0174-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 174",
+      "unit_content_sha256": "82600f055789be49e0e571c47ac8799805e39252ef890870a1342f0626e0554d",
+      "unit_file_sha256": "202fc4d6c1afc88fb65819ca18ac14e5381fe4c0f0287b51106756aeee15fae7",
+      "claim": "Real-time remote biometric identification in publicly accessible spaces for law-enforcement purposes is prohibited except where strictly necessary for an enumerated objective.",
+      "evidence_kind": "prohibition",
+      "normativity_candidate": "prohibition",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Objectives shown on this page are targeted searches for specified victims or missing persons and prevention of specified serious threats to life, physical safety or terrorist attack.",
+        "The further enumerated criminal-investigation objective continues on Page 175."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0175-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 175",
+      "unit_content_sha256": "815cce7d68919561d5ff745ccf166193ceffeacf750295f781d5b9fa7008e250",
+      "unit_file_sha256": "e3547ceabd91989d7e65531192a2ae2998b994273d7ca10de90b8b65d1192c0c",
+      "claim": "The real-time remote biometric-identification exception includes locating or identifying a criminal suspect for investigation, prosecution or execution of a criminal penalty under defined offence and penalty thresholds.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The offence must be listed in Annex II.",
+        "In the Member State concerned it must carry a maximum custodial sentence or detention order of at least four years."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0175-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 175",
+      "unit_content_sha256": "815cce7d68919561d5ff745ccf166193ceffeacf750295f781d5b9fa7008e250",
+      "unit_file_sha256": "e3547ceabd91989d7e65531192a2ae2998b994273d7ca10de90b8b65d1192c0c",
+      "claim": "A permitted law-enforcement use of real-time remote biometric identification may be deployed only to confirm the identity of the specifically targeted person.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "obligation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The use must consider the seriousness, probability and scale of harm if not used and the consequences for the rights and freedoms of all affected persons."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0175-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 175",
+      "unit_content_sha256": "815cce7d68919561d5ff745ccf166193ceffeacf750295f781d5b9fa7008e250",
+      "unit_file_sha256": "e3547ceabd91989d7e65531192a2ae2998b994273d7ca10de90b8b65d1192c0c",
+      "claim": "The Article 5(1)(h) rule does not affect GDPR Article 9 for biometric processing outside law enforcement.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0176-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 176",
+      "unit_content_sha256": "f78444a9ed3ab7054d86294c447f28177b4d87ffd1588b5d436b8e953e41f5e5",
+      "unit_file_sha256": "ff51cfb29c51fbc982fcff4e77ea3b07d87957b2dda818bb57e45c6190672af5",
+      "claim": "A permitted law-enforcement use of real-time remote biometric identification must comply with necessary and proportionate safeguards and conditions under authorising national law.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "obligation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Safeguards include temporal, geographical and personal limitations.",
+        "The authority must complete an Article 27 fundamental-rights impact assessment and register the system under Article 49.",
+        "In a duly justified emergency, use may start before registration if registration follows without undue delay."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0176-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 176",
+      "unit_content_sha256": "f78444a9ed3ab7054d86294c447f28177b4d87ffd1588b5d436b8e953e41f5e5",
+      "unit_file_sha256": "ff51cfb29c51fbc982fcff4e77ea3b07d87957b2dda818bb57e45c6190672af5",
+      "claim": "Each such law-enforcement use requires prior authorisation from a judicial authority or a binding independent administrative authority in the Member State of use.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "obligation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The request must be reasoned and follow national rules.",
+        "In a duly justified emergency, use may start before authorisation if authorisation is requested without undue delay and no later than 24 hours.",
+        "If refused, use must stop immediately and all data, results and outputs from the use must be discarded and deleted immediately."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0177-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 177",
+      "unit_content_sha256": "b2d9c691a826d3ae4084767f1e174549500d32e3a35357b85946e4ba7953bca4",
+      "unit_file_sha256": "5e4cbe031780ffa337e101383c0384df5fcbd5465e9ef22d586609ef3d101315",
+      "claim": "The competent authorising authority may approve real-time remote biometric identification only when objective evidence or clear indications show it is necessary and proportionate for an enumerated purpose.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "obligation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Use must be strictly limited in time and geographical and personal scope.",
+        "No decision producing adverse legal effects may be based solely on the system output."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0177-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 177",
+      "unit_content_sha256": "b2d9c691a826d3ae4084767f1e174549500d32e3a35357b85946e4ba7953bca4",
+      "unit_file_sha256": "5e4cbe031780ffa337e101383c0384df5fcbd5465e9ef22d586609ef3d101315",
+      "claim": "Each law-enforcement use of real-time remote biometric identification in a public space must be notified to the relevant market-surveillance and national data-protection authorities.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "obligation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Notification follows national rules and contains at least the Article 5(6) information.",
+        "Notification must exclude sensitive operational data."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0178-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 178",
+      "unit_content_sha256": "712c55ec9193638c85d49ad37dd0b11f6a2ee7124467bae73401268a43e0001c",
+      "unit_file_sha256": "2f390e760d29ed5bf9a351aa2f24e5c7a618dc17b7549d061bf7ecc90a4f97d7",
+      "claim": "A Member State may authorise some or all real-time remote biometric-identification use for law enforcement only within the Article 5 conditions and limits.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "National law must establish detailed authorisation, monitoring and reporting rules and identify permitted enumerated purposes and offences.",
+        "Member States may enact more restrictive laws consistent with Union law."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0178-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 178",
+      "unit_content_sha256": "712c55ec9193638c85d49ad37dd0b11f6a2ee7124467bae73401268a43e0001c",
+      "unit_file_sha256": "2f390e760d29ed5bf9a351aa2f24e5c7a618dc17b7549d061bf7ecc90a4f97d7",
+      "claim": "Notified national market-surveillance and data-protection authorities must report annually to the Commission on such real-time remote biometric-identification use.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "obligation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The Commission supplies a reporting template covering authorisation decisions and outcomes."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0179-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 179",
+      "unit_content_sha256": "b94ea3f70b6aaa04e3f0102d6254bee879cc2a856da5268104e463221aacb3e6",
+      "unit_file_sha256": "3c3885f6c2f3661e7bc0c5dce2da34d4ff965eaddc13ef9c35f06ec766e4831d",
+      "claim": "The Commission must publish annual reports on law-enforcement use of real-time remote biometric identification in public spaces.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "obligation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Reports use aggregated Member State data and exclude sensitive operational information."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0179-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 179",
+      "unit_content_sha256": "b94ea3f70b6aaa04e3f0102d6254bee879cc2a856da5268104e463221aacb3e6",
+      "unit_file_sha256": "3c3885f6c2f3661e7bc0c5dce2da34d4ff965eaddc13ef9c35f06ec766e4831d",
+      "claim": "Article 5 does not displace prohibitions arising under other Union-law provisions.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0179-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 179",
+      "unit_content_sha256": "b94ea3f70b6aaa04e3f0102d6254bee879cc2a856da5268104e463221aacb3e6",
+      "unit_file_sha256": "3c3885f6c2f3661e7bc0c5dce2da34d4ff965eaddc13ef9c35f06ec766e4831d",
+      "claim": "The Article 6(1) product route requires the AI system to be intended as a safety component of an Annex I product or itself to be such a product.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This is the first of two cumulative conditions; the second continues on Page 180."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0180-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 180",
+      "unit_content_sha256": "2dfb4a92eadd1e7b2ef713b2b05b6036eac1a250c8eecd0eaf26afefbac0ecba",
+      "unit_file_sha256": "3e9e4153e61ad82132678ce792d32066400ab76c3f52a6e889284bf4c980477b",
+      "claim": "The Article 6(1) product route classifies an AI system as high-risk only when both the Annex I safety-component or product condition and a third-party conformity-assessment condition are met.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The product, or the AI system as a product, must require third-party conformity assessment before market placement or putting into service under Annex I harmonisation law."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0180-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 180",
+      "unit_content_sha256": "2dfb4a92eadd1e7b2ef713b2b05b6036eac1a250c8eecd0eaf26afefbac0ecba",
+      "unit_file_sha256": "3e9e4153e61ad82132678ce792d32066400ab76c3f52a6e889284bf4c980477b",
+      "claim": "AI systems listed in Annex III are also classified as high-risk, subject to the Article 6(3) derogation and profiling override.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0180-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 180",
+      "unit_content_sha256": "2dfb4a92eadd1e7b2ef713b2b05b6036eac1a250c8eecd0eaf26afefbac0ecba",
+      "unit_file_sha256": "3e9e4153e61ad82132678ce792d32066400ab76c3f52a6e889284bf4c980477b",
+      "claim": "An Annex III AI system is not high-risk when it poses no significant risk of harm to health, safety or fundamental rights, including by not materially influencing decision outcomes, and a listed condition is met.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Listed conditions are a narrow procedural task, improvement of a previously completed human activity, pattern or deviation detection without replacing or influencing prior human assessment absent proper human review, or a preparatory task for an Annex III assessment.",
+        "The profiling override continues on Page 181."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0181-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 181",
+      "unit_content_sha256": "5cb4bfc3f4aaa27a4cb7ef16598a84c89dbda6e9ef7166d88ad4dca3cc20143a",
+      "unit_file_sha256": "8bd5a208a66e8dfd0a00f0b63ee2d3a8265ef91d82dcb4edae00f3be542b23d8",
+      "claim": "An Annex III AI system that profiles natural persons is always high-risk despite the Article 6(3) derogation.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0181-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 181",
+      "unit_content_sha256": "5cb4bfc3f4aaa27a4cb7ef16598a84c89dbda6e9ef7166d88ad4dca3cc20143a",
+      "unit_file_sha256": "8bd5a208a66e8dfd0a00f0b63ee2d3a8265ef91d82dcb4edae00f3be542b23d8",
+      "claim": "A provider treating an Annex III AI system as not high-risk must document that assessment before market placement or putting into service.",
+      "evidence_kind": "requirement",
+      "normativity_candidate": "obligation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The provider must register the system under Article 49(2).",
+        "The provider must supply the assessment documentation when requested by a competent national authority."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0181-03",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 181",
+      "unit_content_sha256": "5cb4bfc3f4aaa27a4cb7ef16598a84c89dbda6e9ef7166d88ad4dca3cc20143a",
+      "unit_file_sha256": "8bd5a208a66e8dfd0a00f0b63ee2d3a8265ef91d82dcb4edae00f3be542b23d8",
+      "claim": "The Commission may amend the Article 6(3) derogation conditions by delegated act when concrete and reliable evidence shows Annex III systems do not pose significant risk to health, safety or fundamental rights.",
+      "evidence_kind": "actor",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The power is exercised under Article 97."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0377-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 377",
+      "unit_content_sha256": "a554657ceb93a55dfcf8d0af339a2e61b220db6dc91eba1f9b9691781e19ba2f",
+      "unit_file_sha256": "058b9207fe3414e1ff6dcbf4b85c8c9e64ec3590526871954f8ea44890cb5fff",
+      "claim": "Annex I Section A begins the product-harmonisation list used by the Article 6(1) high-risk route.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The page lists machinery, toy safety, recreational craft and personal watercraft, lifts and lift safety components, and equipment for explosive atmospheres.",
+        "The cited instruments are Directive 2006/42/EC, Directive 2009/48/EC, Directive 2013/53/EU, Directive 2014/33/EU and Directive 2014/34/EU."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0378-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 378",
+      "unit_content_sha256": "f8294ffa6150486a195f70fadeaad4e0e56d5536c72ba46a66a37b2680807282",
+      "unit_file_sha256": "d101dee740e08f0ded5dd3b2d8501c17f4593f4d8072f34f3b8bd456846f33ac",
+      "claim": "Annex I Section A continues the product-harmonisation list used by Article 6(1).",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The page lists radio equipment, pressure equipment, cableway installations, personal protective equipment, gas appliances, medical devices and in-vitro diagnostic medical devices.",
+        "The in-vitro diagnostic entry continues on Page 379."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0379-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 379",
+      "unit_content_sha256": "2a75be9458e02eb5a1890f95c438c62b4a82cb05bea4ca50a1081b3bb0bb596f",
+      "unit_file_sha256": "b794d014856f471515dc6c1e7614ae2676b4464c6de993523253bcd5ddf90c67",
+      "claim": "Annex I completes Section A with in-vitro diagnostic medical devices and begins Section B with other harmonisation legislation.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The Section B entries on this page cover civil-aviation security, two- or three-wheel vehicles and quadricycles, agricultural and forestry vehicles, marine equipment and rail-system interoperability."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0380-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 380",
+      "unit_content_sha256": "cb0c46115a711ed03237a06b7f8b10bdcd62ac0e2759953cb17793873d6d6ce1",
+      "unit_file_sha256": "8dab17972a50c1b55ff8fdcef37f1d6e3e849230181775e3c9ba0aca79af9841",
+      "claim": "Annex I Section B includes harmonisation legislation for motor-vehicle type approval, market surveillance and general vehicle safety.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The listed instruments are Regulation (EU) 2018/858 and Regulation (EU) 2019/2144."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0381-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 381",
+      "unit_content_sha256": "90fb9a2fdad9c7c5891676992f9a4f939b00829dfad008e69d0a8e86f05ea85a",
+      "unit_file_sha256": "dfa56f453790eb9894da6bebf4a24ee15ce3abd4b3b8d495900b21037af344e5",
+      "claim": "Annex I Section B includes specified civil-aviation legislation insofar as it concerns design, production and marketing of specified unmanned aircraft and related components.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The entry covers the aircraft in Article 2(1)(a) and (b) of Regulation (EU) 2018/1139 and their engines, propellers, parts and remote-control equipment."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0382-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 382",
+      "unit_content_sha256": "16cfef1053120a4c3ecd83866d0a1597a68c712b155ec6464e2cf8fec5717119",
+      "unit_file_sha256": "1b929dc9c0fe7e7263fc1331be560623ec155e9be7f6529d9ea2ce6af5065564",
+      "claim": "Annex II begins the offence list used by the Article 5(1)(h)(iii) real-time remote biometric-identification exception.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The page includes terrorism, trafficking in human beings, child sexual exploitation and abuse material, drug trafficking, arms trafficking, intentional homicide and serious injury, organ or tissue trafficking, nuclear or radioactive-material trafficking, kidnapping or hostage-taking, International Criminal Court crimes, and aircraft or ship hijacking."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0383-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 383",
+      "unit_content_sha256": "a53300fed81f04bcf6d7f245465ec753098a1daf2876b58601b488a26950d2a5",
+      "unit_file_sha256": "1cf23f328cd8ce02f03559a264dad0a9fe4f7011bfd397440c095a02d2e55906",
+      "claim": "Annex II completes the offence list used by the Article 5(1)(h)(iii) exception.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The page adds rape, environmental crime, organised or armed robbery, sabotage, and participation in a criminal organisation involved in one or more listed offences."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0384-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 384",
+      "unit_content_sha256": "2002754bef1e8362a7a535d8b5d22b33f2ae7f952097d26935ef91c0d614a712",
+      "unit_file_sha256": "868915f5b725066e07d3cc7ec4991f49616c778eb27e5eb8b6baeaa6ab0eef86",
+      "claim": "Annex III lists specified biometric AI as high-risk where its use is permitted by applicable Union or national law.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Listed uses are remote biometric identification, sensitive or protected-attribute biometric categorisation, and emotion recognition.",
+        "Biometric verification solely confirming that a specific person is who they claim to be is excluded from the remote-identification item."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0384-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 384",
+      "unit_content_sha256": "2002754bef1e8362a7a535d8b5d22b33f2ae7f952097d26935ef91c0d614a712",
+      "unit_file_sha256": "868915f5b725066e07d3cc7ec4991f49616c778eb27e5eb8b6baeaa6ab0eef86",
+      "claim": "Annex III lists AI safety components used to manage or operate specified critical infrastructure as high-risk.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Covered infrastructure is critical digital infrastructure, road traffic, and supply of water, gas, heating or electricity."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0385-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 385",
+      "unit_content_sha256": "341e65744e127a2c34ba2c9f723dee338916e9585ffcfe0b4a9c5fa5e8be0198",
+      "unit_file_sha256": "1db693db6a61960f935297d7de32f99076ff75b4abf382582fafa2f9f8393d5d",
+      "claim": "Annex III lists specified educational and vocational-training AI uses as high-risk.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Uses cover access, admission or assignment; learning-outcome assessment including learning guidance; evaluation of an appropriate educational level; and monitoring or detection of prohibited exam behaviour.",
+        "The educational scope covers institutions at all levels."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0385-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 385",
+      "unit_content_sha256": "341e65744e127a2c34ba2c9f723dee338916e9585ffcfe0b4a9c5fa5e8be0198",
+      "unit_file_sha256": "1db693db6a61960f935297d7de32f99076ff75b4abf382582fafa2f9f8393d5d",
+      "claim": "Annex III lists AI intended for recruitment or selection of natural persons as high-risk.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Examples include targeted job advertisements, application analysis and filtering, and candidate evaluation."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0386-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 386",
+      "unit_content_sha256": "39e0d6604563bb782fc291eab7a28a0dcfba8bdf7aedd8e38ccf3b56c7cb8e6f",
+      "unit_file_sha256": "5407bd828cddc503d7eea8e3028ef2e123b4647c8b19c9a56f6ca91005711b8d",
+      "claim": "Annex III lists specified AI uses in employment and worker management as high-risk.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Uses include decisions affecting work relationships, promotion or termination; task allocation based on behaviour, personality traits or personal characteristics; and performance or behaviour monitoring and evaluation."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0386-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 386",
+      "unit_content_sha256": "39e0d6604563bb782fc291eab7a28a0dcfba8bdf7aedd8e38ccf3b56c7cb8e6f",
+      "unit_file_sha256": "5407bd828cddc503d7eea8e3028ef2e123b4647c8b19c9a56f6ca91005711b8d",
+      "claim": "Annex III lists specified AI uses affecting access to essential private services, public services and social benefits as high-risk.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Uses cover public-authority eligibility and benefit decisions, personal creditworthiness or credit scores except financial-fraud detection, life and health insurance risk assessment or pricing, and emergency-call evaluation or prioritisation, emergency dispatch, and emergency-healthcare triage."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0387-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 387",
+      "unit_content_sha256": "33907982e3f479ca4efdc03c60512958eba35f14f0706d1e79785f5a93305a71",
+      "unit_file_sha256": "5259f0db44a648402e6ddad2a7001d7cb39d06c8a2a04a4b676e2fead7353402",
+      "claim": "Annex III lists specified law-enforcement AI uses as high-risk where authorised by applicable Union or national law.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Uses shown are victim-risk assessment, polygraphs or similar tools, evidence-reliability assessment, and offending or reoffending risk assessment that is not based solely on profiling, as well as assessment of personality, characteristics or criminal history.",
+        "Covered users include law-enforcement authorities and Union institutions, bodies or agencies, including actors acting for or supporting them."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0388-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 388",
+      "unit_content_sha256": "25bd13f3d55aa2094c7dd8aa501865cf897150a774058980655bf329973bb40b",
+      "unit_file_sha256": "966cfdfec6b1fb08230ecc376383760bda423fff634157d5fb96325af864c118",
+      "claim": "Annex III includes law-enforcement profiling used in criminal-offence detection, investigation, prosecution or execution of criminal penalties among high-risk uses.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The provision references profiling under Article 3(4) of Directive (EU) 2016/680."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0388-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 388",
+      "unit_content_sha256": "25bd13f3d55aa2094c7dd8aa501865cf897150a774058980655bf329973bb40b",
+      "unit_file_sha256": "966cfdfec6b1fb08230ecc376383760bda423fff634157d5fb96325af864c118",
+      "claim": "Annex III lists specified AI uses for migration, asylum and border-control management as high-risk where authorised by applicable Union or national law.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Uses shown are polygraphs or similar tools, individual security, irregular-migration or health risk assessment, and assistance with asylum, visa or residence-permit applications and related complaints, including evidence-reliability assessment."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0389-01",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 389",
+      "unit_content_sha256": "eefb35b79f3d1f0ddbc90c5a85b6a71ac6dd402efdadcc2cec3e7f58851a044e",
+      "unit_file_sha256": "9c0708015d560b43aebd6339f54b858e3c9f1d12ddbac3ae9cf1a765ac3b1c09",
+      "claim": "Annex III lists AI used by or for competent public or Union authorities to detect, recognise or identify natural persons in migration, asylum or border-control management as high-risk.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "control",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Travel-document verification is excluded from this item.",
+        "Use must be authorised by applicable Union or national law."
+      ],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "S11-P0389-02",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 389",
+      "unit_content_sha256": "eefb35b79f3d1f0ddbc90c5a85b6a71ac6dd402efdadcc2cec3e7f58851a044e",
+      "unit_file_sha256": "9c0708015d560b43aebd6339f54b858e3c9f1d12ddbac3ae9cf1a765ac3b1c09",
+      "claim": "Annex III begins an administration-of-justice and democratic-processes category and identifies AI intended for use by or on behalf of judicial authorities to assist them.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The assigned unit ends before specifying the assisted task, so it supports no conclusion about that task or about election-related uses."
+      ],
+      "uncertainties": [
+        "The substantive scope continues beyond the assigned material."
+      ]
+    }
+  ],
+  "unresolved_items": [
+    "An independent evidence audit must confirm that this source hash is the authoritative, current and legally applicable AI Act text before any obligation or prohibition is accepted.",
+    "Exact application dates are outside this lot; the relative-date placeholder on Page 181 was not extracted as a date claim.",
+    "The current legal status and amendment history of the Annex I, Annex II and Annex III lists require independent audit before publication.",
+    "Cross-page candidates must be evaluated together where their qualifiers expressly identify a continuation on the next assigned locator."
+  ],
+  "warnings": [
+    "AUTHORITY_INPUT_REQUIRES_RECONFIRMATION",
+    "PAGE_181_RELATIVE_DATE_PLACEHOLDER_EXCLUDED",
+    "ANNEX_LIST_CURRENCY_REQUIRES_AUDIT"
+  ]
+}

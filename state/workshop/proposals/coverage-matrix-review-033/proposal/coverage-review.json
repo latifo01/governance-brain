@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-matrix-review-033",
+  "proposal_type": "criterion-level-coverage-audit",
+  "status": "PROPOSAL_READY",
+  "candidate_sha256": "1e7746804a565cb9af7e45ca6d2db872a7cbe8149159d21d4ef640a0fd256f13",
+  "active_vault_changes": false,
+  "config_changes": false,
+  "source_changes": false,
+  "human_approval_required": true,
+  "coverage_cells": 150,
+  "current_status_counts": {
+    "UNASSESSED": 150
+  },
+  "proposed_status_counts": {
+    "PROPOSAL_READY": 118,
+    "SOURCE_GAP": 20,
+    "EVIDENCE_READY": 12
+  },
+  "priority_counts": {
+    "P1": 130,
+    "P0": 20
+  },
+  "catalogue_sha256": "bb39e9ad7c81fbbd88f2a97394b9cf2e14bb6f28fcf8faf484f7756cdbae547c",
+  "coverage_matrix_sha256": "368c56204f8415aae1c9b821d5112d04bfa1699b6940aec2d84ddcafd28dd67d",
+  "evidence_index_sha256": "8c1db8e8d122a8039534915d0542b6cf026a3231fb533e89c3370a4af006ed60",
+  "recommended_sequence": [
+    "P0: resolve source routing/taxonomy gaps for AI strategy and data governance quality.",
+    "P1: run criterion-level evidence audits for legal, data protection, model risk, AI security, third parties, operational resilience and assurance.",
+    "P2: construct bounded proposals for remaining evidence-backed cells, then review questions and indexes.",
+    "Rebuild the derived matrix only after approved release records; rerun build/validate/evaluate."
+  ],
+  "approval_scope": "Approval permits this audit overlay to guide release planning only. It does not authorize active-vault, config, source, evidence-library or derived-matrix changes."
+}

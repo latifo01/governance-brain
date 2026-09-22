@@ -1,0 +1,33 @@
+{
+  "author_identity": "codex-benchmark-evidence-034-knowledge-architect",
+  "candidate_sha256": "5b05fa24933aa04c6b7caf35c9b5ca872bb17d5a167edc6e902c76f043188674",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "core-001-business-purpose",
+      "core-002-accountable-owner",
+      "iso-42001"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "GOVERNANCE_ACCOUNTABILITY",
+  "evidence_changes": true,
+  "files": [
+    "Norms & Frameworks/iso-42001.md",
+    "questions/core/core-001-business-purpose.md",
+    "questions/core/core-002-accountable-owner.md"
+  ],
+  "proposal_id": "benchmark-evidence-034-governance-core",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "governance-core"
+  ],
+  "status": "INTEGRATED"
+}

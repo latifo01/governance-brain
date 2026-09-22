@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "stage": "EXTRACT",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "source_id": "SRC-0017",
+  "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+  "assignment_sha256": "f846571485ca7684b5fe6c40f96aeb091624e26a1075d48a0b741e99c454d451",
+  "coverage": {
+    "assigned_locators": [
+      "Page 2",
+      "Page 3",
+      "Page 5",
+      "Page 6",
+      "Page 11",
+      "Page 12"
+    ],
+    "covered_locators": [
+      "Page 2",
+      "Page 3",
+      "Page 5",
+      "Page 6",
+      "Page 11",
+      "Page 12"
+    ],
+    "omitted": []
+  },
+  "evidence_candidates": [
+    {
+      "candidate_id": "w2-012-src-0017-ec-001",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 2",
+      "unit_content_sha256": "49053f6e7528412dddf6563c304f6a143e9065f7b342a82cc35e4a25dbc3a0e9",
+      "unit_file_sha256": "9e45a12f6336ed5ab8e64aa57757482913326238b7db8d425767c1a71b8fd1b6",
+      "claim": "The Commission guidelines treat AI-system determination as the threshold step for AI Act scope and call for a system-specific assessment rather than mechanical use of an exhaustive list.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The guidelines expressly state that they are non-binding."
+      ],
+      "uncertainties": [
+        "The controlling definition and legal effects require confirmation against the reviewed AI Act text."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-002",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 3",
+      "unit_content_sha256": "f62b10bc2498d7dbeb06ff99223f173276542904a9f68b440bf27f9a5cb7c7f6",
+      "unit_file_sha256": "941aee572b2afc330fee2c0394b860803c3362014ee9ceca30cb74103c381083",
+      "claim": "The guidelines decompose the AI-system definition into seven elements: machine basis, varying autonomy, possible post-deployment adaptiveness, explicit or implicit objectives, inference from inputs, specified output categories, and possible influence on physical or virtual environments.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The decomposition is interpretive guidance for applying Article 3(1)."
+      ],
+      "uncertainties": [
+        "Each element must be audited against binding text before publication as a rule."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-003",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 3",
+      "unit_content_sha256": "f62b10bc2498d7dbeb06ff99223f173276542904a9f68b440bf27f9a5cb7c7f6",
+      "unit_file_sha256": "941aee572b2afc330fee2c0394b860803c3362014ee9ceca30cb74103c381083",
+      "claim": "The guidelines use a lifecycle view in which definition elements may appear during building or use and need not remain continuously observable in both phases.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Assessment should consider pre-deployment and post-deployment characteristics."
+      ],
+      "uncertainties": [
+        "The evidential threshold for each element is not fully specified on this page."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-004",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 5",
+      "unit_content_sha256": "ee8ff77614401b816911b5322f13c45aa4a35396ec70f5f6a5e9771f2027eeb2",
+      "unit_file_sha256": "406018865bb3967fffd4a6aa8513d9ff4c335d3d609b063c4a736a7eb19d4408",
+      "claim": "The level of autonomy is described as relevant to risk mitigation and human-oversight design, especially in high-risk contexts.",
+      "evidence_kind": "dependency",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The appropriate oversight depends on intended purpose and the use context."
+      ],
+      "uncertainties": [
+        "This source does not define a universal autonomy threshold."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-005",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 5",
+      "unit_content_sha256": "ee8ff77614401b816911b5322f13c45aa4a35396ec70f5f6a5e9771f2027eeb2",
+      "unit_file_sha256": "406018865bb3967fffd4a6aa8513d9ff4c335d3d609b063c4a736a7eb19d4408",
+      "claim": "Post-deployment adaptiveness is described as optional: a system can meet the AI-system definition without self-learning or behavioural change after deployment.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Autonomy and adaptiveness are treated as distinct concepts."
+      ],
+      "uncertainties": [
+        "Binding confirmation is required because this is non-binding interpretation."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-006",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 5",
+      "unit_content_sha256": "ee8ff77614401b816911b5322f13c45aa4a35396ec70f5f6a5e9771f2027eeb2",
+      "unit_file_sha256": "406018865bb3967fffd4a6aa8513d9ff4c335d3d609b063c4a736a7eb19d4408",
+      "claim": "The guidelines distinguish an internal explicit or implicit system objective from the provider-defined intended purpose and deployment context.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Internal objectives can arise from encoded goals, training data, or interaction with an environment."
+      ],
+      "uncertainties": [
+        "Intended-purpose evidence may also depend on documentation and workflow integration described beyond this page."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-007",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 6",
+      "unit_content_sha256": "9d8c59a83af3d61f0c16a0633698eea3f4208f714f7f39e762c0b74a2b8349cc",
+      "unit_file_sha256": "050d84ec3d750f84be24a155c64f3ba4834ecebe6023c7ed82d5f4c4911228ee",
+      "claim": "The capability to infer how to generate outputs is treated as the key distinction from software that only executes rules fully specified by natural persons.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The guidance links inference to both model or algorithm derivation and output generation."
+      ],
+      "uncertainties": [
+        "Borderline deterministic and rules-based systems require case-specific technical evidence and binding-source review."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-008",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 6",
+      "unit_content_sha256": "9d8c59a83af3d61f0c16a0633698eea3f4208f714f7f39e762c0b74a2b8349cc",
+      "unit_file_sha256": "050d84ec3d750f84be24a155c64f3ba4834ecebe6023c7ed82d5f4c4911228ee",
+      "claim": "The guidelines interpret inference across the building and use phases rather than limiting it to producing an output from a given input at runtime.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The underlying techniques used to build the system are relevant to this interpretation."
+      ],
+      "uncertainties": [
+        "The boundary between covered inference and ordinary software remains fact-sensitive."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-009",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 11",
+      "unit_content_sha256": "79eb2d46c5d1a82b1ac1114ebe1d49f02be20e08df71509475c2fbff8f00a5fd",
+      "unit_file_sha256": "ee1025244a42aaaf14155e65c3bf10ba56eac384c57c71c2253599eba24d3b99",
+      "claim": "The guidelines present very basic statistical baselines and static mean estimators as examples outside the AI-system definition despite their possible use of elementary learning methods.",
+      "evidence_kind": "exception",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The examples concern basic benchmark performance rather than a general exemption for all statistical systems."
+      ],
+      "uncertainties": [
+        "This boundary is interpretive, potentially fact-sensitive, and must not be treated as a binding safe harbour."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-010",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 11",
+      "unit_content_sha256": "79eb2d46c5d1a82b1ac1114ebe1d49f02be20e08df71509475c2fbff8f00a5fd",
+      "unit_file_sha256": "ee1025244a42aaaf14155e65c3bf10ba56eac384c57c71c2253599eba24d3b99",
+      "claim": "The output element is described through four broad categories: predictions, content, recommendations, and decisions.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The categories differ in function and degree of human involvement."
+      ],
+      "uncertainties": [
+        "A system output may require contextual classification where categories overlap."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-011",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 12",
+      "unit_content_sha256": "dc2cf5f775d9ea006459378300e8d2768e52ea7cf95be699f56a4f0d08d4f576",
+      "unit_file_sha256": "2a2c44ec8befff288f5bd3b714192e45daffc8231e53ac7b208049fd86666718",
+      "claim": "The guidelines distinguish recommendations that remain subject to human evaluation from decisions that directly produce an outcome without human intervention.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "Automatically applying a recommendation may change its functional classification."
+      ],
+      "uncertainties": [
+        "Actual workflow and human influence must be evidenced rather than inferred from product labels."
+      ]
+    },
+    {
+      "candidate_id": "w2-012-src-0017-ec-012",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "locator": "Page 12",
+      "unit_content_sha256": "dc2cf5f775d9ea006459378300e8d2768e52ea7cf95be699f56a4f0d08d4f576",
+      "unit_file_sha256": "2a2c44ec8befff288f5bd3b714192e45daffc8231e53ac7b208049fd86666718",
+      "claim": "The environmental-influence element includes effects on physical or virtual environments and is linked to how generated outputs operate in the surrounding workflow or system.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The source continues this explanation beyond the assigned page."
+      ],
+      "uncertainties": [
+        "The assigned excerpt ends before the full discussion of this element."
+      ]
+    }
+  ],
+  "unresolved_items": [
+    "The assigned Page 12 excerpt ends before the complete explanation of influence on physical or virtual environments; no completion was inferred."
+  ],
+  "warnings": [
+    "Authority limited to non-binding Commission interpretation; definition boundaries remain pending independent evidence audit."
+  ]
+}

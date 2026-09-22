@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "1e5926c67d747f99c5ac0c38d6bf119f77364c25492d6257d4a45b73d935b6eb",
+  "reviewer_identity": "codex-dpia-fria-rights-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The strict release resolves four reviewed BINDING GDPR evidence references through one hash-bound receipt.",
+      "evidence_lock_sha256": "f0ec780789853bc6e922e1d2c5ca04f0f714cd91717ab7648736395f52520fa3"
+    },
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "The deterministic preview is valid for one knowledge note and one bilingual question; the active vault remains unchanged.",
+      "candidate_sha256": "1e5926c67d747f99c5ac0c38d6bf119f77364c25492d6257d4a45b73d935b6eb",
+      "files": 2,
+      "would_write": 2
+    },
+    {
+      "severity": "INFO",
+      "code": "SCOPE_CONFIRMED",
+      "detail": "The release adds only rights routing content and does not modify existing DPIA/FRIA notes, taxonomy, contracts, prompts or sources."
+    },
+    {
+      "severity": "WARNING",
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "detail": "Current legal currency remains unknown and must be considered by the human approver.",
+      "status": "OPEN"
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "Approval is required for this exact candidate before integration.",
+      "approval_file": "state/workshop/proposals/dpia-fria-rights-lot-022/review/approval.md"
+    }
+  ]
+}

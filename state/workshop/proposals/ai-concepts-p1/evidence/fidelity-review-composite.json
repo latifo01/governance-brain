@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p1",
+  "reviewer_identity": "codex-ai-concepts-p1-fidelity-reviewer",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "method": "Hash-bound local fidelity review results composed from the assigned P1 review and previously reviewed local unit checks; no source originals were read by the evidence auditor.",
+  "results": [
+    {"source_id":"SRC-0043","source_sha256":"0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386","locator":"Page 7","unit_file_sha256":"6786de3d46cbb24f26cd07a520c0b8beb5e333ce9210b68393dcf7980f3f0ad6","unit_content_sha256":"a7fc3d6255fcf51d20f8e5f4a2cefcfdfe55a5c38f049a5575271421b4460703","result":"REVIEWED"},
+    {"source_id":"SRC-0043","source_sha256":"0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386","locator":"Page 11","unit_file_sha256":"4e5305317711b2ed82f01464e42c64e00831bcf5c95ff3a18061280e28d271cf","unit_content_sha256":"a3cf3e6b04d625bbee045244ff7cb85e1595dc60a22e3d61df5951b66b5fcec6","result":"REVIEWED"},
+    {"source_id":"SRC-0043","source_sha256":"0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386","locator":"Page 13","unit_file_sha256":"e529a174243a38368a5992b6cab34a5f5ecee78acef66d940811ce5b72ba779b","unit_content_sha256":"97bb6ec9fb89cc43568170d953fca2f619dc562ba95d35d9f8c8d2c6ac0bdf19","result":"REVIEWED"},
+    {"source_id":"SRC-0019","source_sha256":"addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e","locator":"Page 17","unit_file_sha256":"75da428cacab3ff484038147b772fcd5a141292c09d262b300741162899cdf34","unit_content_sha256":"0d7abe6dc16bfed27098e5b4651a9f4bc3e03f2ec1ae81eabd862d29f1c482dc","result":"REVIEWED"},
+    {"source_id":"SRC-0019","source_sha256":"addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e","locator":"Page 18","unit_file_sha256":"7e043b7294d6fcb3b6928b0787e0a749dbad6301dbba9929d5a31fb4406b5e9d","unit_content_sha256":"db6349ecb112f36782bdf37eadf626bbfab5e9af85228bcd34742686eac15845","result":"REVIEWED"},
+    {"source_id":"SRC-0026","source_sha256":"ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e","locator":"Page 29","unit_file_sha256":"3977930be1b902ab733a05e9483d790df500d9baac9207913aac3214b6737cf5","unit_content_sha256":"9e407de8648438a981a58e580ce0232d8a6c3cbd7a6a8e09eb1791c4f031ac4a","result":"REVIEWED"},
+    {"source_id":"SRC-0026","source_sha256":"ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e","locator":"Page 69","unit_file_sha256":"4ad652b46995046a69ce17e0c6637d80c531ff71769aafedca233dba699a803a","unit_content_sha256":"b7c508698ac14c3fae1c7753d41844db832719cb089fa7013832cc16886825e1","result":"REVIEWED"},
+    {"source_id":"SRC-0034","source_sha256":"b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176","locator":"Page 7","unit_file_sha256":"9c4aab7169ee5dd17c0bf25a844881c11516365ffe0e0e1ba6f762521cf89ec9","unit_content_sha256":"21018d2b84c3129d75d570222b76c35a07a5260a96cb5c5970cffca8f8c5d6eb","result":"REVIEWED"},
+    {"source_id":"SRC-0034","source_sha256":"b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176","locator":"Page 15","unit_file_sha256":"ff39e7b9a97034a9f0714ccbbae1b96be0d72f5cd30f9b12ec991a201a06039f","unit_content_sha256":"e01852a1797313c80e9f146a215e07a151fe56220a6e7c716be506f0bf5617ff","result":"REVIEWED"},
+    {"source_id":"SRC-0034","source_sha256":"b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176","locator":"Page 19","unit_file_sha256":"e550b40dc2f90686cddf9b83f56d7d284c4d04ace0eed339b472110c8d9d93ba","unit_content_sha256":"5c1eff0a6421aeb8017decfcf540b89636af476c70283fed92a33d5a8a8f9a92","result":"REVIEWED"},
+    {"source_id":"SRC-0034","source_sha256":"b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176","locator":"Page 25","unit_file_sha256":"e97464e7c53ea21a5d96421cbfcf3c2228fadb237588ff4002dc67a5d550987f","unit_content_sha256":"b023cc6c9feddf914505b3deb4ab4561aca708963bd7396aab98b2baafcea180","result":"REVIEWED"}
+  ],
+  "findings": [
+    {"severity":"INFO","code":"ALL_ASSIGNED_LOCATORS_REVIEWED","detail":"All eleven assigned P1 locators have exact source, unit content and unit file hash coverage."},
+    {"severity":"WARNING","code":"COMPOSITE_INPUTS","detail":"The composite records preserve hashes and verdicts from the assigned and previously reviewed local fidelity checks; they do not establish legal correctness or source completeness."}
+  ]
+}

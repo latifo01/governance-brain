@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-037-traceability-supply-chain",
+  "stage": "KNOWLEDGE_AND_QUESTION_PROPOSAL",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/traceability.md",
+      "id": "traceability"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "Famous AI incidents/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+      "id": "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+    }
+  ],
+  "evidence": {
+    "receipt": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/evidence-library-receipt.json",
+    "shared_receipt_destination": "state/workshop/evidence-library/benchmark-evidence-037-traceability-supply-chain.json",
+    "evidence_lock_sha256": "3e6071a16888d66151cf534536769f787e545611e3b334b312962d4335adfa21"
+  },
+  "approval": "PENDING"
+}

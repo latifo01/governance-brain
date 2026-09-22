@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gov360.local/schemas/relation.schema.json",
+  "title": "Governance Brain controlled vault relation",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "relation_id",
+    "relation_type",
+    "subject_id",
+    "subject_type",
+    "target_id",
+    "target_type",
+    "evidence_refs",
+    "affected_domains",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "relation_id": {"type": "string", "pattern": "^REL-[A-F0-9]{16,64}$"},
+    "relation_type": {
+      "enum": [
+        "defines",
+        "requires",
+        "applies_to",
+        "exception_to",
+        "depends_on",
+        "conflicts_with",
+        "supersedes",
+        "related_to"
+      ]
+    },
+    "subject_id": {"type": "string", "minLength": 1},
+    "subject_type": {"enum": ["SOURCE", "CONCEPT", "RULE", "DOMAIN", "QUESTION", "MAP"]},
+    "target_id": {"type": "string", "minLength": 1},
+    "target_type": {"enum": ["SOURCE", "CONCEPT", "RULE", "DOMAIN", "QUESTION", "MAP"]},
+    "evidence_refs": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "affected_domains": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"},
+      "uniqueItems": true
+    },
+    "reason": {"type": "string"},
+    "resolution_error": {"type": "string"},
+    "status": {"enum": ["PROPOSED", "PUBLISHED", "UNRESOLVED", "SUPERSEDED", "REJECTED"]},
+    "subject_path": {"type": "string"},
+    "target_path": {"type": "string"}
+  }
+}

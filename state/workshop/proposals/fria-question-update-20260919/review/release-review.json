@@ -1,0 +1,79 @@
+{
+  "candidate_sha256": "7e1537498e7d875504f0e1e4c7898d78367d42cc08df174500c34bc1bf9252e5",
+  "checks": {
+    "candidate_hash": "PASS_7e1537498e7d875504f0e1e4c7898d78367d42cc08df174500c34bc1bf9252e5",
+    "deterministic_preview": "PASS_VALID_NO_ACTIVE_WRITE",
+    "evidence_lock": "PASS_SHA_30b383690a37d5c4923e251a735f5b3b5212024608dd05493043444daf92db7c",
+    "evidence_review": "PASS_EVIDENCE_READY",
+    "future_active_note_hash": "PASS_EQUAL_c1f936b9a8cfefc65ab27788999391ead5fddcf6b27578b3b3fb5884a835ded3",
+    "ingest_unchanged": "PASS",
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "proposal_validation": "PASS_ZERO_ERRORS",
+    "receipt_reference_uniqueness": "PASS_3_OF_3_UNIQUE_AND_GLOBAL",
+    "shared_receipt": "PASS_SHA_c3bbae5eb42e0b966c8b6b65bec727416672b34e473e31c7481497dcbff352ce",
+    "sources_unchanged": "PASS"
+  },
+  "evidence_lock_sha256": "30b383690a37d5c4923e251a735f5b3b5212024608dd05493043444daf92db7c",
+  "findings": [
+    {
+      "code": "CORRECTION_SCOPE_CONFIRMED",
+      "detail": "The correction is limited to globally unique evidence-reference IDs; the question text, frontmatter, section structure and active note content are unchanged.",
+      "severity": "INFO"
+    },
+    {
+      "code": "EVIDENCE_LOCK_HASH_CONFIRMED",
+      "detail": "Current evidence-lock SHA is 30b383690a37d5c4923e251a735f5b3b5212024608dd05493043444daf92db7c; it matches the exact lock used by the deterministic preview.",
+      "severity": "INFO"
+    },
+    {
+      "code": "UNIQUE_RECEIPT_CONFIRMED",
+      "detail": "The shared receipt contains 3 unique evidence references, the lock contains the same three references, and no reference collides with another evidence-library receipt.",
+      "severity": "INFO"
+    },
+    {
+      "code": "BINDINGS_RESOLVED",
+      "detail": "Both substantive question sections bind to the corrected receipt-local IDs; all three records are BINDING EU evidence with declared locators and fidelity inputs.",
+      "severity": "INFO"
+    },
+    {
+      "code": "EVIDENCE_REVIEW_CONFIRMED",
+      "detail": "The evidence review is EVIDENCE_READY and binds the corrected lock SHA; shared receipt SHA is c3bbae5eb42e0b966c8b6b65bec727416672b34e473e31c7481497dcbff352ce.",
+      "severity": "INFO"
+    },
+    {
+      "code": "PREVIEW_REPRODUCED",
+      "detail": "Deterministic preview is valid with candidate SHA 7e1537498e7d875504f0e1e4c7898d78367d42cc08df174500c34bc1bf9252e5, one proposal file and no active-vault write.",
+      "severity": "INFO"
+    },
+    {
+      "code": "ACTIVE_CONTENT_UNCHANGED",
+      "detail": "Future note SHA c1f936b9a8cfefc65ab27788999391ead5fddcf6b27578b3b3fb5884a835ded3 equals active note SHA c1f936b9a8cfefc65ab27788999391ead5fddcf6b27578b3b3fb5884a835ded3; the correction introduces no active Markdown change.",
+      "severity": "INFO"
+    },
+    {
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "Strict legal/evidence publication still requires a new exact human approval for this corrected candidate before integration.",
+      "severity": "WARNING"
+    }
+  ],
+  "limitations": [
+    "The Article 27 applicability question remains conditional; this review does not assert a universal FRIA obligation.",
+    "The release review validates evidence identity and candidate integrity; it does not replace human legal approval.",
+    "The prior pre-fix receipt remains historical audit material and is not used as the locked release receipt."
+  ],
+  "proposal_id": "fria-question-update-20260919",
+  "reviewed_at": "2026-09-19T23:59:00+02:00",
+  "reviewer_identity": "codex-fria-question-correction-independent-release-reviewer",
+  "schema_version": 1,
+  "scope": {
+    "active_content_changed": false,
+    "changes": [
+      "UPDATE legal-002-fria-trigger evidence-reference identifiers only"
+    ],
+    "files": 1,
+    "human_approval_required": true,
+    "question_contract_changed": false,
+    "source_content_changed": false
+  },
+  "verdict": "READY_FOR_HUMAN_APPROVAL"
+}

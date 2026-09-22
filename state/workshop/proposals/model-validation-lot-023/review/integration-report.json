@@ -1,0 +1,28 @@
+{
+  "candidate_sha256": "7b3e53c0194494a7bcfa2f6c0efda055ed5b915363c96142041bb75f16d2fd99",
+  "derived": {
+    "canvas_sha256": "c25ca415eda3b53132617541d6a394700ab58e5294c3789da5ad5d884e3743db",
+    "dependencies": 19,
+    "questions": 34,
+    "registry_sha256": "06bb5aeb39119c0f9dcb751186cf513c43b99166569db5fb8c4afb12d7dfceb3"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-data-quality-and-validation.md",
+      "proposal_id": "model-validation-lot-023",
+      "sha256": "e414321ce8ed38107c9853f6a58e9bd30d5c2c27c4dcfcdc2044bccc1585a49e"
+    },
+    {
+      "path": "questions/risk/risk-011-data-quality-evaluation.md",
+      "proposal_id": "model-validation-lot-023",
+      "sha256": "362d03e75eae834512b7e7966fb5e89a2b0bc9cc15455fa9501e7b1a55c1b2d3"
+    }
+  ],
+  "materialized_files": 2,
+  "notes": 119,
+  "proposal_ids": [
+    "model-validation-lot-023"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "proposal_id": "aml-m0029-lot-014",
+  "stage": "EVIDENCE_AUDIT",
+  "status": "AUDITED",
+  "source_id": "SRC-0044",
+  "source_sha256": "7ea87e5b8ca5d4e67c261026abc331a977231d0d379c41a9f20c1eae2cb326e4",
+  "assignment_sha256": null,
+  "extraction_receipt_sha256": "1fda9159147bf647b0ff3efa3f501a6e547178e64ceabadcf28889ef15c99bde",
+  "authority_verdict": "NON_BINDING_SECURITY_KNOWLEDGE",
+  "authority_basis": "MITRE ATLAS is a threat-informed security knowledge base. The reviewed material supports mitigations, controls, and context; it does not establish legal obligations or prohibitions.",
+  "coverage": {
+    "candidate_ids_assigned": ["aml-m0029-src-0044-ec-001", "aml-m0029-src-0044-ec-002", "aml-m0029-src-0044-ec-003", "aml-m0029-src-0044-ec-004"],
+    "candidate_ids_audited": ["aml-m0029-src-0044-ec-001", "aml-m0029-src-0044-ec-002", "aml-m0029-src-0044-ec-003", "aml-m0029-src-0044-ec-004"],
+    "omitted": []
+  },
+  "verdicts": [
+    {"candidate_id": "aml-m0029-src-0044-ec-001", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The mitigation record identifies AML.M0029, its stable name, canonical URL, STIX identifier, creation date, and last-modified date in the assigned mitigations unit."},
+    {"candidate_id": "aml-m0029-src-0044-ec-002", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned relationship rows support that AML.M0029 mitigates AML.T0053 AI Agent Tool Invocation, with a stable relationship identifier and locator."},
+    {"candidate_id": "aml-m0029-src-0044-ec-003", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned relationship rows support that AML.M0029 mitigates AML.T0086 Exfiltration via AI Agent Tool Invocation, with a stable relationship identifier and locator."},
+    {"candidate_id": "aml-m0029-src-0044-ec-004", "status": "VERIFIED", "reason_code": "SUPPORTED", "finding": "The assigned relationship rows support that AML.M0029 mitigates AML.T0101 Data Destruction via AI Agent Tool Invocation, with a stable relationship identifier and locator."}
+  ],
+  "evidence": [
+    {"candidate_id": "aml-m0029-src-0044-ec-001", "locator": "Sheet mitigations, cells A31:G31", "unit_content_sha256": "40c394482b3ed721d1dcac04c388ba937504849e80a17b9e30af8a6060fa8527", "unit_file_sha256": "54ceaa9042f8801898d089f3c5eeeb462eb546c928445d3c9b33c8cb42facbed"},
+    {"candidate_id": "aml-m0029-src-0044-ec-002", "locator": "Sheet techniques addressed, rows 279", "unit_content_sha256": "89bcc4d4fe2305e1a36664bba417292f8ab116337b3ed9a8da7c78ffb1752f1b", "unit_file_sha256": "55f5d77efd51b35bc13ee0f62530cff19de35075e3a79eb324cb69bc16e4d837"},
+    {"candidate_id": "aml-m0029-src-0044-ec-003", "locator": "Sheet techniques addressed, rows 280", "unit_content_sha256": "89bcc4d4fe2305e1a36664bba417292f8ab116337b3ed9a8da7c78ffb1752f1b", "unit_file_sha256": "55f5d77efd51b35bc13ee0f62530cff19de35075e3a79eb324cb69bc16e4d837"},
+    {"candidate_id": "aml-m0029-src-0044-ec-004", "locator": "Sheet techniques addressed, rows 281", "unit_content_sha256": "89bcc4d4fe2305e1a36664bba417292f8ab116337b3ed9a8da7c78ffb1752f1b", "unit_file_sha256": "55f5d77efd51b35bc13ee0f62530cff19de35075e3a79eb324cb69bc16e4d837"}
+  ],
+  "unresolved_items": [],
+  "warnings": ["The source and all accepted evidence are non-binding security knowledge; legal or regulatory conclusions require separate reviewed binding sources.", "No visual review was required for the native spreadsheet units."]
+}

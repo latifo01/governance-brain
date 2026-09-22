@@ -1,0 +1,4 @@
+# Preserve the exact bytes recorded by source, ingest and handoff manifests.
+# Repository scripts already use portable line endings; Git must not rewrite
+# evidence or historical workshop artefacts during a Windows checkout.
+* -text

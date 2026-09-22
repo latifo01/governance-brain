@@ -1,0 +1,65 @@
+{
+  "release_id": "pilot2-consolidation-001",
+  "reviewer_identity": "opencode-release-reviewer-20260916",
+  "reviewed_at": "2026-09-16T00:00:00+00:00",
+  "lane": "strict",
+  "candidate_sha256": "bbb75b12c8ad314ffd452b45e014db992000ff1461817544b4be8b58618eeb88",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_DIFF_WITHIN_SCOPE",
+      "message": "Overlay diff matches exactly the described corrections for all four notes."
+    },
+    {
+      "severity": "INFO",
+      "code": "BINDINGS_MATCH_OVERLAY",
+      "message": "All receipt bindings match the overlay note sections and claims."
+    },
+    {
+      "severity": "INFO",
+      "code": "GUIDANCE_BOUNDARY_HELD",
+      "message": "No obligation/prohibition binding relies solely on GUIDANCE items."
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_VERIFIED",
+      "message": "Evidence lock lists exactly the union of evidence items of the four receipts, with correct unit paths and hashes, and its declared sha256 matches."
+    },
+    {
+      "severity": "INFO",
+      "code": "RECEIPT_REVIEWS_VERIFIED",
+      "message": "Each receipt's embedded review block binds the correct candidate hash, reviewer_identity is opencode-pilot2-evidence-review, and the verdict is EVIDENCE_READY with all bindings VERIFIED."
+    },
+    {
+      "severity": "INFO",
+      "code": "MANIFEST_CONSISTENT",
+      "message": "Receipts list, vault note list, fidelity file paths, and review identities in manifest.json match the actual files, and evidence_lock.sha256 equals the lock's sha256."
+    },
+    {
+      "severity": "INFO",
+      "code": "LINKS_RESOLVE",
+      "message": "Obsidian links inside the overlay notes resolve to existing note ids in the overlay or in the live brain wiki vault, with no placeholders or new dangling links."
+    },
+    {
+      "severity": "INFO",
+      "code": "LANE_STRICT_JUSTIFIED",
+      "message": "risk_tier: strict is justified by the presence of binding claims and legal interpretation."
+    },
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_HASH_REPRODUCED",
+      "message": "Candidate hash reproduces correctly as bbb75b12c8ad314ffd452b45e014db992000ff1461817544b4be8b58618eeb88."
+    },
+    {
+      "severity": "INFO",
+      "code": "BOUNDED_REVIEW_ONLY",
+      "message": "Review does not grant publication approval; human approval is a separate hash-bound decision."
+    },
+    {
+      "severity": "WARNING",
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "message": "Valid_from and valid_until are null for all evidence items, requiring jurisdiction-specific legal review."
+    }
+  ]
+}

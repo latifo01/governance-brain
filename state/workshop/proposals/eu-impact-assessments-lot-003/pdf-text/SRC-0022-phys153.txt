@@ -1,0 +1,45 @@
+                                    Unit 8. Deployment
+
+
+   -   The technical properties of AI might create complications for the exercise of data
+       subject rights, which organizations need to address.
+          o Some of these rights will require an organization to engage with upstream
+             providers.
+          o Others require delicate trade-offs, given the limitations of current
+             techniques.
+   -   The broad definition of automated decision-making under the GDPR case law
+       means that organizations might be subject to Article 22 GDPR even if there is
+       some measure of human involvement in the loop.
+These factors mean that organizations need to adopt measures and safeguards that
+address residual (and potentially large) risks that connect to deployment. In the next
+unit, we will examine some of the tools they can use for this purpose.
+
+Exercises
+Exercise 1. Which of the following measures is required by the AI Act’s literacy
+mandate?
+a. Providing detailed technical training for all staff.
+b. Ensuring literacy tailored to the context and roles of individuals.
+c. Prohibiting staff from using AI unless they have a training certification.
+d. Restricting AI literacy efforts to technical staff only.
+e. Offering voluntary AI literacy programs for select employees.
+Exercise 2. How does an AI literacy programme support compliance with GDPR
+obligations?
+a. By ensuring staff understand how AI systems process personal data and address
+associated risks.
+b. By replacing the need for technical measures with organizational training.
+c. By mandating universal AI literacy certification for all employees.
+d. By exempting organizations from GDPR requirements if literacy programmes are in
+place.
+e. The literacy mandate is independent from data protection duties.
+Exercise 3. What makes rectifying data in AI systems challenging?
+a. Data is encoded in multiple storage locations throughout the cloud.
+b. AI systems resist manual updates.
+c. Neural networks store data in distributed parameters.
+d. GDPR does not require rectification for AI systems.
+e. Data protection authorities lack enforcement mechanisms.
+
+
+
+
+                                             140
+

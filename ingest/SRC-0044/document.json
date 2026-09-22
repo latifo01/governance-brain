@@ -1,0 +1,105 @@
+{
+  "adapter_id": "spreadsheet",
+  "adapter_version": "1.1.0",
+  "data_artifacts": [],
+  "domains": [
+    "AI_SECURITY"
+  ],
+  "inventory": {
+    "metadata": {
+      "calculation_mode": null,
+      "chart_count": 0,
+      "defined_name_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "macros_present": false,
+      "sheet_count": 2,
+      "sheets": [
+        {
+          "chart_count": 0,
+          "comment_count": 0,
+          "image_count": 0,
+          "max_column": 8,
+          "max_row": 40,
+          "merged_range_count": 0,
+          "table_count": 0,
+          "title": "mitigations",
+          "visibility": "visible"
+        },
+        {
+          "chart_count": 0,
+          "comment_count": 0,
+          "image_count": 0,
+          "max_column": 13,
+          "max_row": 347,
+          "merged_range_count": 0,
+          "table_count": 0,
+          "title": "techniques addressed",
+          "visibility": "visible"
+        }
+      ]
+    },
+    "native_unit_count": 2,
+    "normalized_unit_count": 3,
+    "unit_count": 3,
+    "warnings": []
+  },
+  "metrics": {
+    "sheet_count": 2,
+    "unit_count": 3
+  },
+  "relative_source_paths": [
+    "sources/02_AI_Security_Frameworks/excel-atlas-mitigations-2026.08.xlsx"
+  ],
+  "schema_version": 1,
+  "source_format": "xlsx",
+  "source_id": "SRC-0044",
+  "source_kind": "mixed",
+  "source_sha256": "7ea87e5b8ca5d4e67c261026abc331a977231d0d379c41a9f20c1eae2cb326e4",
+  "units": [
+    {
+      "content_sha256": "40c394482b3ed721d1dcac04c388ba937504849e80a17b9e30af8a6060fa8527",
+      "file_sha256": "54ceaa9042f8801898d089f3c5eeeb462eb546c928445d3c9b33c8cb42facbed",
+      "filename": "units/sheet-001-mitigations-001.md",
+      "index": 1,
+      "locator": "Sheet mitigations, cells A1:H40",
+      "locator_kind": "sheet_range",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "677e44e260f629f6fbde9d115e590c98dffa5cb0c62021ff2ae0fc8bb8517eed",
+      "file_sha256": "639dadd05961717046e4d91cf430e86786bb7abbfebc1a2fe0971b54521d7d4e",
+      "filename": "units/sheet-002-techniques addressed-001.md",
+      "index": 2,
+      "locator": "Sheet techniques addressed, cells A1:M250",
+      "locator_kind": "sheet_range",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "89bcc4d4fe2305e1a36664bba417292f8ab116337b3ed9a8da7c78ffb1752f1b",
+      "file_sha256": "55f5d77efd51b35bc13ee0f62530cff19de35075e3a79eb324cb69bc16e4d837",
+      "filename": "units/sheet-002-techniques addressed-002.md",
+      "index": 3,
+      "locator": "Sheet techniques addressed, cells A251:M347",
+      "locator_kind": "sheet_range",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 482296,
+      "native_unit_count": 2,
+      "normalized_unit_count": 3
+    },
+    "valid": true,
+    "warnings": [
+      "sheet-001-mitigations-001.md exceeds max_markdown_chars because its native unit was not split",
+      "sheet-002-techniques addressed-001.md exceeds max_markdown_chars because its native unit was not split",
+      "sheet-002-techniques addressed-002.md exceeds max_markdown_chars because its native unit was not split"
+    ]
+  },
+  "warnings": []
+}

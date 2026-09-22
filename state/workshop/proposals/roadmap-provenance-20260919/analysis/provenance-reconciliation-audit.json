@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "workstream": "roadmap-point-4-provenance-reconciliation",
+  "method": "Read-only reconciliation of current Brain diagnostics, release receipts and evidence index; no historical receipt rewritten.",
+  "brain_status": {
+    "catalogue_sha256": "ab2dd0ba2370ed98d42cf6f762be694e2726b0a11035b239c57c40af8dc2c460",
+    "evidence_findings": 0,
+    "llm_calls": 0,
+    "llm_cost": null,
+    "note_types": {
+      "index": 9,
+      "knowledge": 96,
+      "question": 43
+    },
+    "notes": 148,
+    "orphan_knowledge": 7,
+    "publication_verified_notes": 118,
+    "reviewed_sections": 294,
+    "schema_version": 1,
+    "sections": 796,
+    "sources": 46,
+    "valid": true
+  },
+  "warning_count": 35,
+  "warnings": [
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `ai-model-backtesting`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `ai-model-fairness-and-bias-avoidance`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `red-teaming`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `data-leakage`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `hallucinations`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `mit-ai-risk-initiative`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `toxic-or-biased-outputs`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `digital-omnibus`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `sr-11-7`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `2022-air-canada-chatbot`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `2023-chevrolet-of-watsonville`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `ai-impact-assessment-aiia`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `aiuc-1`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `iso-23894`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `iso-27001`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `iso-31000`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `mitre-atlas`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `nist-ai-rmf`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `cjeu`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `cosai`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `edpb`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `edps`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `european-ai-office-eaio`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `risk-004-model-documentation-completeness`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `risk-006-guardrail-placement`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `risk-007-red-team-remediation`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `risk-009-misinformation-overreliance`",
+    "WARNING `PUBLICATION_LINEAGE_UNRESOLVED` — `risk-010-sensitive-data-disclosure-surfaces`",
+    "WARNING `NO_INCOMING_LINK` — `ai-conformity-assessment`",
+    "WARNING `NO_INCOMING_LINK` — `explainability-and-interpretability`",
+    "WARNING `NO_INCOMING_LINK` — `model-and-concept-drift`",
+    "WARNING `NO_INCOMING_LINK` — `open-weight-models`",
+    "WARNING `NO_INCOMING_LINK` — `privacy-preserving-ai`",
+    "WARNING `NO_INCOMING_LINK` — `synthetic-data`",
+    "WARNING `NO_INCOMING_LINK` — `uncertainty-and-calibration`"
+  ],
+  "historical_release_findings": [
+    {
+      "proposal_id": "aml-m0029-lot-014",
+      "status": "INTEGRATED",
+      "findings": [
+        "EMPTY_EVIDENCE_LOCK"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "atlas-complementarity-lot-015",
+      "status": "INTEGRATED",
+      "findings": [
+        "EMPTY_EVIDENCE_LOCK"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "atlas-incident-enrichment-lot-016",
+      "status": "INTEGRATED",
+      "findings": [
+        "PUBLICATION_RECEIPT_HISTORICAL_ONLY",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT"
+      ],
+      "evidence_refs": 18
+    },
+    {
+      "proposal_id": "atlas-navigation-lot-017",
+      "status": "INTEGRATED",
+      "findings": [
+        "EMPTY_EVIDENCE_LOCK"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "domain-navigation-proposal",
+      "status": "INTEGRATED",
+      "findings": [
+        "PUBLICATION_RECEIPT_HISTORICAL_ONLY",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "governance-navigation-lot-021",
+      "status": "INTEGRATED",
+      "findings": [
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "EMPTY_EVIDENCE_LOCK"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "legal-regulatory-release-013",
+      "status": "INTEGRATED",
+      "findings": [
+        "PUBLICATION_RECEIPT_HISTORICAL_ONLY",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT"
+      ],
+      "evidence_refs": 6
+    },
+    {
+      "proposal_id": "orphan-link-repair-032",
+      "status": "INTEGRATED",
+      "findings": [
+        "EMPTY_EVIDENCE_LOCK"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "orphan-navigation-lot-018",
+      "status": "INTEGRATED",
+      "findings": [
+        "EMPTY_EVIDENCE_LOCK"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "status": "INTEGRATED",
+      "findings": [
+        "PUBLICATION_RECEIPT_HISTORICAL_ONLY",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "wave-2-ai-act-gate-lot-012",
+      "status": "INTEGRATED",
+      "findings": [
+        "PUBLICATION_RECEIPT_HISTORICAL_ONLY",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT"
+      ],
+      "evidence_refs": 0
+    },
+    {
+      "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+      "status": "INTEGRATED",
+      "findings": [
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT",
+        "ACTIVE_NOTE_DIFFERS_FROM_RECEIPT"
+      ],
+      "evidence_refs": 0
+    }
+  ],
+  "required_actions": [
+    "Revalidate historical publication receipts against current active note hashes without granting retroactive evidence eligibility.",
+    "Resolve or explicitly quarantine the listed publication-lineage warnings.",
+    "Keep unresolved evidence excluded from assistance mode; research mode remains explicitly labelled.",
+    "Rebuild this diagnostic after each approved evidence release."
+  ],
+  "conclusion": "Technical validation is valid and current evidence findings are zero; provenance remediation remains open for historical lineage warnings."
+}

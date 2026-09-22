@@ -1,0 +1,265 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "stage": "EXTRACT",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "assignment_sha256": "bb2fd3f548a09ec530f45f17e029af16f18946d4efa2f34e70a062d1d5a26b30",
+  "scope": {
+    "target_ids": [
+      "data-protection-impact-assessments-dpia",
+      "fundamental-right-impact-assessment-fria",
+      "gdpr"
+    ],
+    "source_ids": ["SRC-0010", "SRC-0011", "SRC-0022"],
+    "assigned_units": 8
+  },
+  "coverage": [
+    {
+      "source_id": "SRC-0010",
+      "assigned_locators": ["Page 53", "Page 54", "Page 55", "Page 56"],
+      "covered_locators": ["Page 53", "Page 54", "Page 55", "Page 56"],
+      "omitted": [],
+      "unresolved_items": []
+    },
+    {
+      "source_id": "SRC-0011",
+      "assigned_locators": ["Page 220", "Page 224"],
+      "covered_locators": ["Page 220", "Page 224"],
+      "omitted": [],
+      "unresolved_items": []
+    },
+    {
+      "source_id": "SRC-0022",
+      "assigned_locators": ["Page 183", "Page 184"],
+      "covered_locators": ["Page 183", "Page 184"],
+      "omitted": [],
+      "unresolved_items": [
+        "The unit is educational training material; it is retained as contextual evidence and not as a source of binding obligations."
+      ]
+    }
+  ],
+  "evidence_candidates": [
+    {
+      "candidate_id": "art35-src-0010-p0053-ec-001",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "locator": "Page 53",
+      "locator_kind": "page",
+      "unit_content_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "claim": "Article 35(1) GDPR requires a controller to carry out, before processing, a data protection impact assessment where a type of processing, particularly using new technologies and considering its nature, scope, context and purposes, is likely to result in a high risk to the rights and freedoms of natural persons. A single assessment may cover similar processing operations presenting similar high risks.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The assessment trigger and timing are stated in Article 35(1); applicability remains dependent on the processing facts and the GDPR scope."
+      ],
+      "uncertainties": [],
+      "relevance": "Primary operative evidence for when a DPIA is required before an AI or other processing operation."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0053-ec-002",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "locator": "Page 53",
+      "locator_kind": "page",
+      "unit_content_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "claim": "Article 35(2) GDPR requires the controller to seek the advice of the data protection officer when carrying out a DPIA, where a data protection officer has been designated. Article 35(3) identifies systematic and extensive automated evaluation with significant effects, large-scale processing of special categories or criminal-conviction data, and large-scale systematic monitoring of publicly accessible areas as cases in which a DPIA is particularly required.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The wording 'in particular' in Article 35(3) does not by itself exclude other Article 35(1) high-risk processing."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports DPO involvement and the statutory examples used in DPIA applicability screening."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0054-ec-001",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "locator": "Page 54",
+      "locator_kind": "page",
+      "unit_content_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "claim": "Article 35(7) GDPR requires the DPIA to contain at least a systematic description of the envisaged processing and purposes, an assessment of necessity and proportionality, an assessment of risks to data subjects, and the measures and safeguards envisaged to address those risks and demonstrate compliance while taking relevant rights and interests into account.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The provision states minimum content; it does not prescribe one document format or one risk methodology."
+      ],
+      "uncertainties": [],
+      "relevance": "Primary evidence for the minimum content and structure of a DPIA knowledge or questionnaire record."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0054-ec-002",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "locator": "Page 54",
+      "locator_kind": "page",
+      "unit_content_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "claim": "Article 35(9) GDPR provides that, where appropriate, the controller should seek the views of data subjects or their representatives on the intended processing, subject to protecting commercial or public interests and processing security. Article 35(11) requires a review when necessary, at least when the risk represented by processing operations changes.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The consultation of data subjects is qualified by 'where appropriate'; the review duty is tied to necessity and at least to a change in represented risk."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports stakeholder consultation and risk-change review triggers in DPIA lifecycle controls."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0055-ec-001",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0055.md",
+      "locator": "Page 55",
+      "locator_kind": "page",
+      "unit_content_sha256": "83c741ba577b5114be7bb2c0c72e5de2d340f17f52abe7b456c2d17e3273e7a6",
+      "unit_file_sha256": "78c3645c460e6113f1b1539edf29dc962889414c6c9473c766c596936836a232",
+      "claim": "For prior consultation under Article 36 GDPR, the controller must provide the supervisory authority with the DPIA and, where applicable, information about controller, joint-controller and processor responsibilities, the intended purposes and means, safeguards, and the data protection officer's contact details; Member State law may impose additional consultation or prior-authorisation requirements in specified public-interest processing.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This candidate concerns the Article 36 prior-consultation pathway and is not a general requirement to consult a supervisory authority for every DPIA."
+      ],
+      "uncertainties": [],
+      "relevance": "Defines the evidence package and boundary conditions for escalation after a DPIA indicates residual high risk."
+    },
+    {
+      "candidate_id": "art35-src-0010-p0056-ec-001",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0056.md",
+      "locator": "Page 56",
+      "locator_kind": "page",
+      "unit_content_sha256": "826e663bfd0750f1bb0efe656171c909eac064b5ae449477847fded5f4500adc",
+      "unit_file_sha256": "d2ce304d76b14d06d891e5a6b99f3ccb4da45a079755d66e7aec85c36376184c",
+      "claim": "Article 39(1)(c) GDPR assigns the data protection officer the task of providing advice, where requested, on the data protection impact assessment and monitoring its performance pursuant to Article 35; the officer must have regard to the risk associated with processing operations when performing these tasks.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The candidate concerns the DPO's statutory tasks and does not by itself determine whether a DPO must be designated."
+      ],
+      "uncertainties": [],
+      "relevance": "Connects Article 35 DPIA governance with the DPO advisory and monitoring role."
+    },
+    {
+      "candidate_id": "art35-src-0011-p0220-ec-001",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0220.md",
+      "locator": "Page 220",
+      "locator_kind": "page",
+      "unit_content_sha256": "aa9a070bfc5cc4147319318f88b78f4607d4e7a7c2e515b94862a6ac75109d4f",
+      "unit_file_sha256": "f0ba15053d06d6a000f5e018964f5a6aab23491633837e0b5ce8722f0a49eeb8",
+      "claim": "Article 26(9) of the AI Act provides that, where applicable, deployers of high-risk AI systems use the information supplied under Article 13 to comply with their obligation to conduct a data protection impact assessment under Article 35 GDPR or Article 27 of Directive (EU) 2016/680.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The cross-reference applies where applicable and does not replace the separate applicability analysis under GDPR Article 35."
+      ],
+      "uncertainties": [],
+      "relevance": "Provides an AI Act to GDPR hand-off for high-risk-system deployers and relevant provider information."
+    },
+    {
+      "candidate_id": "art35-src-0011-p0224-ec-001",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0224.md",
+      "locator": "Page 224",
+      "locator_kind": "page",
+      "unit_content_sha256": "5edbe42945883163e8dc196dcb1b61ff9bb64f8f7e9dd5907ea14ade0b26fdf1",
+      "unit_file_sha256": "0a49dfed270bf3c88f4bbaaaa155339bbc088a974bdf61abc002ed9da34c19f1",
+      "claim": "Article 27(4) of the AI Act states that when an obligation is already fulfilled through a data protection impact assessment under Article 35 GDPR or Article 27 of Directive (EU) 2016/680, the fundamental-rights impact assessment complements that DPIA. Article 27(5) assigns the AI Office the task of preparing a questionnaire template to help deployers comply with Article 27.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This is an AI Act provision about the relationship between FRIA and DPIA; it does not establish that every AI deployment requires either assessment."
+      ],
+      "uncertainties": [],
+      "relevance": "Supports non-duplicative coordination between FRIA and DPIA records and informs questionnaire design."
+    },
+    {
+      "candidate_id": "art35-src-0022-p0183-ec-001",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0183.md",
+      "locator": "Page 183",
+      "locator_kind": "page",
+      "unit_content_sha256": "b5832f79403b2780a9b45501fbb1fd3a7e1762c0f663a116795cd194da24b11c",
+      "unit_file_sha256": "38c56f210b3b5ae0fd14426a6f9aca9c919a5122a172906ec87b33df28287840",
+      "claim": "The training material explains that AI model development or use involving novel technologies and potentially high risk may fall within the type of processing addressed by GDPR Article 35(1), and it describes the GDPR DPIA, AI Act FRIA and broader human-rights impact assessments as related but distinct assessment instruments.",
+      "evidence_kind": "context",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This is educational material and not primary legal authority; its examples and interpretation require confirmation against the operative GDPR and AI Act provisions."
+      ],
+      "uncertainties": [
+        "The training unit's references to systemic-risk and special-category thresholds are explanatory and should not be treated as a complete legal applicability test."
+      ],
+      "relevance": "Provides contextual orientation for linking DPIA, FRIA and HRIA concepts without collapsing their legal bases."
+    },
+    {
+      "candidate_id": "art35-src-0022-p0184-ec-001",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0184.md",
+      "locator": "Page 184",
+      "locator_kind": "page",
+      "unit_content_sha256": "6a40946bac1517882ab84710f47e58de79b47b0a4d72dd4fb967a18a8dfab32c",
+      "unit_file_sha256": "335b59550a39ba358eb15d38135ff203a281456ff70139e7d4b0e8396a6df59f",
+      "claim": "The training material lists example FRIA elements such as the deployer's intended processes and usage period, affected persons or groups, likely harms, human-oversight measures and response arrangements, and explains that DPIA work may be relevant when preparing FRIA or HRIA documentation.",
+      "evidence_kind": "context",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The unit is a learning resource; the operative legal requirements for FRIA are the AI Act provisions and any applicable guidance, not this training summary."
+      ],
+      "uncertainties": [
+        "The training material does not establish a universal combined-assessment format or eliminate the need to check the applicable legal scope."
+      ],
+      "relevance": "Supports a linked assessment workflow while preserving the distinction between DPIA, FRIA and HRIA."
+    }
+  ],
+  "classification_proposals": [
+    {
+      "source_id": "SRC-0010",
+      "proposed_authority": "BINDING",
+      "basis": "Official GDPR operative text covering Articles 35, 36 and 39; exact legal applicability and temporal scope remain subject to audit."
+    },
+    {
+      "source_id": "SRC-0011",
+      "proposed_authority": "BINDING",
+      "basis": "Official AI Act operative text covering Article 26(9) and Article 27(4)-(5); the extracted passages are cross-references and assessment coordination provisions."
+    },
+    {
+      "source_id": "SRC-0022",
+      "proposed_authority": "GUIDANCE",
+      "basis": "SPE/EDPB training material used for contextual and interpretive explanation; it is not primary authority for an obligation or prohibition."
+    }
+  ],
+  "unresolved_items": [
+    "Independent audit must confirm every locator and source/unit hash before an evidence lock is created.",
+    "The audit must verify the source authority, applicable version and temporal scope of the GDPR and AI Act passages before binding publication.",
+    "The Article 35 release must not infer complete DPIA applicability from the training material or from the AI Act cross-references alone.",
+    "No active vault note, question, catalogue or Canvas change is authorised by this extraction."
+  ],
+  "warnings": [
+    "This is an evidence extraction receipt only; it grants no review, authority, publication or human approval.",
+    "All candidates are paraphrases bounded to the assigned validated Markdown units; no original source file was read or modified by this receipt.",
+    "The training source is retained for context and must remain visibly distinct from binding legal evidence."
+  ]
+}

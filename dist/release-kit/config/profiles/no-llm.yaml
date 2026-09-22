@@ -1,0 +1,9 @@
+schema_version: 1
+profile_id: no-llm
+llm_enabled: false
+network_policy: none
+requires_explicit_egress_authorization: false
+max_light_workers: 2
+max_heavy_workers: 1
+max_llm_workers: 0
+

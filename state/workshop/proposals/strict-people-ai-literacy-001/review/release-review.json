@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "proposal_id": "strict-people-ai-literacy-001",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "9bc17ff79c9e722b3db777f24a01323260bb66b6040f4641d8d343ef09fb715e",
+  "evidence_lock_sha256": "58f87886cdc3f901322152e643c35ebf23acf7e7a3b1ac96dbae7d98af839b72",
+  "reviewer_identity": "strict-people-ai-literacy-001-independent-release-reviewer",
+  "reviewed_at": "2026-09-20T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic integration preview validates the combined eight-file candidate with valid=true and would_write=8; no active-vault write was applied.",
+      "candidate_sha256": "9bc17ff79c9e722b3db777f24a01323260bb66b6040f4641d8d343ef09fb715e"
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "All locked references resolve as reviewed through the isolated proposal receipt, with exact section bindings for every substantive proposed section.",
+      "evidence_lock_sha256": "76d1129155ada0bcc6375e42e413302b07aea93bef05314b6408cc3215db7ce9"
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "Source identifiers, source hashes, validated ingest unit paths, unit hashes, fidelity inputs and stable locators are preserved."
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_AND_LINKS_VALID",
+      "detail": "The 2 proposed Markdown files pass deterministic schema, domain, filename and link validation."
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "Guidance, framework and research material remains qualified as non-binding; no legal obligation or prohibition is asserted."
+    },
+    {
+      "severity": "WARNING",
+      "code": "BOUNDED_SCOPE",
+      "detail": "Evidence readiness does not establish legal currency, completeness or project-specific applicability; human review remains required."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This review establishes readiness only. Approval must bind the exact candidate SHA-256 before integration.",
+      "approval_file": "state/workshop/proposals/strict-people-ai-literacy-001/review/approval.md"
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_RESOLVED",
+    "shared_receipt": "PASS_EXACT_SECTION_BINDINGS",
+    "evidence_review": "PASS_EVIDENCE_READY",
+    "authority_boundary": "PASS_NO_BINDING_SOURCE_OR_CLAIM",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS"
+  }
+}

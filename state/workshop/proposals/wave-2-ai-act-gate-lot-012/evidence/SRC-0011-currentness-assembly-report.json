@@ -1,0 +1,24 @@
+{
+  "assembly_rule": "Add only RESOLVED_VERIFIED base candidates with their amendment hashes and temporal conditions; exclude superseded or rejected candidates; preserve deterministic evidence identity and ordering.",
+  "counts": {
+    "binding_usable_added": 29,
+    "resolutions": 30,
+    "resolved_rejected_excluded": 1,
+    "resolved_verified_added": 29,
+    "verified_registry_total": 125
+  },
+  "excluded_candidate_ids": [
+    "S11-P0377-01"
+  ],
+  "input_verified_evidence_sha256": "ff9a7b2e148b9bdb9175d86227373c74e681210abf4a14b81f624f3945428ed7",
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "resolution_receipt": {
+    "path": "evidence/audits/SRC-0011-currentness-resolution.json",
+    "sha256": "b05f4924723ffa98a78d90ec74a9cdb617014e956e722ef8a89683f6555132d1"
+  },
+  "schema_version": 1,
+  "stage": "CURRENTNESS_RESOLUTION_ASSEMBLY",
+  "status": "ASSEMBLED",
+  "verified_evidence_path": "evidence/verified-evidence.jsonl",
+  "verified_evidence_sha256": "0d0ee7c4485ccda22f110a4da12fd6768e883511e03e0426d0c37f480bab0dab"
+}

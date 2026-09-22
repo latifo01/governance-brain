@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "proposal_id": "aml-m0029-lot-014",
+  "stage": "KNOWLEDGE_SYNTHESIS",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/human-in-the-loop-for-ai-agent-actions.md",
+      "id": "human-in-the-loop-for-ai-agent-actions",
+      "evidence_refs": ["aml-m0029-src-0044-ec-001", "aml-m0029-src-0044-ec-002", "aml-m0029-src-0044-ec-003", "aml-m0029-src-0044-ec-004"]
+    },
+    {
+      "change_type": "NOOP",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/human-oversight.md",
+      "id": "human-oversight",
+      "reason": "Existing note already covers human authority and agent action gates; the dedicated note supplies the ATLAS-specific evidence without duplicating content."
+    },
+    {
+      "change_type": "NOOP",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/genai-guardrails.md",
+      "id": "genai-guardrails",
+      "reason": "Existing note already covers tool validation and human approval; the dedicated note supplies the ATLAS-specific evidence without duplicating content."
+    }
+  ],
+  "evidence": {
+    "source_id": "SRC-0044",
+    "source_sha256": "7ea87e5b8ca5d4e67c261026abc331a977231d0d379c41a9f20c1eae2cb326e4",
+    "audit_sha256": "9576c7f8908b28fa596d1565e1b00f37db8ed9c7a5e90208a22d5313de617b48"
+  },
+  "approval": "PENDING"
+}

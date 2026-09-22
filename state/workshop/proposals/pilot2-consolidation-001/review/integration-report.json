@@ -1,0 +1,38 @@
+{
+  "candidate_sha256": "44c3ef2fb3d98b73fb1edbff9f87098a92d91a384c1486d4d73586bdc613d28c",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/fundamental-right-impact-assessment-fria.md",
+      "proposal_id": "pilot2-consolidation-001",
+      "sha256": "01f1103b14e4d4f1f55c8890e04d82b62ca965ea49a44ddf2faca63e7aa5fa54"
+    },
+    {
+      "path": "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md",
+      "proposal_id": "pilot2-consolidation-001",
+      "sha256": "876850a8b4cc4bf0c265cc574f6114a6874c8e1cfde40d3694c11fdb6ce8261b"
+    },
+    {
+      "path": "Data & AI Laws/ai-act-prohibited-practices.md",
+      "proposal_id": "pilot2-consolidation-001",
+      "sha256": "1fd587acee3d4988cd26c84fa3f3462ea5b68ea6c61565fbf392fe62a231e828"
+    },
+    {
+      "path": "Data & AI Laws/high-risk-ai-system-classification.md",
+      "proposal_id": "pilot2-consolidation-001",
+      "sha256": "b0d5f9c9ca11e26e5fa8f0c9baa11a7e815a6551f1fb0e5a69b0cb63337d8161"
+    }
+  ],
+  "materialized_files": 4,
+  "notes": 108,
+  "proposal_ids": [
+    "pilot2-consolidation-001"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

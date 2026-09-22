@@ -1,0 +1,85 @@
+{
+  "candidate_sha256": "685ae2662fb43c82180e4f2853bf799699fc478f0b38674e76e5cdd1fa16efaf",
+  "checks": {
+    "active_vault": "PASS_UNCHANGED",
+    "candidate_hash": "PASS_685ae2662fb43c82180e4f2853bf799699fc478f0b38674e76e5cdd1fa16efaf",
+    "evidence_lock": "PASS_EMPTY_ALLOWED_FOR_INDEX_ONLY_OVERLAY",
+    "ingest": "PASS_UNCHANGED",
+    "link_semantics": "PASS_7_OF_7_REVIEWED",
+    "manifest": "PASS_FAST_NAVIGATION_ONLY",
+    "placeholders": "PASS_ZERO",
+    "proposal_validation": "PASS_ZERO_ERRORS",
+    "semantic_change_set": "PASS_HASH_BOUND_TO_PRIOR_ORPHAN_ANALYSIS",
+    "sources": "PASS_UNCHANGED",
+    "target_ids": "PASS_7_OF_7_EXIST"
+  },
+  "evidence_lock_sha256": "f4b0f32dfd201ccee404883bcc5678a5a2476419c42fd182da067d931fe94ef8",
+  "findings": [
+    {
+      "code": "SEMANTIC_LINK_SET_CONFIRMED",
+      "detail": "Seven existing orphan knowledge IDs are each linked exactly once from an existing domain index chosen for matching registered domains and subject scope.",
+      "severity": "INFO"
+    },
+    {
+      "code": "INDEX_ONLY_FAST_LANE",
+      "detail": "The overlay contains three index notes only; all added lines are navigation links, so no evidence binding or knowledge claim is introduced.",
+      "severity": "INFO"
+    },
+    {
+      "code": "NO_PLACEHOLDERS",
+      "detail": "Every target resolves to an existing active note; no new note, alias, ID or taxonomy value is created.",
+      "severity": "INFO"
+    },
+    {
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic preview reproduced candidate SHA 685ae2662fb43c82180e4f2853bf799699fc478f0b38674e76e5cdd1fa16efaf with three overlay files and three active-vault writes pending approval.",
+      "severity": "INFO"
+    },
+    {
+      "code": "ACTIVE_VAULT_UNCHANGED",
+      "detail": "The preview was run without --apply; the active vault remains unchanged.",
+      "severity": "INFO"
+    },
+    {
+      "code": "SOURCES_AND_INGEST_UNCHANGED",
+      "detail": "This fast-lane navigation proposal contains no source or ingest operation.",
+      "severity": "INFO"
+    },
+    {
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "Hash-bound human approval is still required before deterministic integration.",
+      "severity": "WARNING"
+    }
+  ],
+  "inputs": {
+    "diagnostic": "state/workshop/proposals/roadmap-parallel-20260919/provenance-orphans/provenance-orphan-diagnostic.json",
+    "semantic_orphan_analysis": {
+      "path": "state/workshop/proposals/orphan-provenance-review-20260919/analysis/orphan-link-repair-proposal.json",
+      "sha256": "5dcc47ab6895d67fc573c3d2ea2fa29d20e218ded25e3e9bf02550d0e2aabbc4"
+    }
+  },
+  "proposal_id": "orphan-link-repair-20260920",
+  "reviewed_at": "2026-09-20T00:10:00+02:00",
+  "reviewer_identity": "codex-orphan-link-repair-20260920-reviewer",
+  "schema_version": 1,
+  "scope": {
+    "changed_indexes": [
+      "ai-act-index",
+      "risk-index",
+      "data-protection-index"
+    ],
+    "contract_changes": false,
+    "evidence_changes": false,
+    "human_approval_required": true,
+    "orphan_targets": [
+      "ai-conformity-assessment",
+      "explainability-and-interpretability",
+      "model-and-concept-drift",
+      "open-weight-models",
+      "privacy-preserving-ai",
+      "synthetic-data",
+      "uncertainty-and-calibration"
+    ]
+  },
+  "verdict": "READY_FOR_HUMAN_APPROVAL"
+}

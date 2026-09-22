@@ -1,0 +1,15 @@
+schema_version: 1
+domain_id: DATA_PRIVACY
+slug: data-privacy
+status: ACTIVE
+labels:
+  en: Data Privacy
+  fr: Protection des données
+description: Personal-data governance, lawful processing, data-subject rights, privacy engineering, and privacy risk.
+question_prefix: DPR
+languages: [en, fr]
+source_roots:
+  - sources/04_Data_Protection
+review_policy: HUMAN_APPROVAL
+aliases: []
+

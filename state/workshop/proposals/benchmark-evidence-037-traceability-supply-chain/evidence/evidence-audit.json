@@ -1,0 +1,440 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-037-traceability-supply-chain",
+  "stage": "EVIDENCE_AUDIT",
+  "status": "AUDITED_WITH_UNCERTAINTIES",
+  "assignment_sha256": "ba6fc62bcbf8b2c927ee23bbbb7be76dd4c4ac4479e944d9346b17d8decb8d9b",
+  "extraction_receipts": [
+    {
+      "path": "extraction.json",
+      "sha256": "0372ec05f46cea9bc5f3fce9d57fc881aa213e5dc09f7924ea9ea98194e960a7",
+      "status": "EXTRACTED_PENDING_AUDIT",
+      "candidate_count": 23
+    }
+  ],
+  "authority_verdict": "NON_BINDING_FRAMEWORK_GUIDANCE_AND_DATASET_CONTEXT",
+  "authority_basis": "SRC-0035 is a non-binding technical framework, SRC-0036 is sectoral supervisory guidance, SRC-0038 is historical supervisory guidance, and SRC-0046 is a MITRE ATLAS dataset object. The reviewed material supports context, recommendations, supervisory expectations and incident description only; no source in this release is BINDING and no candidate supports a legal obligation or prohibition.",
+  "coverage": {
+    "assigned_source_count": 4,
+    "assigned_unit_count": 19,
+    "candidate_count": 23,
+    "candidate_ids_assigned": [
+      "be037-src-0035-ec-001",
+      "be037-src-0035-ec-002",
+      "be037-src-0035-ec-003",
+      "be037-src-0035-ec-004",
+      "be037-src-0035-ec-005",
+      "be037-src-0035-ec-006",
+      "be037-src-0035-ec-007",
+      "be037-src-0035-ec-008",
+      "be037-src-0035-ec-009",
+      "be037-src-0035-ec-010",
+      "be037-src-0035-ec-011",
+      "be037-src-0036-ec-001",
+      "be037-src-0036-ec-002",
+      "be037-src-0036-ec-003",
+      "be037-src-0036-ec-004",
+      "be037-src-0038-ec-001",
+      "be037-src-0038-ec-002",
+      "be037-src-0038-ec-003",
+      "be037-src-0038-ec-004",
+      "be037-src-0038-ec-005",
+      "be037-src-0038-ec-006",
+      "be037-src-0038-ec-007",
+      "be037-src-0046-ec-001"
+    ],
+    "candidate_ids_audited": [
+      "be037-src-0035-ec-001",
+      "be037-src-0035-ec-002",
+      "be037-src-0035-ec-003",
+      "be037-src-0035-ec-004",
+      "be037-src-0035-ec-005",
+      "be037-src-0035-ec-006",
+      "be037-src-0035-ec-007",
+      "be037-src-0035-ec-008",
+      "be037-src-0035-ec-009",
+      "be037-src-0035-ec-010",
+      "be037-src-0035-ec-011",
+      "be037-src-0036-ec-001",
+      "be037-src-0036-ec-002",
+      "be037-src-0036-ec-003",
+      "be037-src-0036-ec-004",
+      "be037-src-0038-ec-001",
+      "be037-src-0038-ec-002",
+      "be037-src-0038-ec-003",
+      "be037-src-0038-ec-004",
+      "be037-src-0038-ec-005",
+      "be037-src-0038-ec-006",
+      "be037-src-0038-ec-007",
+      "be037-src-0046-ec-001"
+    ],
+    "verified_count": 21,
+    "uncertain_count": 2,
+    "rejected_count": 0,
+    "omitted": "Assigned units without retained candidates are listed per source; omission does not imply absence of relevant material."
+  },
+  "source_coverage": [
+    {
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "assigned_unit_count": 8,
+      "candidate_count": 11,
+      "verified_count": 9,
+      "uncertain_count": 2,
+      "rejected_count": 0,
+      "locators_assigned": [
+        "Page 4",
+        "Page 5",
+        "Page 6",
+        "Page 7",
+        "Page 8",
+        "Page 9",
+        "Page 11",
+        "Page 12"
+      ],
+      "candidate_locators": [
+        "Page 11",
+        "Page 12",
+        "Page 4",
+        "Page 5",
+        "Page 6",
+        "Page 7",
+        "Page 8",
+        "Page 9"
+      ],
+      "omitted_assigned_locators": []
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "assigned_unit_count": 3,
+      "candidate_count": 4,
+      "verified_count": 4,
+      "uncertain_count": 0,
+      "rejected_count": 0,
+      "locators_assigned": [
+        "Page 12",
+        "Page 13",
+        "Page 14"
+      ],
+      "candidate_locators": [
+        "Page 12",
+        "Page 13",
+        "Page 14"
+      ],
+      "omitted_assigned_locators": []
+    },
+    {
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "assigned_unit_count": 7,
+      "candidate_count": 7,
+      "verified_count": 7,
+      "uncertain_count": 0,
+      "rejected_count": 0,
+      "locators_assigned": [
+        "Page 11",
+        "Page 12",
+        "Page 13",
+        "Page 16",
+        "Page 17",
+        "Page 19",
+        "Page 21"
+      ],
+      "candidate_locators": [
+        "Page 11",
+        "Page 12",
+        "Page 13",
+        "Page 16",
+        "Page 17",
+        "Page 19",
+        "Page 21"
+      ],
+      "omitted_assigned_locators": []
+    },
+    {
+      "source_id": "SRC-0046",
+      "source_sha256": "6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c",
+      "assigned_unit_count": 1,
+      "candidate_count": 1,
+      "verified_count": 1,
+      "uncertain_count": 0,
+      "rejected_count": 0,
+      "locators_assigned": [
+        "/objects"
+      ],
+      "candidate_locators": [
+        "/objects"
+      ],
+      "omitted_assigned_locators": []
+    }
+  ],
+  "verdicts": [
+    {
+      "candidate_id": "be037-src-0035-ec-001",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 4",
+      "unit_content_sha256": "5378224d5a15efa98fd399d3c3c2a2f5951650b2c9f28e096bc9e1d7599ed233",
+      "unit_file_sha256": "bc2d44345fe4674129313201d2c3021f8b1a83c2e1e7956e754396f631669905",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-002",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 4",
+      "unit_content_sha256": "5378224d5a15efa98fd399d3c3c2a2f5951650b2c9f28e096bc9e1d7599ed233",
+      "unit_file_sha256": "bc2d44345fe4674129313201d2c3021f8b1a83c2e1e7956e754396f631669905",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-003",
+      "status": "UNCERTAIN",
+      "reason_code": "VISUAL_REVIEW_REQUIRED",
+      "finding": "The cited validated unit is marked REVIEW_REQUIRED; retain the candidate outside reviewed evidence until visual fidelity is resolved.",
+      "source_id": "SRC-0035",
+      "locator": "Page 5",
+      "unit_content_sha256": "2f9ef0d0eb80b27ec00adc8322a214b1c0ed2593795cae0b94881179e0aa10ee",
+      "unit_file_sha256": "808fea5ea2298c4dd026122cdaf6817d33752c037073eaa688fce8464a943050",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-004",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 6",
+      "unit_content_sha256": "d90b505cc47e3e727ae79ff85ec6aeaf1f48fa93dcdd16770e08e45fc90f5893",
+      "unit_file_sha256": "3114e952aa37a89e0922808e113e0378709e30101cb924d55a278295b5fd7a8d",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-005",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 7",
+      "unit_content_sha256": "474cdf9143a38d337191392f349b42bf22467abc575bfa0bf46752d8630cd9ca",
+      "unit_file_sha256": "04cb6b395e3668bc1eb39895801a47abb34578e889ae1439f5f5477c029a0251",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-006",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 7",
+      "unit_content_sha256": "474cdf9143a38d337191392f349b42bf22467abc575bfa0bf46752d8630cd9ca",
+      "unit_file_sha256": "04cb6b395e3668bc1eb39895801a47abb34578e889ae1439f5f5477c029a0251",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-007",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 8",
+      "unit_content_sha256": "c21aef3ffc00990518768009c959d0ebb412c75da02175de66e198dff7bf2718",
+      "unit_file_sha256": "49cdef8d9e82e2be473a132643605ae55ace6a64ee9bdf8acc8b04394f7d2a99",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-008",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 8",
+      "unit_content_sha256": "c21aef3ffc00990518768009c959d0ebb412c75da02175de66e198dff7bf2718",
+      "unit_file_sha256": "49cdef8d9e82e2be473a132643605ae55ace6a64ee9bdf8acc8b04394f7d2a99",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-009",
+      "status": "UNCERTAIN",
+      "reason_code": "VISUAL_REVIEW_REQUIRED",
+      "finding": "The cited validated unit is marked REVIEW_REQUIRED; retain the candidate outside reviewed evidence until visual fidelity is resolved.",
+      "source_id": "SRC-0035",
+      "locator": "Page 9",
+      "unit_content_sha256": "b5e40e1a093cdcbbad9cf024a3549619c74bab09802be4638e1581b5d6848fc1",
+      "unit_file_sha256": "d572eb93a618356f7974e63a8e4a2a2f3cb71a14b3534e35f6c39420abae62d3",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-010",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 11",
+      "unit_content_sha256": "29d42ebbce10232b72a931e49b542bcd9da2314d3fcf785dabfe566331d0a563",
+      "unit_file_sha256": "dcf99551b3e0556f741b62ca758ad9b15c40ec28897e5745917fe887640248ca",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-011",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0035",
+      "locator": "Page 12",
+      "unit_content_sha256": "7d3b72c8bd64e074cc642acf9013c83e36e50ca4e982865039506521703b98a7",
+      "unit_file_sha256": "d3057a00ce1e289c6cedf86b749cbc08ebf95d5c84590b28ba87bed493955d6d",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0036-ec-001",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0036",
+      "locator": "Page 12",
+      "unit_content_sha256": "03f780e0b8674338c40a8bd67a2edb8090dd3fe89a94878c7d9b9380548390bc",
+      "unit_file_sha256": "5e5a10bb006fdc14067d6432f75f831a0c1c9f0521d257e49f5b2e2c5abf4214",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0036-ec-002",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0036",
+      "locator": "Page 13",
+      "unit_content_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+      "unit_file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0036-ec-003",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0036",
+      "locator": "Page 13",
+      "unit_content_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+      "unit_file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0036-ec-004",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0036",
+      "locator": "Page 14",
+      "unit_content_sha256": "eb7ab2878d456a3a0de88f260af593d06ba057e235a856018f1cc764e4863c93",
+      "unit_file_sha256": "515e610648ddec4170cae79790f4028c7b21445b6f4c33536149946656d5af12",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-001",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0038",
+      "locator": "Page 11",
+      "unit_content_sha256": "1e0201351f4a60012b4536b63d721f147e3d349c1328a648170c45326d66ecc0",
+      "unit_file_sha256": "37dc3093d475cc43b7098a2c47861621a80f1e3eb62da0d2124d715037af8051",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-002",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0038",
+      "locator": "Page 12",
+      "unit_content_sha256": "7f9390fd52096a5b3bc250bfd9b57dcc22e8e206ca2bd0b8bab30c3f037d11da",
+      "unit_file_sha256": "27a185f9c92afbd081ec0ebcf2a98b4e69d1ef3d0c5538ed3d02779e1f965405",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-003",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0038",
+      "locator": "Page 13",
+      "unit_content_sha256": "f8160599c5188188953cc8075df0261f70060e8661bec04f38ddc927041bf281",
+      "unit_file_sha256": "9b3aae0931d35df1e2f027d875306496137fda259357359344df1c4d348c287c",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-004",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0038",
+      "locator": "Page 16",
+      "unit_content_sha256": "9f48480f34f2ebfb2526200d7af8ab5012cad1d7835de15d5f76c86039f72438",
+      "unit_file_sha256": "432214d3d8aabd35ae2eb83186e942b055ca1b2e47424f881c06a45a49b345b2",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-005",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0038",
+      "locator": "Page 17",
+      "unit_content_sha256": "58f3b63a79e14b11b1fd68c3968c556bcef3f3586f3b02c3adb7537c40be05bf",
+      "unit_file_sha256": "6368071efdd350f86a006381cd27346cf20fcb12dff541566550df519485e1d7",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-006",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0038",
+      "locator": "Page 19",
+      "unit_content_sha256": "6bda81bdf15c6c90c0f28801830d6089483769d49b276a668232290269c23c71",
+      "unit_file_sha256": "a3383565ded745c78dab35f32478c0c12faee58faf2a4086210c872aaf4de653",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-007",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0038",
+      "locator": "Page 21",
+      "unit_content_sha256": "61f377fca205b258d21a21a6fba4b39001f35673665eea58c33eafaaa14cdc2f",
+      "unit_file_sha256": "1689d72d3c2ca4dbe4514945ed84a7f397452b76e0b3d09d34ad0a00ce30b43a",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    },
+    {
+      "candidate_id": "be037-src-0046-ec-001",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BY_VALIDATED_UNIT_AND_LOCATOR",
+      "finding": "Claim is supported by the cited validated Markdown unit and stable locator; scope, authority and non-binding qualifiers are retained.",
+      "source_id": "SRC-0046",
+      "locator": "/objects",
+      "unit_content_sha256": "13c6eac080be6463bbeafa9ffd309df83ca5c421052f603bbbb34f8ce96d00ab",
+      "unit_file_sha256": "7b18ef3f2ed64ab84d1204bca642c073f03b8264b4a2fe3bb2f19ab84cbd5241",
+      "normativity_verdict": "NON_BINDING_CONTEXT_OR_RECOMMENDATION"
+    }
+  ],
+  "unresolved_items": [
+    "Candidates be037-src-0035-ec-003 and be037-src-0035-ec-009 cite SRC-0035 units marked REVIEW_REQUIRED; retain them as UNCERTAIN until authorised visual fidelity review is completed.",
+    "SRC-0035 is a non-binding framework; signing does not by itself establish performance, fairness, robustness, regulatory compliance or legal liability.",
+    "SRC-0036 is supervisory guidance with sectoral scope and cannot be presented as a universal legal requirement for all AI systems.",
+    "SRC-0038 is historical supervisory guidance; applicability and supersession require note-level qualification.",
+    "SRC-0046 AML.CS0027 is a dataset incident record. It supports the bounded researcher demonstration description only; it does not establish prevalence, a legal violation, that all Hugging Face organisations are affected, or a universal control obligation."
+  ],
+  "warnings": [
+    "All VERIFIED candidates are non-binding context or recommendations; source language was not upgraded to binding normativity.",
+    "The AML.CS0027 incident candidate is kept separate from supervisory model-risk guidance and from binding legal authority.",
+    "Two candidates remain outside reviewed evidence pending visual fidelity review. No source originals were read or modified.",
+    "Extraction integrity and this fidelity audit do not establish legal correctness, certification, or human publication approval."
+  ]
+}

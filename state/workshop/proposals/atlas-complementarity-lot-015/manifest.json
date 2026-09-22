@@ -1,0 +1,28 @@
+{
+  "candidate_sha256": "ebb6510eefd28d203293611f1b89b34e64dd08bce631dec77c27f84df2bfc721",
+  "changes": {
+    "ADD": [
+      "ai-agent-authority-expansion-controls",
+      "ai-agent-scope-drift-detection"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "AI_SECURITY",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/ai-agent-authority-expansion-controls.md",
+    "AI Risk Mitigations/ai-agent-scope-drift-detection.md"
+  ],
+  "proposal_id": "atlas-complementarity-lot-015",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 2,
+  "shards": [],
+  "status": "INTEGRATED"
+}

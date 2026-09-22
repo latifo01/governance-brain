@@ -1,0 +1,31 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "org29-src-0040-p0004",
+    "org29-src-0040-p0006",
+    "org29-src-0040-p0013",
+    "org29-src-0040-p0015",
+    "org29-src-0040-p0028",
+    "org29-src-0040-p0030",
+    "org29-src-0040-p0031",
+    "org29-src-0040-p0032",
+    "org29-src-0040-p0033",
+    "org29-src-0040-p0035",
+    "org29-src-0040-p0036",
+    "org29-src-0040-p0038",
+    "org29-src-0040-p0039",
+    "org29-src-0040-p0059",
+    "org29-src-0040-p0072",
+    "org29-src-0040-p0073",
+    "org29-src-0040-p0082",
+    "org29-src-0040-p0083",
+    "org29-src-0040-p0127",
+    "org29-src-0040-p0107"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/organisation-societal-lot-029.json",
+      "sha256": "fd89f9be758accb533ddcdc7ae4a2441d88b73e3c7a8a467441caf63e951a606"
+    }
+  ]
+}

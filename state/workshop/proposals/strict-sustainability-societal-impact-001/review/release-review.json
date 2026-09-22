@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "proposal_id": "strict-sustainability-societal-impact-001",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "9bc17ff79c9e722b3db777f24a01323260bb66b6040f4641d8d343ef09fb715e",
+  "evidence_lock_sha256": "3c72af0f9d530de03346cdbed29f893e36fffd554dd5c757f4f1fa5440d9b6e0",
+  "reviewer_identity": "strict-sustainability-societal-impact-001-independent-release-reviewer",
+  "reviewed_at": "2026-09-20T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic integration preview validates the combined eight-file candidate with valid=true and would_write=8; no active-vault write was applied.",
+      "candidate_sha256": "9bc17ff79c9e722b3db777f24a01323260bb66b6040f4641d8d343ef09fb715e"
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "All locked references resolve as reviewed through the isolated proposal receipt, with exact section bindings for every substantive proposed section.",
+      "evidence_lock_sha256": "062fd086e9e648cad093bb0696e2c6746778112a73775cb8fe1294037e047a7f"
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "Source identifiers, source hashes, validated ingest unit paths, unit hashes, fidelity inputs and stable locators are preserved."
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_AND_LINKS_VALID",
+      "detail": "The 3 proposed Markdown files pass deterministic schema, domain, filename and link validation."
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "Guidance, framework and research material remains qualified as non-binding; no legal obligation or prohibition is asserted."
+    },
+    {
+      "severity": "WARNING",
+      "code": "BOUNDED_SCOPE",
+      "detail": "Evidence readiness does not establish legal currency, completeness or project-specific applicability; human review remains required."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This review establishes readiness only. Approval must bind the exact candidate SHA-256 before integration.",
+      "approval_file": "state/workshop/proposals/strict-sustainability-societal-impact-001/review/approval.md"
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_RESOLVED",
+    "shared_receipt": "PASS_EXACT_SECTION_BINDINGS",
+    "evidence_review": "PASS_EVIDENCE_READY",
+    "authority_boundary": "PASS_NO_BINDING_SOURCE_OR_CLAIM",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS"
+  }
+}

@@ -1,0 +1,33 @@
+       Si les déployeurs sont des établissements financiers soumis à des exigences relatives à leur
+       gouvernance, à leurs dispositifs ou à leurs processus internes prévues par la législation de
+       l'Union sur les services financiers, la conformité avec les règles relatives à la gouvernance,
+       aux dispositifs, aux processus et aux mécanismes internes prévues dans la législation sur
+       les services financiers vaut respect de l'obligation de surveillance énoncée au premier
+       alinéa.
+
+6.     Les déployeurs de systèmes d'IA à haut risque assurent la tenue des journaux générés
+       automatiquement par ce système d'IA à haut risque dans la mesure où ces journaux se
+       trouvent sous leur contrôle, pendant une période adaptée à la destination du système d'IA à
+       haut risque, d'au moins six mois, sauf disposition contraire dans le droit de l'Union ou le
+       droit national applicable, en particulier dans le droit de l'Union sur la protection des
+       données à caractère personnel.
+
+       Si les déployeurs sont des établissements financiers soumis à des exigences relatives à leur
+       gouvernance, à leurs dispositifs ou à leurs processus internes prévues par la législation de
+       l'Union sur les services financiers, ils tiennent à jour les journaux dans le cadre de la
+       documentation conservée en vertu de la législation pertinente de l'Union sur les services
+       financiers.
+
+7.     Avant de mettre en service ou d'utiliser un système d'IA à haut risque sur le lieu de travail,
+       les déployeurs qui sont des employeurs informent les représentants des travailleurs et les
+       travailleurs concernés qu'ils seront soumis à l'utilisation du système d'IA à haut risque. Ces
+       informations sont fournies, le cas échéant, conformément aux règles et procédures prévues
+       par le droit de l'Union et le droit national et aux pratiques en matière d'information des
+       travailleurs et de leurs représentants.
+
+
+
+
+PE-CONS 24/1/24 REV 1                                                                               218
+                                                                                                    FR
+

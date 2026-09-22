@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "stage": "EVIDENCE_AUDIT",
+  "status": "AUDITED",
+  "source_id": "SRC-0022",
+  "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+  "assignment_sha256": "f846571485ca7684b5fe6c40f96aeb091624e26a1075d48a0b741e99c454d451",
+  "extraction_receipt_sha256": "d20593d3ae21d790b84cfa0d9a9eeb68f011735bb66a1b7b9a1f7ba3773018ae",
+  "authority_verdict": "NON_BINDING_TRAINING_CONTEXT",
+  "authority_basis": "Training material that summarises the same prohibited-practice and high-risk routes covered by higher-authority evidence in this lot; it cannot establish an obligation or prohibition.",
+  "coverage": {
+    "candidate_ids_assigned": [],
+    "candidate_ids_audited": [],
+    "omitted": [],
+    "noop_disposition": "SUPPORTED"
+  },
+  "verdicts": [],
+  "unresolved_items": [],
+  "warnings": [
+    "The zero-candidate NOOP disposition is supported: all three assigned units are non-binding training summaries and add no unique evidence required by this lot.",
+    "No content from SRC-0022 may be promoted as a binding obligation or prohibition."
+  ]
+}

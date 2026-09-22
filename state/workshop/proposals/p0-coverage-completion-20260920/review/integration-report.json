@@ -1,0 +1,138 @@
+{
+  "candidate_sha256": "62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d",
+  "derived": {
+    "canvas_sha256": "581fc66fcd86c15ef7b3c859ce440179fbce05c8f9a780f6cce8e1c656e71daa",
+    "dependencies": 29,
+    "questions": 47,
+    "registry_sha256": "120fe93fa20aa3d08e9969d7600a5303662e190ae9c06ec2f3bb8c2940a30210"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-definition-scope-terminology.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "fc408cc16160cc876f29fe766bd3df04b1e0a8ad282668d6cf6b718715915033"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-evidence-artifacts.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "30649c02413bc32a66c587f4de8b79108e7176eb46e21df1dc94b568a9b98ecd"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-exceptions-conflicts.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "e8e7e5b22eb3074ba11033e37164e54645aea6280a74aece4ac65724610b686c"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-lifecycle-controls.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "45bd02435ab3ace442c72a96e8923bf145ec5a496ea7e06e04fb51515989640a"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-metrics-monitoring-incidents.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "46582b15ed2f0ac84cdef3153a36d46c65a787de75eb897de67283b2eec994a1"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-questionnaire-coverage.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "01bfc1749e5a99e32ebe7623b6a86fadaed118795968a40d26e40089753356d5"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-risks-impacts.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "2a8dab3d711e5df396a647336aad469c52e32e7301dbb69f89dbcc7833086331"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-roles-decisions.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "a4276fabdfb02ead6540d24430a205a0651f9b2585bfd14200f7d2ee0995788f"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-strategy-value-source-provenance.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "dfcb68b3d5883ad7978304a5f5dbae3472838fd2a0a9cb28e9f5e7f4bad10128"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-definition-scope-terminology.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "ad047a848736d9b7c43d5bb0a639310fca60716e4e2e5858d421680ed3da0abb"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-evidence-artifacts.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "31883993d0013eebf93eb1738758e6f05b9a6758063007911aa865e705e3c978"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-exceptions-conflicts.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "e7ebfffe47d387dc1ff0806b4f34934b3f687d8af32b10872a008206052f52c2"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-lifecycle-controls.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "d3e91b96795ea7f47a3dd1df9a0763800b4cdcb877cb7a5a445e8c78120a48e0"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-metrics-monitoring-incidents.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "466e45152d0b82eb75020eb5820ed45f6190dd91784c052fb9838e34ac2b9665"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-questionnaire-coverage.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "81958170e46a8cc09afbd5ad7747d910b0ce8b82956e0c897266c20471d63fcd"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-risks-impacts.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "98370ae35d054deea9f63d2072846bdec06cbe2632b3e508e4d92a47f14368b8"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-roles-decisions.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "3700ebc7f1f3909547cc31528295cf7121d7845951a25587e1eec3af2caedb01"
+    },
+    {
+      "path": "AI Risk Mitigations/data-governance-quality-source-provenance.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "156e22cd86b7f90faea3235de8bae446569e12890eed752f357fbb3e8a79920b"
+    },
+    {
+      "path": "indexes/ai-strategy-value-index.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "b025e0e4a3943a4cdb30dec2c1e7870d1c81eb2d80199c5b6854780f09dcb665"
+    },
+    {
+      "path": "indexes/data-governance-quality-index.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "8c78915253da077d643f0ca614d75041c0d0b92bcc61c4774877bed346c0bd28"
+    },
+    {
+      "path": "questions/core/core-014-ai-strategy-value-record.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "2cf08cc0b69ebb2e8f9fbf9c4c456686063fb9e9ad7ccd9a2e68c1c654e20327"
+    },
+    {
+      "path": "questions/governance/gov-008-ai-strategy-metrics-and-review.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "d739a31102746d8720593310cb978801bf3bfeded12d3ab9ed6e276970cfa9e3"
+    },
+    {
+      "path": "questions/legal/legal-006-personal-data-governance-trigger.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "40f6b53d3ee1bd7dd59ba2a8a2d7bcb1ad289ffebe815ab934ede963f4bb7d70"
+    },
+    {
+      "path": "questions/risk/risk-015-data-governance-quality-evidence.md",
+      "proposal_id": "p0-coverage-completion-20260920",
+      "sha256": "f9899a06e0ddcd6d0aac20a401c78263946d558fb8356c24def768070021cc0c"
+    }
+  ],
+  "materialized_files": 24,
+  "notes": 172,
+  "proposal_ids": [
+    "p0-coverage-completion-20260920"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

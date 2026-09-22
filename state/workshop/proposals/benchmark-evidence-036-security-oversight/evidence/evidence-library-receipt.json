@@ -1,0 +1,409 @@
+{
+  "schema_version": 1,
+  "receipt_id": "benchmark-evidence-036-security-oversight",
+  "author_identity": "codex-benchmark-evidence-036-security-oversight-builder",
+  "evidence": [
+    {
+      "evidence_ref": "be036-src-0009-p0028-ec-002",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0028.md",
+      "unit_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+      "unit_file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+      "locator": "Page 28",
+      "authority": "RESEARCH",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0026-p0010-ec-005",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0010.md",
+      "unit_sha256": "1e079b84e0c06cb6adea796baf5670389e5347c345fc5f90af0272fb5090936e",
+      "unit_file_sha256": "d1be278acb738a07bc9c1e9b40bf34996aa983b63d9c5227d69a4b36df286c6c",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0026-p0010-ec-006",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0010.md",
+      "unit_sha256": "1e079b84e0c06cb6adea796baf5670389e5347c345fc5f90af0272fb5090936e",
+      "unit_file_sha256": "d1be278acb738a07bc9c1e9b40bf34996aa983b63d9c5227d69a4b36df286c6c",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0026-p0011-ec-007",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0011.md",
+      "unit_sha256": "66c2b463e56b8e23a41fb97fba09c5445f366c2e0bc97abf28da1132ce66d31a",
+      "unit_file_sha256": "4c999333e6d421b9c504f9189e54a7b69131f9dbd000038868328c5701c731d9",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0026-p0012-ec-008",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0012.md",
+      "unit_sha256": "436d3b986575a0f607a14600038e62cef6853d18e2042e570ec91350dd18ffbb",
+      "unit_file_sha256": "1cfba4e0154a048c96ae27e2d0743a858fcdeccc7cdfce4658758a4810b266df",
+      "locator": "Page 12",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0027-p0010-ec-009",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_path": "ingest/SRC-0027/units/p0010.md",
+      "unit_sha256": "5d43e8b7084a31babde002d2a45bf3c4dcacf0c7df6cf7c52c801c936a115bcd",
+      "unit_file_sha256": "3d103366f2e5b82835826f96e87c7fd530df1114abfc5af2e1d530ba5adab8c1",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0027-p0011-ec-010",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_path": "ingest/SRC-0027/units/p0011.md",
+      "unit_sha256": "9dad2c1b3933450b0cb3b6a515f0adaa3650d598a533927bb59f631f3a84dcaf",
+      "unit_file_sha256": "62af7b9b2d37dd3b5410c093ef81c904113d9cc25eb787ea347dc001a80e72bb",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0027-p0011-ec-011",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_path": "ingest/SRC-0027/units/p0011.md",
+      "unit_sha256": "9dad2c1b3933450b0cb3b6a515f0adaa3650d598a533927bb59f631f3a84dcaf",
+      "unit_file_sha256": "62af7b9b2d37dd3b5410c093ef81c904113d9cc25eb787ea347dc001a80e72bb",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0027-p0033-ec-012",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_path": "ingest/SRC-0027/units/p0033.md",
+      "unit_sha256": "e9573b439fb81438f806fd0b6eaf24be71c66ed4a8a59e95b1ab2760f082c6f5",
+      "unit_file_sha256": "054d918a5b79cb9e264043f31974db49387db3cf85b4cf85722c1b303e90cfd6",
+      "locator": "Page 33",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0039-p0032-ec-013",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0032.md",
+      "unit_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+      "unit_file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+      "locator": "Page 32",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0039-p0032-ec-014",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0032.md",
+      "unit_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+      "unit_file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+      "locator": "Page 32",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "be036-src-0039-p0045-ec-015",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0045.md",
+      "unit_sha256": "297d8959055aa6adddf8a80417c9068d7a9b2958d098417e20ff798b8e56f1a0",
+      "unit_file_sha256": "6c471013c7e708e3795cf6420ba5df75cc32dabad343f437d4c55cf5be8f6ab7",
+      "locator": "Page 45",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-036-security-oversight/evidence/fidelity-review.json",
+          "sha256": "cf74afd23224ccc822e7b8742396062d88f98bd07b111962e71dacd29a4b0fd4"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "human-oversight",
+      "note_sha256": "670155d1aae9f25e113c1ae1653166c9241e7a60904914fa6227ef0826f322ce",
+      "section_id": "human-oversight:51da8daacb0a646f",
+      "section_sha256": "b6f99934d494e7b26800e36903b3df455e5000f13e62c4c1c24a28b20b93fafb",
+      "evidence_refs": [
+        "be036-src-0039-p0032-ec-013",
+        "be036-src-0039-p0045-ec-015"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "human-oversight",
+      "note_sha256": "670155d1aae9f25e113c1ae1653166c9241e7a60904914fa6227ef0826f322ce",
+      "section_id": "human-oversight:1ca966bdf87b0b0b",
+      "section_sha256": "6081262010c1214e9b2f530059203426da80174ff535dc21d3933044077a16b7",
+      "evidence_refs": [
+        "be036-src-0039-p0032-ec-014",
+        "be036-src-0039-p0045-ec-015",
+        "be036-src-0027-p0011-ec-010"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "human-oversight",
+      "note_sha256": "670155d1aae9f25e113c1ae1653166c9241e7a60904914fa6227ef0826f322ce",
+      "section_id": "human-oversight:3709f32afab68e52",
+      "section_sha256": "e65e1bdfac7c86787b99b11eeef640262252a70ffe2d0b0bfcd874f424391d8b",
+      "evidence_refs": [
+        "be036-src-0039-p0032-ec-013",
+        "be036-src-0039-p0032-ec-014",
+        "be036-src-0039-p0045-ec-015",
+        "be036-src-0027-p0011-ec-010",
+        "be036-src-0027-p0033-ec-012"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "human-oversight",
+      "note_sha256": "670155d1aae9f25e113c1ae1653166c9241e7a60904914fa6227ef0826f322ce",
+      "section_id": "human-oversight:31050a8fdcaaa54c",
+      "section_sha256": "8528431dc41c6a2fa33ad0c168c7cddf3ad35efe3f117558b76a86cf80eb6a87",
+      "evidence_refs": [
+        "be036-src-0039-p0032-ec-013",
+        "be036-src-0039-p0045-ec-015"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "prompt-injection",
+      "note_sha256": "a93925c940b8097bc2e68fc687df8e9422cf4bbb2eaaf9464464aac072005013",
+      "section_id": "prompt-injection:75d357fd363ec243",
+      "section_sha256": "f4763b9a68ad58fc7dfc10075888373fcf7eb7486408f855e9785c81797c54e4",
+      "evidence_refs": [
+        "be036-src-0026-p0010-ec-005",
+        "be036-src-0026-p0011-ec-007"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "prompt-injection",
+      "note_sha256": "a93925c940b8097bc2e68fc687df8e9422cf4bbb2eaaf9464464aac072005013",
+      "section_id": "prompt-injection:9a6f3bb0748eab15",
+      "section_sha256": "77243813a1f91fb659c85a57fae9c3353800f06cf4771906734da5efd9addee0",
+      "evidence_refs": [
+        "be036-src-0026-p0010-ec-006",
+        "be036-src-0026-p0012-ec-008",
+        "be036-src-0027-p0010-ec-009"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "prompt-injection",
+      "note_sha256": "a93925c940b8097bc2e68fc687df8e9422cf4bbb2eaaf9464464aac072005013",
+      "section_id": "prompt-injection:9141944c98602f1e",
+      "section_sha256": "cbff77673163386914aabde8807b3c057997a107e26e9f452bd8e6db13e0b918",
+      "evidence_refs": [
+        "be036-src-0027-p0011-ec-010",
+        "be036-src-0027-p0011-ec-011",
+        "be036-src-0027-p0033-ec-012"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "prompt-injection",
+      "note_sha256": "a93925c940b8097bc2e68fc687df8e9422cf4bbb2eaaf9464464aac072005013",
+      "section_id": "prompt-injection:a44a4dec43da0710",
+      "section_sha256": "a4b672e7cb1b23687eff0b43471cabf10bf45bd8e366db04d1d04381644c1cf0",
+      "evidence_refs": [
+        "be036-src-0009-p0028-ec-002",
+        "be036-src-0027-p0011-ec-011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-005-prompt-injection-threat-model",
+      "note_sha256": "5167005d4492cef98603d9013da395d5d7d2bc9b79bdc2bf90318c7f1d67d210",
+      "section_id": "risk-005-prompt-injection-threat-model:396167f86f1eb2f2",
+      "section_sha256": "3d250524fe617c1c89fe8d056cce29bf684c5aad73f5dc44d3bbfbb1da095818",
+      "evidence_refs": [
+        "be036-src-0026-p0010-ec-005",
+        "be036-src-0026-p0010-ec-006",
+        "be036-src-0026-p0011-ec-007",
+        "be036-src-0027-p0010-ec-009"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-005-prompt-injection-threat-model",
+      "note_sha256": "5167005d4492cef98603d9013da395d5d7d2bc9b79bdc2bf90318c7f1d67d210",
+      "section_id": "risk-005-prompt-injection-threat-model:ce2122cc00b947c8",
+      "section_sha256": "217d93f56a20c00f6ee137373b9778470b29bad4d416583e078c3df8896cafde",
+      "evidence_refs": [
+        "be036-src-0027-p0011-ec-010",
+        "be036-src-0027-p0011-ec-011",
+        "be036-src-0027-p0033-ec-012"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "risk-008-human-oversight-authority",
+      "note_sha256": "7a360e5e6af749641ee6b828941e519b4ffae490bbb30f7189b7728af96c7839",
+      "section_id": "risk-008-human-oversight-authority:11b1708b929f1647",
+      "section_sha256": "0166b0d470cf3c394d8fc767ac05ad146e6ba6789821ca0b7900a996583b754d",
+      "evidence_refs": [
+        "be036-src-0039-p0032-ec-013",
+        "be036-src-0039-p0045-ec-015"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-008-human-oversight-authority",
+      "note_sha256": "7a360e5e6af749641ee6b828941e519b4ffae490bbb30f7189b7728af96c7839",
+      "section_id": "risk-008-human-oversight-authority:e7b54183bf77f126",
+      "section_sha256": "74672f67c4c5aba3c9d6dca03e99ce9b16a548b3bfdfd6795b31e6805143f608",
+      "evidence_refs": [
+        "be036-src-0039-p0032-ec-013",
+        "be036-src-0039-p0045-ec-015",
+        "be036-src-0027-p0011-ec-010",
+        "be036-src-0027-p0033-ec-012",
+        "be036-src-0026-p0012-ec-008"
+      ],
+      "modality": "recommendation"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-benchmark-evidence-036-security-oversight-auditor",
+    "reviewed_at": "2026-09-18T00:00:00Z",
+    "candidate_sha256": "1f0e5880776e8f18a5bba386528fa1b4ccf5d50b91d7ef54dd0182825a0393df",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "VERIFIED_REFERENCES_LOCKED",
+        "detail": "Twelve verified candidates are locked; three uncertain candidates are excluded."
+      },
+      {
+        "severity": "INFO",
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "detail": "All substantive sections have exact reviewed bindings."
+      },
+      {
+        "severity": "INFO",
+        "code": "AUTHORITY_BOUNDARY_PRESERVED",
+        "detail": "OWASP is guidance, NIST is a voluntary framework and Microsoft is research context; no binding or universal legal claim is introduced."
+      },
+      {
+        "severity": "WARNING",
+        "code": "UNCERTAIN_CANDIDATES_EXCLUDED",
+        "detail": "SRC-0009 Page 22 and SRC-0016 Pages 117 and 125 remain excluded pending fidelity review."
+      }
+    ]
+  }
+}

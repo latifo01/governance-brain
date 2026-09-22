@@ -1,0 +1,47 @@
+                               Unit 10. Fairness and Accountability
+
+
+is, techniques that allow one to understand the technical factors that guide a system’s
+decision processes. But, as we discussed in Session 4 of the module, opacity is not
+solely a technical problem: there are also legal factors that prevent the release of
+information about an AI system. And sometimes technical complexity is even
+instrumentalized to prevent the release of information about an organization’s
+practices.1 As such, those technical measures for transparency need to be supported by
+accountability measures that ensure an organization’s decisions on how and what to
+disclose can be evaluated.
+We now examine three issues that are relevant for accountability when AI systems are
+used to process personal data. Session 10.1 discusses how various kinds of software
+documentation can assist organizations in demonstrating compliance with data
+protection requirements. Session 10.2 deals with a specific kind of document that is
+sometimes required by the GDPR: the data protection impact assessment. Finally,
+Session 10.3 discusses how data controllers can responsibly pursue fairness in AI
+systems.
+
+Session 10.1. Documenting technical decisions
+
+ By the end of this session, learners will be able to distinguish between the
+ various roles of technical documentation and map elements that are need for
+ documentation to support accountability.
+
+Large software projects are often accompanied by various kinds of technical documents.
+Those documents are drawn up in response to several needs, such as:
+    -   Registering and explaining strategic decisions for later implementation.
+    -   Supplying technical detail about what has been done within a system, to facilitate
+        future updates and maintenance actions.
+    -   Guiding the potential future users on how they operate an AI system; or
+    -   Demonstrating how the system complies with software requirements.
+Those needs often require vastly distinct types of documents. The level of detail that is
+adequate for a software developer learning about a system is likely to be too complex
+for an operator who just needs to understand what the system does and how to use it.
+Yet, each of those documents can be relevant for different data protection tasks.
+In line with its technology-neutral approach,2 the GDPR mostly refrains from prescribing
+specific types of documents. In some cases, as we will soon see in Session 10.2, the
+proper deployment of an AI system might require a data protection impact assessment.
+However, the GDPR focuses on expressing the contents that must be supplied and not
+
+1 See, among others, Busuioc et al. (2023).
+2 Recital 15 GDPR.
+
+
+                                               164
+

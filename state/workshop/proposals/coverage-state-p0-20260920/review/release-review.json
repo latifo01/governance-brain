@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-state-p0-20260920",
+  "reviewer_identity": "deterministic-coverage-state-validator",
+  "reviewed_at": "2026-09-20T00:00:00+00:00",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "BASE_HASH_MATCHED",
+      "detail": "Coverage register base SHA-256 is 8638b15c5c904703611fdee5c58b9c3e47d5694e39fda1da55f0953cf6f26d5c."
+    },
+    {
+      "severity": "INFO",
+      "code": "P0_INTEGRATION_BOUND",
+      "detail": "The update is bound to approved candidate 62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d and its integration report."
+    },
+    {
+      "severity": "INFO",
+      "code": "TWO_PILLARS_ONLY",
+      "detail": "Exactly ai-strategy-value and data-governance-quality are promoted from SOURCE_GAP to APPROVED."
+    },
+    {
+      "severity": "INFO",
+      "code": "COMPLETE_NOT_EMITTED",
+      "detail": "No COMPLETE status is proposed; the diagnostic matrix and criterion-level completion process remain authoritative."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_REQUIRED",
+      "detail": "The register must not be changed until the exact candidate SHA-256 is approved."
+    }
+  ],
+  "candidate_sha256": "61b7c7e46b1448fe4ce0e0fbebb58b34c3589172f301105304764f07f249b975"
+}

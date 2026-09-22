@@ -1,0 +1,433 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-037-traceability-supply-chain",
+  "stage": "ASSIGNMENT",
+  "status": "ASSIGNED_PENDING_EXTRACTION",
+  "scope": {
+    "source_ids": [
+      "SRC-0035",
+      "SRC-0036",
+      "SRC-0038",
+      "SRC-0046"
+    ],
+    "target_ids": [
+      "traceability",
+      "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+    ],
+    "scenario_families": [
+      "eval-10",
+      "eval-13"
+    ],
+    "assigned_locator_policy": "Relevant locators only; every selected unit is reviewed and non-selected units are explicitly omitted."
+  },
+  "source_assignments": [
+    {
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ],
+      "assigned_unit_count": 8,
+      "total_source_units": 14,
+      "units": [
+        {
+          "filename": "units/p0004.md",
+          "locator": "Page 4",
+          "locator_kind": "page",
+          "content_sha256": "5378224d5a15efa98fd399d3c3c2a2f5951650b2c9f28e096bc9e1d7599ed233",
+          "file_sha256": "bc2d44345fe4674129313201d2c3021f8b1a83c2e1e7956e754396f631669905",
+          "visual_review": "DECORATIVE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0005.md",
+          "locator": "Page 5",
+          "locator_kind": "page",
+          "content_sha256": "2f9ef0d0eb80b27ec00adc8322a214b1c0ed2593795cae0b94881179e0aa10ee",
+          "file_sha256": "808fea5ea2298c4dd026122cdaf6817d33752c037073eaa688fce8464a943050",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0006.md",
+          "locator": "Page 6",
+          "locator_kind": "page",
+          "content_sha256": "d90b505cc47e3e727ae79ff85ec6aeaf1f48fa93dcdd16770e08e45fc90f5893",
+          "file_sha256": "3114e952aa37a89e0922808e113e0378709e30101cb924d55a278295b5fd7a8d",
+          "visual_review": "DECORATIVE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0007.md",
+          "locator": "Page 7",
+          "locator_kind": "page",
+          "content_sha256": "474cdf9143a38d337191392f349b42bf22467abc575bfa0bf46752d8630cd9ca",
+          "file_sha256": "04cb6b395e3668bc1eb39895801a47abb34578e889ae1439f5f5477c029a0251",
+          "visual_review": "DECORATIVE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0008.md",
+          "locator": "Page 8",
+          "locator_kind": "page",
+          "content_sha256": "c21aef3ffc00990518768009c959d0ebb412c75da02175de66e198dff7bf2718",
+          "file_sha256": "49cdef8d9e82e2be473a132643605ae55ace6a64ee9bdf8acc8b04394f7d2a99",
+          "visual_review": "DECORATIVE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0009.md",
+          "locator": "Page 9",
+          "locator_kind": "page",
+          "content_sha256": "b5e40e1a093cdcbbad9cf024a3549619c74bab09802be4638e1581b5d6848fc1",
+          "file_sha256": "d572eb93a618356f7974e63a8e4a2a2f3cb71a14b3534e35f6c39420abae62d3",
+          "visual_review": "REVIEW_REQUIRED",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "29d42ebbce10232b72a931e49b542bcd9da2314d3fcf785dabfe566331d0a563",
+          "file_sha256": "dcf99551b3e0556f741b62ca758ad9b15c40ec28897e5745917fe887640248ca",
+          "visual_review": "DECORATIVE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "7d3b72c8bd64e074cc642acf9013c83e36e50ca4e982865039506521703b98a7",
+          "file_sha256": "d3057a00ce1e289c6cedf86b749cbc08ebf95d5c84590b28ba87bed493955d6d",
+          "visual_review": "DECORATIVE",
+          "warnings": []
+        }
+      ],
+      "omitted_units": [
+        {
+          "filename": "units/p0001.md",
+          "locator": "Page 1",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0002.md",
+          "locator": "Page 2",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0003.md",
+          "locator": "Page 3",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0013.md",
+          "locator": "Page 13",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0014.md",
+          "locator": "Page 14",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        }
+      ]
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "MODEL_RISK"
+      ],
+      "assigned_unit_count": 3,
+      "total_source_units": 14,
+      "units": [
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "03f780e0b8674338c40a8bd67a2edb8090dd3fe89a94878c7d9b9380548390bc",
+          "file_sha256": "5e5a10bb006fdc14067d6432f75f831a0c1c9f0521d257e49f5b2e2c5abf4214",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0013.md",
+          "locator": "Page 13",
+          "locator_kind": "page",
+          "content_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+          "file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+          "visual_review": "NONE",
+          "warnings": []
+        },
+        {
+          "filename": "units/p0014.md",
+          "locator": "Page 14",
+          "locator_kind": "page",
+          "content_sha256": "eb7ab2878d456a3a0de88f260af593d06ba057e235a856018f1cc764e4863c93",
+          "file_sha256": "515e610648ddec4170cae79790f4028c7b21445b6f4c33536149946656d5af12",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ],
+      "omitted_units": [
+        {
+          "filename": "units/p0001.md",
+          "locator": "Page 1",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0002.md",
+          "locator": "Page 2",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0003.md",
+          "locator": "Page 3",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0004.md",
+          "locator": "Page 4",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0005.md",
+          "locator": "Page 5",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0006.md",
+          "locator": "Page 6",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0007.md",
+          "locator": "Page 7",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0008.md",
+          "locator": "Page 8",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0009.md",
+          "locator": "Page 9",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        }
+      ]
+    },
+    {
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "MODEL_RISK"
+      ],
+      "assigned_unit_count": 7,
+      "total_source_units": 21,
+      "units": [
+        {
+          "filename": "units/p0011.md",
+          "locator": "Page 11",
+          "locator_kind": "page",
+          "content_sha256": "1e0201351f4a60012b4536b63d721f147e3d349c1328a648170c45326d66ecc0",
+          "file_sha256": "37dc3093d475cc43b7098a2c47861621a80f1e3eb62da0d2124d715037af8051",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0012.md",
+          "locator": "Page 12",
+          "locator_kind": "page",
+          "content_sha256": "7f9390fd52096a5b3bc250bfd9b57dcc22e8e206ca2bd0b8bab30c3f037d11da",
+          "file_sha256": "27a185f9c92afbd081ec0ebcf2a98b4e69d1ef3d0c5538ed3d02779e1f965405",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0013.md",
+          "locator": "Page 13",
+          "locator_kind": "page",
+          "content_sha256": "f8160599c5188188953cc8075df0261f70060e8661bec04f38ddc927041bf281",
+          "file_sha256": "9b3aae0931d35df1e2f027d875306496137fda259357359344df1c4d348c287c",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0016.md",
+          "locator": "Page 16",
+          "locator_kind": "page",
+          "content_sha256": "9f48480f34f2ebfb2526200d7af8ab5012cad1d7835de15d5f76c86039f72438",
+          "file_sha256": "432214d3d8aabd35ae2eb83186e942b055ca1b2e47424f881c06a45a49b345b2",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0017.md",
+          "locator": "Page 17",
+          "locator_kind": "page",
+          "content_sha256": "58f3b63a79e14b11b1fd68c3968c556bcef3f3586f3b02c3adb7537c40be05bf",
+          "file_sha256": "6368071efdd350f86a006381cd27346cf20fcb12dff541566550df519485e1d7",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0019.md",
+          "locator": "Page 19",
+          "locator_kind": "page",
+          "content_sha256": "6bda81bdf15c6c90c0f28801830d6089483769d49b276a668232290269c23c71",
+          "file_sha256": "a3383565ded745c78dab35f32478c0c12faee58faf2a4086210c872aaf4de653",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        },
+        {
+          "filename": "units/p0021.md",
+          "locator": "Page 21",
+          "locator_kind": "page",
+          "content_sha256": "61f377fca205b258d21a21a6fba4b39001f35673665eea58c33eafaaa14cdc2f",
+          "file_sha256": "1689d72d3c2ca4dbe4514945ed84a7f397452b76e0b3d09d34ad0a00ce30b43a",
+          "visual_review": "NONE",
+          "warnings": [
+            "one or more image objects could not be inspected"
+          ]
+        }
+      ],
+      "omitted_units": [
+        {
+          "filename": "units/p0001.md",
+          "locator": "Page 1",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0002.md",
+          "locator": "Page 2",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0003.md",
+          "locator": "Page 3",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0004.md",
+          "locator": "Page 4",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0005.md",
+          "locator": "Page 5",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0006.md",
+          "locator": "Page 6",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0007.md",
+          "locator": "Page 7",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0008.md",
+          "locator": "Page 8",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0009.md",
+          "locator": "Page 9",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0010.md",
+          "locator": "Page 10",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0014.md",
+          "locator": "Page 14",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0015.md",
+          "locator": "Page 15",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0018.md",
+          "locator": "Page 18",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/p0020.md",
+          "locator": "Page 20",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        }
+      ]
+    },
+    {
+      "source_id": "SRC-0046",
+      "source_sha256": "6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "AI_SECURITY"
+      ],
+      "assigned_unit_count": 1,
+      "total_source_units": 3,
+      "units": [
+        {
+          "filename": "units/key-0003.md",
+          "locator": "/objects",
+          "locator_kind": "json_path",
+          "content_sha256": "13c6eac080be6463bbeafa9ffd309df83ca5c421052f603bbbb34f8ce96d00ab",
+          "file_sha256": "7b18ef3f2ed64ab84d1204bca642c073f03b8264b4a2fe3bb2f19ab84cbd5241",
+          "visual_review": "NONE",
+          "warnings": []
+        }
+      ],
+      "omitted_units": [
+        {
+          "filename": "units/key-0001.md",
+          "locator": "/type",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        },
+        {
+          "filename": "units/key-0002.md",
+          "locator": "/id",
+          "reason": "Outside bounded traceability, supervisory-record, or exact ATLAS CS0027 scope."
+        }
+      ]
+    }
+  ],
+  "assignment_sha256": "ba6fc62bcbf8b2c927ee23bbbb7be76dd4c4ac4479e944d9346b17d8decb8d9b"
+}

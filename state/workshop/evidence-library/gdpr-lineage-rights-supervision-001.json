@@ -1,0 +1,559 @@
+{
+  "author_identity": "opencode-source-extractor",
+  "bindings": [
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0043"
+      ],
+      "modality": "obligation",
+      "note_id": "data-subject-access-requests",
+      "note_sha256": "bbfc4b6f03aa473e3a502684e62a46ceb56016c7857759b5fb9423849ee75ffd",
+      "section_id": "data-subject-access-requests:bc201752daf2ccd2",
+      "section_sha256": "b42ee1f42c8d1f4f660cc6e8e847baad1706ef1593b46a12d469c333d050f7a6"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0043"
+      ],
+      "modality": "context",
+      "note_id": "data-subject-access-requests",
+      "note_sha256": "bbfc4b6f03aa473e3a502684e62a46ceb56016c7857759b5fb9423849ee75ffd",
+      "section_id": "data-subject-access-requests:980b5371a99c5bf2",
+      "section_sha256": "33679f626515b8c03d15218407824fbdd835fd72ead7c640c1669452bbc6b9f3"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0043"
+      ],
+      "modality": "context",
+      "note_id": "data-subject-access-requests",
+      "note_sha256": "bbfc4b6f03aa473e3a502684e62a46ceb56016c7857759b5fb9423849ee75ffd",
+      "section_id": "data-subject-access-requests:25fad8f1ceee3995",
+      "section_sha256": "001e7b523f097f806dabcd3bdc2d094e660e1f3f379f6c88b6f64dfa33ba9adb"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0043"
+      ],
+      "modality": "recommendation",
+      "note_id": "data-subject-access-requests",
+      "note_sha256": "bbfc4b6f03aa473e3a502684e62a46ceb56016c7857759b5fb9423849ee75ffd",
+      "section_id": "data-subject-access-requests:fc9a4cb39f3bb5ff",
+      "section_sha256": "638243e0a3bb1e3c836804277c920ad747eccafc00ddab81c1c0929b809052ee"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0043"
+      ],
+      "modality": "context",
+      "note_id": "data-subject-access-requests",
+      "note_sha256": "bbfc4b6f03aa473e3a502684e62a46ceb56016c7857759b5fb9423849ee75ffd",
+      "section_id": "data-subject-access-requests:7bd1afb97ccf9001",
+      "section_sha256": "9009bb728d61e5134af8a7356a5e1691fa72e1e6319405810375144bd78c5b5a"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0055",
+        "gdpr-lin2-src-0010-p0056"
+      ],
+      "modality": "obligation",
+      "note_id": "data-protection-officer-dpo",
+      "note_sha256": "95ae379ebe33f8916221944968cb755f0f29154fea5c8074941f60a5b67838c4",
+      "section_id": "data-protection-officer-dpo:1d3ba17552a9540b",
+      "section_sha256": "6f32f9fbc32fbc5000ebc1ac9ce19b74639ec1f19ff5c06de3bb1b0ff1dd8301"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0055"
+      ],
+      "modality": "context",
+      "note_id": "data-protection-officer-dpo",
+      "note_sha256": "95ae379ebe33f8916221944968cb755f0f29154fea5c8074941f60a5b67838c4",
+      "section_id": "data-protection-officer-dpo:68de385f266d349d",
+      "section_sha256": "6649bab9fb279c3ad6fa8b94406253b8c463df81045fc596ad97101a4166e4be"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0055",
+        "gdpr-lin2-src-0010-p0056"
+      ],
+      "modality": "recommendation",
+      "note_id": "data-protection-officer-dpo",
+      "note_sha256": "95ae379ebe33f8916221944968cb755f0f29154fea5c8074941f60a5b67838c4",
+      "section_id": "data-protection-officer-dpo:ea863f9acb938e44",
+      "section_sha256": "7290be15e47f139a7e7b21ddc3c9144bc88195452204c413e879b69f6086f093"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0055",
+        "gdpr-lin2-src-0010-p0056"
+      ],
+      "modality": "context",
+      "note_id": "data-protection-officer-dpo",
+      "note_sha256": "95ae379ebe33f8916221944968cb755f0f29154fea5c8074941f60a5b67838c4",
+      "section_id": "data-protection-officer-dpo:c14bc14c72a7de9e",
+      "section_sha256": "112954dccff70ff9ca968204aaca5208ec3671634c8e7fba84d106fe5c656223"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0065",
+        "gdpr-lin2-src-0010-p0066",
+        "gdpr-lin2-src-0010-p0067",
+        "gdpr-lin2-src-0010-p0068",
+        "gdpr-lin2-src-0010-p0069"
+      ],
+      "modality": "obligation",
+      "note_id": "data-protection-authority-dpa",
+      "note_sha256": "eca5a01781855a21476bf10cf4ea3c142b6cb5f547f2f41d3ed95fe91acdcb93",
+      "section_id": "data-protection-authority-dpa:55afbe7239e435d1",
+      "section_sha256": "8464e70cf8c73fc7202634eb507f73ba3b8253c4025fa3feec9ac5ab9028f143"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0052",
+        "gdpr-lin2-src-0010-p0054",
+        "gdpr-lin2-src-0010-p0069",
+        "gdpr-lin2-src-0010-p0080",
+        "gdpr-lin2-src-0016-p0129",
+        "gdpr-lin2-src-0022-p0025",
+        "gdpr-lin2-src-0022-p0133"
+      ],
+      "modality": "context",
+      "note_id": "data-protection-authority-dpa",
+      "note_sha256": "eca5a01781855a21476bf10cf4ea3c142b6cb5f547f2f41d3ed95fe91acdcb93",
+      "section_id": "data-protection-authority-dpa:fb5179e81088f173",
+      "section_sha256": "8ab6f69ebf8350b5d63492a02e1e24cccbc3cdfee65d5bb1d622c88483713fb6"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0052",
+        "gdpr-lin2-src-0010-p0053",
+        "gdpr-lin2-src-0010-p0067",
+        "gdpr-lin2-src-0016-p0129",
+        "gdpr-lin2-src-0022-p0025"
+      ],
+      "modality": "recommendation",
+      "note_id": "data-protection-authority-dpa",
+      "note_sha256": "eca5a01781855a21476bf10cf4ea3c142b6cb5f547f2f41d3ed95fe91acdcb93",
+      "section_id": "data-protection-authority-dpa:b381bab1e77c7bb2",
+      "section_sha256": "46f1711174bafe4fe87cd295446916fb2d268a1a2db6ab728f6f97f897a3c34d"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0065",
+        "gdpr-lin2-src-0010-p0066",
+        "gdpr-lin2-src-0010-p0067",
+        "gdpr-lin2-src-0010-p0068",
+        "gdpr-lin2-src-0010-p0069"
+      ],
+      "modality": "context",
+      "note_id": "data-protection-authority-dpa",
+      "note_sha256": "eca5a01781855a21476bf10cf4ea3c142b6cb5f547f2f41d3ed95fe91acdcb93",
+      "section_id": "data-protection-authority-dpa:bb3b067e238fb991",
+      "section_sha256": "4c9005c1b1e840f8ea97f4fe1da14c883df7feab674b069515bb3ec2f2eb16ca"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0043",
+        "gdpr-lin2-src-0010-p0055",
+        "gdpr-lin2-src-0010-p0056",
+        "gdpr-lin2-src-0010-p0080"
+      ],
+      "modality": "context",
+      "note_id": "data-subject-access-requests",
+      "note_sha256": "bbfc4b6f03aa473e3a502684e62a46ceb56016c7857759b5fb9423849ee75ffd",
+      "section_id": "data-subject-access-requests:5791eb0fe8874a16",
+      "section_sha256": "2b4c08763815832ea2bc5324fcefc38b619351b8f1665d90479708d67481b5f4"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0055",
+        "gdpr-lin2-src-0010-p0056",
+        "gdpr-lin2-src-0010-p0067"
+      ],
+      "modality": "context",
+      "note_id": "data-protection-officer-dpo",
+      "note_sha256": "95ae379ebe33f8916221944968cb755f0f29154fea5c8074941f60a5b67838c4",
+      "section_id": "data-protection-officer-dpo:f4a8c42f1a83a5bf",
+      "section_sha256": "e3d976fd69e631169f33e236ad508cc7ba32041564163819024d42be92654f61"
+    },
+    {
+      "evidence_refs": [
+        "gdpr-lin2-src-0010-p0065",
+        "gdpr-lin2-src-0010-p0066",
+        "gdpr-lin2-src-0010-p0067",
+        "gdpr-lin2-src-0010-p0068",
+        "gdpr-lin2-src-0010-p0069",
+        "gdpr-lin2-src-0010-p0055",
+        "gdpr-lin2-src-0010-p0056"
+      ],
+      "modality": "context",
+      "note_id": "data-protection-authority-dpa",
+      "note_sha256": "eca5a01781855a21476bf10cf4ea3c142b6cb5f547f2f41d3ed95fe91acdcb93",
+      "section_id": "data-protection-authority-dpa:bb866bcc4c81b5f4",
+      "section_sha256": "b2b5cf5916a0214257ab868497587897b03e2e77b48015cac3bbb0c0671d670d"
+    }
+  ],
+  "evidence": [
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0043",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 43",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "434e35807c6d6ed651f4359ec7a1899e33a59aa1b23e28519416fb8bf3ffe759",
+      "unit_path": "ingest/SRC-0010/units/p0043.md",
+      "unit_sha256": "d23a9282fc84871ec738ec841dfca0b2fa2691da07a9a989ba7dac19ab491194",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0052",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity-2.json",
+          "sha256": "4af56ed89fa0ee7549e1f589e3d0827bbb60b13e4a3633cd9141f83d29ad4797"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 52",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "e6e8994dbcf685b4ffcfced3204aed83e1d0dc9473b062371e2c92b55f0d3a44",
+      "unit_path": "ingest/SRC-0010/units/p0052.md",
+      "unit_sha256": "4900c9149ea6b59899a3718e880c3dc51434403a154c3d0e65e3e83a26e81cf9",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0053",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+          "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 53",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "unit_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0054",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+          "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 54",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "unit_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0055",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 55",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "78c3645c460e6113f1b1539edf29dc962889414c6c9473c766c596936836a232",
+      "unit_path": "ingest/SRC-0010/units/p0055.md",
+      "unit_sha256": "83c741ba577b5114be7bb2c0c72e5de2d340f17f52abe7b456c2d17e3273e7a6",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0056",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 56",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "d2ce304d76b14d06d891e5a6b99f3ccb4da45a079755d66e7aec85c36376184c",
+      "unit_path": "ingest/SRC-0010/units/p0056.md",
+      "unit_sha256": "826e663bfd0750f1bb0efe656171c909eac064b5ae449477847fded5f4500adc",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0065",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 65",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "30c328b7ddf7c5c06c0ebb94be9ec074bd1707dbb25d55272feae2ffa50aa4cc",
+      "unit_path": "ingest/SRC-0010/units/p0065.md",
+      "unit_sha256": "4d95f1beb734d296736daacc9f2050d57ee48ea091e4598a02fcb9045d635f1c",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0066",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 66",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "80c24ac6b857bc03dd4a3976b4ca80463cce3c121c0e76fd57c799b64dc645f5",
+      "unit_path": "ingest/SRC-0010/units/p0066.md",
+      "unit_sha256": "3248312673ddb0773d940f1728f051fb62abeb8b4f7572bdc012f745495afdfe",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0067",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 67",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "c83af486ef414b446da519d6958c5725ae7704e38031b1f2fd83c2dd463f0363",
+      "unit_path": "ingest/SRC-0010/units/p0067.md",
+      "unit_sha256": "d6611c2a80c5943e964ed5510572890bcc5a48187ef260567f171b4900ed5b3a",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0068",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 68",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "2a31fd3962341abf5aa2eb6202a777838ba90af41292a1a4396fbf2b54816cc3",
+      "unit_path": "ingest/SRC-0010/units/p0068.md",
+      "unit_sha256": "62ae7f12d1d6154b08941c01bdf4b3cc1cb93bbd3dee7d26e59d03854ff54e0c",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0069",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity.json",
+          "sha256": "ce68f21e8575804bafe2871a04d17d0b8a98a8b77019429c2237a0f512eb0e1e"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 69",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "16843af0749966c95112f0f4d9b44ddf1b03f2a6acb63467459a776316e2dfc6",
+      "unit_path": "ingest/SRC-0010/units/p0069.md",
+      "unit_sha256": "163e741bee552b1bd5bdcb3b057ac51108896fc239d1519700dc028175cc82e1",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "gdpr-lin2-src-0010-p0080",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity-2.json",
+          "sha256": "4af56ed89fa0ee7549e1f589e3d0827bbb60b13e4a3633cd9141f83d29ad4797"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 80",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "3269f451d68b447c9f2a0a2d0f4a792ac7835acc08963ab5cc57a3a93d7cc36d",
+      "unit_path": "ingest/SRC-0010/units/p0080.md",
+      "unit_sha256": "9b7a28b956ee9934b42bc829c4139eef3237dc19443abf20d143158446761fee",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "gdpr-lin2-src-0016-p0129",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity-2.json",
+          "sha256": "4af56ed89fa0ee7549e1f589e3d0827bbb60b13e4a3633cd9141f83d29ad4797"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 129",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "unit_file_sha256": "a37fe49ca3313076bb3addbddba16fd127d0834f72ebbcec0fbbc347b6f02ff5",
+      "unit_path": "ingest/SRC-0016/units/p0129.md",
+      "unit_sha256": "c40bcce40e4256950a3cd9dee08a588d4f075d0d2e347bc9041ced6fb3fcabc9",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "gdpr-lin2-src-0022-p0025",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity-2.json",
+          "sha256": "4af56ed89fa0ee7549e1f589e3d0827bbb60b13e4a3633cd9141f83d29ad4797"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 25",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_file_sha256": "f8c47e27d8c00e1a74d23c74146050ab7091d77f15b6022ca95927ba1196819c",
+      "unit_path": "ingest/SRC-0022/units/p0025.md",
+      "unit_sha256": "ae758ffa87b8bd3cfc385c15355d5d0fc81bf6651f5bffc28cc530fc8e113781",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "gdpr-lin2-src-0022-p0133",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-lineage-fidelity-2.json",
+          "sha256": "4af56ed89fa0ee7549e1f589e3d0827bbb60b13e4a3633cd9141f83d29ad4797"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 133",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_file_sha256": "dba6cb34db4153802bdc4848b404e3cab553d6eae2b3fe5f024f755f21b52996",
+      "unit_path": "ingest/SRC-0022/units/p0133.md",
+      "unit_sha256": "e0612ec8948747a423022146df93279e5bc0823c8b293f3a8aa8befc8ff64a81",
+      "valid_from": null,
+      "valid_until": null
+    }
+  ],
+  "receipt_id": "gdpr-lineage-rights-supervision-001",
+  "review": {
+    "candidate_sha256": "6f7ca4bb8412fac424c34ddfd7856676c3a9d3be2bade3995119763adc3d67c6",
+    "findings": [
+      {
+        "code": "LEGAL_CURRENCY_UNKNOWN",
+        "detail": "valid_from and valid_until are null on all 15 evidence items; currency against amendments and the pending Digital Omnibus was not verified.",
+        "severity": "WARNING"
+      },
+      {
+        "code": "FIDELITY_SCOPE_LIMITED",
+        "detail": "Fidelity receipts are local pypdf token-coverage comparisons; matching tokens do not establish layout fidelity or legal correctness.",
+        "severity": "WARNING"
+      },
+      {
+        "code": "OBLIGATIONS_ON_OPERATIVE_TEXT_ONLY",
+        "detail": "All 4 obligation bindings in this receipt cite reviewed BINDING SRC-0010 operative article units; no guidance or proposal unit is used for obligation modality.",
+        "severity": "INFO"
+      },
+      {
+        "code": "RELATED_CONCEPTS_BOUNDED_SUPPORT",
+        "detail": "Navigation-summary context bindings are retained only for the concepts supported by their cited units; weaker cross-note wording remains a documented limitation.",
+        "severity": "WARNING"
+      },
+      {
+        "code": "EVIDENCE_ITEMS_VERIFIED",
+        "count": 15,
+        "severity": "INFO"
+      },
+      {
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "count": 16,
+        "severity": "INFO"
+      },
+      {
+        "code": "RECOMMENDATION_HEDGED_PRACTICE",
+        "detail": "The data-subject-access-requests Governance Considerations recommendation binds the Article 15 core; AI-artifact search-scope and routing bullets remain hedged practice inferences.",
+        "severity": "WARNING"
+      }
+    ],
+    "reviewed_at": "2026-09-17T00:00:00+00:00",
+    "reviewer_identity": "codex-gdpr-lineage-evidence-auditor",
+    "verdict": "EVIDENCE_READY"
+  },
+  "schema_version": 1
+}

@@ -1,0 +1,15 @@
+schema_version: 1
+domain_id: OPERATIONAL_RESILIENCE_INCIDENTS
+slug: operational-resilience-incidents
+status: ACTIVE
+labels:
+  en: Operational Resilience & Incidents
+  fr: Résilience opérationnelle et incidents
+description: Operational risk, service resilience, incident preparedness, response, recovery, and lessons learned.
+question_prefix: ORI
+languages: [en, fr]
+source_roots:
+  - sources/09_Operational_Risk_manual
+review_policy: HUMAN_APPROVAL
+aliases: []
+

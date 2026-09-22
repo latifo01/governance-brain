@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "sec26-src-0026-p0010",
+    "sec26-src-0026-p0011",
+    "sec26-src-0026-p0012",
+    "sec26-src-0026-p0030",
+    "sec26-src-0027-p0011",
+    "sec26-src-0027-p0033",
+    "sec26-src-0027-p0038",
+    "sec26-src-0039-p0032",
+    "sec26-src-0039-p0035",
+    "sec26-src-0039-p0038"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/security-agents-lineage-026.json",
+      "sha256": "a264baf4c1f55716b375584f71f7cc73c658afce3257dfdafbfad0ee13a288d1"
+    }
+  ]
+}

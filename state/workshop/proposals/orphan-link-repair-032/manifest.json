@@ -1,0 +1,30 @@
+{
+  "author_identity": "codex-orphan-link-repair",
+  "candidate_sha256": "9151e976c37c2d854e41484468d2adc003f685786ead0d8686506cac7ea0ba1c",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "internal-regulation-index"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "description": "Pure navigation repair: add the existing ai-literacy-and-change-management knowledge note to the Internal Regulation index under Governance; no knowledge content or evidence changes.",
+  "domain": "GOVERNANCE_ACCOUNTABILITY",
+  "evidence_changes": false,
+  "files": [
+    "indexes/internal-regulation-index.md"
+  ],
+  "proposal_id": "orphan-link-repair-032",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "fast",
+  "schema_version": 3,
+  "shards": [
+    "orphan-link-repair"
+  ],
+  "status": "INTEGRATED"
+}

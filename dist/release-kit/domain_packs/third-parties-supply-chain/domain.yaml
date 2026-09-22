@@ -1,0 +1,15 @@
+schema_version: 1
+domain_id: THIRD_PARTIES_SUPPLY_CHAIN
+slug: third-parties-supply-chain
+status: ACTIVE
+labels:
+  en: Third Parties & Supply Chain
+  fr: Tiers et chaîne d'approvisionnement
+description: Allocation and assurance of responsibilities across vendors, providers, customers, and the AI supply chain.
+question_prefix: TPS
+languages: [en, fr]
+source_roots:
+  - sources/03_CoSAI
+review_policy: HUMAN_APPROVAL
+aliases: []
+

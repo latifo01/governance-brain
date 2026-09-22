@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "proposal_id": "fria-question-update-20260919",
+  "reviewer_identity": "codex-fria-question-independent-evidence-reviewer",
+  "reviewed_at": "2026-09-19T23:50:00+02:00",
+  "evidence_lock_sha256": "56738e57f12cf60fe64aed2cd1d0befa9575e01568bb888442afb949e79adb19",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EXACT_INPUTS_RECHECKED",
+      "detail": "All three locked references resolve to the declared validated Markdown units with matching source, content and file hashes."
+    },
+    {
+      "severity": "INFO",
+      "code": "FIDELITY_SCOPE_RECHECKED",
+      "detail": "The referenced fidelity receipts cover Page 222, Page 223 and Page 35 with REVIEWED lineage rows."
+    },
+    {
+      "severity": "INFO",
+      "code": "BINDINGS_EXACT",
+      "detail": "Both substantive question sections bind to reviewed evidence references; Related knowledge is navigation-only and Source references are citation lists."
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "The applicability and route-date qualifiers use only reviewed BINDING AI Act text and do not assert a universal FRIA obligation."
+    },
+    {
+      "severity": "INFO",
+      "code": "OBSOLETE_REFERENCES_REMOVED",
+      "detail": "The candidate contains no SRC-0022 or Page 224 citation; it uses SRC-0011 Pages 222-223 and SRC-0043 Page 35."
+    }
+  ]
+}

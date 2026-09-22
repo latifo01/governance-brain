@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "reviewer_identity": "codex-article35-independent-release-reviewer",
+  "reviewed_at": "2026-09-19T22:30:00+02:00",
+  "candidate_sha256": "9491d5dd7075d6f2cc3569862a8eaa705232838419b72e0822a00c2f3bf6dac8",
+  "evidence_lock_sha256": "472d68d8f2edba67039707035672de6306680e6cf25c079cd6c26838ac7b269f",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "The deterministic integration preview reproduces the declared candidate exactly: one UPDATE file, one file to write and 148 notes after integration. No active-vault write was applied.",
+      "candidate_sha256": "9491d5dd7075d6f2cc3569862a8eaa705232838419b72e0822a00c2f3bf6dac8",
+      "files": 1,
+      "would_write": 1,
+      "notes_after_integration": 148
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The evidence lock contains 13 unique references and the shared receipt resolves all 13 as REVIEWED with no findings.",
+      "evidence_lock_sha256": "472d68d8f2edba67039707035672de6306680e6cf25c079cd6c26838ac7b269f",
+      "library_receipt_sha256": "66cae2f3ab104ed4802dd1a03a335d6e5dfd526b6776b7fbbbc1ed61dd9c2c3a",
+      "receipt_candidate_sha256": "f47c1d90cec5ae426625946a5af68cfc9ac01df93cf26545d1642d1f947bfe21"
+    },
+    {
+      "severity": "INFO",
+      "code": "BINDINGS_EXACT",
+      "detail": "All eight bindings match the future-vault note ID, note SHA-256, section IDs, section SHA-256 values and locked evidence references.",
+      "binding_count": 8,
+      "bindings": [
+        {
+          "section_id": "data-protection-impact-assessments-dpia:132a0db289c30699",
+          "section_sha256": "a573cf0b79dfd23d6fb5fb9b03eb58d33e1e0ed1254b66e53352a3b8a07c6a66",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art35-article26-qualified-src-0011-p0220-ec-001",
+            "art35-article26-qualified-src-0043-p0035-ec-001"
+          ],
+          "exact": true,
+          "authority": "BINDING"
+        },
+        {
+          "section_id": "data-protection-impact-assessments-dpia:14a15a5798772bc0",
+          "section_sha256": "1f9f05604b65d043faf277a7e7ffb46ac125e05e2948bd0f0101b8fd820bd290",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art35-src-0010-p0053-ec-002",
+            "art35-src-0010-p0055-ec-001",
+            "art35-src-0010-p0056-ec-001"
+          ],
+          "exact": true,
+          "authority": "BINDING"
+        },
+        {
+          "section_id": "data-protection-impact-assessments-dpia:1a3f4fa25d186826",
+          "section_sha256": "af92086c5dec25df4251ed9637938355b327c2af8656208c473a23c7a79f2dc7",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art35-src-0010-p0053-ec-002"
+          ],
+          "exact": true,
+          "authority": "BINDING"
+        },
+        {
+          "section_id": "data-protection-impact-assessments-dpia:8325508b20ff2eca",
+          "section_sha256": "04e61dfe514653297a9993a7de55036291383c14571b0d063dde2923cb0e0f86",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art35-src-0010-p0053-ec-001"
+          ],
+          "exact": true,
+          "authority": "BINDING"
+        },
+        {
+          "section_id": "data-protection-impact-assessments-dpia:861746dfeecc84c9",
+          "section_sha256": "5186d21091cff7a57674375f1d42f3c8797caef4e5026c2f559a842a876dff20",
+          "modality": "context",
+          "evidence_refs": [
+            "art35-src-0010-p0053-ec-001",
+            "art35-src-0010-p0055-ec-001",
+            "art35-src-0010-p0056-ec-001",
+            "art35-article26-qualified-src-0011-p0220-ec-001",
+            "art35-addendum-src-0043-p0020-ec-001",
+            "art35-addendum-src-0043-p0035-ec-001"
+          ],
+          "exact": true,
+          "authority": "BINDING"
+        },
+        {
+          "section_id": "data-protection-impact-assessments-dpia:a4a58f7f7da4fb21",
+          "section_sha256": "19984a3ecc52c49eeb88f9cf833215512e59bb26367977353689ab8541f88138",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art35-addendum-src-0043-p0020-ec-001",
+            "art35-addendum-src-0043-p0020-ec-002"
+          ],
+          "exact": true,
+          "authority": "BINDING"
+        },
+        {
+          "section_id": "data-protection-impact-assessments-dpia:c59a3efbe3b0ba4c",
+          "section_sha256": "d22ea3c22564f8955433c7b260d5165a19542ad8f017bc6e76a85c5cf4de998c",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art35-src-0010-p0054-ec-001",
+            "art35-src-0010-p0054-ec-002"
+          ],
+          "exact": true,
+          "authority": "BINDING"
+        },
+        {
+          "section_id": "data-protection-impact-assessments-dpia:de627b1da606a4cf",
+          "section_sha256": "4c5983bff7a298e0f7417185020c0ee5226c75842d0bfee1f0715fb05b8aa6d2",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "art35-src-0010-p0053-ec-001",
+            "art35-src-0010-p0054-ec-001",
+            "art35-src-0010-p0055-ec-001",
+            "art35-src-0010-p0056-ec-001",
+            "art35-article26-qualified-src-0011-p0220-ec-001",
+            "art35-addendum-src-0043-p0020-ec-001"
+          ],
+          "exact": true,
+          "authority": "BINDING"
+        }
+      ]
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "The 13 locked records preserve source IDs, source SHA-256 values, validated ingest unit paths, unit content hashes, unit file hashes, page locators and the reviewed fidelity receipt.",
+      "fidelity_receipt": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+      "fidelity_sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "All substantive obligation bindings use BINDING evidence from SRC-0010, SRC-0011 or SRC-0043. SRC-0022 is listed only as contextual training material and does not support an obligation. The note preserves processing-specific applicability, Article 113 route dates, Article 6(5) exception and retrieval-date limits."
+    },
+    {
+      "severity": "INFO",
+      "code": "SRC0047_EXCLUDED",
+      "detail": "SRC-0047 is absent from the evidence lock and shared receipt, is explicitly listed in excluded_sources, and is not cited by any of the eight bindings."
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_AND_LINKS_VALID",
+      "detail": "The future-vault contains exactly the declared UPDATE note. Deterministic overlay validation passes with zero errors; all Obsidian links resolve against the active vault plus overlay.",
+      "file_count": 1,
+      "future_note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a"
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This review establishes readiness only. Human approval must bind the exact candidate SHA-256 before deterministic integration.",
+      "approval_file": "state/workshop/proposals/roadmap-article35-strict-20260919/review/approval.md"
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_13_REFERENCES",
+    "shared_receipt": "PASS_13_RECORDS_8_BINDINGS",
+    "evidence_review": "PASS_EVIDENCE_READY",
+    "fidelity_review": "PASS_9_REVIEWED_RESULTS",
+    "binding_exactness": "PASS_8_OF_8",
+    "authority_boundary": "PASS_BINDING_CLAIMS_SCOPED",
+    "currentness": "PASS_BOUNDED_2026-09-19",
+    "src0047_exclusion": "PASS_ZERO_REFERENCES",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS",
+    "derived_unchanged": "PASS"
+  },
+  "scope": {
+    "manifest_changes": [
+      {
+        "change_type": "UPDATE",
+        "artifact_type": "knowledge",
+        "path": "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md",
+        "id": "data-protection-impact-assessments-dpia"
+      }
+    ],
+    "manifest_files": [
+      "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md"
+    ],
+    "target_note_id": "data-protection-impact-assessments-dpia",
+    "future_vault_file_count": 1,
+    "active_vault_modified": false,
+    "questions_modified": 0,
+    "contract_changes": false,
+    "excluded_sources": [
+      "SRC-0047"
+    ],
+    "excluded_candidates": [
+      "art35-src-0011-p0220-ec-001",
+      "art35-src-0011-p0224-ec-001"
+    ]
+  },
+  "warnings": [
+    "The candidate contains binding legal claims and remains in the strict lane.",
+    "GDPR currentness is bounded to the EUR-Lex retrieval date 2026-09-19; future amendments, corrigenda, national procedures and project-specific applicability remain outside the note.",
+    "SRC-0047 is excluded entirely from the evidence-lock; its separate procedural-regulation scope must not be merged with GDPR Articles 35 or 36.",
+    "Human approval is separate from evidence readiness and is still required for this exact candidate hash."
+  ]
+}

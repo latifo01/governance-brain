@@ -1,0 +1,29 @@
+       Nonobstant le premier alinéa, un système d'IA visé à l'annexe III est toujours considéré
+       comme étant à haut risque lorsqu'il effectue un profilage de personnes physiques.
+
+4.     Un fournisseur qui considère qu'un système d'IA visé à l'annexe III n'est pas à haut risque
+       documente son évaluation avant que ce système ne soit mis sur le marché ou mis en
+       service. Ce fournisseur est soumis à l'obligation d'enregistrement visée à l'article 49,
+       paragraphe 2. À la demande des autorités nationales compétentes, le fournisseur fournit la
+       documentation de l'évaluation.
+
+5.     Après consultation du Comité européen de l'intelligence artificielle (ci-après dénommé
+       "Comité"), et au plus tard le … [18 mois à compter de la date d'entrée en vigueur du
+       présent règlement], la Commission fournit des lignes directrices précisant la mise en œuvre
+       pratique du présent article, conformément à l'article 96, assorties d'une liste exhaustive
+       d'exemples pratiques de cas d'utilisation de systèmes d'IA qui sont à haut risque et de cas
+       d'utilisation qui ne le sont pas.
+
+6.     La Commission est habilitée à adopter des actes délégués conformément à l'article 97 pour
+       modifier le paragraphe 3, deuxième alinéa, du présent article en ajoutant de nouvelles
+       conditions à celles qui y sont énoncées, ou en les modifiant, lorsqu'il existe des preuves
+       concrètes et fiables de l'existence de systèmes d'IA qui relèvent du champ d'application de
+       l'annexe III, mais qui ne présentent pas de risque important de préjudice pour la santé, la
+       sécurité ou les droits fondamentaux des personnes physiques.
+
+
+
+
+PE-CONS 24/1/24 REV 1                                                                               180
+                                                                                                    FR
+

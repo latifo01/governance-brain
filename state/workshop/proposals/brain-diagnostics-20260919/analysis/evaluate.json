@@ -1,0 +1,673 @@
+{
+  "accepted": true,
+  "complete_suite": true,
+  "negative_count": 15,
+  "negative_pass_count": 15,
+  "positive_count": 30,
+  "readiness": 1.0,
+  "ready_positive_count": 30,
+  "recall_at_5": 1.0,
+  "results": [
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-01-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "ai-strategy-value",
+      "result": "PASS",
+      "returned_note_ids": [
+        "core-001-business-purpose",
+        "iso-42001",
+        "high-risk-ai-system-classification",
+        "model-and-concept-drift",
+        "ai-model-monitoring"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-01-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "ai-strategy-value",
+      "result": "PASS",
+      "returned_note_ids": [
+        "core-001-business-purpose",
+        "iso-42001",
+        "high-risk-ai-system-classification",
+        "model-and-concept-drift",
+        "ai-model-monitoring"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_matching_sections"
+      ],
+      "id": "eval-01-negative",
+      "kind": "negative",
+      "language": "fr",
+      "pillar": "ai-strategy-value",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-02-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "governance-accountability-policy",
+      "result": "PASS",
+      "returned_note_ids": [
+        "ai-governance-accountability",
+        "core-002-accountable-owner",
+        "iso-42001",
+        "core-001-business-purpose",
+        "gov-001-governance-decision-rights"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-02-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "governance-accountability-policy",
+      "result": "PASS",
+      "returned_note_ids": [
+        "ai-governance-accountability",
+        "core-002-accountable-owner",
+        "iso-42001",
+        "ai-incident-response-resilience",
+        "risk-003-model-monitoring-response"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-02-negative",
+      "kind": "negative",
+      "language": "en",
+      "pillar": "governance-accountability-policy",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-03-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "legal-regulatory",
+      "result": "PASS",
+      "returned_note_ids": [
+        "high-risk-ai-system-classification",
+        "ai-conformity-assessment",
+        "fundamental-right-impact-assessment-fria",
+        "ai-act-prohibited-practices",
+        "gpai-model"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-03-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "legal-regulatory",
+      "result": "PASS",
+      "returned_note_ids": [
+        "high-risk-ai-system-classification",
+        "ai-conformity-assessment",
+        "fundamental-right-impact-assessment-fria",
+        "ai-act-prohibited-practices",
+        "gpai-model"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-03-negative",
+      "kind": "negative",
+      "language": "fr",
+      "pillar": "legal-regulatory",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-04-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "data-protection",
+      "result": "PASS",
+      "returned_note_ids": [
+        "gdpr-article-22-automated-decision-making",
+        "gdpr",
+        "data-protection-officer-dpo"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-04-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "data-protection",
+      "result": "PASS",
+      "returned_note_ids": [
+        "gdpr-article-22-automated-decision-making",
+        "gdpr",
+        "data-protection-officer-dpo"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_matching_sections"
+      ],
+      "id": "eval-04-negative",
+      "kind": "negative",
+      "language": "en",
+      "pillar": "data-protection",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-05-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "data-governance-quality",
+      "result": "PASS",
+      "returned_note_ids": [
+        "risk-011-data-quality-evaluation",
+        "ai-data-quality-and-validation",
+        "data-protection-officer-dpo",
+        "machine-learning",
+        "ai-governance-accountability"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-05-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "data-governance-quality",
+      "result": "PASS",
+      "returned_note_ids": [
+        "risk-011-data-quality-evaluation",
+        "ai-data-quality-and-validation",
+        "data-protection-officer-dpo",
+        "machine-learning",
+        "ai-governance-accountability"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-05-negative",
+      "kind": "negative",
+      "language": "fr",
+      "pillar": "data-governance-quality",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-06-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "model-risk-validation-tev",
+      "result": "PASS",
+      "returned_note_ids": [
+        "model-and-concept-drift",
+        "risk-001-model-validation-evidence",
+        "ai-data-quality-and-validation",
+        "risk-011-data-quality-evaluation",
+        "ai-evaluation-and-tevv"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-06-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "model-risk-validation-tev",
+      "result": "PASS",
+      "returned_note_ids": [
+        "model-and-concept-drift",
+        "risk-001-model-validation-evidence",
+        "ai-model-validation",
+        "ai-data-quality-and-validation",
+        "ai-evaluation-and-tevv"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-06-negative",
+      "kind": "negative",
+      "language": "en",
+      "pillar": "model-risk-validation-tev",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-07-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "ai-security",
+      "result": "PASS",
+      "returned_note_ids": [
+        "risk-005-prompt-injection-threat-model",
+        "prompt-injection",
+        "adversarial-machine-learning",
+        "genai-guardrails",
+        "retrieval-augmented-generation"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-07-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "ai-security",
+      "result": "PASS",
+      "returned_note_ids": [
+        "risk-005-prompt-injection-threat-model",
+        "prompt-injection",
+        "genai-guardrails",
+        "model-and-concept-drift",
+        "adversarial-machine-learning"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_matching_sections"
+      ],
+      "id": "eval-07-negative",
+      "kind": "negative",
+      "language": "fr",
+      "pillar": "ai-security",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-08-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "responsible-ai-human-oversight",
+      "result": "PASS",
+      "returned_note_ids": [
+        "human-oversight",
+        "ai-agent-identity-and-access-control",
+        "risk-008-human-oversight-authority"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-08-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "responsible-ai-human-oversight",
+      "result": "PASS",
+      "returned_note_ids": [
+        "human-oversight",
+        "data-protection-authority-dpa",
+        "automatic-decision-making-assessment-adma",
+        "risk-008-human-oversight-authority",
+        "genai-guardrails"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-08-negative",
+      "kind": "negative",
+      "language": "en",
+      "pillar": "responsible-ai-human-oversight",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-09-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "transparency-explainability-documentation",
+      "result": "PASS",
+      "returned_note_ids": [
+        "explainability-and-interpretability",
+        "ai-model-transparency",
+        "model-and-concept-drift",
+        "ai-model-documentation",
+        "gov-004-governance-documentation-update-triggers"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-09-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "transparency-explainability-documentation",
+      "result": "PASS",
+      "returned_note_ids": [
+        "explainability-and-interpretability",
+        "ai-model-transparency",
+        "model-and-concept-drift",
+        "ai-model-documentation",
+        "gov-004-governance-documentation-update-triggers"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-09-negative",
+      "kind": "negative",
+      "language": "fr",
+      "pillar": "transparency-explainability-documentation",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-10-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "third-parties-supply-chain",
+      "result": "PASS",
+      "returned_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face",
+        "ai-supply-chain-governance",
+        "data-subject-access-requests"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-10-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "third-parties-supply-chain",
+      "result": "PASS",
+      "returned_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face",
+        "ai-supply-chain-governance"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_matching_sections"
+      ],
+      "id": "eval-10-negative",
+      "kind": "negative",
+      "language": "en",
+      "pillar": "third-parties-supply-chain",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-11-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "operational-resilience-incidents",
+      "result": "PASS",
+      "returned_note_ids": [
+        "risk-003-model-monitoring-response",
+        "ai-incident-response-resilience",
+        "ai-model-monitoring",
+        "ai-model-documentation",
+        "ori-001-ai-incident-response-playbook"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-11-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "operational-resilience-incidents",
+      "result": "PASS",
+      "returned_note_ids": [
+        "model-and-concept-drift",
+        "data-protection-authority-dpa",
+        "fundamental-right-impact-assessment-fria",
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-11-negative",
+      "kind": "negative",
+      "language": "fr",
+      "pillar": "operational-resilience-incidents",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-12-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "lifecycle-engineering-change",
+      "result": "PASS",
+      "returned_note_ids": [
+        "ai-lifecycle",
+        "ai-literacy-and-change-management",
+        "gov-002-lifecycle-change-reassessment",
+        "ai-model-monitoring",
+        "model-and-concept-drift"
+      ]
+    },
+    {
+      "gap_codes": [],
+      "id": "eval-12-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "lifecycle-engineering-change",
+      "result": "PASS",
+      "returned_note_ids": [
+        "ai-lifecycle",
+        "ai-literacy-and-change-management",
+        "ai-governance-accountability",
+        "ai-model-documentation",
+        "ai-model-monitoring"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-12-negative",
+      "kind": "negative",
+      "language": "en",
+      "pillar": "lifecycle-engineering-change",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-13-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "audit-assurance",
+      "result": "PASS",
+      "returned_note_ids": [
+        "ai-assurance-and-independent-review",
+        "aud-001-independent-ai-assurance",
+        "traceability"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-13-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "audit-assurance",
+      "result": "PASS",
+      "returned_note_ids": [
+        "ai-assurance-and-independent-review",
+        "aud-001-independent-ai-assurance",
+        "traceability",
+        "aud-002-assurance-finding-closure"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_matching_sections"
+      ],
+      "id": "eval-13-negative",
+      "kind": "negative",
+      "language": "fr",
+      "pillar": "audit-assurance",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-14-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "people-ai-literacy-change",
+      "result": "PASS",
+      "returned_note_ids": [
+        "gov-005-role-specific-ai-literacy",
+        "ai-literacy-and-change-management",
+        "risk-008-human-oversight-authority",
+        "human-oversight",
+        "core-002-accountable-owner"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-14-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "people-ai-literacy-change",
+      "result": "PASS",
+      "returned_note_ids": [
+        "ai-literacy-and-change-management",
+        "gov-005-role-specific-ai-literacy",
+        "ai-governance-accountability",
+        "ai-assurance-and-independent-review",
+        "ai-incident-response-resilience"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-14-negative",
+      "kind": "negative",
+      "language": "en",
+      "pillar": "people-ai-literacy-change",
+      "result": "PASS",
+      "returned_note_ids": []
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-15-en",
+      "kind": "positive",
+      "language": "en",
+      "pillar": "sustainability-societal-impact",
+      "result": "PASS",
+      "returned_note_ids": [
+        "gov-006-societal-impact-feedback",
+        "ai-societal-impact-and-stakeholder-engagement",
+        "fundamental-right-impact-assessment-fria",
+        "data-protection-impact-assessments-dpia",
+        "gov-002-lifecycle-change-reassessment"
+      ]
+    },
+    {
+      "gap_codes": [
+        "sections_omitted_for_budget"
+      ],
+      "id": "eval-15-fr",
+      "kind": "positive",
+      "language": "fr",
+      "pillar": "sustainability-societal-impact",
+      "result": "PASS",
+      "returned_note_ids": [
+        "gov-006-societal-impact-feedback",
+        "fundamental-right-impact-assessment-fria",
+        "ai-societal-impact-and-stakeholder-engagement",
+        "data-protection-impact-assessments-dpia"
+      ]
+    },
+    {
+      "gap_codes": [
+        "no_eligible_evidence"
+      ],
+      "id": "eval-15-negative",
+      "kind": "negative",
+      "language": "fr",
+      "pillar": "sustainability-societal-impact",
+      "result": "PASS",
+      "returned_note_ids": []
+    }
+  ],
+  "scenario_count": 45,
+  "schema_version": 2,
+  "unavailable_positive_count": 0
+}

@@ -1,0 +1,22 @@
+{
+  "author_identity": "codex-root-plan-finalization",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": true,
+  "domain": "GENERAL",
+  "evidence_changes": false,
+  "files": [],
+  "proposal_id": "plan-finalization-20260920",
+  "published": false,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [],
+  "status": "DRAFT"
+}

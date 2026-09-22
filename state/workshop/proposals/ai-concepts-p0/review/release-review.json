@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p0",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "1d8ef7e74cc49e16faa73efc956820779e6a80ec97ee50f24e4af5939d49a66f",
+  "reviewer_identity": "codex-ai-concepts-p0-independent-release-reviewer",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic preview validates the six-note candidate with valid=true and would_write=6; no active-vault write was applied.",
+      "candidate_sha256": "1f0dc9f97d158329d5dd8fa9641b9ff3940a172ad1ced38d4943bab73f1487ce"
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "Fourteen locked references resolve as reviewed through the assigned evidence receipt, with twenty-four exact substantive section bindings.",
+      "evidence_lock_sha256": "4cfbc4af060409688ac961846c17cc9d0895b67adfd797f16de033a266f85ed2"
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "Evidence records resolve source identifiers, source hashes, validated ingest units, unit hashes and stable page locators."
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_AND_LINKS_VALID",
+      "detail": "The six new concept IDs, registered domains, paths, frontmatter and semantic links pass deterministic validation.",
+      "file_count": 6
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "The lot uses NIST AI RMF and SR 26-2 framework or supervisory guidance only. No binding legal obligation or universal requirement is asserted."
+    },
+    {
+      "severity": "WARNING",
+      "code": "BOUNDED_SCOPE",
+      "detail": "The evidence review does not establish legal currency, completeness or project-specific applicability; the notes preserve those limitations."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This verdict establishes readiness only. Human approval must bind the exact candidate SHA-256 before deterministic integration.",
+      "approval_file": "state/workshop/proposals/ai-concepts-p0/review/approval.md"
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_14_REFERENCES",
+    "shared_receipt": "PASS_14_RECORDS_24_BINDINGS",
+    "evidence_review": "PASS_EVIDENCE_READY",
+    "authority_boundary": "PASS_NO_BINDING_SOURCE_OR_CLAIM",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS"
+  }
+}

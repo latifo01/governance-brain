@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "55926b46e4e0fb2f4970675bf38cd49704f37741ee5166ac8ab54f68854e2139",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "8aa02eecc411dafe78b1b146da49e14a3302444bc838b84856823228fcd67800"
+  },
+  "files": [
+    {
+      "path": "questions/legal/legal-002-fria-trigger.md",
+      "proposal_id": "fria-question-update-20260919",
+      "sha256": "c1f936b9a8cfefc65ab27788999391ead5fddcf6b27578b3b3fb5884a835ded3"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 148,
+  "proposal_ids": [
+    "fria-question-update-20260919"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

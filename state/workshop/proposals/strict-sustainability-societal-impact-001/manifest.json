@@ -1,0 +1,35 @@
+{
+  "author_identity": "codex-source-gap-sustainability-builder",
+  "candidate_sha256": "9bc17ff79c9e722b3db777f24a01323260bb66b6040f4641d8d343ef09fb715e",
+  "changes": {
+    "ADD": [
+      "ai-sustainability-impact-baseline",
+      "gov-011-sustainability-impact-metrics"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-societal-impact-and-stakeholder-engagement"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "HUMAN_OVERSIGHT_RESPONSIBLE_AI",
+  "evidence_audit_proposal": "source-gap-evidence-audit-p1-20260920",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/ai-societal-impact-and-stakeholder-engagement.md",
+    "AI Risk Mitigations/ai-sustainability-impact-baseline.md",
+    "questions/governance/gov-011-sustainability-impact-metrics.md"
+  ],
+  "proposal_id": "strict-sustainability-societal-impact-001",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "sustainability-societal-impact"
+  ],
+  "status": "INTEGRATED"
+}

@@ -1,0 +1,16 @@
+schema_version: 1
+domain_id: MODEL_RISK
+slug: model-risk
+status: ACTIVE
+labels:
+  en: Model Risk
+  fr: Risque de modèle
+description: Model lifecycle risk, validation, measurement, monitoring, limitations, and risk treatment.
+question_prefix: MOD
+languages: [en, fr]
+source_roots:
+  - sources/07_Model_Risk_Management
+  - sources/08_NIST_AI_Risk
+review_policy: HUMAN_APPROVAL
+aliases: []
+

@@ -1,0 +1,14 @@
+{
+  "counts": {
+    "findings": 0,
+    "ingest_units": 2789,
+    "questions": 3,
+    "relations": 0,
+    "sources": 42,
+    "verified_evidence": 4
+  },
+  "domain_id": null,
+  "findings": [],
+  "schema_version": 1,
+  "status": "READY_FOR_HUMAN_APPROVAL"
+}

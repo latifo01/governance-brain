@@ -1,0 +1,60 @@
+         request should be granted unless one can demonstrate “overriding legitimate grounds”). This implies that,
+         as a rule, if an objection under Article 21(1) GDPR is granted, a related erasure request under Article
+         17(1)(c) GDPR should also be granted. 96
+
+79.      The GDPR does not specify how controllers should ensure deletion. However, it should be noted that
+         controllers have to be able to demonstrate that the right to erasure has been entirely complied with in
+         accordance with the principle of accountability laid down in Article 5(2) GDPR, 97 and that the data subject
+         may lodge a complaint or initiate a legal action concerning the erasure.
+
+
+         6. Automated individual decision-making, including profiling
+
+80.      The GDPR specifically addresses automated decision-making in Article 22, and confers on the data subject
+         the right not to be the subject of a decision solely based on automated processing, including profiling. 98
+         That provision lays down a prohibition in principle, the infringement of which does not need to be invoked
+         individually by such a person.99 Therefore, this kind of processing should not take place, unless one of the
+         exceptions listed in Article 22(2) GDPR applies. 100
+
+81.      In any event, even when this kind of automated processing is authorised in the cases referred to in Article
+         22(2) GDPR, the processing will be lawful only if the controller is able to identify a valid legal basis for the
+         processing in Article 6(1) GDPR. In this respect, the CJEU noted with regard to Article 6(1)(f) GDPR that
+         Member States cannot, under Article 22(2)(b) GDPR, dismiss the requirements resulting from the case-
+         law of the Court, in particular, by definitively prescribing the result of the balancing of the rights and
+         interests at issue.101 For the sake of clarity, it should also be emphasised that Article 6(1)(f) GDPR should
+         not be considered Union law authorising automated decision-making within the meaning of Article
+         22(2)(b) GDPR.
+
+82.      Not all profiling activities lead to automated decision-making that falls under Article 22 GDPR. However,
+         regardless of whether the controller intends to engage in profiling that would lead to automated decision-
+         making that falls under Article 22 GDPR, the following elements are particularly relevant when performing
+         the balancing exercise before invoking Article 6(1)(f) GDPR as a legal basis:
+
+              -   the level of detail of the profile (a data subject profiled within a broadly described cohort such
+                  as “people with an interest in English literature”, or segmented and targeted on a granular level);
+              -   the comprehensiveness of the profile (whether the profile only describes a small aspect of the
+                  data subject, or paints a more comprehensive picture);
+              -   the impact of the profiling (the effects on the data subject);
+              -   the possible future combination of profiles; and
+              -   the safeguards ensuring fairness, non-discrimination and accuracy in the profiling process. 102
+
+
+
+
+         96 Cf. EDPB Guidelines 5/2019 on the criteria of the Right to be Forgotten in the search engines cases under the GDPR
+
+         (part 1), Version 2.0, adopted on 7 July 2020, para. 30.
+         97 See e.g. CJEU, judgment of 4 May 2023, Case C‑60/22, UZ v. Bundesrepublik Deutschland (ECLI:EU:C:2023:373),
+
+         para. 53.
+         98 For further guidance on Article 22 GDPR, see Guidelines on Automated individual decision-making and Profiling
+
+         for the purposes of Regulation 2016/679 (WP251rev.01), as last revised and adopted on 6 February 2018.
+         99 CJEU, judgment of 7 December 2023, Case C-634/21, SCHUFA Holding (Scoring) (ECLI:EU:C:2023:957), para. 52.
+         100 Ibid., para. 53.
+         101 Ibid., para. 70.
+         102 Ibid.
+
+                                                                                                                           24
+      Adopted - version for public consultation
+

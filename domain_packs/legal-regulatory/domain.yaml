@@ -1,0 +1,16 @@
+schema_version: 1
+domain_id: LEGAL_REGULATORY
+slug: legal-regulatory
+status: ACTIVE
+labels:
+  en: Legal & Regulatory
+  fr: Juridique et réglementaire
+description: Applicable laws, regulations, regulatory interpretations, and legal obligations governing AI systems.
+question_prefix: LEG
+languages: [en, fr]
+source_roots:
+  - sources/05_EU_AI_Legislation
+  - sources/06_ISO_Standards_not_downloaded
+review_policy: HUMAN_APPROVAL
+aliases: []
+

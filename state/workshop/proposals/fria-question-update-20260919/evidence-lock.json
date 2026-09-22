@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "fria-question-src-0011-p0222-ec-001",
+    "fria-question-src-0011-p0223-ec-008",
+    "fria-question-src-0043-p0035-ec-001"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/fria-question-update-20260919.json",
+      "sha256": "c3bbae5eb42e0b966c8b6b65bec727416672b34e473e31c7481497dcbff352ce"
+    }
+  ]
+}

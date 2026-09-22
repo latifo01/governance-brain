@@ -1,0 +1,30 @@
+{
+  "author_identity": "opencode-orchestrator",
+  "candidate_sha256": "f41449735fe6a0bdd300c9dcf805922f12dfdf6779411e1e8bcb5aebf3bb816c",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "risk-index",
+      "data-protection-index"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "description": "Navigation updates linking the seven remaining orphan knowledge notes (cosai, iso-27001, mit-ai-risk-initiative, gdpr-article-22-automated-decision-making, ai-model-fairness-and-bias-avoidance, ai-model-transparency, ai-agent-scope-drift-detection) into risk-index and data-protection-index; pure navigation, no knowledge content.",
+  "domain": "RISK",
+  "evidence_changes": false,
+  "files": [
+    "indexes/risk-index.md",
+    "indexes/data-protection-index.md"
+  ],
+  "proposal_id": "orphan-navigation-lot-018",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "fast",
+  "schema_version": 3,
+  "shards": [],
+  "status": "INTEGRATED"
+}

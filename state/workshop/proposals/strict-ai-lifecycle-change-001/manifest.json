@@ -1,0 +1,35 @@
+{
+  "author_identity": "codex-source-gap-lifecycle-builder",
+  "candidate_sha256": "9bc17ff79c9e722b3db777f24a01323260bb66b6040f4641d8d343ef09fb715e",
+  "changes": {
+    "ADD": [
+      "ai-lifecycle-change-gates",
+      "gov-009-lifecycle-release-and-rollback"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-lifecycle"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "MODEL_RISK",
+  "evidence_audit_proposal": "source-gap-evidence-audit-p1-20260920",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/ai-lifecycle-change-gates.md",
+    "AI concepts/ai-lifecycle.md",
+    "questions/governance/gov-009-lifecycle-release-and-rollback.md"
+  ],
+  "proposal_id": "strict-ai-lifecycle-change-001",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "lifecycle-engineering-change"
+  ],
+  "status": "INTEGRATED"
+}

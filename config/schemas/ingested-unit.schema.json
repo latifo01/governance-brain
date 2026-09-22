@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gov360.local/schemas/ingested-unit.schema.json",
+  "title": "Governance Brain normalized Markdown unit metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "type",
+    "schema_version",
+    "source_id",
+    "source_sha256",
+    "source_format",
+    "adapter_id",
+    "adapter_version",
+    "locator_kind",
+    "locator",
+    "content_sha256",
+    "extraction_mode",
+    "visual_review",
+    "warnings"
+  ],
+  "properties": {
+    "type": {"const": "ingested_unit"},
+    "schema_version": {"const": 1},
+    "source_id": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
+    "source_sha256": {"$ref": "#/$defs/sha256"},
+    "source_format": {"type": "string", "pattern": "^[a-z0-9][a-z0-9+.-]*$"},
+    "adapter_id": {"type": "string", "minLength": 1},
+    "adapter_version": {"type": "string", "minLength": 1},
+    "locator_kind": {
+      "enum": ["page", "section", "slide", "sheet_range", "row_range", "json_path", "xml_path", "line_range", "image_region"]
+    },
+    "locator": {"type": "string", "minLength": 1},
+    "content_sha256": {"$ref": "#/$defs/sha256"},
+    "extraction_mode": {"enum": ["native", "rendered", "ocr", "hybrid", "aggregate"]},
+    "visual_review": {"enum": ["NONE", "DECORATIVE", "REVIEW_REQUIRED", "REVIEWED", "UNREADABLE"]},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "record_count": {"type": "integer", "minimum": 0},
+    "non_exhaustive": {"type": "boolean", "default": false},
+    "query_sha256": {"$ref": "#/$defs/sha256"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}
+

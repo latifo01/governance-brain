@@ -1,0 +1,40 @@
+{
+  "author_identity": "codex-operations-assurance-domain-builder",
+  "candidate_sha256": "5249c6958c073d072290119af75ffd94428dd284da30b5c5ca63d1dad0504d58",
+  "changes": {
+    "ADD": [
+      "ai-assurance-and-independent-review",
+      "ai-incident-response-resilience",
+      "aud-001-independent-ai-assurance",
+      "aud-002-assurance-finding-closure",
+      "ori-001-ai-incident-response-playbook",
+      "ori-002-recovery-validation-and-lessons-learned"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "OPERATIONAL_RESILIENCE_INCIDENTS",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/ai-assurance-and-independent-review.md",
+    "AI Risk Mitigations/ai-incident-response-resilience.md",
+    "questions/assurance/aud-001-independent-ai-assurance.md",
+    "questions/assurance/aud-002-assurance-finding-closure.md",
+    "questions/operational/ori-001-ai-incident-response-playbook.md",
+    "questions/operational/ori-002-recovery-validation-and-lessons-learned.md"
+  ],
+  "proposal_id": "operations-assurance-lot-028",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "operational-resilience",
+    "audit-assurance"
+  ],
+  "status": "INTEGRATED"
+}

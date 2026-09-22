@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-035-model-lifecycle",
+  "stage": "KNOWLEDGE_AND_QUESTION_PROPOSAL",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/ai-model-validation.md",
+      "id": "ai-model-validation"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "question",
+      "path": "questions/risk/risk-001-model-validation-evidence.md",
+      "id": "risk-001-model-validation-evidence"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/ai-model-documentation.md",
+      "id": "ai-model-documentation"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/ai-model-transparency.md",
+      "id": "ai-model-transparency"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/ai-model-monitoring.md",
+      "id": "ai-model-monitoring"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "question",
+      "path": "questions/risk/risk-003-model-monitoring-response.md",
+      "id": "risk-003-model-monitoring-response"
+    }
+  ],
+  "evidence": {
+    "receipt": "state/workshop/evidence-library/benchmark-evidence-035-model-lifecycle.json",
+    "evidence_lock_sha256": "c977292d6e3ac53b9a1b8e01250c0d392f76475111f65e88c5f21091b976afe4"
+  },
+  "approval": "PENDING"
+}

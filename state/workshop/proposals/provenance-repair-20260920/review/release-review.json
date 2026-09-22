@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "proposal_id": "provenance-repair-20260920",
+  "reviewer_identity": "codex-provenance-repair-20260920-independent-release-reviewer",
+  "reviewed_at": "2026-09-20T00:35:00Z",
+  "candidate_sha256": "606d74575bd55c66e58cc06d97e758278d3d51648b4f44669e10a833016f8133",
+  "evidence_lock_sha256": "46e54cffb998031b065a3d7b2db287561daed61293df10a9b86665d6282c85d5",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_REVIEW_COMPLETED",
+      "detail": "The five SRC-0009 visual-fidelity checks are recorded in the reviewed evidence receipt and the receipt is staged under the shared evidence library."
+    },
+    {
+      "severity": "WARNING",
+      "code": "FULL_PAGE_RENDERER_UNAVAILABLE",
+      "detail": "Embedded-image inspection and native-text comparison were used; no image-only claim was admitted."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "No active-vault publication is authorized until the candidate hash is explicitly approved."
+    }
+  ]
+}

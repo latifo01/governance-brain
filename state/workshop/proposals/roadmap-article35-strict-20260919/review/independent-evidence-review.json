@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "stage": "INDEPENDENT_EVIDENCE_REVIEW",
+  "verdict": "BLOCKED",
+  "review_scope": {
+    "assignment_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/assignment.json",
+    "assignment_sha256": "bb2fd3f548a09ec530f45f17e029af16f18946d4efa2f34e70a062d1d5a26b30",
+    "extraction_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/extraction.json",
+    "extraction_sha256": "aa2e3a107355a726e9857bc73b066078b66716975b30237d20d649ca0bac3fd5",
+    "evidence_audit_path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/evidence-audit.json",
+    "candidate_count": 10
+  },
+  "integrity_review": {
+    "assignment_coverage": "COMPLETE",
+    "locator_review": "PASS",
+    "unit_hash_review": "PASS",
+    "result": "All ten candidate paths, page locators, source hashes, unit-content hashes and unit-file hashes agree with the assignment, extraction receipt and current assigned unit files."
+  },
+  "candidate_review": [
+    {"candidate_id": "art35-src-0010-p0053-ec-001", "result": "SUPPORTED", "authority": "BINDING_CANDIDATE", "limitation": "Article 35(1) trigger depends on the applicable processing facts and GDPR scope."},
+    {"candidate_id": "art35-src-0010-p0053-ec-002", "result": "SUPPORTED", "authority": "BINDING_CANDIDATE", "limitation": "The Article 35(3) examples do not exhaust Article 35(1) high-risk cases."},
+    {"candidate_id": "art35-src-0010-p0054-ec-001", "result": "SUPPORTED", "authority": "BINDING_CANDIDATE", "limitation": "Article 35(7) specifies minimum content, not a mandatory document format."},
+    {"candidate_id": "art35-src-0010-p0054-ec-002", "result": "SUPPORTED", "authority": "BINDING_CANDIDATE", "limitation": "Data-subject consultation is qualified by appropriateness; review is tied to necessity and changed risk."},
+    {"candidate_id": "art35-src-0010-p0055-ec-001", "result": "SUPPORTED", "authority": "BINDING_CANDIDATE", "limitation": "Article 36 material applies to the prior-consultation pathway, not every DPIA."},
+    {"candidate_id": "art35-src-0010-p0056-ec-001", "result": "SUPPORTED", "authority": "BINDING_CANDIDATE", "limitation": "It states DPO tasks and does not establish a DPO-designation trigger."},
+    {"candidate_id": "art35-src-0011-p0220-ec-001", "result": "SUPPORTED", "authority": "BINDING_CANDIDATE", "limitation": "The Article 26(9) cross-reference is qualified by applicability and does not establish Article 35 applicability."},
+    {"candidate_id": "art35-src-0011-p0224-ec-001", "result": "SUPPORTED", "authority": "BINDING_CANDIDATE", "limitation": "The Article 27(4)-(5) material concerns FRIA/DPIA coordination and does not make every AI deployment subject to either assessment."},
+    {"candidate_id": "art35-src-0022-p0183-ec-001", "result": "SUPPORTED_AS_CONTEXT_ONLY", "authority": "NON_BINDING_CONTEXT", "limitation": "Educational interpretation cannot establish a legal DPIA or FRIA obligation."},
+    {"candidate_id": "art35-src-0022-p0184-ec-001", "result": "SUPPORTED_AS_CONTEXT_ONLY", "authority": "NON_BINDING_CONTEXT", "limitation": "Educational description cannot establish FRIA contents or a universal combined-assessment format."}
+  ],
+  "authority_and_currentness": {
+    "gdpr": "SRC-0010 is operative GDPR text and can support bounded binding candidates, subject to a currentness and applicability check.",
+    "ai_act": "SRC-0011 is operative AI Act text and can support bounded binding candidates, but the reviewed material does not provide a currentness resolution for Articles 26 and 27. Repository evidence identifies a reviewed binding AI Act amending act (SRC-0043), so an unverified original-text assertion cannot be treated as current binding evidence.",
+    "src_0022": "SRC-0022 remains educational guidance/context only. It must not support an obligation, prohibition, complete applicability test, or legally required assessment content."
+  },
+  "blockers": [
+    {
+      "code": "CURRENTNESS_UNRESOLVED",
+      "scope": "SRC-0010 Article 35/36/39 and SRC-0011 Articles 26/27",
+      "detail": "The evidence audit expressly leaves currentness, amendments and temporal applicability to be confirmed. No hash-bound currentness resolution is included for these provisions; this is required before legal evidence can be marked ready."
+    },
+    {
+      "code": "AI_ACT_AMENDMENT_INTERACTION_UNRESOLVED",
+      "scope": "SRC-0011 candidates art35-src-0011-p0220-ec-001 and art35-src-0011-p0224-ec-001",
+      "detail": "Existing repository evidence records SRC-0043 as a reviewed binding amending act for the AI Act, but this lot does not establish whether Articles 26 or 27 are unaffected, superseded or otherwise current."
+    }
+  ],
+  "required_resolution": [
+    "Create a hash-bound currentness review for the cited GDPR provisions and for AI Act Articles 26 and 27, including any applicable amending or corrigendum text.",
+    "Re-run this independent review against the resolved evidence inputs before an evidence lock or domain construction."
+  ],
+  "warnings": [
+    "This verdict is an independent evidence review only. It is not legal advice, evidence-lock approval, publication approval or human approval.",
+    "No source original, ingest unit, vault content or shared index was modified."
+  ]
+}

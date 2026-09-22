@@ -1,0 +1,18 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "slc-be035-src-0018-p0004",
+    "slc-be035-src-0018-p0005",
+    "slc-be035-src-0018-p0010",
+    "slc-be035-src-0039-p0019",
+    "slc-gov20-src-0001-p0017",
+    "slc-gov20-src-0002-p0008",
+    "slc-gov20-src-0002-p0010"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/strict-ai-lifecycle-change-001.json",
+      "sha256": "adb7f27352f6be6a963472aa794b743b78d377dc708296cde251b2601454479f"
+    }
+  ]
+}

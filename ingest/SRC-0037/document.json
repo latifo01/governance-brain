@@ -1,0 +1,108 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 0,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "MODEL_RISK"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 5
+    },
+    "native_unit_count": 5,
+    "normalized_unit_count": 5,
+    "warnings": [
+      "Page 1: one or more image objects could not be inspected"
+    ]
+  },
+  "metrics": {
+    "page_count": 5,
+    "unit_count": 5
+  },
+  "relative_source_paths": [
+    "sources/07_Model_Risk_Management/sr1107.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0037",
+  "source_kind": "document",
+  "source_sha256": "e0fa7b094c8f99142bcfc0ea7cdaef833dbc4e6ac071682394310323c06926d4",
+  "units": [
+    {
+      "content_sha256": "7966077fb301b5e8d3cb03a3bcfc4b3b3220ddb6aca6d55629e66d5ee1d5b6eb",
+      "file_sha256": "61b33447d0b7a798868039a5afbcc12b3c700d66004f5b999a5e88a2f431e77a",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": [
+        "one or more image objects could not be inspected"
+      ]
+    },
+    {
+      "content_sha256": "8c978b93958e194ddf043cd7ad8492d42986e6514938be716c6186bc591d668c",
+      "file_sha256": "173a2b791b323388999f8baff22a842beb8e9f90f768fec003b0f29f78762709",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "47a3c31361b16063020f885feb055d347e61d5792d7a7a49ab8f3f7b9d060494",
+      "file_sha256": "7a6af97ed8908b77edea6bb9e19d0394220a7bb6a04cbffc8b7f69ee061caf3e",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "8e4d718f18be38f715159a3b5d376f6b51a94f07e8cdb42c5b22e3a5823f5ef2",
+      "file_sha256": "952cc5c3f9860d9dc46d3f9ed1d13fb601dbd0853939665ba368c80f6edca9c5",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "ebaedb455dec7f083e80d2138930293f1089cae8f2510930fac7404c0aea7c5c",
+      "file_sha256": "c9759adfb9983934cacdb7b5129b60df387d8d9bd9a322097aab8fdde6b32a3d",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 15264,
+      "native_unit_count": 5,
+      "normalized_unit_count": 5
+    },
+    "valid": true,
+    "warnings": [
+      "Page 1: one or more image objects could not be inspected"
+    ]
+  },
+  "warnings": [
+    "Page 1: one or more image objects could not be inspected"
+  ]
+}

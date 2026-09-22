@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "3fee3d9c002b5aedbacf2577cfbbc91a7689a08e2e00f75b4e7800e743b5df17",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-governance-accountability.md",
+      "proposal_id": "governance-lifecycle-lot-020",
+      "sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 110,
+  "proposal_ids": [
+    "governance-lifecycle-lot-020"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

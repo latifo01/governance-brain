@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "reviewer_identity": "codex-article35-currentness-reviewer",
+  "reviewed_at": "2026-09-19T22:00:00+02:00",
+  "evidence_lock_sha256": "472d68d8f2edba67039707035672de6306680e6cf25c079cd6c26838ac7b269f",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "RESOLVED_LIBRARY",
+      "detail": "The locked receipt resolves 13 reviewed references and 8 exact section bindings through validated Markdown units."
+    },
+    {
+      "severity": "INFO",
+      "code": "CURRENTNESS_BOUND",
+      "detail": "GDPR Articles 35, 36 and 39 are bounded to the EUR-Lex retrieval-date currentness receipt; Article 26(9) and Article 27(4)-(5) retain amendment and route qualifiers."
+    },
+    {
+      "severity": "INFO",
+      "code": "EXCLUSIONS_PRESERVED",
+      "detail": "The unqualified Article 26 candidate, superseded Article 27 candidate and all SRC-0047 evidence are excluded."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This evidence review enables candidate review only; human approval remains required before integration."
+    }
+  ],
+  "checks": {
+    "evidence_lock": "PASS_13_REFERENCES",
+    "shared_receipt": "PASS_13_RECORDS_8_BINDINGS",
+    "currentness": "PASS_BOUNDED_2026-09-19",
+    "authority_boundary": "PASS_BINDING_CLAIMS_SCOPED",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS",
+    "active_vault_unchanged": "PASS"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "goal": "parallel-next-20260919",
+  "status": "PASS_WITH_APPROVAL_GATE",
+  "success_criteria": {
+    "all_five_artifacts_present": true,
+    "all_validated_or_review_ready": true,
+    "active_vault_publication_without_approval": false,
+    "sources_written": false,
+    "ingest_written": false,
+    "contracts_changed": false
+  },
+  "items": {
+    "step1_fria_question_update": {
+      "status": "PASS_READY_FOR_HUMAN_APPROVAL",
+      "proposal": "state/workshop/proposals/fria-question-update-20260919",
+      "candidate_sha256": "55926b46e4e0fb2f4970675bf38cd49704f37741ee5166ac8ab54f68854e2139",
+      "evidence_lock_sha256": "56738e57f12cf60fe64aed2cd1d0befa9575e01568bb888442afb949e79adb19",
+      "review": "READY_FOR_HUMAN_APPROVAL",
+      "preview": "PASS_APPLIED_FALSE",
+      "approval": "PENDING"
+    },
+    "step2_brain_diagnostics": {
+      "status": "PASS",
+      "analysis": "state/workshop/proposals/brain-diagnostics-20260919/analysis/report.json",
+      "report_sha256": "c17591a6808440d9256f6e10bdb16450fd3b1da33f3d08c2260391f592883e66",
+      "notes": 148,
+      "sections": 800,
+      "reviewed_sections": 298,
+      "ready_positive": 30,
+      "negative_pass": 15,
+      "recall_at_5": 1.0,
+      "orphan_knowledge": 7,
+      "warnings": 35
+    },
+    "step3_coverage_criteria": {
+      "status": "PASS_ANALYSIS_ONLY",
+      "analysis": "state/workshop/proposals/coverage-criteria-review-20260919/analysis/coverage-criteria-review.json",
+      "candidate_sha256": "52a0391ed0d0cda41c01ee46a8930c3937828f186c0a7f3e2def6ebb5b4ef25a",
+      "artifact_sha256": "cb3452d8ddac8388f39a1d3d9f599cc1afa57cebdbabfeb8e41dccdd52170a05",
+      "validation_sha256": "f51e9e51ee20266e4d577155928ed3279b62b313e9ab6c26714febe43b17d1e9",
+      "cells": 150,
+      "source_gap": 20,
+      "evidence_ready": 12,
+      "proposal_ready": 118,
+      "complete": 0,
+      "priority_p0": 20,
+      "priority_p1": 130
+    },
+    "step4_orphan_links": {
+      "status": "PASS_ANALYSIS_ONLY",
+      "analysis": "state/workshop/proposals/orphan-provenance-review-20260919/analysis/orphan-link-repair-proposal.json",
+      "artifact_sha256": "5dcc47ab6895d67fc573c3d2ea2fa29d20e218ded25e3e9bf02550d0e2aabbc4",
+      "orphans": 7,
+      "candidate_links": 7,
+      "placeholders": 0,
+      "auto_repairs": 0,
+      "human_semantic_review_required": true
+    },
+    "step5_provenance": {
+      "status": "PASS_AUDIT_READY",
+      "analysis": "state/workshop/proposals/orphan-provenance-review-20260919/analysis/provenance-warning-audit.json",
+      "artifact_sha256": "166085c3b81f4afca08c93b2dee29b3e8953c0718241e638b7aae63356800cc2",
+      "warnings": 28,
+      "repair_candidates": 23,
+      "information_missing": 1,
+      "historical_preserve": 4,
+      "auto_repairs": 0
+    }
+  },
+  "remaining_gates": [
+    "Human approval required before applying fria-question-update-20260919.",
+    "Orphan link candidates require semantic review and a navigation release.",
+    "23 provenance repair candidates require separate strict lineage releases; one warning lacks information and four remain historical.",
+    "Coverage matrix remains UNASSESSED until criterion-specific releases are approved; no COMPLETE state emitted."
+  ]
+}

@@ -1,0 +1,46 @@
+# Python and test caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+.coverage
+htmlcov/
+build/
+*.egg-info/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Sources and normalized units are versioned in the private CDO handoff.
+# Their immutability is enforced by the repository checks, not by ignoring them.
+
+# Ephemeral runs, renders, locks, and local model artifacts
+state/runs/
+state/render_cache/
+state/watch/
+.models/
+.offline/
+.opencode/node_modules/
+brain wiki/.obsidian/workspace.json
+dist/cdo-handoff/
+*.tmp
+*.part
+*.lock
+!uv.lock
+!**/uv.lock
+*.crdownload
+*.download
+
+# Office and OS temporary files
+~$*
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Historical misspelling retained only as an ignored local compatibility file.
+fonctionnment.md

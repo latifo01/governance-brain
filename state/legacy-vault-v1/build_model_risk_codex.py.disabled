@@ -1,0 +1,58 @@
+from __future__ import annotations
+
+import hashlib
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+STATE = ROOT / "state"
+RUN = STATE / "runs" / "20260911T075109Z-4df2d8fe"
+
+
+def unit_meta(source_id: str, filename: str) -> dict:
+    doc = json.loads((ROOT / "ingest" / source_id / "document.json").read_text(encoding="utf-8"))
+    return next(u for u in doc["units"] if str(u["filename"]).endswith(filename))
+
+
+def evidence(source_id: str, filename: str, claim: str, kind: str) -> dict:
+    row = next(r for r in (json.loads(x) for x in (STATE / "source_manifest.jsonl").read_text(encoding="utf-8").splitlines()) if r["source_id"] == source_id)
+    meta = unit_meta(source_id, filename)
+    identity = {"source_id": source_id, "source_sha256": row["source_sha256"], "locator": meta["locator"], "unit_content_sha256": meta["content_sha256"], "claim": claim}
+    ref = "EV-" + hashlib.sha256(json.dumps(identity, sort_keys=True, separators=(",", ":")).encode()).hexdigest()[:20].upper()
+    return {"schema_version": 1, "evidence_ref": ref, **identity, "evidence_kind": kind, "normativity": "GUIDANCE", "status": "VERIFIED", "reason_code": "SUPPORTED", "visual_dependency": False, "domains": ["MODEL_RISK"]}
+
+
+def main() -> None:
+    ev = [
+        evidence("SRC-0038", "p0002.md", "Model risk management includes governance and control mechanisms, including board and senior management oversight, policies and procedures, controls and compliance, and an appropriate organisational structure.", "definition"),
+        evidence("SRC-0038", "p0009.md", "Model validation verifies that models perform as expected against design objectives and business use, identifies limitations and assumptions, and should include independent critical review.", "control"),
+        evidence("SRC-0038", "p0017.md", "The board and senior management establish a bank-wide model risk framework; senior management executes it, reports significant model risk, and the board reviews policy and risk tolerance.", "governance"),
+        evidence("SRC-0038", "p0018.md", "Model owners are accountable for model use and performance and should ensure development, implementation, validation, approval, inventory, and information for validation are maintained.", "governance"),
+    ]
+    existing = [json.loads(x) for x in (STATE / "evidence_registry.jsonl").read_text(encoding="utf-8").splitlines() if x.strip()]
+    merged = {x["evidence_ref"]: x for x in existing}
+    merged.update({x["evidence_ref"]: x for x in ev})
+    (STATE / "evidence_registry.jsonl").write_text("".join(json.dumps(merged[k], ensure_ascii=False, sort_keys=True) + "\n" for k in sorted(merged)), encoding="utf-8")
+    refs = [x["evidence_ref"] for x in ev]
+    knowledge = {"changes": [
+        {"change_type": "ADD", "artifact_type": "CONCEPT", "stable_id": "CON-MODEL-RISK-GOV", "title": "Model risk governance framework", "statement": "Model risk management is an enterprise governance and control framework covering development, implementation, use, validation, oversight, policies, procedures, compliance, and organisational accountability.", "modality": "context", "evidence_refs": [refs[0], refs[2]], "affected_domains": ["MODEL_RISK"]},
+        {"change_type": "ADD", "artifact_type": "CONCEPT", "stable_id": "CON-MODEL-VALIDATION", "title": "Independent model validation", "statement": "Model validation assesses performance against design objectives and intended business use, surfaces limitations and assumptions, and requires competent challenge with an appropriate degree of independence.", "modality": "control", "evidence_refs": [refs[1]], "affected_domains": ["MODEL_RISK"]},
+        {"change_type": "ADD", "artifact_type": "CONCEPT", "stable_id": "CON-MODEL-OWNER-ACCOUNTABILITY", "title": "Model owner accountability", "statement": "A model owner is accountable for model use and performance and for ensuring development, implementation, validation, approval, inventory, and supporting information are maintained within the governance framework.", "modality": "expectation", "evidence_refs": [refs[3]], "affected_domains": ["MODEL_RISK"]},
+    ], "taxonomy_proposals": [], "conflicts": [], "warnings": ["Codex-direct pilot; claims manually checked against the cited Markdown units."]}
+    questions = {"domain_id": "MODEL_RISK", "questions": [
+        {"schema_version": 1, "change_type": "ADD", "question_id": "MOD_001", "revision": 1, "domain": "MODEL_RISK", "topic": "Governance", "response_type": "BOOLEAN", "applies_if": {}, "depends_on": {}, "question_fr": "Le dispositif de gouvernance couvre-t-il le développement, la mise en œuvre, l’utilisation et la validation des modèles ?", "question_en": "Does the governance framework cover model development, implementation, use, and validation?", "evidence_refs": [{"source_id": "SRC-0038", "source_sha256": ev[0]["source_sha256"], "locator": ev[0]["locator"], "verification_status": "VERIFIED"}, {"source_id": "SRC-0038", "source_sha256": ev[2]["source_sha256"], "locator": ev[2]["locator"], "verification_status": "VERIFIED"}], "status": "PROPOSED", "affected_domains": ["MODEL_RISK"]},
+        {"schema_version": 1, "change_type": "ADD", "question_id": "MOD_002", "revision": 1, "domain": "MODEL_RISK", "topic": "Validation", "response_type": "BOOLEAN", "applies_if": {}, "depends_on": {}, "question_fr": "La validation du modèle évalue-t-elle ses objectifs de conception, son usage prévu, ses limites et ses hypothèses avec une revue indépendante ?", "question_en": "Does model validation assess design objectives, intended use, limitations, and assumptions with independent review?", "evidence_refs": [{"source_id": "SRC-0038", "source_sha256": ev[1]["source_sha256"], "locator": ev[1]["locator"], "verification_status": "VERIFIED"}], "status": "PROPOSED", "affected_domains": ["MODEL_RISK"]},
+        {"schema_version": 1, "change_type": "ADD", "question_id": "MOD_003", "revision": 1, "domain": "MODEL_RISK", "topic": "Accountability", "response_type": "BOOLEAN", "applies_if": {}, "depends_on": {}, "question_fr": "Un responsable de modèle est-il explicitement comptable de son utilisation, de sa performance, de sa validation et de son inventaire ?", "question_en": "Is a model owner explicitly accountable for its use, performance, validation, and inventory?", "evidence_refs": [{"source_id": "SRC-0038", "source_sha256": ev[3]["source_sha256"], "locator": ev[3]["locator"], "verification_status": "VERIFIED"}], "status": "PROPOSED", "affected_domains": ["MODEL_RISK"]},
+    ], "warnings": []}
+    proposal_dir = RUN / "proposals"
+    proposal_dir.mkdir(parents=True, exist_ok=True)
+    (proposal_dir / "knowledge.json").write_text(json.dumps(knowledge, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    (proposal_dir / "questionnaires.json").write_text(json.dumps(questions, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    def digest(value: dict) -> str:
+        return hashlib.sha256(json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+    review = {"schema_version": 1, "domain_id": "MODEL_RISK", "status": "REVIEW_REQUIRED", "findings": [], "counts": {"verified_evidence": len(ev), "knowledge_changes": 3, "questions": 3}, "knowledge_sha256": digest(knowledge), "questionnaires_sha256": digest(questions)}
+    (proposal_dir / "review.json").write_text(json.dumps(review, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()

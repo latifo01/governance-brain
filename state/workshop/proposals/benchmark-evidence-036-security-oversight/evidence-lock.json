@@ -1,0 +1,23 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "be036-src-0009-p0028-ec-002",
+    "be036-src-0026-p0010-ec-005",
+    "be036-src-0026-p0010-ec-006",
+    "be036-src-0026-p0011-ec-007",
+    "be036-src-0026-p0012-ec-008",
+    "be036-src-0027-p0010-ec-009",
+    "be036-src-0027-p0011-ec-010",
+    "be036-src-0027-p0011-ec-011",
+    "be036-src-0027-p0033-ec-012",
+    "be036-src-0039-p0032-ec-013",
+    "be036-src-0039-p0032-ec-014",
+    "be036-src-0039-p0045-ec-015"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/benchmark-evidence-036-security-oversight.json",
+      "sha256": "739c20feaae9656a1134036e325a66adedd795d354c6bf5bff978477f7f30360"
+    }
+  ]
+}

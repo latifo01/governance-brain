@@ -1,0 +1,407 @@
+{
+  "schema_version": 1,
+  "receipt_id": "roadmap-article35-strict-20260919",
+  "author_identity": "codex-deterministic-evidence-lock-assembler",
+  "evidence": [
+    {
+      "evidence_ref": "art35-addendum-src-0043-p0020-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0020.md",
+      "unit_sha256": "24eb2a464443dc4ada59da54d94951581b306e5323c3f6a4bb676cc6ff649185",
+      "unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38",
+      "locator": "Page 20",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-addendum-src-0043-p0020-ec-002",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0020.md",
+      "unit_sha256": "24eb2a464443dc4ada59da54d94951581b306e5323c3f6a4bb676cc6ff649185",
+      "unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38",
+      "locator": "Page 20",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-addendum-src-0043-p0035-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0035.md",
+      "unit_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+      "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "locator": "Page 35",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-article26-qualified-src-0011-p0220-ec-001",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0220.md",
+      "unit_sha256": "aa9a070bfc5cc4147319318f88b78f4607d4e7a7c2e515b94862a6ac75109d4f",
+      "unit_file_sha256": "f0ba15053d06d6a000f5e018964f5a6aab23491633837e0b5ce8722f0a49eeb8",
+      "locator": "Page 220",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-article26-qualified-src-0043-p0035-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0035.md",
+      "unit_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+      "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "locator": "Page 35",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-src-0010-p0053-ec-001",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "unit_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "locator": "Page 53",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-src-0010-p0053-ec-002",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "unit_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "locator": "Page 53",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-src-0010-p0054-ec-001",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "unit_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "locator": "Page 54",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-src-0010-p0054-ec-002",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "unit_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "locator": "Page 54",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-src-0010-p0055-ec-001",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0055.md",
+      "unit_sha256": "83c741ba577b5114be7bb2c0c72e5de2d340f17f52abe7b456c2d17e3273e7a6",
+      "unit_file_sha256": "78c3645c460e6113f1b1539edf29dc962889414c6c9473c766c596936836a232",
+      "locator": "Page 55",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-src-0010-p0056-ec-001",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0056.md",
+      "unit_sha256": "826e663bfd0750f1bb0efe656171c909eac064b5ae449477847fded5f4500adc",
+      "unit_file_sha256": "d2ce304d76b14d06d891e5a6b99f3ccb4da45a079755d66e7aec85c36376184c",
+      "locator": "Page 56",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-src-0022-p0183-ec-001",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0183.md",
+      "unit_sha256": "b5832f79403b2780a9b45501fbb1fd3a7e1762c0f663a116795cd194da24b11c",
+      "unit_file_sha256": "38c56f210b3b5ae0fd14426a6f9aca9c919a5122a172906ec87b33df28287840",
+      "locator": "Page 183",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "art35-src-0022-p0184-ec-001",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0184.md",
+      "unit_sha256": "6a40946bac1517882ab84710f47e58de79b47b0a4d72dd4fb967a18a8dfab32c",
+      "unit_file_sha256": "335b59550a39ba358eb15d38135ff203a281456ff70139e7d4b0e8396a6df59f",
+      "locator": "Page 184",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+      "section_id": "data-protection-impact-assessments-dpia:132a0db289c30699",
+      "section_sha256": "a573cf0b79dfd23d6fb5fb9b03eb58d33e1e0ed1254b66e53352a3b8a07c6a66",
+      "evidence_refs": [
+        "art35-article26-qualified-src-0011-p0220-ec-001",
+        "art35-article26-qualified-src-0043-p0035-ec-001"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+      "section_id": "data-protection-impact-assessments-dpia:14a15a5798772bc0",
+      "section_sha256": "1f9f05604b65d043faf277a7e7ffb46ac125e05e2948bd0f0101b8fd820bd290",
+      "evidence_refs": [
+        "art35-src-0010-p0053-ec-002",
+        "art35-src-0010-p0055-ec-001",
+        "art35-src-0010-p0056-ec-001"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+      "section_id": "data-protection-impact-assessments-dpia:1a3f4fa25d186826",
+      "section_sha256": "af92086c5dec25df4251ed9637938355b327c2af8656208c473a23c7a79f2dc7",
+      "evidence_refs": [
+        "art35-src-0010-p0053-ec-002"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+      "section_id": "data-protection-impact-assessments-dpia:8325508b20ff2eca",
+      "section_sha256": "04e61dfe514653297a9993a7de55036291383c14571b0d063dde2923cb0e0f86",
+      "evidence_refs": [
+        "art35-src-0010-p0053-ec-001"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+      "section_id": "data-protection-impact-assessments-dpia:861746dfeecc84c9",
+      "section_sha256": "5186d21091cff7a57674375f1d42f3c8797caef4e5026c2f559a842a876dff20",
+      "evidence_refs": [
+        "art35-src-0010-p0053-ec-001",
+        "art35-src-0010-p0055-ec-001",
+        "art35-src-0010-p0056-ec-001",
+        "art35-article26-qualified-src-0011-p0220-ec-001",
+        "art35-addendum-src-0043-p0020-ec-001",
+        "art35-addendum-src-0043-p0035-ec-001"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+      "section_id": "data-protection-impact-assessments-dpia:a4a58f7f7da4fb21",
+      "section_sha256": "19984a3ecc52c49eeb88f9cf833215512e59bb26367977353689ab8541f88138",
+      "evidence_refs": [
+        "art35-addendum-src-0043-p0020-ec-001",
+        "art35-addendum-src-0043-p0020-ec-002"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+      "section_id": "data-protection-impact-assessments-dpia:c59a3efbe3b0ba4c",
+      "section_sha256": "d22ea3c22564f8955433c7b260d5165a19542ad8f017bc6e76a85c5cf4de998c",
+      "evidence_refs": [
+        "art35-src-0010-p0054-ec-001",
+        "art35-src-0010-p0054-ec-002"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+      "section_id": "data-protection-impact-assessments-dpia:de627b1da606a4cf",
+      "section_sha256": "4c5983bff7a298e0f7417185020c0ee5226c75842d0bfee1f0715fb05b8aa6d2",
+      "evidence_refs": [
+        "art35-src-0010-p0053-ec-001",
+        "art35-src-0010-p0054-ec-001",
+        "art35-src-0010-p0055-ec-001",
+        "art35-src-0010-p0056-ec-001",
+        "art35-article26-qualified-src-0011-p0220-ec-001",
+        "art35-addendum-src-0043-p0020-ec-001"
+      ],
+      "modality": "recommendation"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-article35-currentness-reviewer",
+    "reviewed_at": "2026-09-19T22:00:00+02:00",
+    "candidate_sha256": "f47c1d90cec5ae426625946a5af68cfc9ac01df93cf26545d1642d1f947bfe21",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "CURRENTNESS_REVIEW_PASSED",
+        "detail": "GDPR Articles 35, 36 and 39 currentness is bounded to the 2026-09-19 EUR-Lex retrieval and exact SRC-0010 identity."
+      },
+      {
+        "severity": "INFO",
+        "code": "QUALIFIED_AI_ACT_CANDIDATES_ONLY",
+        "detail": "Only the Article 26(9)+Article 113 and amended Article 27 candidates are included; unqualified and superseded candidates are excluded."
+      },
+      {
+        "severity": "INFO",
+        "code": "SRC0047_EXCLUDED",
+        "detail": "The separate procedural regulation SRC-0047 is excluded from this evidence receipt and lock."
+      },
+      {
+        "severity": "INFO",
+        "code": "FIDELITY_ROWS_VERIFIED",
+        "detail": "9 unique validated Markdown units have exact lineage and hash checks.",
+        "fidelity_receipt": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+        "fidelity_sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+      }
+    ]
+  }
+}

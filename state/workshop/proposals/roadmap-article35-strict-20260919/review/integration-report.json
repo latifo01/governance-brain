@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "9491d5dd7075d6f2cc3569862a8eaa705232838419b72e0822a00c2f3bf6dac8",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "87a57b02277dd8c0381b2fc4a605bd4920e4c8df6c6d623facda2146b9595850"
+  },
+  "files": [
+    {
+      "path": "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md",
+      "proposal_id": "roadmap-article35-strict-20260919",
+      "sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 148,
+  "proposal_ids": [
+    "roadmap-article35-strict-20260919"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

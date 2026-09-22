@@ -1,0 +1,228 @@
+{
+  "conclusion": "Seven semantically justified candidate links are identified, one per orphan. They remain proposals pending human semantic review and a deterministic navigation release.",
+  "generated_at": "2026-09-19",
+  "inputs": {
+    "ai_act_index": {
+      "path": "brain wiki/indexes/ai-act-index.md",
+      "sha256": "278ab6b262a1b70d11137dbbd43eb046a8ddab97be221fc454e83dd56da5a5a1"
+    },
+    "brain_catalogue": {
+      "path": "state/derived/brain/catalogue.json",
+      "sha256": "baa8951930720bb6057627a353a8ab11c9dd4ddd2381cab9d19dbbb6719e91ac"
+    },
+    "brain_evidence_index": {
+      "path": "state/derived/brain/evidence-index.json",
+      "sha256": "b810d584362d92e71236291753a0400a00eaa7600dd529d03cf49b84dbc2a293"
+    },
+    "brain_report": {
+      "path": "state/derived/brain/report.md",
+      "sha256": "f03c7d4bfa8d88929f609b9b027b2e3c31d02dec2c257367e821a8af648a249c"
+    },
+    "data_protection_index": {
+      "path": "brain wiki/indexes/data-protection-index.md",
+      "sha256": "dbbbfc2b7f00e41ee1f87e97bdfdca31f6e1d1c43c6525a84e91a7e44589e044"
+    },
+    "diagnostic": {
+      "path": "state/workshop/proposals/roadmap-parallel-20260919/provenance-orphans/provenance-orphan-diagnostic.json",
+      "sha256": "46bba4d5dabbd02626dd02d55188897257cc3aa536311902396c40a26032c53a"
+    },
+    "internal_regulation_index": {
+      "path": "brain wiki/indexes/internal-regulation-index.md",
+      "sha256": "f48d8fb0626c3702e0bd6fb9c6e71f155d5b1eed2865dffd7db7ceb465d6b214"
+    },
+    "legal_index": {
+      "path": "brain wiki/indexes/legal-index.md",
+      "sha256": "cd0933e87bfd478e608107baa166b963168d1e8c28db903afb64bcd10b503b8f"
+    },
+    "orphan_audit": {
+      "path": "state/workshop/proposals/roadmap-orphan-links-20260919/analysis/orphan-link-audit.json",
+      "sha256": "c1b481a9c57a2e83f6d1ae1dcb00d2bab5795b7639f847d2824b1ed7d51e5c09"
+    },
+    "provenance_audit": {
+      "path": "state/workshop/proposals/roadmap-provenance-20260919/analysis/provenance-reconciliation-audit.json",
+      "sha256": "ca32f1480dbe1a6696f8c7f9f4ab65be16ae7b42a5cea506a0ef69e88977ab79"
+    },
+    "readme": {
+      "path": "brain wiki/README.md",
+      "sha256": "9e797a87e732d944800adf90bf3fc21c984d3979961453911b1bb997e1277e7d"
+    },
+    "risk_index": {
+      "path": "brain wiki/indexes/risk-index.md",
+      "sha256": "8ec129a77dfe65755747372a28f0346a9157194f58f8b6bab08067d5dbc89f50"
+    },
+    "schema": {
+      "path": "brain wiki/SCHEMA.md",
+      "sha256": "8e0cefeff7593f306a106a91e1294fe3b06baf45d2fdfe6ff41bdae38bc04923"
+    }
+  },
+  "method": "Read-only semantic review of the generated graph and existing active notes. Each candidate points to an existing note or index; no placeholder, vault edit or automatic link repair was performed.",
+  "orphan_decisions": [
+    {
+      "current_incoming_links": 0,
+      "decision": "PROPOSE_LINK_PENDING_REVIEW",
+      "note_id": "ai-conformity-assessment",
+      "note_path": "brain wiki/AI concepts/ai-conformity-assessment.md",
+      "note_sha256": "ff772c25f0b68178f8a943ffcb27c2fa7f75368591a778b0ba3c3ac7e270bbfe",
+      "proposed_inbound_link": {
+        "confidence": "HIGH",
+        "literal_link": "[[ai-conformity-assessment]]",
+        "rationale": "The concept covers the assessment route for covered and high-risk systems and belongs beside the existing classification and FRIA navigation. The index already has the applicable AI and legal domains.",
+        "requires_evidence_change": false,
+        "requires_human_semantic_review": true,
+        "requires_new_note": false,
+        "section": "Classification and impact assessment",
+        "target_file_sha256": "278ab6b262a1b70d11137dbbd43eb046a8ddab97be221fc454e83dd56da5a5a1",
+        "target_id": "ai-act-index",
+        "target_path": "brain wiki/indexes/ai-act-index.md"
+      }
+    },
+    {
+      "current_incoming_links": 0,
+      "decision": "PROPOSE_LINK_PENDING_REVIEW",
+      "note_id": "explainability-and-interpretability",
+      "note_path": "brain wiki/AI concepts/explainability-and-interpretability.md",
+      "note_sha256": "67754e03a23d3567125972c47cf65e6ab36de280c94eba17252078ffd8fefe84",
+      "proposed_inbound_link": {
+        "confidence": "HIGH",
+        "literal_link": "[[explainability-and-interpretability]]",
+        "rationale": "The transparency note distinguishes provider documentation and deployer disclosure; linking this concept there makes the existing explanation and interpretability relationship navigable without asserting a new rule.",
+        "requires_evidence_change": false,
+        "requires_human_semantic_review": true,
+        "requires_new_note": false,
+        "section": "Related Concepts",
+        "target_file_sha256": "dabc7f58bcfa4bc6bf8d67ecb59c5a1294871ae6051337666d52bb977de80454",
+        "target_id": "ai-model-transparency",
+        "target_path": "brain wiki/AI Risk Mitigations/ai-model-transparency.md"
+      }
+    },
+    {
+      "current_incoming_links": 0,
+      "decision": "PROPOSE_LINK_PENDING_REVIEW",
+      "note_id": "model-and-concept-drift",
+      "note_path": "brain wiki/AI concepts/model-and-concept-drift.md",
+      "note_sha256": "25a78b6c5995b4ca818b1f68dfa31357a851530432dedf6348b12e57c2966966",
+      "proposed_inbound_link": {
+        "confidence": "HIGH",
+        "literal_link": "[[model-and-concept-drift]]",
+        "rationale": "The monitoring note already addresses changing data, context, performance and model versions; this concept names and qualifies that monitoring signal.",
+        "requires_evidence_change": false,
+        "requires_human_semantic_review": true,
+        "requires_new_note": false,
+        "section": "Related Concepts",
+        "target_file_sha256": "742c624523f34de1c9053bf99f563a444c67a0195ba27d9953a233ef9bd44dcf",
+        "target_id": "ai-model-monitoring",
+        "target_path": "brain wiki/AI Risk Mitigations/ai-model-monitoring.md"
+      }
+    },
+    {
+      "current_incoming_links": 0,
+      "decision": "PROPOSE_LINK_PENDING_REVIEW",
+      "note_id": "open-weight-models",
+      "note_path": "brain wiki/AI concepts/open-weight-models.md",
+      "note_sha256": "a8449e21b99eedd63bed74d7cd8149dd6bbe89092de38138e37410691f9c7040",
+      "proposed_inbound_link": {
+        "confidence": "HIGH",
+        "literal_link": "[[open-weight-models]]",
+        "rationale": "The supply-chain note covers model registries, artifact provenance, checksums, transformation and integrity; open-weight models are a direct component case.",
+        "requires_evidence_change": false,
+        "requires_human_semantic_review": true,
+        "requires_new_note": false,
+        "section": "Related concepts",
+        "target_file_sha256": "748a87b43850509a9c74bd86ad96ca9b5f6fada9e4acde32e69815d08d0f9e13",
+        "target_id": "ai-supply-chain-governance",
+        "target_path": "brain wiki/AI Risk Mitigations/ai-supply-chain-governance.md"
+      }
+    },
+    {
+      "current_incoming_links": 0,
+      "decision": "PROPOSE_LINK_PENDING_REVIEW",
+      "note_id": "privacy-preserving-ai",
+      "note_path": "brain wiki/AI concepts/privacy-preserving-ai.md",
+      "note_sha256": "001f85a187832e8f46520fd49fc6840e2a2fcdbd327be844a351c3aef35d9dcd",
+      "proposed_inbound_link": {
+        "confidence": "MEDIUM",
+        "literal_link": "[[privacy-preserving-ai]]",
+        "rationale": "The DPIA note is the existing assessment route for processing risk and safeguards; the link gives reviewers a route to the AI-specific privacy controls without treating them as proof of compliance.",
+        "requires_evidence_change": false,
+        "requires_human_semantic_review": true,
+        "requires_new_note": false,
+        "section": "Related concepts",
+        "target_file_sha256": "846b2274573b8b311891f14777610c33c1459abf828a80813d5377d09d68013a",
+        "target_id": "data-protection-impact-assessments-dpia",
+        "target_path": "brain wiki/Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md"
+      }
+    },
+    {
+      "current_incoming_links": 0,
+      "decision": "PROPOSE_LINK_PENDING_REVIEW",
+      "note_id": "synthetic-data",
+      "note_path": "brain wiki/AI concepts/synthetic-data.md",
+      "note_sha256": "280a473c2714c2573ee94f54ed9a3c218626cbea4e1be06b81bbaca2096d7173",
+      "proposed_inbound_link": {
+        "confidence": "HIGH",
+        "literal_link": "[[synthetic-data]]",
+        "rationale": "The data-quality note governs evaluation data, representativeness, provenance and generalisation; synthetic data is a documented evaluation-data variant.",
+        "requires_evidence_change": false,
+        "requires_human_semantic_review": true,
+        "requires_new_note": false,
+        "section": "Related Concepts",
+        "target_file_sha256": "e414321ce8ed38107c9853f6a58e9bd30d5c2c27c4dcfcdc2044bccc1585a49e",
+        "target_id": "ai-data-quality-and-validation",
+        "target_path": "brain wiki/AI Risk Mitigations/ai-data-quality-and-validation.md"
+      }
+    },
+    {
+      "current_incoming_links": 0,
+      "decision": "PROPOSE_LINK_PENDING_REVIEW",
+      "note_id": "uncertainty-and-calibration",
+      "note_path": "brain wiki/AI concepts/uncertainty-and-calibration.md",
+      "note_sha256": "1683ed0a656879923609cbcdbe3514f28612b08a25bcb63e44e219e7ae2a7aef",
+      "proposed_inbound_link": {
+        "confidence": "HIGH",
+        "literal_link": "[[uncertainty-and-calibration]]",
+        "rationale": "The validation note already covers uncertainty, performance, limitations and governance decisions; the link exposes the focused calibration concept.",
+        "requires_evidence_change": false,
+        "requires_human_semantic_review": true,
+        "requires_new_note": false,
+        "section": "Related Concepts",
+        "target_file_sha256": "26fb588af9f239463ae4977aa45f963242ec4e0ba36397846d34d8d37d987096",
+        "target_id": "ai-model-validation",
+        "target_path": "brain wiki/AI Risk Mitigations/ai-model-validation.md"
+      }
+    }
+  ],
+  "repair_policy": [
+    "Do not add links solely to remove an orphan warning.",
+    "Use only existing stable IDs and exact target files.",
+    "Submit accepted navigation links through a focused v3 release and independent review.",
+    "Keep this analysis separate from the active vault and generated indexes."
+  ],
+  "schema_version": 1,
+  "scope": {
+    "active_vault_modified": false,
+    "candidate_links": 7,
+    "indexes_modified": false,
+    "ingest_modified": false,
+    "orphan_count": 7,
+    "placeholders_created": 0,
+    "sources_modified": false
+  },
+  "stage": "SEMANTIC_ORPHAN_REPAIR_ANALYSIS",
+  "status": "ANALYSIS_READY",
+  "validation_snapshot": {
+    "catalogue_sha256": "fb82981015f2f6aed88119944b604c8a08228efa67698d96bc3024b29f592f1a",
+    "command": "uv --cache-dir /tmp/article35-uv-cache run --offline --no-sync gov360 brain validate",
+    "errors": [],
+    "evidence_findings": 0,
+    "knowledge_notes_without_incoming_links": 7,
+    "llm_calls": 0,
+    "llm_cost": null,
+    "note": "Technical validity does not establish full evidence coverage.",
+    "notes": 148,
+    "publication_verified_notes": 118,
+    "reviewed_sections": 298,
+    "valid": true,
+    "warnings": 35
+  },
+  "workstream": "orphan-provenance-review-20260919"
+}

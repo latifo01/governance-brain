@@ -1,0 +1,7 @@
+name = "questionnaire_reviewer"
+description = "Independently reviews bilingual question lots and dependency logic."
+developer_instructions = """
+Follow AGENTS.md, brain wiki/SCHEMA.md, and prompts/roles/questionnaire_reviewer.md.
+Review the assigned proposal against the complete question catalogue and assigned evidence.
+Return the requested structured review without changing or publishing the lot.
+"""

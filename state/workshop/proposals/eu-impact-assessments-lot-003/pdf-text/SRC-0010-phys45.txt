@@ -1,0 +1,64 @@
+4.5.2016           EN                          Official Journal of the European Union                                          L 119/45
+
+     3.   A data subject who has obtained restriction of processing pursuant to paragraph 1 shall be informed by the
+     controller before the restriction of processing is lifted.
+
+
+
+                                                              Article 19
+
+            Notification obligation regarding rectification or erasure of personal data or restriction of
+                                                       processing
+
+     The controller shall communicate any rectification or erasure of personal data or restriction of processing carried out in
+     accordance with Article 16, Article 17(1) and Article 18 to each recipient to whom the personal data have been
+     disclosed, unless this proves impossible or involves disproportionate effort. The controller shall inform the data subject
+     about those recipients if the data subject requests it.
+
+
+
+                                                              Article 20
+
+                                                     Right to data portability
+
+     1.   The data subject shall have the right to receive the personal data concerning him or her, which he or she has
+     provided to a controller, in a structured, commonly used and machine-readable format and have the right to transmit
+     those data to another controller without hindrance from the controller to which the personal data have been provided,
+     where:
+
+     (a) the processing is based on consent pursuant to point (a) of Article 6(1) or point (a) of Article 9(2) or on a contract
+         pursuant to point (b) of Article 6(1); and
+
+     (b) the processing is carried out by automated means.
+
+     2.    In exercising his or her right to data portability pursuant to paragraph 1, the data subject shall have the right to
+     have the personal data transmitted directly from one controller to another, where technically feasible.
+
+     3.    The exercise of the right referred to in paragraph 1 of this Article shall be without prejudice to Article 17. That
+     right shall not apply to processing necessary for the performance of a task carried out in the public interest or in the
+     exercise of official authority vested in the controller.
+
+     4.    The right referred to in paragraph 1 shall not adversely affect the rights and freedoms of others.
+
+
+                                                             Se cti on 4
+
+                            Ri ght to ob je ct a nd a ut om a te d ind ivi dua l de ci sio n-ma ki ng
+
+                                                              Article 21
+
+                                                           Right to object
+
+     1.    The data subject shall have the right to object, on grounds relating to his or her particular situation, at any time to
+     processing of personal data concerning him or her which is based on point (e) or (f) of Article 6(1), including profiling
+     based on those provisions. The controller shall no longer process the personal data unless the controller demonstrates
+     compelling legitimate grounds for the processing which override the interests, rights and freedoms of the data subject or
+     for the establishment, exercise or defence of legal claims.
+
+     2.   Where personal data are processed for direct marketing purposes, the data subject shall have the right to object at
+     any time to processing of personal data concerning him or her for such marketing, which includes profiling to the
+     extent that it is related to such direct marketing.
+
+     3.   Where the data subject objects to processing for direct marketing purposes, the personal data shall no longer be
+     processed for such purposes.
+

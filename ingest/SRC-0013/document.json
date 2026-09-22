@@ -1,0 +1,131 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 0,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "LEGAL_REGULATORY",
+    "TRANSPARENCY_DISCLOSURE"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 8
+    },
+    "native_unit_count": 8,
+    "normalized_unit_count": 8,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 8,
+    "unit_count": 8
+  },
+  "relative_source_paths": [
+    "sources/05_EU_AI_Legislation/2026 EU Digital Omnibus - Annexes.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0013",
+  "source_kind": "document",
+  "source_sha256": "7daceab071fd870e0f56eb99fd94bdc4906bf044b9c70c1a4360a5965f20930d",
+  "units": [
+    {
+      "content_sha256": "dce9c7ee04e76ddb618f8c5f35cdfbb929f22b582326e65b568c4730b8187fe4",
+      "file_sha256": "e73a7ef14942bfb4def247f16f726a36ee12a74028f1fc739bcd88ad39f9b512",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "980af3288c8e43febcbcc34e3dca5a96eaf451148a0361acd711da32ac40d4c0",
+      "file_sha256": "dcb631950b24ec9a102773c7b37b914ee4cbd5f8d909e92a8c51ab2997ee3ec4",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "fe44b95df2ba8daab36c1b578a9210dc6647ca474da8928460d5ce4e3a362d9d",
+      "file_sha256": "97e4ab21585182d6b0f11e1c4d100b32c43350fc2396cc0a010f00ade5030ced",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "9d1b91209abe533ce2d0a10120439cea7d4f10bb2475a98be945ab4f4d60e0c2",
+      "file_sha256": "f40f75f8c825c53b5f800fd41b6c399f3a5b20d7a8a8b92b5ffdf47ddf4675d1",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "9ffaf7b42b2dd682f4d46b0387618505f7649604d1dd7e32af280220423051d7",
+      "file_sha256": "0dec260d0ea63a14a7c8617e9a90091c90187c12f5d31188f1ac3dd200a96f06",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "f34a4bacd708baa273beb79416e4ec14974ba706777c32f75788add7007d65ef",
+      "file_sha256": "5c16033646dc1cae54a0892dcc0a80c830a503ff892e6630722038b418f22bcc",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "644e4a9726c40c1fbc76a2b581fa0a2c07b0c2717c94035d8ceb4a36be9979b0",
+      "file_sha256": "6e140092ccfb8af4545f38398af0c209eaff9f7adbe0d9c380e1b04acea3f30b",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "be4fa7f0120d89a4fcf24b96cc899f6fbd273cd60e9153d52f332329d2bfee0c",
+      "file_sha256": "be67e9313c294894e2f7ad8b8aa955f16dca3fc049c6fc8c61617be8de8da087",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 7547,
+      "native_unit_count": 8,
+      "normalized_unit_count": 8
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

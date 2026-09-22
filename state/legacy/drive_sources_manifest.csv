@@ -1,0 +1,43 @@
+source_id,title,search_hint,trusted_domains,download_allowed
+65a21bd0-aee5-40dd-803e-c3a25390edda,"ai-auditing_checklist-for-ai-auditing-scores_edpb-spe-programme_en.pdf","EDPB SPE AI auditing checklist PDF","edpb.europa.eu",true
+0a092467-dda9-4441-8d18-bdd517a40ac3,"ai-auditing_proposal-for-ai-leaflets_edpb-spe-programme_en.pdf","EDPB SPE AI leaflets proposal PDF","edpb.europa.eu",true
+a1d1a15d-ab7c-47c3-8b31-a8e4b514feeb,"ai-auditing_proposal-for-algo-scores_edpb-spe-programme_en.pdf","EDPB SPE algo scores proposal PDF","edpb.europa.eu",true
+b0271db1-bf78-436a-b2ce-85d11a9f8497,"AIUC-1: Crosswalks OWASP Top 10 For Agentic Applications","OWASP AIUC-1 Crosswalks Agentic Applications PDF","genai.owasp.org;owasp.org;github.com",true
+59cfaedb-5568-4150-806b-9b28efb4305f,"Analyse des attaques sur les systèmes de l'IA — Wiki Campus Cyber","Campus Cyber analyse attaques systèmes IA PDF","wiki.campuscyber.fr;campuscyber.fr",true
+c596de29-d20f-46ee-97ee-7313aff9a415,"CoSAI agentic-identity-and-access-control.pdf","CoSAI agentic identity access control PDF","coalitionforsecureai.org;github.com",true
+a8598a5c-3cad-4013-9588-5749ac831489,"CoSAI AI-Shared-Responsibility-Framework.pdf","CoSAI AI Shared Responsibility Framework PDF","coalitionforsecureai.org;github.com",true
+d748f380-7c47-4f49-ab90-4780b0726e83,"CoSAI Mgf for Agentic AI (atx Release) July 2026.pdf","CoSAI MGF Agentic AI ATX Release July 2026 PDF","coalitionforsecureai.org;github.com",true
+bed7e6c1-9927-4fa8-8c39-1cb089de6708,"CoSAI model-context-protocol-security.pdf","CoSAI model context protocol security PDF","coalitionforsecureai.org;github.com",true
+8fa2168f-49e4-4819-a414-874da67e613a,"CoSAI preparing-defenders-of-ai-systems.pdf","CoSAI preparing defenders of AI systems PDF","coalitionforsecureai.org;github.com",true
+69690573-59dd-4312-92b0-bb74484757f5,"CoSAI risks-and-controls-for-the-ai-supply-chain-v1.pdf","CoSAI risks controls AI supply chain v1 PDF","coalitionforsecureai.org;github.com",true
+2f61de02-ccd6-4d0c-b882-a7fdcbbde488,"CoSAI signing-ml-artifacts.pdf","CoSAI signing ML artifacts PDF","coalitionforsecureai.org;github.com",true
+66204c79-cbb6-4880-89a0-770cc301f686,"OWASP GenAl State of Agentic Al Security and Governance","OWASP State of Agentic AI Security and Governance 2.01 PDF","genai.owasp.org;owasp.org;github.com",true
+be07f8df-0705-489b-ab2e-920ec1d9be60,"OWASP Top 10 for LLM Applications 2026","OWASP Top 10 for LLM Applications 2026 PDF","genai.owasp.org;owasp.org;github.com",true
+bd595c6e-55f7-4e1e-af63-d4a48bcbb7b5,"OWASP-Top-10-for-Agentic-Applications-2026-12.6-1.pdf","OWASP Top 10 for Agentic Applications 2026 PDF","genai.owasp.org;owasp.org;github.com",true
+60ad3387-4a18-4f52-b2be-51a0dc701454,"edpb_guidelines_202401_legitimateinterest_en.pdf","EDPB guidelines 2024 legitimate interest PDF","edpb.europa.eu",true
+e7f368a5-3353-49bc-8e8b-5786442ddae8,"edpb_summary_202401_legitimateinterest_en.pdf","EDPB summary 2024 legitimate interest PDF","edpb.europa.eu",true
+8fcc2710-a99c-43dc-8aa6-50553f281349,"spe-training-on-ai-and-data-protection-legal_en.pdf","EDPB SPE training AI data protection legal PDF","edpb.europa.eu",true
+b81cf9d4-176e-4a84-931f-a69d2d276bd8,"2018 GDPR Full text EN","GDPR full text English PDF European Union","eur-lex.europa.eu;commission.europa.eu;ec.europa.eu",true
+82ad3241-400b-43bf-809e-c597a52f754f,"2024 AI Act OJ_L_202401689_FR_TXT.pdf","OJ L 2024 1689 AI Act French PDF","eur-lex.europa.eu",true
+0cbdbc2b-5631-4a6a-a528-8d213aec9147,"2024 FRIA Computer Law & security Review.pdf","fundamental rights impact assessment AI Act Computer Law Security Review 2024 PDF","sciencedirect.com;papers.ssrn.com;ssrn.com;researchrepository.eu",true
+6764537c-bec5-4b15-b71f-e87450f297d1,"2026 EU Digital Omnibus","EU Digital Omnibus 2026 regulation PDF","eur-lex.europa.eu;commission.europa.eu;digital-strategy.ec.europa.eu;ec.europa.eu",true
+b17f0fde-5ace-4fe1-9993-554caa8dbfcc,"2026 EU Digital Omnibus - Annexes","EU Digital Omnibus 2026 annexes PDF","eur-lex.europa.eu;commission.europa.eu;digital-strategy.ec.europa.eu;ec.europa.eu",true
+88f63b5c-26e9-43c8-b281-7a2008cc4706,"AI AGENTS UNDER EU LAW A COMPLIANCE ARCHITECTURE FOR AI PROVIDERS","AI agents under EU law compliance architecture AI providers PDF","papers.ssrn.com;ssrn.com;arxiv.org;zenodo.org",true
+5f10f602-34ff-48fb-ac02-9f5f1af25476,"edpb_opinion_202428_ai-models_en.pdf","EDPB opinion 2024 28 AI models PDF","edpb.europa.eu",true
+3719fd35-d6f3-4875-8cf5-f99e9d7e9932,"Guidelines on prohibited AI practices under AI Act","European Commission guidelines prohibited AI practices PDF","digital-strategy.ec.europa.eu;commission.europa.eu;ec.europa.eu",true
+0a194634-d2ef-4abb-b0ab-1f4a2392a92e,"Guidelines on the definition of AI System under AI Act","European Commission guidelines definition AI system PDF","digital-strategy.ec.europa.eu;commission.europa.eu;ec.europa.eu",true
+47bc85f3-c7ce-4894-ab85-9584700e8ba6,"Guidelines on transparency obligations for certain AI systems under Article 50 of AI Act","European Commission Article 50 transparency obligations AI systems guidelines PDF","digital-strategy.ec.europa.eu;commission.europa.eu;ec.europa.eu",true
+b9d8efdb-61ad-47dc-9c52-0f5a7702a6de,"ISO IEC 42001-2023","ISO IEC 42001 2023 official standard","iso.org",false
+7063dfb8-59da-4d1e-94b4-cd6c00f2d7fc,"ISO-IEC-23894-2023.pdf","ISO IEC 23894 2023 official standard","iso.org",false
+82e19935-8d2e-4b94-b37a-f796eb48ca55,"ISO-IEC-23894-2023.pdf","ISO IEC 23894 2023 official standard","iso.org",false
+cc1a5de0-ca8b-4c9d-bc38-b0adde60ad68,"ISO27001-2022-EN","ISO IEC 27001 2022 official standard","iso.org",false
+4882c1b4-2885-40d3-b91b-30f060ee2ae2,"sr1107.pdf","Federal Reserve SR 11-7 PDF","federalreserve.gov",true
+f26e727f-e266-4da2-853c-c142d6ff6b78,"sr1107a1.pdf","Federal Reserve SR 11-7 attachment PDF","federalreserve.gov",true
+ea460680-5d71-4e14-a885-74aaa47a11dc,"SR2602.pdf","Federal Reserve SR 26-02 PDF","federalreserve.gov",true
+7bc34adb-8aeb-4b29-a61f-30bac06ae5a8,"NIST AI RMF 1.0","NIST AI 100-1 AI Risk Management Framework PDF","nist.gov;nvlpubs.nist.gov",true
+0aff2f97-fe1f-4a4b-8978-69b817510da1,"NIST AI RMF Playbook.pdf","NIST AI RMF Playbook PDF","nist.gov;airc.nist.gov",true
+d4ea8b89-9ada-4dcc-a4e7-b03f36ab913b,"CoSAI AI-Incident-Response.pdf","CoSAI AI Incident Response Framework PDF","coalitionforsecureai.org;github.com",true
+4e5e916f-30c4-497d-adc8-ded0112b609f,"ORX Cause & Impacts Operational Risk Reference Taxonomy summary.pdf","ORX cause impacts operational risk reference taxonomy summary PDF","orx.org",true
+fa00a41b-bf76-4ce1-9b02-d31216cefdf8,"ORX Event Type Reference Taxonomy summary report.pdf","ORX event type reference taxonomy summary report PDF","orx.org",true
+d4e530d9-f1d9-4776-91f8-49f276df2ce5,"Microsoft Responsible AI Transparency Report","Microsoft Responsible AI Transparency Report PDF","microsoft.com;cdn-dynmedia-1.microsoft.com",true
+1d0d31da-fca2-436e-837d-bc02fad4d0f0,"METR risk-report-feb-mar-2026.pdf","METR risk report February March 2026 PDF","metr.org",true

@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-gap-triage-p1-20260920",
+  "status": "PROPOSAL_READY",
+  "candidate_sha256": "38ebae36895612a69dc96ec78afccfdfc18bb61e44b680bc3f292c9bbdc2e084",
+  "scope": "source-gap triage only",
+  "risk_tier": "strict",
+  "human_approval_required": true,
+  "active_vault_files_to_modify_after_approval": [],
+  "source_files_to_modify": [],
+  "ingest_files_to_modify": [],
+  "coverage_register_files_to_modify_after_approval": [],
+  "domain_pack_mutations": [],
+  "evidence_library_mutations": [],
+  "inputs": {
+    "coverage_register": {
+      "path": "state/workshop/coverage/coverage-register.json",
+      "sha256": "1797f31dbbd6e2bfbafdda22cd17b12a236864e5b9ae33ed3cb3376fee423f89"
+    },
+    "coverage_matrix": {
+      "path": "state/derived/brain/coverage-matrix.json",
+      "sha256": "1ae0c8e3ec2bcf2af67024c2abe5b012c607f8fdc41b5eebf3c87e6ee69ab7bb"
+    },
+    "catalogue": {
+      "path": "state/derived/brain/catalogue.json",
+      "sha256": "a58f06a39b7df7e2f12d3cbd732bab4b8d81b45d32747b0af93e1fa07abde215"
+    },
+    "evidence_index": {
+      "path": "state/derived/brain/evidence-index.json",
+      "sha256": "6de688df6d3ab5a80cc9bfaa8614bdce36586b7ee321af0c9d175613772f4d28"
+    },
+    "taxonomy_change_set": {
+      "path": "state/workshop/proposals/roadmap-parallel-20260919/source-gaps/source-gap-taxonomy-change-set.json",
+      "sha256": "2ba15a4ffbb1c743961fd40d781d389bf8c192923e5c8a11055be0e7bb129b64"
+    },
+    "audited_evidence_index": {
+      "path": "state/workshop/proposals/roadmap-parallel-20260919/source-gaps/audited-evidence-index.json",
+      "sha256": "ff58c59a55eadda3b3e606b2fc570581a989ac1d25d61e0641d8bb48adea4b05"
+    }
+  },
+  "next_releases": [
+    "strict-ai-lifecycle-change-001",
+    "strict-people-ai-literacy-001",
+    "strict-sustainability-societal-impact-001"
+  ]
+}

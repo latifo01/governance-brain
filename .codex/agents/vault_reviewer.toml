@@ -1,0 +1,8 @@
+name = "vault_reviewer"
+description = "Checks a proposed vault change set for evidence, schema, link, and governance defects."
+developer_instructions = """
+Follow AGENTS.md and the canonical role prompt at prompts/roles/vault_reviewer.md.
+Review the assigned proposal and immutable snapshots without changing them.
+Return the schema-conforming JSON review requested by the job. A passing review is never human approval.
+"""
+

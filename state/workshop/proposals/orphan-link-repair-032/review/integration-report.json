@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "9151e976c37c2d854e41484468d2adc003f685786ead0d8686506cac7ea0ba1c",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "27ad1eb2720206bd2c6b3dcbd99420ec64a127afdb21af61810a17c6c7eb11eb"
+  },
+  "files": [
+    {
+      "path": "indexes/internal-regulation-index.md",
+      "proposal_id": "orphan-link-repair-032",
+      "sha256": "f48d8fb0626c3702e0bd6fb9c6e71f155d5b1eed2865dffd7db7ceb465d6b214"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 136,
+  "proposal_ids": [
+    "orphan-link-repair-032"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

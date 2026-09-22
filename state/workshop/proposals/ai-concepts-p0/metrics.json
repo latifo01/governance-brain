@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p0",
+  "status": "PROPOSAL_READY",
+  "source_count": 2,
+  "assigned_unit_count": 14,
+  "candidate_count": 14,
+  "verified_candidate_count": 14,
+  "uncertain_candidate_count": 0,
+  "uncertain_candidates_excluded": 0,
+  "target_count": 6,
+  "evidence_binding_count": 24,
+  "authority_counts": {"FRAMEWORK": 12, "GUIDANCE": 2, "BINDING": 0},
+  "active_vault_modified": false,
+  "shared_state_modified": false,
+  "benchmark_config_modified": false,
+  "limits": [
+    "All claims are bounded to reviewed NIST AI RMF framework material and SR 26-2 supervisory guidance.",
+    "No legal obligation, prohibition, certification or universal control is proposed.",
+    "The six notes are new concept IDs; existing model validation and monitoring notes remain linked as operational complements.",
+    "The receipt reuses validated ingest units and the prior hash-bound fidelity review; it does not reopen excluded visual-fidelity candidates."
+  ]
+}

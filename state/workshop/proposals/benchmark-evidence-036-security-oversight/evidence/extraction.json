@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-036-security-oversight",
+  "stage": "EXTRACT",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "assignment_sha256": "f49dadf5df074a2bd8b39285f9e7ee3db172f9e62ea3e5b86f6113fbd3c4dd64",
+  "scope": {
+    "target_ids": [
+      "prompt-injection",
+      "risk-005-prompt-injection-threat-model",
+      "human-oversight",
+      "risk-008-human-oversight-authority"
+    ],
+    "scenario_families": [
+      "eval-07",
+      "eval-08"
+    ],
+    "source_ids": [
+      "SRC-0009",
+      "SRC-0016",
+      "SRC-0026",
+      "SRC-0027",
+      "SRC-0039"
+    ]
+  },
+  "coverage": [
+    {
+      "source_id": "SRC-0009",
+      "assigned_locators": [
+        "Page 22",
+        "Page 28"
+      ],
+      "covered_locators": [
+        "Page 22",
+        "Page 28"
+      ],
+      "omitted": [],
+      "unresolved_items": [
+        "Page 22 native extraction marked REVIEW_REQUIRED; candidate excluded pending visual fidelity review."
+      ]
+    },
+    {
+      "source_id": "SRC-0016",
+      "assigned_locators": [
+        "Page 117",
+        "Page 125"
+      ],
+      "covered_locators": [
+        "Page 117",
+        "Page 125"
+      ],
+      "omitted": [],
+      "unresolved_items": [
+        "Pages 117 and 125 have no existing target-page fidelity receipt; retain candidates pending fidelity review."
+      ]
+    },
+    {
+      "source_id": "SRC-0026",
+      "assigned_locators": [
+        "Page 10",
+        "Page 11",
+        "Page 12"
+      ],
+      "covered_locators": [
+        "Page 10",
+        "Page 10",
+        "Page 11",
+        "Page 12"
+      ],
+      "omitted": [],
+      "unresolved_items": []
+    },
+    {
+      "source_id": "SRC-0027",
+      "assigned_locators": [
+        "Page 10",
+        "Page 11",
+        "Page 33"
+      ],
+      "covered_locators": [
+        "Page 10",
+        "Page 11",
+        "Page 11",
+        "Page 33"
+      ],
+      "omitted": [],
+      "unresolved_items": []
+    },
+    {
+      "source_id": "SRC-0039",
+      "assigned_locators": [
+        "Page 32",
+        "Page 45"
+      ],
+      "covered_locators": [
+        "Page 32",
+        "Page 32",
+        "Page 45"
+      ],
+      "omitted": [],
+      "unresolved_items": []
+    }
+  ],
+  "evidence_candidates": [
+    {
+      "candidate_id": "be036-src-0009-p0022-ec-001",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "locator": "Page 22",
+      "unit_content_sha256": "809e7d44e005b72a08315f3de0fcfd689f2b49cf65311055b8a252bad65086be",
+      "unit_file_sha256": "8627cfdd78713e6f988f5d0fc8b1a16f827ec854f5f3fb2a1977a77eea6e4be0",
+      "claim": "Indirect prompt injection can arise when malicious instructions are embedded in grounding data such as a public website, email or internal document; the report also describes evaluation capabilities for direct and indirect prompt injection and agent tool-calling.",
+      "evidence_kind": "attack-surface",
+      "normativity_candidate": "context",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "Page 22 is layout-heavy and marked REVIEW_REQUIRED; do not bind until visual fidelity is independently reviewed."
+      ],
+      "unit_path": "ingest/SRC-0009/units/p0022.md",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0009-p0028-ec-002",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "locator": "Page 28",
+      "unit_content_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+      "unit_file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+      "claim": "Microsoft research describes indirect prompt injection as hidden malicious instructions embedded in grounding data and identifies boundary awareness and explicit reminders as possible defenses; it also discusses reducing inappropriate reliance on AI output.",
+      "evidence_kind": "defense-research",
+      "normativity_candidate": "context",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "Research material supports context and control design only; it is not a universal legal or normative requirement."
+      ],
+      "unit_path": "ingest/SRC-0009/units/p0028.md",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0016-p0117-ec-003",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 117",
+      "unit_content_sha256": "2bcc8937ad541b1f742238d20e5b4a04381f6793ece080904ecf5a0010802c2c",
+      "unit_file_sha256": "20257c662423bd796621bc175ec426708c477c4ef0b57ac25824ed40e586fff5",
+      "claim": "The AI Act guidance describes human-oversight measures for a real-time remote biometric identification context, including procedures for interpreting outputs, clarifying the human role and providing training; it refers to sufficient AI literacy, training and authority.",
+      "evidence_kind": "human-oversight",
+      "normativity_candidate": "recommendation",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "This is guidance for the cited real-time RBI context; it must not be generalized to every AI system.",
+        "Target page requires dedicated fidelity review before evidence eligibility."
+      ],
+      "unit_path": "ingest/SRC-0016/units/p0117.md",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0016-p0125-ec-004",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "locator": "Page 125",
+      "unit_content_sha256": "a92b02d70b114f87c105037fe4f8966b5c37e9856acadaf5a58ff9cdc47089ac",
+      "unit_file_sha256": "680f1cd39606e173e70517afe3b6cf40ea57d76506fa08807010f95e940f3f9e",
+      "claim": "The guidance explains that permitted real-time RBI remains within the high-risk rules and discusses Article 14 human oversight, including appropriate human-machine interfaces and a narrowly described Article 14(5) two-person verification condition subject to the stated legal exception.",
+      "evidence_kind": "legal-context",
+      "normativity_candidate": "context",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "The two-person condition is specific to the cited real-time RBI context; no universal legal claim is made.",
+        "Target page requires dedicated fidelity review before evidence eligibility."
+      ],
+      "unit_path": "ingest/SRC-0016/units/p0125.md",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0026-p0010-ec-005",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 10",
+      "unit_content_sha256": "1e079b84e0c06cb6adea796baf5670389e5347c345fc5f90af0272fb5090936e",
+      "unit_file_sha256": "d1be278acb738a07bc9c1e9b40bf34996aa983b63d9c5227d69a4b36df286c6c",
+      "claim": "OWASP defines prompt injection as direct or indirect input that changes an LLM's behavior contrary to developer intent, including inputs from retrieved content, tool output, multimodal content, reasoning or persistent memory.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "definition",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "OWASP security guidance; not binding law."
+      ],
+      "unit_path": "ingest/SRC-0026/units/p0010.md",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0026-p0010-ec-006",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 10",
+      "unit_content_sha256": "1e079b84e0c06cb6adea796baf5670389e5347c345fc5f90af0272fb5090936e",
+      "unit_file_sha256": "d1be278acb738a07bc9c1e9b40bf34996aa983b63d9c5227d69a4b36df286c6c",
+      "claim": "OWASP identifies context-window pooling, memory persistence and agentic execution as properties that can increase prompt-injection impact and describes delivery, propagation and encoding as threat-model dimensions.",
+      "evidence_kind": "threat-model",
+      "normativity_candidate": "recommendation",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "Control-design recommendation derived from the cited OWASP threat description."
+      ],
+      "unit_path": "ingest/SRC-0026/units/p0010.md",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0026-p0011-ec-007",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 11",
+      "unit_content_sha256": "66c2b463e56b8e23a41fb97fba09c5445f366c2e0bc97abf28da1132ce66d31a",
+      "unit_file_sha256": "4c999333e6d421b9c504f9189e54a7b69131f9dbd000038868328c5701c731d9",
+      "claim": "OWASP distinguishes direct prompt injection from indirect prompt injection; indirect injection may be carried by documents, email, retrieved passages, images, MCP output, database rows or issue titles that the user did not supply or see.",
+      "evidence_kind": "attack-surface",
+      "normativity_candidate": "context",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "OWASP security guidance; examples are bounded to the cited page."
+      ],
+      "unit_path": "ingest/SRC-0026/units/p0011.md",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0026-p0012-ec-008",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 12",
+      "unit_content_sha256": "436d3b986575a0f607a14600038e62cef6853d18e2042e570ec91350dd18ffbb",
+      "unit_file_sha256": "1cfba4e0154a048c96ae27e2d0743a858fcdeccc7cdfce4658758a4810b266df",
+      "claim": "OWASP describes trusted-surface indirect injection in which content placed through a low-privilege channel can cause an agent operating with elevated credentials to perform privileged actions, and lists examples including exfiltration and modification of connected systems.",
+      "evidence_kind": "impact",
+      "normativity_candidate": "context",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "Examples describe possible attack paths; they do not establish that every system is vulnerable."
+      ],
+      "unit_path": "ingest/SRC-0026/units/p0012.md",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0027-p0010-ec-009",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "locator": "Page 10",
+      "unit_content_sha256": "5d43e8b7084a31babde002d2a45bf3c4dcacf0c7df6cf7c52c801c936a115bcd",
+      "unit_file_sha256": "3d103366f2e5b82835826f96e87c7fd530df1114abfc5af2e1d530ba5adab8c1",
+      "claim": "OWASP describes agent goal hijack as manipulation of agent objectives, task selection or decision pathways through prompt manipulation, deceptive tool outputs, malicious artifacts, forged messages or poisoned external data.",
+      "evidence_kind": "agent-goal-hijack",
+      "normativity_candidate": "definition",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "OWASP Agentic Applications guidance; no legal obligation is asserted."
+      ],
+      "unit_path": "ingest/SRC-0027/units/p0010.md",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0027-p0011-ec-010",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "locator": "Page 11",
+      "unit_content_sha256": "9dad2c1b3933450b0cb3b6a515f0adaa3650d598a533927bb59f631f3a84dcaf",
+      "unit_file_sha256": "62af7b9b2d37dd3b5410c093ef81c904113d9cc25eb787ea347dc001a80e72bb",
+      "claim": "OWASP recommends treating natural-language inputs as untrusted, applying input validation safeguards, least privilege and human approval for high-impact or goal-changing actions, and validating user and agent intent before execution.",
+      "evidence_kind": "agent-controls",
+      "normativity_candidate": "recommendation",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "Recommendations are control guidance, not universal legal requirements."
+      ],
+      "unit_path": "ingest/SRC-0027/units/p0011.md",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0027-p0011-ec-011",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "locator": "Page 11",
+      "unit_content_sha256": "9dad2c1b3933450b0cb3b6a515f0adaa3650d598a533927bb59f631f3a84dcaf",
+      "unit_file_sha256": "62af7b9b2d37dd3b5410c093ef81c904113d9cc25eb787ea347dc001a80e72bb",
+      "claim": "OWASP recommends sanitizing connected data sources and maintaining logging and continuous monitoring of agent activity, including goal state and tool-use patterns.",
+      "evidence_kind": "agent-monitoring",
+      "normativity_candidate": "recommendation",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "Recommendations are control guidance, not universal legal requirements."
+      ],
+      "unit_path": "ingest/SRC-0027/units/p0011.md",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0027-p0033-ec-012",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "locator": "Page 33",
+      "unit_content_sha256": "e9573b439fb81438f806fd0b6eaf24be71c66ed4a8a59e95b1ab2760f082c6f5",
+      "unit_file_sha256": "054d918a5b79cb9e264043f31974db49387db3cf85b4cf85722c1b303e90cfd6",
+      "claim": "OWASP recommends output validation and human gates before high-risk agent outputs propagate downstream, with isolation, scoped access, policy enforcement, monitoring and tamper-evident lineage as additional controls.",
+      "evidence_kind": "human-gates",
+      "normativity_candidate": "recommendation",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "Recommendations are control guidance, not universal legal requirements."
+      ],
+      "unit_path": "ingest/SRC-0027/units/p0033.md",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0039-p0032-ec-013",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 32",
+      "unit_content_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+      "unit_file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+      "claim": "NIST AI RMF MAP 3.5 states that processes for human oversight should be defined, assessed and documented in accordance with organizational governance policies.",
+      "evidence_kind": "human-oversight",
+      "normativity_candidate": "expectation",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "NIST AI RMF is a voluntary framework; it does not itself create legal obligations."
+      ],
+      "unit_path": "ingest/SRC-0039/units/p0032.md",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0039-p0032-ec-014",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 32",
+      "unit_content_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+      "unit_file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+      "claim": "NIST AI RMF identifies operator and practitioner proficiency processes and calls for risks and controls for AI-system components, including third-party software and data, to be identified and documented.",
+      "evidence_kind": "roles-controls",
+      "normativity_candidate": "expectation",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "NIST AI RMF is a voluntary framework; it does not itself create legal obligations."
+      ],
+      "unit_path": "ingest/SRC-0039/units/p0032.md",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "review_status": "PENDING_AUDIT"
+    },
+    {
+      "candidate_id": "be036-src-0039-p0045-ec-015",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "locator": "Page 45",
+      "unit_content_sha256": "297d8959055aa6adddf8a80417c9068d7a9b2958d098417e20ff798b8e56f1a0",
+      "unit_file_sha256": "6c471013c7e708e3795cf6420ba5df75cc32dabad343f437d4c55cf5be8f6ab7",
+      "claim": "NIST explains that human roles and responsibilities in decision making and oversight should be clearly defined and differentiated, and that human-AI configurations range from autonomous to manual depending on context.",
+      "evidence_kind": "human-roles",
+      "normativity_candidate": "context",
+      "qualifiers": [
+        "Claim is bounded to the assigned unit and is not expanded beyond the cited wording."
+      ],
+      "uncertainties": [
+        "NIST discussion is contextual and does not prescribe one oversight pattern for all systems."
+      ],
+      "unit_path": "ingest/SRC-0039/units/p0045.md",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "review_status": "PENDING_AUDIT"
+    }
+  ],
+  "audit_requirements": [
+    "Independently audit locator fidelity for SRC-0009 Page 22 and SRC-0016 Pages 117 and 125 before any evidence lock.",
+    "Keep SRC-0016 Article 14 and two-person verification material scoped to the cited real-time RBI context.",
+    "Classify OWASP and NIST as non-binding security guidance/framework; classify Microsoft report as research.",
+    "Do not introduce legal obligations from guidance or framework material."
+  ]
+}

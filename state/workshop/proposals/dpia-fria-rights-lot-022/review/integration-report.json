@@ -1,0 +1,28 @@
+{
+  "candidate_sha256": "1e5926c67d747f99c5ac0c38d6bf119f77364c25492d6257d4a45b73d935b6eb",
+  "derived": {
+    "canvas_sha256": "966dbfcd58b6b376d319a9e0eb4216b7e1ed7d206f621770d9c8d98327398b90",
+    "dependencies": 15,
+    "questions": 28,
+    "registry_sha256": "9620a365bcb0fe954d617c231aec8a1625be9b69a919b3e47a38f0ba3ea59ec5"
+  },
+  "files": [
+    {
+      "path": "Data & AI Laws/Data Privacy/data-subject-rights-ai.md",
+      "proposal_id": "dpia-fria-rights-lot-022",
+      "sha256": "f3495e9dfedf96685f8db510dcc2b6842173ca790f5b6c06eedd48352e0fcf09"
+    },
+    {
+      "path": "questions/legal/legal-005-data-subject-rights-readiness.md",
+      "proposal_id": "dpia-fria-rights-lot-022",
+      "sha256": "e19c8ce6e60c5e86756f6d278bce4ab35650c53d07bc2b3afffefb418eb45c36"
+    }
+  ],
+  "materialized_files": 2,
+  "notes": 112,
+  "proposal_ids": [
+    "dpia-fria-rights-lot-022"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

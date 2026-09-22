@@ -1,0 +1,247 @@
+{
+  "schema_version": 1,
+  "purpose": "Editorial FR/EN retrieval expansion; not evidence or taxonomy",
+  "groups": [
+    {
+      "id": "vocab-001",
+      "terms": [
+        "gouvernance",
+        "governance"
+      ]
+    },
+    {
+      "id": "vocab-002",
+      "terms": [
+        "responsabilité",
+        "accountability",
+        "accountable"
+      ]
+    },
+    {
+      "id": "vocab-003",
+      "terms": [
+        "finalité",
+        "business purpose",
+        "intended outcome"
+      ]
+    },
+    {
+      "id": "vocab-004",
+      "terms": [
+        "données personnelles",
+        "personal data"
+      ]
+    },
+    {
+      "id": "vocab-005",
+      "terms": [
+        "protection des données",
+        "data protection"
+      ]
+    },
+    {
+      "id": "vocab-006",
+      "terms": [
+        "rgpd",
+        "gdpr"
+      ]
+    },
+    {
+      "id": "vocab-007",
+      "terms": [
+        "décision automatisée",
+        "automated decision"
+      ]
+    },
+    {
+      "id": "vocab-008",
+      "terms": [
+        "contrôle humain",
+        "human oversight",
+        "human in the loop"
+      ]
+    },
+    {
+      "id": "vocab-009",
+      "terms": [
+        "analyse impact",
+        "impact assessment",
+        "dpia",
+        "aipd"
+      ]
+    },
+    {
+      "id": "vocab-010",
+      "terms": [
+        "droits fondamentaux",
+        "fundamental rights",
+        "fria"
+      ]
+    },
+    {
+      "id": "vocab-011",
+      "terms": [
+        "haut risque",
+        "high risk"
+      ]
+    },
+    {
+      "id": "vocab-012",
+      "terms": [
+        "pratiques interdites",
+        "prohibited practices"
+      ]
+    },
+    {
+      "id": "vocab-013",
+      "terms": [
+        "validation modèle",
+        "model validation"
+      ]
+    },
+    {
+      "id": "vocab-014",
+      "terms": [
+        "qualité données",
+        "data quality"
+      ]
+    },
+    {
+      "id": "vocab-015",
+      "terms": [
+        "sécurité",
+        "security"
+      ]
+    },
+    {
+      "id": "vocab-016",
+      "terms": [
+        "chaîne approvisionnement",
+        "supply chain"
+      ]
+    },
+    {
+      "id": "vocab-017",
+      "terms": [
+        "fournisseurs",
+        "third parties"
+      ]
+    },
+    {
+      "id": "vocab-018",
+      "terms": [
+        "traçabilité",
+        "traceability"
+      ]
+    },
+    {
+      "id": "vocab-019",
+      "terms": [
+        "documentation modèle",
+        "model documentation"
+      ]
+    },
+    {
+      "id": "vocab-020",
+      "terms": [
+        "explicabilité",
+        "explainability",
+        "transparency",
+        "transparence"
+      ]
+    },
+    {
+      "id": "vocab-021",
+      "terms": [
+        "surveillance",
+        "monitoring"
+      ]
+    },
+    {
+      "id": "vocab-022",
+      "terms": [
+        "remédiation",
+        "remediation"
+      ]
+    },
+    {
+      "id": "vocab-023",
+      "terms": [
+        "durabilité",
+        "sustainability"
+      ]
+    },
+    {
+      "id": "vocab-024",
+      "terms": [
+        "formation ia",
+        "ai literacy"
+      ]
+    },
+    {
+      "id": "vocab-025",
+      "terms": [
+        "risque modèle",
+        "model risk"
+      ]
+    },
+    {
+      "id": "vocab-026",
+      "terms": [
+        "biais",
+        "bias",
+        "fairness"
+      ]
+    },
+    {
+      "id": "vocab-027",
+      "terms": [
+        "incident",
+        "incidents"
+      ]
+    },
+    {
+      "id": "vocab-028",
+      "terms": [
+        "injection invite",
+        "prompt injection"
+      ]
+    },
+    {
+      "id": "vocab-029",
+      "terms": [
+        "garde fous",
+        "guardrails"
+      ]
+    },
+    {
+      "id": "vocab-030",
+      "terms": [
+        "audit",
+        "assurance"
+      ]
+    },
+    {
+      "id": "vocab-031",
+      "terms": [
+        "réponse",
+        "response"
+      ]
+    },
+    {
+      "id": "vocab-032",
+      "terms": [
+        "modèle",
+        "model"
+      ]
+    },
+    {
+      "id": "vocab-033",
+      "terms": [
+        "suivi du modèle",
+        "surveillance des modèles",
+        "model monitoring"
+      ]
+    }
+  ]
+}

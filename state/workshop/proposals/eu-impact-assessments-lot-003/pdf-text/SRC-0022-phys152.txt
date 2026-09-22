@@ -1,0 +1,46 @@
+                       Law & Compliance in AI Security & Data Protection
+
+
+ (b) to remain aware of the possible tendency of automatically relying or over-relying on
+the output produced by a high-risk AI system (automation bias), in particular for high-risk
+AI systems used to provide information or recommendations for decisions to be taken by
+                                     natural persons;
+        (c) to correctly interpret the high-risk AI system’s output, taking into account, for
+                     example, the interpretation tools and methods available;
+        (d) to decide, in any particular situation, not to use the high-risk AI system or to
+         otherwise disregard, override or reverse the output of the high-risk AI system;
+    (e) to intervene in the operation of the high-risk AI system or interrupt the system
+through a ‘stop’ button or a similar procedure that allows the system to come to a halt in
+                                        a safe state.
+While such measures are not mandatory for any other AI systems, or for automated
+decision-making not based on AI, they provide a starting point for understanding what
+compliance with Article 22(3) GDPR requires.15
+
+Conclusion to Unit 8
+The deployment stage presents unique challenges from a data protection perspective.
+Though compliance with GDPR requirements demands that developers take several
+measures to address risks during design and development, some risks are likely to
+escape even their most diligent efforts. Furthermore, some risks emerge from the
+specific context in which an AI system is put into use. This means that not all issues can
+be solved beforehand, and data protection professionals must be active during
+deployment, too.
+To support them in this task, this unit has identified certain aspects that are unique to
+the deployment of AI systems—or at least particularly relevant in this context:
+    -     Most people (even with a technical background) are unlikely to have a thorough
+          understanding of how AI operates and what it does in each context. Therefore,
+          literacy programmes can be a valuable tool for compliance.
+               o Literacy training must be tailored for its audience. Some stakeholders are
+                  unlikely to need full exposure to technical detail, but they still need to
+                  grasp what AI can and cannot do. Others would benefit from looking at the
+                  system’s inner workings.
+               o Literacy training must be kept up to date with technical developments and
+                  changes in the social and organizational context in which the system is
+                  used.
+
+
+15 Especially once the technical standards discussed in Session 14.1 of this training module are
+
+published.
+
+                                                   139
+

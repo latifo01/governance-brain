@@ -1,0 +1,66 @@
+name: Governance Brain CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: ${{ matrix.os }} / Python 3.12.12
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    env:
+      UV_NO_PROGRESS: "1"
+      OPENCODE_DISABLE_MODELS_FETCH: "1"
+      OPENCODE_DISABLE_AUTOUPDATE: "1"
+      OPENCODE_DISABLE_DEFAULT_PLUGINS: "1"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: astral-sh/setup-uv@v6
+        with:
+          version: "0.12.5"
+          enable-cache: true
+      - name: Install locked environment
+        run: uv sync --frozen --extra dev --extra data
+      - name: Test
+        run: uv run pytest -q
+      - name: Validate active Brain
+        run: uv run gov360 brain validate
+      - name: Check deterministic outputs
+        run: uv run gov360 brain build --check
+      - name: Check questionnaire and Canvas
+        run: uv run python -m gov360_brain.workshop check-derived
+      - name: Evaluate reference retrieval
+        run: uv run gov360 brain evaluate
+      - name: Evaluate retrieval extension
+        run: uv run gov360 brain evaluate --suite extension
+      - name: Verify source and ingest integrity
+        run: uv run python tools/check-source-immutability.py
+      - name: Reject changes to existing source originals
+        if: github.event_name == 'pull_request'
+        run: uv run python tools/check-source-immutability.py --base ${{ github.event.pull_request.base.sha }}
+      - name: Check private handoff contract
+        run: |
+          uv run gov360 brain handoff
+          uv run gov360 brain handoff --check
+      - name: Windows path-with-spaces smoke test
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $Target = Join-Path $env:RUNNER_TEMP "Governance Brain clone"
+          git clone --no-hardlinks . "$Target"
+          Push-Location $Target
+          uv sync --frozen --extra dev --extra data
+          uv run gov360 brain validate
+          uv run gov360 brain build --check
+          Pop-Location

@@ -1,0 +1,42 @@
+[agents]
+max_concurrent_threads_per_session = 3
+
+[agents.cdo_program_lead]
+description = "Selects the next evidence-first domain release and its review gates."
+config_file = "agents/cdo_program_lead.toml"
+
+[agents.domain_builder]
+description = "Builds one assigned fast-lane domain shard from reviewed evidence."
+config_file = "agents/domain_builder.toml"
+
+[agents.evidence_auditor]
+description = "Verifies evidence, locators, coverage, and normativity before synthesis."
+config_file = "agents/evidence_auditor.toml"
+
+[agents.git_helper]
+description = "Prepare a sanitized local release kit and reproducibility report."
+config_file = "agents/git_helper.toml"
+
+[agents.knowledge_architect]
+description = "Proposes evidence-backed concepts, rules, relations, and taxonomy changes."
+config_file = "agents/knowledge_architect.toml"
+
+[agents.questionnaire_curator]
+description = "Proposes bilingual questionnaire changes backed by verified evidence."
+config_file = "agents/questionnaire_curator.toml"
+
+[agents.questionnaire_reviewer]
+description = "Independently reviews bilingual question lots and dependency logic."
+config_file = "agents/questionnaire_reviewer.toml"
+
+[agents.release_reviewer]
+description = "Independently reviews a consolidated fast-lane domain release."
+config_file = "agents/release_reviewer.toml"
+
+[agents.source_extractor]
+description = "Extracts evidence candidates from one assigned set of validated Markdown units."
+config_file = "agents/source_extractor.toml"
+
+[agents.vault_reviewer]
+description = "Checks a proposed vault change set for evidence, schema, link, and governance defects."
+config_file = "agents/vault_reviewer.toml"

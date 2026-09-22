@@ -1,0 +1,29 @@
+{
+  "author_identity": "codex-governance-navigation-assembler",
+  "candidate_sha256": "a3eddf985d5272f8cd856f2187dea0ddd87926d2369baa4b9584a1ef6ae56cf0",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "internal-regulation-index"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "GOVERNANCE_ACCOUNTABILITY",
+  "evidence_changes": false,
+  "files": [
+    "indexes/internal-regulation-index.md"
+  ],
+  "proposal_id": "governance-navigation-lot-021",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "fast",
+  "schema_version": 3,
+  "shards": [
+    "governance-navigation"
+  ],
+  "status": "INTEGRATED"
+}

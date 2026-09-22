@@ -1,0 +1,466 @@
+{
+  "schema_version": 1,
+  "receipt_id": "model-validation-lot-023",
+  "author_identity": "codex-model-validation-domain-builder",
+  "evidence": [
+    {
+      "evidence_ref": "mv23-src-0036-p0008",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0008.md",
+      "unit_sha256": "36e25926b74ec476b4c1955ca191b9ac6c1d809237c4565dd9cf06d9695ab786",
+      "unit_file_sha256": "eb8849e7fc295f0ba69c6b4ccd73292749bbd1566afef5edf3651e555935a63d",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0036-p0009",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0009.md",
+      "unit_sha256": "ce9d4d57bed3d3dd5f827497303dc3a697e652ee5d7060745d4ee0954e3b6714",
+      "unit_file_sha256": "580001998850c50baf8e41a8a030f3e7b2e37d550860e5196583d3dc61ce6890",
+      "locator": "Page 9",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0036-p0010",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0010.md",
+      "unit_sha256": "a9d686c32b747508b981cbd13d6b9459626ae7dd30b8a7ea88208924e42e65b0",
+      "unit_file_sha256": "07acdadc0a0bda9925b6d66a5d93ece7ad30ac223014000654e59d4c586baafa",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0036-p0011",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0011.md",
+      "unit_sha256": "cebb3eb0d79edbd81e0f9558da25981a125abc971f79e2b823612cac6c146a33",
+      "unit_file_sha256": "aa64e9f63456a6f166720d6db04f28b24a98032a1f97c0aea407024cff99b727",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0036-p0013",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0013.md",
+      "unit_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+      "unit_file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+      "locator": "Page 13",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0038-p0003",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0003.md",
+      "unit_sha256": "bd3c594b36fbe7a1392f2f15140f899f7b676c0728cf62792e5dc68e269e4ad4",
+      "unit_file_sha256": "a30a6d9edf08655801cdcf5416df94f727bd37df2c445a2d9f86910d6b458f1d",
+      "locator": "Page 3",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0038-p0011",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0011.md",
+      "unit_sha256": "1e0201351f4a60012b4536b63d721f147e3d349c1328a648170c45326d66ecc0",
+      "unit_file_sha256": "37dc3093d475cc43b7098a2c47861621a80f1e3eb62da0d2124d715037af8051",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0038-p0013",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0013.md",
+      "unit_sha256": "f8160599c5188188953cc8075df0261f70060e8661bec04f38ddc927041bf281",
+      "unit_file_sha256": "9b3aae0931d35df1e2f027d875306496137fda259357359344df1c4d348c287c",
+      "locator": "Page 13",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0039-p0033",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0033.md",
+      "unit_sha256": "de022cf2b8f82975598a5839143a82a49b70f1ab04c198dbedc63eb5ca6e1514",
+      "unit_file_sha256": "4b67ee60cea7ec6910893d30c3709a071d6072e3cfe4c47b2c11944b23ca05fb",
+      "locator": "Page 33",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0039-p0034",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0034.md",
+      "unit_sha256": "c721e01ce436180b63165e69fb45c7a2994b59916bbbaf6676777b9efd11701d",
+      "unit_file_sha256": "4a993b22fe7d513c3a4bd0a29af77058c4692f0fdd401aa37d5f8e4cf0acccd4",
+      "locator": "Page 34",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0039-p0035",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0035.md",
+      "unit_sha256": "7c2df886cf5671889f4e54cfd1e5097145ed938a3c5ac78ed1e4c151c06ebcef",
+      "unit_file_sha256": "9c378153e475afecb6438fda22c12e7a4d0af0fafe7055b4619a1934f41f2add",
+      "locator": "Page 35",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0039-p0036",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0036.md",
+      "unit_sha256": "222e2f94f1578d073561d97026ec51ac4934f8c01be272fddc639e398726a545",
+      "unit_file_sha256": "1f9fd40ed70351959e58dd61c3bfa534684fd68063b8588f38999a16226bcf47",
+      "locator": "Page 36",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0039-p0038",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0038.md",
+      "unit_sha256": "d3f4eff907102e22e34b18552cff5f1a2cc62a4631a6a9361cff58129a950c2a",
+      "unit_file_sha256": "ff1de0e3693819bc5f7068ef4a1481d154d2891deacc1b5ab16e03374914b60f",
+      "locator": "Page 38",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0040-p0034",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0034.md",
+      "unit_sha256": "02822a1c888d876b6815f303a4dab1e60b0d4fa9b7917b2668ad057c343dec87",
+      "unit_file_sha256": "3d623631b101b289ae20dc97d1e1cefe4048ceabe3caf072cfa0f01a251a1880",
+      "locator": "Page 34",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0040-p0035",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0035.md",
+      "unit_sha256": "98a2b39b2884a60b87b4f74adef7445be8064bdee3b2844445576ed7e8e89ffc",
+      "unit_file_sha256": "33509b9fb484e8c7ea15a5be744838eee0e5640531e22482f21e0f00791e3126",
+      "locator": "Page 35",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "mv23-src-0040-p0036",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0036.md",
+      "unit_sha256": "134f9f3b8be4acb77b287e6feb5bbf5156aa16c6b95edc904dd70109ed8a4fcd",
+      "unit_file_sha256": "d323c488e78cfeb7e405fbf1251f413ba1e129360dc7d1c580d287de0b991bf1",
+      "locator": "Page 36",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/model-validation-lot-023/review/fidelity-checks.json",
+          "sha256": "24262e12369d2a31e73925f4c7292db64539e66b7ab03423f9bea52835d5c1f5"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "ai-data-quality-and-validation",
+      "section_id": "ai-data-quality-and-validation:d957c3dcfeafe2f6",
+      "section_sha256": "45ed950ad20057c569f3497bb059ee3916103c6c711720744b1ed244ddf61eac",
+      "evidence_refs": [
+        "mv23-src-0036-p0008",
+        "mv23-src-0038-p0003",
+        "mv23-src-0039-p0033"
+      ],
+      "modality": "context",
+      "note_sha256": "e414321ce8ed38107c9853f6a58e9bd30d5c2c27c4dcfcdc2044bccc1585a49e"
+    },
+    {
+      "note_id": "ai-data-quality-and-validation",
+      "section_id": "ai-data-quality-and-validation:1339b273677a7cbf",
+      "section_sha256": "e345551a96ca302a390c43ea33cec2b8e0892af83e7dd4683a23aa84b07b8c0f",
+      "evidence_refs": [
+        "mv23-src-0036-p0009",
+        "mv23-src-0039-p0033"
+      ],
+      "modality": "context",
+      "note_sha256": "e414321ce8ed38107c9853f6a58e9bd30d5c2c27c4dcfcdc2044bccc1585a49e"
+    },
+    {
+      "note_id": "ai-data-quality-and-validation",
+      "section_id": "ai-data-quality-and-validation:d54eec46f82e9332",
+      "section_sha256": "7f2abd1a4509c12f3f8797924546545c82f13b5356e083b659ec7cb35456769e",
+      "evidence_refs": [
+        "mv23-src-0036-p0008",
+        "mv23-src-0036-p0010",
+        "mv23-src-0038-p0011",
+        "mv23-src-0038-p0013",
+        "mv23-src-0039-p0033",
+        "mv23-src-0039-p0034",
+        "mv23-src-0039-p0035"
+      ],
+      "modality": "recommendation",
+      "note_sha256": "e414321ce8ed38107c9853f6a58e9bd30d5c2c27c4dcfcdc2044bccc1585a49e"
+    },
+    {
+      "note_id": "ai-data-quality-and-validation",
+      "section_id": "ai-data-quality-and-validation:f58aeecc2849fe35",
+      "section_sha256": "0426415dcdb5839c6e50e5ec5239f3fac42a840aefdfe4092b00fb6f1b8b7d00",
+      "evidence_refs": [
+        "mv23-src-0036-p0013",
+        "mv23-src-0039-p0034",
+        "mv23-src-0039-p0035",
+        "mv23-src-0040-p0034",
+        "mv23-src-0040-p0035",
+        "mv23-src-0040-p0036"
+      ],
+      "modality": "recommendation",
+      "note_sha256": "e414321ce8ed38107c9853f6a58e9bd30d5c2c27c4dcfcdc2044bccc1585a49e"
+    },
+    {
+      "note_id": "ai-data-quality-and-validation",
+      "section_id": "ai-data-quality-and-validation:0f2ec078d12a6b23",
+      "section_sha256": "1db865e9c1c531356137e45f740516eb4de7c97049b39cb308a6cd27fd372b8d",
+      "evidence_refs": [
+        "mv23-src-0038-p0003",
+        "mv23-src-0038-p0013",
+        "mv23-src-0039-p0034",
+        "mv23-src-0039-p0035"
+      ],
+      "modality": "context",
+      "note_sha256": "e414321ce8ed38107c9853f6a58e9bd30d5c2c27c4dcfcdc2044bccc1585a49e"
+    },
+    {
+      "note_id": "risk-011-data-quality-evaluation",
+      "section_id": "risk-011-data-quality-evaluation:3a13b318d0226b72",
+      "section_sha256": "c73ddf980a4d7bf83494f6c8a63bb824fbf737fb140867bf0094473a845ebd92",
+      "evidence_refs": [
+        "mv23-src-0036-p0008",
+        "mv23-src-0036-p0010",
+        "mv23-src-0039-p0034"
+      ],
+      "modality": "recommendation",
+      "note_sha256": "362d03e75eae834512b7e7966fb5e89a2b0bc9cc15455fa9501e7b1a55c1b2d3"
+    },
+    {
+      "note_id": "risk-011-data-quality-evaluation",
+      "section_id": "risk-011-data-quality-evaluation:1f63a1a1263c6c7a",
+      "section_sha256": "f3ffde3392c26803faf9af92e243faa83c0b0fa43b84b9a76e92620cf587e4b2",
+      "evidence_refs": [
+        "mv23-src-0036-p0008",
+        "mv23-src-0036-p0011",
+        "mv23-src-0038-p0011",
+        "mv23-src-0038-p0013",
+        "mv23-src-0039-p0034",
+        "mv23-src-0039-p0035"
+      ],
+      "modality": "recommendation",
+      "note_sha256": "362d03e75eae834512b7e7966fb5e89a2b0bc9cc15455fa9501e7b1a55c1b2d3"
+    },
+    {
+      "note_id": "ai-data-quality-and-validation",
+      "note_sha256": "e414321ce8ed38107c9853f6a58e9bd30d5c2c27c4dcfcdc2044bccc1585a49e",
+      "section_id": "ai-data-quality-and-validation:839a7cbef7ceb71f",
+      "section_sha256": "d4ffd5a3acabc61e0d84514c47b0b09f1709629b6aa380aafde8f0b90ee50a17",
+      "evidence_refs": [
+        "mv23-src-0039-p0034"
+      ],
+      "modality": "context"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-model-validation-evidence-auditor",
+    "reviewed_at": "2026-09-17T00:00:00+00:00",
+    "candidate_sha256": "a0b638f7449456e0f1c2dc3f6e5988f7815ebd309bbb97d4b0a577f6c9122168",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "RECEIPT_VERIFIED",
+        "detail": "Selected validated ingest units resolve with exact source, unit and fidelity hashes."
+      },
+      {
+        "severity": "INFO",
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "detail": "All substantive sections in the two proposed notes have one exact evidence binding."
+      },
+      {
+        "severity": "INFO",
+        "code": "NON_BINDING_SCOPE",
+        "detail": "SR-26-2 and SR-11-7 are treated as supervisory guidance; NIST AI RMF material is treated as framework context. No binding claim is emitted."
+      },
+      {
+        "severity": "WARNING",
+        "code": "SECTOR_SCOPE",
+        "detail": "Banking model-risk guidance must not be generalized outside its supervisory scope."
+      },
+      {
+        "severity": "WARNING",
+        "code": "VISUAL_FIDELITY_LIMITED",
+        "detail": "SRC-0038 image-inspection warnings remain; this lot uses native textual content only."
+      }
+    ]
+  }
+}

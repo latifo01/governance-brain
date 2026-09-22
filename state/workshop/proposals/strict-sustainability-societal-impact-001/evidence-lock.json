@@ -1,0 +1,17 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "ssi-org29-src-0040-p0028",
+    "ssi-org29-src-0040-p0030",
+    "ssi-org29-src-0040-p0035",
+    "ssi-org29-src-0040-p0036",
+    "ssi-org29-src-0040-p0059",
+    "ssi-org29-src-0040-p0127"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/strict-sustainability-societal-impact-001.json",
+      "sha256": "5ff852a44bf17ebc5ea338ed8fcf8edea274d99b7746dec85a3bfeb81986b603"
+    }
+  ]
+}

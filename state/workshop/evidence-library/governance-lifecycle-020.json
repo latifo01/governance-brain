@@ -1,0 +1,346 @@
+{
+  "schema_version": 1,
+  "receipt_id": "governance-lifecycle-020",
+  "author_identity": "codex-governance-lifecycle-evidence-extractor",
+  "evidence": [
+    {
+      "evidence_ref": "gov20-src-0001-p0011",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0011.md",
+      "unit_sha256": "2bebbf22e79fcb7398cada2e6f70011d9d1336df8b1fcde8266313ae598e9a29",
+      "unit_file_sha256": "44438d92683d60307fb3ca2231c7e9b2d2185c966a0901db7675ce5a7f5d77a8",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0001-p0017",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0017.md",
+      "unit_sha256": "b95d5f3b2ab3f9992887fe446ae1e4015e257a57204ce2818587333baadfd8be",
+      "unit_file_sha256": "04f76de176d8c5641cdaf617f866cb359bc162315fa7c290ec4001150201391d",
+      "locator": "Page 17",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0004",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0004.md",
+      "unit_sha256": "8effcb6abbe7ed48186e0f3fb9d5e10c386b642d33110af75a3c09bb4cdb963c",
+      "unit_file_sha256": "00f277b1536cf11ccad593e8557d52e0ee6058d62e708afe62f00f97ddc659ed",
+      "locator": "Page 4",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0008",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0008.md",
+      "unit_sha256": "dd08fe1c774fed697bcb045139342b0ffeb11868ec5f073bb37d7aa350fa007b",
+      "unit_file_sha256": "318e25cbe755449b6c31cb9566bb8a00e04da76d2d6d1fd34b447ed1dddac9fe",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0009",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0009.md",
+      "unit_sha256": "5d850e0e987babbcbf0f5d9d00c25f5aa0561c6205480f11277d87a5ab28fc52",
+      "unit_file_sha256": "e93584abd9a8580c362a3fff4f5eda8e799be89d024354645eadde94fcc3b69c",
+      "locator": "Page 9",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0010",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0010.md",
+      "unit_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "unit_file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0011",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0011.md",
+      "unit_sha256": "7ca44d4b72df7aa6b214afa03cb8ff2bbe7668738a6e78735c3cceb0416abc06",
+      "unit_file_sha256": "0265b7f3bba5b1a4489c80a974aa44ff8791364c3436a9cbaf6730edc0073be2",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0003-p0007",
+      "source_id": "SRC-0003",
+      "source_sha256": "edc972e30f5c2c264b8ea449e291c3457754584a248706e647bca0c7ecf81e68",
+      "unit_path": "ingest/SRC-0003/units/p0007.md",
+      "unit_sha256": "44fe16c44171a8bc37597d2f23ed1759e4f534626d0221aae19653ae1fc81c6c",
+      "unit_file_sha256": "21252280a3d3772c5f2e136059bd1d54b9800b2eb246822836268451cbcd7ac4",
+      "locator": "Page 7",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0009-p0006",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0006.md",
+      "unit_sha256": "ebc07658b042ce7f8cbbb091ff93b0a4730b7b1ef9f4950ea819a0d335b191ca",
+      "unit_file_sha256": "95776257fc0f685861c2727ed5cd892203e152fd4c9f5c48281dc13ddc88f415",
+      "locator": "Page 6",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0009-p0026",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0026.md",
+      "unit_sha256": "c1eb84e21a76668d73065c44166204a8e97c96b4667e0e746ae98b8eb5b4ca07",
+      "unit_file_sha256": "8608ee961a4656a37574610c6174860df43e694b7f6aac294fd1baca9799b678",
+      "locator": "Page 26",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "gov20-src-0009-p0028",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0028.md",
+      "unit_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+      "unit_file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+      "locator": "Page 28",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "ai-governance-accountability",
+      "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+      "section_id": "ai-governance-accountability:1c38bd4dd961f6f9",
+      "section_sha256": "1a026cddb7f740bae36f3295ec567098f63e61520a5c66d59aaf09451cef38bf",
+      "evidence_refs": [
+        "gov20-src-0002-p0004",
+        "gov20-src-0002-p0009"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-governance-accountability",
+      "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+      "section_id": "ai-governance-accountability:24b7e4dceea7b1b6",
+      "section_sha256": "4c5ab8c2c9098ce6423be33479cd9ec1744c525596eb2fa0f29829663fe1288e",
+      "evidence_refs": [
+        "gov20-src-0002-p0008",
+        "gov20-src-0002-p0010",
+        "gov20-src-0009-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-governance-accountability",
+      "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+      "section_id": "ai-governance-accountability:0993df55661c4971",
+      "section_sha256": "dc805a5317cb2f0568284280d5fdca4f986a7ced1a6ea5c81eecb1c3bb13dd31",
+      "evidence_refs": [
+        "gov20-src-0001-p0011",
+        "gov20-src-0001-p0017",
+        "gov20-src-0002-p0009",
+        "gov20-src-0002-p0010",
+        "gov20-src-0009-p0006",
+        "gov20-src-0009-p0026"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-governance-accountability",
+      "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+      "section_id": "ai-governance-accountability:5a49b1ee08e5c52c",
+      "section_sha256": "9ec99c101e3f885a3db31ab7963364ee618599f8953ea0127cf7e000cd2a5b00",
+      "evidence_refs": [
+        "gov20-src-0001-p0017",
+        "gov20-src-0002-p0009",
+        "gov20-src-0002-p0011",
+        "gov20-src-0003-p0007"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-governance-accountability",
+      "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+      "section_id": "ai-governance-accountability:7c9cacc2a3e5b171",
+      "section_sha256": "6873851acc39773f996610d616744f03c9993e64c1c64503f706b3bbcb4cdb17",
+      "evidence_refs": [
+        "gov20-src-0002-p0008",
+        "gov20-src-0009-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-governance-accountability",
+      "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+      "section_id": "ai-governance-accountability:5ac433f1cc819f95",
+      "section_sha256": "8bbdc0c3d43ec1f75ee02606f1cf14e1131e3dae48826ee8453bbfdca3722c26",
+      "evidence_refs": [
+        "gov20-src-0001-p0017",
+        "gov20-src-0002-p0010"
+      ],
+      "modality": "context"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-governance-lifecycle-evidence-auditor",
+    "reviewed_at": "2026-09-17T00:00:00+00:00",
+    "candidate_sha256": "30931e893b489de785e9a24baca3865901fb5c2e724c2245ac758068f40d889b",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "EVIDENCE_ITEMS_VERIFIED",
+        "count": 11
+      },
+      {
+        "severity": "INFO",
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "count": 6
+      },
+      {
+        "severity": "INFO",
+        "code": "SOURCE_CLASSES_CONSERVATIVE",
+        "detail": "EDPB documents are GUIDANCE; Microsoft report is RESEARCH and is used only for descriptive context."
+      },
+      {
+        "severity": "WARNING",
+        "code": "LEGAL_CURRENCY_UNKNOWN",
+        "detail": "No current legal amendments or supervisory interpretations were assessed."
+      },
+      {
+        "severity": "WARNING",
+        "code": "VISUAL_FIDELITY_LIMITED",
+        "detail": "The local fidelity receipt is hash-bound and descriptive; source units with REVIEW_REQUIRED warnings are not used for diagram claims."
+      }
+    ]
+  }
+}

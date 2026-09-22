@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-lineage-republication-004",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "7b2453ee8c89e1611d18b39909c15d3fa8944881ba220e40c78e8cc95ab5dd70",
+  "reviewer_identity": "codex-ai-concepts-lineage-independent-release-reviewer",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic integration preview validates the exact six-file candidate with valid=true and would_write=6; no active-vault write was applied.",
+      "candidate_sha256": "7b2453ee8c89e1611d18b39909c15d3fa8944881ba220e40c78e8cc95ab5dd70"
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The lock resolves eleven unique reviewed references through the current shared receipt and twenty-four exact substantive section bindings.",
+      "evidence_lock_sha256": "f299090b82e84703cc31014521bf88039e9e0c8e66d0a6a0d702fd94cada89b6"
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "The receipt resolves source identifiers, source hashes, validated ingest unit paths, unit hashes and page locators for all locked references."
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_AND_LINKS_VALID",
+      "detail": "The six existing concept IDs and paths pass deterministic validation. Related Concepts contain only existing Obsidian links and introduce no unsupported prose.",
+      "file_count": 6
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "Guidance and research material remains qualified as non-binding. The GPAI terminology is presented as a concept note and not as a substitute for an applicable legal Knowledge Bank."
+    },
+    {
+      "severity": "WARNING",
+      "code": "FIDELITY_SCOPE_LIMITED",
+      "detail": "The receipt's text-scoped fidelity and editorial limitations remain applicable; visual layout fidelity and legal correctness require separate review when relevant."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This verdict establishes readiness only. Human approval must bind the exact candidate SHA-256 before deterministic integration.",
+      "approval_file": "state/workshop/proposals/ai-concepts-lineage-republication-004/review/approval.md"
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_11_REFERENCES",
+    "shared_receipt": "PASS_11_RECORDS_24_BINDINGS",
+    "fidelity_review": "PASS_11_TEXT_SCOPED_RESULTS",
+    "authority_boundary": "PASS_NO_BINDING_SOURCE_OR_CLAIM",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS"
+  }
+}

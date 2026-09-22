@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "proposal_id": "legal-regulatory-release-013",
+  "reviewer_identity": "codex-release-reviewer-legal-regulatory-release-013",
+  "reviewed_at": "2026-09-15T18:00:00+02:00",
+  "candidate_sha256": "eb887dcfa8061854d2946f3803cb305249977fef34ec1f7fecec451862e1f264",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [],
+  "checks": {
+    "manifest": "PASS_STRICT",
+    "evidence_lock": "PASS_0d500eda6670ddcd4b73173527995db504d3c3b6f3486ccb099216e8cf93ad3e",
+    "evidence_audit": "PASS_EVIDENCE_READY",
+    "candidate_hash": "PASS",
+    "overlay_validation": "PASS_108_NOTES_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "binding_claims": "PASS_SUPPORTED_BY_SRC_0010",
+    "legal_interpretation": "PASS_STRICT_LANE",
+    "provenance": "PASS_SOURCE_AND_UNIT_HASHES_WITH_LOCATORS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "article_35_boundary": "PASS_EXPLICITLY_OUT_OF_SCOPE",
+    "integrate_preview": "PASS_ONE_FILE_NO_WRITE",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS",
+    "active_vault_unchanged": "PASS"
+  },
+  "notes": "The candidate contains exactly one ADD knowledge note for GDPR Article 22. It is correctly routed through the strict lane because it contains binding legal claims and legal interpretation. The note preserves stable IDs, links, evidence references, source and unit provenance, and the explicit Article 35 boundary. Human approval remains required before deterministic integration."
+}

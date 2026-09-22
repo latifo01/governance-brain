@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-035-model-lifecycle",
+  "status": "EXTRACTION_LIMITS",
+  "source_limits": [
+    {
+      "source_id": "SRC-0009",
+      "limit": "Most relevant units are marked REVIEW_REQUIRED for visual fidelity; candidates from those units remain provisional."
+    },
+    {
+      "source_id": "SRC-0018",
+      "limit": "Commission Article 50 material is guidance and must remain separate from the binding AI Act text."
+    },
+    {
+      "source_id": "SRC-0036",
+      "limit": "Federal supervisory guidance is explicitly non-prescriptive and its applicability is bounded to banking organisations and model-risk context."
+    },
+    {
+      "source_id": "SRC-0038",
+      "limit": "Historical supervisory guidance has image-inspection warnings on all units selected; no candidate is eligible until fidelity review."
+    },
+    {
+      "source_id": "SRC-0039",
+      "limit": "NIST AI RMF is voluntary, outcome-focused and non-prescriptive; it cannot alone establish a legal obligation."
+    }
+  ],
+  "release_limits": [
+    "Extraction only: no evidence-library receipt, evidence lock, future-vault, review or approval was created.",
+    "No active vault, ingest, sources, benchmark configuration or derived artefact was modified.",
+    "No binding claims, legal interpretations, universal requirements or certification claims are proposed.",
+    "Independent fidelity/evidence audit must decide which provisional candidates can proceed."
+  ]
+}

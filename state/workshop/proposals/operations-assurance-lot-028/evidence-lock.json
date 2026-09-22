@@ -1,0 +1,36 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "ops28-src-0001-p0011",
+    "ops28-src-0001-p0017",
+    "ops28-src-0002-p0004",
+    "ops28-src-0002-p0008",
+    "ops28-src-0002-p0009",
+    "ops28-src-0002-p0010",
+    "ops28-src-0002-p0011",
+    "ops28-src-0028-p0006",
+    "ops28-src-0028-p0007",
+    "ops28-src-0028-p0015",
+    "ops28-src-0028-p0016",
+    "ops28-src-0028-p0017",
+    "ops28-src-0028-p0021",
+    "ops28-src-0028-p0022",
+    "ops28-src-0028-p0023",
+    "ops28-src-0028-p0024",
+    "ops28-src-0028-p0025",
+    "ops28-src-0028-p0026",
+    "ops28-src-0028-p0030",
+    "ops28-src-0028-p0031",
+    "ops28-src-0028-p0033",
+    "ops28-src-0028-p0034",
+    "ops28-src-0041-p0002",
+    "ops28-src-0041-p0004",
+    "ops28-src-0041-p0008"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/operations-assurance-028.json",
+      "sha256": "9b5f698d3044ec9330a5bf82415f72e9a6698aee3bee1fb18813a6e2c56ec3ed"
+    }
+  ]
+}

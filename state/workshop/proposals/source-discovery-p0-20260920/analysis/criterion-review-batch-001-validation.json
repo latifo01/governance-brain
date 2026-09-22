@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-discovery-p0-20260920",
+  "review_id": "criterion-review-batch-001",
+  "status": "PASS",
+  "checks": {
+    "json_valid": true,
+    "records_72": true,
+    "evidence_ready_zero": true,
+    "all_hashes_present": true,
+    "unclassified_blocked": true,
+    "visual_blocked": true,
+    "no_source_text": true,
+    "no_publication": true,
+    "input_screening_hash_matches": true
+  },
+  "artifacts": {
+    "json": "state/workshop/proposals/source-discovery-p0-20260920/analysis/criterion-review-batch-001.json",
+    "markdown": "state/workshop/proposals/source-discovery-p0-20260920/analysis/criterion-review-batch-001.md"
+  },
+  "notes": "Review dossier only; it grants no evidence status or approval."
+}

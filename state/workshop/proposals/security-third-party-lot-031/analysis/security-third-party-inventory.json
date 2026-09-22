@@ -1,0 +1,149 @@
+{
+  "schema_version": 1,
+  "workstream": "security-and-third-party-supply-chain",
+  "generated_at": "2026-09-17",
+  "scope": {
+    "security_sources": [
+      "SRC-0023",
+      "SRC-0024",
+      "SRC-0025",
+      "SRC-0028",
+      "SRC-0029",
+      "SRC-0030",
+      "SRC-0031",
+      "SRC-0032",
+      "SRC-0033",
+      "SRC-0034",
+      "SRC-0035",
+      "SRC-0044",
+      "SRC-0046"
+    ],
+    "third_party_sources": [
+      "SRC-0028",
+      "SRC-0029",
+      "SRC-0030",
+      "SRC-0031",
+      "SRC-0032",
+      "SRC-0033",
+      "SRC-0034",
+      "SRC-0035"
+    ]
+  },
+  "source_status": {
+    "SRC-0023": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "72fec19e8954c5f548dc12eb1ae74ceb2f7c3877b1a2f0bf6c29f054bcb91d43",
+      "domains": [
+        "AI_SECURITY"
+      ]
+    },
+    "SRC-0024": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "130442e9d4999ebe7d79c4d415299a345953dabb08c54511a87b91f90492b285",
+      "domains": [
+        "AI_SECURITY"
+      ]
+    },
+    "SRC-0025": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "50b12699a427e653a3e879b28def402203b79aa0121df840cf5ffdfd8fb640c2",
+      "domains": [
+        "AI_SECURITY"
+      ]
+    },
+    "SRC-0028": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ]
+    },
+    "SRC-0029": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "94ff45a3c41db7b3a03fd9ad6ab8ae2ea69135c698e0789def57bfc9b2433ee8",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ]
+    },
+    "SRC-0030": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "2636e19ff1c86e862394d2fc900592e97b83c04cc35e3c8443108114b7f1dfba",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ]
+    },
+    "SRC-0031": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "9f7f5988eb6db46576732f579dd81ac75e4e05bdf7a06eb4cebd32eedf4be872",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ]
+    },
+    "SRC-0032": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "410815680200580613cdd603f553f663b580dd27eb05714d17e38fdbebe05b5e",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ]
+    },
+    "SRC-0033": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ]
+    },
+    "SRC-0034": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ]
+    },
+    "SRC-0035": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "domains": [
+        "AI_SECURITY",
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ]
+    },
+    "SRC-0044": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "7ea87e5b8ca5d4e67c261026abc331a977231d0d379c41a9f20c1eae2cb326e4",
+      "domains": [
+        "AI_SECURITY"
+      ]
+    },
+    "SRC-0046": {
+      "status": "READY_FOR_LLM",
+      "source_sha256": "6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c",
+      "domains": [
+        "AI_SECURITY"
+      ]
+    }
+  },
+  "active_candidate_notes": [
+    "genai-guardrails",
+    "prompt-injection",
+    "red-teaming",
+    "traceability",
+    "data-leakage",
+    "ai-agent-authority-expansion-controls",
+    "ai-agent-scope-drift-detection"
+  ],
+  "coverage_gaps": [
+    "No dedicated active note yet for AI supply-chain due diligence and shared responsibility.",
+    "MCP and agent identity/access controls need a single evidence-bound governance note.",
+    "Third-party assurance, contract controls and exit/concentration risk need explicit questionnaire coverage."
+  ],
+  "next_release_lane": "strict",
+  "integrity": "source manifests only; no source or active vault content modified"
+}

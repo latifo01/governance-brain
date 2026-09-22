@@ -1,0 +1,818 @@
+{
+  "schema_version": 1,
+  "receipt_id": "operations-assurance-028",
+  "author_identity": "codex-operations-assurance-domain-builder",
+  "evidence": [
+    {
+      "evidence_ref": "ops28-src-0028-p0006",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0006.md",
+      "unit_sha256": "8f33558bcd218cf0fc15b401c3104634e328aced18e2cef61398d56f48e00ba2",
+      "unit_file_sha256": "78710ff012046644651f338a27820616d2770b611638961bea396de18cac4ddb",
+      "locator": "Page 6",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0007",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0007.md",
+      "unit_sha256": "f61eeb7f324f4e39b8ec0f2b2105ff7ecf99379d17bb6b9a4358c032c693f422",
+      "unit_file_sha256": "8c0400d24afea4d42a1644213e3eb837e88de0ba24b8777192391949cd9020c3",
+      "locator": "Page 7",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0015",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0015.md",
+      "unit_sha256": "1837d5c11173f8f7235a91819bceabcda620ab1235dff21ec6ba2fb18f4d2947",
+      "unit_file_sha256": "8c8be595e93cf3c6584a82b4ac4328c8458f8d1958ae3196af4687ef3a2acb56",
+      "locator": "Page 15",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0016",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0016.md",
+      "unit_sha256": "890eebdad9222ddfaf4eaefed509c070595c66b29169959ca9c30fee33a9174b",
+      "unit_file_sha256": "acb3b5daf8b49ce9800961da27d995b4862e6e1dc7c81e0badbd59316ff5903e",
+      "locator": "Page 16",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0017",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0017.md",
+      "unit_sha256": "d157e10cb42add236d39cf4a2ea8718dcb4dc77e3494d0e57bbfcd3aed6f3c79",
+      "unit_file_sha256": "81c96338955b3242cceb4065ab45c72e03ab305a2f4a5017742021eeb4601e7d",
+      "locator": "Page 17",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0021",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0021.md",
+      "unit_sha256": "6057f0d4419819b8f01f103cff22ffb1f653b624f64b0abed8faeab2415f4c15",
+      "unit_file_sha256": "8f61d45a6539090406946c86d9153de45f80fe306459651ee3caef4657ec81c7",
+      "locator": "Page 21",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0022",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0022.md",
+      "unit_sha256": "c1ba2cccd9b0c50c066516e8d3f98d14e227d90230701ee0aabae627e86a1e98",
+      "unit_file_sha256": "94b048da2476f35df271bab7857edf27f44b66189d9771d0b79d095ea295fda0",
+      "locator": "Page 22",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0023",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0023.md",
+      "unit_sha256": "4cbd7b564d5e465a99d613c36f0454b4eb4d906559124960da4eefbd186a2a19",
+      "unit_file_sha256": "fee6e45dd39335192837ce6ae2a1cb54dbe036f2217edb6b567a24a86639b8da",
+      "locator": "Page 23",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0024",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0024.md",
+      "unit_sha256": "72b4950b72a89e146b491b86ce423bb28e813afee096a9ce7db8dcf7dca76db8",
+      "unit_file_sha256": "ef224613547c91bc93d66d392e423539c5b8ad86029ef5de51f2a73b5b0da88b",
+      "locator": "Page 24",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0025",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0025.md",
+      "unit_sha256": "fcf91890a03b9600b540c462b83c04fb6e683ee4618157cd0e339ed13210c354",
+      "unit_file_sha256": "14370f6261b106a87a01cd9a95e3500e78a9148d8014a8d7b03fdb0b5ed292b3",
+      "locator": "Page 25",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0026",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0026.md",
+      "unit_sha256": "20dfda039b741ca0a22a90a902efedd4cdd2e6586beb9f0a3fb20dd36db40090",
+      "unit_file_sha256": "76a80336db39dcd1956778a613b05f0fbd57fc1ffe49fb990b8b16e814fb27cb",
+      "locator": "Page 26",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0030",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0030.md",
+      "unit_sha256": "480f4eb910320ad26a31046e2578c529f0fb2130c895a6fd8c1090a328d06501",
+      "unit_file_sha256": "704d9e0480733ad7d500c931226c9662b43ebbce0e54295478a99a80fbe9de8e",
+      "locator": "Page 30",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0031",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0031.md",
+      "unit_sha256": "7224a81b448b3aeaadb335a0af4fd5ca0486ffd4f3ce240b128fe6ed386d89b8",
+      "unit_file_sha256": "6966e30d9deb026fc9514bccf52e3209648be5b0b8eaef1df3e90aa284ca2dba",
+      "locator": "Page 31",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0033",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0033.md",
+      "unit_sha256": "d827914342c9eb2bc6fb3df312180e0f8813f2a9abf6c44d38cb9edf280b6371",
+      "unit_file_sha256": "1ea0b5ae373d872dc0785075aaef2ab965d9e73e8f1b7b218d8ca85774b0a8cc",
+      "locator": "Page 33",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0028-p0034",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0034.md",
+      "unit_sha256": "84106ebde9ec220bd7fd4eaf2f3d0560add591fbc1b66065671708ecd30ccf12",
+      "unit_file_sha256": "d334b246418a30d061420775b00543465f78bf16838a7a9057a34cf7fb6d7d2e",
+      "locator": "Page 34",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0041-p0002",
+      "source_id": "SRC-0041",
+      "source_sha256": "b9ec7fb975d65600b14cd7383c0630753d4b899e0c3d44c33121472f52e6c1b3",
+      "unit_path": "ingest/SRC-0041/units/p0002.md",
+      "unit_sha256": "38d949d2d61daa57934f831a97cf9a941bfbbcc6083838a8b573fcb3f4fd1b7b",
+      "unit_file_sha256": "cec920fd3a15a7fd2411719def05103a68ff1e7f3aa8162f56817e13382410da",
+      "locator": "Page 2",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0041-p0004",
+      "source_id": "SRC-0041",
+      "source_sha256": "b9ec7fb975d65600b14cd7383c0630753d4b899e0c3d44c33121472f52e6c1b3",
+      "unit_path": "ingest/SRC-0041/units/p0004.md",
+      "unit_sha256": "40170e5d5656ad33cc74f99359546079efd28765b339119899503a4a303f3048",
+      "unit_file_sha256": "52cb053b5e7632db11d81fe6a92d2df232f7fc0aeb9e85af79d2eaf5186dbaf8",
+      "locator": "Page 4",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0041-p0008",
+      "source_id": "SRC-0041",
+      "source_sha256": "b9ec7fb975d65600b14cd7383c0630753d4b899e0c3d44c33121472f52e6c1b3",
+      "unit_path": "ingest/SRC-0041/units/p0008.md",
+      "unit_sha256": "c6b0bf7b93ef8df42f5d119816edc5f5942109b8c2ef5e70cc4a1aa4a0f53ce7",
+      "unit_file_sha256": "09c91ef4782a0b2431ddbfc0c7054f44a5220e089bdb7aea5cbfc415c4949e26",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0001-p0011",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0011.md",
+      "unit_sha256": "2bebbf22e79fcb7398cada2e6f70011d9d1336df8b1fcde8266313ae598e9a29",
+      "unit_file_sha256": "44438d92683d60307fb3ca2231c7e9b2d2185c966a0901db7675ce5a7f5d77a8",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0001-p0017",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0017.md",
+      "unit_sha256": "b95d5f3b2ab3f9992887fe446ae1e4015e257a57204ce2818587333baadfd8be",
+      "unit_file_sha256": "04f76de176d8c5641cdaf617f866cb359bc162315fa7c290ec4001150201391d",
+      "locator": "Page 17",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0002-p0004",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0004.md",
+      "unit_sha256": "8effcb6abbe7ed48186e0f3fb9d5e10c386b642d33110af75a3c09bb4cdb963c",
+      "unit_file_sha256": "00f277b1536cf11ccad593e8557d52e0ee6058d62e708afe62f00f97ddc659ed",
+      "locator": "Page 4",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0002-p0008",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0008.md",
+      "unit_sha256": "dd08fe1c774fed697bcb045139342b0ffeb11868ec5f073bb37d7aa350fa007b",
+      "unit_file_sha256": "318e25cbe755449b6c31cb9566bb8a00e04da76d2d6d1fd34b447ed1dddac9fe",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0002-p0009",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0009.md",
+      "unit_sha256": "5d850e0e987babbcbf0f5d9d00c25f5aa0561c6205480f11277d87a5ab28fc52",
+      "unit_file_sha256": "e93584abd9a8580c362a3fff4f5eda8e799be89d024354645eadde94fcc3b69c",
+      "locator": "Page 9",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0002-p0010",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0010.md",
+      "unit_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "unit_file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ops28-src-0002-p0011",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0011.md",
+      "unit_sha256": "7ca44d4b72df7aa6b214afa03cb8ff2bbe7668738a6e78735c3cceb0416abc06",
+      "unit_file_sha256": "0265b7f3bba5b1a4489c80a974aa44ff8791364c3436a9cbaf6730edc0073be2",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/operations-assurance-lot-028/fidelity-review.json",
+          "sha256": "e4b4ec662d709293ea793066de6cc0937d00f4463583767758f74422c40bf52e"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "ai-assurance-and-independent-review",
+      "note_sha256": "9fc3f7a69d13bad2f7491e82e945bf6db472eb452f2e659802e305aed74172e7",
+      "section_id": "ai-assurance-and-independent-review:14b87810b065d806",
+      "section_sha256": "b9d96ed40d498f0c3b69f5fc31657e9e38793ab87ab0f8ad4680c7e02d33e07b",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0002-p0004",
+        "ops28-src-0002-p0011"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-assurance-and-independent-review",
+      "note_sha256": "9fc3f7a69d13bad2f7491e82e945bf6db472eb452f2e659802e305aed74172e7",
+      "section_id": "ai-assurance-and-independent-review:f1978e2362ad263c",
+      "section_sha256": "b4ce726e7ee81365dd9255737fc3dc2d732bd595b2f8381fb1436c3d0e7598de",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0001-p0017",
+        "ops28-src-0002-p0004",
+        "ops28-src-0002-p0011"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-assurance-and-independent-review",
+      "note_sha256": "9fc3f7a69d13bad2f7491e82e945bf6db472eb452f2e659802e305aed74172e7",
+      "section_id": "ai-assurance-and-independent-review:9659983e9f3ad5ee",
+      "section_sha256": "fcac3ee15b566f0320f18df9d9d9ea9e559eb77997a61ca34a5c13cbcf355d74",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0001-p0017",
+        "ops28-src-0002-p0004",
+        "ops28-src-0002-p0008",
+        "ops28-src-0002-p0009",
+        "ops28-src-0002-p0010",
+        "ops28-src-0002-p0011"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-assurance-and-independent-review",
+      "note_sha256": "9fc3f7a69d13bad2f7491e82e945bf6db472eb452f2e659802e305aed74172e7",
+      "section_id": "ai-assurance-and-independent-review:2c80c37ebc33f864",
+      "section_sha256": "e1abc6d5512e9ac4817bf1db0f3e3b5e4e3caf7f7a1abb57b89f59cc75b92260",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0001-p0017",
+        "ops28-src-0002-p0004",
+        "ops28-src-0002-p0011"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-assurance-and-independent-review",
+      "note_sha256": "9fc3f7a69d13bad2f7491e82e945bf6db472eb452f2e659802e305aed74172e7",
+      "section_id": "ai-assurance-and-independent-review:3c8c913b047fe0b9",
+      "section_sha256": "9ad2f62cc00bce197314b0384e0dbb3f9e16ce752790a3e2db1a013fd321ccac",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0002-p0004",
+        "ops28-src-0002-p0011"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-incident-response-resilience",
+      "note_sha256": "011d546ab6348a25a39ad79aacbda213aba3eae56af57cbf4e1aa03648aa600b",
+      "section_id": "ai-incident-response-resilience:fa410a08d784fce7",
+      "section_sha256": "da7e24ef57a4ec609442347261bf05ec0903677e214ea313f324a7be3eac85b7",
+      "evidence_refs": [
+        "ops28-src-0028-p0006",
+        "ops28-src-0028-p0022",
+        "ops28-src-0028-p0023",
+        "ops28-src-0041-p0002",
+        "ops28-src-0041-p0004",
+        "ops28-src-0041-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-incident-response-resilience",
+      "note_sha256": "011d546ab6348a25a39ad79aacbda213aba3eae56af57cbf4e1aa03648aa600b",
+      "section_id": "ai-incident-response-resilience:31cc03f92faa6e03",
+      "section_sha256": "a1ebcbce02f5239db68f567fcbb3a4a241c08813ce994021c11bbfcc074cc006",
+      "evidence_refs": [
+        "ops28-src-0028-p0006",
+        "ops28-src-0028-p0021",
+        "ops28-src-0028-p0023"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-incident-response-resilience",
+      "note_sha256": "011d546ab6348a25a39ad79aacbda213aba3eae56af57cbf4e1aa03648aa600b",
+      "section_id": "ai-incident-response-resilience:b6f562f419b859e2",
+      "section_sha256": "ef46107a45ff58e92a54e08cbab8d9cc45832840a37801492de914fabc81a80e",
+      "evidence_refs": [
+        "ops28-src-0028-p0007",
+        "ops28-src-0028-p0015",
+        "ops28-src-0028-p0016",
+        "ops28-src-0028-p0017",
+        "ops28-src-0028-p0023",
+        "ops28-src-0028-p0024",
+        "ops28-src-0028-p0025",
+        "ops28-src-0028-p0026",
+        "ops28-src-0028-p0030",
+        "ops28-src-0028-p0031",
+        "ops28-src-0028-p0033",
+        "ops28-src-0028-p0034"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-incident-response-resilience",
+      "note_sha256": "011d546ab6348a25a39ad79aacbda213aba3eae56af57cbf4e1aa03648aa600b",
+      "section_id": "ai-incident-response-resilience:75fec81cc113b04a",
+      "section_sha256": "64a3ed80b9589ea2a8ea6e04297d500f4a5b9e816c1231e1d97245a330ec6a15",
+      "evidence_refs": [
+        "ops28-src-0028-p0016",
+        "ops28-src-0028-p0017",
+        "ops28-src-0028-p0022",
+        "ops28-src-0028-p0023",
+        "ops28-src-0028-p0030",
+        "ops28-src-0028-p0031",
+        "ops28-src-0028-p0034"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-incident-response-resilience",
+      "note_sha256": "011d546ab6348a25a39ad79aacbda213aba3eae56af57cbf4e1aa03648aa600b",
+      "section_id": "ai-incident-response-resilience:95a0250d1fed8267",
+      "section_sha256": "7eff7d1b45aacea2c8947766b857a680cf1f47133b472b8d7e4ce91bede95f08",
+      "evidence_refs": [
+        "ops28-src-0028-p0006",
+        "ops28-src-0028-p0022"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "aud-001-independent-ai-assurance",
+      "note_sha256": "b3f8a219ab1cb886ba002559aa55a3418aea43404307482f5cc97373df91cad3",
+      "section_id": "aud-001-independent-ai-assurance:ff71386354652a67",
+      "section_sha256": "ead656f957746cf4ffcc383fe423dbba14e17966c2d2bede3702cfed4a61959c",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0002-p0004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "aud-001-independent-ai-assurance",
+      "note_sha256": "b3f8a219ab1cb886ba002559aa55a3418aea43404307482f5cc97373df91cad3",
+      "section_id": "aud-001-independent-ai-assurance:388ea5679a5359e2",
+      "section_sha256": "32e26247718f235633a4b7e8ef8a2114c5ad78da16376915a16a9078ebeb0e7a",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0001-p0017",
+        "ops28-src-0002-p0011"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "aud-002-assurance-finding-closure",
+      "note_sha256": "729098dc01aeb3b91cb88bf0ed09190537ae0c0069bb47fbb38a10a1c6df1013",
+      "section_id": "aud-002-assurance-finding-closure:d27f6fbaf2d74a79",
+      "section_sha256": "d6530ef215bf09ec21ba6476f7435f9c88da04c3f9b5eee6e642dc321238632e",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0001-p0017"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "aud-002-assurance-finding-closure",
+      "note_sha256": "729098dc01aeb3b91cb88bf0ed09190537ae0c0069bb47fbb38a10a1c6df1013",
+      "section_id": "aud-002-assurance-finding-closure:3e418209c72746c6",
+      "section_sha256": "bb19c88279a52f3c86c8763c9afa3098bd1b8efd36c2c89eb6979c8ec8a8c49f",
+      "evidence_refs": [
+        "ops28-src-0001-p0017",
+        "ops28-src-0002-p0008",
+        "ops28-src-0002-p0011"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ori-001-ai-incident-response-playbook",
+      "note_sha256": "56ee80ce9f75c6b658e0ade41c7408db1f6841bc396e56817fbf8df0925e9aa7",
+      "section_id": "ori-001-ai-incident-response-playbook:f451b457132b0c03",
+      "section_sha256": "de7edadae9f45b8dbf22c40436bbe12719ff7ec7497fdf108e3d486878a7bf3f",
+      "evidence_refs": [
+        "ops28-src-0028-p0006",
+        "ops28-src-0028-p0023"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ori-001-ai-incident-response-playbook",
+      "note_sha256": "56ee80ce9f75c6b658e0ade41c7408db1f6841bc396e56817fbf8df0925e9aa7",
+      "section_id": "ori-001-ai-incident-response-playbook:9ea55f6dd63f02c7",
+      "section_sha256": "a40769245f18ae72ed8a8fdf858201df5c7e31ded84bdaf061dc4672f2a0ccbc",
+      "evidence_refs": [
+        "ops28-src-0028-p0007",
+        "ops28-src-0028-p0021",
+        "ops28-src-0028-p0023"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ori-002-recovery-validation-and-lessons-learned",
+      "note_sha256": "145f1249528d3dcca25f0d8c87c0ff288a27b671aef86c60d91acae1309fd654",
+      "section_id": "ori-002-recovery-validation-and-lessons-learned:9bbaa28a1420b0fc",
+      "section_sha256": "3b889f47dbd09ff3a0802104f3d8ea8cb02af465305fa2f77b514eb0eb5ebb27",
+      "evidence_refs": [
+        "ops28-src-0028-p0007",
+        "ops28-src-0028-p0023"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ori-002-recovery-validation-and-lessons-learned",
+      "note_sha256": "145f1249528d3dcca25f0d8c87c0ff288a27b671aef86c60d91acae1309fd654",
+      "section_id": "ori-002-recovery-validation-and-lessons-learned:946767712bd13ff9",
+      "section_sha256": "5c3f05325b4a3860a361ce7ae1af2b03ee121200749c377a5bdd7adf0f3adcff",
+      "evidence_refs": [
+        "ops28-src-0028-p0017",
+        "ops28-src-0028-p0023",
+        "ops28-src-0028-p0024"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-assurance-and-independent-review",
+      "note_sha256": "9fc3f7a69d13bad2f7491e82e945bf6db472eb452f2e659802e305aed74172e7",
+      "section_id": "ai-assurance-and-independent-review:6867072ca3a0c745",
+      "section_sha256": "403aa36570347d3e270a77e05dff11856780267b42013e51e7a15e8cce433bb0",
+      "evidence_refs": [
+        "ops28-src-0001-p0011",
+        "ops28-src-0002-p0004",
+        "ops28-src-0002-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-incident-response-resilience",
+      "note_sha256": "011d546ab6348a25a39ad79aacbda213aba3eae56af57cbf4e1aa03648aa600b",
+      "section_id": "ai-incident-response-resilience:650ed658cb69cf96",
+      "section_sha256": "c47e93fc68644dd276dc5f3bb2b1cd6cd034f07e5c8cf81f10240f12535d68ac",
+      "evidence_refs": [
+        "ops28-src-0028-p0023",
+        "ops28-src-0028-p0024"
+      ],
+      "modality": "context"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-operations-assurance-evidence-auditor",
+    "reviewed_at": "2026-09-17T00:00:00+00:00",
+    "candidate_sha256": "447a45cc6679887d9a91329e45d5acfaf49bc39e7d430f1765c49096fe8923d1",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "SELECTED_UNITS_VERIFIED",
+        "detail": "25 exact validated ingest units were hash-checked and scoped to this release."
+      },
+      {
+        "severity": "INFO",
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "detail": "18 substantive note/question sections have exact reviewed evidence bindings."
+      },
+      {
+        "severity": "INFO",
+        "code": "AUTHORITY_BOUNDARY_PRESERVED",
+        "detail": "CoSAI is classified FRAMEWORK, ORX and EDPB materials GUIDANCE; no binding claim or legal interpretation is introduced."
+      },
+      {
+        "severity": "WARNING",
+        "code": "LEGAL_CURRENCY_UNKNOWN",
+        "detail": "No current legal amendments or sector-specific reporting deadlines were assessed."
+      }
+    ]
+  }
+}

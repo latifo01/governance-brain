@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "stage": "EXTRACT_ARTICLE_26_QUALIFIER",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "assignment_sha256": "949c6ff45da04f31b6d6a236bc15d109da5f7e6369131c5c22a39a24dcaa7531",
+  "scope": {
+    "target_ids": [
+      "data-protection-impact-assessments-dpia"
+    ],
+    "source_ids": [
+      "SRC-0011",
+      "SRC-0043"
+    ],
+    "assigned_units": 2
+  },
+  "coverage": [
+    {
+      "source_id": "SRC-0011",
+      "assigned_locators": [
+        "Page 220"
+      ],
+      "covered_locators": [
+        "Page 220"
+      ],
+      "omitted": [],
+      "unresolved_items": []
+    },
+    {
+      "source_id": "SRC-0043",
+      "assigned_locators": [
+        "Page 35"
+      ],
+      "covered_locators": [
+        "Page 35"
+      ],
+      "omitted": [],
+      "unresolved_items": []
+    }
+  ],
+  "evidence_candidates": [
+    {
+      "candidate_id": "art35-article26-qualified-src-0011-p0220-ec-001",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0220.md",
+      "locator": "Page 220",
+      "locator_kind": "page",
+      "unit_content_sha256": "aa9a070bfc5cc4147319318f88b78f4607d4e7a7c2e515b94862a6ac75109d4f",
+      "unit_file_sha256": "f0ba15053d06d6a000f5e018964f5a6aab23491633837e0b5ce8722f0a49eeb8",
+      "claim": "AI Act Article 26(9) provides that, where applicable, deployers of high-risk AI systems use the information supplied under Article 13 to comply with their GDPR Article 35 or Directive (EU) 2016/680 Article 27 data-protection-impact-assessment obligation.",
+      "evidence_kind": "legal_requirement",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "This wording is combined with the Article 113 application schedule in SRC-0043; it does not itself establish that every high-risk system or every AI deployment requires a DPIA."
+      ],
+      "uncertainties": [],
+      "relevance": "AI Act to GDPR information hand-off."
+    },
+    {
+      "candidate_id": "art35-article26-qualified-src-0043-p0035-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0035.md",
+      "locator": "Page 35",
+      "locator_kind": "page",
+      "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+      "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "claim": "For the Article 26(9) obligation within Chapter III Sections 1, 2 and 3, the amended Article 113 schedule applies the relevant rules from 2 December 2027 for Article 6(2)/Annex III high-risk systems and from 2 August 2028 for Article 6(1)/Annex I high-risk systems, subject to the Article 6(5) exception.",
+      "evidence_kind": "temporal_scope",
+      "normativity_candidate": "binding",
+      "visual_dependency": false,
+      "qualifiers": [
+        "The date depends on the system classification route and is not a universal application date."
+      ],
+      "uncertainties": [],
+      "relevance": "Temporal qualifier for Article 26(9)."
+    }
+  ],
+  "classification_proposals": [
+    {
+      "source_id": "SRC-0011",
+      "proposed_authority": "BINDING",
+      "basis": "Official AI Act text; no direct Article 26(9) replacement identified in the assigned amendment."
+    },
+    {
+      "source_id": "SRC-0043",
+      "proposed_authority": "BINDING",
+      "basis": "Official binding amending act providing the Article 113 schedule."
+    }
+  ],
+  "unresolved_items": [
+    "GDPR Articles 35, 36 and 39 currentness remains unresolved.",
+    "Independent audit must verify that the two candidates are used together and that the route qualifier is retained."
+  ],
+  "warnings": [
+    "This receipt does not grant an evidence lock, publication status or human approval.",
+    "No source original or active vault note was modified."
+  ]
+}

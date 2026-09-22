@@ -1,0 +1,16 @@
+schema_version: 1
+domain_id: AI_SECURITY
+slug: ai-security
+status: ACTIVE
+labels:
+  en: AI Security
+  fr: Sécurité de l'IA
+description: Security threats, safeguards, shared responsibilities, and assurance for AI systems and their supply chains.
+question_prefix: SEC
+languages: [en, fr]
+source_roots:
+  - sources/02_AI_Security_Frameworks
+  - sources/03_CoSAI
+review_policy: HUMAN_APPROVAL
+aliases: []
+

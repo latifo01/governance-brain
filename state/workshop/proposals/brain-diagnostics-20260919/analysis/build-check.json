@@ -1,0 +1,23 @@
+{
+  "catalogue_sha256": "fb82981015f2f6aed88119944b604c8a08228efa67698d96bc3024b29f592f1a",
+  "changed_paths": [],
+  "current": true,
+  "evidence_findings": 0,
+  "llm_calls": 0,
+  "llm_cost": null,
+  "note_types": {
+    "index": 9,
+    "knowledge": 96,
+    "question": 43
+  },
+  "notes": 148,
+  "orphan_knowledge": 7,
+  "publication_verified_notes": 118,
+  "reviewed_sections": 298,
+  "schema_version": 1,
+  "sections": 800,
+  "source_baseline_unchanged": true,
+  "sources": 47,
+  "valid": true,
+  "written": 0
+}

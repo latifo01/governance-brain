@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "evidence_lock_sha256": "3c72af0f9d530de03346cdbed29f893e36fffd554dd5c757f4f1fa5440d9b6e0",
+  "reviewer_identity": "codex-source-gap-sustainability-builder-evidence-auditor",
+  "reviewed_at": "2026-09-20T00:00:00+00:00",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "APPROVED_AUDIT_REUSED",
+      "detail": "The approved source-gap evidence audit revalidated current hashes and preserved the visual-fidelity exclusions."
+    },
+    {
+      "severity": "INFO",
+      "code": "PROPOSAL_BINDINGS_VERIFIED",
+      "detail": "12 exact section bindings resolve against the proposal note hashes."
+    },
+    {
+      "severity": "WARNING",
+      "code": "NON_BINDING_SCOPE",
+      "detail": "The locked sources support guidance, framework or research context only."
+    }
+  ]
+}

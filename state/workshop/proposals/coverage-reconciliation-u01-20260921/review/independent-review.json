@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "candidate_sha256": "62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d",
+  "reviewer_identity": "release-reviewer-u01-compact",
+  "reviewed_at": "2026-09-21T18:28:00+02:00",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "ROWS_150_UNIQUE",
+      "detail": "The criterion reconciliation contains exactly 150 unique rows, covering the 150 active matrix cells; every prior_status is UNASSESSED."
+    },
+    {
+      "severity": "INFO",
+      "code": "DISPOSITION_COUNTS_MATCHED",
+      "detail": "Recommended dispositions match the required counts: EVIDENCE_APPROVED 18, NAVIGATION_ONLY 2, REVIEW_REQUIRED 100, SOURCE_GAP 30."
+    },
+    {
+      "severity": "INFO",
+      "code": "INPUT_HASHES_MATCHED",
+      "detail": "The reconciliation binds the matrix catalogue hash f653e9e6c16fb9bf86e39635f42b7106d96bf700209fbf356db539c036c37a33, approved P0 candidate hash 62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d, and P0 coverage-map hash a1a5e99079d175da927f80914cc8710151a9ef627b6d2b11cb3d162268d14d01."
+    },
+    {
+      "severity": "INFO",
+      "code": "MANIFEST_STRICT_PROPOSAL_READY",
+      "detail": "The candidate manifest declares risk_tier strict and status PROPOSAL_READY."
+    },
+    {
+      "severity": "INFO",
+      "code": "COMPLETE_NOT_EMITTED",
+      "detail": "No row or active matrix cell is marked COMPLETE; the active matrix remains 150 UNASSESSED."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_REQUIRED",
+      "detail": "The U01 approval record remains PENDING; this review establishes readiness only and does not approve or integrate the candidate."
+    }
+  ]
+}

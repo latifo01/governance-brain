@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "4df2683bbe3353551bcb0269c38785ee66b9a281bd69255ffe47b02d8e9fd26c",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "Data & AI Laws/Data Privacy/gdpr-article-22-automated-decision-making.md",
+      "proposal_id": "qualification-rights-article22-lot-019",
+      "sha256": "f394b9a613603887b0c8d8fca6916f570ff38e79a40d5c3ac7207492d8e3e23e"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 109,
+  "proposal_ids": [
+    "qualification-rights-article22-lot-019"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

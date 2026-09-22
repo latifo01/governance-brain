@@ -1,0 +1,51 @@
+{
+  "adapter_id": "text",
+  "adapter_version": "1.1.0",
+  "data_artifacts": [],
+  "domains": [
+    "AUDIT_ASSURANCE"
+  ],
+  "inventory": {
+    "metadata": {
+      "encoding": "utf-8-sig",
+      "line_count": 11
+    },
+    "native_unit_count": 11,
+    "normalized_unit_count": 1,
+    "warnings": []
+  },
+  "metrics": {
+    "line_count": 11,
+    "unit_count": 1
+  },
+  "relative_source_paths": [
+    "sources/06_ISO_Standards_not_downloaded/README.md"
+  ],
+  "schema_version": 1,
+  "source_format": "md",
+  "source_id": "SRC-0007",
+  "source_kind": "document",
+  "source_sha256": "6871575a97c1d4a3705429570d9a54abb54b268d6b1d41a6753bdc2c8db57781",
+  "units": [
+    {
+      "content_sha256": "15e8c010deb6bd012fe425f63f24ab09422266c9267aca22556512273a91f131",
+      "file_sha256": "23e127b9cd1466f0d006a5f1cd58ae44ac1a28598e9121c12db15ffd88c12411",
+      "filename": "units/lines-000001-000011-0001.md",
+      "index": 1,
+      "locator": "Lines 1-11",
+      "locator_kind": "line_range",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 303,
+      "native_unit_count": 11,
+      "normalized_unit_count": 1
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

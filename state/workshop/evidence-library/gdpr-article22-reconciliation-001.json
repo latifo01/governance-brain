@@ -1,0 +1,280 @@
+{
+  "author_identity": "codex-root-reconciliation",
+  "bindings": [
+    {
+      "evidence_refs": [
+        "legal-013-src-0010-ec-004"
+      ],
+      "modality": "context",
+      "note_id": "gdpr-article-22-automated-decision-making",
+      "note_sha256": "068e42719c968a83bd4cd822662798c6b45fd6a4e61e1464f29940a27880e0b6",
+      "section_id": "gdpr-article-22-automated-decision-making:a4d4c0199d9d0b6b",
+      "section_sha256": "ddd29a2d7f75409da1c0842989a9d366e930b4172f93d9f0e58339bd937c182c"
+    },
+    {
+      "evidence_refs": [
+        "legal-013-src-0010-ec-004"
+      ],
+      "modality": "context",
+      "note_id": "gdpr-article-22-automated-decision-making",
+      "note_sha256": "068e42719c968a83bd4cd822662798c6b45fd6a4e61e1464f29940a27880e0b6",
+      "section_id": "gdpr-article-22-automated-decision-making:9d01d4573d7a6c05",
+      "section_sha256": "3f4e8d1dc11bb0a86861505e83b48cbf6a7e962fe181c40e005ce368f4c0da97"
+    },
+    {
+      "evidence_refs": [
+        "legal-013-src-0010-ec-004"
+      ],
+      "modality": "obligation",
+      "note_id": "gdpr-article-22-automated-decision-making",
+      "note_sha256": "068e42719c968a83bd4cd822662798c6b45fd6a4e61e1464f29940a27880e0b6",
+      "section_id": "gdpr-article-22-automated-decision-making:f59b6ba3d021d100",
+      "section_sha256": "601df22982d3f94cf47f9bd35ff71c2466ec5c9bbc281641aa93acf75df9dc57"
+    },
+    {
+      "evidence_refs": [
+        "legal-013-src-0010-ec-004",
+        "legal-013-src-0010-ec-002",
+        "legal-013-src-0010-ec-003"
+      ],
+      "modality": "context",
+      "note_id": "gdpr-article-22-automated-decision-making",
+      "note_sha256": "068e42719c968a83bd4cd822662798c6b45fd6a4e61e1464f29940a27880e0b6",
+      "section_id": "gdpr-article-22-automated-decision-making:9481f92a41a9e00d",
+      "section_sha256": "0c1f8a62cef42212775c992d89d687fb59afb7d352311246c77dc5ee18b82ab1"
+    }
+  ],
+  "evidence": [
+    {
+      "authority": "BINDING",
+      "evidence_ref": "legal-013-src-0010-ec-001",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-pilot-fidelity.json",
+          "sha256": "772492156c42a984bbc96050dc9b489fe4a753c39172ca399c02bd96e2ce749a"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 14",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "352af230fddc6f221ce27291a5b568b395801a349e38101165cf232463688299",
+      "unit_path": "ingest/SRC-0010/units/p0014.md",
+      "unit_sha256": "9c6fb61a92f982dc8d4ef0fbffa5d3a85260a5d6b66c5a815684305741496b59",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "legal-013-src-0010-ec-002",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-pilot-fidelity.json",
+          "sha256": "772492156c42a984bbc96050dc9b489fe4a753c39172ca399c02bd96e2ce749a"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 16",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "d0688c4eb87be1ef5b0e52a7a568de8d12b7d176dd34ac684badf97bc6b2f1a6",
+      "unit_path": "ingest/SRC-0010/units/p0016.md",
+      "unit_sha256": "19e67c2247679cca0cae8ce3ab4b7e609a431de1a1c1ae08db31a0cc721fe233",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "legal-013-src-0010-ec-003",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-pilot-fidelity.json",
+          "sha256": "772492156c42a984bbc96050dc9b489fe4a753c39172ca399c02bd96e2ce749a"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 18",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "e3da33167b1f1bfd91f75d50b6b8d349faa9fba35055a4c7b14f8bda636303d1",
+      "unit_path": "ingest/SRC-0010/units/p0018.md",
+      "unit_sha256": "9a17b098fb1ba94729535f66a26946a7869a95de57b6ce1b6f4c4c0a81ff1f86",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "legal-013-src-0010-ec-004",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-pilot-fidelity.json",
+          "sha256": "772492156c42a984bbc96050dc9b489fe4a753c39172ca399c02bd96e2ce749a"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 46",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "121aa50e9262e71b1336bb7438e82a6901629c92d30aad18336c60fa682b8f0b",
+      "unit_path": "ingest/SRC-0010/units/p0046.md",
+      "unit_sha256": "406c57dad0e00f1f18d34035072c090a992088c9e0b8fd5544e00e0b2e46139d",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "legal-013-src-0010-ec-005",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/gdpr-pilot-fidelity.json",
+          "sha256": "772492156c42a984bbc96050dc9b489fe4a753c39172ca399c02bd96e2ce749a"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 63",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "efb49f201a5e4f62ee0a05d652c0fc57627fe776a01f7bef26127a5f65ade509",
+      "unit_path": "ingest/SRC-0010/units/p0063.md",
+      "unit_sha256": "bfb650cd49f3cde131c48899457b2032d19c5d30fd363640d242555eff7fd02f",
+      "valid_from": null,
+      "valid_until": null
+    }
+  ],
+  "receipt_id": "gdpr-article22-reconciliation-001",
+  "review": {
+    "candidate_sha256": "ebd345ca8fd061914ae92478b6b18f4ad226a08bd8434d2f68862dc60a5cc36e",
+    "findings": [
+      {
+        "artifact": "state/workshop/evidence-library/gdpr-article22-reconciliation-001.json",
+        "checks": {
+          "fidelity_receipt_hash_matches": 5,
+          "independent_reviewer": true,
+          "note_and_section_hash_matches": 4,
+          "schema_valid": true,
+          "source_manifest_document_unit_lineage_matches": 5,
+          "unit_file_and_content_hash_matches": 5,
+          "validated_units": 5
+        },
+        "code": "REDUCED_CANDIDATE_REVALIDATED",
+        "detail": "The author removed the unused ec-006 evidence item and the Governance considerations binding. All retained evidence and section hashes match the independently examined inputs. No published content was changed.",
+        "previous_candidate_sha256": "51a4e871ffb3d3d37bc937ded0e345d370c96de97278d10babde37b63aabc9de",
+        "severity": "INFO"
+      },
+      {
+        "authority": "BINDING",
+        "classification_event_id": "CLS-42F293821F2EFF392291",
+        "code": "SOURCE_AUTHORITY_CONFIRMED",
+        "qualification": "The binding classification supports the operative provision used by the obligation binding. Recitals remain contextual and do not independently establish operative obligations.",
+        "severity": "INFO",
+        "source_id": "SRC-0010",
+        "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499"
+      },
+      {
+        "code": "EVIDENCE_ITEMS_VERIFIED",
+        "coverage": {
+          "assigned_retained_units": 5,
+          "critical_issues": 0,
+          "omitted_retained_units": 0,
+          "reviewed_retained_units": 5,
+          "verified_evidence_items": 5
+        },
+        "item_verdicts": [
+          {
+            "evidence_ref": "legal-013-src-0010-ec-001",
+            "scope": "Article 22 recital context and safeguards.",
+            "verdict": "VERIFIED"
+          },
+          {
+            "evidence_ref": "legal-013-src-0010-ec-002",
+            "scope": "Accountability, security and DPIA recital context.",
+            "verdict": "VERIFIED"
+          },
+          {
+            "evidence_ref": "legal-013-src-0010-ec-003",
+            "scope": "DPIA and consultation recital context, not the complete Article 35 test.",
+            "verdict": "VERIFIED"
+          },
+          {
+            "evidence_ref": "legal-013-src-0010-ec-004",
+            "scope": "Article 22 operative provisions, exceptions and safeguards.",
+            "verdict": "VERIFIED"
+          },
+          {
+            "evidence_ref": "legal-013-src-0010-ec-005",
+            "scope": "Binding-corporate-rules content requirements only.",
+            "verdict": "VERIFIED"
+          }
+        ],
+        "severity": "INFO"
+      },
+      {
+        "code": "FOUR_SECTION_BINDINGS_VERIFIED",
+        "section_verdicts": [
+          {
+            "modality": "context",
+            "qualification": "Summary of the Article 22 threshold.",
+            "section_id": "gdpr-article-22-automated-decision-making:a4d4c0199d9d0b6b",
+            "verdict": "VERIFIED"
+          },
+          {
+            "modality": "context",
+            "qualification": "Assessment screening only. Material influence prompts examination of the decision process; it does not independently establish Article 22 applicability.",
+            "section_id": "gdpr-article-22-automated-decision-making:9d01d4573d7a6c05",
+            "verdict": "VERIFIED"
+          },
+          {
+            "modality": "obligation",
+            "qualification": "Bounded Article 22 summary. The special-category paragraph expressly refers to the provision's conditions and safeguards and does not enumerate them.",
+            "section_id": "gdpr-article-22-automated-decision-making:f59b6ba3d021d100",
+            "verdict": "VERIFIED"
+          },
+          {
+            "modality": "context",
+            "qualification": "Editorial scope boundary reserving Article 35 operative requirements for a separate evidence assignment.",
+            "section_id": "gdpr-article-22-automated-decision-making:9481f92a41a9e00d",
+            "verdict": "VERIFIED"
+          }
+        ],
+        "severity": "INFO"
+      },
+      {
+        "code": "EXCLUDED_SECTION_REMAINS_UNRESOLVED",
+        "detail": "Governance considerations remains outside this review's assistance eligibility. Its implementation inferences require explicit qualification and independent review or additional reviewed evidence. Neither the note's publication status nor this receipt resolves that section.",
+        "section_id": "gdpr-article-22-automated-decision-making:6b0fbc132f881d48",
+        "severity": "WARNING"
+      },
+      {
+        "code": "LEGAL_CURRENCY_UNKNOWN",
+        "detail": "Support was checked within the assigned local corpus. Current amendments, supervisory interpretations and external legal developments were not assessed. Null valid_from and valid_until values remain unknown and must not be presented as verified legal validity dates.",
+        "severity": "WARNING",
+        "source_id": "SRC-0010"
+      },
+      {
+        "artifact": "state/workshop/brain-upgrade/gdpr-pilot-fidelity.json",
+        "code": "FIDELITY_SCOPE_LIMITED",
+        "detail": "The hash-bound local comparison records token agreement for the retained pages. It does not establish layout fidelity or legal correctness. The reviewer consumed validated Markdown and the comparison metadata, and did not open source originals.",
+        "severity": "WARNING"
+      },
+      {
+        "code": "BOUNDED_REVALIDATION_ONLY",
+        "detail": "This verdict resolves the five retained evidence items and four specified section bindings only. It does not grant new human publication approval, qualify linked notes, or establish DPIA, FRIA or broader legal completeness.",
+        "severity": "INFO"
+      }
+    ],
+    "reviewed_at": "2026-09-16T07:17:31.598765+00:00",
+    "reviewer_identity": "codex-pilot-evidence-review",
+    "verdict": "EVIDENCE_READY"
+  },
+  "schema_version": 1
+}

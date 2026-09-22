@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "stage": "EVIDENCE_AUDIT",
+  "status": "AUDITED",
+  "source_id": "SRC-0043",
+  "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+  "assignment_sha256": "366e4767105836eae0fd1a82bfd28386a11160ba6f2f8f98dfcd41f68702666e",
+  "extraction_receipt_sha256": "515efa6618711f913301567fc1952232f7336b442bc405093fe5b4241aa61021",
+  "fidelity_receipt_sha256": "e2286cbb68903e5e04fe947be230f1e5454d6f23991e214fe32d680d7d31dbdc",
+  "ingest_document_sha256": "889ed8dfbacd743abd383b790af41f93782a26bb474ffe90527bd29d287b2b49",
+  "authority_verdict": "BINDING",
+  "authority_basis": "The validated ingest identifies Regulation (EU) 2026/1744 of the European Parliament and of the Council, dated 8 July 2026, published in the Official Journal L series on 24 July 2026, with the ELI http://data.europa.eu/eli/reg/2026/1744/oj. Article 4 on Page 41 states that the Regulation enters into force on the third day following publication, is binding in its entirety and is directly applicable in all Member States; the page also records the institutional signatures. The hash-bound fidelity receipt covers all 41 pages and resolves Page 1's visual-review flag. This establishes binding authority for the amendments enacted by this source. The source is an amending act and is not a complete consolidated reproduction of Regulation (EU) 2024/1689.",
+  "coverage": {
+    "candidate_ids_assigned": [
+      "w2-012-src-0043-ec-001",
+      "w2-012-src-0043-ec-002",
+      "w2-012-src-0043-ec-003",
+      "w2-012-src-0043-ec-004",
+      "w2-012-src-0043-ec-005",
+      "w2-012-src-0043-ec-006",
+      "w2-012-src-0043-ec-007",
+      "w2-012-src-0043-ec-008",
+      "w2-012-src-0043-ec-009",
+      "w2-012-src-0043-ec-010",
+      "w2-012-src-0043-ec-011",
+      "w2-012-src-0043-ec-012",
+      "w2-012-src-0043-ec-013",
+      "w2-012-src-0043-ec-014",
+      "w2-012-src-0043-ec-015",
+      "w2-012-src-0043-ec-016",
+      "w2-012-src-0043-ec-017",
+      "w2-012-src-0043-ec-018",
+      "w2-012-src-0043-ec-019",
+      "w2-012-src-0043-ec-020",
+      "w2-012-src-0043-ec-021",
+      "w2-012-src-0043-ec-022",
+      "w2-012-src-0043-ec-023",
+      "w2-012-src-0043-ec-024",
+      "w2-012-src-0043-ec-025",
+      "w2-012-src-0043-ec-026",
+      "w2-012-src-0043-ec-027",
+      "w2-012-src-0043-ec-028",
+      "w2-012-src-0043-ec-029",
+      "w2-012-src-0043-ec-030"
+    ],
+    "candidate_ids_audited": [
+      "w2-012-src-0043-ec-001",
+      "w2-012-src-0043-ec-002",
+      "w2-012-src-0043-ec-003",
+      "w2-012-src-0043-ec-004",
+      "w2-012-src-0043-ec-005",
+      "w2-012-src-0043-ec-006",
+      "w2-012-src-0043-ec-007",
+      "w2-012-src-0043-ec-008",
+      "w2-012-src-0043-ec-009",
+      "w2-012-src-0043-ec-010",
+      "w2-012-src-0043-ec-011",
+      "w2-012-src-0043-ec-012",
+      "w2-012-src-0043-ec-013",
+      "w2-012-src-0043-ec-014",
+      "w2-012-src-0043-ec-015",
+      "w2-012-src-0043-ec-016",
+      "w2-012-src-0043-ec-017",
+      "w2-012-src-0043-ec-018",
+      "w2-012-src-0043-ec-019",
+      "w2-012-src-0043-ec-020",
+      "w2-012-src-0043-ec-021",
+      "w2-012-src-0043-ec-022",
+      "w2-012-src-0043-ec-023",
+      "w2-012-src-0043-ec-024",
+      "w2-012-src-0043-ec-025",
+      "w2-012-src-0043-ec-026",
+      "w2-012-src-0043-ec-027",
+      "w2-012-src-0043-ec-028",
+      "w2-012-src-0043-ec-029",
+      "w2-012-src-0043-ec-030"
+    ],
+    "omitted": []
+  },
+  "counts": {
+    "assigned": 30,
+    "audited": 30,
+    "verified": 26,
+    "rejected": 4,
+    "uncertain": 0,
+    "usable_for_binding": 18
+  },
+  "verdicts": [
+    {
+      "candidate_id": "w2-012-src-0043-ec-001",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": false,
+      "finding": "The official-act identity, date, amending scope and publication date are supported by Page 1. The fidelity receipt resolves the page's visual dependency and is bound to the matching source and ingest-document hashes."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-002",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": false,
+      "finding": "Page 2 supports the recital-level explanation, including equivalent protection, preservation of the overall protection level and the delegated-act mechanism."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-003",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": false,
+      "finding": "Page 3 supports the recital-level safety-component rationale and its relationship to the Article 6(1) high-risk gate."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-004",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": false,
+      "finding": "Page 4 supports the stated rationale for amending Article 5 to address both specified categories of generated or manipulated material."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-005",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": false,
+      "finding": "Page 5 supports the distinct provider and deployer conditions and the deployer's purpose-specific boundary at recital level."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-006",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": false,
+      "finding": "Page 6 supports the national-law 'without right' defence and the two examples of legitimate authority and compliance-evaluation activity, with recital-level status preserved."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-007",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": false,
+      "finding": "Page 12 directly supports both revised Chapter III application dates and distinguishes the Article 6(2)/Annex III and Article 6(1)/Annex I routes at recital level."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-008",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": false,
+      "finding": "Page 13 supports the stated sectoral rationale, the move from Annex I Section A to Section B, the limited Article 2(2) regime and incorporation of specified protections into machinery legislation."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-009",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 15 supports the complete amended Article 2(2) scope and the stated condition governing Articles 57, 58 and 59."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-010",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 15 supports the amended Article 2(7) relationship with the listed Union data-protection, privacy and communications-confidentiality instruments, including the Articles 4a and 59 qualification."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-011",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 16 supports every cumulative condition and preserves the dependency on future delegated acts for any concrete limitation."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-012",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 16 directly imposes the stated 2 August 2027 delegated-act deadline on the Commission and supplies the retained scope."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-013",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 16 directly supports both branches of the amended safety-component definition and the definition of a safety function."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-014",
+      "status": "REJECTED",
+      "reason_code": "MISSING_QUALIFIER",
+      "usable_for_binding": false,
+      "finding": "The candidate states the prohibition without the material provider/deployer applicability limits in Article 5(1a) on the same page and without the 2 December 2026 application date supplied by amended Article 113."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-015",
+      "status": "REJECTED",
+      "reason_code": "MISSING_QUALIFIER",
+      "usable_for_binding": false,
+      "finding": "The candidate preserves the national-law defence but omits the material provider/deployer applicability limits in Article 5(1a) and the 2 December 2026 application date supplied by amended Article 113."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-016",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 18 supports the complete alternative provider tests, the no-significant-modification element and the reasonable and adequate preventive and corrective safeguard conditions."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-017",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 18 directly supports the deployer's purpose-specific applicability condition."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-018",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 18 directly supports both cumulative limits defining manipulation outside Article 5(1)(ba)."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-019",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 18 supports the sole-use exclusion and preserves the Article 6(1b) override."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-020",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 18 directly supports the failure-or-malfunction safety-component rule and its priority over Article 6(1a)."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-021",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 18 directly supports the third-party-assessment exclusion and the stated non-health-and-safety examples."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-022",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 22 supports the conformity-assessment choice, the no-automatic-third-party-assessment rule and the complete standards or common-specifications condition."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-023",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 35 supports the pre-existing-system condition, the significant-design-change trigger and the separate public-authority deadline."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-024",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 35 directly supports the actor, system-purpose, action and 2 August 2030 deadline stated in the candidate."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-025",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 35 directly supports the 2 December 2026 application date and identifies all four affected Article 5 provisions."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-026",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 35 directly supports the 2 December 2027 date, Article 6(2)/Annex III scope and Article 6(5) exception."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-027",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 35 directly supports the 2 August 2028 date, Article 6(1)/Annex I scope and Article 6(5) exception."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-028",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED",
+      "usable_for_binding": true,
+      "finding": "Page 35 directly supports application of Articles 102 to 110 from 27 July 2026."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-029",
+      "status": "REJECTED",
+      "reason_code": "LOCATOR_MISMATCH",
+      "usable_for_binding": false,
+      "finding": "Page 36 supports the Annex I deletion and addition, but the material qualifier about the resulting Article 2(2) application effect relies on Page 15 or the recital on Page 13 without recording that locator and unit hash."
+    },
+    {
+      "candidate_id": "w2-012-src-0043-ec-030",
+      "status": "REJECTED",
+      "reason_code": "LOCATOR_MISMATCH",
+      "usable_for_binding": false,
+      "finding": "Page 41 supports the entry-into-force and binding-effect claim, but the candidate's additional Article 102-to-110 application-date qualifier expressly relies on Page 35 without recording its locator and unit hash."
+    }
+  ],
+  "critical_issues": [
+    "Candidates w2-012-src-0043-ec-014 and w2-012-src-0043-ec-015 cannot support present-tense prohibition claims as of 2026-09-14: they omit both the Article 5(1a) actor-specific limits and the 2 December 2026 application date.",
+    "Candidates w2-012-src-0043-ec-029 and w2-012-src-0043-ec-030 contain material cross-page qualifiers without complete locator and unit-hash lineage."
+  ],
+  "unresolved_items": [
+    "Regulation (EU) 2026/1744 does not reproduce or amend the Article 3(1) definition of an AI system; that definition still requires reviewed support from the current AI Act text.",
+    "This source is an amending act, not a complete consolidation of Regulation (EU) 2024/1689. Full current provisions require a deterministic combination with the reviewed base act or a separately ingested authoritative consolidated text.",
+    "The shared evidence assignment did not contain SRC-0043 at audit time. The extractor's source-specific assignment hash is preserved, but the orchestrator must assemble and bind the shared assignment record.",
+    "Rejected candidates require corrected atomic extraction before reuse."
+  ],
+  "warnings": [
+    "AMENDING_ACT_NOT_CONSOLIDATED",
+    "AI_SYSTEM_DEFINITION_NOT_REPRODUCED",
+    "SHARED_ASSIGNMENT_RECORD_PENDING",
+    "FOUR_CANDIDATES_REJECTED_FOR_QUALIFIER_OR_LINEAGE_DEFECTS"
+  ]
+}

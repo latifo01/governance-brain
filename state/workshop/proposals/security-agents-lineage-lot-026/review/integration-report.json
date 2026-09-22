@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "3ea41af54c5ab075953cc65b348dde8bbe71f93077f09391cab7ffe59d02e21e",
+  "derived": {
+    "canvas_sha256": "c25ca415eda3b53132617541d6a394700ab58e5294c3789da5ad5d884e3743db",
+    "dependencies": 19,
+    "questions": 34,
+    "registry_sha256": "06bb5aeb39119c0f9dcb751186cf513c43b99166569db5fb8c4afb12d7dfceb3"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/genai-guardrails.md",
+      "proposal_id": "security-agents-lineage-lot-026",
+      "sha256": "016a278ba76dba43efdb57108c5a7f7c34819a71fa43b94db071ea2b1d2293bc"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 119,
+  "proposal_ids": [
+    "security-agents-lineage-lot-026"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

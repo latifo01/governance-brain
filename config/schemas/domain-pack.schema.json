@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gov360.local/schemas/domain-pack.schema.json",
+  "title": "Governance Brain Domain Pack",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "domain_id",
+    "slug",
+    "status",
+    "labels",
+    "description",
+    "question_prefix",
+    "languages",
+    "source_roots",
+    "review_policy"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "domain_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "status": {
+      "enum": ["DRAFT", "INGESTING", "REVIEW_REQUIRED", "ACTIVE", "DEPRECATED"]
+    },
+    "labels": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "fr"],
+      "properties": {
+        "en": {"type": "string", "minLength": 1},
+        "fr": {"type": "string", "minLength": 1}
+      }
+    },
+    "description": {"type": "string"},
+    "question_prefix": {"type": "string", "pattern": "^[A-Z][A-Z0-9]{1,7}$"},
+    "languages": {
+      "type": "array",
+      "items": {"enum": ["en", "fr"]},
+      "minItems": 2,
+      "uniqueItems": true,
+      "allOf": [
+        {"contains": {"const": "en"}},
+        {"contains": {"const": "fr"}}
+      ]
+    },
+    "source_roots": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^sources/[A-Za-z0-9._/-]+$"},
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "review_policy": {"const": "HUMAN_APPROVAL"},
+    "aliases": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true,
+      "default": []
+    },
+    "supersedes": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"}
+  }
+}
+

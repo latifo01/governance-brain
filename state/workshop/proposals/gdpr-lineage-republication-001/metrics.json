@@ -1,0 +1,10 @@
+{
+  "cost": null,
+  "input_tokens": null,
+  "llm_calls": null,
+  "models": [
+    "openrouter/z-ai/glm-5.3"
+  ],
+  "output_tokens": null,
+  "schema_version": 2
+}

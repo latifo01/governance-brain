@@ -1,0 +1,413 @@
+{
+  "method": "local-pypdf-token-and-sequence-comparison",
+  "pages": [
+    {
+      "ingest_token_coverage": 0.9913,
+      "locator": "Page 156",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9963
+    },
+    {
+      "ingest_token_coverage": 0.9928,
+      "locator": "Page 157",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9969
+    },
+    {
+      "ingest_token_coverage": 0.9939,
+      "locator": "Page 158",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9976
+    },
+    {
+      "ingest_token_coverage": 0.9929,
+      "locator": "Page 159",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9972
+    },
+    {
+      "ingest_token_coverage": 0.9925,
+      "locator": "Page 160",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9969
+    },
+    {
+      "ingest_token_coverage": 0.9935,
+      "locator": "Page 161",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9974
+    },
+    {
+      "ingest_token_coverage": 0.9935,
+      "locator": "Page 162",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9973
+    },
+    {
+      "ingest_token_coverage": 0.9918,
+      "locator": "Page 163",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9969
+    },
+    {
+      "ingest_token_coverage": 0.9922,
+      "locator": "Page 164",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9972
+    },
+    {
+      "ingest_token_coverage": 0.9921,
+      "locator": "Page 165",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9973
+    },
+    {
+      "ingest_token_coverage": 0.9917,
+      "locator": "Page 172",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9967
+    },
+    {
+      "ingest_token_coverage": 0.9934,
+      "locator": "Page 173",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9975
+    },
+    {
+      "ingest_token_coverage": 0.993,
+      "locator": "Page 174",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9974
+    },
+    {
+      "ingest_token_coverage": 0.9916,
+      "locator": "Page 175",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9966
+    },
+    {
+      "ingest_token_coverage": 0.9941,
+      "locator": "Page 176",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9978
+    },
+    {
+      "ingest_token_coverage": 0.9916,
+      "locator": "Page 177",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9969
+    },
+    {
+      "ingest_token_coverage": 0.9938,
+      "locator": "Page 178",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9978
+    },
+    {
+      "ingest_token_coverage": 0.9912,
+      "locator": "Page 179",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9964
+    },
+    {
+      "ingest_token_coverage": 0.9932,
+      "locator": "Page 180",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9971
+    },
+    {
+      "ingest_token_coverage": 0.9929,
+      "locator": "Page 181",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9971
+    },
+    {
+      "ingest_token_coverage": 0.9916,
+      "locator": "Page 377",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9963
+    },
+    {
+      "ingest_token_coverage": 0.9929,
+      "locator": "Page 378",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9968
+    },
+    {
+      "ingest_token_coverage": 0.9929,
+      "locator": "Page 379",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9967
+    },
+    {
+      "ingest_token_coverage": 0.9925,
+      "locator": "Page 380",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9965
+    },
+    {
+      "ingest_token_coverage": 0.9884,
+      "locator": "Page 381",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9948
+    },
+    {
+      "ingest_token_coverage": 0.9821,
+      "locator": "Page 382",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9934
+    },
+    {
+      "ingest_token_coverage": 0.9474,
+      "locator": "Page 383",
+      "original_token_coverage": 1.0,
+      "result": "REVIEW",
+      "sequence_ratio": 0.98
+    },
+    {
+      "ingest_token_coverage": 0.9906,
+      "locator": "Page 384",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9962
+    },
+    {
+      "ingest_token_coverage": 0.9911,
+      "locator": "Page 385",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9966
+    },
+    {
+      "ingest_token_coverage": 0.9929,
+      "locator": "Page 386",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9973
+    },
+    {
+      "ingest_token_coverage": 0.9921,
+      "locator": "Page 387",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9969
+    },
+    {
+      "ingest_token_coverage": 0.9934,
+      "locator": "Page 388",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9973
+    },
+    {
+      "ingest_token_coverage": 0.9908,
+      "locator": "Page 389",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9964
+    },
+    {
+      "ingest_token_coverage": 0.9959,
+      "locator": "Page 6",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988
+    },
+    {
+      "ingest_token_coverage": 0.9955,
+      "locator": "Page 7",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987
+    },
+    {
+      "ingest_token_coverage": 0.9953,
+      "locator": "Page 8",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987
+    },
+    {
+      "ingest_token_coverage": 0.9966,
+      "locator": "Page 9",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9989
+    },
+    {
+      "ingest_token_coverage": 0.9971,
+      "locator": "Page 10",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.999
+    },
+    {
+      "ingest_token_coverage": 0.9963,
+      "locator": "Page 11",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9986
+    },
+    {
+      "ingest_token_coverage": 0.9967,
+      "locator": "Page 12",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9989
+    },
+    {
+      "ingest_token_coverage": 0.996,
+      "locator": "Page 13",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987
+    },
+    {
+      "ingest_token_coverage": 0.9967,
+      "locator": "Page 14",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9989
+    },
+    {
+      "ingest_token_coverage": 0.9962,
+      "locator": "Page 15",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987
+    },
+    {
+      "ingest_token_coverage": 0.9966,
+      "locator": "Page 16",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988
+    },
+    {
+      "ingest_token_coverage": 0.9968,
+      "locator": "Page 17",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9989
+    },
+    {
+      "ingest_token_coverage": 0.9961,
+      "locator": "Page 18",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987
+    },
+    {
+      "ingest_token_coverage": 0.9964,
+      "locator": "Page 19",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988
+    },
+    {
+      "ingest_token_coverage": 0.9964,
+      "locator": "Page 20",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988
+    },
+    {
+      "ingest_token_coverage": 0.9964,
+      "locator": "Page 21",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988
+    },
+    {
+      "ingest_token_coverage": 0.9958,
+      "locator": "Page 2",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987
+    },
+    {
+      "ingest_token_coverage": 0.9959,
+      "locator": "Page 3",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9989
+    },
+    {
+      "ingest_token_coverage": 0.996,
+      "locator": "Page 5",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988
+    },
+    {
+      "ingest_token_coverage": 0.9962,
+      "locator": "Page 6",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9989
+    },
+    {
+      "ingest_token_coverage": 0.9959,
+      "locator": "Page 11",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987
+    },
+    {
+      "ingest_token_coverage": 0.9959,
+      "locator": "Page 12",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987
+    },
+    {
+      "ingest_token_coverage": 0.9959,
+      "locator": "Page 95",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9985
+    },
+    {
+      "ingest_token_coverage": 0.9955,
+      "locator": "Page 96",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9984
+    },
+    {
+      "ingest_token_coverage": 0.9955,
+      "locator": "Page 97",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9985
+    }
+  ],
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "schema_version": 1
+}

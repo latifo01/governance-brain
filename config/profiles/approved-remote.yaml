@@ -1,0 +1,18 @@
+schema_version: 1
+profile_id: approved-remote
+llm_enabled: true
+api_style: chat_completions
+base_url_env: GOV360_LLM_BASE_URL
+api_key_env: GOV360_LLM_API_KEY
+model_env: GOV360_LLM_MODEL
+vision_model_env: GOV360_VISION_MODEL
+supports_json_schema: true
+supports_vision: false
+network_policy: approved_remote
+allowed_hosts_env: GOV360_LLM_ALLOWED_HOSTS
+requires_explicit_egress_authorization: true
+egress_authorization_env: GOV360_AUTHORIZE_REMOTE
+max_light_workers: 2
+max_heavy_workers: 1
+max_llm_workers: 3
+

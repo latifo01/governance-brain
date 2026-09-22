@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-matrix-review-033",
+  "candidate_sha256": "1e7746804a565cb9af7e45ca6d2db872a7cbe8149159d21d4ef640a0fd256f13",
+  "active_vault_changed": false,
+  "sources_changed": false,
+  "config_changed": false,
+  "input_cells": 150,
+  "current_unassessed_cells": 150,
+  "proposed_status_counts": {
+    "PROPOSAL_READY": 118,
+    "SOURCE_GAP": 20,
+    "EVIDENCE_READY": 12
+  },
+  "priority_counts": {
+    "P1": 130,
+    "P0": 20
+  },
+  "reviewed_binding_total": 178,
+  "reviewed_candidate_notes_total": 40,
+  "complete_cells_proposed": 0,
+  "human_review_cells_proposed": 0,
+  "hash_scope": "analysis/coverage-audit.json canonical content before candidate_sha256 field"
+}

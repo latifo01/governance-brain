@@ -1,0 +1,128 @@
+{
+  "candidate_sha256": "eed55bf3452c727bbdcaa9cdd7d3795c603bbddba36dcbd070fd7501958c6809",
+  "files": [
+    {
+      "path": "questions/core/core-001-business-purpose.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "258e3f3a528858ab45bf95a4e6d551c9437b8bb72c8371b471537ff2f8a79bd5"
+    },
+    {
+      "path": "questions/core/core-002-accountable-owner.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "c90e646c063986e20bbde1a33453d15e27bb995389b1714fc939b68032c4662a"
+    },
+    {
+      "path": "questions/core/core-003-ai-system-determination.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "18f53e622e9ccad62cc1ea71afd225732263bf5ddadb08a212a5bee2fdd2f9a3"
+    },
+    {
+      "path": "questions/core/core-004-system-boundary.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "78a5f95d15e9239911226383e2b76ffd90ae7b9f1630584a2e52a3c782e42330"
+    },
+    {
+      "path": "questions/core/core-005-predictive-capability.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "872acfb29423775ba68659c34b7a76c40c54b420ecd925f86ce5b21413ac667f"
+    },
+    {
+      "path": "questions/core/core-006-generative-capability.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "974a91575f469f2de509b9127e4a182b93239032c99235d48b264f74c01c35c1"
+    },
+    {
+      "path": "questions/core/core-007-agentic-capability.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "b42d03745833ab6925ca5bb367d09f7bc88c73c5f6a7b1b25638977348db87b7"
+    },
+    {
+      "path": "questions/core/core-008-users-affected-people.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "48eed1b01f2fe3b0713fed00185759fc9e34f586fd25a23b0e3799be8e16a8d8"
+    },
+    {
+      "path": "questions/core/core-009-personal-data-involvement.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "98acb783c5793d8088fd8056b54abd0e9aa471a0b322516f24dd78586fcfa9b0"
+    },
+    {
+      "path": "questions/core/core-010-eu-ai-act-scope.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "27b7fc719c9329c75340dd97f97c73e21c905c24dc37dd570e9cafbd8bd35795"
+    },
+    {
+      "path": "questions/core/core-011-prohibited-practice-screening.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "71c36dcd9c4d54759d8d40e522d5754c4b78796f2e8ac578c71ca5ad9d1371c4"
+    },
+    {
+      "path": "questions/core/core-012-automated-decision-trigger.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "84603cd72022b4fe6dcf5e517eab49a8094d459d81c33bcf4c3a33a541527031"
+    },
+    {
+      "path": "questions/core/core-013-high-risk-ai-classification.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "e6de54c7a3f7ca385b50194ae2acc4b77fb2043987fdc6d1949553f9bb0c93b5"
+    },
+    {
+      "path": "questions/legal/legal-001-ai-act-classification-record.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "5aefbfd8e11839ea41fe5941628c4844ed278683c2ccf4bdbe22e84f23a494b5"
+    },
+    {
+      "path": "questions/legal/legal-002-fria-trigger.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "0c77dd96bc14ee44ba5cfbed18d31d0df53fdd5816154829ffb1869dfada8e35"
+    },
+    {
+      "path": "questions/legal/legal-003-dpia-ai-processing.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "321ba0bf97c5a947eb5c2ee973d79038c955514bd24ae1ac6384e5c83454ebf9"
+    },
+    {
+      "path": "questions/legal/legal-004-automated-decision-safeguards.md",
+      "proposal_id": "questionnaire-foundation-lot-011",
+      "sha256": "ff46551faa2d08e4cf8a67ec3635e45e57a583b0bbb71c53218ea10b5b002dc0"
+    },
+    {
+      "path": "indexes/ai-act-index.md",
+      "proposal_id": "domain-navigation-proposal",
+      "sha256": "36d1a35ac8b9e81195375f6c1dd62148e68a32e27decd50065157a61a1f3edc8"
+    },
+    {
+      "path": "indexes/data-protection-index.md",
+      "proposal_id": "domain-navigation-proposal",
+      "sha256": "3c7667fdf6b9fb0aeb66432e6ba944ae7ef3267b832f1bd00d59467a03ffe0d1"
+    },
+    {
+      "path": "indexes/internal-regulation-index.md",
+      "proposal_id": "domain-navigation-proposal",
+      "sha256": "917c84cd6a72cb68f786c00fee0a73afbba268c259cca03dc8aa1f126c15f921"
+    },
+    {
+      "path": "indexes/legal-index.md",
+      "proposal_id": "domain-navigation-proposal",
+      "sha256": "cd0933e87bfd478e608107baa166b963168d1e8c28db903afb64bcd10b503b8f"
+    },
+    {
+      "path": "indexes/questionnaires-index.md",
+      "proposal_id": "domain-navigation-proposal",
+      "sha256": "c3f2390f37db2980df247ddd6912fbe8bc79e515df7ee0817f9dd705957ce6d9"
+    },
+    {
+      "path": "indexes/risk-index.md",
+      "proposal_id": "domain-navigation-proposal",
+      "sha256": "fb374cc99f968dc10a374eb532296202734be34d548237df0ccd0aa2ea1a8c0d"
+    }
+  ],
+  "materialized_files": 23,
+  "notes": 84,
+  "proposal_ids": [
+    "questionnaire-foundation-lot-011",
+    "domain-navigation-proposal"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

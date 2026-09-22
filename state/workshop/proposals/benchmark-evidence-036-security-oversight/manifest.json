@@ -1,0 +1,35 @@
+{
+  "author_identity": "codex-benchmark-evidence-036-security-oversight-knowledge-architect",
+  "candidate_sha256": "9c8885080f42d06bd12f1fdcfd10785336eeb5d53b1413f3005d4fb97c0f81bd",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "human-oversight",
+      "prompt-injection",
+      "risk-005-prompt-injection-threat-model",
+      "risk-008-human-oversight-authority"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "AI_SECURITY",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/human-oversight.md",
+    "AI Risks/prompt-injection.md",
+    "questions/risk/risk-005-prompt-injection-threat-model.md",
+    "questions/risk/risk-008-human-oversight-authority.md"
+  ],
+  "proposal_id": "benchmark-evidence-036-security-oversight",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "security-oversight"
+  ],
+  "status": "INTEGRATED"
+}

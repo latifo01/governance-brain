@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gov360.local/schemas/questionnaire.schema.json",
+  "title": "Governance Brain questionnaire question",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "change_type",
+    "question_id",
+    "revision",
+    "domain",
+    "topic",
+    "response_type",
+    "applies_if",
+    "depends_on",
+    "question_fr",
+    "question_en",
+    "evidence_refs",
+    "status"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "change_type": {"enum": ["ADD", "UPDATE", "SUPERSEDE", "NOOP"]},
+    "question_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9]{1,7}_[0-9]{3,}$"},
+    "revision": {"type": "integer", "minimum": 1},
+    "domain": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"},
+    "topic": {"type": "string"},
+    "response_type": {"enum": ["BOOLEAN", "SINGLE_SELECT", "MULTI_SELECT", "TEXT", "NUMBER", "DATE"]},
+    "applies_if": {"$ref": "#/$defs/conditionGroup"},
+    "depends_on": {"$ref": "#/$defs/dependencyGroup"},
+    "question_fr": {"type": "string", "minLength": 1},
+    "question_en": {"type": "string", "minLength": 1},
+    "evidence_refs": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/evidenceRef"},
+      "minItems": 1
+    },
+    "status": {"enum": ["PROPOSED", "APPROVED", "PUBLISHED", "SUPERSEDED", "REJECTED"]},
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value", "label_en", "label_fr"],
+        "properties": {
+          "value": {"type": ["string", "number", "boolean"]},
+          "label_en": {"type": "string", "minLength": 1},
+          "label_fr": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "supersedes": {"type": "string", "pattern": "^[A-Z][A-Z0-9]{1,7}_[0-9]{3,}$"},
+    "affected_domains": {
+      "type": "array",
+      "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"},
+      "uniqueItems": true
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"response_type": {"enum": ["SINGLE_SELECT", "MULTI_SELECT"]}}},
+      "then": {"required": ["options"], "properties": {"options": {"minItems": 2}}}
+    },
+    {
+      "if": {"properties": {"change_type": {"const": "SUPERSEDE"}}},
+      "then": {"required": ["supersedes"]}
+    }
+  ],
+  "$defs": {
+    "operator": {"enum": ["eq", "neq", "in", "contains", "exists"]},
+    "condition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["field", "operator"],
+      "properties": {
+        "field": {"type": "string", "minLength": 1},
+        "operator": {"$ref": "#/$defs/operator"},
+        "value": {}
+      }
+    },
+    "dependency": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question_id", "operator"],
+      "properties": {
+        "question_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9]{1,7}_[0-9]{3,}$"},
+        "operator": {"$ref": "#/$defs/operator"},
+        "value": {}
+      }
+    },
+    "conditionGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "all": {"type": "array", "items": {"$ref": "#/$defs/condition"}},
+        "any": {"type": "array", "items": {"$ref": "#/$defs/condition"}}
+      },
+      "maxProperties": 1
+    },
+    "dependencyGroup": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "all": {"type": "array", "items": {"$ref": "#/$defs/dependency"}},
+        "any": {"type": "array", "items": {"$ref": "#/$defs/dependency"}}
+      },
+      "maxProperties": 1
+    },
+    "evidenceRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source_id", "source_sha256", "locator", "verification_status"],
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
+        "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "locator": {"type": "string", "minLength": 1},
+        "verification_status": {"const": "VERIFIED"}
+      }
+    }
+  }
+}
+

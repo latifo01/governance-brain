@@ -1,0 +1,140 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 0,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "OPERATIONAL_RESILIENCE_INCIDENTS"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 9
+    },
+    "native_unit_count": 9,
+    "normalized_unit_count": 9,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 9,
+    "unit_count": 9
+  },
+  "relative_source_paths": [
+    "sources/09_Operational_Risk_manual/ORX_Reference_Taxonomy_summary_report.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0041",
+  "source_kind": "document",
+  "source_sha256": "b9ec7fb975d65600b14cd7383c0630753d4b899e0c3d44c33121472f52e6c1b3",
+  "units": [
+    {
+      "content_sha256": "b5e657fce44dee85f9edfef54c58912c54f66e4cb4c334839a371195ee71c126",
+      "file_sha256": "2cb9edb7cff97fe230d15060595ab1def7ee3e16991d4ea33343a1bc02f7471e",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "38d949d2d61daa57934f831a97cf9a941bfbbcc6083838a8b573fcb3f4fd1b7b",
+      "file_sha256": "cec920fd3a15a7fd2411719def05103a68ff1e7f3aa8162f56817e13382410da",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "f1724af6bf08def8f857e7e75edffef4702a78c52efe107b1c55674654e90db8",
+      "file_sha256": "aa8b7f5a93290edd513dec22a153eaa8394d86fd8da06bd4e95a1a9176268141",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "40170e5d5656ad33cc74f99359546079efd28765b339119899503a4a303f3048",
+      "file_sha256": "52cb053b5e7632db11d81fe6a92d2df232f7fc0aeb9e85af79d2eaf5186dbaf8",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "6dfb513beb9153f499598bf5b13cd1af3eff06cdef2e2eef540f3869654661c7",
+      "file_sha256": "7dc9eb965928f6cc10adbdd0c19f4aacb333748adb8660ee41dbcda1aa1eff81",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "b2e48acf92906f6da592ec3627bf2128159e8ea8c58dccae49613f4ab7a0c701",
+      "file_sha256": "18d17e5a70af8933222d161cbd387372f4b132de59d99e1a928139ecbae7e0a5",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "dfd4801d0dae98be84cf8615f32bf6465a7190e618d0835335a069d7cac1a80b",
+      "file_sha256": "58a7cdc39336462b1f0a4b10ede65ef85769c9f98697d297e8a64a139f602e21",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "c6b0bf7b93ef8df42f5d119816edc5f5942109b8c2ef5e70cc4a1aa4a0f53ce7",
+      "file_sha256": "09c91ef4782a0b2431ddbfc0c7054f44a5220e089bdb7aea5cbfc415c4949e26",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "b92f3ff848ec2f4ce97a79e6464a0e9c745b0b0f2aa5a7d54a106da3c6546957",
+      "file_sha256": "8981b17c2c21093d5b9c63116e6578f6ecc3d461dbfb54d11d290cee7dfc8d65",
+      "filename": "units/p0009.md",
+      "index": 9,
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 33223,
+      "native_unit_count": 9,
+      "normalized_unit_count": 9
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

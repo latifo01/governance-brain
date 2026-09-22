@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "report_id": "parallel-remaining-20260920",
+  "objective": "Préparer en parallèle les volets liens orphelins, provenance et couverture, avec des artefacts hashés, validés et révisables sans publication active.",
+  "status": "PASS_COMPLETE",
+  "publication": "step1_only",
+  "active_vault_changed": true,
+  "sources_changed": false,
+  "ingest_changed": false,
+  "steps": [
+    {
+      "step": 1,
+      "name": "Réparation des 7 liens knowledge orphelins",
+      "status": "INTEGRATED",
+      "proposal": "state/workshop/proposals/orphan-link-repair-20260920",
+      "candidate_sha256": "685ae2662fb43c82180e4f2853bf799699fc478f0b38674e76e5cdd1fa16efaf",
+      "evidence_lock_sha256": "f4b0f32dfd201ccee404883bcc5678a5a2476419c42fd182da067d931fe94ef8",
+      "validation": "PASS",
+      "integration_preview": "PASS; applied; 3 index files written",
+      "review": "APPROVED_AND_INTEGRATED"
+    },
+    {
+      "step": 2,
+      "name": "Réconciliation stricte de provenance",
+      "status": "INTEGRATED",
+      "proposal": "state/workshop/proposals/provenance-repair-20260920",
+      "candidate_sha256": "606d74575bd55c66e58cc06d97e758278d3d51648b4f44669e10a833016f8133",
+      "evidence_lock_sha256": "46e54cffb998031b065a3d7b2db287561daed61293df10a9b86665d6282c85d5",
+      "artifact_hashes": {
+        "extraction": "a78c8b3340b8e455be100b89ff33c3f3d3556e1face79f7ed4563a21a6de1338",
+        "audit": "ad6813cba75037ed7143ea06675154f0e04c9fc6d9a6eb83458167dd8bd62cd5",
+        "fidelity": "f3385c9ac4d60e0acb81c563e0efcfcc525bcf1b3a4dc9eee57aae941351b49f",
+        "local_receipt": "e0db7689263aa97f1c9a25758a53d4679770502cc31a471eda849463ab1be9b4"
+      },
+      "validation": "PASS; 23 future-vault notes; 0 overlay errors",
+      "integration_preview": "PASS; approved and integrated; 0 active-vault writes because overlays are byte-identical",
+      "blockers": [],
+      "excluded_items": [
+        "mit-ai-risk-initiative: INFORMATION_MISSING",
+        "digital-omnibus: HISTORICAL_PRESERVE",
+        "sr-11-7: HISTORICAL_PRESERVE",
+        "2022-air-canada-chatbot: HISTORICAL_PRESERVE",
+        "2023-chevrolet-of-watsonville: HISTORICAL_PRESERVE"
+      ]
+    },
+    {
+      "step": 3,
+      "name": "Propositions de couverture criterion-level",
+      "status": "PASS_ANALYSIS_ONLY",
+      "proposal": "state/workshop/proposals/coverage-next-20260920",
+      "candidate_sha256": "5bd5d78627db7e13cf29b6bec8fc1ba704e99682fd9cff63d108853067bdfe9f",
+      "artifact_hashes": {
+        "json": "23ab7d9598f6c1dd8bd1a1bdacc1b6d8a1e44f409018c7246975abac173a2c2f",
+        "markdown": "745a26497d7b3bc35d1be1b216ecec7a07fa1451fc701dcedba3212e39ce729d"
+      },
+      "validation": "PASS",
+      "scope": "20 cellules P0 SOURCE_GAP et 2 cellules P1 de navigation bornée",
+      "publication": "NONE; no Domain Pack activation and no COMPLETE status"
+    }
+  ],
+  "global_checks": {
+    "brain_validate": "PASS; 148 notes, 0 errors, 0 evidence findings",
+    "active_vault_unchanged": false,
+    "active_vault_change_scope": "step1 orphan-link repair only; step2 remains unpublished",
+    "sources_unchanged": true,
+    "ingest_unchanged": true,
+    "human_approval_obtained": true,
+    "publication_performed": true,
+    "publication_scope": "step1 navigation indexes and step2 reviewed-evidence resolution; no source or ingest mutation"
+  },
+  "next_gates": [
+    "Preserve the reviewed evidence receipt and its renderer limitation in future releases.",
+    "Use coverage-next-20260920 as the input for strict source discovery; do not mark P0 cells complete."
+  ]
+}

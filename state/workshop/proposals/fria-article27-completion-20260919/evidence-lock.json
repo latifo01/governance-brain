@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "art27-completion-src-0011-p0222-ec-001",
+    "art27-completion-src-0011-p0222-ec-002",
+    "art27-completion-src-0011-p0222-ec-003",
+    "art27-completion-src-0011-p0223-ec-004",
+    "art27-completion-src-0011-p0223-ec-005",
+    "art27-completion-src-0011-p0223-ec-006",
+    "art27-completion-src-0011-p0223-ec-007",
+    "art27-completion-src-0011-p0223-ec-008",
+    "art27-completion-src-0011-p0223-ec-009",
+    "art27-completion-src-0011-p0223-ec-010",
+    "art27-completion-src-0011-p0223-ec-011",
+    "art27-completion-src-0011-p0223-ec-012",
+    "fria27-amend-src-0043-p0020-ec-001",
+    "fria27-amend-src-0043-p0020-ec-002",
+    "fria27-amend-src-0043-p0035-ec-001"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/fria-article27-completion-20260919.json",
+      "sha256": "8f309c22c50da8789a015b48e2e2788598ae0119b9647621d122d679dd9ab18b"
+    }
+  ]
+}

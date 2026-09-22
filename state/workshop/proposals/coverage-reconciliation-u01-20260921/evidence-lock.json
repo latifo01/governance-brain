@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "proposal_id": "coverage-reconciliation-u01-20260921",
+  "evidence_changes": false,
+  "references": [],
+  "library_receipts": [
+    {
+      "receipt_id": "p0-coverage-completion-20260920",
+      "path": "state/workshop/evidence-library/p0-coverage-completion-20260920.json",
+      "candidate_sha256": "62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d",
+      "purpose": "Traceability only; no new evidence is introduced by U01."
+    }
+  ]
+}
+

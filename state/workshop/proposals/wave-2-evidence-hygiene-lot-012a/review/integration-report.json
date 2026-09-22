@@ -1,0 +1,53 @@
+{
+  "candidate_sha256": "f5a3bba6b417a098f9e8d5cf2bc483d5b4d94c31714d88c66965115f49d0abf3",
+  "derived": {
+    "canvas_sha256": "e7751552bb19da46116dfa26e0fd1878f0882ba7c04d19d6a0f3fac6eaf1bae9",
+    "dependencies": 14,
+    "questions": 27,
+    "registry_sha256": "42bfb1a2c25244976689da5540f045742a2389f0e377ba7f24176ceca3cfa011"
+  },
+  "files": [
+    {
+      "path": "AI concepts/ai-system.md",
+      "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+      "sha256": "55118b62c709c4310d89c73bce2d33bccbcb3fa3670bceabde8fe68d42f48ffb"
+    },
+    {
+      "path": "Data & AI Laws/eu-ai-act.md",
+      "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+      "sha256": "5b9f0ac2865e1a0d869bb289dce13d8100600defcf6dea97e2ada1702d35f370"
+    },
+    {
+      "path": "Data & AI Laws/high-risk-ai-system-classification.md",
+      "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+      "sha256": "3cd55d90c550a659b912b682cf6a280398cbebbbd11b993ceb7df79b62fee2f1"
+    },
+    {
+      "path": "indexes/ai-act-index.md",
+      "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+      "sha256": "278ab6b262a1b70d11137dbbd43eb046a8ddab97be221fc454e83dd56da5a5a1"
+    },
+    {
+      "path": "questions/core/core-003-ai-system-determination.md",
+      "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+      "sha256": "8b38f8e0176f243ed0f24838decc021281f046a0a6aecc28ac013cd8b1c8fd35"
+    },
+    {
+      "path": "questions/risk/risk-002-backtesting-design.md",
+      "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+      "sha256": "8518004ec9c630cb85b874bcb34b5111e40fffd5177513e769fde9ce746e1627"
+    },
+    {
+      "path": "questions/risk/risk-003-model-monitoring-response.md",
+      "proposal_id": "wave-2-evidence-hygiene-lot-012a",
+      "sha256": "27941ccc79a48005fced5f4f40a18edd83dd9fd5292054275dc80f5e2cb51d4a"
+    }
+  ],
+  "materialized_files": 7,
+  "notes": 86,
+  "proposal_ids": [
+    "wave-2-evidence-hygiene-lot-012a"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

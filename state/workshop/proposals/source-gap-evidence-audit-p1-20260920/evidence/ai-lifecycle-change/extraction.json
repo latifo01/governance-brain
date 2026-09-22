@@ -1,0 +1,524 @@
+{
+  "schema_version": 1,
+  "candidate_domain": "AI_LIFECYCLE_CHANGE",
+  "proposal_id": "source-gap-evidence-audit-p1-20260920",
+  "evidence": [
+    {
+      "evidence_ref": "gov20-src-0001-p0017",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0017.md",
+      "unit_sha256": "b95d5f3b2ab3f9992887fe446ae1e4015e257a57204ce2818587333baadfd8be",
+      "unit_file_sha256": "04f76de176d8c5641cdaf617f866cb359bc162315fa7c290ec4001150201391d",
+      "locator": "Page 17",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "receipt_path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "receipt_sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:0993df55661c4971",
+          "section_sha256": "dc805a5317cb2f0568284280d5fdca4f986a7ced1a6ea5c81eecb1c3bb13dd31",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "gov20-src-0001-p0011",
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0009",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006",
+            "gov20-src-0009-p0026"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:5a49b1ee08e5c52c",
+          "section_sha256": "9ec99c101e3f885a3db31ab7963364ee618599f8953ea0127cf7e000cd2a5b00",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0009",
+            "gov20-src-0002-p0011",
+            "gov20-src-0003-p0007"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:5ac433f1cc819f95",
+          "section_sha256": "8bbdc0c3d43ec1f75ee02606f1cf14e1131e3dae48826ee8453bbfdca3722c26",
+          "modality": "context",
+          "evidence_refs": [
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0010"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0008",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0008.md",
+      "unit_sha256": "dd08fe1c774fed697bcb045139342b0ffeb11868ec5f073bb37d7aa350fa007b",
+      "unit_file_sha256": "318e25cbe755449b6c31cb9566bb8a00e04da76d2d6d1fd34b447ed1dddac9fe",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "receipt_path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "receipt_sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:24b7e4dceea7b1b6",
+          "section_sha256": "4c5ab8c2c9098ce6423be33479cd9ec1744c525596eb2fa0f29829663fe1288e",
+          "modality": "context",
+          "evidence_refs": [
+            "gov20-src-0002-p0008",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:7c9cacc2a3e5b171",
+          "section_sha256": "6873851acc39773f996610d616744f03c9993e64c1c64503f706b3bbcb4cdb17",
+          "modality": "context",
+          "evidence_refs": [
+            "gov20-src-0002-p0008",
+            "gov20-src-0009-p0006"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0010",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0010.md",
+      "unit_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "unit_file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "receipt_path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "receipt_sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:24b7e4dceea7b1b6",
+          "section_sha256": "4c5ab8c2c9098ce6423be33479cd9ec1744c525596eb2fa0f29829663fe1288e",
+          "modality": "context",
+          "evidence_refs": [
+            "gov20-src-0002-p0008",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:0993df55661c4971",
+          "section_sha256": "dc805a5317cb2f0568284280d5fdca4f986a7ced1a6ea5c81eecb1c3bb13dd31",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "gov20-src-0001-p0011",
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0009",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006",
+            "gov20-src-0009-p0026"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:5ac433f1cc819f95",
+          "section_sha256": "8bbdc0c3d43ec1f75ee02606f1cf14e1131e3dae48826ee8453bbfdca3722c26",
+          "modality": "context",
+          "evidence_refs": [
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0010"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "gov20-src-0009-p0006",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0006.md",
+      "unit_sha256": "ebc07658b042ce7f8cbbb091ff93b0a4730b7b1ef9f4950ea819a0d335b191ca",
+      "unit_file_sha256": "95776257fc0f685861c2727ed5cd892203e152fd4c9f5c48281dc13ddc88f415",
+      "locator": "Page 6",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "receipt_path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "receipt_sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-17T00:00:00+00:00",
+      "visual_review": "REVIEW_REQUIRED",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:24b7e4dceea7b1b6",
+          "section_sha256": "4c5ab8c2c9098ce6423be33479cd9ec1744c525596eb2fa0f29829663fe1288e",
+          "modality": "context",
+          "evidence_refs": [
+            "gov20-src-0002-p0008",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:0993df55661c4971",
+          "section_sha256": "dc805a5317cb2f0568284280d5fdca4f986a7ced1a6ea5c81eecb1c3bb13dd31",
+          "modality": "recommendation",
+          "evidence_refs": [
+            "gov20-src-0001-p0011",
+            "gov20-src-0001-p0017",
+            "gov20-src-0002-p0009",
+            "gov20-src-0002-p0010",
+            "gov20-src-0009-p0006",
+            "gov20-src-0009-p0026"
+          ]
+        },
+        {
+          "note_id": "ai-governance-accountability",
+          "note_sha256": "560e27eb7b4677e985d0a369840637f8ee93ab3bdc2362155469421f64afcdc5",
+          "section_id": "ai-governance-accountability:7c9cacc2a3e5b171",
+          "section_sha256": "6873851acc39773f996610d616744f03c9993e64c1c64503f706b3bbcb4cdb17",
+          "modality": "context",
+          "evidence_refs": [
+            "gov20-src-0002-p0008",
+            "gov20-src-0009-p0006"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": false,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": "VISUAL_REVIEW_REQUIRED"
+    },
+    {
+      "evidence_ref": "be035-src-0018-p0004",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0004.md",
+      "unit_sha256": "bf54803df3da779bcd85bafd4b5f843f7214d442e52e63216bb05c20b54c69f4",
+      "unit_file_sha256": "d1e17475d59dcb337a063dde45f9a61f4ed0b89ec0ae49f05ef711aa873ddee0",
+      "locator": "Page 4",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "benchmark-evidence-035-model-lifecycle",
+      "receipt_path": "state/workshop/evidence-library/benchmark-evidence-035-model-lifecycle.json",
+      "receipt_sha256": "183a4824629fee7a856bf09f5db3879799c2e72f521cc9eec5c5de5130b68c50",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-18T00:00:00Z",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-model-transparency",
+          "note_sha256": "dabc7f58bcfa4bc6bf8d67ecb59c5a1294871ae6051337666d52bb977de80454",
+          "section_id": "ai-model-transparency:bc45001330d0f525",
+          "section_sha256": "70715f0ee634b75428264ac1d8e9aecfeef314a9fa64ca470e029d4e08c976f1",
+          "modality": "context",
+          "evidence_refs": [
+            "be035-src-0009-p0028",
+            "be035-src-0009-p0033",
+            "be035-src-0009-p0034",
+            "be035-src-0009-p0035",
+            "be035-src-0018-p0004",
+            "be035-src-0018-p0006",
+            "be035-src-0018-p0011",
+            "be035-src-0018-p0013",
+            "be035-src-0018-p0024",
+            "be035-src-0018-p0025"
+          ]
+        },
+        {
+          "note_id": "ai-model-transparency",
+          "note_sha256": "dabc7f58bcfa4bc6bf8d67ecb59c5a1294871ae6051337666d52bb977de80454",
+          "section_id": "ai-model-transparency:bdd5826d59d47667",
+          "section_sha256": "21e21aa3c3ab4154fce4e83b423e1307d4f9c15224f8061d81ec9037b3467a0a",
+          "modality": "context",
+          "evidence_refs": [
+            "be035-src-0009-p0028",
+            "be035-src-0018-p0004",
+            "be035-src-0018-p0006",
+            "be035-src-0018-p0007",
+            "be035-src-0018-p0032"
+          ]
+        },
+        {
+          "note_id": "ai-model-transparency",
+          "note_sha256": "dabc7f58bcfa4bc6bf8d67ecb59c5a1294871ae6051337666d52bb977de80454",
+          "section_id": "ai-model-transparency:9594af3f35d5cdb0",
+          "section_sha256": "9d82329074ab61bfb7155c7042a6a32bf23a3d92542ec0f72d2450274851ed8b",
+          "modality": "context",
+          "evidence_refs": [
+            "be035-src-0009-p0035",
+            "be035-src-0018-p0004",
+            "be035-src-0018-p0024"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "be035-src-0018-p0005",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0005.md",
+      "unit_sha256": "34f96fbced761a0e5075a0931a2a9ff5bf9f1e2164303bbf59b25c0573eac477",
+      "unit_file_sha256": "dc89b9ad0ba76e0c16fbc52d3721c9f2a271696f1f5174d54a1b33190c1aa144",
+      "locator": "Page 5",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "benchmark-evidence-035-model-lifecycle",
+      "receipt_path": "state/workshop/evidence-library/benchmark-evidence-035-model-lifecycle.json",
+      "receipt_sha256": "183a4824629fee7a856bf09f5db3879799c2e72f521cc9eec5c5de5130b68c50",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-18T00:00:00Z",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ],
+      "bindings": [
+        {
+          "note_id": "ai-model-transparency",
+          "note_sha256": "dabc7f58bcfa4bc6bf8d67ecb59c5a1294871ae6051337666d52bb977de80454",
+          "section_id": "ai-model-transparency:21c1c403f1fa31d1",
+          "section_sha256": "a86208b99c99c3b4eb5fd9fb525ede9905dde23c80ed941ef9b738978fba3812",
+          "modality": "context",
+          "evidence_refs": [
+            "be035-src-0009-p0033",
+            "be035-src-0009-p0034",
+            "be035-src-0009-p0035",
+            "be035-src-0018-p0005",
+            "be035-src-0018-p0013",
+            "be035-src-0018-p0014",
+            "be035-src-0018-p0015",
+            "be035-src-0018-p0016",
+            "be035-src-0018-p0027",
+            "be035-src-0018-p0049"
+          ]
+        }
+      ],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "be035-src-0018-p0010",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0010.md",
+      "unit_sha256": "538f4c5cdf6ebbecb65c1eb3b369cf4e6c9b0f432c2c07579f6c299d073849d3",
+      "unit_file_sha256": "2e8764c9c988b3f73f90377cf7f5e91eaddf083a33bca6bfa365df801b03a71c",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "benchmark-evidence-035-model-lifecycle",
+      "receipt_path": "state/workshop/evidence-library/benchmark-evidence-035-model-lifecycle.json",
+      "receipt_sha256": "183a4824629fee7a856bf09f5db3879799c2e72f521cc9eec5c5de5130b68c50",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-18T00:00:00Z",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ],
+      "bindings": [],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    },
+    {
+      "evidence_ref": "be035-src-0039-p0019",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0019.md",
+      "unit_sha256": "cd40c4c5370072e0513212997a18907787d6850e4aec8be6956c902460fda651",
+      "unit_file_sha256": "4ae38bae64b04241a9a3e3a2009e18379aa9d0f6056878a9ceed639d9f6788c0",
+      "locator": "Page 19",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "benchmark-evidence-035-model-lifecycle",
+      "receipt_path": "state/workshop/evidence-library/benchmark-evidence-035-model-lifecycle.json",
+      "receipt_sha256": "183a4824629fee7a856bf09f5db3879799c2e72f521cc9eec5c5de5130b68c50",
+      "receipt_review_verdict": "EVIDENCE_READY",
+      "receipt_reviewed_at": "2026-09-18T00:00:00Z",
+      "visual_review": "NONE",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ],
+      "bindings": [],
+      "revalidation": {
+        "source_hash_match": true,
+        "unit_hash_match": true,
+        "unit_file_hash_match": true,
+        "review_verdict_match": true
+      },
+      "eligible_for_lock": true,
+      "scope_boundary": "context_or_recommendation_only; no binding obligation or prohibition",
+      "exclusion_reason": null
+    }
+  ],
+  "counts": {
+    "total": 8,
+    "eligible": 7,
+    "excluded": 1
+  }
+}

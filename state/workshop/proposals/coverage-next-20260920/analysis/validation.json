@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-next-20260920",
+  "status": "PASS",
+  "checks": {
+    "json_parse": true,
+    "p0_count_20": true,
+    "p0_pillars_exact": true,
+    "p1_count_2": true,
+    "p1_navigation_only": true,
+    "all_target_ids_current": true,
+    "no_domain_pack_activation": true,
+    "no_complete_or_approval": true,
+    "no_mutation_scopes": true,
+    "candidate_hash_matches": true
+  },
+  "artifacts": {
+    "json": "state/workshop/proposals/coverage-next-20260920/analysis/coverage-next-20260920.json",
+    "markdown": "state/workshop/proposals/coverage-next-20260920/analysis/coverage-next-20260920.md"
+  },
+  "artifact_sha256": {
+    "coverage-next-20260920.json": "23ab7d9598f6c1dd8bd1a1bdacc1b6d8a1e44f409018c7246975abac173a2c2f",
+    "coverage-next-20260920.md": "745a26497d7b3bc35d1be1b216ecec7a07fa1451fc701dcedba3212e39ce729d"
+  },
+  "notes": "Validation covers only this analysis proposal. It grants no approval and performs no publication."
+}

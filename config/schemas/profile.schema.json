@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gov360.local/schemas/profile.schema.json",
+  "title": "Governance Brain execution profile",
+  "type": "object",
+  "required": ["schema_version", "profile_id", "llm_enabled", "network_policy", "requires_explicit_egress_authorization", "max_light_workers", "max_heavy_workers", "max_llm_workers"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "profile_id": {"enum": ["strict-local", "approved-remote", "no-llm"]},
+    "llm_enabled": {"type": "boolean"},
+    "api_style": {"enum": ["chat_completions", "responses"]},
+    "base_url_env": {"type": "string"},
+    "api_key_env": {"type": "string"},
+    "model_env": {"type": "string"},
+    "vision_model_env": {"type": "string"},
+    "supports_json_schema": {"type": "boolean"},
+    "supports_vision": {"type": "boolean"},
+    "network_policy": {"enum": ["none", "local_only", "approved_remote"]},
+    "allowed_host_types": {"type": "array", "items": {"enum": ["loopback", "private", "allowlist"]}, "uniqueItems": true},
+    "allowed_hosts_env": {"type": "string"},
+    "requires_explicit_egress_authorization": {"type": "boolean"},
+    "egress_authorization_env": {"type": "string"},
+    "max_light_workers": {"type": "integer", "minimum": 1},
+    "max_heavy_workers": {"type": "integer", "minimum": 1},
+    "max_llm_workers": {"type": "integer", "minimum": 0}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"llm_enabled": {"const": true}}},
+      "then": {"required": ["api_style", "base_url_env", "model_env"]}
+    },
+    {
+      "if": {"properties": {"network_policy": {"const": "approved_remote"}}},
+      "then": {
+        "properties": {"requires_explicit_egress_authorization": {"const": true}},
+        "required": ["allowed_hosts_env", "egress_authorization_env"]
+      }
+    }
+  ],
+  "additionalProperties": false
+}
+

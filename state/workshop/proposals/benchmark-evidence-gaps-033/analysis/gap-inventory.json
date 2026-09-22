@@ -1,0 +1,548 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-gaps-033",
+  "generated_at": "2026-09-17",
+  "scope": "Inventory only: no active-vault, ingest, source or benchmark configuration changes.",
+  "inputs": {
+    "benchmark_evaluation_config_sha256": "540b416c6e31e149a95baf26376aac34c0ebb0ab6ca8fdbe8372d23a1bec8270",
+    "catalogue_sha256": "bb39e9ad7c81fbbd88f2a97394b9cf2e14bb6f28fcf8faf484f7756cdbae547c",
+    "benchmark_diagnostic_path": "state/workshop/proposals/benchmark-coverage-032/analysis/benchmark-diagnostic.json",
+    "state_derived_brain_catalogue.json_sha256": "c61a56733f380649831815b011eac9a034d476ca1306dad3d15ff190dc47060d",
+    "state_derived_brain_coverage-matrix.json_sha256": "368c56204f8415aae1c9b821d5112d04bfa1699b6940aec2d84ddcafd28dd67d",
+    "config_brain-evaluation.json_sha256": "540b416c6e31e149a95baf26376aac34c0ebb0ab6ca8fdbe8372d23a1bec8270",
+    "state_workshop_proposals_benchmark-coverage-032_analysis_benchmark-diagnostic.json_sha256": "ac8d8745e9ff4ddee49842b95ddff1f272656886ffc1b218d4762f4352697795"
+  },
+  "benchmark_state": {
+    "scenario_count": 45,
+    "positive_count": 30,
+    "blocked_positive_count": 18,
+    "ready_positive_count": 12,
+    "negative_count": 15,
+    "negative_pass_count": 15,
+    "recall_at_5": 1.0,
+    "accepted": false
+  },
+  "blocked_scenario_ids": [
+    "eval-01-en",
+    "eval-01-fr",
+    "eval-02-en",
+    "eval-02-fr",
+    "eval-06-en",
+    "eval-06-fr",
+    "eval-07-en",
+    "eval-07-fr",
+    "eval-08-en",
+    "eval-08-fr",
+    "eval-09-en",
+    "eval-09-fr",
+    "eval-10-en",
+    "eval-10-fr",
+    "eval-11-en",
+    "eval-11-fr",
+    "eval-13-en",
+    "eval-13-fr"
+  ],
+  "gap_count": 9,
+  "gap_row_count": 18,
+  "gaps": [
+    {
+      "gap_id": "GAP-033-01",
+      "priority": "P0",
+      "scenario_family": "eval-01",
+      "scenario_ids": [
+        "eval-01-en",
+        "eval-01-fr"
+      ],
+      "pillar": "ai-strategy-value",
+      "expected_note_ids": [
+        "core-001-business-purpose"
+      ],
+      "reason": "Expected common-core target has no eligible reviewed evidence binding.",
+      "release": "benchmark-evidence-034-governance-core",
+      "source_ids": [
+        "SRC-0017",
+        "SRC-0039"
+      ],
+      "targets": [
+        {
+          "note_id": "core-001-business-purpose",
+          "path": "brain wiki/questions/core/core-001-business-purpose.md",
+          "type": "question",
+          "section_count": 4,
+          "unresolved_section_count": 4,
+          "publication_verified": true
+        }
+      ]
+    },
+    {
+      "gap_id": "GAP-033-02",
+      "priority": "P0",
+      "scenario_family": "eval-02",
+      "scenario_ids": [
+        "eval-02-en",
+        "eval-02-fr"
+      ],
+      "pillar": "governance-accountability-policy",
+      "expected_note_ids": [
+        "core-002-accountable-owner",
+        "iso-42001"
+      ],
+      "reason": "Both expected targets lack eligible reviewed evidence bindings; ISO preview also requires bounded fidelity review.",
+      "release": "benchmark-evidence-034-governance-core",
+      "source_ids": [
+        "SRC-0006",
+        "SRC-0039"
+      ],
+      "targets": [
+        {
+          "note_id": "core-002-accountable-owner",
+          "path": "brain wiki/questions/core/core-002-accountable-owner.md",
+          "type": "question",
+          "section_count": 4,
+          "unresolved_section_count": 4,
+          "publication_verified": true
+        },
+        {
+          "note_id": "iso-42001",
+          "path": "brain wiki/Norms & Frameworks/iso-42001.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": false
+        }
+      ]
+    },
+    {
+      "gap_id": "GAP-033-03",
+      "priority": "P0",
+      "scenario_family": "eval-06",
+      "scenario_ids": [
+        "eval-06-en",
+        "eval-06-fr"
+      ],
+      "pillar": "model-risk-validation-tev",
+      "expected_note_ids": [
+        "ai-model-validation",
+        "risk-001-model-validation-evidence"
+      ],
+      "reason": "Active knowledge and question sections are unresolved despite validated source material; reviewed records currently bind other notes.",
+      "release": "benchmark-evidence-035-model-lifecycle",
+      "source_ids": [
+        "SRC-0036",
+        "SRC-0038",
+        "SRC-0039"
+      ],
+      "targets": [
+        {
+          "note_id": "ai-model-validation",
+          "path": "brain wiki/AI Risk Mitigations/ai-model-validation.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": false
+        },
+        {
+          "note_id": "risk-001-model-validation-evidence",
+          "path": "brain wiki/questions/risk/risk-001-model-validation-evidence.md",
+          "type": "question",
+          "section_count": 4,
+          "unresolved_section_count": 4,
+          "publication_verified": false
+        }
+      ]
+    },
+    {
+      "gap_id": "GAP-033-04",
+      "priority": "P0",
+      "scenario_family": "eval-07",
+      "scenario_ids": [
+        "eval-07-en",
+        "eval-07-fr"
+      ],
+      "pillar": "ai-security",
+      "expected_note_ids": [
+        "prompt-injection",
+        "risk-005-prompt-injection-threat-model"
+      ],
+      "reason": "Expected prompt-injection knowledge/question sections have no eligible reviewed evidence binding.",
+      "release": "benchmark-evidence-036-security-oversight",
+      "source_ids": [
+        "SRC-0009",
+        "SRC-0026",
+        "SRC-0027"
+      ],
+      "targets": [
+        {
+          "note_id": "prompt-injection",
+          "path": "brain wiki/AI Risks/prompt-injection.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": false
+        },
+        {
+          "note_id": "risk-005-prompt-injection-threat-model",
+          "path": "brain wiki/questions/risk/risk-005-prompt-injection-threat-model.md",
+          "type": "question",
+          "section_count": 4,
+          "unresolved_section_count": 4,
+          "publication_verified": false
+        }
+      ]
+    },
+    {
+      "gap_id": "GAP-033-05",
+      "priority": "P0",
+      "scenario_family": "eval-08",
+      "scenario_ids": [
+        "eval-08-en",
+        "eval-08-fr"
+      ],
+      "pillar": "responsible-ai-human-oversight",
+      "expected_note_ids": [
+        "human-oversight",
+        "risk-008-human-oversight-authority"
+      ],
+      "reason": "Expected oversight knowledge/question sections have no eligible reviewed evidence binding.",
+      "release": "benchmark-evidence-036-security-oversight",
+      "source_ids": [
+        "SRC-0016",
+        "SRC-0027",
+        "SRC-0039"
+      ],
+      "targets": [
+        {
+          "note_id": "human-oversight",
+          "path": "brain wiki/AI Risk Mitigations/human-oversight.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": false
+        },
+        {
+          "note_id": "risk-008-human-oversight-authority",
+          "path": "brain wiki/questions/risk/risk-008-human-oversight-authority.md",
+          "type": "question",
+          "section_count": 4,
+          "unresolved_section_count": 4,
+          "publication_verified": false
+        }
+      ]
+    },
+    {
+      "gap_id": "GAP-033-06",
+      "priority": "P1",
+      "scenario_family": "eval-09",
+      "scenario_ids": [
+        "eval-09-en",
+        "eval-09-fr"
+      ],
+      "pillar": "transparency-explainability-documentation",
+      "expected_note_ids": [
+        "ai-model-documentation",
+        "ai-model-transparency"
+      ],
+      "reason": "Documentation and transparency targets are active but all target sections remain unresolved; Article 50 material requires separate authority handling.",
+      "release": "benchmark-evidence-035-model-lifecycle",
+      "source_ids": [
+        "SRC-0009",
+        "SRC-0018",
+        "SRC-0036",
+        "SRC-0038",
+        "SRC-0039"
+      ],
+      "targets": [
+        {
+          "note_id": "ai-model-documentation",
+          "path": "brain wiki/AI Risk Mitigations/ai-model-documentation.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": false
+        },
+        {
+          "note_id": "ai-model-transparency",
+          "path": "brain wiki/AI Risk Mitigations/ai-model-transparency.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": false
+        }
+      ]
+    },
+    {
+      "gap_id": "GAP-033-07",
+      "priority": "P1",
+      "scenario_family": "eval-10",
+      "scenario_ids": [
+        "eval-10-en",
+        "eval-10-fr"
+      ],
+      "pillar": "third-parties-supply-chain",
+      "expected_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+      ],
+      "reason": "The incident note is publication-verified historically but has no current resolved evidence binding; re-review the exact ATLAS object before assistance eligibility.",
+      "release": "benchmark-evidence-037-traceability-supply-chain",
+      "source_ids": [
+        "SRC-0046"
+      ],
+      "targets": [
+        {
+          "note_id": "atlas-aml-cs0027-organization-confusion-on-hugging-face",
+          "path": "brain wiki/Famous AI incidents/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": true
+        }
+      ]
+    },
+    {
+      "gap_id": "GAP-033-08",
+      "priority": "P0",
+      "scenario_family": "eval-11",
+      "scenario_ids": [
+        "eval-11-en",
+        "eval-11-fr"
+      ],
+      "pillar": "operational-resilience-incidents",
+      "expected_note_ids": [
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ],
+      "reason": "Monitoring knowledge/question sections are unresolved; active status and source references do not establish reviewed eligibility.",
+      "release": "benchmark-evidence-035-model-lifecycle",
+      "source_ids": [
+        "SRC-0036",
+        "SRC-0038",
+        "SRC-0039"
+      ],
+      "targets": [
+        {
+          "note_id": "ai-model-monitoring",
+          "path": "brain wiki/AI Risk Mitigations/ai-model-monitoring.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": false
+        },
+        {
+          "note_id": "risk-003-model-monitoring-response",
+          "path": "brain wiki/questions/risk/risk-003-model-monitoring-response.md",
+          "type": "question",
+          "section_count": 4,
+          "unresolved_section_count": 4,
+          "publication_verified": true
+        }
+      ]
+    },
+    {
+      "gap_id": "GAP-033-09",
+      "priority": "P1",
+      "scenario_family": "eval-13",
+      "scenario_ids": [
+        "eval-13-en",
+        "eval-13-fr"
+      ],
+      "pillar": "audit-assurance",
+      "expected_note_ids": [
+        "traceability"
+      ],
+      "reason": "Traceability note has no current eligible evidence binding; source review must preserve security guidance versus supervisory context.",
+      "release": "benchmark-evidence-037-traceability-supply-chain",
+      "source_ids": [
+        "SRC-0035",
+        "SRC-0036",
+        "SRC-0038"
+      ],
+      "targets": [
+        {
+          "note_id": "traceability",
+          "path": "brain wiki/AI Risk Mitigations/traceability.md",
+          "type": "knowledge",
+          "section_count": 6,
+          "unresolved_section_count": 6,
+          "publication_verified": false
+        }
+      ]
+    }
+  ],
+  "source_inventory": [
+    {
+      "source_id": "SRC-0006",
+      "source_sha256": "3220aeccaea0fd2b95807eaae1ab88ed74cf059f1add022e712ffa4afcbd50f8",
+      "unit_count": 14,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/06_ISO_Standards_not_downloaded/ISO-IEC-42001-2023.pdf"
+      ],
+      "current_reviewed_record_count": 0,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_count": 35,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/10_Responsible_AI/Microsoft Responsible AI Transparency Report.pdf"
+      ],
+      "current_reviewed_record_count": 6,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "unit_count": 134,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/05_EU_AI_Legislation/Guidelines on prohibited AI practices under AI Act.pdf"
+      ],
+      "current_reviewed_record_count": 15,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "unit_count": 13,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/05_EU_AI_Legislation/Guidelines on the definition of AI System under AI Act.pdf"
+      ],
+      "current_reviewed_record_count": 1,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_count": 51,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/05_EU_AI_Legislation/Guidelines on transparency obligations for certain AI systems under Article 50 of AI Act.pdf"
+      ],
+      "current_reviewed_record_count": 0,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_count": 122,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/02_AI_Security_Frameworks/OWASP Top 10 for LLM Applications 2026.pdf"
+      ],
+      "current_reviewed_record_count": 4,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_count": 57,
+      "validation_valid": true,
+      "validation_warnings": [
+        "Page 56: native text is sparse; local OCR or human review is required"
+      ],
+      "relative_source_paths": [
+        "sources/02_AI_Security_Frameworks/OWASP-Top-10-for-Agentic-Applications-2026-12.6-1.pdf"
+      ],
+      "current_reviewed_record_count": 3,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_count": 14,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/03_CoSAI/CoSAI signing-ml-artifacts.pdf"
+      ],
+      "current_reviewed_record_count": 3,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_count": 14,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/07_Model_Risk_Management/SR2602.pdf"
+      ],
+      "current_reviewed_record_count": 7,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_count": 21,
+      "validation_valid": true,
+      "validation_warnings": [
+        "Page 1: one or more image objects could not be inspected",
+        "Page 2: one or more image objects could not be inspected",
+        "Page 3: one or more image objects could not be inspected",
+        "Page 4: one or more image objects could not be inspected",
+        "Page 5: one or more image objects could not be inspected",
+        "Page 6: one or more image objects could not be inspected",
+        "Page 7: one or more image objects could not be inspected",
+        "Page 8: one or more image objects could not be inspected",
+        "Page 9: one or more image objects could not be inspected",
+        "Page 10: one or more image objects could not be inspected",
+        "Page 11: one or more image objects could not be inspected",
+        "Page 12: one or more image objects could not be inspected",
+        "Page 13: one or more image objects could not be inspected",
+        "Page 14: one or more image objects could not be inspected",
+        "Page 15: one or more image objects could not be inspected",
+        "Page 16: one or more image objects could not be inspected",
+        "Page 17: one or more image objects could not be inspected",
+        "Page 18: one or more image objects could not be inspected",
+        "Page 19: one or more image objects could not be inspected",
+        "Page 20: one or more image objects could not be inspected",
+        "Page 21: one or more image objects could not be inspected"
+      ],
+      "relative_source_paths": [
+        "sources/07_Model_Risk_Management/sr1107a1.pdf"
+      ],
+      "current_reviewed_record_count": 3,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_count": 48,
+      "validation_valid": true,
+      "validation_warnings": [],
+      "relative_source_paths": [
+        "sources/08_NIST_AI_Risk/NIST AI RMF 1.0.pdf"
+      ],
+      "current_reviewed_record_count": 7,
+      "note_binding_count_for_gap_targets": 0
+    },
+    {
+      "source_id": "SRC-0046",
+      "source_sha256": "6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c",
+      "unit_count": 3,
+      "validation_valid": true,
+      "validation_warnings": [
+        "key-0003.md exceeds max_markdown_chars because its native unit was not split"
+      ],
+      "relative_source_paths": [
+        "sources/02_AI_Security_Frameworks/stix-atlas-2026.08.json"
+      ],
+      "current_reviewed_record_count": 3,
+      "note_binding_count_for_gap_targets": 0
+    }
+  ],
+  "constraints": [
+    "Do not publish or make a target eligible from retrieval alone.",
+    "Each release must use validated ingest units, locator-level evidence audit, independent review and exact human approval.",
+    "No obligation or legal interpretation may be added without strict-lane review."
+  ]
+}

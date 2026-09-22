@@ -1,0 +1,46 @@
+                      Law & Compliance in AI Security & Data Protection
+
+
+same problems required by EU law. As a result, one should be careful when using
+fairness metrics as a tool to evaluate a system.
+This is not to say that algorithmic fairness studies are of no value from the perspective of
+data protection compliance. To the contrary: some of these metrics capture important
+aspects of the phenomenon, and so they suggest ways to make a system fairer. If one is
+aware of the limitations of the tools, it should be possible to use them in a fruitful way.
+Additionally, the fairness-promoting measures suggested by that body of research might
+be adapted to better suit EU law requirements. Indeed, the studies mentioned above are
+part of a growing literature that suggests how to use metrics that are thought for the
+European context.
+Technical limits of algorithmic fairness
+Beyond legal problems, the pursuit of algorithmic fairness can also be criticized in
+technical grounds. The first, and sometimes most salient, critique is that algorithmic
+fairness might be a problem that is impossible to solve. In an early paper in the field, Jon
+Kleinberg and co-authors (2017) showed that, except in some very narrow cases, it was
+impossible to find a solution that could satisfy at the same time some of the most
+accepted definitions of algorithmic fairness. Given that such metrics are thought to
+describe some aspect of what fairness really means, this result suggests that
+algorithmic fairness cannot be achieved and the best we can hope for is some kind of
+trade-off.
+The existence impossibility result has not stopped research in algorithmic fairness. In
+fact, researchers have devised numerous ways to try and square the circle of
+algorithmic fairness. Some (e.g. Beigang 2023) have proposed modifications to the
+criteria, changing their formulation so that they are no longer incompatible but still
+capture the underlying intuitions about what fairness means. Others have proposed that
+one or more of the alternatives considered by Kleinberg and co-authors must be
+abandoned, potentially in favour of metrics that capture what fairness is truly about. Still,
+what these metrics pursue is the fair treatment of individuals vis-à-vis others, not the fair
+processing of an individual’s personal data, which is what data protection law is
+concerned about.
+Future legal guidance might help data controllers in choosing how to approach this
+problem in practice. Until such guidance comes along—for example, in the form of
+harmonized technical standards that deal with fairness20—providers and deployers of AI
+technologies should be aware that the choice of fairness metrics can be controversial.
+Another problem that is usually raised about algorithmic fairness is its unitary approach.
+That is, algorithmic fairness research often tries to find a single set of conditions that will
+
+
+20 See Session 14.1 of this training module.
+
+
+                                               173
+

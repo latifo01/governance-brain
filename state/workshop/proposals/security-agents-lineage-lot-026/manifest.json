@@ -1,0 +1,29 @@
+{
+  "author_identity": "codex-security-agents-domain-builder",
+  "candidate_sha256": "3ea41af54c5ab075953cc65b348dde8bbe71f93077f09391cab7ffe59d02e21e",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "genai-guardrails"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "AI_SECURITY",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/genai-guardrails.md"
+  ],
+  "proposal_id": "security-agents-lineage-lot-026",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "security-agents-guardrails-lineage"
+  ],
+  "status": "INTEGRATED"
+}

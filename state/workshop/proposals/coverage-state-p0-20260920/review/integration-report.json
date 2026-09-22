@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-state-p0-20260920",
+  "candidate_sha256": "61b7c7e46b1448fe4ce0e0fbebb58b34c3589172f301105304764f07f249b975",
+  "base_sha256": "8638b15c5c904703611fdee5c58b9c3e47d5694e39fda1da55f0953cf6f26d5c",
+  "target_sha256": "1797f31dbbd6e2bfbafdda22cd17b12a236864e5b9ae33ed3cb3376fee423f89",
+  "approved": true,
+  "applied": true,
+  "changed_pillars": [
+    {
+      "id": "ai-strategy-value",
+      "from": "SOURCE_GAP",
+      "to": "APPROVED"
+    },
+    {
+      "id": "data-governance-quality",
+      "from": "SOURCE_GAP",
+      "to": "APPROVED"
+    }
+  ],
+  "active_vault_changed": false,
+  "sources_changed": false,
+  "ingest_changed": false,
+  "derived_matrix_changed": true,
+  "complete_emitted": false,
+  "derived_rebuild": {
+    "command": "uv run --offline --no-sync gov360 brain build",
+    "written": 7,
+    "paths": [
+      "state/derived/brain/catalogue.json",
+      "state/derived/brain/evidence-index.json",
+      "state/derived/brain/coverage-matrix.json",
+      "state/derived/brain/reconciliation.json",
+      "state/derived/brain/baseline.json",
+      "state/derived/brain/report.md",
+      "state/derived/brain/navigation.md"
+    ],
+    "post_build_hashes": {
+      "state/derived/brain/catalogue.json": "a58f06a39b7df7e2f12d3cbd732bab4b8d81b45d32747b0af93e1fa07abde215",
+      "state/derived/brain/evidence-index.json": "6de688df6d3ab5a80cc9bfaa8614bdce36586b7ee321af0c9d175613772f4d28",
+      "state/derived/brain/coverage-matrix.json": "1ae0c8e3ec2bcf2af67024c2abe5b012c607f8fdc41b5eebf3c87e6ee69ab7bb",
+      "state/derived/brain/reconciliation.json": "0767fa94ac2982795d58f40e9027da0c950a0eadbb1b8df054eac7d4b9f6ad0a",
+      "state/derived/brain/baseline.json": "0aaebbb374cf084a69cdaf827c7b1c576ec91aeaf1eabdc9f00011d05802af0e",
+      "state/derived/brain/report.md": "81c9cbe432d2e200be065b64f3c3957b00a7da9bfb9e16a3bc54c940e7ca3abc",
+      "state/derived/brain/navigation.md": "f77e919950eccfb1ade48084fd97ee8b83d96112305892cffca0b48d1017a9db"
+    },
+    "current_after_rebuild": true
+  }
+}

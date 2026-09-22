@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p2",
+  "evidence_lock_sha256": "be87285dc63824c40f0dc995700b3634ef47d6ffdaf929afd46e10a96abf053c",
+  "reviewer_identity": "codex-ai-concepts-p2-evidence-auditor",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CLAIM_LEVEL_AUDIT_COMPLETED",
+      "detail": "Thirteen extracted candidates were audited against ten assigned validated Markdown units."
+    },
+    {
+      "severity": "INFO",
+      "code": "VISUAL_FIDELITY_REVIEWED",
+      "detail": "SRC-0009 pages 10 and 16 were rendered locally with PyMuPDF and their evidence-bearing visual regions were inspected."
+    },
+    {
+      "severity": "INFO",
+      "code": "SECTION_BINDINGS_VERIFIED",
+      "detail": "All fifteen substantive sections across the three future-vault notes have exact note, section and reviewed evidence bindings."
+    },
+    {
+      "severity": "INFO",
+      "code": "NON_BINDING_SCOPE",
+      "detail": "SRC-0009, SRC-0036 and SRC-0039 provide research, supervisory guidance and voluntary framework context only."
+    },
+    {
+      "severity": "WARNING",
+      "code": "CURRENCY_AND_SCOPE_LIMITS",
+      "detail": "The evidence does not establish legal currency, completeness or project-specific applicability."
+    }
+  ]
+}

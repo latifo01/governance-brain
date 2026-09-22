@@ -1,0 +1,25 @@
+{
+  "release_id": "pilot2-consolidation-001",
+  "reviewer_identity": "opencode-release-reviewer-20260916-r3",
+  "reviewed_at": "2026-09-16T16:30:00Z",
+  "lane": "strict",
+  "candidate_sha256": "44c3ef2fb3d98b73fb1edbff9f87098a92d91a384c1486d4d73586bdc613d28c",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "WARNING",
+      "message": "Legal currency dates are unknown for multiple sources (SRC-0011, SRC-0043, SRC-0016, SRC-0017, SRC-0022); validity periods not verified.",
+      "remediation": "Human approver must verify currentness of binding and guidance sources before publication."
+    },
+    {
+      "severity": "WARNING",
+      "message": "Fidelity scope is limited: token agreement does not establish layout fidelity or legal correctness for BINDING/GUIDANCE evidence.",
+      "remediation": "Human approver must validate evidence fidelity against original source documents."
+    },
+    {
+      "severity": "WARNING",
+      "message": "Source classification missing for SRC-0022; binding reference gap and qualifier omitted in FRIA applicability.",
+      "remediation": "Human approver must confirm source classification and complete missing qualifiers."
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "author_identity": "opencode-evidence-auditor-20260916",
+  "bindings": [
+    {
+      "evidence_refs": [
+        "dpia2-src-0010-p0053",
+        "dpia2-src-0022-p0181"
+      ],
+      "modality": "context",
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "876850a8b4cc4bf0c265cc574f6114a6874c8e1cfde40d3694c11fdb6ce8261b",
+      "section_id": "data-protection-impact-assessments-dpia:8325508b20ff2eca",
+      "section_sha256": "9d10e9e252b155fd3d5d52616b5dd628c42497dd12404876fe21397829b8813a"
+    },
+    {
+      "evidence_refs": [
+        "dpia2-src-0010-p0053",
+        "dpia2-src-0022-p0181",
+        "dpia2-src-0022-p0182"
+      ],
+      "modality": "obligation",
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "876850a8b4cc4bf0c265cc574f6114a6874c8e1cfde40d3694c11fdb6ce8261b",
+      "section_id": "data-protection-impact-assessments-dpia:1a3f4fa25d186826",
+      "section_sha256": "66d21d80a71f03c5371200adee934a10a3ae6c51812e479faf1d1b7d6ae1edd1"
+    },
+    {
+      "evidence_refs": [
+        "dpia2-src-0010-p0053",
+        "dpia2-src-0010-p0054",
+        "dpia2-src-0022-p0180",
+        "dpia2-src-0022-p0182",
+        "dpia2-src-0022-p0183"
+      ],
+      "modality": "recommendation",
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "876850a8b4cc4bf0c265cc574f6114a6874c8e1cfde40d3694c11fdb6ce8261b",
+      "section_id": "data-protection-impact-assessments-dpia:46e4734e319ebd7a",
+      "section_sha256": "fddadbec34eac69f9a12b7439d9062969910252aa7bd0730c26a6386ec4f104e"
+    },
+    {
+      "evidence_refs": [
+        "dpia2-src-0010-p0053",
+        "dpia2-src-0010-p0054"
+      ],
+      "modality": "recommendation",
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "876850a8b4cc4bf0c265cc574f6114a6874c8e1cfde40d3694c11fdb6ce8261b",
+      "section_id": "data-protection-impact-assessments-dpia:072c36cb699b8fe3",
+      "section_sha256": "b269556ff51183e10e937b15318a768602d3e420fc27f3617632b5ec0f514e09"
+    },
+    {
+      "evidence_refs": [
+        "dpia2-src-0010-p0053",
+        "dpia2-src-0010-p0054"
+      ],
+      "modality": "obligation",
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "876850a8b4cc4bf0c265cc574f6114a6874c8e1cfde40d3694c11fdb6ce8261b",
+      "section_id": "data-protection-impact-assessments-dpia:c59a3efbe3b0ba4c",
+      "section_sha256": "27f662e46da1d93184851ac9c3f7d00145601da0ef708babb5c5214d23ee89a7"
+    },
+    {
+      "evidence_refs": [
+        "dpia2-src-0010-p0053"
+      ],
+      "modality": "context",
+      "note_id": "data-protection-impact-assessments-dpia",
+      "note_sha256": "876850a8b4cc4bf0c265cc574f6114a6874c8e1cfde40d3694c11fdb6ce8261b",
+      "section_id": "data-protection-impact-assessments-dpia:7bf08b16f63e0801",
+      "section_sha256": "b19441ff9e8cf07db107d5a54e091b8283eebb391271c341fc9d495a5b3d6d99"
+    }
+  ],
+  "evidence": [
+    {
+      "authority": "BINDING",
+      "evidence_ref": "dpia2-src-0010-p0053",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+          "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 53",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "unit_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "dpia2-src-0010-p0054",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+          "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 54",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "unit_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "dpia2-src-0022-p0180",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+          "sha256": "d3c7a429bf2726ee9a7ef2615c28c4027429824e0c869546f7a2066d2e2f4ab9"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 180",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_file_sha256": "081d2a276b0145216436671e0824862b91b68e31da45118af7a12d721c5e0946",
+      "unit_path": "ingest/SRC-0022/units/p0180.md",
+      "unit_sha256": "56801e9a5b34a945ed08b131171eb73ae6c5578f2f344edd548411c1d48ae756",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "dpia2-src-0022-p0181",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+          "sha256": "d3c7a429bf2726ee9a7ef2615c28c4027429824e0c869546f7a2066d2e2f4ab9"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 181",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_file_sha256": "abe4261e2db987c5165f0ec2cbc05236237086e19f5a6ac4b49845a2a3929b86",
+      "unit_path": "ingest/SRC-0022/units/p0181.md",
+      "unit_sha256": "7c6138256ed7853b70e9762339a80eee9af2c45a58b565d0372b3e748adc6cad",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "dpia2-src-0022-p0182",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+          "sha256": "d3c7a429bf2726ee9a7ef2615c28c4027429824e0c869546f7a2066d2e2f4ab9"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 182",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_file_sha256": "d7272507cfc260019e86926fcb5535cd6b1591b1ff9489ab3aed90a058216048",
+      "unit_path": "ingest/SRC-0022/units/p0182.md",
+      "unit_sha256": "85f3319fc5679da2027bf7e7a9b44a54daf37cd88cec77d3b092faac33bf5ac6",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "dpia2-src-0022-p0183",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+          "sha256": "d3c7a429bf2726ee9a7ef2615c28c4027429824e0c869546f7a2066d2e2f4ab9"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 183",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_file_sha256": "38c56f210b3b5ae0fd14426a6f9aca9c919a5122a172906ec87b33df28287840",
+      "unit_path": "ingest/SRC-0022/units/p0183.md",
+      "unit_sha256": "b5832f79403b2780a9b45501fbb1fd3a7e1762c0f663a116795cd194da24b11c",
+      "valid_from": null,
+      "valid_until": null
+    }
+  ],
+  "receipt_id": "gdpr-dpia-republication-001",
+  "review": {
+    "candidate_sha256": "f2d0c9dfae3ab9d32acc236e69700d55ea87b029e9d01e3f58f1ae321e67177b",
+    "findings": [
+      {
+        "code": "EVIDENCE_ITEMS_VERIFIED",
+        "severity": "INFO"
+      },
+      {
+        "code": "BINDING_AUTHORITY_CONSISTENT",
+        "severity": "INFO"
+      },
+      {
+        "code": "SOURCE_CLASSIFICATION_MISSING",
+        "severity": "WARNING"
+      },
+      {
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "severity": "INFO"
+      },
+      {
+        "code": "BINDING_REF_GAP",
+        "severity": "WARNING"
+      },
+      {
+        "code": "QUALIFIER_OMITTED",
+        "severity": "WARNING"
+      },
+      {
+        "code": "FIDELITY_COVERAGE_CONFIRMED",
+        "severity": "INFO"
+      },
+      {
+        "code": "LEGAL_CURRENCY_UNKNOWN",
+        "severity": "WARNING"
+      },
+      {
+        "code": "FIDELITY_SCOPE_LIMITED",
+        "severity": "WARNING"
+      },
+      {
+        "code": "SECTION_COVERAGE_COMPLETE",
+        "severity": "INFO"
+      },
+      {
+        "code": "SOURCE_REF_OUTSIDE_RECEIPT",
+        "severity": "INFO"
+      },
+      {
+        "code": "SOURCE_REF_UNREVIEWED_BACKGROUND",
+        "severity": "INFO"
+      },
+      {
+        "code": "STALE_DERIVED_STATE",
+        "severity": "INFO"
+      },
+      {
+        "code": "BOUNDED_REVIEW_ONLY",
+        "severity": "INFO"
+      }
+    ],
+    "reviewed_at": "2026-09-16T15:12:00Z",
+    "reviewer_identity": "opencode-evidence-auditor-20260916-r2",
+    "verdict": "EVIDENCE_READY"
+  },
+  "schema_version": 1
+}

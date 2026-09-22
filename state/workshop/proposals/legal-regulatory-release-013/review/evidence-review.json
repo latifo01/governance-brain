@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "proposal_id": "legal-regulatory-release-013",
+  "reviewer_identity": "codex-evidence-auditor-legal-regulatory-release-013",
+  "reviewed_at": "2026-09-15T18:00:00+02:00",
+  "evidence_lock_sha256": "0d500eda6670ddcd4b73173527995db504d3c3b6f3486ccb099216e8cf93ad3e",
+  "verdict": "EVIDENCE_READY",
+  "findings": [],
+  "checks": {
+    "evidence_lock": "PASS",
+    "source_authority": "PASS_BINDING_SRC_0010",
+    "source_hash": "PASS",
+    "unit_hashes": "PASS",
+    "locators": "PASS_PAGES_14_16_18_46_63_77",
+    "article_22_support": "PASS",
+    "article_35_boundary": "PASS_EXPLICITLY_OUT_OF_SCOPE"
+  },
+  "basis": "The six locked SRC-0010 evidence candidates are audited and verified. The Article 22 operative rule and safeguards are supported by binding evidence; contextual material is scoped accordingly. The review does not establish the complete Article 35 DPIA obligation, which remains outside this release."
+}

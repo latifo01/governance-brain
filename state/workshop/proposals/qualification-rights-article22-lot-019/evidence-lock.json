@@ -1,0 +1,15 @@
+{
+  "evidence_refs": [
+    "qrights-src-0010-p0016",
+    "qrights-src-0010-p0018",
+    "qrights-src-0010-p0046",
+    "qrights-src-0010-p0063"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/gdpr-article22-governance-001.json",
+      "sha256": "a0362348c62b653345f1802ae6548e1e5fa7b0cf24ad63a93a95e04329d40f20"
+    }
+  ],
+  "schema_version": 2
+}

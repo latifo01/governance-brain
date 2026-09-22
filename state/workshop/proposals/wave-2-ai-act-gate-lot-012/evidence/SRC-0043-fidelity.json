@@ -1,0 +1,356 @@
+{
+  "ingest_document_sha256": "889ed8dfbacd743abd383b790af41f93782a26bb474ffe90527bd29d287b2b49",
+  "method": "local-pypdf-token-multiset-and-sequence-comparison",
+  "pages": [
+    {
+      "ingest_token_coverage": 0.9963,
+      "locator": "Page 1",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9982,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9969,
+      "locator": "Page 2",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9984,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9974,
+      "locator": "Page 3",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9974,
+      "locator": "Page 4",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9987,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.998,
+      "locator": "Page 5",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.999,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9978,
+      "locator": "Page 6",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9989,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9975,
+      "locator": "Page 7",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9971,
+      "locator": "Page 8",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9985,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.997,
+      "locator": "Page 9",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9985,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9976,
+      "locator": "Page 10",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9977,
+      "locator": "Page 11",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9988,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9979,
+      "locator": "Page 12",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.999,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9979,
+      "locator": "Page 13",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9989,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9972,
+      "locator": "Page 14",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9986,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9938,
+      "locator": "Page 15",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9969,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9961,
+      "locator": "Page 16",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9981,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9956,
+      "locator": "Page 17",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9978,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9961,
+      "locator": "Page 18",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.998,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9965,
+      "locator": "Page 19",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9982,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9966,
+      "locator": "Page 20",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9983,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9971,
+      "locator": "Page 21",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9985,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9972,
+      "locator": "Page 22",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9986,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9961,
+      "locator": "Page 23",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9981,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9955,
+      "locator": "Page 24",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9978,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9959,
+      "locator": "Page 25",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9979,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.996,
+      "locator": "Page 26",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.998,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9966,
+      "locator": "Page 27",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9983,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9967,
+      "locator": "Page 28",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9984,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9966,
+      "locator": "Page 29",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9983,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9966,
+      "locator": "Page 30",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9983,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9963,
+      "locator": "Page 31",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9981,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9952,
+      "locator": "Page 32",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9976,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9968,
+      "locator": "Page 33",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9984,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.997,
+      "locator": "Page 34",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9985,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9962,
+      "locator": "Page 35",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9981,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9942,
+      "locator": "Page 36",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9971,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9903,
+      "locator": "Page 37",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9951,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9939,
+      "locator": "Page 38",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.997,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9953,
+      "locator": "Page 39",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9976,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9966,
+      "locator": "Page 40",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9983,
+      "source_id": "SRC-0043"
+    },
+    {
+      "ingest_token_coverage": 0.9767,
+      "locator": "Page 41",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "sequence_ratio": 0.9882,
+      "source_id": "SRC-0043"
+    }
+  ],
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "schema_version": 1,
+  "scope": "all-41-pages",
+  "source_id": "SRC-0043",
+  "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+  "summary": {
+    "matches": 41,
+    "pages_checked": 41,
+    "reviews": 0
+  },
+  "visual_spot_check": {
+    "method": "local-render-at-100-dpi",
+    "notes": "Title/identity page, operative amendments, application dates, Annex I table, and signature page are readable and represented in the corresponding Markdown units; Page 1 REVIEW_REQUIRED is resolved for this lot.",
+    "pages": [
+      1,
+      16,
+      35,
+      36,
+      41
+    ],
+    "result": "MATCH"
+  }
+}

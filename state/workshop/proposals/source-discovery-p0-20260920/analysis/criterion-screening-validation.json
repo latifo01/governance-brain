@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-discovery-p0-20260920",
+  "status": "PASS",
+  "checks": {
+    "screening_json_valid": true,
+    "exactly_20_cells": true,
+    "screened_cells_18": true,
+    "taxonomy_gate_cells_2": true,
+    "selected_units_72": true,
+    "no_evidence_resolved": true,
+    "no_publication": true,
+    "input_inventory_hash_matches": true,
+    "shortlist_hashes_present": true
+  },
+  "artifacts": {
+    "screening": "state/workshop/proposals/source-discovery-p0-20260920/analysis/criterion-screening.json",
+    "markdown": "state/workshop/proposals/source-discovery-p0-20260920/analysis/criterion-screening.md"
+  },
+  "notes": "Screening does not grant evidence review or approval."
+}

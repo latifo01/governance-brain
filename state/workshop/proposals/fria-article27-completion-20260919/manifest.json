@@ -1,0 +1,29 @@
+{
+  "author_identity": "codex-fria-article27-domain-builder",
+  "candidate_sha256": "cc178c35e0b3e634b7f4832719843a3254f8e58c7d079fcd36f46a09ca776f6a",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "fundamental-right-impact-assessment-fria"
+    ]
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "domain": "LEGAL_REGULATORY",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/fundamental-right-impact-assessment-fria.md"
+  ],
+  "proposal_id": "fria-article27-completion-20260919",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "fria-article27"
+  ],
+  "status": "INTEGRATED"
+}

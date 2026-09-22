@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gov360.local/schemas/source-manifest.schema.json",
+  "title": "Governance Brain source manifest entry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "source_id", "source_sha256", "relative_paths",
+    "source_format", "source_kind", "primary_domain", "domains", "status"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "source_id": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
+    "source_sha256": {"$ref": "#/$defs/sha256"},
+    "relative_paths": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^sources/"}
+    },
+    "source_format": {"type": "string", "pattern": "^[a-z0-9][a-z0-9+.-]*$"},
+    "source_kind": {"enum": ["document", "presentation", "dataset", "mixed", "image"]},
+    "primary_domain": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"},
+    "domains": {
+      "type": "array", "minItems": 1, "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"}
+    },
+    "status": {
+      "enum": [
+        "DISCOVERED", "NORMALIZING", "NORMALIZED", "READY_FOR_LLM",
+        "EXTRACTED", "AUDITED", "VERIFIED", "PARTIAL", "QUARANTINED",
+        "FAILED", "RETIRED", "SUPERSEDED"
+      ]
+    },
+    "adapter_id": {"type": ["string", "null"]},
+    "adapter_version": {"type": "string", "minLength": 1},
+    "unit_count": {"type": "integer", "minimum": 0},
+    "legacy_ids": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "supersedes": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
+    "superseded_by": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
+    "discovered_at": {"type": "string", "format": "date-time"},
+    "retired_at": {"type": "string", "format": "date-time"},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "error": {
+      "type": ["object", "null"],
+      "additionalProperties": {"type": "string"}
+    },
+    "normativity": {"enum": ["BINDING", "GUIDANCE", "STANDARD", "FRAMEWORK", "DATASET", "RESEARCH", "UNCLASSIFIED"]}
+  },
+  "$defs": {"sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}}
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-parallel-20260919-source-gap-taxonomy",
+  "status": "PASS",
+  "checks": {
+    "five_candidates": true,
+    "allowed_categories": true,
+    "deferred_activation": true,
+    "evidence_refs_resolve": true,
+    "input_hashes_match": true,
+    "scope_dedicated_path": true
+  },
+  "errors": [],
+  "artifact_hashes": {
+    "audited-evidence-index.json": "ff58c59a55eadda3b3e606b2fc570581a989ac1d25d61e0641d8bb48adea4b05",
+    "source-gap-taxonomy-plan.md": "d95d75fe4ed37e6eeeb802a1909dcc3c2a4cd20e1c03b04b0625de987182de8f",
+    "source-gap-taxonomy-change-set.json": "2ba15a4ffbb1c743961fd40d781d389bf8c192923e5c8a11055be0e7bb129b64"
+  }
+}

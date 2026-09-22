@@ -1,0 +1,832 @@
+{
+  "current_evaluation": {
+    "accepted": false,
+    "complete_suite": true,
+    "negative_count": 15,
+    "negative_pass_count": 15,
+    "positive_count": 30,
+    "readiness": 0.13333333333333333,
+    "ready_positive_count": 4,
+    "recall_at_5": 1.0,
+    "scenario_count": 45,
+    "unavailable_positive_count": 26
+  },
+  "generated_at": "2026-09-17",
+  "inputs": {
+    "catalogue_sha256": "307a8c2c42640e49be6006ec24d7cd3a0a7722b4fc2e87073bb497b2f9ad0212",
+    "coverage_matrix_recorded_catalogue_sha256": "fc39a381d22f9b50322007f31a77f0cb9a76391564b8c8443423573255730dda",
+    "coverage_matrix_sha256": "eca07eb799369d03a1971448d12a365263d7217221489f6b4ff1f23ef65eb401",
+    "evaluation_config_sha256": "0761b0c9f5464b8387da80e8d61728115ab6292ec3a14798f2ec1add1be70bae"
+  },
+  "interpretation": {
+    "budget_signal": "sections_omitted_for_budget is a retrieval diagnostic, not proof that an expected target is evidence-eligible.",
+    "coverage_matrix": "All 150 cells remain UNASSESSED. Candidate notes and source-domain overlap are routing evidence only; no completion status is asserted here.",
+    "readiness_gate": "A positive case is ready only when at least one expected note ID has current reviewed evidence and valid citations; active status or retrieval alone is insufficient.",
+    "stale_ids": "The four stale/missing expected IDs occur in eight positive scenarios (English/French pairs). They are benchmark configuration defects, not justification for placeholder notes."
+  },
+  "positive_gap_code_counts": {
+    "sections_omitted_for_budget": 29
+  },
+  "positive_readiness_root_causes": {
+    "EXPECTED_TARGET_UNRESOLVED_EVIDENCE": 18,
+    "READY_TARGET": 4,
+    "STALE_OR_MISSING_EXPECTED_ID": 8
+  },
+  "predicted_evaluation_after_proposal": {
+    "accepted": false,
+    "complete_suite": true,
+    "negative_count": 15,
+    "negative_pass_count": 15,
+    "note": "Predicted by applying only the proposed expected-ID corrections in memory; no file was changed and unresolved evidence remains unavailable.",
+    "positive_count": 30,
+    "readiness": 0.4,
+    "ready_positive_count": 12,
+    "recall_at_5": 1.0,
+    "scenario_count": 45,
+    "unavailable_positive_count": 18
+  },
+  "predicted_positive_rows": [
+    {
+      "expected_note_ids": [
+        "core-001-business-purpose"
+      ],
+      "hit_at_5": false,
+      "id": "eval-01-en",
+      "ready": false,
+      "returned_note_ids": [
+        "high-risk-ai-system-classification",
+        "risk-011-data-quality-evaluation",
+        "ai-incident-response-resilience",
+        "fundamental-right-impact-assessment-fria",
+        "gdpr-article-22-automated-decision-making"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "core-001-business-purpose"
+      ],
+      "hit_at_5": false,
+      "id": "eval-01-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "high-risk-ai-system-classification",
+        "risk-011-data-quality-evaluation",
+        "ai-incident-response-resilience",
+        "fundamental-right-impact-assessment-fria",
+        "gdpr-article-22-automated-decision-making"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "core-002-accountable-owner",
+        "iso-42001"
+      ],
+      "hit_at_5": false,
+      "id": "eval-02-en",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-governance-accountability",
+        "ai-incident-response-resilience",
+        "gov-001-governance-decision-rights",
+        "aud-002-assurance-finding-closure",
+        "risk-014-mcp-tool-governance"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "core-002-accountable-owner",
+        "iso-42001"
+      ],
+      "hit_at_5": false,
+      "id": "eval-02-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-governance-accountability",
+        "ai-incident-response-resilience",
+        "aud-002-assurance-finding-closure",
+        "gov-007-third-party-ai-assurance",
+        "automatic-decision-making-assessment-adma"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "high-risk-ai-system-classification"
+      ],
+      "hit_at_5": true,
+      "id": "eval-03-en",
+      "ready": true,
+      "returned_note_ids": [
+        "high-risk-ai-system-classification",
+        "data-protection-impact-assessments-dpia",
+        "fundamental-right-impact-assessment-fria",
+        "ai-act-prohibited-practices",
+        "gov-002-lifecycle-change-reassessment"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "high-risk-ai-system-classification"
+      ],
+      "hit_at_5": true,
+      "id": "eval-03-fr",
+      "ready": true,
+      "returned_note_ids": [
+        "high-risk-ai-system-classification",
+        "fundamental-right-impact-assessment-fria",
+        "data-protection-impact-assessments-dpia",
+        "ai-act-prohibited-practices",
+        "gov-002-lifecycle-change-reassessment"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "gdpr-article-22-automated-decision-making"
+      ],
+      "hit_at_5": true,
+      "id": "eval-04-en",
+      "ready": true,
+      "returned_note_ids": [
+        "gdpr",
+        "gdpr-article-22-automated-decision-making",
+        "data-protection-officer-dpo"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "gdpr-article-22-automated-decision-making"
+      ],
+      "hit_at_5": true,
+      "id": "eval-04-fr",
+      "ready": true,
+      "returned_note_ids": [
+        "gdpr",
+        "gdpr-article-22-automated-decision-making",
+        "data-protection-officer-dpo"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "hit_at_5": true,
+      "id": "eval-05-en",
+      "ready": true,
+      "returned_note_ids": [
+        "risk-011-data-quality-evaluation",
+        "ai-data-quality-and-validation",
+        "risk-012-ai-supply-chain-inventory"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "hit_at_5": true,
+      "id": "eval-05-fr",
+      "ready": true,
+      "returned_note_ids": [
+        "risk-011-data-quality-evaluation",
+        "ai-data-quality-and-validation",
+        "risk-012-ai-supply-chain-inventory"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-model-validation",
+        "risk-001-model-validation-evidence"
+      ],
+      "hit_at_5": false,
+      "id": "eval-06-en",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-data-quality-and-validation",
+        "ai-assurance-and-independent-review",
+        "ai-literacy-and-change-management",
+        "risk-011-data-quality-evaluation",
+        "ori-001-ai-incident-response-playbook"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-model-validation",
+        "risk-001-model-validation-evidence"
+      ],
+      "hit_at_5": false,
+      "id": "eval-06-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-data-quality-and-validation",
+        "ai-assurance-and-independent-review",
+        "genai-guardrails",
+        "ai-literacy-and-change-management",
+        "ori-002-recovery-validation-and-lessons-learned"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "prompt-injection",
+        "risk-005-prompt-injection-threat-model"
+      ],
+      "hit_at_5": false,
+      "id": "eval-07-en",
+      "ready": false,
+      "returned_note_ids": [
+        "genai-guardrails",
+        "mcp-and-agent-tool-governance",
+        "ori-002-recovery-validation-and-lessons-learned",
+        "ai-data-quality-and-validation"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "prompt-injection",
+        "risk-005-prompt-injection-threat-model"
+      ],
+      "hit_at_5": false,
+      "id": "eval-07-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "genai-guardrails",
+        "mcp-and-agent-tool-governance",
+        "ai-incident-response-resilience"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "human-oversight",
+        "risk-008-human-oversight-authority"
+      ],
+      "hit_at_5": false,
+      "id": "eval-08-en",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-agent-identity-and-access-control",
+        "data-protection-authority-dpa",
+        "genai-guardrails"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "human-oversight",
+        "risk-008-human-oversight-authority"
+      ],
+      "hit_at_5": false,
+      "id": "eval-08-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "data-protection-authority-dpa",
+        "automatic-decision-making-assessment-adma",
+        "genai-guardrails",
+        "ai-literacy-and-change-management",
+        "ai-governance-accountability"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-model-documentation",
+        "ai-model-transparency"
+      ],
+      "hit_at_5": false,
+      "id": "eval-09-en",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-governance-accountability",
+        "gov-004-governance-documentation-update-triggers",
+        "ai-assurance-and-independent-review",
+        "ai-data-quality-and-validation",
+        "high-risk-ai-system-classification"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-model-documentation",
+        "ai-model-transparency"
+      ],
+      "hit_at_5": false,
+      "id": "eval-09-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-governance-accountability",
+        "gov-004-governance-documentation-update-triggers",
+        "ai-assurance-and-independent-review",
+        "ai-data-quality-and-validation",
+        "high-risk-ai-system-classification"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+      ],
+      "hit_at_5": false,
+      "id": "eval-10-en",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-supply-chain-governance",
+        "data-subject-access-requests",
+        "data-protection-officer-dpo"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+      ],
+      "hit_at_5": false,
+      "id": "eval-10-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-supply-chain-governance",
+        "ori-001-ai-incident-response-playbook",
+        "gov-005-role-specific-ai-literacy"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ],
+      "hit_at_5": false,
+      "id": "eval-11-en",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-incident-response-resilience",
+        "genai-guardrails",
+        "ori-001-ai-incident-response-playbook",
+        "ai-societal-impact-and-stakeholder-engagement",
+        "data-protection-authority-dpa"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ],
+      "hit_at_5": false,
+      "id": "eval-11-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "data-protection-authority-dpa",
+        "ai-governance-accountability",
+        "gov-003-incident-and-abnormal-behaviour-records",
+        "ai-act-prohibited-practices",
+        "genai-guardrails"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "hit_at_5": true,
+      "id": "eval-12-en",
+      "ready": true,
+      "returned_note_ids": [
+        "ai-literacy-and-change-management",
+        "gov-002-lifecycle-change-reassessment",
+        "ai-governance-accountability",
+        "ai-data-quality-and-validation",
+        "ai-incident-response-resilience"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "hit_at_5": true,
+      "id": "eval-12-fr",
+      "ready": true,
+      "returned_note_ids": [
+        "ai-literacy-and-change-management",
+        "ai-governance-accountability"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "traceability"
+      ],
+      "hit_at_5": false,
+      "id": "eval-13-en",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-assurance-and-independent-review",
+        "aud-001-independent-ai-assurance",
+        "gov-007-third-party-ai-assurance",
+        "aud-002-assurance-finding-closure"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "traceability"
+      ],
+      "hit_at_5": false,
+      "id": "eval-13-fr",
+      "ready": false,
+      "returned_note_ids": [
+        "ai-assurance-and-independent-review",
+        "aud-001-independent-ai-assurance",
+        "aud-002-assurance-finding-closure",
+        "gov-007-third-party-ai-assurance"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "hit_at_5": true,
+      "id": "eval-14-en",
+      "ready": true,
+      "returned_note_ids": [
+        "gov-005-role-specific-ai-literacy",
+        "ai-literacy-and-change-management",
+        "ai-governance-accountability",
+        "legitimate-interest",
+        "fundamental-right-impact-assessment-fria"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "hit_at_5": true,
+      "id": "eval-14-fr",
+      "ready": true,
+      "returned_note_ids": [
+        "ai-literacy-and-change-management",
+        "gov-005-role-specific-ai-literacy",
+        "ai-governance-accountability",
+        "ai-assurance-and-independent-review",
+        "ai-incident-response-resilience"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "hit_at_5": true,
+      "id": "eval-15-en",
+      "ready": true,
+      "returned_note_ids": [
+        "gov-006-societal-impact-feedback",
+        "ai-societal-impact-and-stakeholder-engagement",
+        "data-protection-impact-assessments-dpia",
+        "fundamental-right-impact-assessment-fria",
+        "gov-002-lifecycle-change-reassessment"
+      ]
+    },
+    {
+      "expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "hit_at_5": true,
+      "id": "eval-15-fr",
+      "ready": true,
+      "returned_note_ids": [
+        "gov-006-societal-impact-feedback",
+        "data-protection-impact-assessments-dpia",
+        "ai-societal-impact-and-stakeholder-engagement",
+        "fundamental-right-impact-assessment-fria",
+        "gov-002-lifecycle-change-reassessment"
+      ]
+    }
+  ],
+  "proposal_id": "benchmark-coverage-032",
+  "proposed_id_replacements": {
+    "ai-lifecycle-change": [
+      "gov-002-lifecycle-change-reassessment",
+      "ai-literacy-and-change-management"
+    ],
+    "data-governance-quality": [
+      "ai-data-quality-and-validation"
+    ],
+    "people-ai-literacy": [
+      "ai-literacy-and-change-management"
+    ],
+    "sustainability-societal-impact": [
+      "ai-societal-impact-and-stakeholder-engagement"
+    ]
+  },
+  "proposed_scenario_changes": [
+    {
+      "language": "en",
+      "pillar": "data-governance-quality",
+      "previous_expected_note_ids": [
+        "data-governance-quality"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-05-en"
+    },
+    {
+      "language": "fr",
+      "pillar": "data-governance-quality",
+      "previous_expected_note_ids": [
+        "data-governance-quality"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-05-fr"
+    },
+    {
+      "language": "en",
+      "pillar": "lifecycle-engineering-change",
+      "previous_expected_note_ids": [
+        "ai-lifecycle-change"
+      ],
+      "proposed_expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-12-en"
+    },
+    {
+      "language": "fr",
+      "pillar": "lifecycle-engineering-change",
+      "previous_expected_note_ids": [
+        "ai-lifecycle-change"
+      ],
+      "proposed_expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-12-fr"
+    },
+    {
+      "language": "en",
+      "pillar": "people-ai-literacy-change",
+      "previous_expected_note_ids": [
+        "people-ai-literacy"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-14-en"
+    },
+    {
+      "language": "fr",
+      "pillar": "people-ai-literacy-change",
+      "previous_expected_note_ids": [
+        "people-ai-literacy"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-14-fr"
+    },
+    {
+      "language": "en",
+      "pillar": "sustainability-societal-impact",
+      "previous_expected_note_ids": [
+        "sustainability-societal-impact"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-15-en"
+    },
+    {
+      "language": "fr",
+      "pillar": "sustainability-societal-impact",
+      "previous_expected_note_ids": [
+        "sustainability-societal-impact"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-15-fr"
+    }
+  ],
+  "remaining_blocker": "18 positive scenarios still lack an expected target with reviewed eligible evidence after ID correction; evidence review/release work is required.",
+  "schema_version": 1,
+  "scope": "Deterministic benchmark and coverage diagnosis; no active vault or source changes.",
+  "target_inventory": [
+    {
+      "active_note": false,
+      "note_id": "ai-lifecycle-change",
+      "path": null,
+      "publication_verified": null,
+      "reviewed_section_count": 0,
+      "section_count": 0,
+      "type": null,
+      "unresolved_section_count": 0
+    },
+    {
+      "active_note": true,
+      "note_id": "ai-model-documentation",
+      "path": "brain wiki/AI Risk Mitigations/ai-model-documentation.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    },
+    {
+      "active_note": true,
+      "note_id": "ai-model-monitoring",
+      "path": "brain wiki/AI Risk Mitigations/ai-model-monitoring.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    },
+    {
+      "active_note": true,
+      "note_id": "ai-model-transparency",
+      "path": "brain wiki/AI Risk Mitigations/ai-model-transparency.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    },
+    {
+      "active_note": true,
+      "note_id": "ai-model-validation",
+      "path": "brain wiki/AI Risk Mitigations/ai-model-validation.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    },
+    {
+      "active_note": true,
+      "note_id": "atlas-aml-cs0027-organization-confusion-on-hugging-face",
+      "path": "brain wiki/Famous AI incidents/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+      "publication_verified": true,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    },
+    {
+      "active_note": true,
+      "note_id": "core-001-business-purpose",
+      "path": "brain wiki/questions/core/core-001-business-purpose.md",
+      "publication_verified": true,
+      "reviewed_section_count": 0,
+      "section_count": 4,
+      "type": "question",
+      "unresolved_section_count": 4
+    },
+    {
+      "active_note": true,
+      "note_id": "core-002-accountable-owner",
+      "path": "brain wiki/questions/core/core-002-accountable-owner.md",
+      "publication_verified": true,
+      "reviewed_section_count": 0,
+      "section_count": 4,
+      "type": "question",
+      "unresolved_section_count": 4
+    },
+    {
+      "active_note": false,
+      "note_id": "data-governance-quality",
+      "path": null,
+      "publication_verified": null,
+      "reviewed_section_count": 0,
+      "section_count": 0,
+      "type": null,
+      "unresolved_section_count": 0
+    },
+    {
+      "active_note": true,
+      "note_id": "gdpr-article-22-automated-decision-making",
+      "path": "brain wiki/Data & AI Laws/Data Privacy/gdpr-article-22-automated-decision-making.md",
+      "publication_verified": true,
+      "reviewed_section_count": 5,
+      "section_count": 7,
+      "type": "knowledge",
+      "unresolved_section_count": 2
+    },
+    {
+      "active_note": true,
+      "note_id": "high-risk-ai-system-classification",
+      "path": "brain wiki/Data & AI Laws/high-risk-ai-system-classification.md",
+      "publication_verified": true,
+      "reviewed_section_count": 7,
+      "section_count": 9,
+      "type": "knowledge",
+      "unresolved_section_count": 2
+    },
+    {
+      "active_note": true,
+      "note_id": "human-oversight",
+      "path": "brain wiki/AI Risk Mitigations/human-oversight.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    },
+    {
+      "active_note": true,
+      "note_id": "iso-42001",
+      "path": "brain wiki/Norms & Frameworks/iso-42001.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    },
+    {
+      "active_note": false,
+      "note_id": "people-ai-literacy",
+      "path": null,
+      "publication_verified": null,
+      "reviewed_section_count": 0,
+      "section_count": 0,
+      "type": null,
+      "unresolved_section_count": 0
+    },
+    {
+      "active_note": true,
+      "note_id": "prompt-injection",
+      "path": "brain wiki/AI Risks/prompt-injection.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    },
+    {
+      "active_note": true,
+      "note_id": "risk-001-model-validation-evidence",
+      "path": "brain wiki/questions/risk/risk-001-model-validation-evidence.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 4,
+      "type": "question",
+      "unresolved_section_count": 4
+    },
+    {
+      "active_note": true,
+      "note_id": "risk-003-model-monitoring-response",
+      "path": "brain wiki/questions/risk/risk-003-model-monitoring-response.md",
+      "publication_verified": true,
+      "reviewed_section_count": 0,
+      "section_count": 4,
+      "type": "question",
+      "unresolved_section_count": 4
+    },
+    {
+      "active_note": true,
+      "note_id": "risk-005-prompt-injection-threat-model",
+      "path": "brain wiki/questions/risk/risk-005-prompt-injection-threat-model.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 4,
+      "type": "question",
+      "unresolved_section_count": 4
+    },
+    {
+      "active_note": true,
+      "note_id": "risk-008-human-oversight-authority",
+      "path": "brain wiki/questions/risk/risk-008-human-oversight-authority.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 4,
+      "type": "question",
+      "unresolved_section_count": 4
+    },
+    {
+      "active_note": false,
+      "note_id": "sustainability-societal-impact",
+      "path": null,
+      "publication_verified": null,
+      "reviewed_section_count": 0,
+      "section_count": 0,
+      "type": null,
+      "unresolved_section_count": 0
+    },
+    {
+      "active_note": true,
+      "note_id": "traceability",
+      "path": "brain wiki/AI Risk Mitigations/traceability.md",
+      "publication_verified": false,
+      "reviewed_section_count": 0,
+      "section_count": 6,
+      "type": "knowledge",
+      "unresolved_section_count": 6
+    }
+  ],
+  "workstream": "coverage-and-retrieval-evaluation"
+}

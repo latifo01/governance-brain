@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "5c7e83687cc247d715788c6d55e21afd450191e883caededabd606b4e0014b70",
+  "reviewer_identity": "codex-gdpr-lineage-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The v3 evidence lock resolves 56 exact evidence references through two independently reviewed receipts; the current lock hash and receipt file hashes match.",
+      "evidence_lock_sha256": "e75c1d90e265735394e2820debe70abdbcc112e131d2e6a5e923be7e992eec50"
+    },
+    {
+      "severity": "INFO",
+      "code": "STRICT_LANE_CONFIRMED",
+      "detail": "The release is strict because it changes evidence and contains binding claims and legal interpretation; the preview classified no fast-lane path.",
+      "risk_tier": "strict"
+    },
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "The deterministic integration preview is valid for exactly six UPDATE notes, with one file to write and 109 notes after integration.",
+      "candidate_sha256": "5c7e83687cc247d715788c6d55e21afd450191e883caededabd606b4e0014b70",
+      "files": 6,
+      "would_write": 1
+    },
+    {
+      "severity": "INFO",
+      "code": "VAULT_SCOPE_CONFIRMED",
+      "detail": "The candidate changes only the six declared future-vault overlays; it adds no IDs, questions, taxonomy changes, path moves or contract changes, and no active vault or source file was modified.",
+      "changes": {
+        "ADD": 0,
+        "UPDATE": 6,
+        "SUPERSEDE": 0
+      }
+    },
+    {
+      "severity": "WARNING",
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "detail": "Evidence dates and current-law currency remain unknown and must be checked by the human approver before publication.",
+      "status": "OPEN"
+    },
+    {
+      "severity": "WARNING",
+      "code": "VISUAL_REVIEW_PENDING_SRC_0021",
+      "detail": "Two SRC-0021 units remain excluded pending an authorised visual review; the candidate does not rely on them.",
+      "status": "OPEN"
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "The hash-bound approval file remains PENDING. This review prepares the candidate and does not grant knowledge approval or perform integration.",
+      "approval_file": "state/workshop/proposals/gdpr-lineage-republication-001/review/approval.md"
+    }
+  ]
+}

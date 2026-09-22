@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p2",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "ffa730a3de3797bfd82e701161d2c469db0d29aac2fecc56de85cb6dac1c5cf9",
+  "reviewer_identity": "codex-ai-concepts-p2-independent-release-reviewer",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic preview completed with valid=true, would_write=3 and notes_after_integration=148. No active-vault write was applied.",
+      "candidate_sha256": "ffa730a3de3797bfd82e701161d2c469db0d29aac2fecc56de85cb6dac1c5cf9"
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The evidence lock resolves to 13 reviewed evidence records and 15 exact reviewed section bindings.",
+      "evidence_lock_sha256": "be87285dc63824c40f0dc995700b3634ef47d6ffdaf929afd46e10a96abf053c"
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "All 13 records resolve source identifiers, source hashes, validated ingest units, unit hashes, fidelity inputs and stable page locators."
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_AND_LINKS_VALID",
+      "detail": "The three new concept notes pass deterministic validation with registered domains, valid frontmatter, stable paths and semantic links.",
+      "file_count": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "The release uses SRC-0009 research context, SRC-0036 supervisory guidance and SRC-0039 voluntary framework context. No binding legal obligation, prohibition or universal requirement is asserted."
+    },
+    {
+      "severity": "INFO",
+      "code": "ACTIVE_VAULT_UNCHANGED",
+      "detail": "The three candidate paths are absent from the active vault; preview mode did not write the vault, derived artifacts or shared indexes."
+    },
+    {
+      "severity": "INFO",
+      "code": "SOURCE_AND_INGEST_UNCHANGED",
+      "detail": "The review performed no write to sources/ or ingest/; existing untracked directory state is pre-existing workspace state and was not altered."
+    },
+    {
+      "severity": "WARNING",
+      "code": "BOUNDED_SCOPE",
+      "detail": "Evidence readiness does not establish legal currency, completeness or project-specific applicability. Human approval must bind this exact candidate SHA before integration."
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_13_REFERENCES",
+    "shared_receipt": "PASS_13_RECORDS_15_BINDINGS",
+    "evidence_review": "PASS_EVIDENCE_READY",
+    "authority_boundary": "PASS_NO_BINDING_SOURCE_OR_CLAIM",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS",
+    "derived_unchanged": "PASS"
+  }
+}

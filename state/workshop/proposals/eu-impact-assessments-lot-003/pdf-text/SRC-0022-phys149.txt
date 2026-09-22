@@ -1,0 +1,44 @@
+                                    Unit 8. Deployment
+
+
+of sanctions, including “algorithmic disgorgement,” that is, the mandatory deletion of
+models that are not compliant with the law (Li 2022; Hutson & Winters 2024). Such a
+measure has not yet been deployed by data protection enforcers in the EU, and it is
+likely a measure of last resort against reiterated non-compliance.
+Several measures have been proposed as technical and organizational alternatives to
+full-blown model deletion. Some of those are meant to delete data from the weights of
+the entire model, thus allowing its removal after the model has been trained (see, e.g.,
+Bourtoule et al. 2021). Others try to make deletion feasible by changing how the model
+is trained. For example, the CPR technique (Golatkar et al. 2024) allows a model to rely
+not just on its core training data, but also on a private data store that can be instantly
+forgotten.
+Those techniques are still at an early stage of development, and as such they might not
+be mature enough to meet all the legal requirements established in the GDPR (Cooper
+et al. 2024). Still, a data protection professional will need to engage with the software
+developers to understand whether such a technical approach is feasible in the case at
+hand.
+The right to data portability
+Article 20 GDPR equips data subjects with a right to data portability. If the outputs of an
+AI system qualify as personal data, a data subject has the right to request their
+portability. Likewise, the data subject has the right to request portability of personal data
+used as an input for an AI system. In both cases, the connection of the data with the AI
+system does not introduce any additional complications if compared with other kinds of
+portability.
+The same cannot be said about the portability of the weights of an AI system based on
+machine learning. Given that, as discussed above, information is often spread across
+weights, it can be difficult to associate specific weights with a natural person. Even if
+such an identification is possible, the weights within a neural network are specific to that
+network’s architecture. As such, they cannot be simply “plugged into” another network.
+However, that transplantation of rules might be feasible in other kinds of AI systems. For
+example, rules codified into an expert system might be implemented in another system if
+the same variables are available. Therefore, a data protection professional will need to
+consult with the technical team to determine whether the inner workings of the model
+embed personal data in a format that can be ported. Future guidance by data protection
+authorities will bring more clarity in this regard.
+
+Session 8.3. Automated decision-making and AI
+In this session, we will continue the previous discussion on data subject rights by
+focusing on a specific right: the right not to be subject to an automated decision. Under
+
+                                            136
+

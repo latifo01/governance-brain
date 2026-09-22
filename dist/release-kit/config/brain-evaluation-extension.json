@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "purpose": "Additional engineering probes; not an independent statistical sample or replacement for the 45 reference cases",
+  "scenarios": [
+    {"id": "ext-monitoring-fr-paraphrase", "pillar": "operational-resilience-incidents", "kind": "positive", "language": "fr", "query": "Suivi du modèle et réponse aux incidents", "expected_note_ids": ["ai-model-monitoring", "risk-003-model-monitoring-response"]},
+    {"id": "ext-monitoring-fr-order", "pillar": "operational-resilience-incidents", "kind": "positive", "language": "fr", "query": "Réponse surveillance modèle", "expected_note_ids": ["ai-model-monitoring", "risk-003-model-monitoring-response"]},
+    {"id": "ext-monitoring-en", "pillar": "operational-resilience-incidents", "kind": "positive", "language": "en", "query": "Model monitoring response", "expected_note_ids": ["ai-model-monitoring", "risk-003-model-monitoring-response"]},
+    {"id": "ext-monitoring-fr-plural", "pillar": "operational-resilience-incidents", "kind": "positive", "language": "fr", "query": "Surveillance des modèles", "expected_note_ids": ["ai-model-monitoring"]},
+    {"id": "ext-deny-all", "pillar": "access", "kind": "negative", "language": "en", "query": "Monitoring", "filters": {"allowed_source_ids": []}},
+    {"id": "ext-no-domain", "pillar": "access", "kind": "negative", "language": "fr", "query": "Surveillance", "filters": {"domains": []}},
+    {"id": "ext-known-validity", "pillar": "currency", "kind": "negative", "language": "en", "query": "Model monitoring", "filters": {"require_known_validity": true}},
+    {"id": "ext-no-scope", "pillar": "applicability", "kind": "negative", "language": "en", "query": "Monitoring response", "filters": {"jurisdiction": "SYNTHETIC-NONEXISTENT-JURISDICTION"}}
+  ]
+}

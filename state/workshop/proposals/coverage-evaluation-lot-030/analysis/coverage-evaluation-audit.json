@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "workstream": "coverage-and-retrieval-evaluation",
+  "generated_at": "2026-09-17",
+  "coverage": {
+    "cells": 150,
+    "status_counts": {
+      "UNASSESSED": 150
+    },
+    "next_action_counts": {
+      "SEARCH_EXISTING_CORPUS_AND_RECORD_GAP": 20,
+      "REVIEW_CRITERION_EVIDENCE": 130
+    },
+    "catalogue_sha256": "8f20b88d4b0036c2febce6a7dcf9ce095ff8d135863053d7b9fa29ccf7d62d0a"
+  },
+  "evaluation": {
+    "scenario_count": 45,
+    "positive_count": 30,
+    "ready_positive_count": 4,
+    "readiness": 0.13333333333333333,
+    "recall_at_5": 1.0,
+    "negative_count": 15,
+    "negative_pass_count": 15,
+    "accepted": false,
+    "unavailable_positive_count": 26
+  },
+  "findings": [
+    {
+      "code": "POSITIVE_READINESS_LOW",
+      "detail": "26 of 30 positive scenarios remain unavailable; retrieved references often lack eligible reviewed evidence or exceed the section budget."
+    },
+    {
+      "code": "BENCHMARK_TARGET_GAP",
+      "detail": "The data-governance-quality positive scenarios reference data-governance-quality, which is not an active note ID; the integrated ai-data-quality-and-validation note should be evaluated instead."
+    },
+    {
+      "code": "COVERAGE_CELLS_UNASSESSED",
+      "detail": "Coverage cells remain UNASSESSED by design; candidate notes and sources are routing hints, not completion evidence."
+    }
+  ],
+  "recommended_next_actions": [
+    "Create a reviewed benchmark update proposal for expected IDs and queries.",
+    "Assess coverage cells by pillar and criterion with explicit evidence or source-gap decisions.",
+    "Do not mark cells complete from retrieval success alone."
+  ]
+}

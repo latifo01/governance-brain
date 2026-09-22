@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "coverage-criterion-review-u01.schema.json",
+  "title": "Governance Brain criterion reconciliation (proposal)",
+  "type": "object",
+  "required": ["schema_version", "generated_from", "decision_policy", "rows", "summary"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "generated_from": {
+      "type": "object",
+      "required": ["coverage_matrix_catalogue_sha256", "p0_candidate_sha256", "p0_coverage_map_sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "coverage_matrix_catalogue_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "p0_candidate_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "p0_coverage_map_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      }
+    },
+    "decision_policy": {"type": "string"},
+    "rows": {
+      "type": "array",
+      "minItems": 150,
+      "items": {
+        "type": "object",
+        "required": ["cell_id", "pillar_id", "criterion", "prior_status", "recommended_status", "basis", "candidate_note_count", "candidate_question_count", "candidate_source_count", "approval_status"],
+        "additionalProperties": false,
+        "properties": {
+          "cell_id": {"type": "string"},
+          "pillar_id": {"type": "string"},
+          "criterion": {"type": "string"},
+          "prior_status": {"const": "UNASSESSED"},
+          "recommended_status": {"enum": ["EVIDENCE_APPROVED", "NAVIGATION_ONLY", "REVIEW_REQUIRED", "SOURCE_GAP"]},
+          "basis": {"type": "string"},
+          "candidate_note_count": {"type": "integer", "minimum": 0},
+          "candidate_question_count": {"type": "integer", "minimum": 0},
+          "candidate_source_count": {"type": "integer", "minimum": 0},
+          "approval_status": {"enum": ["INHERITED_APPROVAL", "PENDING_REVIEW"]}
+        }
+      }
+    },
+    "summary": {
+      "type": "object",
+      "required": ["cell_count", "recommended_status_counts", "p0_inherited_approval_cells"],
+      "additionalProperties": false,
+      "properties": {
+        "cell_count": {"const": 150},
+        "recommended_status_counts": {"type": "object"},
+        "p0_inherited_approval_cells": {"type": "integer", "const": 18}
+      }
+    }
+  },
+  "additionalProperties": false
+}

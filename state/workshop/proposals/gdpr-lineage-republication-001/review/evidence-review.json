@@ -1,0 +1,39 @@
+{
+  "evidence_lock_sha256": "e75c1d90e265735394e2820debe70abdbcc112e131d2e6a5e923be7e992eec50",
+  "findings": [
+    {
+      "code": "RECEIPTS_VERIFIED",
+      "detail": "Both locked receipts were independently re-audited: 56 evidence items and 34 section bindings resolve with exact unit, lineage, fidelity and note-section hashes; 7 obligation bindings cite only reviewed BINDING SRC-0010 operative units.",
+      "severity": "INFO"
+    },
+    {
+      "code": "COVERAGE_COMPLETE",
+      "detail": "All substantive sections of the six proposed notes carry exactly one reviewed evidence binding; navigation-only and Source References sections remain exempt by contract.",
+      "severity": "INFO"
+    },
+    {
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "detail": "valid_from and valid_until are null on all 56 evidence items; currency against current law, amendments and the pending Digital Omnibus was not verified.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "FIDELITY_SCOPE_LIMITED",
+      "detail": "Fidelity inputs are local pypdf token-coverage comparisons; token agreement establishes file consistency only and does not establish layout fidelity or legal correctness.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "BOUNDED_PRACTICE_LIMITS",
+      "detail": "The data-subject-access-requests Governance Considerations recommendation is bound to the Article 15 core; AI-artifact search-scope and routing remain hedged practice inferences. Navigation summaries retain their receipt-level bounded-support warnings.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "VISUAL_REVIEW_PENDING",
+      "detail": "SRC-0021 units remain excluded from the receipts pending human or approved vision review and are not silently treated as resolved evidence.",
+      "severity": "WARNING"
+    }
+  ],
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "reviewer_identity": "codex-gdpr-lineage-evidence-auditor",
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY"
+}

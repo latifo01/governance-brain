@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "proposal_id": "security-third-party-lot-031",
+  "changes": {
+    "ADD": [
+      "ai-agent-identity-and-access-control",
+      "ai-supply-chain-governance",
+      "gov-007-third-party-ai-assurance",
+      "mcp-and-agent-tool-governance",
+      "risk-012-ai-supply-chain-inventory",
+      "risk-013-agent-identity-and-access",
+      "risk-014-mcp-tool-governance",
+      "third-party-ai-assurance-and-shared-responsibility"
+    ],
+    "UPDATE": [],
+    "SUPERSEDE": [],
+    "NOOP": []
+  },
+  "files": [
+    "AI Risk Mitigations/ai-agent-identity-and-access-control.md",
+    "AI Risk Mitigations/ai-supply-chain-governance.md",
+    "AI Risk Mitigations/mcp-and-agent-tool-governance.md",
+    "AI Risk Mitigations/third-party-ai-assurance-and-shared-responsibility.md",
+    "questions/governance/gov-007-third-party-ai-assurance.md",
+    "questions/risk/risk-012-ai-supply-chain-inventory.md",
+    "questions/risk/risk-013-agent-identity-and-access.md",
+    "questions/risk/risk-014-mcp-tool-governance.md"
+  ]
+}

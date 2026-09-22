@@ -1,0 +1,1219 @@
+{
+  "schema_version": 1,
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "stage": "EVIDENCE_AUDIT",
+  "audit_kind": "CURRENTNESS_RESOLUTION",
+  "status": "AUDITED",
+  "review_date": "2026-09-14",
+  "scope": "The 30 candidates previously marked UNCERTAIN in the SRC-0011 audit; previously rejected and verified candidates are outside this receipt.",
+  "source_id": "SRC-0011",
+  "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+  "amending_source_id": "SRC-0043",
+  "amending_source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+  "sources": [
+    {
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "normativity": "BINDING",
+      "classification_event_id": "CLS-15259D7CE5986ADEA4F8",
+      "role": "base_act"
+    },
+    {
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "normativity": "BINDING",
+      "classification_event_id": "CLS-BDD96D5F37B77E8CD3C4",
+      "role": "amending_act"
+    }
+  ],
+  "input_receipts": {
+    "SRC-0011-audit.json": "404920cbfaa7d7a9968a7c9f2529c313743c699316ee26cd251b5429fc26ca08",
+    "SRC-0011-extraction.json": "20071b0ca091428ef0dd98437f058429f288a80acc63a267429a522f2a878d26",
+    "audits/SRC-0043-audit.json": "661be71e60bdb8a8cfd7cbcdedf160f90edf3563c540c08b1a50c7226a52b570",
+    "extractions/SRC-0043-extraction.json": "515efa6618711f913301567fc1952232f7336b442bc405093fe5b4241aa61021",
+    "local-fidelity-results.json": "03f45eb3f120150a2748053c6e66416dcfe97dbb06fdd5759093776c723ac8ab",
+    "SRC-0043-fidelity.json": "e2286cbb68903e5e04fe947be230f1e5454d6f23991e214fe32d680d7d31dbdc"
+  },
+  "authority_verdict": "BINDING",
+  "authority_basis": "Both exact source hashes are classified BINDING. The SRC-0043 audit confirms that the 2026 amending Regulation is binding and in force; its validated operative amendments are combined only with the cited, fidelity-checked SRC-0011 units. No unrecorded consolidated wording is inferred.",
+  "coverage": {
+    "candidate_ids_assigned": [
+      "S11-P0172-01",
+      "S11-P0172-02",
+      "S11-P0173-03",
+      "S11-P0174-01",
+      "S11-P0174-02",
+      "S11-P0174-03",
+      "S11-P0175-02",
+      "S11-P0176-01",
+      "S11-P0176-02",
+      "S11-P0177-01",
+      "S11-P0177-02",
+      "S11-P0178-02",
+      "S11-P0179-01",
+      "S11-P0180-03",
+      "S11-P0181-02",
+      "S11-P0377-01",
+      "S11-P0379-01",
+      "S11-P0380-01",
+      "S11-P0381-01",
+      "S11-P0382-01",
+      "S11-P0383-01",
+      "S11-P0384-01",
+      "S11-P0384-02",
+      "S11-P0385-01",
+      "S11-P0385-02",
+      "S11-P0386-01",
+      "S11-P0386-02",
+      "S11-P0387-01",
+      "S11-P0388-01",
+      "S11-P0388-02"
+    ],
+    "candidate_ids_audited": [
+      "S11-P0172-01",
+      "S11-P0172-02",
+      "S11-P0173-03",
+      "S11-P0174-01",
+      "S11-P0174-02",
+      "S11-P0174-03",
+      "S11-P0175-02",
+      "S11-P0176-01",
+      "S11-P0176-02",
+      "S11-P0177-01",
+      "S11-P0177-02",
+      "S11-P0178-02",
+      "S11-P0179-01",
+      "S11-P0180-03",
+      "S11-P0181-02",
+      "S11-P0377-01",
+      "S11-P0379-01",
+      "S11-P0380-01",
+      "S11-P0381-01",
+      "S11-P0382-01",
+      "S11-P0383-01",
+      "S11-P0384-01",
+      "S11-P0384-02",
+      "S11-P0385-01",
+      "S11-P0385-02",
+      "S11-P0386-01",
+      "S11-P0386-02",
+      "S11-P0387-01",
+      "S11-P0388-01",
+      "S11-P0388-02"
+    ],
+    "omitted": []
+  },
+  "counts": {
+    "assigned_uncertain": 30,
+    "reaudited": 30,
+    "resolved_verified": 29,
+    "remains_uncertain": 0,
+    "resolved_rejected": 1,
+    "usable_for_binding": 29
+  },
+  "verdicts": [
+    {
+      "candidate_id": "S11-P0172-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 172",
+          "unit_content_sha256": "73c191b9bc3300220569364a9332bc0d1518fa4c256106a892bc15c12838d251",
+          "unit_file_sha256": "b80906c6f9a0dac563ff038b8f4cf5989696232be3c86c95d885a4dcd853f151"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0172-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 172",
+          "unit_content_sha256": "73c191b9bc3300220569364a9332bc0d1518fa4c256106a892bc15c12838d251",
+          "unit_file_sha256": "b80906c6f9a0dac563ff038b8f4cf5989696232be3c86c95d885a4dcd853f151"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0173-03",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 173",
+          "unit_content_sha256": "922c132a25822e7d2b621e7f12e4d8a902922f0394805848d025640be5331a29",
+          "unit_file_sha256": "b4b6419377ca30c871d56b23ab646e6a212b1884d3e58b3954912b5039999f68"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0174-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 174",
+          "unit_content_sha256": "82600f055789be49e0e571c47ac8799805e39252ef890870a1342f0626e0554d",
+          "unit_file_sha256": "202fc4d6c1afc88fb65819ca18ac14e5381fe4c0f0287b51106756aeee15fae7"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0174-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 174",
+          "unit_content_sha256": "82600f055789be49e0e571c47ac8799805e39252ef890870a1342f0626e0554d",
+          "unit_file_sha256": "202fc4d6c1afc88fb65819ca18ac14e5381fe4c0f0287b51106756aeee15fae7"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0174-03",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 174",
+          "unit_content_sha256": "82600f055789be49e0e571c47ac8799805e39252ef890870a1342f0626e0554d",
+          "unit_file_sha256": "202fc4d6c1afc88fb65819ca18ac14e5381fe4c0f0287b51106756aeee15fae7"
+        },
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 175",
+          "unit_content_sha256": "815cce7d68919561d5ff745ccf166193ceffeacf750295f781d5b9fa7008e250",
+          "unit_file_sha256": "e3547ceabd91989d7e65531192a2ae2998b994273d7ca10de90b8b65d1192c0c"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0175-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 175",
+          "unit_content_sha256": "815cce7d68919561d5ff745ccf166193ceffeacf750295f781d5b9fa7008e250",
+          "unit_file_sha256": "e3547ceabd91989d7e65531192a2ae2998b994273d7ca10de90b8b65d1192c0c"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0176-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 176",
+          "unit_content_sha256": "f78444a9ed3ab7054d86294c447f28177b4d87ffd1588b5d436b8e953e41f5e5",
+          "unit_file_sha256": "ff51cfb29c51fbc982fcff4e77ea3b07d87957b2dda818bb57e45c6190672af5"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0176-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 176",
+          "unit_content_sha256": "f78444a9ed3ab7054d86294c447f28177b4d87ffd1588b5d436b8e953e41f5e5",
+          "unit_file_sha256": "ff51cfb29c51fbc982fcff4e77ea3b07d87957b2dda818bb57e45c6190672af5"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0177-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 177",
+          "unit_content_sha256": "b2d9c691a826d3ae4084767f1e174549500d32e3a35357b85946e4ba7953bca4",
+          "unit_file_sha256": "5e4cbe031780ffa337e101383c0384df5fcbd5465e9ef22d586609ef3d101315"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0177-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 177",
+          "unit_content_sha256": "b2d9c691a826d3ae4084767f1e174549500d32e3a35357b85946e4ba7953bca4",
+          "unit_file_sha256": "5e4cbe031780ffa337e101383c0384df5fcbd5465e9ef22d586609ef3d101315"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0178-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 178",
+          "unit_content_sha256": "712c55ec9193638c85d49ad37dd0b11f6a2ee7124467bae73401268a43e0001c",
+          "unit_file_sha256": "2f390e760d29ed5bf9a351aa2f24e5c7a618dc17b7549d061bf7ecc90a4f97d7"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0179-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 179",
+          "unit_content_sha256": "b94ea3f70b6aaa04e3f0102d6254bee879cc2a856da5268104e463221aacb3e6",
+          "unit_file_sha256": "3c3885f6c2f3661e7bc0c5dce2da34d4ff965eaddc13ef9c35f06ec766e4831d"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The pre-existing Article 5 rules are within Chapters I and II, applicable from 2 February 2025; the 2 December 2026 deferral is limited to newly inserted points (ba), (bb), paragraph 1a and paragraph 1b."
+      },
+      "finding": "The base unit supports the unchanged Article 5 rule. The amending act adds distinct points and conditions without replacing this rule, and its amended Article 113 confirms that the pre-existing Article 5 provisions were already applicable on the review date."
+    },
+    {
+      "candidate_id": "S11-P0180-03",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "CROSS_PAGE_LINEAGE_COMPLETED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 180",
+          "unit_content_sha256": "2dfb4a92eadd1e7b2ef713b2b05b6036eac1a250c8eecd0eaf26afefbac0ecba",
+          "unit_file_sha256": "3e9e4153e61ad82132678ce792d32066400ab76c3f52a6e889284bf4c980477b"
+        },
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 181",
+          "unit_content_sha256": "5cb4bfc3f4aaa27a4cb7ef16598a84c89dbda6e9ef7166d88ad4dca3cc20143a",
+          "unit_file_sha256": "8bd5a208a66e8dfd0a00f0b63ee2d3a8265ef91d82dcb4edae00f3be542b23d8"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any obligation or high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base units support the complete Article 6 rule, including the cross-page profiling override where applicable. The amending act inserts paragraphs 1a to 1c without replacing the audited paragraph and supplies the future application date."
+    },
+    {
+      "candidate_id": "S11-P0181-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "UNCHANGED_BY_AMENDING_ACT_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 181",
+          "unit_content_sha256": "5cb4bfc3f4aaa27a4cb7ef16598a84c89dbda6e9ef7166d88ad4dca3cc20143a",
+          "unit_file_sha256": "8bd5a208a66e8dfd0a00f0b63ee2d3a8265ef91d82dcb4edae00f3be542b23d8"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 18",
+          "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+          "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any obligation or high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base units support the complete Article 6 rule, including the cross-page profiling override where applicable. The amending act inserts paragraphs 1a to 1c without replacing the audited paragraph and supplies the future application date."
+    },
+    {
+      "candidate_id": "S11-P0377-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_REJECTED",
+      "reason_code": "SUPERSEDED_BY_AMENDING_ACT",
+      "usable_for_binding": false,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 377",
+          "unit_content_sha256": "a554657ceb93a55dfcf8d0af339a2e61b220db6dc91eba1f9b9691781e19ba2f",
+          "unit_file_sha256": "058b9207fe3414e1ff6dcbf4b85c8c9e64ec3590526871954f8ea44890cb5fff"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2028-08-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 August 2028 for Article 6(1) and Annex I systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The currentness issue is resolved adversely: the amending act deletes Annex I Section A point 1 and adds Regulation (EU) 2023/1230 on machinery to Section B. The candidate's statement that Section A currently begins with the listed machinery entry is therefore superseded."
+    },
+    {
+      "candidate_id": "S11-P0379-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 379",
+          "unit_content_sha256": "2a75be9458e02eb5a1890f95c438c62b4a82cb05bea4ca50a1081b3bb0bb596f",
+          "unit_file_sha256": "b794d014856f471515dc6c1e7614ae2676b4464c6de993523253bcd5ddf90c67"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2028-08-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 August 2028 for Article 6(1) and Annex I systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The cited Annex I entry remains supported after applying the express 2026 Annex I amendment; the amendment affects Section A point 1 and adds Section B point 21, without replacing this candidate's entry. The future Article 6(1) application date must be retained."
+    },
+    {
+      "candidate_id": "S11-P0380-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 380",
+          "unit_content_sha256": "cb0c46115a711ed03237a06b7f8b10bdcd62ac0e2759953cb17793873d6d6ce1",
+          "unit_file_sha256": "8dab17972a50c1b55ff8fdcef37f1d6e3e849230181775e3c9ba0aca79af9841"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2028-08-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 August 2028 for Article 6(1) and Annex I systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The cited Annex I entry remains supported after applying the express 2026 Annex I amendment; the amendment affects Section A point 1 and adds Section B point 21, without replacing this candidate's entry. The future Article 6(1) application date must be retained."
+    },
+    {
+      "candidate_id": "S11-P0381-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 381",
+          "unit_content_sha256": "90fb9a2fdad9c7c5891676992f9a4f939b00829dfad008e69d0a8e86f05ea85a",
+          "unit_file_sha256": "dfa56f453790eb9894da6bebf4a24ee15ce3abd4b3b8d495900b21037af344e5"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2028-08-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 August 2028 for Article 6(1) and Annex I systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The cited Annex I entry remains supported after applying the express 2026 Annex I amendment; the amendment affects Section A point 1 and adds Section B point 21, without replacing this candidate's entry. The future Article 6(1) application date must be retained."
+    },
+    {
+      "candidate_id": "S11-P0382-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 382",
+          "unit_content_sha256": "16cfef1053120a4c3ecd83866d0a1597a68c712b155ec6464e2cf8fec5717119",
+          "unit_file_sha256": "1b929dc9c0fe7e7263fc1331be560623ec155e9be7f6529d9ea2ce6af5065564"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The Annex II list supports the pre-existing Article 5(1)(h) exception; the amending act's Article 5 changes and Annex amendments do not replace Annex II, while the pre-existing Article 5 provisions are already applicable."
+      },
+      "finding": "The base Annex II entry remains supported. The 2026 act changes Article 5 only by inserting distinct provisions and enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this Annex II entry unchanged."
+    },
+    {
+      "candidate_id": "S11-P0383-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_AND_EFFECTIVE",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 383",
+          "unit_content_sha256": "a53300fed81f04bcf6d7f245465ec753098a1daf2876b58601b488a26950d2a5",
+          "unit_file_sha256": "1cf23f328cd8ce02f03559a264dad0a9fe4f7011bfd397440c095a02d2e55906"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "APPLICABLE",
+        "basis": "The Annex II list supports the pre-existing Article 5(1)(h) exception; the amending act's Article 5 changes and Annex amendments do not replace Annex II, while the pre-existing Article 5 provisions are already applicable."
+      },
+      "finding": "The base Annex II entry remains supported. The 2026 act changes Article 5 only by inserting distinct provisions and enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this Annex II entry unchanged."
+    },
+    {
+      "candidate_id": "S11-P0384-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 384",
+          "unit_content_sha256": "2002754bef1e8362a7a535d8b5d22b33f2ae7f952097d26935ef91c0d614a712",
+          "unit_file_sha256": "868915f5b725066e07d3cc7ec4991f49616c778eb27e5eb8b6baeaa6ab0eef86"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    },
+    {
+      "candidate_id": "S11-P0384-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 384",
+          "unit_content_sha256": "2002754bef1e8362a7a535d8b5d22b33f2ae7f952097d26935ef91c0d614a712",
+          "unit_file_sha256": "868915f5b725066e07d3cc7ec4991f49616c778eb27e5eb8b6baeaa6ab0eef86"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    },
+    {
+      "candidate_id": "S11-P0385-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 385",
+          "unit_content_sha256": "341e65744e127a2c34ba2c9f723dee338916e9585ffcfe0b4a9c5fa5e8be0198",
+          "unit_file_sha256": "1db693db6a61960f935297d7de32f99076ff75b4abf382582fafa2f9f8393d5d"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    },
+    {
+      "candidate_id": "S11-P0385-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 385",
+          "unit_content_sha256": "341e65744e127a2c34ba2c9f723dee338916e9585ffcfe0b4a9c5fa5e8be0198",
+          "unit_file_sha256": "1db693db6a61960f935297d7de32f99076ff75b4abf382582fafa2f9f8393d5d"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    },
+    {
+      "candidate_id": "S11-P0386-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 386",
+          "unit_content_sha256": "39e0d6604563bb782fc291eab7a28a0dcfba8bdf7aedd8e38ccf3b56c7cb8e6f",
+          "unit_file_sha256": "5407bd828cddc503d7eea8e3028ef2e123b4647c8b19c9a56f6ca91005711b8d"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    },
+    {
+      "candidate_id": "S11-P0386-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 386",
+          "unit_content_sha256": "39e0d6604563bb782fc291eab7a28a0dcfba8bdf7aedd8e38ccf3b56c7cb8e6f",
+          "unit_file_sha256": "5407bd828cddc503d7eea8e3028ef2e123b4647c8b19c9a56f6ca91005711b8d"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    },
+    {
+      "candidate_id": "S11-P0387-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 387",
+          "unit_content_sha256": "33907982e3f479ca4efdc03c60512958eba35f14f0706d1e79785f5a93305a71",
+          "unit_file_sha256": "5259f0db44a648402e6ddad2a7001d7cb39d06c8a2a04a4b676e2fead7353402"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    },
+    {
+      "candidate_id": "S11-P0388-01",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 388",
+          "unit_content_sha256": "25bd13f3d55aa2094c7dd8aa501865cf897150a774058980655bf329973bb40b",
+          "unit_file_sha256": "966cfdfec6b1fb08230ecc376383760bda423fff634157d5fb96325af864c118"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    },
+    {
+      "candidate_id": "S11-P0388-02",
+      "original_status": "UNCERTAIN",
+      "status": "RESOLVED_VERIFIED",
+      "reason_code": "ANNEX_ENTRY_UNCHANGED_WITH_FUTURE_APPLICATION",
+      "usable_for_binding": true,
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 388",
+          "unit_content_sha256": "25bd13f3d55aa2094c7dd8aa501865cf897150a774058980655bf329973bb40b",
+          "unit_file_sha256": "966cfdfec6b1fb08230ecc376383760bda423fff634157d5fb96325af864c118"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        },
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 36",
+          "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+          "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533"
+        }
+      ],
+      "temporal_effect": {
+        "as_of": "2026-09-14",
+        "application": "FUTURE",
+        "applies_from": "2027-12-02",
+        "basis": "Chapter III Sections 1, 2 and 3 apply from 2 December 2027 for Article 6(2) and Annex III systems, except Article 6(5).",
+        "binding_use_condition": "Any high-risk classification claim must retain this future application date."
+      },
+      "finding": "The base Annex III entry remains supported. The amending act enumerates Annex changes to Annex I, Annex VIII and a new Annex XIV, leaving this entry unchanged, and supplies the future Article 6(2)/Annex III application date."
+    }
+  ],
+  "critical_issues": [
+    "S11-P0377-01 is superseded because Regulation (EU) 2026/1744 moves the machinery entry from Annex I Section A to Section B.",
+    "As of 2026-09-14, the new Article 5(1)(ba) and (bb) prohibitions and Article 5(1a) and (1b) conditions do not apply until 2026-12-02; none of the reaudited pre-existing Article 5 candidates may be used to imply otherwise.",
+    "Article 6(2)/Annex III provisions in this receipt have a 2027-12-02 application date, and Article 6(1)/Annex I provisions have a 2028-08-02 application date, except Article 6(5) as stated by the amending act."
+  ],
+  "unresolved_items": [],
+  "warnings": [
+    "AMENDING_ACT_COMBINED_WITH_BASE_UNITS_NOT_A_CONSOLIDATED_REPRODUCTION",
+    "FUTURE_APPLICATION_DATES_MUST_BE_PRESERVED",
+    "ONE_BASE_CANDIDATE_SUPERSEDED"
+  ]
+}

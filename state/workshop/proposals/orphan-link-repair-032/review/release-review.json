@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "9151e976c37c2d854e41484468d2adc003f685786ead0d8686506cac7ea0ba1c",
+  "reviewer_identity": "codex-orphan-link-repair-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "LINK_TARGET_EXISTS",
+      "detail": "The proposed link resolves to the existing active knowledge note ai-literacy-and-change-management."
+    },
+    {
+      "severity": "INFO",
+      "code": "SEMANTIC_PLACEMENT",
+      "detail": "The link is placed once under the Internal Regulation index Governance section, matching the note domains GOVERNANCE_ACCOUNTABILITY, HUMAN_OVERSIGHT_RESPONSIBLE_AI and PROCESS."
+    },
+    {
+      "severity": "INFO",
+      "code": "SCOPE_CONFIRMED",
+      "detail": "The proposal updates only indexes/internal-regulation-index.md; no knowledge content, source, evidence or contract changes are introduced."
+    },
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic integration preview is valid for one UPDATE index file and one write; active vault remains unchanged."
+    },
+    {
+      "severity": "INFO",
+      "code": "APPROVAL_REQUIRED",
+      "detail": "Human hash-bound approval remains required before deterministic integration."
+    }
+  ]
+}

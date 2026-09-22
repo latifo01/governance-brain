@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "proposal_id": "provenance-repair-20260920",
+  "status": "BOUNDED_LOT_SELECTED",
+  "basis": "orphan-provenance-review-20260919 audit",
+  "source_audit": "state/workshop/proposals/orphan-provenance-review-20260919/analysis/provenance-warning-audit.json",
+  "selected_notes": [
+    "ai-model-backtesting",
+    "ai-model-fairness-and-bias-avoidance",
+    "red-teaming",
+    "data-leakage",
+    "hallucinations",
+    "toxic-or-biased-outputs",
+    "ai-impact-assessment-aiia",
+    "aiuc-1",
+    "iso-23894",
+    "iso-27001",
+    "iso-31000",
+    "mitre-atlas",
+    "nist-ai-rmf",
+    "cjeu",
+    "cosai",
+    "edpb",
+    "edps",
+    "european-ai-office-eaio",
+    "risk-004-model-documentation-completeness",
+    "risk-006-guardrail-placement",
+    "risk-007-red-team-remediation",
+    "risk-009-misinformation-overreliance",
+    "risk-010-sensitive-data-disclosure-surfaces"
+  ],
+  "selected_note_count": 23,
+  "selected_unique_evidence_refs": 118,
+  "bounds": {
+    "max_notes": 30,
+    "max_evidence_refs": 120,
+    "within_bounds": true
+  },
+  "excluded_information_missing": [
+    "mit-ai-risk-initiative"
+  ],
+  "excluded_historical_preserve": [
+    "digital-omnibus",
+    "sr-11-7",
+    "2022-air-canada-chatbot",
+    "2023-chevrolet-of-watsonville"
+  ],
+  "active_vault_written": false,
+  "sources_written": false,
+  "ingest_written": false
+}

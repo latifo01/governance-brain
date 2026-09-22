@@ -1,0 +1,1497 @@
+{
+  "files": [
+    {
+      "path": "concepts/2022-air-canada-chatbot.md",
+      "sha256": "37a1cebbc6d7975b6b3530d28be458ee534054cfc8935d24bcd4777c68b73e30",
+      "size": 2941
+    },
+    {
+      "path": "concepts/2023-chevrolet-of-watsonville.md",
+      "sha256": "35f05123cb95d54c2fe1cff0ccb136bfe3271068fa26c7639f9a102f38c2b81e",
+      "size": 2601
+    },
+    {
+      "path": "concepts/adversarial-machine-learning.md",
+      "sha256": "70d34ecac28cfbf98de4edff8f41f00214fd8707003f8df19999b85a0506725d",
+      "size": 5803
+    },
+    {
+      "path": "concepts/agentic-ai.md",
+      "sha256": "c32fb0f6a3b230cdda860c5239f2ff5be58d37710f4b872e6625ed6dcf2e0ab8",
+      "size": 6969
+    },
+    {
+      "path": "concepts/ai-act-index.md",
+      "sha256": "537f8241ff2e3679b4a97a56c278c5f015da4833eabfa37fb42049b67039af1a",
+      "size": 1436
+    },
+    {
+      "path": "concepts/ai-act-prohibited-practices.md",
+      "sha256": "5a36158f19330a9f49f817f8fe580928699e5fe8aece595319d2ca8078ed8e55",
+      "size": 30062
+    },
+    {
+      "path": "concepts/ai-agent-authority-expansion-controls.md",
+      "sha256": "6d947da30ba0ffb54da604d31f28d66e0f17992e98f21aec0119f8962315da89",
+      "size": 1803
+    },
+    {
+      "path": "concepts/ai-agent-identity-and-access-control.md",
+      "sha256": "0f17c95accb23185ab6a4c70cc07c259b70c8764157ee2bd5474bc3834c0f3b0",
+      "size": 23838
+    },
+    {
+      "path": "concepts/ai-agent-scope-drift-detection.md",
+      "sha256": "067d251ccebd1a8e6d25a830a5a6296f43cf6f8ae201a4172582797721706569",
+      "size": 1760
+    },
+    {
+      "path": "concepts/ai-assurance-and-independent-review.md",
+      "sha256": "15ec099ff54af5804aecb747cb479e0698e54bf13faf0fbb6edcab8204e81198",
+      "size": 9121
+    },
+    {
+      "path": "concepts/ai-board.md",
+      "sha256": "59323ca06bd32140179c9eac43a5f18db36d7b83457ea151f8e12e243237b6d8",
+      "size": 4633
+    },
+    {
+      "path": "concepts/ai-conformity-assessment.md",
+      "sha256": "826b682602f6038cf3f31ab2646ea6118c29c4c5aa36014dff7ce2fe47847452",
+      "size": 5909
+    },
+    {
+      "path": "concepts/ai-data-quality-and-validation.md",
+      "sha256": "36c7e7e881fea5a3275f19c1a3b6dd687d7c0b77db37609deaf341546a0c6aed",
+      "size": 17325
+    },
+    {
+      "path": "concepts/ai-evaluation-and-tevv.md",
+      "sha256": "966101ff6a2b38b0b8411a20309410d0eec3c307b95f7f2383b9a7f4e4814309",
+      "size": 7661
+    },
+    {
+      "path": "concepts/ai-governance-accountability.md",
+      "sha256": "a0eebb65d86d1332240c9e7673201abadc108bb9eded8861b6f0f5e2fc12c194",
+      "size": 12355
+    },
+    {
+      "path": "concepts/ai-impact-assessment-aiia.md",
+      "sha256": "5c7aad1578c1183104d9c7cf6f884463e2366fb0b93d9d049cb81e5dcc71ecc1",
+      "size": 9676
+    },
+    {
+      "path": "concepts/ai-incident-response-resilience.md",
+      "sha256": "be546a60fd209744d4929dc151f440d17f95e7adc126a79481463abbf9bb2975",
+      "size": 16707
+    },
+    {
+      "path": "concepts/ai-lifecycle-change-gates.md",
+      "sha256": "394159c68d4660cf7afd6431c5c8a4482284c25fc03c6bbe69ed987eb41a881a",
+      "size": 5299
+    },
+    {
+      "path": "concepts/ai-lifecycle.md",
+      "sha256": "5da6200944e9b469a38a570dc14bf6eb2d54363d22d63897768c21481115cf5b",
+      "size": 6907
+    },
+    {
+      "path": "concepts/ai-literacy-and-change-management.md",
+      "sha256": "74e6133653711b3b05b3ababe0749ff64521c5355e097c9b00e6aa3f3596ee22",
+      "size": 7419
+    },
+    {
+      "path": "concepts/ai-model-backtesting.md",
+      "sha256": "6094eb68fbe30189d448e25891be8b09d1b0ce3a2f0b8ced70279cd6932eb8e1",
+      "size": 13628
+    },
+    {
+      "path": "concepts/ai-model-documentation.md",
+      "sha256": "55970d4dc3194664f249173231392dadb3be2f3e0e15e837affeacd1b0b54319",
+      "size": 15639
+    },
+    {
+      "path": "concepts/ai-model-fairness-and-bias-avoidance.md",
+      "sha256": "0747b718beb3edd8c903b18d0e9f86c929abc8d4c8c7c92b59a28d1f0c677d56",
+      "size": 5802
+    },
+    {
+      "path": "concepts/ai-model-monitoring.md",
+      "sha256": "dffba3c8e57dda6ca2002be9b2000dab899a308cd1d1049a61346cbc38260223",
+      "size": 14907
+    },
+    {
+      "path": "concepts/ai-model-transparency.md",
+      "sha256": "ca336dc317921155412961d0c7946c4a3f8ac364d76b361c97e5a407ecc01a8d",
+      "size": 17893
+    },
+    {
+      "path": "concepts/ai-model-validation.md",
+      "sha256": "3a12e5fd734b99b1e5cf83a926e759609974ed643e45ec01421d4f4529cc6226",
+      "size": 19954
+    },
+    {
+      "path": "concepts/ai-robustness-and-reliability.md",
+      "sha256": "00ad7603afa14b4c691f8a2bff9aa6ec5844c7815d839c23f93b9bc4e3379435",
+      "size": 5869
+    },
+    {
+      "path": "concepts/ai-societal-impact-and-stakeholder-engagement.md",
+      "sha256": "ba9d5f03422758c73269d7fafe966429fe51338ea526b088b5cc8c2d2c294b94",
+      "size": 8947
+    },
+    {
+      "path": "concepts/ai-strategy-value-definition-scope-terminology.md",
+      "sha256": "9eb9af7e2a62838522ff7e7c74438cd9f1fd18802195b1899454a7e6a4dccf89",
+      "size": 4242
+    },
+    {
+      "path": "concepts/ai-strategy-value-evidence-artifacts.md",
+      "sha256": "c982c6cf5659f4e67160b29705940ebcecbb9a29ca5ab58c11bacfea9507f844",
+      "size": 4929
+    },
+    {
+      "path": "concepts/ai-strategy-value-exceptions-conflicts.md",
+      "sha256": "7e72a69285e9fc9fcb1025d7ec742f80b450fdf002f2a43ba2336ecb26552092",
+      "size": 3288
+    },
+    {
+      "path": "concepts/ai-strategy-value-index.md",
+      "sha256": "5f22fb45fbc7f38dfa1d7291b7718f879e25486657f6d33e05dff79d60bd631d",
+      "size": 1592
+    },
+    {
+      "path": "concepts/ai-strategy-value-lifecycle-controls.md",
+      "sha256": "1c32cad50911b0e589d1b9d60ac0cc94942a8fcbe50af3f423af0571d2430f67",
+      "size": 4996
+    },
+    {
+      "path": "concepts/ai-strategy-value-metrics-monitoring-incidents.md",
+      "sha256": "8809f3a312e4dd5f350c431ebf4dae9d2fdb1f2a404baa593c2e427ca3a63c7f",
+      "size": 5986
+    },
+    {
+      "path": "concepts/ai-strategy-value-questionnaire-coverage.md",
+      "sha256": "72fd6526a07b335c8d58efd9e1f3d2504abce5de05c21af74c275aff317025fa",
+      "size": 6805
+    },
+    {
+      "path": "concepts/ai-strategy-value-risks-impacts.md",
+      "sha256": "f3e4f7459f20cde5e4520da19d9d2d1bf8ad09801d9d03fb614c1840a7684237",
+      "size": 5167
+    },
+    {
+      "path": "concepts/ai-strategy-value-roles-decisions.md",
+      "sha256": "9aab2263cff527fd9bb1fe448aa77b6987e7a2a6c1f39ce46c0ea2f4366b32fd",
+      "size": 4932
+    },
+    {
+      "path": "concepts/ai-strategy-value-source-provenance.md",
+      "sha256": "4e3179a4210a646306184b58ec8b710122d2c91b8d2e58a17706986918600d54",
+      "size": 5774
+    },
+    {
+      "path": "concepts/ai-supply-chain-governance.md",
+      "sha256": "25d4157a6d8f9b97a908c8c1ac823821631bc4657cd31c40036ff4b227148db6",
+      "size": 29230
+    },
+    {
+      "path": "concepts/ai-sustainability-impact-baseline.md",
+      "sha256": "b09b372554842c9deeff61bd588467a0f4f75a5044a12b97690896e4698be54c",
+      "size": 5358
+    },
+    {
+      "path": "concepts/ai-system.md",
+      "sha256": "a1ee32f8e4e4215ade26c26e0c129818da54e2cc2e30749c51f24e9908315a51",
+      "size": 6090
+    },
+    {
+      "path": "concepts/aiuc-1.md",
+      "sha256": "1e3817358c8e768a1f792b4251a6b10f2ff5f071dee9335d671fcb3081d2fb41",
+      "size": 4402
+    },
+    {
+      "path": "concepts/atlas-aml-cs0015-compromised-pytorch-dependency-chain.md",
+      "sha256": "9ca8bbda301bc43d0a62fe020390e5db1674ad80d922acc02512c335bccd409d",
+      "size": 2617
+    },
+    {
+      "path": "concepts/atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters.md",
+      "sha256": "844f48023a35b6c474a72a7b348c69e4867c5a56de02b92a22bfe871c5696f19",
+      "size": 3017
+    },
+    {
+      "path": "concepts/atlas-aml-cs0024-morris-ii-worm-rag-based-attack.md",
+      "sha256": "7d0233e527866afb33be695205e8c1bc61f9a1e7cfad36a54307af2d3c9566a4",
+      "size": 3013
+    },
+    {
+      "path": "concepts/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+      "sha256": "ab0c98b8c4d1b5c724ddd224c11cd8f70523a49c7963673fafc9d5d347771295",
+      "size": 4274
+    },
+    {
+      "path": "concepts/atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack.md",
+      "sha256": "f5e2fab8048f451765255f0ab1b33746a8a41f4210770b9a5dad3fbf45a00953",
+      "size": 2976
+    },
+    {
+      "path": "concepts/atlas-aml-cs0031-malicious-models-on-hugging-face.md",
+      "sha256": "46dd1b63dd024e62af7de0f2396b04de2beac5b9f29931452786c821a419b27c",
+      "size": 2923
+    },
+    {
+      "path": "concepts/atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio.md",
+      "sha256": "bb557c30b342852b31205789c1bec53982614ccb4ceadd5b0fc1e63a747dd5e3",
+      "size": 3742
+    },
+    {
+      "path": "concepts/atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants.md",
+      "sha256": "b04f2c5d11d8251501657dfdae4d02b4dd3e642dcc563551fb3f2650ba5e1385",
+      "size": 3034
+    },
+    {
+      "path": "concepts/atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor.md",
+      "sha256": "7363dc64b606101fe1a089e52f15bce753c85ba2c6cba7e056e53371492fcf2e",
+      "size": 2917
+    },
+    {
+      "path": "concepts/atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill.md",
+      "sha256": "e8ef4059953f7f446c7bec9716007212fda89f90b60ae5cf2f5391ddec68eddc",
+      "size": 2856
+    },
+    {
+      "path": "concepts/atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration.md",
+      "sha256": "956c56564fe9ce11798a0a3365b2c8e3ac79aa68b9720223476fc544d821a01c",
+      "size": 2984
+    },
+    {
+      "path": "concepts/atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool.md",
+      "sha256": "4199d0428070e5dc98d137022ffe15c80088b8d72dfcb093d8c8b82712c4d63e",
+      "size": 2908
+    },
+    {
+      "path": "concepts/atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration.md",
+      "sha256": "109f586b1bc03377fa5a05c7f92324f3d8ca22dd68bf8381181162b095b6cb82",
+      "size": 3368
+    },
+    {
+      "path": "concepts/atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack.md",
+      "sha256": "d796aa4ccdbc3e91b94ca7b4093706ae66eecb250213915f5cb8180918aa7ddc",
+      "size": 3397
+    },
+    {
+      "path": "concepts/atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack.md",
+      "sha256": "71ccd47793db12f6e6f17ecde239531ed9eaff62c6dc0b214241e384cfbcfb1c",
+      "size": 3371
+    },
+    {
+      "path": "concepts/atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt.md",
+      "sha256": "0fc4eba9777547365c0952c891d63fc540ac1861b7bba6145205f3b036c8eea8",
+      "size": 4273
+    },
+    {
+      "path": "concepts/atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure.md",
+      "sha256": "6ddfa017d0015b73eea27bcfd0f56b8e52102220d8c8bc0312b7cae44b46eb16",
+      "size": 5987
+    },
+    {
+      "path": "concepts/atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems.md",
+      "sha256": "a8d35df67378b50dd893ea386d65cb8b68eeb546c266de9b5737109719927f14",
+      "size": 3776
+    },
+    {
+      "path": "concepts/atlas-incidents-index.md",
+      "sha256": "65aa8c0fd8b63a5b58c6c2c8a4a33e0a0cc02e3fb21c61385f0a40a632365299",
+      "size": 3350
+    },
+    {
+      "path": "concepts/aud-001-independent-ai-assurance.md",
+      "sha256": "49271dc78e98d0f5a46125ce58bf02f9fafbe7d23d84b4430436619b4400ab41",
+      "size": 4330
+    },
+    {
+      "path": "concepts/aud-002-assurance-finding-closure.md",
+      "sha256": "9d42adf6c692cdfb0112ac23901101818972f407b6d695fbcf967c947c9970be",
+      "size": 4397
+    },
+    {
+      "path": "concepts/automatic-decision-making-assessment-adma.md",
+      "sha256": "6ba1fff3ec81a811f5b08f1058275e1f0abd3af24f75ffe0d51337097a0a6130",
+      "size": 8014
+    },
+    {
+      "path": "concepts/brain-home.md",
+      "sha256": "59cf724afc632ded525bdf5e36535bac56ad5ca681e8ed047153abc7e456c971",
+      "size": 1799
+    },
+    {
+      "path": "concepts/brain-schema.md",
+      "sha256": "c7d6bb8bc71ef95532f7cca4852cdd0161d684bff419c8d32de89293732df877",
+      "size": 3638
+    },
+    {
+      "path": "concepts/cjeu.md",
+      "sha256": "fa1fdd89aac4aa076bc548f0ac34e435d014f79348d418dcd48790b609d56f53",
+      "size": 8901
+    },
+    {
+      "path": "concepts/core-001-business-purpose.md",
+      "sha256": "465096579f7aa05106b663e13693ae44c70bbc7b3778796ef06e709aefee07bd",
+      "size": 10770
+    },
+    {
+      "path": "concepts/core-002-accountable-owner.md",
+      "sha256": "4f11dc24e8d1952e40ae9345bbb26f4c8ff8f3d9c09886472a81a86593de013a",
+      "size": 10660
+    },
+    {
+      "path": "concepts/core-003-ai-system-determination.md",
+      "sha256": "7a100afb1da75be712222366050c2029965bf697d12cf4f6abb038ff966c7d1b",
+      "size": 1892
+    },
+    {
+      "path": "concepts/core-004-system-boundary.md",
+      "sha256": "c514875174442ab345140cbd1de68c94326118a96e95f2db07fef6407c3a2254",
+      "size": 1498
+    },
+    {
+      "path": "concepts/core-005-predictive-capability.md",
+      "sha256": "5f5b171a524dbb18db05097c4a2b8a6a26e35a5e1042bb9b1f8476cad602bd65",
+      "size": 1410
+    },
+    {
+      "path": "concepts/core-006-generative-capability.md",
+      "sha256": "da18a08ae251fe3b29c7e28f35a0d295c10ec76eab27ea99e88b5ea664dd91f7",
+      "size": 1409
+    },
+    {
+      "path": "concepts/core-007-agentic-capability.md",
+      "sha256": "dbc13c2ac573cad30c0fc523a0884688fba15dd5daaa4127d51fe6ddd2843420",
+      "size": 1627
+    },
+    {
+      "path": "concepts/core-008-users-affected-people.md",
+      "sha256": "cc33b63d842ce5e9e857e34dadf5eb9d77fb6e4970e9fe00b592665ef0771e34",
+      "size": 1602
+    },
+    {
+      "path": "concepts/core-009-personal-data-involvement.md",
+      "sha256": "269c5e4c4fbd4caaab24bf5ed4de4291f3b54a2ff3cab97cf8ed126b5d39c34a",
+      "size": 1732
+    },
+    {
+      "path": "concepts/core-010-eu-ai-act-scope.md",
+      "sha256": "eff9601ad00bd547565d6a2435587ba5d9cfec573cd172e33c9628f0dfab5817",
+      "size": 1421
+    },
+    {
+      "path": "concepts/core-011-prohibited-practice-screening.md",
+      "sha256": "3230773dd3112fba8bcf0550c5b8e2fe40f014a49e9c12fb6c219c539a2783e0",
+      "size": 2381
+    },
+    {
+      "path": "concepts/core-012-automated-decision-trigger.md",
+      "sha256": "8f47a6acc71bd219b9ccd92af18376faa734bff2cdebd6daed95d5e60725e51d",
+      "size": 1818
+    },
+    {
+      "path": "concepts/core-013-high-risk-ai-classification.md",
+      "sha256": "a34e2d22b53650f88653df1ec02d9ee43ca3b5b8fe12d6306727d1ac7d2d089b",
+      "size": 2542
+    },
+    {
+      "path": "concepts/core-014-ai-strategy-value-record.md",
+      "sha256": "09094180e55be5b368f77faf33b4c3401ab737968455fa32c7fe0b38cc1c3309",
+      "size": 2803
+    },
+    {
+      "path": "concepts/cosai.md",
+      "sha256": "0102c6924f12aabcac31036786d670448d5a186dc4659b8f6b4de74fffccff45",
+      "size": 7529
+    },
+    {
+      "path": "concepts/data-governance-quality-definition-scope-terminology.md",
+      "sha256": "7c70afac86cd7a5c34b44c624a46faa4434116d954333bdf9d597995f014a03b",
+      "size": 4236
+    },
+    {
+      "path": "concepts/data-governance-quality-evidence-artifacts.md",
+      "sha256": "3786aff9a90ee9a38f3242618bf8c6312e9c97d4d3a976069a96d4488dbd1b8b",
+      "size": 7499
+    },
+    {
+      "path": "concepts/data-governance-quality-exceptions-conflicts.md",
+      "sha256": "4f1ff2f7081bd1c3f3aed2aa2420469fa4d403d7111f87269c3b18f52a770a78",
+      "size": 4692
+    },
+    {
+      "path": "concepts/data-governance-quality-index.md",
+      "sha256": "2809c31fdcc362693efbf1ba9285556cd9aff173bb27cee275e319904187f69c",
+      "size": 1763
+    },
+    {
+      "path": "concepts/data-governance-quality-lifecycle-controls.md",
+      "sha256": "2297abd5bffa07882064f00bc7ca0710081cc1c032bc30e26f42310e8db68414",
+      "size": 6648
+    },
+    {
+      "path": "concepts/data-governance-quality-metrics-monitoring-incidents.md",
+      "sha256": "9a7e86035539f8df9a4219a016016f6ec8a3bbfeb5a93e759f37c8e4792e1777",
+      "size": 5910
+    },
+    {
+      "path": "concepts/data-governance-quality-questionnaire-coverage.md",
+      "sha256": "839d959d1e1b0949f08668903ae447998243065dd654f1ee3da5dbfc448dbc70",
+      "size": 4917
+    },
+    {
+      "path": "concepts/data-governance-quality-risks-impacts.md",
+      "sha256": "f56eb57ef3fab95beb28516386f2eb2351ddeba9f6324fc0d581a45983f82059",
+      "size": 4976
+    },
+    {
+      "path": "concepts/data-governance-quality-roles-decisions.md",
+      "sha256": "9505d1944904a96122a9d364cc02090edd71ed93fb9158c35f403be461cf7657",
+      "size": 5712
+    },
+    {
+      "path": "concepts/data-governance-quality-source-provenance.md",
+      "sha256": "86f8493199e9b79696c127038e10db86ee5e037b4c96aef5c8c1c7f4245d64b9",
+      "size": 6488
+    },
+    {
+      "path": "concepts/data-leakage.md",
+      "sha256": "cafa270b3ecbec40fdcfbfe6ef125c49dff61f0baf1251e50677b96faf595696",
+      "size": 7081
+    },
+    {
+      "path": "concepts/data-protection-authority-dpa.md",
+      "sha256": "9cee1c4a73b9ea89faf798f78ed507e5f84685fd21f5bd93d7b2705deb722939",
+      "size": 12606
+    },
+    {
+      "path": "concepts/data-protection-impact-assessments-dpia.md",
+      "sha256": "7ed7fa882360fdd2583c78fce114e187f59d6f938311fb5aef975507cf0c860a",
+      "size": 12729
+    },
+    {
+      "path": "concepts/data-protection-index.md",
+      "sha256": "5f180ae2559149e6eb64cc9be068a68223a2ad9312e180230abd5f6bde43c99b",
+      "size": 1419
+    },
+    {
+      "path": "concepts/data-protection-officer-dpo.md",
+      "sha256": "c77ccf4d1489842734ed902f7676a4fe3a2b206cd36ab65e7edb1800a868040b",
+      "size": 5505
+    },
+    {
+      "path": "concepts/data-subject-access-requests.md",
+      "sha256": "4ad8bc791fff1544d9cac21db42c03cbb0a7451367b1d47841b846a64aea5da1",
+      "size": 6623
+    },
+    {
+      "path": "concepts/data-subject-rights-ai.md",
+      "sha256": "6674e7ec786261d59e797f84ea1344e2757ff28a71ff4b627baa1ad534ecedb7",
+      "size": 7824
+    },
+    {
+      "path": "concepts/digital-omnibus.md",
+      "sha256": "bcb65e573f50d0c7092207efead2280262cf2c96f452d3ea067203443ad66a74",
+      "size": 3642
+    },
+    {
+      "path": "concepts/edpb.md",
+      "sha256": "c0a0ad1a657ce24bbf90847c15542acbc42aaca9680d62105b3422efdb6bcbef",
+      "size": 6887
+    },
+    {
+      "path": "concepts/edps.md",
+      "sha256": "5773c6a0c5e488e89681681c4638e95b24c9a14d248275068797873822e0664d",
+      "size": 8545
+    },
+    {
+      "path": "concepts/eu-ai-act.md",
+      "sha256": "e10e5892180e314cc3966c667a54cd740e3350a8f364cecf6ba3ed5c061bedbe",
+      "size": 7545
+    },
+    {
+      "path": "concepts/european-ai-office-eaio.md",
+      "sha256": "61d91f9f03eaf1afab406ed7e0fde2fcab45561f19bf0c030627a4a6beb7d021",
+      "size": 7989
+    },
+    {
+      "path": "concepts/explainability-and-interpretability.md",
+      "sha256": "dd9edb8c9041a118ae15e2b31b7e71336e68aa7dc400065fe0691797013ea1b4",
+      "size": 4964
+    },
+    {
+      "path": "concepts/fundamental-right-impact-assessment-fria.md",
+      "sha256": "677227b25ecdbc9b5621f974ea9e914e219bb33d59976c4d113286a1aac8c541",
+      "size": 16065
+    },
+    {
+      "path": "concepts/gdpr-article-22-automated-decision-making.md",
+      "sha256": "7157e18371edddfa75a0397a57fa1b82d1b6b5a21b47c57525c74e005152e6c0",
+      "size": 7005
+    },
+    {
+      "path": "concepts/gdpr.md",
+      "sha256": "c340b227af0ef96233239e9fa1bac582a7dad284e8e3b4b09a0708066519b8e0",
+      "size": 22179
+    },
+    {
+      "path": "concepts/genai-guardrails.md",
+      "sha256": "212a01f452f63451cc06c33d65c9b89c2e8250066290f5925175497dc4956f05",
+      "size": 10772
+    },
+    {
+      "path": "concepts/generative-ai.md",
+      "sha256": "9ceb96f42d6d1a2c5bf1157f84cacaf63ecabf32dfe1a3a31f197dc0c95b4179",
+      "size": 5589
+    },
+    {
+      "path": "concepts/gov-001-governance-decision-rights.md",
+      "sha256": "916b203a8da5ef3c0e5baa7535639168a7c67b82b06fb1bb7ed8beb710276724",
+      "size": 4411
+    },
+    {
+      "path": "concepts/gov-002-lifecycle-change-reassessment.md",
+      "sha256": "fd242f08d61935ac88da61151dd4d8320fb730a44c20eea339844e382d8b6ae7",
+      "size": 4591
+    },
+    {
+      "path": "concepts/gov-003-incident-and-abnormal-behaviour-records.md",
+      "sha256": "b01c58eb31056052ad2852466b2e77b19eeba7c6e313844f8ee49af29b3f32be",
+      "size": 4593
+    },
+    {
+      "path": "concepts/gov-004-governance-documentation-update-triggers.md",
+      "sha256": "abafe6352aa8f0007b2f193635d9d6fb2f96545bdb9e2fa5cee740fb6b16a7a8",
+      "size": 5173
+    },
+    {
+      "path": "concepts/gov-005-role-specific-ai-literacy.md",
+      "sha256": "8b5812a98ba257740faf286ac30eb5d95ed1804c9bd1c5aae521f474a1b578a2",
+      "size": 3271
+    },
+    {
+      "path": "concepts/gov-006-societal-impact-feedback.md",
+      "sha256": "b3fa23280b3409852e3e866f8c93db3d8210477b0dc94daa5f45a89c951c67c6",
+      "size": 7763
+    },
+    {
+      "path": "concepts/gov-007-third-party-ai-assurance.md",
+      "sha256": "8b2776b44a85cde332bdd78468795dae083bdc90cf1987b9de13bef4650a3363",
+      "size": 8049
+    },
+    {
+      "path": "concepts/gov-008-ai-strategy-metrics-and-review.md",
+      "sha256": "5c1e22a7e72bbf543e5d7e4810ecd139d742715f60568bcdb9ead3454f65ee97",
+      "size": 4138
+    },
+    {
+      "path": "concepts/gov-009-lifecycle-release-and-rollback.md",
+      "sha256": "f1352d06635677c8ed4ec2d57b70de4277155b2bb7f9bc7e8ca4c5818da53efd",
+      "size": 3286
+    },
+    {
+      "path": "concepts/gov-010-ai-literacy-effectiveness.md",
+      "sha256": "ccdb26dd6027a488169e75459dc6b1a3805a682a99a6a969991066007409b10d",
+      "size": 3254
+    },
+    {
+      "path": "concepts/gov-011-sustainability-impact-metrics.md",
+      "sha256": "fbb928efda43b5cce77decf07ef751dad967d3b76bef0337be4b72dd51a069fa",
+      "size": 3305
+    },
+    {
+      "path": "concepts/gpai-model.md",
+      "sha256": "bac362c1b5a41336c37c12411df8f6949ce77a01feebaada529f5727175261d5",
+      "size": 4266
+    },
+    {
+      "path": "concepts/hallucinations.md",
+      "sha256": "1c3bb37e1afdef5d670988a9abc64d4d9e4a3834c671fe6e19cc0a5b367e4656",
+      "size": 8500
+    },
+    {
+      "path": "concepts/high-risk-ai-system-classification.md",
+      "sha256": "2cc886b5ff63f6accb6e3c8b5ca63f5bcc22ea37660dca677514535c0c85085a",
+      "size": 23594
+    },
+    {
+      "path": "concepts/human-in-the-loop-for-ai-agent-actions.md",
+      "sha256": "82e78b2a11aa39f38e09fb58e1f9e90deb38cb8d3e50fc584cba07f218cc8273",
+      "size": 3374
+    },
+    {
+      "path": "concepts/human-oversight.md",
+      "sha256": "e19deb03a69df0a8e8e589371b4ee8ba231ba88ea9ee82185130b823b9a8b6fd",
+      "size": 6804
+    },
+    {
+      "path": "concepts/internal-regulation-index.md",
+      "sha256": "4e5044b815e3d9b8e25ec497ce6b02eeb951a958f35daa7833a8209d63a62487",
+      "size": 892
+    },
+    {
+      "path": "concepts/iso-23894.md",
+      "sha256": "af92558809b04cb7d1a148ee128da2a29d4a7d1cf317234443e378f7b5b9d8ce",
+      "size": 7614
+    },
+    {
+      "path": "concepts/iso-27001.md",
+      "sha256": "4bbaf2e1bbc36540c7f78d01d3dab111e6564aaa84deeca647bcde29fda09133",
+      "size": 5442
+    },
+    {
+      "path": "concepts/iso-31000.md",
+      "sha256": "64271dbd12705cfa3a360632cdc688c09efe06b3f90433916af8f404043133da",
+      "size": 7114
+    },
+    {
+      "path": "concepts/iso-42001.md",
+      "sha256": "1bc2bb3c937e24660b739f247053ab43715fd82779cc7a88df11a5511587c4df",
+      "size": 10491
+    },
+    {
+      "path": "concepts/legal-001-ai-act-classification-record.md",
+      "sha256": "69bda14ab98566f1ba8e1788e1fe461308f7c78ebb2ddf77790be6caf4680a74",
+      "size": 2021
+    },
+    {
+      "path": "concepts/legal-002-fria-trigger.md",
+      "sha256": "014772fe8da7ad8f03c5da344639887df8413c7fbb5d7065dc6c526142224c1a",
+      "size": 4513
+    },
+    {
+      "path": "concepts/legal-003-dpia-ai-processing.md",
+      "sha256": "4e2f82e95cb5fcc1e0e63ef36bc2328ca0644cd3130bed346db74d7ee9b1a9c6",
+      "size": 1855
+    },
+    {
+      "path": "concepts/legal-004-automated-decision-safeguards.md",
+      "sha256": "de1b5eda4463c70839089869ef4a7f0408c22c889b2aec1a74343e1ae9c70f31",
+      "size": 2006
+    },
+    {
+      "path": "concepts/legal-005-data-subject-rights-readiness.md",
+      "sha256": "d7ab0d1499348dc4304e17749f49c7f32b0d7ef1e76ae70f0dc445b8a8be614a",
+      "size": 4682
+    },
+    {
+      "path": "concepts/legal-006-personal-data-governance-trigger.md",
+      "sha256": "72a9a5a8e7bbb37454913c7fe124d20def03d00d957a6389c07890fabc8fc4ac",
+      "size": 4303
+    },
+    {
+      "path": "concepts/legal-index.md",
+      "sha256": "e77eec59e289a49f4707c3ced0f9c3c36b377fea6327fea0ead7345fde215d71",
+      "size": 858
+    },
+    {
+      "path": "concepts/legitimate-interest.md",
+      "sha256": "02dca29c8c90745a72db108e83dfeeff55b801d04acbf9aae9f6ca252ee611b7",
+      "size": 13396
+    },
+    {
+      "path": "concepts/machine-learning.md",
+      "sha256": "4c2cb0e3432cbbc990faf36bbcbbbc5c5624de2b6367ff8a7ae43bda9043059a",
+      "size": 4370
+    },
+    {
+      "path": "concepts/mcp-and-agent-tool-governance.md",
+      "sha256": "6b947e77bdb4990ee055881269b556151b32e46d1d09d1f04dc0acd0731213ce",
+      "size": 21268
+    },
+    {
+      "path": "concepts/mit-ai-risk-initiative.md",
+      "sha256": "4c2d7e1e61bf4eb0cbab4d6b820f2f750de4ffa9295e09020adfdb1ca8132f92",
+      "size": 3680
+    },
+    {
+      "path": "concepts/mitre-atlas.md",
+      "sha256": "43d93b8fb3752a8af1ea4e197464e6ce4d3895491c4d13020101eb425149496d",
+      "size": 24692
+    },
+    {
+      "path": "concepts/model-and-concept-drift.md",
+      "sha256": "79c901fa0d1cd14820ae3f00dd401de9f3437e5beb3f259c9603ce88cb867b18",
+      "size": 6359
+    },
+    {
+      "path": "concepts/multimodal-ai.md",
+      "sha256": "d22518c082bd011863122c29dc808f3c21360a4d9d482ea28442026b3bbaf46c",
+      "size": 5141
+    },
+    {
+      "path": "concepts/nist-ai-rmf.md",
+      "sha256": "9d330426fd7ba2448fa87c1213af75ed0035615c610464435c712e9df8a5a172",
+      "size": 9853
+    },
+    {
+      "path": "concepts/open-weight-models.md",
+      "sha256": "03c2ed34ee85d8cdc290f6b0d12bd1c3cc950d2c4fe147a7622d22f87d3c9555",
+      "size": 8526
+    },
+    {
+      "path": "concepts/ori-001-ai-incident-response-playbook.md",
+      "sha256": "5d82717149217e4e7ca970b367c458c0ae1798cec8450b229d05dd66d0ad18f2",
+      "size": 4400
+    },
+    {
+      "path": "concepts/ori-002-recovery-validation-and-lessons-learned.md",
+      "sha256": "f810df1ce98aab5bc9293b4fbac1eeec24582f44fa10100cf3778b3649dc6751",
+      "size": 4401
+    },
+    {
+      "path": "concepts/predictive-ai.md",
+      "sha256": "1b9a1c29d4ba24f477b3fb7622809e4ea15706495e43a7ce30f4a88b6afc4d8f",
+      "size": 5638
+    },
+    {
+      "path": "concepts/privacy-preserving-ai.md",
+      "sha256": "5155c771024a49f1a49480674774be0551cf3cc3813bb919cfcc6d8fb5b6cb05",
+      "size": 6636
+    },
+    {
+      "path": "concepts/prompt-injection.md",
+      "sha256": "446f6f3de57e068e01ebec72a3901d068ae480b4bc75e136b016142b5c3a584e",
+      "size": 9219
+    },
+    {
+      "path": "concepts/questionnaires-index.md",
+      "sha256": "3951fbab97e16ea4566681f81cf00f5d2c87b0cb1ec98603e4f7e1faff52be94",
+      "size": 2658
+    },
+    {
+      "path": "concepts/red-teaming.md",
+      "sha256": "1f63e58dea93b383f13b422d30326bff871523cb91abcaa6e0b33af16f877df2",
+      "size": 13205
+    },
+    {
+      "path": "concepts/retrieval-augmented-generation.md",
+      "sha256": "b7b8571f4f4102acf9500a93e8d9aa7268bda00bbc0895b1e2bed7c1e0e2ae9c",
+      "size": 6259
+    },
+    {
+      "path": "concepts/risk-001-model-validation-evidence.md",
+      "sha256": "4486e259ec5d86e5ba9a667be9910c617dd3aafff29b9a7e2b1d7c932f73126d",
+      "size": 6116
+    },
+    {
+      "path": "concepts/risk-002-backtesting-design.md",
+      "sha256": "2a98915018597bb2cb74eb6a1a42f825dd479a998f075de280965a87b882109f",
+      "size": 1795
+    },
+    {
+      "path": "concepts/risk-003-model-monitoring-response.md",
+      "sha256": "d15bf73cbfe228712c196ad86f29edfc7053ddfe46f92c53ef33dbe71cb4d1e3",
+      "size": 6872
+    },
+    {
+      "path": "concepts/risk-004-model-documentation-completeness.md",
+      "sha256": "fe1af4a19b788e48c651887ecf11f81bf73f768c52ef8175147811b86c6e8b28",
+      "size": 7234
+    },
+    {
+      "path": "concepts/risk-005-prompt-injection-threat-model.md",
+      "sha256": "49765fbe260b32417f5af30ff16bc7f7328764e4d9714e00df5aa70221f4639b",
+      "size": 6502
+    },
+    {
+      "path": "concepts/risk-006-guardrail-placement.md",
+      "sha256": "bf065c0752bdf37f5b8d295a93561b8869f7b9d277464c2d8b1020f48023821c",
+      "size": 7038
+    },
+    {
+      "path": "concepts/risk-007-red-team-remediation.md",
+      "sha256": "d0798d3197403a271174a97e38dd3888fadc008361226ac8dd3947b699d12595",
+      "size": 7595
+    },
+    {
+      "path": "concepts/risk-008-human-oversight-authority.md",
+      "sha256": "21c3a14d3ae20b5897dbf7ccd850db1eadd21ad6e577d3dece7dfd85efa0ca9b",
+      "size": 5433
+    },
+    {
+      "path": "concepts/risk-009-misinformation-overreliance.md",
+      "sha256": "5b80bc1c74269decd7ad839e1a0628a3685402b09e5b0f0b39fe51f0814dcf92",
+      "size": 4024
+    },
+    {
+      "path": "concepts/risk-010-sensitive-data-disclosure-surfaces.md",
+      "sha256": "08b55865bbc3e0c69ef36fd97149b71098a13c355e4259f37efb5aaab976b895",
+      "size": 3262
+    },
+    {
+      "path": "concepts/risk-011-data-quality-evaluation.md",
+      "sha256": "f6e76d475b3049da75f715d6292fb153ecfda507cab1293698db9ddc54845ec0",
+      "size": 5943
+    },
+    {
+      "path": "concepts/risk-012-ai-supply-chain-inventory.md",
+      "sha256": "ef8a9b24acce16398f66af5fb6c49b238cf797ab1d61559a6a844341b018274b",
+      "size": 17670
+    },
+    {
+      "path": "concepts/risk-013-agent-identity-and-access.md",
+      "sha256": "945fcd1e109558d83cef3bb312e1ee7614cf2042095c29d2a53d46c4bb37e30b",
+      "size": 7178
+    },
+    {
+      "path": "concepts/risk-014-mcp-tool-governance.md",
+      "sha256": "686ee102f384a5feb21b0cab64b7df76bf339d99951a5b868407194f27fd2f0f",
+      "size": 8859
+    },
+    {
+      "path": "concepts/risk-015-data-governance-quality-evidence.md",
+      "sha256": "4f4e8c33db0b5917e27dda465f3b81f3398d8088f6c368bc3daeda4a01196b62",
+      "size": 4164
+    },
+    {
+      "path": "concepts/risk-index.md",
+      "sha256": "9e4723676a7dffc371e74d754a637b7e12e507925b63eadbf203dae230786486",
+      "size": 1625
+    },
+    {
+      "path": "concepts/sr-11-7.md",
+      "sha256": "2622d48ab174e8f4f4d8ea9e0f386d53764f82c1ac815adc179047cd03fb8ba5",
+      "size": 4684
+    },
+    {
+      "path": "concepts/synthetic-data.md",
+      "sha256": "bd8a3afb07639c03f0d39bbdbc64f8633c5a78f9e838b6719e98861b1077ac20",
+      "size": 5326
+    },
+    {
+      "path": "concepts/third-party-ai-assurance-and-shared-responsibility.md",
+      "sha256": "d97906ce25a272cbff260d4036f4702d62086543f444f670ed2bb08c8ddd6552",
+      "size": 24873
+    },
+    {
+      "path": "concepts/toxic-or-biased-outputs.md",
+      "sha256": "a79d3fd20b11e8b13087d91e98abfe8269dc72ea0159c0b2dccfe06f2dc5c16b",
+      "size": 7295
+    },
+    {
+      "path": "concepts/traceability.md",
+      "sha256": "f385f1bb557daa46b03c069a38e71ccb0e3c5bc759cf8c0a97c67219300bd978",
+      "size": 16586
+    },
+    {
+      "path": "concepts/uncertainty-and-calibration.md",
+      "sha256": "7b10f431830142d2e7cf4f51d4ccc297168ebd98fbe7f337a2c3be2f9f4eaa45",
+      "size": 10471
+    },
+    {
+      "path": "index.md",
+      "sha256": "77c1cba2376f4e9b7312062a797ac9d4c4c48dd202fd3bf0a7b85e23d41bd5b1",
+      "size": 14944
+    },
+    {
+      "path": "log.md",
+      "sha256": "48826db9643ffde313611a0b4238302b8c24813ccc35dd07866a70ee2a2c3e34",
+      "size": 6904
+    },
+    {
+      "path": "references/src-0001-e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52.md",
+      "sha256": "a291395b45e0d2f1f387e3693691153a852fb271750424d277989e04f2f201fc",
+      "size": 371
+    },
+    {
+      "path": "references/src-0002-87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12.md",
+      "sha256": "a2ddad7b39fc191d5b85da8c1cda47acde1c928b773578bc35a62236b052f425",
+      "size": 371
+    },
+    {
+      "path": "references/src-0003-edc972e30f5c2c264b8ea449e291c3457754584a248706e647bca0c7ecf81e68.md",
+      "sha256": "489a7ca5f98b620a2877c01fb2337451aa0eea27777a3ec037b066614647727c",
+      "size": 371
+    },
+    {
+      "path": "references/src-0004-843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78.md",
+      "sha256": "9847a49153b7dd24cfbd3619a21f9ac2be3898e7a1c0db3f648274b1967c6532",
+      "size": 371
+    },
+    {
+      "path": "references/src-0005-5bf139ef553b98dbfc2e8734e991216bae47fb99b73881b89f3ca3e39f71c8b4.md",
+      "sha256": "186edd80712a2d557d05b9d52f577419043c84b997bff0b1bae535caf314c0cd",
+      "size": 371
+    },
+    {
+      "path": "references/src-0006-3220aeccaea0fd2b95807eaae1ab88ed74cf059f1add022e712ffa4afcbd50f8.md",
+      "sha256": "3345599b2ebd71e8f23a7bad033204c32cfcabe587b0da273aed73877cdac20e",
+      "size": 371
+    },
+    {
+      "path": "references/src-0009-86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8.md",
+      "sha256": "4756dd40820b97e276a1048fa86def9b9409ee3a93df3040a9cda1cc7a53bb75",
+      "size": 371
+    },
+    {
+      "path": "references/src-0010-bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499.md",
+      "sha256": "916219947c29bf4de6a17b02f23e0a1d57dfb9c023a9858f211111e55dd9651a",
+      "size": 371
+    },
+    {
+      "path": "references/src-0011-bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c.md",
+      "sha256": "e35ecd225bbc7da214dd80ae293c6dc68d850499001e561ee0e94e64a6154769",
+      "size": 371
+    },
+    {
+      "path": "references/src-0012-34bb6ec6658725d5a66c99af1dbea0f42ff97c716944cacb47633088a17f1148.md",
+      "sha256": "7b2e0e4c1c59adc258f81ad251252723102cc38a7ea0ae4ace41b5a87f561a31",
+      "size": 371
+    },
+    {
+      "path": "references/src-0014-72530019cd364ffbd2d1b5f7dfe367d523fd7a6bc8e4ffed42ae8ab51050e351.md",
+      "sha256": "77ca872cab5d9d39da4c819c84d930d281860d7c3d3e2490d42931399ff26b07",
+      "size": 371
+    },
+    {
+      "path": "references/src-0015-de9c595a97bf5027e53d490a3c71201bb4c2ffa8a876b80bad8c413ff94679c9.md",
+      "sha256": "b43051f4fe3aadf850449d83e02fe211722189cf9e96c25604fc6e848c4cc9a4",
+      "size": 371
+    },
+    {
+      "path": "references/src-0016-298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f.md",
+      "sha256": "7a4bdad171f6497e6ea45a168663ff34a0bb1e27e66efbc4a3b8c8ab80941ebe",
+      "size": 371
+    },
+    {
+      "path": "references/src-0017-fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e.md",
+      "sha256": "3615e431ddd5e6e374cdc3e5acf4a1da2aaa16c8defee5715803b08964f9fef1",
+      "size": 371
+    },
+    {
+      "path": "references/src-0018-30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66.md",
+      "sha256": "db70d69a07f0c7ccad0283a5bfee59c1bc7a05738e83b64ae41c77ccc0cdd15e",
+      "size": 371
+    },
+    {
+      "path": "references/src-0019-addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e.md",
+      "sha256": "8ebfb6de18dddad0120419a162e31532b09f32296ff3a128aa5d122146ac1154",
+      "size": 371
+    },
+    {
+      "path": "references/src-0020-59692ea43ce9d2463b9947b5f5ee5daf676ee4b27952b3aaed40724e818abd47.md",
+      "sha256": "ce5417417748d23f2424fccc9c49e524e4a956dcd4491288490f3698543d1fee",
+      "size": 371
+    },
+    {
+      "path": "references/src-0022-eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791.md",
+      "sha256": "7be4dbbd2af7f6e911bd497783d6fd988f7bc26bacfba029c54afb5a0918f9e0",
+      "size": 371
+    },
+    {
+      "path": "references/src-0023-72fec19e8954c5f548dc12eb1ae74ceb2f7c3877b1a2f0bf6c29f054bcb91d43.md",
+      "sha256": "6fa7f55e7943388212c0593b8bc721c6f6e060a079e2b290cd02ba30b9ad29ee",
+      "size": 371
+    },
+    {
+      "path": "references/src-0024-130442e9d4999ebe7d79c4d415299a345953dabb08c54511a87b91f90492b285.md",
+      "sha256": "15f1d057306b73a3ead0e3c6f2bfc7d492ec2573d25eed9088b97d557e6a54a0",
+      "size": 371
+    },
+    {
+      "path": "references/src-0025-50b12699a427e653a3e879b28def402203b79aa0121df840cf5ffdfd8fb640c2.md",
+      "sha256": "ee8b856f5c80a07d489f6a42e19d05a975076e06042c7b561807ae4eaa2992aa",
+      "size": 371
+    },
+    {
+      "path": "references/src-0026-ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e.md",
+      "sha256": "8a2213ec0ae434b738af807a1555abba69ece5cb1613c018ec5792005c0e66f1",
+      "size": 371
+    },
+    {
+      "path": "references/src-0027-0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed.md",
+      "sha256": "f4bba4254bef1b5b3e77c26d21f15d56dace9dcb5154e1ced615dd40e4fe0b0b",
+      "size": 371
+    },
+    {
+      "path": "references/src-0028-5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654.md",
+      "sha256": "8d284217f92e0daa6b1895a417c1c5c33628001f56430ddd5f7ac16cedb87c0f",
+      "size": 371
+    },
+    {
+      "path": "references/src-0029-94ff45a3c41db7b3a03fd9ad6ab8ae2ea69135c698e0789def57bfc9b2433ee8.md",
+      "sha256": "277acf9faf414df18845ea183e1d0d4bc5ef93ae90759a81b58f2e9496754565",
+      "size": 371
+    },
+    {
+      "path": "references/src-0030-2636e19ff1c86e862394d2fc900592e97b83c04cc35e3c8443108114b7f1dfba.md",
+      "sha256": "eba9085f87667793a354c6fc3b62ad6b190fef9f12c8457ddc023601d25b6b97",
+      "size": 371
+    },
+    {
+      "path": "references/src-0031-9f7f5988eb6db46576732f579dd81ac75e4e05bdf7a06eb4cebd32eedf4be872.md",
+      "sha256": "b55761e9f1c53c6b7f787e4d644f972ee2a5be8dd4d12fe73452fc1d34e5c97f",
+      "size": 371
+    },
+    {
+      "path": "references/src-0032-410815680200580613cdd603f553f663b580dd27eb05714d17e38fdbebe05b5e.md",
+      "sha256": "d3760e8d2b3d9ed64e63d53e681e30d947efe1687599f44d741a148ca205b31c",
+      "size": 371
+    },
+    {
+      "path": "references/src-0033-c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc.md",
+      "sha256": "3fccfea8e23998062366d2b82c2b672424f44fe5ce532706f6b15596584685cb",
+      "size": 371
+    },
+    {
+      "path": "references/src-0034-b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176.md",
+      "sha256": "7e6154a3c8bb8dc588b06a6311410ff8f49933dc568e11a4e9413bbb0732a7b8",
+      "size": 371
+    },
+    {
+      "path": "references/src-0035-8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03.md",
+      "sha256": "e9a4d7a5250537c56cbe15113934dd713853f824255fe6cdbc65e5b62adce388",
+      "size": 371
+    },
+    {
+      "path": "references/src-0036-956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7.md",
+      "sha256": "d4911243e8b280dae1bee84487ba2cacfe9dbaeb5442b7c00cdaec6224fa0bf3",
+      "size": 371
+    },
+    {
+      "path": "references/src-0038-0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0.md",
+      "sha256": "e9407e11aa0a8958cbc32c7da8830c8c94998580d7a332d09c7b14878b49dbb4",
+      "size": 371
+    },
+    {
+      "path": "references/src-0039-7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1.md",
+      "sha256": "48fd3fcb7994a7f83d00d2d50d9b062257fd44623172fd4dacf16347b3579f3f",
+      "size": 371
+    },
+    {
+      "path": "references/src-0040-65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2.md",
+      "sha256": "903a34a49643ab2a346dc887b0917fe6563c9023ac926d8c16cfa14ad36072e6",
+      "size": 371
+    },
+    {
+      "path": "references/src-0041-b9ec7fb975d65600b14cd7383c0630753d4b899e0c3d44c33121472f52e6c1b3.md",
+      "sha256": "6462e560f205b633b966360f77ad9aa8c5151903f0d781e4d7cd10f13e564269",
+      "size": 371
+    },
+    {
+      "path": "references/src-0043-0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386.md",
+      "sha256": "da63ab3ef334fe45a082f9039c3f05473933f0140bf871dca07b0675543bcfe8",
+      "size": 371
+    },
+    {
+      "path": "references/src-0044-7ea87e5b8ca5d4e67c261026abc331a977231d0d379c41a9f20c1eae2cb326e4.md",
+      "sha256": "097d07ea6aee47b8b336cbbfee6a690792703a0d3b7366491527d33528e69ee0",
+      "size": 371
+    },
+    {
+      "path": "references/src-0046-6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c.md",
+      "sha256": "4f35c424b022dedcf89b094faa381fbaa893a4ff337e34141e495239e2c49c3a",
+      "size": 371
+    }
+  ],
+  "gaps": [
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "ai-agent-authority-expansion-controls"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "ai-agent-scope-drift-detection"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "human-in-the-loop-for-ai-agent-actions"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "mit-ai-risk-initiative"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "ai-system"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "digital-omnibus"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "eu-ai-act"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "sr-11-7"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "2022-air-canada-chatbot"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "2023-chevrolet-of-watsonville"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0015-compromised-pytorch-dependency-chain"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0024-morris-ii-worm-rag-based-attack"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0031-malicious-models-on-hugging-face"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "brain-home"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "brain-schema"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "ai-act-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "ai-strategy-value-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "atlas-incidents-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "data-governance-quality-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "data-protection-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "internal-regulation-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "legal-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "questionnaires-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "risk-index"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-003-ai-system-determination"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-004-system-boundary"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-005-predictive-capability"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-006-generative-capability"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-007-agentic-capability"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-008-users-affected-people"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-009-personal-data-involvement"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-010-eu-ai-act-scope"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-011-prohibited-practice-screening"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-012-automated-decision-trigger"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "core-013-high-risk-ai-classification"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "legal-001-ai-act-classification-record"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "legal-003-dpia-ai-processing"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "legal-004-automated-decision-safeguards"
+    },
+    {
+      "code": "SOURCE_PROVENANCE_UNRESOLVED",
+      "note_id": "risk-002-backtesting-design"
+    }
+  ],
+  "kind": "okf",
+  "mapping": {
+    "2022-air-canada-chatbot": "concepts/2022-air-canada-chatbot.md",
+    "2023-chevrolet-of-watsonville": "concepts/2023-chevrolet-of-watsonville.md",
+    "adversarial-machine-learning": "concepts/adversarial-machine-learning.md",
+    "agentic-ai": "concepts/agentic-ai.md",
+    "ai-act-index": "concepts/ai-act-index.md",
+    "ai-act-prohibited-practices": "concepts/ai-act-prohibited-practices.md",
+    "ai-agent-authority-expansion-controls": "concepts/ai-agent-authority-expansion-controls.md",
+    "ai-agent-identity-and-access-control": "concepts/ai-agent-identity-and-access-control.md",
+    "ai-agent-scope-drift-detection": "concepts/ai-agent-scope-drift-detection.md",
+    "ai-assurance-and-independent-review": "concepts/ai-assurance-and-independent-review.md",
+    "ai-board": "concepts/ai-board.md",
+    "ai-conformity-assessment": "concepts/ai-conformity-assessment.md",
+    "ai-data-quality-and-validation": "concepts/ai-data-quality-and-validation.md",
+    "ai-evaluation-and-tevv": "concepts/ai-evaluation-and-tevv.md",
+    "ai-governance-accountability": "concepts/ai-governance-accountability.md",
+    "ai-impact-assessment-aiia": "concepts/ai-impact-assessment-aiia.md",
+    "ai-incident-response-resilience": "concepts/ai-incident-response-resilience.md",
+    "ai-lifecycle": "concepts/ai-lifecycle.md",
+    "ai-lifecycle-change-gates": "concepts/ai-lifecycle-change-gates.md",
+    "ai-literacy-and-change-management": "concepts/ai-literacy-and-change-management.md",
+    "ai-model-backtesting": "concepts/ai-model-backtesting.md",
+    "ai-model-documentation": "concepts/ai-model-documentation.md",
+    "ai-model-fairness-and-bias-avoidance": "concepts/ai-model-fairness-and-bias-avoidance.md",
+    "ai-model-monitoring": "concepts/ai-model-monitoring.md",
+    "ai-model-transparency": "concepts/ai-model-transparency.md",
+    "ai-model-validation": "concepts/ai-model-validation.md",
+    "ai-robustness-and-reliability": "concepts/ai-robustness-and-reliability.md",
+    "ai-societal-impact-and-stakeholder-engagement": "concepts/ai-societal-impact-and-stakeholder-engagement.md",
+    "ai-strategy-value-definition-scope-terminology": "concepts/ai-strategy-value-definition-scope-terminology.md",
+    "ai-strategy-value-evidence-artifacts": "concepts/ai-strategy-value-evidence-artifacts.md",
+    "ai-strategy-value-exceptions-conflicts": "concepts/ai-strategy-value-exceptions-conflicts.md",
+    "ai-strategy-value-index": "concepts/ai-strategy-value-index.md",
+    "ai-strategy-value-lifecycle-controls": "concepts/ai-strategy-value-lifecycle-controls.md",
+    "ai-strategy-value-metrics-monitoring-incidents": "concepts/ai-strategy-value-metrics-monitoring-incidents.md",
+    "ai-strategy-value-questionnaire-coverage": "concepts/ai-strategy-value-questionnaire-coverage.md",
+    "ai-strategy-value-risks-impacts": "concepts/ai-strategy-value-risks-impacts.md",
+    "ai-strategy-value-roles-decisions": "concepts/ai-strategy-value-roles-decisions.md",
+    "ai-strategy-value-source-provenance": "concepts/ai-strategy-value-source-provenance.md",
+    "ai-supply-chain-governance": "concepts/ai-supply-chain-governance.md",
+    "ai-sustainability-impact-baseline": "concepts/ai-sustainability-impact-baseline.md",
+    "ai-system": "concepts/ai-system.md",
+    "aiuc-1": "concepts/aiuc-1.md",
+    "atlas-aml-cs0015-compromised-pytorch-dependency-chain": "concepts/atlas-aml-cs0015-compromised-pytorch-dependency-chain.md",
+    "atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters": "concepts/atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters.md",
+    "atlas-aml-cs0024-morris-ii-worm-rag-based-attack": "concepts/atlas-aml-cs0024-morris-ii-worm-rag-based-attack.md",
+    "atlas-aml-cs0027-organization-confusion-on-hugging-face": "concepts/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+    "atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack": "concepts/atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack.md",
+    "atlas-aml-cs0031-malicious-models-on-hugging-face": "concepts/atlas-aml-cs0031-malicious-models-on-hugging-face.md",
+    "atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio": "concepts/atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio.md",
+    "atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants": "concepts/atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants.md",
+    "atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor": "concepts/atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor.md",
+    "atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill": "concepts/atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill.md",
+    "atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration": "concepts/atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration.md",
+    "atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool": "concepts/atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool.md",
+    "atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration": "concepts/atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration.md",
+    "atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack": "concepts/atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack.md",
+    "atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack": "concepts/atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack.md",
+    "atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt": "concepts/atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt.md",
+    "atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure": "concepts/atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure.md",
+    "atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems": "concepts/atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems.md",
+    "atlas-incidents-index": "concepts/atlas-incidents-index.md",
+    "aud-001-independent-ai-assurance": "concepts/aud-001-independent-ai-assurance.md",
+    "aud-002-assurance-finding-closure": "concepts/aud-002-assurance-finding-closure.md",
+    "automatic-decision-making-assessment-adma": "concepts/automatic-decision-making-assessment-adma.md",
+    "brain-home": "concepts/brain-home.md",
+    "brain-schema": "concepts/brain-schema.md",
+    "cjeu": "concepts/cjeu.md",
+    "core-001-business-purpose": "concepts/core-001-business-purpose.md",
+    "core-002-accountable-owner": "concepts/core-002-accountable-owner.md",
+    "core-003-ai-system-determination": "concepts/core-003-ai-system-determination.md",
+    "core-004-system-boundary": "concepts/core-004-system-boundary.md",
+    "core-005-predictive-capability": "concepts/core-005-predictive-capability.md",
+    "core-006-generative-capability": "concepts/core-006-generative-capability.md",
+    "core-007-agentic-capability": "concepts/core-007-agentic-capability.md",
+    "core-008-users-affected-people": "concepts/core-008-users-affected-people.md",
+    "core-009-personal-data-involvement": "concepts/core-009-personal-data-involvement.md",
+    "core-010-eu-ai-act-scope": "concepts/core-010-eu-ai-act-scope.md",
+    "core-011-prohibited-practice-screening": "concepts/core-011-prohibited-practice-screening.md",
+    "core-012-automated-decision-trigger": "concepts/core-012-automated-decision-trigger.md",
+    "core-013-high-risk-ai-classification": "concepts/core-013-high-risk-ai-classification.md",
+    "core-014-ai-strategy-value-record": "concepts/core-014-ai-strategy-value-record.md",
+    "cosai": "concepts/cosai.md",
+    "data-governance-quality-definition-scope-terminology": "concepts/data-governance-quality-definition-scope-terminology.md",
+    "data-governance-quality-evidence-artifacts": "concepts/data-governance-quality-evidence-artifacts.md",
+    "data-governance-quality-exceptions-conflicts": "concepts/data-governance-quality-exceptions-conflicts.md",
+    "data-governance-quality-index": "concepts/data-governance-quality-index.md",
+    "data-governance-quality-lifecycle-controls": "concepts/data-governance-quality-lifecycle-controls.md",
+    "data-governance-quality-metrics-monitoring-incidents": "concepts/data-governance-quality-metrics-monitoring-incidents.md",
+    "data-governance-quality-questionnaire-coverage": "concepts/data-governance-quality-questionnaire-coverage.md",
+    "data-governance-quality-risks-impacts": "concepts/data-governance-quality-risks-impacts.md",
+    "data-governance-quality-roles-decisions": "concepts/data-governance-quality-roles-decisions.md",
+    "data-governance-quality-source-provenance": "concepts/data-governance-quality-source-provenance.md",
+    "data-leakage": "concepts/data-leakage.md",
+    "data-protection-authority-dpa": "concepts/data-protection-authority-dpa.md",
+    "data-protection-impact-assessments-dpia": "concepts/data-protection-impact-assessments-dpia.md",
+    "data-protection-index": "concepts/data-protection-index.md",
+    "data-protection-officer-dpo": "concepts/data-protection-officer-dpo.md",
+    "data-subject-access-requests": "concepts/data-subject-access-requests.md",
+    "data-subject-rights-ai": "concepts/data-subject-rights-ai.md",
+    "digital-omnibus": "concepts/digital-omnibus.md",
+    "edpb": "concepts/edpb.md",
+    "edps": "concepts/edps.md",
+    "eu-ai-act": "concepts/eu-ai-act.md",
+    "european-ai-office-eaio": "concepts/european-ai-office-eaio.md",
+    "explainability-and-interpretability": "concepts/explainability-and-interpretability.md",
+    "fundamental-right-impact-assessment-fria": "concepts/fundamental-right-impact-assessment-fria.md",
+    "gdpr": "concepts/gdpr.md",
+    "gdpr-article-22-automated-decision-making": "concepts/gdpr-article-22-automated-decision-making.md",
+    "genai-guardrails": "concepts/genai-guardrails.md",
+    "generative-ai": "concepts/generative-ai.md",
+    "gov-001-governance-decision-rights": "concepts/gov-001-governance-decision-rights.md",
+    "gov-002-lifecycle-change-reassessment": "concepts/gov-002-lifecycle-change-reassessment.md",
+    "gov-003-incident-and-abnormal-behaviour-records": "concepts/gov-003-incident-and-abnormal-behaviour-records.md",
+    "gov-004-governance-documentation-update-triggers": "concepts/gov-004-governance-documentation-update-triggers.md",
+    "gov-005-role-specific-ai-literacy": "concepts/gov-005-role-specific-ai-literacy.md",
+    "gov-006-societal-impact-feedback": "concepts/gov-006-societal-impact-feedback.md",
+    "gov-007-third-party-ai-assurance": "concepts/gov-007-third-party-ai-assurance.md",
+    "gov-008-ai-strategy-metrics-and-review": "concepts/gov-008-ai-strategy-metrics-and-review.md",
+    "gov-009-lifecycle-release-and-rollback": "concepts/gov-009-lifecycle-release-and-rollback.md",
+    "gov-010-ai-literacy-effectiveness": "concepts/gov-010-ai-literacy-effectiveness.md",
+    "gov-011-sustainability-impact-metrics": "concepts/gov-011-sustainability-impact-metrics.md",
+    "gpai-model": "concepts/gpai-model.md",
+    "hallucinations": "concepts/hallucinations.md",
+    "high-risk-ai-system-classification": "concepts/high-risk-ai-system-classification.md",
+    "human-in-the-loop-for-ai-agent-actions": "concepts/human-in-the-loop-for-ai-agent-actions.md",
+    "human-oversight": "concepts/human-oversight.md",
+    "internal-regulation-index": "concepts/internal-regulation-index.md",
+    "iso-23894": "concepts/iso-23894.md",
+    "iso-27001": "concepts/iso-27001.md",
+    "iso-31000": "concepts/iso-31000.md",
+    "iso-42001": "concepts/iso-42001.md",
+    "legal-001-ai-act-classification-record": "concepts/legal-001-ai-act-classification-record.md",
+    "legal-002-fria-trigger": "concepts/legal-002-fria-trigger.md",
+    "legal-003-dpia-ai-processing": "concepts/legal-003-dpia-ai-processing.md",
+    "legal-004-automated-decision-safeguards": "concepts/legal-004-automated-decision-safeguards.md",
+    "legal-005-data-subject-rights-readiness": "concepts/legal-005-data-subject-rights-readiness.md",
+    "legal-006-personal-data-governance-trigger": "concepts/legal-006-personal-data-governance-trigger.md",
+    "legal-index": "concepts/legal-index.md",
+    "legitimate-interest": "concepts/legitimate-interest.md",
+    "machine-learning": "concepts/machine-learning.md",
+    "mcp-and-agent-tool-governance": "concepts/mcp-and-agent-tool-governance.md",
+    "mit-ai-risk-initiative": "concepts/mit-ai-risk-initiative.md",
+    "mitre-atlas": "concepts/mitre-atlas.md",
+    "model-and-concept-drift": "concepts/model-and-concept-drift.md",
+    "multimodal-ai": "concepts/multimodal-ai.md",
+    "nist-ai-rmf": "concepts/nist-ai-rmf.md",
+    "open-weight-models": "concepts/open-weight-models.md",
+    "ori-001-ai-incident-response-playbook": "concepts/ori-001-ai-incident-response-playbook.md",
+    "ori-002-recovery-validation-and-lessons-learned": "concepts/ori-002-recovery-validation-and-lessons-learned.md",
+    "predictive-ai": "concepts/predictive-ai.md",
+    "privacy-preserving-ai": "concepts/privacy-preserving-ai.md",
+    "prompt-injection": "concepts/prompt-injection.md",
+    "questionnaires-index": "concepts/questionnaires-index.md",
+    "red-teaming": "concepts/red-teaming.md",
+    "retrieval-augmented-generation": "concepts/retrieval-augmented-generation.md",
+    "risk-001-model-validation-evidence": "concepts/risk-001-model-validation-evidence.md",
+    "risk-002-backtesting-design": "concepts/risk-002-backtesting-design.md",
+    "risk-003-model-monitoring-response": "concepts/risk-003-model-monitoring-response.md",
+    "risk-004-model-documentation-completeness": "concepts/risk-004-model-documentation-completeness.md",
+    "risk-005-prompt-injection-threat-model": "concepts/risk-005-prompt-injection-threat-model.md",
+    "risk-006-guardrail-placement": "concepts/risk-006-guardrail-placement.md",
+    "risk-007-red-team-remediation": "concepts/risk-007-red-team-remediation.md",
+    "risk-008-human-oversight-authority": "concepts/risk-008-human-oversight-authority.md",
+    "risk-009-misinformation-overreliance": "concepts/risk-009-misinformation-overreliance.md",
+    "risk-010-sensitive-data-disclosure-surfaces": "concepts/risk-010-sensitive-data-disclosure-surfaces.md",
+    "risk-011-data-quality-evaluation": "concepts/risk-011-data-quality-evaluation.md",
+    "risk-012-ai-supply-chain-inventory": "concepts/risk-012-ai-supply-chain-inventory.md",
+    "risk-013-agent-identity-and-access": "concepts/risk-013-agent-identity-and-access.md",
+    "risk-014-mcp-tool-governance": "concepts/risk-014-mcp-tool-governance.md",
+    "risk-015-data-governance-quality-evidence": "concepts/risk-015-data-governance-quality-evidence.md",
+    "risk-index": "concepts/risk-index.md",
+    "sr-11-7": "concepts/sr-11-7.md",
+    "synthetic-data": "concepts/synthetic-data.md",
+    "third-party-ai-assurance-and-shared-responsibility": "concepts/third-party-ai-assurance-and-shared-responsibility.md",
+    "toxic-or-biased-outputs": "concepts/toxic-or-biased-outputs.md",
+    "traceability": "concepts/traceability.md",
+    "uncertainty-and-calibration": "concepts/uncertainty-and-calibration.md"
+  },
+  "public": false,
+  "schema_version": 1,
+  "specification": {
+    "revision": "0b87c52c6ef999286c745e19998fdfcd03d5dbee",
+    "sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101",
+    "url": "https://raw.githubusercontent.com/GoogleCloudPlatform/open-knowledge-format/0b87c52c6ef999286c745e19998fdfcd03d5dbee/SPEC.md",
+    "version": "0.2"
+  },
+  "undated_publication_receipts": []
+}

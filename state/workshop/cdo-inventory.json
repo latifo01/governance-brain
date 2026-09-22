@@ -1,0 +1,507 @@
+[
+  {
+    "id": "agentic-ai",
+    "original_links": [],
+    "original_path": "AI concepts/Agentic AI.md",
+    "source_sha256": "e0c819adffb70d93e070a958c4cf67a9a7ceb6b02da5a15d3a4bbb2cb8511d23",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI concepts/agentic-ai.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "general-purpose-ai-gpai",
+    "original_links": [],
+    "original_path": "AI concepts/General-Purpose AI (GPAI).md",
+    "source_sha256": "ff589a1f2b8db379117f974341c8073e6bffc6f3dc5caee8ff9f0b04bdc86038",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "AI concepts/general-purpose-ai-gpai.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "generative-ai",
+    "original_links": [],
+    "original_path": "AI concepts/Generative AI.md",
+    "source_sha256": "5bd787afce05acd480a4e10fd2a91830a4ee05043c95df4822a70d4581da9d79",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI concepts/generative-ai.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "predictive-ai",
+    "original_links": [],
+    "original_path": "AI concepts/Predictive AI.md",
+    "source_sha256": "105aab7b98462957b3f36d1f099c084e5aff4328110fc9cb748406a67426dffc",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI concepts/predictive-ai.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "ai-model-backtesting",
+    "original_links": [],
+    "original_path": "AI Risk Mitigations/AI Model Backtesting.md",
+    "source_sha256": "46528a9d1b9e8daadd478debf75c215f7c9ab3e1084ae2d9790741d0ec2a46ea",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risk Mitigations/ai-model-backtesting.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "ai-model-documentation",
+    "original_links": [],
+    "original_path": "AI Risk Mitigations/AI Model Documentation.md",
+    "source_sha256": "063e92482fbba2e5e2cd9a746be56033644a64ff439e31e15004f93ccb1a49eb",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "AI Risk Mitigations/ai-model-documentation.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "ai-model-fairness-and-bias-avoidance",
+    "original_links": [],
+    "original_path": "AI Risk Mitigations/AI Model Fairness and bias avoidance.md",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "AI Risk Mitigations/ai-model-fairness-and-bias-avoidance.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "ai-model-monitoring",
+    "original_links": [],
+    "original_path": "AI Risk Mitigations/AI Model Monitoring.md",
+    "source_sha256": "7b1f126be182511b24e85a282271f3d38d06d2d8b7d030bc3577e48d1aa0e1a2",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "AI Risk Mitigations/ai-model-monitoring.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "ai-model-transparency",
+    "original_links": [],
+    "original_path": "AI Risk Mitigations/AI Model Transparency.md",
+    "source_sha256": "e98c7e775a9515f45f435bea1a06636753dd8b7a0f786ff1cc87b6ff1baf9156",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "AI Risk Mitigations/ai-model-transparency.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "ai-model-validation",
+    "original_links": [],
+    "original_path": "AI Risk Mitigations/AI Model Validation.md",
+    "source_sha256": "d7686801c54a89eb58f20567f243cbc8f17e99f77d317727092fed9023c6338b",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "AI Risk Mitigations/ai-model-validation.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "fundamental-right-impact-assessment-fria",
+    "original_links": [
+      "GDPR",
+      "Data Protection Impact Assessments (DPIA)"
+    ],
+    "original_path": "AI Risk Mitigations/Fundamental Right Impact Assessment (FRIA).md",
+    "source_sha256": "0073b46d286b07a88950efefee930b33e5ec69341ea8f3955d3f889973068536",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risk Mitigations/fundamental-right-impact-assessment-fria.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "genai-guardrails",
+    "original_links": [
+      "owasp-llm-top10",
+      "datadog-llm-guardrails",
+      "azure-ai-content-safety",
+      "nvidia-nemo-guardrails"
+    ],
+    "original_path": "AI Risk Mitigations/GenAI Guardrails.md",
+    "source_sha256": "d8d0c6e9e476b9d2f6106b82939f8c6ba7503eba4b39e938c4a368a1f7257d62",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risk Mitigations/genai-guardrails.md",
+    "unresolved_links": [
+      "azure-ai-content-safety",
+      "datadog-llm-guardrails",
+      "nvidia-nemo-guardrails",
+      "owasp-llm-top10"
+    ]
+  },
+  {
+    "id": "human-oversight",
+    "original_links": [
+      "EU AI Act"
+    ],
+    "original_path": "AI Risk Mitigations/Human oversight.md",
+    "source_sha256": "75586f915d14e80a166aaa439f3c605e617af79460b6cd67e2e1330ffa370242",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risk Mitigations/human-oversight.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "red-teaming",
+    "original_links": [],
+    "original_path": "AI Risk Mitigations/Red-teaming.md",
+    "source_sha256": "735511606222fde6da34a881bb2fc4fa7a02f500727319870ec97fbf508e8f6f",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risk Mitigations/red-teaming.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "traceability",
+    "original_links": [],
+    "original_path": "AI Risk Mitigations/Traceability.md",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "AI Risk Mitigations/traceability.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "data-leakage",
+    "original_links": [],
+    "original_path": "AI Risks/Data leakage.md",
+    "source_sha256": "e1512421057c7a6ae3c76fb137054b5fbcc4da7272f7d3b42b152b7e8521b17d",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risks/data-leakage.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "hallucinations",
+    "original_links": [],
+    "original_path": "AI Risks/hallucinations.md",
+    "source_sha256": "795d0e6074be7fa244cfd36411601887f0dca537ea2bb0cfc15b17078283f5d3",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risks/hallucinations.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "mit-ai-risk-initiative",
+    "original_links": [],
+    "original_path": "AI Risks/MIT AI Risk Initiative.md",
+    "source_sha256": "dca65bfb830f3c14633033f425eba959f392d561f9076d74891373fae1dafa13",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risks/mit-ai-risk-initiative.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "prompt-injection",
+    "original_links": [],
+    "original_path": "AI Risks/prompt injection.md",
+    "source_sha256": "a205c93886cb8abdd517307665b282670dcf09bfe05df75b0175229cbc985ae6",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risks/prompt-injection.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "toxic-or-biased-outputs",
+    "original_links": [],
+    "original_path": "AI Risks/toxic or biased outputs.md",
+    "source_sha256": "8bf3682fb027f27396a41cb95ac72702442eb47a8b0f335fca3c67d24db35078",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "AI Risks/toxic-or-biased-outputs.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "automatic-decision-making-assessment-adma",
+    "original_links": [
+      "GDPR",
+      "Data Protection Impact Assessments (DPIA)"
+    ],
+    "original_path": "Data & AI Laws/Data Privacy/Automatic Decision Making Assessment (ADMA).md",
+    "source_sha256": "b1d5038de66e7d75a5632d9b473eca1c7e2218fdc206f8fcecfba50bbbe52685",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Data & AI Laws/Data Privacy/automatic-decision-making-assessment-adma.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "data-protection-authority-dpa",
+    "original_links": [],
+    "original_path": "Data & AI Laws/Data Privacy/Data Protection Authority (DPA).md",
+    "source_sha256": "fb0029a51f2699f5df2fbfb9f54ea85e86f410e704a0a9a4e078cb4a146884cf",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Data & AI Laws/Data Privacy/data-protection-authority-dpa.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "data-protection-impact-assessments-dpia",
+    "original_links": [],
+    "original_path": "Data & AI Laws/Data Privacy/Data Protection Impact Assessments (DPIA).md",
+    "source_sha256": "56ca9e5bdb12cfe481405066d3f5fe9a7db62ff6f259d59a50b5289712c62022",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Data & AI Laws/Data Privacy/data-protection-impact-assessments-dpia.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "data-protection-officer-dpo",
+    "original_links": [
+      "GDPR"
+    ],
+    "original_path": "Data & AI Laws/Data Privacy/Data Protection Officer (DPO).md",
+    "source_sha256": "fb20025eab6229ad2d81871f33fc3494fdba841606b02c7e962d2433f063b347",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Data & AI Laws/Data Privacy/data-protection-officer-dpo.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "data-subject-access-requests",
+    "original_links": [],
+    "original_path": "Data & AI Laws/Data Privacy/Data Subject Access Requests.md",
+    "source_sha256": "108d73a983a5411d7a5b6997f3a3a15ad28830da9fb91b19581f1aaa01764740",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "Data & AI Laws/Data Privacy/data-subject-access-requests.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "gdpr",
+    "original_links": [
+      "EEA",
+      "Data Protection Authority (DPA)|Data Protection Authority",
+      "Data Protection Impact Assessments (DPIA)",
+      "Data Protection Officer (DPO)",
+      "EEA"
+    ],
+    "original_path": "Data & AI Laws/Data Privacy/GDPR.md",
+    "source_sha256": "c86c0323b08064255f272ff14be67b303850fe049c2bbb72c654e7c10eca18f6",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Data & AI Laws/Data Privacy/gdpr.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "digital-omnibus",
+    "original_links": [
+      "GDPR",
+      "EU AI Act|AI Act",
+      "CJEU",
+      "Data Subject Access Requests",
+      "Data Protection Authority (DPA)"
+    ],
+    "original_path": "Data & AI Laws/Digital Omnibus.md",
+    "source_sha256": "6b5738c697288e9b44544560865182a8ab9769aa4cbd7156aef14040225b1baf",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Data & AI Laws/digital-omnibus.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "eu-ai-act",
+    "original_links": [
+      "Digital Omnibus",
+      "General-Purpose AI (GPAI)",
+      "EU AI Office",
+      "AI Board",
+      "Human oversight",
+      "Fundamental Right Impact Assessment (FRIA)",
+      "EEA",
+      "EEA"
+    ],
+    "original_path": "Data & AI Laws/EU AI Act.md",
+    "source_sha256": "51b7de63bdbd41873319b06faabb8d010089dfc14191d0d2ce117541b368ab9a",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Data & AI Laws/eu-ai-act.md",
+    "unresolved_links": [
+      "EU AI Office"
+    ]
+  },
+  {
+    "id": "sr-11-7",
+    "original_links": [],
+    "original_path": "Data & AI Laws/SR 11.7.md",
+    "source_sha256": "532ca5fa6b6760f73b10e6a33ddf5307551efe9782fbbc801d599422a586edd4",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Data & AI Laws/sr-11-7.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "2022-air-canada-chatbot",
+    "original_links": [],
+    "original_path": "Famous AI incidents/2022 Air Canada chatbot.md",
+    "source_sha256": "5cf0a3bdf340c5c31bfb28036084264ecd31b711553b086b6972fc1e72f38c72",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Famous AI incidents/2022-air-canada-chatbot.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "2023-chevrolet-of-watsonville",
+    "original_links": [
+      "prompt injection"
+    ],
+    "original_path": "Famous AI incidents/2023 Chevrolet of Watsonville.md",
+    "source_sha256": "d9f0895368ed6b1e327ecf1473d8155bc954b46e87e37e4542378a38ca370d4d",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Famous AI incidents/2023-chevrolet-of-watsonville.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "aml-m0029",
+    "original_links": [],
+    "original_path": "mitigations/AML.M0029.md",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "AI Risk Mitigations/aml-m0029.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "ai-impact-assessment-aiia",
+    "original_links": [
+      "EU AI Act",
+      "Fundamental Right Impact Assessment (FRIA)|FRIA"
+    ],
+    "original_path": "Norms & Frameworks/AI Impact Assessment (AIIA).md",
+    "source_sha256": "aaf4f309aac9f6e1c6d2164a50b26a1950b1eb476db89d567e0e0f56da005418",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Norms & Frameworks/ai-impact-assessment-aiia.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "aiuc-1",
+    "original_links": [
+      "SOC 2",
+      "AIUC",
+      "SOC 2",
+      "ISO 27001",
+      "prompt injection",
+      "unauthorized tool/API calls",
+      "hallucinations",
+      "toxic or biased outputs",
+      "data leaks",
+      "prompt injection",
+      "EU AI Act",
+      "MITRE ATLAS"
+    ],
+    "original_path": "Norms & Frameworks/AIUC-1.md",
+    "source_sha256": "d396b992f357c85a82a4dca87e5e7192b616a0ce6bf89cace9c282b23a551c3b",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Norms & Frameworks/aiuc-1.md",
+    "unresolved_links": [
+      "AIUC",
+      "SOC 2",
+      "data leaks",
+      "unauthorized tool/API calls"
+    ]
+  },
+  {
+    "id": "iso-23894",
+    "original_links": [
+      "ISO 31000",
+      "ISO 42001\\|ISO/IEC 42001",
+      "ISO 31000"
+    ],
+    "original_path": "Norms & Frameworks/ISO 23894.md",
+    "source_sha256": "2128b95100798a14a632175ebb8ba977d9b565b098477352d383901acde49e1d",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Norms & Frameworks/iso-23894.md",
+    "unresolved_links": [
+      "ISO 42001\\"
+    ]
+  },
+  {
+    "id": "iso-27001",
+    "original_links": [],
+    "original_path": "Norms & Frameworks/ISO 27001.md",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "Norms & Frameworks/iso-27001.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "iso-31000",
+    "original_links": [],
+    "original_path": "Norms & Frameworks/ISO 31000.md",
+    "source_sha256": "b395e5cf976f64864ed16c1d4c4fab347dd945f4cccda5de02fc0eae0a74aaf7",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Norms & Frameworks/iso-31000.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "iso-42001",
+    "original_links": [
+      "ISO 23894",
+      "IEC",
+      "AI Impact Assessment (AIIA)"
+    ],
+    "original_path": "Norms & Frameworks/ISO 42001.md",
+    "source_sha256": "605133e4ad3b737d51924e572a0b019f84f5ce4e81b8e910bb4e37a05799daf6",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Norms & Frameworks/iso-42001.md",
+    "unresolved_links": [
+      "IEC"
+    ]
+  },
+  {
+    "id": "mitre-atlas",
+    "original_links": [],
+    "original_path": "Norms & Frameworks/MITRE ATLAS.md",
+    "source_sha256": "c2769c14595ca2c29253428c55c335701b998f0e5ad44f7f3de58cfb6676e2b4",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Norms & Frameworks/mitre-atlas.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "nist-ai-rmf",
+    "original_links": [
+      "NIST"
+    ],
+    "original_path": "Norms & Frameworks/NIST AI RMF.md",
+    "source_sha256": "d9995cf0829b3b9b7b5fe7be8bb964539943925e40ae159222937890c886c0f2",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Norms & Frameworks/nist-ai-rmf.md",
+    "unresolved_links": [
+      "NIST"
+    ]
+  },
+  {
+    "id": "ai-board",
+    "original_links": [],
+    "original_path": "Organizations/AI Board.md",
+    "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "status": "EMPTY_BACKLOG",
+    "target_path": "Organizations/ai-board.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "cjeu",
+    "original_links": [],
+    "original_path": "Organizations/CJEU.md",
+    "source_sha256": "9baec77bbcdebbbc67215036a86fb325799837731befe4440430b5192a6a01ed",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Organizations/cjeu.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "cosai",
+    "original_links": [],
+    "original_path": "Organizations/CoSAI.md",
+    "source_sha256": "849035a1d802bbdfc665d756bf84e9e8c75a3481527c519fbbab67eb042fa3b6",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Organizations/cosai.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "eea",
+    "original_links": [],
+    "original_path": "Organizations/EEA.md",
+    "source_sha256": "5ee2279947f9314e97ae2757bb244c3d10df4ea8be08cda5843a2c9ee9318fb7",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Organizations/eea.md",
+    "unresolved_links": []
+  },
+  {
+    "id": "european-ai-office-eaio",
+    "original_links": [
+      "European Commission",
+      "European Commission",
+      "EU AI Act",
+      "General-Purpose AI (GPAI)|General-Purpose AI",
+      "General-Purpose AI (GPAI)|GPAI",
+      "EU AI Act|EU AI Act"
+    ],
+    "original_path": "Organizations/European AI Office (EAIO).md",
+    "source_sha256": "f74cc63973e6cb4edf308dcf699c807f04e55e3a9a130466d2fbf27fd439d1d5",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "Organizations/european-ai-office-eaio.md",
+    "unresolved_links": [
+      "European Commission"
+    ]
+  },
+  {
+    "id": "readme",
+    "original_links": [],
+    "original_path": "README.md",
+    "source_sha256": "8769aef5d054195b32c6a22fa5389489c5a4860039928fc7128d304d3366d342",
+    "status": "EDITORIAL_REVIEW_REQUIRED",
+    "target_path": "readme.md",
+    "unresolved_links": []
+  }
+]

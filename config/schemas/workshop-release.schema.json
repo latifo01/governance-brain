@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://governance360.local/schemas/workshop-release.schema.json",
+  "title": "Governance Brain domain release manifest v2",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "proposal_id",
+    "status",
+    "published",
+    "domain",
+    "risk_tier",
+    "evidence_changes",
+    "contract_changes",
+    "contains_binding_claims",
+    "contains_legal_interpretation",
+    "shards",
+    "changes"
+  ],
+  "properties": {
+    "schema_version": {"const": 2},
+    "proposal_id": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "status": {"enum": ["DRAFT", "PROPOSAL_READY", "HUMAN_REVIEW", "APPROVED", "INTEGRATED"]},
+    "published": {"type": "boolean"},
+    "domain": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]*$"},
+    "risk_tier": {"enum": ["fast", "strict"]},
+    "evidence_changes": {"type": "boolean"},
+    "contract_changes": {"type": "boolean"},
+    "contains_binding_claims": {"type": "boolean"},
+    "contains_legal_interpretation": {"type": "boolean"},
+    "shards": {
+      "type": "array",
+      "maxItems": 3,
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}
+    },
+    "requires_proposals": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}
+    },
+    "files": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+\\.md$"}
+    },
+    "candidate_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "changes": {
+      "type": "object",
+      "required": ["ADD", "UPDATE", "SUPERSEDE", "NOOP"],
+      "properties": {
+        "ADD": {"$ref": "#/$defs/ids"},
+        "UPDATE": {"$ref": "#/$defs/ids"},
+        "SUPERSEDE": {"$ref": "#/$defs/ids"},
+        "NOOP": {"$ref": "#/$defs/ids"}
+      },
+      "additionalProperties": false
+    }
+  },
+  "$defs": {
+    "ids": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"}
+    }
+  },
+  "additionalProperties": true
+}

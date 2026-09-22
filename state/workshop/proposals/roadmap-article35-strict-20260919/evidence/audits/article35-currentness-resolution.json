@@ -1,0 +1,150 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "stage": "CURRENTNESS_RESOLUTION",
+  "audit_kind": "CURRENTNESS_RESOLUTION",
+  "status": "PARTIAL_BLOCKED",
+  "review_date": "2026-09-19",
+  "assignment_path": "state/workshop/proposals/roadmap-article35-strict-20260919/analysis/currentness-assignment.json",
+  "assignment_sha256": "8c8ab862fa27abd2b99e2174df40a2957b97618500b0cf090dcb153fddfcef2b",
+  "scope": "GDPR Articles 35, 36 and 39; AI Act Article 26(9), Article 27(4)-(5), and the Article 113 application schedule.",
+  "sources": [
+    {
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "normativity": "BINDING",
+      "role": "base_GDPR_text"
+    },
+    {
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "normativity": "BINDING",
+      "role": "base_AI_Act_text"
+    },
+    {
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "normativity": "BINDING",
+      "role": "amending_AI_Act_text"
+    }
+  ],
+  "input_receipts": {
+    "source_manifest_sha256": "86d01546b899db6a71b658ac4de338725f5c6c12552e0d4bcd977e2db4a7ffee",
+    "source_classification_events_sha256": "f95af18d3adabd4e0dc148a618e739b11cf9cd664f6ca63d2bbf1e3ff5b820c8",
+    "src0043_audit_path": "state/workshop/proposals/wave-2-ai-act-gate-lot-012/evidence/audits/SRC-0043-audit.json",
+    "src0043_audit_sha256": "661be71e60bdb8a8cfd7cbcdedf160f90edf3563c540c08b1a50c7226a52b570",
+    "src0043_fidelity_path": "state/workshop/proposals/wave-2-ai-act-gate-lot-012/evidence/SRC-0043-fidelity.json",
+    "src0043_fidelity_sha256": "e2286cbb68903e5e04fe947be230f1e5454d6f23991e214fe32d680d7d31dbdc"
+  },
+  "resolutions": [
+    {
+      "target": "GDPR Articles 35, 36 and 39",
+      "status": "UNRESOLVED_LOCAL_CURRENTNESS",
+      "base_evidence": [
+        {
+          "source_id": "SRC-0010",
+          "locators": [
+            "Page 53",
+            "Page 54",
+            "Page 55",
+            "Page 56"
+          ],
+          "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499"
+        }
+      ],
+      "finding": "The local repository contains the official GDPR text classified BINDING and the assigned units match their hashes. No enacted GDPR amending act covering Articles 35, 36 or 39 is present in the local source manifest. SRC-0014 is a Digital Omnibus proposal without a binding classification event and cannot resolve current law.",
+      "usable_for_binding": false,
+      "temporal_effect": {
+        "as_of": "2026-09-19",
+        "application": "NOT_RESOLVED",
+        "basis": "A local absence search is not proof that no external amendment or corrigendum exists."
+      }
+    },
+    {
+      "target": "AI Act Article 26(9)",
+      "status": "RESOLVED_WITH_TEMPORAL_QUALIFIER",
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 220",
+          "unit_content_sha256": "aa9a070bfc5cc4147319318f88b78f4607d4e7a7c2e515b94862a6ac75109d4f",
+          "unit_file_sha256": "f0ba15053d06d6a000f5e018964f5a6aab23491633837e0b5ce8722f0a49eeb8"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 35",
+          "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+          "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+        }
+      ],
+      "finding": "No direct amendment to the Article 26(9) wording is identified in the assigned SRC-0043 amendment unit. The amended Article 113 schedule changes the application timing for Chapter III Sections 1, 2 and 3 by high-risk route, so the Article 26(9) candidate must carry the applicable Annex I or Annex III temporal qualifier.",
+      "usable_for_binding": false,
+      "temporal_effect": {
+        "as_of": "2026-09-19",
+        "application": "ROUTE_DEPENDENT",
+        "basis": "SRC-0043 Page 35 states 2 December 2027 for Article 6(2)/Annex III systems and 2 August 2028 for Article 6(1)/Annex I systems, subject to the stated exception."
+      }
+    },
+    {
+      "target": "AI Act Article 27(4)-(5)",
+      "status": "SUPERSEDED_BY_AMENDMENT",
+      "base_evidence": [
+        {
+          "source_id": "SRC-0011",
+          "locator": "Page 224",
+          "unit_content_sha256": "5edbe42945883163e8dc196dcb1b61ff9bb64f8f7e9dd5907ea14ade0b26fdf1",
+          "unit_file_sha256": "0a49dfed270bf3c88f4bbaaaa155339bbc088a974bdf61abc002ed9da34c19f1"
+        }
+      ],
+      "amendment_evidence": [
+        {
+          "source_id": "SRC-0043",
+          "locator": "Page 20",
+          "unit_content_sha256": "24eb2a464443dc4ada59da54d94951581b306e5323c3f6a4bb676cc6ff649185",
+          "unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38"
+        }
+      ],
+      "finding": "SRC-0043 Article 2(13) replaces Article 27(4) and (5). The base candidate wording from SRC-0011 Page 224 must not be treated as current without a new candidate based on the amended text. The relationship remains relevant, but the amended language permits cross-references or inclusion of relevant parts and extends that option to the questionnaire template.",
+      "usable_for_binding": false,
+      "temporal_effect": {
+        "as_of": "2026-09-19",
+        "application": "AMENDED_TEXT_IN_FORCE_WITH_ARTICLE_113_QUALIFIER",
+        "basis": "SRC-0043 Page 41 states entry into force on the third day after Official Journal publication; Page 35 separately controls Chapter III application dates."
+      }
+    }
+  ],
+  "watch_items": [
+    {
+      "source_id": "SRC-0014",
+      "source_sha256": "72530019cd364ffbd2d1b5f7dfe367d523fd7a6bc8e4ffed42ae8ab51050e351",
+      "status": "PROPOSAL_ONLY",
+      "finding": "Digital Omnibus proposal may discuss GDPR amendments but has no local binding classification event and is not used to establish current law."
+    }
+  ],
+  "blockers": [
+    {
+      "code": "GDPR_CURRENTNESS_UNRESOLVED",
+      "detail": "Resolve currentness of GDPR Articles 35, 36 and 39 with an authorised current binding source or a formally approved local currentness decision."
+    },
+    {
+      "code": "ARTICLE_27_REEXTRACTION_REQUIRED",
+      "detail": "Replace the superseded Article 27 candidate with a candidate based on SRC-0043 Page 20 and preserve the Article 113 temporal qualifier."
+    },
+    {
+      "code": "ARTICLE_26_TEMPORAL_SCOPE_REQUIRED",
+      "detail": "Retain the Article 26(9) cross-reference only with the route-dependent application dates from SRC-0043 Page 35."
+    }
+  ],
+  "required_next_steps": [
+    "Create a new bounded extraction candidate for amended Article 27(4)-(5) from SRC-0043 Page 20.",
+    "Update the Article 26(9) candidate with the Article 113 route-dependent application qualifier.",
+    "Resolve GDPR currentness through an authorised current binding source or explicitly keep the Article 35 release blocked.",
+    "Rerun independent evidence review after these changes; do not create an evidence-lock before a non-blocked verdict."
+  ],
+  "warnings": [
+    "This is a currentness resolution receipt, not legal advice, an evidence lock or human approval.",
+    "No source original, ingest unit or active vault note was modified."
+  ]
+}

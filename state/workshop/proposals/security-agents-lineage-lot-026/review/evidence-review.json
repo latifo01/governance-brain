@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY",
+  "evidence_lock_sha256": "156f2ece934b11746004c1e456a5e707f0d77b3ecdcf306f8ac6cdd3edf43baf",
+  "reviewer_identity": "codex-security-agents-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {"severity": "INFO", "code": "RECEIPT_VERIFIED", "detail": "Ten selected OWASP and NIST units resolve with exact source, unit and fidelity hashes."},
+    {"severity": "INFO", "code": "SECTION_BINDINGS_VERIFIED", "detail": "Five substantive genai-guardrails sections have one exact reviewed evidence binding."},
+    {"severity": "INFO", "code": "NON_BINDING_SCOPE", "detail": "OWASP guidance and NIST framework evidence support controls and expectations; no legal obligation is asserted."},
+    {"severity": "WARNING", "code": "LEGAL_CURRENCY_UNKNOWN", "detail": "Current legal amendments and supervisory interpretations were not assessed."}
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 3,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "AUDIT_ASSURANCE",
+    "GOVERNANCE_ACCOUNTABILITY"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 8
+    },
+    "native_unit_count": 8,
+    "normalized_unit_count": 8,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 8,
+    "unit_count": 8
+  },
+  "relative_source_paths": [
+    "sources/01_AI_Auditing/ai-auditing_proposal-for-algo-scores_edpb-spe-programme_en.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0003",
+  "source_kind": "document",
+  "source_sha256": "edc972e30f5c2c264b8ea449e291c3457754584a248706e647bca0c7ecf81e68",
+  "units": [
+    {
+      "content_sha256": "b4cc814eda7418284e0e85701ceaa1578ba4c21784c3c8c1279105c452c87bc6",
+      "file_sha256": "f0b8beb815894e7b448e78a3692e9409b83604bfeb0187847de9f90c17b2d2cf",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "a5d9c481b2240724f0d60559881ec851c9d188d8541992f8ef5fcb43040acf61",
+      "file_sha256": "a76af910b4427abc4f3376a9ee06c360435e7c7def25eb035ce8f843fb06fce1",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "c621bad66c0dc6248b7745e0afa70fa38fd229037cc048278414c529e4a778dd",
+      "file_sha256": "c420b091b727ac57b2bed1ffa9296fc21bd4d80ede702c0d0a313f4701fea730",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "97e03b2a08109fb131ed2ed2b996b7fb65fa55f7d157bccaa73bd9eab9f460a7",
+      "file_sha256": "0fc4ddb7f1805988f67c7e006c168b498453e9a4f873cc46b9be7299d100282d",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "67d74eb4241a1bca71f7330cfcf20aa7c9ec085c733d9dc970b4fa86f2e6e574",
+      "file_sha256": "dcb226c21bba752b7dc249f38b6ddd18e47254b2e94aa019f6c3f9d1b76f4671",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "c51891beff9e1736c60ec953ea978df2f2d7a65c35334533ed888ba02c476fcc",
+      "file_sha256": "cb98e578c9f951445bc7a57f735ab40891eaa9efce1c72c06b3c6a7733ff57a7",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "44fe16c44171a8bc37597d2f23ed1759e4f534626d0221aae19653ae1fc81c6c",
+      "file_sha256": "21252280a3d3772c5f2e136059bd1d54b9800b2eb246822836268451cbcd7ac4",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "a4a7cd57e7d0b47e44c97d8b2d5c56788f0a21586e2e371e6daf14760121adce",
+      "file_sha256": "965774b48d00ee227379236d1efd73de9e6ed1c8fa9d3d6eec4fb183ed4db5bc",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 15311,
+      "native_unit_count": 8,
+      "normalized_unit_count": 8
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

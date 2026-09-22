@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-036-security-oversight",
+  "status": "PROPOSAL_READY",
+  "source_count": 5,
+  "verified_reference_count": 12,
+  "uncertain_candidates_excluded": 3,
+  "target_count": 4,
+  "updated_note_count": 4,
+  "updated_question_count": 2,
+  "updated_knowledge_count": 2,
+  "evidence_binding_count": 12,
+  "authority_counts": {
+    "RESEARCH": 1,
+    "GUIDANCE": 2,
+    "FRAMEWORK": 1,
+    "BINDING": 0
+  },
+  "scenario_family_count": 2,
+  "scenario_families": [
+    "eval-07",
+    "eval-08"
+  ],
+  "active_vault_modified": false,
+  "shared_state_modified": false,
+  "benchmark_config_modified": false,
+  "limits": [
+    "Uncertain visual-fidelity candidates remain excluded.",
+    "SRC-0016 uncertain human-oversight pages are not used.",
+    "No binding claim, legal interpretation, universal requirement or certification claim is proposed.",
+    "The receipt is proposal-local; deterministic integration must stage it in the shared evidence library.",
+    "One stale non-locked binding identifier was corrected to an existing verified SRC-0026 Page 11 reference; no source or ingest content changed."
+  ],
+  "candidate_sha256": "9c8885080f42d06bd12f1fdcfd10785336eeb5d53b1413f3005d4fb97c0f81bd",
+  "evidence_lock_sha256": "a7e575260c701525786027304fa3448934967fd583427393918580fb1caed438"
+}

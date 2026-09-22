@@ -1,0 +1,3895 @@
+{
+  "schema_version": 1,
+  "receipt_id": "provenance-repair-20260920",
+  "author_identity": "codex-provenance-repair-domain-builder",
+  "evidence": [
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0004-p0003",
+      "source_id": "SRC-0004",
+      "source_sha256": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78",
+      "unit_path": "ingest/SRC-0004/units/p0003.md",
+      "unit_sha256": "96035d397ee5334635ae1c4ba12998f29aa3f2ab989763746a2676f8a293634c",
+      "unit_file_sha256": "1f938907c7e444c663dc80ff7e381ecb8e750cd2b3762b0b4582a23f75664e6d",
+      "locator": "Page 3",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0004-p0010",
+      "source_id": "SRC-0004",
+      "source_sha256": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78",
+      "unit_path": "ingest/SRC-0004/units/p0010.md",
+      "unit_sha256": "3b4d9eff841c6e2486dbb57d6c8a2594e01fce85c9b0d21a6a2b58411b5a0b2e",
+      "unit_file_sha256": "1014d5034713a5ff8c052c31bf8120d3bd2ca0227f1f6431a25bd1262c062b22",
+      "locator": "Page 10",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0004-p0014",
+      "source_id": "SRC-0004",
+      "source_sha256": "843a6728009540947b2c5531f94b4cf1fb698d5bf3b51b324c8801e3e01c5b78",
+      "unit_path": "ingest/SRC-0004/units/p0014.md",
+      "unit_sha256": "4bfd015cd9fb2ef41fbb955fedab48416973b017e83241130b88c54a69e2e3d6",
+      "unit_file_sha256": "bbcd90d4873de0e54294825679add213fb28a14d2b01c75da0e4a633aa87e7a1",
+      "locator": "Page 14",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0005-p0005",
+      "source_id": "SRC-0005",
+      "source_sha256": "5bf139ef553b98dbfc2e8734e991216bae47fb99b73881b89f3ca3e39f71c8b4",
+      "unit_path": "ingest/SRC-0005/units/p0005.md",
+      "unit_sha256": "c9f05765965082d506b95f4420e5462375317067fb51787ebc281d7b59755559",
+      "unit_file_sha256": "94b88f306fe9999a235594edb7f7b396998906c1564dda18cb7dd0cf4f8ba43e",
+      "locator": "Page 5",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0005-p0007",
+      "source_id": "SRC-0005",
+      "source_sha256": "5bf139ef553b98dbfc2e8734e991216bae47fb99b73881b89f3ca3e39f71c8b4",
+      "unit_path": "ingest/SRC-0005/units/p0007.md",
+      "unit_sha256": "8dfe91b1c6d44d0a2bfb85161ec4b8ad48c759ab2b1bcae4989ab9fd2711e47a",
+      "unit_file_sha256": "66cfbdab233da6f456b878c3bb63ead7491ca8f0a198217c90681235a10cce17",
+      "locator": "Page 7",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0005-p0008",
+      "source_id": "SRC-0005",
+      "source_sha256": "5bf139ef553b98dbfc2e8734e991216bae47fb99b73881b89f3ca3e39f71c8b4",
+      "unit_path": "ingest/SRC-0005/units/p0008.md",
+      "unit_sha256": "e08adc9b61a9b9a16240c1138a495c625b663deb1914938d04884c6e159a3a08",
+      "unit_file_sha256": "ba34f03f18406936cfb4898afbc5cc12f918bb4c2cf7cc2d7bc2222e111d03de",
+      "locator": "Page 8",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0005-p0009",
+      "source_id": "SRC-0005",
+      "source_sha256": "5bf139ef553b98dbfc2e8734e991216bae47fb99b73881b89f3ca3e39f71c8b4",
+      "unit_path": "ingest/SRC-0005/units/p0009.md",
+      "unit_sha256": "b9b3246034f829c0bd2c568a5a481366d27391f4a801a590b252d14d8fb8b936",
+      "unit_file_sha256": "81590950cc3e99f4f552802df45e882692e6bf9fcc532788d86d490ed4572128",
+      "locator": "Page 9",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0005-p0010",
+      "source_id": "SRC-0005",
+      "source_sha256": "5bf139ef553b98dbfc2e8734e991216bae47fb99b73881b89f3ca3e39f71c8b4",
+      "unit_path": "ingest/SRC-0005/units/p0010.md",
+      "unit_sha256": "8e21ca933a8965d09f52b86e871f9bfdb37b6e7da159ff6a26e8c9a191c51a66",
+      "unit_file_sha256": "1338565058499c53a5b691128f14fb0df5ca3e99640e531289a7693b5d806a91",
+      "locator": "Page 10",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0005-p0011",
+      "source_id": "SRC-0005",
+      "source_sha256": "5bf139ef553b98dbfc2e8734e991216bae47fb99b73881b89f3ca3e39f71c8b4",
+      "unit_path": "ingest/SRC-0005/units/p0011.md",
+      "unit_sha256": "0ca9af4c6bd42a45df1a767ea1ba5b42f508248b550053b9983015a8aa3158c0",
+      "unit_file_sha256": "623f83b1303e0bd92d421eeb30eae753aeed31de6ba8738396de1ce0abbb0d3a",
+      "locator": "Page 11",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0009-p0009",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0009.md",
+      "unit_sha256": "d7a73e0a3afdfa2b518e788dbc18c8ff14dbdd2336ba76fc9f734347f7b370c5",
+      "unit_file_sha256": "265e04709250834cb7c0e2c468929b005c45f61d534844e439fdb5b9d0a3c151",
+      "locator": "Page 9",
+      "authority": "RESEARCH",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0009-p0010",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0010.md",
+      "unit_sha256": "9b3880abc4c1650d731dcdfa434a09491f914271ed1cc17e71572eddcd5c19e0",
+      "unit_file_sha256": "01401bafdfc32110b78ea4bac61148e320e10a8f2e8daddc6be2b6631a94ca59",
+      "locator": "Page 10",
+      "authority": "RESEARCH",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0009-p0016",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0016.md",
+      "unit_sha256": "8c27fb9b2cb4c76569cfd10dc5f0f076a0256fdbca5260d0c5c87f1d381f07c5",
+      "unit_file_sha256": "cddf3a698db16b5052d78f6d54783b7ada41f162d212045708d0836cdecbc6c8",
+      "locator": "Page 16",
+      "authority": "RESEARCH",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0009-p0022",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0022.md",
+      "unit_sha256": "809e7d44e005b72a08315f3de0fcfd689f2b49cf65311055b8a252bad65086be",
+      "unit_file_sha256": "8627cfdd78713e6f988f5d0fc8b1a16f827ec854f5f3fb2a1977a77eea6e4be0",
+      "locator": "Page 22",
+      "authority": "RESEARCH",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0009-p0023",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0023.md",
+      "unit_sha256": "e10243ef6a6f1ec0f822ff3a3990588c780ba0f2289a514cf940164c5ecc9af3",
+      "unit_file_sha256": "cd984d3fd9d2bcb10069faa43d57fe91109550f59eb8c932debe684bda95911b",
+      "locator": "Page 23",
+      "authority": "RESEARCH",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0009-p0028",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0028.md",
+      "unit_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+      "unit_file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+      "locator": "Page 28",
+      "authority": "RESEARCH",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0010-p0008",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0008.md",
+      "unit_sha256": "2fba121eac9ad24f5ddf70cd30d5591922df6bf1a34a4b7539a66a4574f0bc0e",
+      "unit_file_sha256": "11b2ec8edb175da464378cd5fb5be9b9d310b5a775a7741a9a9f1db5515c6e60",
+      "locator": "Page 8",
+      "authority": "BINDING",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0010-p0025",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0025.md",
+      "unit_sha256": "7bf2c83ee96b1ac972735b4ac2e73a67dc609d833b97803a516fe90bf6d61a34",
+      "unit_file_sha256": "f02fbf8c6817540466597d6bebde7359918d9e29f3ce4b177d2e4ed2065b3a03",
+      "locator": "Page 25",
+      "authority": "BINDING",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0010-p0026",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0026.md",
+      "unit_sha256": "cfdc06d81f835e74650dfb046e430753a4b14c730d1cc43f3e90b3bf6b8df27b",
+      "unit_file_sha256": "56da9083d7e7c8adc06942f596d5185e997f838e7c8730db005fe4cdfc8c64c1",
+      "locator": "Page 26",
+      "authority": "BINDING",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0010-p0031",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0031.md",
+      "unit_sha256": "a1aeceade2398abac97f45218b10ef6daad30dd1c7869d333651a7e6e966ad5d",
+      "unit_file_sha256": "081d03b0d9a95dfa8623a2a52919824eba12ec2927861368098ebabde8fa75ee",
+      "locator": "Page 31",
+      "authority": "BINDING",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0010-p0076",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0076.md",
+      "unit_sha256": "4d5cf6c0182d986f87f6ca5fd46a8db85949a3b59f410b407849c81ce06f0a20",
+      "unit_file_sha256": "037e3b8cc6ef11f5f32f9b741519af1f17f8739398a521bc3d63ef2bdde52673",
+      "locator": "Page 76",
+      "authority": "BINDING",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0010-p0079",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0079.md",
+      "unit_sha256": "3f3853564dcf88c5dd64c57fdeb688484b7be959d1f76951d879fcf5372462ee",
+      "unit_file_sha256": "8eb64bb0d5fcf8a4d1005323420bf2ed70837325a06d337c6f8f9d9403103d76",
+      "locator": "Page 79",
+      "authority": "BINDING",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0012-p0007",
+      "source_id": "SRC-0012",
+      "source_sha256": "34bb6ec6658725d5a66c99af1dbea0f42ff97c716944cacb47633088a17f1148",
+      "unit_path": "ingest/SRC-0012/units/p0007.md",
+      "unit_sha256": "9bcef630983771e621f5c5d589825d9816271c5ab4910f7b8bc67ceb066ba56a",
+      "unit_file_sha256": "d275e9d084f0f5f4a5f76a031c2a4b0ca37891386522593e89baf9a0156d79a5",
+      "locator": "Page 7",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0012-p0012",
+      "source_id": "SRC-0012",
+      "source_sha256": "34bb6ec6658725d5a66c99af1dbea0f42ff97c716944cacb47633088a17f1148",
+      "unit_path": "ingest/SRC-0012/units/p0012.md",
+      "unit_sha256": "8ec8d3c549cf5875058e344caf9ce9d427d22a31d4e7299c2e204e3df185c584",
+      "unit_file_sha256": "4b219c2743dde2e84923421377b80abe9b176c754b1f64c9094b0e7ff18c2a73",
+      "locator": "Page 12",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0012-p0013",
+      "source_id": "SRC-0012",
+      "source_sha256": "34bb6ec6658725d5a66c99af1dbea0f42ff97c716944cacb47633088a17f1148",
+      "unit_path": "ingest/SRC-0012/units/p0013.md",
+      "unit_sha256": "0056a8aaf91a530bad6aacd8da06b0ee988c31d0c2fe06972265142ad28b2e68",
+      "unit_file_sha256": "aba17e026ecfe65bf989f8aab8c68d26dc96273cd3f2656932ecc9115bf4c71c",
+      "locator": "Page 13",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0012-p0014",
+      "source_id": "SRC-0012",
+      "source_sha256": "34bb6ec6658725d5a66c99af1dbea0f42ff97c716944cacb47633088a17f1148",
+      "unit_path": "ingest/SRC-0012/units/p0014.md",
+      "unit_sha256": "86e977b8e2252b19a15de74c704ed49938ad6a91c909752e410c6c2960b9d561",
+      "unit_file_sha256": "0e5099f51b2e29220b52324817b2f646ad61c309b9732ef69fc744df05b08ddb",
+      "locator": "Page 14",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0012-p0015",
+      "source_id": "SRC-0012",
+      "source_sha256": "34bb6ec6658725d5a66c99af1dbea0f42ff97c716944cacb47633088a17f1148",
+      "unit_path": "ingest/SRC-0012/units/p0015.md",
+      "unit_sha256": "7bdbb77ce5319b0408d8291f24f27c742f19e111113752bd29e3de2783ab53bf",
+      "unit_file_sha256": "8ef4c3ee6f4b440293bb7c4df0f5ffa07f3594aa3bd2ced7ddf26eb2fd298c8a",
+      "locator": "Page 15",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0012-p0016",
+      "source_id": "SRC-0012",
+      "source_sha256": "34bb6ec6658725d5a66c99af1dbea0f42ff97c716944cacb47633088a17f1148",
+      "unit_path": "ingest/SRC-0012/units/p0016.md",
+      "unit_sha256": "15ea619663113b50f509f114517b1f21ae4eadb71db0af3fcde16f49366e0f9f",
+      "unit_file_sha256": "c78df1665b73dd7e2604eeb23682c4eafe3404761095c8433a6b4d8ad2ad1ef7",
+      "locator": "Page 16",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0014-p0022",
+      "source_id": "SRC-0014",
+      "source_sha256": "72530019cd364ffbd2d1b5f7dfe367d523fd7a6bc8e4ffed42ae8ab51050e351",
+      "unit_path": "ingest/SRC-0014/units/p0022.md",
+      "unit_sha256": "fbc728fac01e65e5718d965802c59182bc5f444fdfa3cf300ebb1c94b144a656",
+      "unit_file_sha256": "fedbcc5786188e4a908489fc0124ca6f455be0d7b5245656dddc609527bd7981",
+      "locator": "Page 22",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0014-p0076",
+      "source_id": "SRC-0014",
+      "source_sha256": "72530019cd364ffbd2d1b5f7dfe367d523fd7a6bc8e4ffed42ae8ab51050e351",
+      "unit_path": "ingest/SRC-0014/units/p0076.md",
+      "unit_sha256": "53bc4a91e2748a572028e9afbc36ace07c90f70807224bf4971bf00c5cb8e432",
+      "unit_file_sha256": "be961036945b51053bd1642e96d3d4bd148043c6e90ccc8d0a23c28284113237",
+      "locator": "Page 76",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0014-p0128",
+      "source_id": "SRC-0014",
+      "source_sha256": "72530019cd364ffbd2d1b5f7dfe367d523fd7a6bc8e4ffed42ae8ab51050e351",
+      "unit_path": "ingest/SRC-0014/units/p0128.md",
+      "unit_sha256": "3d0fd42d3af358faa94943cd43061450c59990c471b1b074a15f989d3c84cb36",
+      "unit_file_sha256": "97ee6bb74053a79fc953735e15c8174b2e1ff22cc138eb77df03ccecc16a22ea",
+      "locator": "Page 128",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0015-p0002",
+      "source_id": "SRC-0015",
+      "source_sha256": "de9c595a97bf5027e53d490a3c71201bb4c2ffa8a876b80bad8c413ff94679c9",
+      "unit_path": "ingest/SRC-0015/units/p0002.md",
+      "unit_sha256": "575b58f8668932284d90c1d814c9a577111e3e49fe47f756039261e473f3cc10",
+      "unit_file_sha256": "4b3cb2f09237d94235b43f279b2a0324c8db92942ba37c5e8a1db43332ffdd67",
+      "locator": "Page 2",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0016-p0021",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "unit_path": "ingest/SRC-0016/units/p0021.md",
+      "unit_sha256": "99261824da33d44aeec368180ffc31c93439774ea7f25b02d205733e047ccb19",
+      "unit_file_sha256": "4d9cd9d3603d503a7f4389ff3066afc8df8bcc22aa1c9814ea8626805afb2fa2",
+      "locator": "Page 21",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0016-p0115",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "unit_path": "ingest/SRC-0016/units/p0115.md",
+      "unit_sha256": "aa6da189bad463ee255391ddce7b594e8221ba224932342ff00722cf85265657",
+      "unit_file_sha256": "ec4d39b93c11f095b84b06de82c5349c70b734b4ba5aca55ad50279b99a2808f",
+      "locator": "Page 115",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0016-p0127",
+      "source_id": "SRC-0016",
+      "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+      "unit_path": "ingest/SRC-0016/units/p0127.md",
+      "unit_sha256": "bcb9809d098ca7a0abc18d25ee72e42afe8e93ce2008c8df79ea8b15a227e241",
+      "unit_file_sha256": "77f6bb2ae2b4d3a3bd0855066e91d1f1ed4f72864f3cb078fcdba75b508df076",
+      "locator": "Page 127",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0018-p0050",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0050.md",
+      "unit_sha256": "497b41bc373c0fcb63114068b51fcba50c14ba3bdc437721e7727f34d4fd49cf",
+      "unit_file_sha256": "8d334e4d8acc12a374aa68944457fdf00af1383c3c6b0c3920d2cd0ad128a140",
+      "locator": "Page 50",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0019-p0006",
+      "source_id": "SRC-0019",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "unit_path": "ingest/SRC-0019/units/p0006.md",
+      "unit_sha256": "4687b73945e084bc2a078f9e903f44938a3fb509a0fc16b87da715ff20a08e52",
+      "unit_file_sha256": "f0a739414c32ca6a873cbe130c277b8af01b93674fc6abb2152abbded86b2d93",
+      "locator": "Page 6",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0019-p0010",
+      "source_id": "SRC-0019",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "unit_path": "ingest/SRC-0019/units/p0010.md",
+      "unit_sha256": "344d5c49c93df93e4cfd3a8fe485d457186f86b16b049dc5149b4ece23e59897",
+      "unit_file_sha256": "864fae4c8afd8742e9e3983fadbd9ce2b2671a25697d3e1abc96d267d84ceac7",
+      "locator": "Page 10",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0019-p0021",
+      "source_id": "SRC-0019",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "unit_path": "ingest/SRC-0019/units/p0021.md",
+      "unit_sha256": "e2ce8971465b68d1847f684333dd7d7a5d6278f700a7526aa61505883b472fa7",
+      "unit_file_sha256": "c403eb3d89d326369c460b28eeaab5a1b0509d71c53d4c0078761dfd81988d25",
+      "locator": "Page 21",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0019-p0022",
+      "source_id": "SRC-0019",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "unit_path": "ingest/SRC-0019/units/p0022.md",
+      "unit_sha256": "5e5fb4b188bdd912b82f1aa85aac8e6a862dcad7d483fb4c80d7e151782f3041",
+      "unit_file_sha256": "a45e952646de23b3f2b5f933e6f2629a82530189442991982a7617ba40b203ae",
+      "locator": "Page 22",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0020-p0005",
+      "source_id": "SRC-0020",
+      "source_sha256": "59692ea43ce9d2463b9947b5f5ee5daf676ee4b27952b3aaed40724e818abd47",
+      "unit_path": "ingest/SRC-0020/units/p0005.md",
+      "unit_sha256": "cfc33389aac20c5d90237d8cb4801a6e23f129f5e2e782ac6affda2e3313b763",
+      "unit_file_sha256": "54fd56b96515d7b9e06517ad46622f5609c283138bb97b19b529cec3bdf15919",
+      "locator": "Page 5",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0020-p0007",
+      "source_id": "SRC-0020",
+      "source_sha256": "59692ea43ce9d2463b9947b5f5ee5daf676ee4b27952b3aaed40724e818abd47",
+      "unit_path": "ingest/SRC-0020/units/p0007.md",
+      "unit_sha256": "afc5b8c8241f28f4536e0fdefb8d14668e530822667abcddb90970853547ea50",
+      "unit_file_sha256": "09c08683e4fcca062075335629b4f42818b97af86829d74d59a93feab7e0e736",
+      "locator": "Page 7",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0020-p0008",
+      "source_id": "SRC-0020",
+      "source_sha256": "59692ea43ce9d2463b9947b5f5ee5daf676ee4b27952b3aaed40724e818abd47",
+      "unit_path": "ingest/SRC-0020/units/p0008.md",
+      "unit_sha256": "013d6d5d297272cd19008928446edfee629d47535d07b966c00e1c7d84d7a9ca",
+      "unit_file_sha256": "f4f115ad8313d52cc33575989384ac6539c46a3e7db7d6958225abfe00f0d00e",
+      "locator": "Page 8",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0022-p0025",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0025.md",
+      "unit_sha256": "ae758ffa87b8bd3cfc385c15355d5d0fc81bf6651f5bffc28cc530fc8e113781",
+      "unit_file_sha256": "f8c47e27d8c00e1a74d23c74146050ab7091d77f15b6022ca95927ba1196819c",
+      "locator": "Page 25",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0022-p0183",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0183.md",
+      "unit_sha256": "b5832f79403b2780a9b45501fbb1fd3a7e1762c0f663a116795cd194da24b11c",
+      "unit_file_sha256": "38c56f210b3b5ae0fd14426a6f9aca9c919a5122a172906ec87b33df28287840",
+      "locator": "Page 183",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0022-p0242",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0242.md",
+      "unit_sha256": "9cce52a6e940ddfe26a2e0561f7e4659bfb24828036380790aaf6c64df27aa0f",
+      "unit_file_sha256": "7ae48421164c0db2973764a01b5e0649dad63e5a8891c173364356d40d5beb3b",
+      "locator": "Page 242",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0023-p0005",
+      "source_id": "SRC-0023",
+      "source_sha256": "72fec19e8954c5f548dc12eb1ae74ceb2f7c3877b1a2f0bf6c29f054bcb91d43",
+      "unit_path": "ingest/SRC-0023/units/p0005.md",
+      "unit_sha256": "2edadd7725f4d9dc0bb773b3551bef45f95f3f33d5cfdcd38a9fd36f1549b95f",
+      "unit_file_sha256": "3db7af74ac5c1bfb22d7bb51c74cc612fab22bdb6fc17ddf3731722ef37b6ae2",
+      "locator": "Page 5",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0023-p0006",
+      "source_id": "SRC-0023",
+      "source_sha256": "72fec19e8954c5f548dc12eb1ae74ceb2f7c3877b1a2f0bf6c29f054bcb91d43",
+      "unit_path": "ingest/SRC-0023/units/p0006.md",
+      "unit_sha256": "258f14023a504bdff3778c0c00051562db5297506489b7feb2a0e2ab06810c5a",
+      "unit_file_sha256": "51fa812f60c62bc70feef1928e3fe1edd8e7a6318340e68fe21f44e8cbf12f2c",
+      "locator": "Page 6",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0026-p0018",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0018.md",
+      "unit_sha256": "278cfc30cd0110dfebc7eb3920d62a5073356e41d86a690624f4a98fe5de68f2",
+      "unit_file_sha256": "c8f1ca0c308045986310f16fcc62ba36a867852fd4c751ae26783177d3b5da3d",
+      "locator": "Page 18",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0026-p0030",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0030.md",
+      "unit_sha256": "d6d62eaad8e14d65a6cf0222dbe17fa01d90b3a3e0202979d7bdba1818affdf0",
+      "unit_file_sha256": "7e6e578acb7e59935336ba93f7ddafd55f793727dc4e39c0c074c957d8232f3c",
+      "locator": "Page 30",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0026-p0043",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0043.md",
+      "unit_sha256": "06db05750519a9ac0eba31a934321f1608592b38a838de9c681e291734fd3d36",
+      "unit_file_sha256": "88e28d2175d3b1930ce678de0c337536e6e0eadc2be4e497362f66304326e004",
+      "locator": "Page 43",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0026-p0044",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0044.md",
+      "unit_sha256": "139ba0594ce862fa9463fb9b7ff84f829ddd743a3ae64ccc4a84410bdefe689c",
+      "unit_file_sha256": "34b75ff97d135bb6d8ec2e4a4706f08238c43ae9671defdaefaa0d6e069e8cbb",
+      "locator": "Page 44",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0026-p0047",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0047.md",
+      "unit_sha256": "413fb969928128c9cbb625df0ac8bffa0a8eaa8a06da3e89a5c236bbe6fd0360",
+      "unit_file_sha256": "f120ff6cc1c0d559669b31adf6b15ec192f24a4dfd1e8b9c1baa6ffe89710cc9",
+      "locator": "Page 47",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0026-p0113",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "unit_path": "ingest/SRC-0026/units/p0113.md",
+      "unit_sha256": "bb9c7926050031bdb3c66ec6b18eee02395a006a87938057ad5b0bdd91b6e52b",
+      "unit_file_sha256": "17bb1246debf611c8cac30ac61aa008b6a311d2507ad430fa0922de5b99c71f4",
+      "locator": "Page 113",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0027-p0011",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_path": "ingest/SRC-0027/units/p0011.md",
+      "unit_sha256": "9dad2c1b3933450b0cb3b6a515f0adaa3650d598a533927bb59f631f3a84dcaf",
+      "unit_file_sha256": "62af7b9b2d37dd3b5410c093ef81c904113d9cc25eb787ea347dc001a80e72bb",
+      "locator": "Page 11",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0027-p0033",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_path": "ingest/SRC-0027/units/p0033.md",
+      "unit_sha256": "e9573b439fb81438f806fd0b6eaf24be71c66ed4a8a59e95b1ab2760f082c6f5",
+      "unit_file_sha256": "054d918a5b79cb9e264043f31974db49387db3cf85b4cf85722c1b303e90cfd6",
+      "locator": "Page 33",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0027-p0038",
+      "source_id": "SRC-0027",
+      "source_sha256": "0e0f67fb3c832104d9eff10ea61976ad69d8ce57bba1b38e6cbe7cc35c941fed",
+      "unit_path": "ingest/SRC-0027/units/p0038.md",
+      "unit_sha256": "390515da16b1932836298c26ad0c515ee062459a9cd484366cb68cf40486ba14",
+      "unit_file_sha256": "e5c424785ae6f7506c33f80078326c620ce3fb7e17db212706a1789c495a1ab6",
+      "locator": "Page 38",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0011",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0011.md",
+      "unit_sha256": "42ca91fc2b5918c476a01023209a9ccf80700d1e3c32b21c2e234e27b6ec5ebd",
+      "unit_file_sha256": "b8738804bd8ffd5a3c3cd542e3e08a8e5bab32187e2af0355c3f885f302bcd06",
+      "locator": "Page 11",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0013",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0013.md",
+      "unit_sha256": "e9d93f7e5bc79986760f38bd587c948ea6764949c3848637299c8f15f86b7904",
+      "unit_file_sha256": "8913b0f8583a0586545a0305d4c743322405d03187394517d36b6a36f5ec8594",
+      "locator": "Page 13",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0014",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0014.md",
+      "unit_sha256": "6efeb0271f6ce84600c0697cfc80e82045f4dec5d4a378a1682351e185b35410",
+      "unit_file_sha256": "f8a1f793012887aa098b08c1b97618b473a6f74dca6ac781e6093e6b93fffb5d",
+      "locator": "Page 14",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0037",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0037.md",
+      "unit_sha256": "891c24b754e09bd3f6f83c18809bee243992c8e785ce087754dbb45b41d7e828",
+      "unit_file_sha256": "1c2d3561ca5b620a652c9b2fe5557dba9c3bfd8b49b31f86e5333b1b9545ea01",
+      "locator": "Page 37",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0038",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0038.md",
+      "unit_sha256": "055b1c81871efeacd76b3546edd3d2c850633782a8d5032114e75e90576f3652",
+      "unit_file_sha256": "f54ef2dca0220d74422d29a348484b0838dbc8329c47eb32d0c83b9171cdb46c",
+      "locator": "Page 38",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0039",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0039.md",
+      "unit_sha256": "4d65894755f40a62d5c665010380ae12910a219ef99656bb51c613be02cb51c3",
+      "unit_file_sha256": "7d2b547af8cf89f8e8f153d604079580fa0278dba9f265bd97503cdc0308272f",
+      "locator": "Page 39",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0040",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0040.md",
+      "unit_sha256": "fbbbefe6006e6fac953ce5f8c08f9cecd92e70eb22510a5c1540903577c783c5",
+      "unit_file_sha256": "6b94a676b173a609706f3f7ad2f51d9c1ded59b171e0b011bc82f462a9ec420e",
+      "locator": "Page 40",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0041",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0041.md",
+      "unit_sha256": "1fdbf33574e0293c7e0dfb8324d4787bcef00269910fddadd4d9ac62adf4e0e4",
+      "unit_file_sha256": "e129a644e09677c430080d51875de142954fb7e4435d8510007aaaf0151f3a19",
+      "locator": "Page 41",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0042",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0042.md",
+      "unit_sha256": "19043ce9da7bd0946970944a1298792bb872f1d61a9651da982720bf9755cc7a",
+      "unit_file_sha256": "6518bf5a42f49155e6f050ecf12b17e3ff6ee28825ee6548367da0a676affd9c",
+      "locator": "Page 42",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0043",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0043.md",
+      "unit_sha256": "8f14282960e74c29965e7df08c806074a60de39138b46b2f8bcf25de4292196f",
+      "unit_file_sha256": "1aa81e3cb155b580fdb037c93f17b4327c0d359d4f79e52c0c6695f1d79a9430",
+      "locator": "Page 43",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0044",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0044.md",
+      "unit_sha256": "9acadd8d1026f9a8e98e1952cdf789c2009587b9604541e45fa97ae3aed7f126",
+      "unit_file_sha256": "4c0180760927dac7e3b4c2bbe6cf1f130a760007dd7f4734073c47ae7e525ac1",
+      "locator": "Page 44",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0045",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0045.md",
+      "unit_sha256": "359383d59c40b72a19daa6cc74dc06ba1b77febfdccfea1e0149550453526bd6",
+      "unit_file_sha256": "db2006b65b52f842c32666706a5e0717f77ce8d98011300801da9919ea9914bf",
+      "locator": "Page 45",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0046",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0046.md",
+      "unit_sha256": "3803f36c5fb9735988dc20338c555454413dd239928ef38feb6dc32615bdd63c",
+      "unit_file_sha256": "a4e04fc05a369eacdf70d30ba0f7e2f85740444fcd4dda5e9e3bbbaaa3111a56",
+      "locator": "Page 46",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0047",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0047.md",
+      "unit_sha256": "3c897498a20119776d33bf6da6d8df1349c7bf981cd348a82e481da6813b913b",
+      "unit_file_sha256": "c87cb0aa2f137f50fe91c84085c3f106de678bb0657a1b1505dc11c726dd9023",
+      "locator": "Page 47",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0048",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0048.md",
+      "unit_sha256": "4c23213b71ac8493bca1a1acae70583b6bd0a566c4d062e0547896ee17bcd7f4",
+      "unit_file_sha256": "c7f5eac851895dbb933657950bd7c6146e7e12972395e7b0d28d6ae31b0d09dc",
+      "locator": "Page 48",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0049",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0049.md",
+      "unit_sha256": "410d3e89f901ac7199b43b532b173bcf91959cc56bf7f19b3b778ad96f2f51bf",
+      "unit_file_sha256": "d201bf257cda1b60c05d9dc154ee32bcc507d31d2a326be1ec8f426dabfeacf6",
+      "locator": "Page 49",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0050",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0050.md",
+      "unit_sha256": "785df0c3fe243b936eedf83632c9d26aa3b496aa7f047316b0a0885af200a19e",
+      "unit_file_sha256": "7841264001b6f32115ec8c07ae2af07c9c247dc2a2c4bdb56be21ece3af21735",
+      "locator": "Page 50",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0051",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0051.md",
+      "unit_sha256": "ce1ca6d4ab80309e66eac766053b7b19a8d31053d1b0d0dfb4a13eca73b7aab6",
+      "unit_file_sha256": "f0816fc26e1a9d563bb8e9729efa61a303f9f317b8d05e88c8d9a13488d4bb80",
+      "locator": "Page 51",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0052",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0052.md",
+      "unit_sha256": "1c3bae2c70820c7ef43bd9ae2a472c2c7a9ad73f74fe64e374279b4fffcba0a3",
+      "unit_file_sha256": "dafd96f83d01b0c195aa45831c26e526be88a29a04dce052c85cc9b7ac723d03",
+      "locator": "Page 52",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0053",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0053.md",
+      "unit_sha256": "0b66a85321a7be9d2606325ea3ed26da1e1b6b6549dee30c70ba49cdb5c4e3e2",
+      "unit_file_sha256": "7974a561c64059976b1b840db6978d45a3312051513b6cd301910ba069d7375b",
+      "locator": "Page 53",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0054",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0054.md",
+      "unit_sha256": "a99c360347af4db82e318e478157fae420607564400e5b99f6439600e45e543b",
+      "unit_file_sha256": "e27fb58626027695e8187fab1bb5a4631a49d906f493e15e9bf74100b318bf80",
+      "locator": "Page 54",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0055",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0055.md",
+      "unit_sha256": "99a22fd7ff62af1a2da6ceab7b1ccb253d9216beed9b5032fce7b7edb82fb6a3",
+      "unit_file_sha256": "afa9f68a4f0643c9d61293d96791a67f6e08228c85d6a74690b4dd0992f18c70",
+      "locator": "Page 55",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0056",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0056.md",
+      "unit_sha256": "a23bbc5283d54eda24a3ab4a1a25335367d9505674f3ec3cd827ad15415cc05d",
+      "unit_file_sha256": "9f883ef95581a81b16f7edae29c6b60bbf1c7de16b06794f7a8903752c28e53b",
+      "locator": "Page 56",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0057",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0057.md",
+      "unit_sha256": "ab012cfaa8acb4d662f31127dcedd6c8b469f8a53497959d2e7de81c48924b4c",
+      "unit_file_sha256": "bc27c9469abca5c588fa570fb77a857564bfc06ca7ee44df7175d6d6b92fffba",
+      "locator": "Page 57",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0058",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0058.md",
+      "unit_sha256": "245b8b7cc5912feb8b5bfb83ee63d93560cf4a43f226ed2820be9a5b178ccf41",
+      "unit_file_sha256": "b29978a9c1a7a740188b1c479bece09013a0a2112a534112ac1659f27685e736",
+      "locator": "Page 58",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0059",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0059.md",
+      "unit_sha256": "d0f339284fcef7e2e7f0441137a4dd15f7512b205f9e9dd27264b06e731b88a0",
+      "unit_file_sha256": "fa21202f1e5a6037a49489e26895f6bbc193a70751241638ea336b63b672c225",
+      "locator": "Page 59",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0060",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0060.md",
+      "unit_sha256": "baae6613d630e777e297a78f689b9a3d3b219051728f515838ca359965623ada",
+      "unit_file_sha256": "9f12921bc48e9dc826bdbb2448d8237c5b8a014c3b99bb5c8b9dd853f472c8c9",
+      "locator": "Page 60",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0061",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0061.md",
+      "unit_sha256": "71a92fec656c7130b5f2c0aa7e316eec17d6fed2b9d15eb5ba2f243974c22f41",
+      "unit_file_sha256": "34f07e0bfd2bc17dbaca418302e458ce49929f3be0969a1b4f4bddc7c262f341",
+      "locator": "Page 61",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0028-p0065",
+      "source_id": "SRC-0028",
+      "source_sha256": "5722b7682ae060d9373666f4804a3f6d165199bbb4035053adedd46df1730654",
+      "unit_path": "ingest/SRC-0028/units/p0065.md",
+      "unit_sha256": "fd0ce8915fc9ed306c102892a4c19f6fa8f11a9257b24631bcee5a614f9a892b",
+      "unit_file_sha256": "e961f842ec9cd2a593d27f9dcde3274c43ef32e5bf54d45641a2e8622223c325",
+      "locator": "Page 65",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0033-p0003",
+      "source_id": "SRC-0033",
+      "source_sha256": "c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc",
+      "unit_path": "ingest/SRC-0033/units/p0003.md",
+      "unit_sha256": "94ecb2f7180d6f905bf5107b8b499d92b6387ce5a945f209acc5df9beedf4954",
+      "unit_file_sha256": "2c982d523ba7293e0107bb27379d74c661f77462727882863b8c36d5d82c8670",
+      "locator": "Page 3",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0033-p0006",
+      "source_id": "SRC-0033",
+      "source_sha256": "c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc",
+      "unit_path": "ingest/SRC-0033/units/p0006.md",
+      "unit_sha256": "55378f65fd818ba6c19372d9de56b3bcfef62b203d54be6ea2b157ecc7ef99b3",
+      "unit_file_sha256": "8201ab314ce7f4113672b1bc9032d175007a7d1e3880fc5e60037aceb9ae0ebc",
+      "locator": "Page 6",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0033-p0008",
+      "source_id": "SRC-0033",
+      "source_sha256": "c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc",
+      "unit_path": "ingest/SRC-0033/units/p0008.md",
+      "unit_sha256": "b043b6a8680ba8f9442ebef88af5718317bcadde6250b5dfc38f72d1eec4aa94",
+      "unit_file_sha256": "dc321d0d1f65fab6ed2fd5a9c6cb05fa12246947642aa00bac7b6c15b008dd3e",
+      "locator": "Page 8",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0033-p0009",
+      "source_id": "SRC-0033",
+      "source_sha256": "c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc",
+      "unit_path": "ingest/SRC-0033/units/p0009.md",
+      "unit_sha256": "684d9da822aa7e1fffa62471e97dbe24211b7084375883c01c2615db4cf7baeb",
+      "unit_file_sha256": "ca18e76607514d3066e77c8dfc6ddd8ffaf9f7bf37406fa5c81dc11043381798",
+      "locator": "Page 9",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0033-p0010",
+      "source_id": "SRC-0033",
+      "source_sha256": "c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc",
+      "unit_path": "ingest/SRC-0033/units/p0010.md",
+      "unit_sha256": "413ba73c462627d0af41e7f6c7855dc835ce5d3b64cec19ec2b6bfffb62fa7d4",
+      "unit_file_sha256": "f59ae1e273391c76e0b72377da941f80f915ce07d655926625658fbe16910075",
+      "locator": "Page 10",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0033-p0012",
+      "source_id": "SRC-0033",
+      "source_sha256": "c487d3f02c3d4f1e520747a500fd4dba4be0886ea6cca3382b2f3ee065ac80fc",
+      "unit_path": "ingest/SRC-0033/units/p0012.md",
+      "unit_sha256": "26005dc1d3ce4fb291d94e59695cdcee23ba47c44fb16f7d16bbcfb61050cff8",
+      "unit_file_sha256": "7ac8a47d4cb1e77b1c59c65504933b4b1428c927d5c9bb553133a7ec5775c879",
+      "locator": "Page 12",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0034-p0003",
+      "source_id": "SRC-0034",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "unit_path": "ingest/SRC-0034/units/p0003.md",
+      "unit_sha256": "815c3458e0564aa5d4bba80cbed4ce302fe94e2e7ce90866909ba79385439a35",
+      "unit_file_sha256": "afc691dd8675e82208ccb5339e92b4495caf66d055d6b572d08433bc82210eb2",
+      "locator": "Page 3",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0034-p0035",
+      "source_id": "SRC-0034",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "unit_path": "ingest/SRC-0034/units/p0035.md",
+      "unit_sha256": "43d5ba9a9beb631df9990feafdb4975975673727a597e4add8f557c4c2e291bb",
+      "unit_file_sha256": "9c89d8b3749987b30f4301ae6d4b57467132bba4ad183dc9766b5179057fa889",
+      "locator": "Page 35",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0036-p0009",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0009.md",
+      "unit_sha256": "ce9d4d57bed3d3dd5f827497303dc3a697e652ee5d7060745d4ee0954e3b6714",
+      "unit_file_sha256": "580001998850c50baf8e41a8a030f3e7b2e37d550860e5196583d3dc61ce6890",
+      "locator": "Page 9",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0036-p0010",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0010.md",
+      "unit_sha256": "a9d686c32b747508b981cbd13d6b9459626ae7dd30b8a7ea88208924e42e65b0",
+      "unit_file_sha256": "07acdadc0a0bda9925b6d66a5d93ece7ad30ac223014000654e59d4c586baafa",
+      "locator": "Page 10",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0036-p0011",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0011.md",
+      "unit_sha256": "cebb3eb0d79edbd81e0f9558da25981a125abc971f79e2b823612cac6c146a33",
+      "unit_file_sha256": "aa64e9f63456a6f166720d6db04f28b24a98032a1f97c0aea407024cff99b727",
+      "locator": "Page 11",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0036-p0013",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0013.md",
+      "unit_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+      "unit_file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+      "locator": "Page 13",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0036-p0014",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0014.md",
+      "unit_sha256": "eb7ab2878d456a3a0de88f260af593d06ba057e235a856018f1cc764e4863c93",
+      "unit_file_sha256": "515e610648ddec4170cae79790f4028c7b21445b6f4c33536149946656d5af12",
+      "locator": "Page 14",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0038-p0013",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0013.md",
+      "unit_sha256": "f8160599c5188188953cc8075df0261f70060e8661bec04f38ddc927041bf281",
+      "unit_file_sha256": "9b3aae0931d35df1e2f027d875306496137fda259357359344df1c4d348c287c",
+      "locator": "Page 13",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0038-p0014",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0014.md",
+      "unit_sha256": "0a75c73d7e5d24bad4157801f02ce6be04ff8c328e5629aad38ded35728a0744",
+      "unit_file_sha256": "625bbfbdd09c9a1f33b349db374c873582eef62d452e340bcb546bcca5f6f189",
+      "locator": "Page 14",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0038-p0015",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0015.md",
+      "unit_sha256": "766d7779339a1efb4571a02372a72da1c3c7bc6d108e46197bdadf1d8c6ab334",
+      "unit_file_sha256": "d360a8ee002d26323796729f031fa9034ce876ac3da17e9b72d675a069699380",
+      "locator": "Page 15",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0038-p0021",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0021.md",
+      "unit_sha256": "61f377fca205b258d21a21a6fba4b39001f35673665eea58c33eafaaa14cdc2f",
+      "unit_file_sha256": "1689d72d3c2ca4dbe4514945ed84a7f397452b76e0b3d09d34ad0a00ce30b43a",
+      "locator": "Page 21",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0006",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0006.md",
+      "unit_sha256": "0a9bd2364434e200960a3adeb620f2dcbd8924acf8ca8a35decab543cce749f1",
+      "unit_file_sha256": "326234dcf5ccc2567d6e3fc2700462e8dfe917ab7d69628f6b7ba05615cf72ae",
+      "locator": "Page 6",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0017",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0017.md",
+      "unit_sha256": "84c22bc9cb61e9dcb96bd7eb4cc41ad5b28fa03a903ae9ea33d2ca1ab7fb35dd",
+      "unit_file_sha256": "e6ac313dbb46650c4f6ddf176822c48c0e685a3dd11c14c948eade39fef0a500",
+      "locator": "Page 17",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0019",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0019.md",
+      "unit_sha256": "cd40c4c5370072e0513212997a18907787d6850e4aec8be6956c902460fda651",
+      "unit_file_sha256": "4ae38bae64b04241a9a3e3a2009e18379aa9d0f6056878a9ceed639d9f6788c0",
+      "locator": "Page 19",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0024",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0024.md",
+      "unit_sha256": "ae75ae4b4f9e80ba631fba13ac6a147b29066982c5da5a2bb981acbbca8d5ff9",
+      "unit_file_sha256": "54290c86e222f4cb1aa7cd31b1c73d9a4a9dfc002f97553b47bf303857491df5",
+      "locator": "Page 24",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0025",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0025.md",
+      "unit_sha256": "dd3175af3d7f0bd24b5502cda22174c90d4c4dd9840ec7ac6c508cf09ea9bf96",
+      "unit_file_sha256": "f4ddf2163b1dca124ee605cac9ed23166878e90506719fc8c48b2af5fef67aa2",
+      "locator": "Page 25",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0026",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0026.md",
+      "unit_sha256": "566a16e17c171763616492213a3b37421078a0d63baf643f31d7fcfee934290f",
+      "unit_file_sha256": "e43ba7ea8d71e4049e3c1eac0ef735ff8f2c195ed882618e26fc10a60448077e",
+      "locator": "Page 26",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0029",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0029.md",
+      "unit_sha256": "c9d34a79fc87d4964f095d334b822d98ebc4352693c876b5cd14b8eeaf066300",
+      "unit_file_sha256": "32f6a3f061a191168139b2c7e24b53ab00cc8dfd3139697ca910218070738f5e",
+      "locator": "Page 29",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0032",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0032.md",
+      "unit_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+      "unit_file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+      "locator": "Page 32",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0033",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0033.md",
+      "unit_sha256": "de022cf2b8f82975598a5839143a82a49b70f1ab04c198dbedc63eb5ca6e1514",
+      "unit_file_sha256": "4b67ee60cea7ec6910893d30c3709a071d6072e3cfe4c47b2c11944b23ca05fb",
+      "locator": "Page 33",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0034",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0034.md",
+      "unit_sha256": "c721e01ce436180b63165e69fb45c7a2994b59916bbbaf6676777b9efd11701d",
+      "unit_file_sha256": "4a993b22fe7d513c3a4bd0a29af77058c4692f0fdd401aa37d5f8e4cf0acccd4",
+      "locator": "Page 34",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0035",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0035.md",
+      "unit_sha256": "7c2df886cf5671889f4e54cfd1e5097145ed938a3c5ac78ed1e4c151c06ebcef",
+      "unit_file_sha256": "9c378153e475afecb6438fda22c12e7a4d0af0fafe7055b4619a1934f41f2add",
+      "locator": "Page 35",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0036",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0036.md",
+      "unit_sha256": "222e2f94f1578d073561d97026ec51ac4934f8c01be272fddc639e398726a545",
+      "unit_file_sha256": "1f9fd40ed70351959e58dd61c3bfa534684fd68063b8588f38999a16226bcf47",
+      "locator": "Page 36",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0037",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0037.md",
+      "unit_sha256": "70995f881cc7f2563d8f541900ec5d39c94f5d24c14e43d6fb5669d1593101d6",
+      "unit_file_sha256": "882a5e7f9abe541347758055c17d6c3bc5ff0a03852038df9058f7538db9a681",
+      "locator": "Page 37",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0039-p0038",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0038.md",
+      "unit_sha256": "d3f4eff907102e22e34b18552cff5f1a2cc62a4631a6a9361cff58129a950c2a",
+      "unit_file_sha256": "ff1de0e3693819bc5f7068ef4a1481d154d2891deacc1b5ab16e03374914b60f",
+      "locator": "Page 38",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0040-p0026",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0026.md",
+      "unit_sha256": "729110660bedbeefb359845d97371a50ec463768ce928202c7911b39ca252b85",
+      "unit_file_sha256": "720b72f0a584b2879c1adde36eafaaff9f1cfb64a400051fbbe51c0455a04297",
+      "locator": "Page 26",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "provenance-repair-20260920-src-0040-p0027",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0027.md",
+      "unit_sha256": "cf4cdc50db14af329db015cb964046a2baebc0670ce29bbac8ec247ac23d8893",
+      "unit_file_sha256": "d66450913b93ab3658e127f255eca6984a1bd1501b7a27602059070b0a450224",
+      "locator": "Page 27",
+      "authority": "UNCLASSIFIED",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/provenance-repair-20260920/evidence/fidelity-receipt-reviewed.json",
+          "sha256": "32bf5a874ef03ffe65fec9a94db4504bef301af9fe62f2a6d3000549e4a0b29a"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "ai-model-backtesting",
+      "note_sha256": "fa4046a0de9b57caf5c9e145db1194e9768f03794a6023b9801060c345641991",
+      "section_id": "ai-model-backtesting:e55a143e09de58b9",
+      "section_sha256": "20ec3cd714ed3735aeffabd032890bc3b562779f8a391f65bb04a87a1f893c41",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0036-p0009",
+        "provenance-repair-20260920-src-0036-p0010",
+        "provenance-repair-20260920-src-0036-p0011",
+        "provenance-repair-20260920-src-0036-p0014",
+        "provenance-repair-20260920-src-0038-p0013",
+        "provenance-repair-20260920-src-0038-p0014",
+        "provenance-repair-20260920-src-0038-p0015",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-backtesting",
+      "note_sha256": "fa4046a0de9b57caf5c9e145db1194e9768f03794a6023b9801060c345641991",
+      "section_id": "ai-model-backtesting:25a9a85265464f8a",
+      "section_sha256": "aa36b8f6d1c7703e6e841c45c3c14e908977b379604e91373de431c828863442",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0036-p0009",
+        "provenance-repair-20260920-src-0036-p0010",
+        "provenance-repair-20260920-src-0036-p0011",
+        "provenance-repair-20260920-src-0036-p0014",
+        "provenance-repair-20260920-src-0038-p0013",
+        "provenance-repair-20260920-src-0038-p0014",
+        "provenance-repair-20260920-src-0038-p0015",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-backtesting",
+      "note_sha256": "fa4046a0de9b57caf5c9e145db1194e9768f03794a6023b9801060c345641991",
+      "section_id": "ai-model-backtesting:a91c944631812384",
+      "section_sha256": "7250cb4451047582b8909a37d2901fdb03522d0f80f38fd3a03282ae9263101f",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0036-p0009",
+        "provenance-repair-20260920-src-0036-p0010",
+        "provenance-repair-20260920-src-0036-p0011",
+        "provenance-repair-20260920-src-0036-p0014",
+        "provenance-repair-20260920-src-0038-p0013",
+        "provenance-repair-20260920-src-0038-p0014",
+        "provenance-repair-20260920-src-0038-p0015",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-backtesting",
+      "note_sha256": "fa4046a0de9b57caf5c9e145db1194e9768f03794a6023b9801060c345641991",
+      "section_id": "ai-model-backtesting:175179199247904e",
+      "section_sha256": "e20fabc150c8f2a0473dbb82e5381e943b0bd5f018e604921d65d56523773c53",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0036-p0009",
+        "provenance-repair-20260920-src-0036-p0010",
+        "provenance-repair-20260920-src-0036-p0011",
+        "provenance-repair-20260920-src-0036-p0014",
+        "provenance-repair-20260920-src-0038-p0013",
+        "provenance-repair-20260920-src-0038-p0014",
+        "provenance-repair-20260920-src-0038-p0015",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-backtesting",
+      "note_sha256": "fa4046a0de9b57caf5c9e145db1194e9768f03794a6023b9801060c345641991",
+      "section_id": "ai-model-backtesting:ea8ec20640a316a6",
+      "section_sha256": "ed7182ad0f1bf1ebdd160723710b552cf85c3d8fe468e87a46fcddbd59794d2c",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0036-p0009",
+        "provenance-repair-20260920-src-0036-p0010",
+        "provenance-repair-20260920-src-0036-p0011",
+        "provenance-repair-20260920-src-0036-p0014",
+        "provenance-repair-20260920-src-0038-p0013",
+        "provenance-repair-20260920-src-0038-p0014",
+        "provenance-repair-20260920-src-0038-p0015",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-fairness-and-bias-avoidance",
+      "note_sha256": "65057f36d02935e1388b906d18f2f48012bc7e65c8fff4ff22ec50febe66981a",
+      "section_id": "ai-model-fairness-and-bias-avoidance:7e5afeac1e3943a2",
+      "section_sha256": "b4323f2ddf1631aea4a1e4b07470c542c55a5c0ad5fd76ee58bc84422a06a0f9",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0023"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-fairness-and-bias-avoidance",
+      "note_sha256": "65057f36d02935e1388b906d18f2f48012bc7e65c8fff4ff22ec50febe66981a",
+      "section_id": "ai-model-fairness-and-bias-avoidance:58d684c1686200ba",
+      "section_sha256": "194089520efd223df95ec49dd7a2f3affe5fbbb64dcd722c7f2c4d40e8848c6c",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0023"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-fairness-and-bias-avoidance",
+      "note_sha256": "65057f36d02935e1388b906d18f2f48012bc7e65c8fff4ff22ec50febe66981a",
+      "section_id": "ai-model-fairness-and-bias-avoidance:71eefbc8e6f7ffb0",
+      "section_sha256": "20494a8a6ae093945a4b38123691d96cce5d9d2180bb57c3ef5c0ca87402d11a",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0023"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-fairness-and-bias-avoidance",
+      "note_sha256": "65057f36d02935e1388b906d18f2f48012bc7e65c8fff4ff22ec50febe66981a",
+      "section_id": "ai-model-fairness-and-bias-avoidance:1b06d0d18485ac24",
+      "section_sha256": "1d123ee718ac3dd4c753a7299419f073fe98e055d4144a932e405fc27a9e3fcf",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0023"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-model-fairness-and-bias-avoidance",
+      "note_sha256": "65057f36d02935e1388b906d18f2f48012bc7e65c8fff4ff22ec50febe66981a",
+      "section_id": "ai-model-fairness-and-bias-avoidance:b4010e5013c32e99",
+      "section_sha256": "4138ef8862b8a6305a62f3d56f9f1026fc810b07e45f3e8cc64cc7118946fe9c",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0023"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "red-teaming",
+      "note_sha256": "1becbad2d88db77cd376cb1ca41272487091db665347e95c104d39845415bdbf",
+      "section_id": "red-teaming:6ba771ab239f8a87",
+      "section_sha256": "4fcda4b5f7ba5cac83798e54f724b3962089e4051533232bda062ee4e36d54af",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0009",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0028",
+        "provenance-repair-20260920-src-0026-p0030",
+        "provenance-repair-20260920-src-0027-p0033",
+        "provenance-repair-20260920-src-0027-p0038",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "red-teaming",
+      "note_sha256": "1becbad2d88db77cd376cb1ca41272487091db665347e95c104d39845415bdbf",
+      "section_id": "red-teaming:d8cff75ac2f05b68",
+      "section_sha256": "34deba0879ec8b1af26dad65200ba49c529c6c63d20307188635071fc35b8b3e",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0009",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0028",
+        "provenance-repair-20260920-src-0026-p0030",
+        "provenance-repair-20260920-src-0027-p0033",
+        "provenance-repair-20260920-src-0027-p0038",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "red-teaming",
+      "note_sha256": "1becbad2d88db77cd376cb1ca41272487091db665347e95c104d39845415bdbf",
+      "section_id": "red-teaming:84ccd85c7fdf9e35",
+      "section_sha256": "be9f8ef7fd6a636284aabeb714be9910644b80ba2cfcff89912ee9a0c860a107",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0009",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0028",
+        "provenance-repair-20260920-src-0026-p0030",
+        "provenance-repair-20260920-src-0027-p0033",
+        "provenance-repair-20260920-src-0027-p0038",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "red-teaming",
+      "note_sha256": "1becbad2d88db77cd376cb1ca41272487091db665347e95c104d39845415bdbf",
+      "section_id": "red-teaming:f6b3f5f27e21a191",
+      "section_sha256": "866ecf30115f35af54e1de704a2f955e07cdc4137a19eda0292bb31ae2c49443",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0009",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0028",
+        "provenance-repair-20260920-src-0026-p0030",
+        "provenance-repair-20260920-src-0027-p0033",
+        "provenance-repair-20260920-src-0027-p0038",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "red-teaming",
+      "note_sha256": "1becbad2d88db77cd376cb1ca41272487091db665347e95c104d39845415bdbf",
+      "section_id": "red-teaming:77dc1599b7af5522",
+      "section_sha256": "512116e4ba4d669f71b6bd37e0c17bba08000d82e9095bbb74ffe3116492cbbf",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0009",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0028",
+        "provenance-repair-20260920-src-0026-p0030",
+        "provenance-repair-20260920-src-0027-p0033",
+        "provenance-repair-20260920-src-0027-p0038",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "data-leakage",
+      "note_sha256": "ef61a9156de11e91867bcc1121b95f98270de8d533f17a1b4f18dbc2ea1e8d20",
+      "section_id": "data-leakage:490abe4da78d47fa",
+      "section_sha256": "6154d3c6559c03d5632b550bf030b8f128520f58e217dabcb70f2c030f8e76a6",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0018",
+        "provenance-repair-20260920-src-0026-p0047",
+        "provenance-repair-20260920-src-0028-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "data-leakage",
+      "note_sha256": "ef61a9156de11e91867bcc1121b95f98270de8d533f17a1b4f18dbc2ea1e8d20",
+      "section_id": "data-leakage:674edd5514cc7cb9",
+      "section_sha256": "e096bc5546301c64980ba9b539a824e861e5728ce3b363b87c3572f059d236aa",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0018",
+        "provenance-repair-20260920-src-0026-p0047",
+        "provenance-repair-20260920-src-0028-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "data-leakage",
+      "note_sha256": "ef61a9156de11e91867bcc1121b95f98270de8d533f17a1b4f18dbc2ea1e8d20",
+      "section_id": "data-leakage:088e6252a2e7cac6",
+      "section_sha256": "1f6d10dab35334ed35a3051da17e3375584046fe833544eaccb770069e2b5ffd",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0018",
+        "provenance-repair-20260920-src-0026-p0047",
+        "provenance-repair-20260920-src-0028-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "data-leakage",
+      "note_sha256": "ef61a9156de11e91867bcc1121b95f98270de8d533f17a1b4f18dbc2ea1e8d20",
+      "section_id": "data-leakage:4ba202b514c3fa2b",
+      "section_sha256": "60ec9d0bb21f06edeaa4626c87f65e10f2c300edcdf3597f7b1dc7a522cee6cb",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0018",
+        "provenance-repair-20260920-src-0026-p0047",
+        "provenance-repair-20260920-src-0028-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "data-leakage",
+      "note_sha256": "ef61a9156de11e91867bcc1121b95f98270de8d533f17a1b4f18dbc2ea1e8d20",
+      "section_id": "data-leakage:b4cfe8c8bd54b9fe",
+      "section_sha256": "f1f47c5ba23aebd2d0032fdf6bd02ffc0797a5f307b3d525a552fa689c5f9172",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0018",
+        "provenance-repair-20260920-src-0026-p0047",
+        "provenance-repair-20260920-src-0028-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "hallucinations",
+      "note_sha256": "86092207ca553b63d46c845d6f1008b530416876665655e99fb2e6856e9308da",
+      "section_id": "hallucinations:3a435bd52072193c",
+      "section_sha256": "b41a415b64dfd8b29225059bd1004f84142072328791180d7b511ef18f660e08",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0043",
+        "provenance-repair-20260920-src-0026-p0044",
+        "provenance-repair-20260920-src-0026-p0113",
+        "provenance-repair-20260920-src-0028-p0011",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "hallucinations",
+      "note_sha256": "86092207ca553b63d46c845d6f1008b530416876665655e99fb2e6856e9308da",
+      "section_id": "hallucinations:552aeae8e1aad2fe",
+      "section_sha256": "1ecbb08a0245b4740703eab8ae37695e4bd859329ab463850af92d7d5978d604",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0043",
+        "provenance-repair-20260920-src-0026-p0044",
+        "provenance-repair-20260920-src-0026-p0113",
+        "provenance-repair-20260920-src-0028-p0011",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "hallucinations",
+      "note_sha256": "86092207ca553b63d46c845d6f1008b530416876665655e99fb2e6856e9308da",
+      "section_id": "hallucinations:674c9943ffaf9d78",
+      "section_sha256": "f8a08e4971dc6cef118ce9184d6646320a007d49d8a856cb825977110cb73e1c",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0043",
+        "provenance-repair-20260920-src-0026-p0044",
+        "provenance-repair-20260920-src-0026-p0113",
+        "provenance-repair-20260920-src-0028-p0011",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "hallucinations",
+      "note_sha256": "86092207ca553b63d46c845d6f1008b530416876665655e99fb2e6856e9308da",
+      "section_id": "hallucinations:1fc5d99b67592171",
+      "section_sha256": "ea183dc98cd2e78071b92c3829f1fc57c65a11a7574362a58930db1718e49579",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0043",
+        "provenance-repair-20260920-src-0026-p0044",
+        "provenance-repair-20260920-src-0026-p0113",
+        "provenance-repair-20260920-src-0028-p0011",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "hallucinations",
+      "note_sha256": "86092207ca553b63d46c845d6f1008b530416876665655e99fb2e6856e9308da",
+      "section_id": "hallucinations:72d6e04afbfa385a",
+      "section_sha256": "140e72ae8591d8d626ed5aed7291fe6a6a792233f7efdbf766708d3009ff4963",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0043",
+        "provenance-repair-20260920-src-0026-p0044",
+        "provenance-repair-20260920-src-0026-p0113",
+        "provenance-repair-20260920-src-0028-p0011",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "toxic-or-biased-outputs",
+      "note_sha256": "670e162124d751efbf78135f85935deeb4a467097b209d99c510fafb19eeb0d7",
+      "section_id": "toxic-or-biased-outputs:be151c5e119a5e04",
+      "section_sha256": "b78d1354b974f682d82e2cc87ad994258fffb120be297016e4e47bde3bc4e650",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0023",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "toxic-or-biased-outputs",
+      "note_sha256": "670e162124d751efbf78135f85935deeb4a467097b209d99c510fafb19eeb0d7",
+      "section_id": "toxic-or-biased-outputs:46f3cdfbca0be520",
+      "section_sha256": "9fbed682e8c6b9f6d27571477a31099e294c97fac403fe7f0f47f60e83be8bae",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0023",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "toxic-or-biased-outputs",
+      "note_sha256": "670e162124d751efbf78135f85935deeb4a467097b209d99c510fafb19eeb0d7",
+      "section_id": "toxic-or-biased-outputs:b7db44a14a547362",
+      "section_sha256": "edb5d92e975d2cd5bc4079d6bce30f0d26050570469553df52400ded53d7cb0b",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0023",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "toxic-or-biased-outputs",
+      "note_sha256": "670e162124d751efbf78135f85935deeb4a467097b209d99c510fafb19eeb0d7",
+      "section_id": "toxic-or-biased-outputs:959f976928c47b03",
+      "section_sha256": "cbad35807a6374d6304cc38964baacc7ea66923e842d6ad6327f9657ef8f465e",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0023",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "toxic-or-biased-outputs",
+      "note_sha256": "670e162124d751efbf78135f85935deeb4a467097b209d99c510fafb19eeb0d7",
+      "section_id": "toxic-or-biased-outputs:97087a83ffec760f",
+      "section_sha256": "76e2e2c2fe3be27d0655ba3d1cacc7934146306f6edeb03bf24e9e81dcb07589",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0010",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0023",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-impact-assessment-aiia",
+      "note_sha256": "a3b31efa38712dcafbd4fcb9e2ee95a49b6867017fe7f8a1cc19883785cbbf59",
+      "section_id": "ai-impact-assessment-aiia:afaa7b3d420c276e",
+      "section_sha256": "2ee995013db08b4c6497472aac03a57b6d668cf561eb0b253599f90c6938c27b",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0012",
+        "provenance-repair-20260920-src-0012-p0013",
+        "provenance-repair-20260920-src-0012-p0014",
+        "provenance-repair-20260920-src-0012-p0015",
+        "provenance-repair-20260920-src-0012-p0016",
+        "provenance-repair-20260920-src-0022-p0183",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-impact-assessment-aiia",
+      "note_sha256": "a3b31efa38712dcafbd4fcb9e2ee95a49b6867017fe7f8a1cc19883785cbbf59",
+      "section_id": "ai-impact-assessment-aiia:4acba425f590f799",
+      "section_sha256": "0a85a5eaf544473bd5ac6b026f109fc38888688d7074eccc9e1259d76e4ff25c",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0012",
+        "provenance-repair-20260920-src-0012-p0013",
+        "provenance-repair-20260920-src-0012-p0014",
+        "provenance-repair-20260920-src-0012-p0015",
+        "provenance-repair-20260920-src-0012-p0016",
+        "provenance-repair-20260920-src-0022-p0183",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-impact-assessment-aiia",
+      "note_sha256": "a3b31efa38712dcafbd4fcb9e2ee95a49b6867017fe7f8a1cc19883785cbbf59",
+      "section_id": "ai-impact-assessment-aiia:e48258968fa6d1f2",
+      "section_sha256": "04ba961efae28261d68a2abc131716569aea7e2b420c938298108bbbfdf092e0",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0012",
+        "provenance-repair-20260920-src-0012-p0013",
+        "provenance-repair-20260920-src-0012-p0014",
+        "provenance-repair-20260920-src-0012-p0015",
+        "provenance-repair-20260920-src-0012-p0016",
+        "provenance-repair-20260920-src-0022-p0183",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-impact-assessment-aiia",
+      "note_sha256": "a3b31efa38712dcafbd4fcb9e2ee95a49b6867017fe7f8a1cc19883785cbbf59",
+      "section_id": "ai-impact-assessment-aiia:9fbb6d4c2b9300a8",
+      "section_sha256": "4c6910373049f0d85ae0ba68e944737d7f9abd8779e2b9ad5ef1c705eede7670",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0012",
+        "provenance-repair-20260920-src-0012-p0013",
+        "provenance-repair-20260920-src-0012-p0014",
+        "provenance-repair-20260920-src-0012-p0015",
+        "provenance-repair-20260920-src-0012-p0016",
+        "provenance-repair-20260920-src-0022-p0183",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-impact-assessment-aiia",
+      "note_sha256": "a3b31efa38712dcafbd4fcb9e2ee95a49b6867017fe7f8a1cc19883785cbbf59",
+      "section_id": "ai-impact-assessment-aiia:297f18d792d94282",
+      "section_sha256": "6bc714d786ac66ca20da5c160659b087b15dd3f95482a65f0f399e1e6778e56e",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0012",
+        "provenance-repair-20260920-src-0012-p0013",
+        "provenance-repair-20260920-src-0012-p0014",
+        "provenance-repair-20260920-src-0012-p0015",
+        "provenance-repair-20260920-src-0012-p0016",
+        "provenance-repair-20260920-src-0022-p0183",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "aiuc-1",
+      "note_sha256": "13f18d9cc24b9efdd93343607b405ab7db6eedf66b7b4c7bc4aca63faead60ae",
+      "section_id": "aiuc-1:6692abd8a87d6606",
+      "section_sha256": "23c23a54d113ced2e17cd2e710176e6e93882f3a542825682738b5359fed60ff",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0023-p0005",
+        "provenance-repair-20260920-src-0023-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "aiuc-1",
+      "note_sha256": "13f18d9cc24b9efdd93343607b405ab7db6eedf66b7b4c7bc4aca63faead60ae",
+      "section_id": "aiuc-1:0a0d30090f85a219",
+      "section_sha256": "e99c3c68920566398b9c99e49e59b1dda490973c5ffd432a309a3efbd7e295cc",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0023-p0005",
+        "provenance-repair-20260920-src-0023-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "aiuc-1",
+      "note_sha256": "13f18d9cc24b9efdd93343607b405ab7db6eedf66b7b4c7bc4aca63faead60ae",
+      "section_id": "aiuc-1:cc4d87986ae8cd72",
+      "section_sha256": "a4963caaf714bb44e42a08889da9beaf883d387319c4e4535df9a8a527d00ff3",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0023-p0005",
+        "provenance-repair-20260920-src-0023-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "aiuc-1",
+      "note_sha256": "13f18d9cc24b9efdd93343607b405ab7db6eedf66b7b4c7bc4aca63faead60ae",
+      "section_id": "aiuc-1:fcd2d0e26e28b753",
+      "section_sha256": "406aeb85708a920f72525bf49b5ab1ae0ccde8c0d3d015f98b42071e74139724",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0023-p0005",
+        "provenance-repair-20260920-src-0023-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "aiuc-1",
+      "note_sha256": "13f18d9cc24b9efdd93343607b405ab7db6eedf66b7b4c7bc4aca63faead60ae",
+      "section_id": "aiuc-1:3720db277d5fb157",
+      "section_sha256": "ae4ce69123ebf43367fcc42ebeddc71175f65e7bc3216dab429a058fff97bad1",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0023-p0005",
+        "provenance-repair-20260920-src-0023-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-23894",
+      "note_sha256": "168a331c5ff959b2f68e0bdf145dda50497a2d4b04072f84c35d1f61bd659055",
+      "section_id": "iso-23894:e809ae05a5f89603",
+      "section_sha256": "d08e8148d222bceccb3c5a8962b36b5ead10fb03c148e8a03e6c50d1e558bd7b",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-23894",
+      "note_sha256": "168a331c5ff959b2f68e0bdf145dda50497a2d4b04072f84c35d1f61bd659055",
+      "section_id": "iso-23894:ff91405c31e0679a",
+      "section_sha256": "5c2cda8287c90b3e1a02e9d6ff51ffbab98e1fe8e458f5a0ec73b07133623b9d",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-23894",
+      "note_sha256": "168a331c5ff959b2f68e0bdf145dda50497a2d4b04072f84c35d1f61bd659055",
+      "section_id": "iso-23894:61d76b584258934c",
+      "section_sha256": "7782d23fe04f59a58331e81dc73aef2c82a44b8fb6762b1dc48883cf11c7b799",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-23894",
+      "note_sha256": "168a331c5ff959b2f68e0bdf145dda50497a2d4b04072f84c35d1f61bd659055",
+      "section_id": "iso-23894:cc03f41c6d1f86ef",
+      "section_sha256": "8da4499957de4878a81a6c6f7ecccbbdb6154b6336081c045214f6b26c1d26c9",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-23894",
+      "note_sha256": "168a331c5ff959b2f68e0bdf145dda50497a2d4b04072f84c35d1f61bd659055",
+      "section_id": "iso-23894:d5f6af03295f72bf",
+      "section_sha256": "940225ca9f3c40c20f90b8d22b080842663de0b602d1e987ab4ffaf6a0200779",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-27001",
+      "note_sha256": "4a0f4289a5d3b7d8121b33a4361eb7478ed60d356c8ee6addc1ae0279d4c0d5e",
+      "section_id": "iso-27001:aa0fb632fecd29f8",
+      "section_sha256": "594ab878a5720ac6ce93a84bd9881fe7b2caa97779844af85a62365d0a8db449",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0004-p0003",
+        "provenance-repair-20260920-src-0004-p0010",
+        "provenance-repair-20260920-src-0004-p0014"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-27001",
+      "note_sha256": "4a0f4289a5d3b7d8121b33a4361eb7478ed60d356c8ee6addc1ae0279d4c0d5e",
+      "section_id": "iso-27001:92ceb17ab7fa311f",
+      "section_sha256": "9ea170c368641ef6a7c4b67afcad63d22a267705a711e067ef9462f18dd32466",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0004-p0003",
+        "provenance-repair-20260920-src-0004-p0010",
+        "provenance-repair-20260920-src-0004-p0014"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-27001",
+      "note_sha256": "4a0f4289a5d3b7d8121b33a4361eb7478ed60d356c8ee6addc1ae0279d4c0d5e",
+      "section_id": "iso-27001:9bc1c73199728f71",
+      "section_sha256": "36055aee68eef5ec396f0f8bc30c44d5ef672175d26c6e4157cdff493de60862",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0004-p0003",
+        "provenance-repair-20260920-src-0004-p0010",
+        "provenance-repair-20260920-src-0004-p0014"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-27001",
+      "note_sha256": "4a0f4289a5d3b7d8121b33a4361eb7478ed60d356c8ee6addc1ae0279d4c0d5e",
+      "section_id": "iso-27001:cde6f0076f853018",
+      "section_sha256": "bac8b2aa2008efd61b0d29b403b01194d77a97ac97a7f4157ed89683eef53580",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0004-p0003",
+        "provenance-repair-20260920-src-0004-p0010",
+        "provenance-repair-20260920-src-0004-p0014"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-27001",
+      "note_sha256": "4a0f4289a5d3b7d8121b33a4361eb7478ed60d356c8ee6addc1ae0279d4c0d5e",
+      "section_id": "iso-27001:0984aec22be18e7d",
+      "section_sha256": "63c1a8c9c7a7de1a4109bd1624ceb887132f541ff6d270783e3f1eb5c5068f8d",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0004-p0003",
+        "provenance-repair-20260920-src-0004-p0010",
+        "provenance-repair-20260920-src-0004-p0014"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-31000",
+      "note_sha256": "7f69a001c70dd6230838bd962a4254ca59a8114af50937d2f01d8108a58b9b70",
+      "section_id": "iso-31000:06b08fb6e9b46c30",
+      "section_sha256": "0b94bd4b718b65391de28ce1cae24b1dbeaad47d973b6abe8492c0d57dac13f0",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-31000",
+      "note_sha256": "7f69a001c70dd6230838bd962a4254ca59a8114af50937d2f01d8108a58b9b70",
+      "section_id": "iso-31000:e1a6c3d76bae61a2",
+      "section_sha256": "0579d6e1f0444d1aaa9dd428177a19d84d2bfb940aec0fca60fb74b27bf48b4a",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-31000",
+      "note_sha256": "7f69a001c70dd6230838bd962a4254ca59a8114af50937d2f01d8108a58b9b70",
+      "section_id": "iso-31000:618a13d045a5db8e",
+      "section_sha256": "79866b771059f72ee33e4e61187eaed65d1dfd9c6d01a9594940c6f2efde25d3",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-31000",
+      "note_sha256": "7f69a001c70dd6230838bd962a4254ca59a8114af50937d2f01d8108a58b9b70",
+      "section_id": "iso-31000:186d899867c54233",
+      "section_sha256": "4e9afbfa34826b0f23591676a42938b4c696e422d181280e1b1772fe80830f4a",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "iso-31000",
+      "note_sha256": "7f69a001c70dd6230838bd962a4254ca59a8114af50937d2f01d8108a58b9b70",
+      "section_id": "iso-31000:54ad69bf3089736b",
+      "section_sha256": "74f68dd7a204330bed77a6ebd74e726a49ea64614e0fbe078751649b8d7c79cd",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0005-p0005",
+        "provenance-repair-20260920-src-0005-p0007",
+        "provenance-repair-20260920-src-0005-p0008",
+        "provenance-repair-20260920-src-0005-p0009",
+        "provenance-repair-20260920-src-0005-p0010",
+        "provenance-repair-20260920-src-0005-p0011"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "mitre-atlas",
+      "note_sha256": "c21c72fed81c0188d5af1b186c4086afd91e689fdecd61166eb89b143c8911d7",
+      "section_id": "mitre-atlas:454f5cdbf1195368",
+      "section_sha256": "fc338034bf962fc14f3050cca9678f0eb788f11e65fbc3743503742ff355ac9e",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0014",
+        "provenance-repair-20260920-src-0028-p0037",
+        "provenance-repair-20260920-src-0028-p0038",
+        "provenance-repair-20260920-src-0028-p0039",
+        "provenance-repair-20260920-src-0028-p0040",
+        "provenance-repair-20260920-src-0028-p0041",
+        "provenance-repair-20260920-src-0028-p0042",
+        "provenance-repair-20260920-src-0028-p0043",
+        "provenance-repair-20260920-src-0028-p0044",
+        "provenance-repair-20260920-src-0028-p0045",
+        "provenance-repair-20260920-src-0028-p0046",
+        "provenance-repair-20260920-src-0028-p0047",
+        "provenance-repair-20260920-src-0028-p0048",
+        "provenance-repair-20260920-src-0028-p0049",
+        "provenance-repair-20260920-src-0028-p0050",
+        "provenance-repair-20260920-src-0028-p0051",
+        "provenance-repair-20260920-src-0028-p0052",
+        "provenance-repair-20260920-src-0028-p0053",
+        "provenance-repair-20260920-src-0028-p0054",
+        "provenance-repair-20260920-src-0028-p0055",
+        "provenance-repair-20260920-src-0028-p0056",
+        "provenance-repair-20260920-src-0028-p0057",
+        "provenance-repair-20260920-src-0028-p0058",
+        "provenance-repair-20260920-src-0028-p0059",
+        "provenance-repair-20260920-src-0028-p0060",
+        "provenance-repair-20260920-src-0028-p0061",
+        "provenance-repair-20260920-src-0033-p0008",
+        "provenance-repair-20260920-src-0033-p0009",
+        "provenance-repair-20260920-src-0033-p0010"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "mitre-atlas",
+      "note_sha256": "c21c72fed81c0188d5af1b186c4086afd91e689fdecd61166eb89b143c8911d7",
+      "section_id": "mitre-atlas:c905a3475eb646a9",
+      "section_sha256": "72b9f9af14524cc8220fee0d1108d6729e8625b7c0251d34ae4384c6056cabf0",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0014",
+        "provenance-repair-20260920-src-0028-p0037",
+        "provenance-repair-20260920-src-0028-p0038",
+        "provenance-repair-20260920-src-0028-p0039",
+        "provenance-repair-20260920-src-0028-p0040",
+        "provenance-repair-20260920-src-0028-p0041",
+        "provenance-repair-20260920-src-0028-p0042",
+        "provenance-repair-20260920-src-0028-p0043",
+        "provenance-repair-20260920-src-0028-p0044",
+        "provenance-repair-20260920-src-0028-p0045",
+        "provenance-repair-20260920-src-0028-p0046",
+        "provenance-repair-20260920-src-0028-p0047",
+        "provenance-repair-20260920-src-0028-p0048",
+        "provenance-repair-20260920-src-0028-p0049",
+        "provenance-repair-20260920-src-0028-p0050",
+        "provenance-repair-20260920-src-0028-p0051",
+        "provenance-repair-20260920-src-0028-p0052",
+        "provenance-repair-20260920-src-0028-p0053",
+        "provenance-repair-20260920-src-0028-p0054",
+        "provenance-repair-20260920-src-0028-p0055",
+        "provenance-repair-20260920-src-0028-p0056",
+        "provenance-repair-20260920-src-0028-p0057",
+        "provenance-repair-20260920-src-0028-p0058",
+        "provenance-repair-20260920-src-0028-p0059",
+        "provenance-repair-20260920-src-0028-p0060",
+        "provenance-repair-20260920-src-0028-p0061",
+        "provenance-repair-20260920-src-0033-p0008",
+        "provenance-repair-20260920-src-0033-p0009",
+        "provenance-repair-20260920-src-0033-p0010"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "mitre-atlas",
+      "note_sha256": "c21c72fed81c0188d5af1b186c4086afd91e689fdecd61166eb89b143c8911d7",
+      "section_id": "mitre-atlas:9d67ab96b392ba04",
+      "section_sha256": "e23e49fa44f644d9601c18833211ef03af5a5e7af62b687b1e4a734a18c983ad",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0014",
+        "provenance-repair-20260920-src-0028-p0037",
+        "provenance-repair-20260920-src-0028-p0038",
+        "provenance-repair-20260920-src-0028-p0039",
+        "provenance-repair-20260920-src-0028-p0040",
+        "provenance-repair-20260920-src-0028-p0041",
+        "provenance-repair-20260920-src-0028-p0042",
+        "provenance-repair-20260920-src-0028-p0043",
+        "provenance-repair-20260920-src-0028-p0044",
+        "provenance-repair-20260920-src-0028-p0045",
+        "provenance-repair-20260920-src-0028-p0046",
+        "provenance-repair-20260920-src-0028-p0047",
+        "provenance-repair-20260920-src-0028-p0048",
+        "provenance-repair-20260920-src-0028-p0049",
+        "provenance-repair-20260920-src-0028-p0050",
+        "provenance-repair-20260920-src-0028-p0051",
+        "provenance-repair-20260920-src-0028-p0052",
+        "provenance-repair-20260920-src-0028-p0053",
+        "provenance-repair-20260920-src-0028-p0054",
+        "provenance-repair-20260920-src-0028-p0055",
+        "provenance-repair-20260920-src-0028-p0056",
+        "provenance-repair-20260920-src-0028-p0057",
+        "provenance-repair-20260920-src-0028-p0058",
+        "provenance-repair-20260920-src-0028-p0059",
+        "provenance-repair-20260920-src-0028-p0060",
+        "provenance-repair-20260920-src-0028-p0061",
+        "provenance-repair-20260920-src-0033-p0008",
+        "provenance-repair-20260920-src-0033-p0009",
+        "provenance-repair-20260920-src-0033-p0010"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "mitre-atlas",
+      "note_sha256": "c21c72fed81c0188d5af1b186c4086afd91e689fdecd61166eb89b143c8911d7",
+      "section_id": "mitre-atlas:531d07b752df2edc",
+      "section_sha256": "30b09e06198fc294765e8b910ca7bae774d4ab590fff52130b03a6f568e4ad66",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0014",
+        "provenance-repair-20260920-src-0028-p0037",
+        "provenance-repair-20260920-src-0028-p0038",
+        "provenance-repair-20260920-src-0028-p0039",
+        "provenance-repair-20260920-src-0028-p0040",
+        "provenance-repair-20260920-src-0028-p0041",
+        "provenance-repair-20260920-src-0028-p0042",
+        "provenance-repair-20260920-src-0028-p0043",
+        "provenance-repair-20260920-src-0028-p0044",
+        "provenance-repair-20260920-src-0028-p0045",
+        "provenance-repair-20260920-src-0028-p0046",
+        "provenance-repair-20260920-src-0028-p0047",
+        "provenance-repair-20260920-src-0028-p0048",
+        "provenance-repair-20260920-src-0028-p0049",
+        "provenance-repair-20260920-src-0028-p0050",
+        "provenance-repair-20260920-src-0028-p0051",
+        "provenance-repair-20260920-src-0028-p0052",
+        "provenance-repair-20260920-src-0028-p0053",
+        "provenance-repair-20260920-src-0028-p0054",
+        "provenance-repair-20260920-src-0028-p0055",
+        "provenance-repair-20260920-src-0028-p0056",
+        "provenance-repair-20260920-src-0028-p0057",
+        "provenance-repair-20260920-src-0028-p0058",
+        "provenance-repair-20260920-src-0028-p0059",
+        "provenance-repair-20260920-src-0028-p0060",
+        "provenance-repair-20260920-src-0028-p0061",
+        "provenance-repair-20260920-src-0033-p0008",
+        "provenance-repair-20260920-src-0033-p0009",
+        "provenance-repair-20260920-src-0033-p0010"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "mitre-atlas",
+      "note_sha256": "c21c72fed81c0188d5af1b186c4086afd91e689fdecd61166eb89b143c8911d7",
+      "section_id": "mitre-atlas:4aa3a498db8d8476",
+      "section_sha256": "0fed96f077ab98a79540607dfbdbd33a705c04f3f7f05eb142555586fda14b62",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0014",
+        "provenance-repair-20260920-src-0028-p0037",
+        "provenance-repair-20260920-src-0028-p0038",
+        "provenance-repair-20260920-src-0028-p0039",
+        "provenance-repair-20260920-src-0028-p0040",
+        "provenance-repair-20260920-src-0028-p0041",
+        "provenance-repair-20260920-src-0028-p0042",
+        "provenance-repair-20260920-src-0028-p0043",
+        "provenance-repair-20260920-src-0028-p0044",
+        "provenance-repair-20260920-src-0028-p0045",
+        "provenance-repair-20260920-src-0028-p0046",
+        "provenance-repair-20260920-src-0028-p0047",
+        "provenance-repair-20260920-src-0028-p0048",
+        "provenance-repair-20260920-src-0028-p0049",
+        "provenance-repair-20260920-src-0028-p0050",
+        "provenance-repair-20260920-src-0028-p0051",
+        "provenance-repair-20260920-src-0028-p0052",
+        "provenance-repair-20260920-src-0028-p0053",
+        "provenance-repair-20260920-src-0028-p0054",
+        "provenance-repair-20260920-src-0028-p0055",
+        "provenance-repair-20260920-src-0028-p0056",
+        "provenance-repair-20260920-src-0028-p0057",
+        "provenance-repair-20260920-src-0028-p0058",
+        "provenance-repair-20260920-src-0028-p0059",
+        "provenance-repair-20260920-src-0028-p0060",
+        "provenance-repair-20260920-src-0028-p0061",
+        "provenance-repair-20260920-src-0033-p0008",
+        "provenance-repair-20260920-src-0033-p0009",
+        "provenance-repair-20260920-src-0033-p0010"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "nist-ai-rmf",
+      "note_sha256": "eb14c6557a934c9015cccf8c2c8ea7c11d3ece1f05acd3e39bf97ec61231e169",
+      "section_id": "nist-ai-rmf:7fc84ffb68c7b478",
+      "section_sha256": "50f475c926d18a9736d2bf6345b78245f3b7b14abf9fb48eee117483571fd1ca",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0039-p0006",
+        "provenance-repair-20260920-src-0039-p0017",
+        "provenance-repair-20260920-src-0039-p0025",
+        "provenance-repair-20260920-src-0039-p0026",
+        "provenance-repair-20260920-src-0039-p0029",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0036",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "nist-ai-rmf",
+      "note_sha256": "eb14c6557a934c9015cccf8c2c8ea7c11d3ece1f05acd3e39bf97ec61231e169",
+      "section_id": "nist-ai-rmf:af34cfa06f60e27c",
+      "section_sha256": "32e2e75aebabcc333a6446df21707e948df04f263c07d81cef5d5ca8949765ff",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0039-p0006",
+        "provenance-repair-20260920-src-0039-p0017",
+        "provenance-repair-20260920-src-0039-p0025",
+        "provenance-repair-20260920-src-0039-p0026",
+        "provenance-repair-20260920-src-0039-p0029",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0036",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "nist-ai-rmf",
+      "note_sha256": "eb14c6557a934c9015cccf8c2c8ea7c11d3ece1f05acd3e39bf97ec61231e169",
+      "section_id": "nist-ai-rmf:4b2624b1d8971857",
+      "section_sha256": "281c59de72ac0bd70c76bf7fcc0a5058ee5f7d4f67fd2911902b91d8043d9ee1",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0039-p0006",
+        "provenance-repair-20260920-src-0039-p0017",
+        "provenance-repair-20260920-src-0039-p0025",
+        "provenance-repair-20260920-src-0039-p0026",
+        "provenance-repair-20260920-src-0039-p0029",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0036",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "nist-ai-rmf",
+      "note_sha256": "eb14c6557a934c9015cccf8c2c8ea7c11d3ece1f05acd3e39bf97ec61231e169",
+      "section_id": "nist-ai-rmf:d332cb81a08e4381",
+      "section_sha256": "6171b871dd2b49e0ecf0f11fc85c67a8fc4f974b99374e81c0062c0423a9d781",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0039-p0006",
+        "provenance-repair-20260920-src-0039-p0017",
+        "provenance-repair-20260920-src-0039-p0025",
+        "provenance-repair-20260920-src-0039-p0026",
+        "provenance-repair-20260920-src-0039-p0029",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0036",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "nist-ai-rmf",
+      "note_sha256": "eb14c6557a934c9015cccf8c2c8ea7c11d3ece1f05acd3e39bf97ec61231e169",
+      "section_id": "nist-ai-rmf:75dcd39a37f7660f",
+      "section_sha256": "ee64106f2dcc996ae46db3ab6afd1f5ca59f18f306e82483924079fc83041dcf",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0039-p0006",
+        "provenance-repair-20260920-src-0039-p0017",
+        "provenance-repair-20260920-src-0039-p0025",
+        "provenance-repair-20260920-src-0039-p0026",
+        "provenance-repair-20260920-src-0039-p0029",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0036",
+        "provenance-repair-20260920-src-0040-p0026",
+        "provenance-repair-20260920-src-0040-p0027"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cjeu",
+      "note_sha256": "8deb2a33d5ab767c09c641be74cdcff7d758cfd70ac04df4b13ea7b8cc1e4ae0",
+      "section_id": "cjeu:c177bccb0ec1edc4",
+      "section_sha256": "2b5c41580a9fae41ace7e10fa53674bda6b85f2756e1d89e35d86350ed480206",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0008",
+        "provenance-repair-20260920-src-0010-p0026",
+        "provenance-repair-20260920-src-0019-p0010",
+        "provenance-repair-20260920-src-0019-p0021",
+        "provenance-repair-20260920-src-0019-p0022",
+        "provenance-repair-20260920-src-0020-p0005",
+        "provenance-repair-20260920-src-0020-p0007",
+        "provenance-repair-20260920-src-0020-p0008"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cjeu",
+      "note_sha256": "8deb2a33d5ab767c09c641be74cdcff7d758cfd70ac04df4b13ea7b8cc1e4ae0",
+      "section_id": "cjeu:087d894465b8804e",
+      "section_sha256": "9d16931ab3824aa37b5b1744e6272e51138ae730836f0d12673ffa1a44efb420",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0008",
+        "provenance-repair-20260920-src-0010-p0026",
+        "provenance-repair-20260920-src-0019-p0010",
+        "provenance-repair-20260920-src-0019-p0021",
+        "provenance-repair-20260920-src-0019-p0022",
+        "provenance-repair-20260920-src-0020-p0005",
+        "provenance-repair-20260920-src-0020-p0007",
+        "provenance-repair-20260920-src-0020-p0008"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cjeu",
+      "note_sha256": "8deb2a33d5ab767c09c641be74cdcff7d758cfd70ac04df4b13ea7b8cc1e4ae0",
+      "section_id": "cjeu:7193669af3da826a",
+      "section_sha256": "ba9eeb04d081a9649b7efe052a10da74f7b94dc36b38defaf8c05bbe580900d7",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0008",
+        "provenance-repair-20260920-src-0010-p0026",
+        "provenance-repair-20260920-src-0019-p0010",
+        "provenance-repair-20260920-src-0019-p0021",
+        "provenance-repair-20260920-src-0019-p0022",
+        "provenance-repair-20260920-src-0020-p0005",
+        "provenance-repair-20260920-src-0020-p0007",
+        "provenance-repair-20260920-src-0020-p0008"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cjeu",
+      "note_sha256": "8deb2a33d5ab767c09c641be74cdcff7d758cfd70ac04df4b13ea7b8cc1e4ae0",
+      "section_id": "cjeu:b6adeabe530494a2",
+      "section_sha256": "3480ec16c958bef650871e92ef979a31f6cbc5e1cefa0f41a2241df4ccf369eb",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0008",
+        "provenance-repair-20260920-src-0010-p0026",
+        "provenance-repair-20260920-src-0019-p0010",
+        "provenance-repair-20260920-src-0019-p0021",
+        "provenance-repair-20260920-src-0019-p0022",
+        "provenance-repair-20260920-src-0020-p0005",
+        "provenance-repair-20260920-src-0020-p0007",
+        "provenance-repair-20260920-src-0020-p0008"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cjeu",
+      "note_sha256": "8deb2a33d5ab767c09c641be74cdcff7d758cfd70ac04df4b13ea7b8cc1e4ae0",
+      "section_id": "cjeu:341759622d2ca6e0",
+      "section_sha256": "c510f3ccf89f04f34ccf1417e21e10f9f13f8884159800136f67195b25cb526e",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0008",
+        "provenance-repair-20260920-src-0010-p0026",
+        "provenance-repair-20260920-src-0019-p0010",
+        "provenance-repair-20260920-src-0019-p0021",
+        "provenance-repair-20260920-src-0019-p0022",
+        "provenance-repair-20260920-src-0020-p0005",
+        "provenance-repair-20260920-src-0020-p0007",
+        "provenance-repair-20260920-src-0020-p0008"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cosai",
+      "note_sha256": "2c950a8eb4c3c1ce9890aba66fc8ad86fddfbf942d1aeed88c78b612fb2108d8",
+      "section_id": "cosai:ee38864c6641486f",
+      "section_sha256": "8945616c4a4b6b7f18ab4b71aaa6be46bb3309cd52ced31e39407bd780a2dc87",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0065",
+        "provenance-repair-20260920-src-0033-p0003",
+        "provenance-repair-20260920-src-0033-p0006",
+        "provenance-repair-20260920-src-0033-p0012",
+        "provenance-repair-20260920-src-0034-p0003",
+        "provenance-repair-20260920-src-0034-p0035"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cosai",
+      "note_sha256": "2c950a8eb4c3c1ce9890aba66fc8ad86fddfbf942d1aeed88c78b612fb2108d8",
+      "section_id": "cosai:0a0e9f4ca840df58",
+      "section_sha256": "89ffce90eac93a64c5f2f25ad42e1f52812f097c53ad5ae7f76e61d578c5f019",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0065",
+        "provenance-repair-20260920-src-0033-p0003",
+        "provenance-repair-20260920-src-0033-p0006",
+        "provenance-repair-20260920-src-0033-p0012",
+        "provenance-repair-20260920-src-0034-p0003",
+        "provenance-repair-20260920-src-0034-p0035"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cosai",
+      "note_sha256": "2c950a8eb4c3c1ce9890aba66fc8ad86fddfbf942d1aeed88c78b612fb2108d8",
+      "section_id": "cosai:c5a8f9f141620eb9",
+      "section_sha256": "4f0d9b94ea7d2e632b57d2a5bc3f06362fb9135ab7f35b6163bd1fdf120db192",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0065",
+        "provenance-repair-20260920-src-0033-p0003",
+        "provenance-repair-20260920-src-0033-p0006",
+        "provenance-repair-20260920-src-0033-p0012",
+        "provenance-repair-20260920-src-0034-p0003",
+        "provenance-repair-20260920-src-0034-p0035"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cosai",
+      "note_sha256": "2c950a8eb4c3c1ce9890aba66fc8ad86fddfbf942d1aeed88c78b612fb2108d8",
+      "section_id": "cosai:399d8979ccbde006",
+      "section_sha256": "42fafde5cdb331e03366510567147dafb00973175a87515ca2e7a0ab99bf3753",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0065",
+        "provenance-repair-20260920-src-0033-p0003",
+        "provenance-repair-20260920-src-0033-p0006",
+        "provenance-repair-20260920-src-0033-p0012",
+        "provenance-repair-20260920-src-0034-p0003",
+        "provenance-repair-20260920-src-0034-p0035"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "cosai",
+      "note_sha256": "2c950a8eb4c3c1ce9890aba66fc8ad86fddfbf942d1aeed88c78b612fb2108d8",
+      "section_id": "cosai:652da3f7fdae80e4",
+      "section_sha256": "84f08494c56155cb2f6bda124ae9565b8b45eaa2d5ea166d67a850844d5cc203",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0028-p0065",
+        "provenance-repair-20260920-src-0033-p0003",
+        "provenance-repair-20260920-src-0033-p0006",
+        "provenance-repair-20260920-src-0033-p0012",
+        "provenance-repair-20260920-src-0034-p0003",
+        "provenance-repair-20260920-src-0034-p0035"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edpb",
+      "note_sha256": "ca0dc868175c4e63660f4865b0bfb6d6ead24ddd24b594d49fa2f3f6a66e44c7",
+      "section_id": "edpb:7dfd306c2850533e",
+      "section_sha256": "cef6b5e4fecacdeb54bdd35a27aef83610ccdb8f4308a418804ff37cb3aa7faf",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0014-p0022",
+        "provenance-repair-20260920-src-0014-p0076",
+        "provenance-repair-20260920-src-0014-p0128",
+        "provenance-repair-20260920-src-0019-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edpb",
+      "note_sha256": "ca0dc868175c4e63660f4865b0bfb6d6ead24ddd24b594d49fa2f3f6a66e44c7",
+      "section_id": "edpb:b9ff31305d6e7c3e",
+      "section_sha256": "f40dd880f87a5d252e97a41648afd172a79d9a70b389a83362154f04a6717304",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0014-p0022",
+        "provenance-repair-20260920-src-0014-p0076",
+        "provenance-repair-20260920-src-0014-p0128",
+        "provenance-repair-20260920-src-0019-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edpb",
+      "note_sha256": "ca0dc868175c4e63660f4865b0bfb6d6ead24ddd24b594d49fa2f3f6a66e44c7",
+      "section_id": "edpb:1e29b6d0a76e5c5d",
+      "section_sha256": "7c5319a28e72d030ef556ce12b8048e82b6e5dbcc79a498dab7a9a4233ad1268",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0014-p0022",
+        "provenance-repair-20260920-src-0014-p0076",
+        "provenance-repair-20260920-src-0014-p0128",
+        "provenance-repair-20260920-src-0019-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edpb",
+      "note_sha256": "ca0dc868175c4e63660f4865b0bfb6d6ead24ddd24b594d49fa2f3f6a66e44c7",
+      "section_id": "edpb:82c2b0acf4d93164",
+      "section_sha256": "466154c044644b7b84a25084576dc3e2c6097e4062790a717d54fd5fa1e87fb2",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0014-p0022",
+        "provenance-repair-20260920-src-0014-p0076",
+        "provenance-repair-20260920-src-0014-p0128",
+        "provenance-repair-20260920-src-0019-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edpb",
+      "note_sha256": "ca0dc868175c4e63660f4865b0bfb6d6ead24ddd24b594d49fa2f3f6a66e44c7",
+      "section_id": "edpb:b8be2dd071606b03",
+      "section_sha256": "21511fb6d4de062596961eb56e6d52baf1b76317df2cedac608e992998df50f5",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0014-p0022",
+        "provenance-repair-20260920-src-0014-p0076",
+        "provenance-repair-20260920-src-0014-p0128",
+        "provenance-repair-20260920-src-0019-p0006"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edps",
+      "note_sha256": "733473bfdfb87fd98d1aa988db78193d679f19a79567e1fb320cae4b8da865a1",
+      "section_id": "edps:7e6722e7f7af1e35",
+      "section_sha256": "48947af684d3a3b222375976019f6357c39b5ac180a4ebbef0dc015934f4cdf6",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0025",
+        "provenance-repair-20260920-src-0010-p0031",
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0010-p0079",
+        "provenance-repair-20260920-src-0015-p0002",
+        "provenance-repair-20260920-src-0016-p0021",
+        "provenance-repair-20260920-src-0022-p0025"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edps",
+      "note_sha256": "733473bfdfb87fd98d1aa988db78193d679f19a79567e1fb320cae4b8da865a1",
+      "section_id": "edps:235960d9e33bf101",
+      "section_sha256": "c578d2a819435bc2d15995fbb5c13e987f02898c28cb2422c4e997ac0117c40b",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0025",
+        "provenance-repair-20260920-src-0010-p0031",
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0010-p0079",
+        "provenance-repair-20260920-src-0015-p0002",
+        "provenance-repair-20260920-src-0016-p0021",
+        "provenance-repair-20260920-src-0022-p0025"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edps",
+      "note_sha256": "733473bfdfb87fd98d1aa988db78193d679f19a79567e1fb320cae4b8da865a1",
+      "section_id": "edps:7826c3deaad1987e",
+      "section_sha256": "1c6f518b0d9bfe45a3b8049241171b9bed12c86cff89b08396a06360b5d626ab",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0025",
+        "provenance-repair-20260920-src-0010-p0031",
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0010-p0079",
+        "provenance-repair-20260920-src-0015-p0002",
+        "provenance-repair-20260920-src-0016-p0021",
+        "provenance-repair-20260920-src-0022-p0025"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edps",
+      "note_sha256": "733473bfdfb87fd98d1aa988db78193d679f19a79567e1fb320cae4b8da865a1",
+      "section_id": "edps:a6ca03af0ede53a8",
+      "section_sha256": "f4af0c46c16005a1136ca5c59ca6b7991be2e65c234442be0f2cdc95068cfa29",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0025",
+        "provenance-repair-20260920-src-0010-p0031",
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0010-p0079",
+        "provenance-repair-20260920-src-0015-p0002",
+        "provenance-repair-20260920-src-0016-p0021",
+        "provenance-repair-20260920-src-0022-p0025"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "edps",
+      "note_sha256": "733473bfdfb87fd98d1aa988db78193d679f19a79567e1fb320cae4b8da865a1",
+      "section_id": "edps:0dbb0c9e75940df6",
+      "section_sha256": "67665ab36705562e2563e5f212dc2d047814f3b92becfb2a900e37136c432214",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0010-p0025",
+        "provenance-repair-20260920-src-0010-p0031",
+        "provenance-repair-20260920-src-0010-p0076",
+        "provenance-repair-20260920-src-0010-p0079",
+        "provenance-repair-20260920-src-0015-p0002",
+        "provenance-repair-20260920-src-0016-p0021",
+        "provenance-repair-20260920-src-0022-p0025"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "european-ai-office-eaio",
+      "note_sha256": "2ade8fc8360060a0edd266e722787e21282a1e557fc2f68cdbe9012931032eeb",
+      "section_id": "european-ai-office-eaio:1d70f2ace6e35fac",
+      "section_sha256": "6ceebf44938e75133024f9d75997767ba9f7e795b74eff16a0b5f93c09d430e7",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0007",
+        "provenance-repair-20260920-src-0016-p0115",
+        "provenance-repair-20260920-src-0016-p0127",
+        "provenance-repair-20260920-src-0018-p0050",
+        "provenance-repair-20260920-src-0022-p0025",
+        "provenance-repair-20260920-src-0022-p0242"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "european-ai-office-eaio",
+      "note_sha256": "2ade8fc8360060a0edd266e722787e21282a1e557fc2f68cdbe9012931032eeb",
+      "section_id": "european-ai-office-eaio:f3afe8435d6c4bb2",
+      "section_sha256": "71bfe19bccdab80599a8764a7790bcf8d02241bbe0268ce1fa49f177079038be",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0007",
+        "provenance-repair-20260920-src-0016-p0115",
+        "provenance-repair-20260920-src-0016-p0127",
+        "provenance-repair-20260920-src-0018-p0050",
+        "provenance-repair-20260920-src-0022-p0025",
+        "provenance-repair-20260920-src-0022-p0242"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "european-ai-office-eaio",
+      "note_sha256": "2ade8fc8360060a0edd266e722787e21282a1e557fc2f68cdbe9012931032eeb",
+      "section_id": "european-ai-office-eaio:9564b3966ebf71c1",
+      "section_sha256": "c696e07f41eaaecc0d67b9b2ffac63749ed2bb152b86eedc6a8083f3b8932c1a",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0007",
+        "provenance-repair-20260920-src-0016-p0115",
+        "provenance-repair-20260920-src-0016-p0127",
+        "provenance-repair-20260920-src-0018-p0050",
+        "provenance-repair-20260920-src-0022-p0025",
+        "provenance-repair-20260920-src-0022-p0242"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "european-ai-office-eaio",
+      "note_sha256": "2ade8fc8360060a0edd266e722787e21282a1e557fc2f68cdbe9012931032eeb",
+      "section_id": "european-ai-office-eaio:14ed75a8592e54d6",
+      "section_sha256": "70cdcc88b0049988b7453e57127974d4ae675b1d8965f0d63aca26798706d21d",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0007",
+        "provenance-repair-20260920-src-0016-p0115",
+        "provenance-repair-20260920-src-0016-p0127",
+        "provenance-repair-20260920-src-0018-p0050",
+        "provenance-repair-20260920-src-0022-p0025",
+        "provenance-repair-20260920-src-0022-p0242"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "european-ai-office-eaio",
+      "note_sha256": "2ade8fc8360060a0edd266e722787e21282a1e557fc2f68cdbe9012931032eeb",
+      "section_id": "european-ai-office-eaio:19aef4191ae55c7f",
+      "section_sha256": "8b46ed21a100aa8fde94ad5a81136ffc505b4e976d0f120cbf6305b6782f8ec3",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0012-p0007",
+        "provenance-repair-20260920-src-0016-p0115",
+        "provenance-repair-20260920-src-0016-p0127",
+        "provenance-repair-20260920-src-0018-p0050",
+        "provenance-repair-20260920-src-0022-p0025",
+        "provenance-repair-20260920-src-0022-p0242"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-004-model-documentation-completeness",
+      "note_sha256": "23ddf22bb57cf43bdb369597e02d14d59fb8ed9d96c2b267d9dfce17e855c881",
+      "section_id": "risk-004-model-documentation-completeness:a12110bda87fc1f3",
+      "section_sha256": "76148f1e88808bf4301aa65e9dc59a9f30242019d0582d095de6c9bb3e417e0c",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0036-p0013",
+        "provenance-repair-20260920-src-0038-p0021",
+        "provenance-repair-20260920-src-0039-p0019",
+        "provenance-repair-20260920-src-0039-p0024",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-004-model-documentation-completeness",
+      "note_sha256": "23ddf22bb57cf43bdb369597e02d14d59fb8ed9d96c2b267d9dfce17e855c881",
+      "section_id": "risk-004-model-documentation-completeness:1b3a17142090f648",
+      "section_sha256": "563adb30850bcb8314a31bfc69a0e883c302f18d780db313253520154f4750d8",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0036-p0013",
+        "provenance-repair-20260920-src-0038-p0021",
+        "provenance-repair-20260920-src-0039-p0019",
+        "provenance-repair-20260920-src-0039-p0024",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-006-guardrail-placement",
+      "note_sha256": "c08a2b57878070bc9ce53a2f18116e3acaf0a6f18c3164b27bb50c41315436e7",
+      "section_id": "risk-006-guardrail-placement:51f76a5e60353087",
+      "section_sha256": "8e71f9a5cfb4a7a2d0f31331826f71643c54d27892abb348b601b7ce27f0b871",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0027-p0011",
+        "provenance-repair-20260920-src-0027-p0033",
+        "provenance-repair-20260920-src-0027-p0038",
+        "provenance-repair-20260920-src-0039-p0032",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036",
+        "provenance-repair-20260920-src-0039-p0037",
+        "provenance-repair-20260920-src-0039-p0038"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-006-guardrail-placement",
+      "note_sha256": "c08a2b57878070bc9ce53a2f18116e3acaf0a6f18c3164b27bb50c41315436e7",
+      "section_id": "risk-006-guardrail-placement:3e155299a95e224b",
+      "section_sha256": "312e17a1ab69d65121dfd2cb4fc20ea7447b5aa812bbe08805899c6faf94adee",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0027-p0011",
+        "provenance-repair-20260920-src-0027-p0033",
+        "provenance-repair-20260920-src-0027-p0038",
+        "provenance-repair-20260920-src-0039-p0032",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036",
+        "provenance-repair-20260920-src-0039-p0037",
+        "provenance-repair-20260920-src-0039-p0038"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-007-red-team-remediation",
+      "note_sha256": "dd1ae3215521a8b81c17507a561c67dfb2ec8c38d86ffc6d75cb5c70edb5255d",
+      "section_id": "risk-007-red-team-remediation:2be83ec3ad8711d6",
+      "section_sha256": "7ac5c9f19d5fb557c48b2d92af7c796ebf065bf9030cb8f71735ef5c7038a896",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0009",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0028",
+        "provenance-repair-20260920-src-0026-p0030",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-007-red-team-remediation",
+      "note_sha256": "dd1ae3215521a8b81c17507a561c67dfb2ec8c38d86ffc6d75cb5c70edb5255d",
+      "section_id": "risk-007-red-team-remediation:c6ec61c2d7d8a967",
+      "section_sha256": "7dc8577c27382cf14d515f0f91300e11d82d4d3e4973446726707d6681f77794",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0009-p0009",
+        "provenance-repair-20260920-src-0009-p0016",
+        "provenance-repair-20260920-src-0009-p0022",
+        "provenance-repair-20260920-src-0009-p0028",
+        "provenance-repair-20260920-src-0026-p0030",
+        "provenance-repair-20260920-src-0039-p0033",
+        "provenance-repair-20260920-src-0039-p0034",
+        "provenance-repair-20260920-src-0039-p0035",
+        "provenance-repair-20260920-src-0039-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-009-misinformation-overreliance",
+      "note_sha256": "8e9022f77223ab664b0c31220232c59371a61ef4835ff4617ab51813cf438911",
+      "section_id": "risk-009-misinformation-overreliance:f67b05c2afc1d6e9",
+      "section_sha256": "d58e1a23cd3e2ebcc48f29834e8a03497675ef5741a0c4ba980923ed94af5bef",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0043",
+        "provenance-repair-20260920-src-0026-p0044",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-009-misinformation-overreliance",
+      "note_sha256": "8e9022f77223ab664b0c31220232c59371a61ef4835ff4617ab51813cf438911",
+      "section_id": "risk-009-misinformation-overreliance:a100c36a02699b95",
+      "section_sha256": "bf092ba6ee9e3656ddb54f243cde75cba842dd1ef6c8a9496617be81452ea55a",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0043",
+        "provenance-repair-20260920-src-0026-p0044",
+        "provenance-repair-20260920-src-0028-p0013"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-010-sensitive-data-disclosure-surfaces",
+      "note_sha256": "afd954feb26b93fa32304eabcfa6cbac00a4fae1e5dc482a632906fa6813ef54",
+      "section_id": "risk-010-sensitive-data-disclosure-surfaces:1a1c63445defadd7",
+      "section_sha256": "a6a1b0c9cd91cf92de47399ba20ef36fafd31f5a76c67e6eeb4d2eafdcc10102",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0018",
+        "provenance-repair-20260920-src-0026-p0047"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "risk-010-sensitive-data-disclosure-surfaces",
+      "note_sha256": "afd954feb26b93fa32304eabcfa6cbac00a4fae1e5dc482a632906fa6813ef54",
+      "section_id": "risk-010-sensitive-data-disclosure-surfaces:bcea37dc78c35501",
+      "section_sha256": "1ba179ab3000ed31acfc84d5a5cc50eb54fc50ebdd512e141f08bcc225e6eb45",
+      "evidence_refs": [
+        "provenance-repair-20260920-src-0026-p0018",
+        "provenance-repair-20260920-src-0026-p0047"
+      ],
+      "modality": "context"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-provenance-repair-20260920-independent-reviewer",
+    "reviewed_at": "2026-09-20T00:30:00Z",
+    "candidate_sha256": "b95290b643fa7ce24e1af305b05b6e1a3f58a6a9c2dab1dead9967646de64ee0",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "FIVE_VISUAL_FIDELITY_CHECKS_COMPLETED"
+      },
+      {
+        "severity": "INFO",
+        "code": "LINEAGE_HASHES_PRESERVED"
+      },
+      {
+        "severity": "INFO",
+        "code": "NO_SOURCE_OR_INGEST_MUTATION"
+      },
+      {
+        "severity": "WARNING",
+        "code": "FULL_PAGE_RENDERER_UNAVAILABLE; EMBEDDED_VISUAL_TRIAGE_USED"
+      }
+    ]
+  }
+}

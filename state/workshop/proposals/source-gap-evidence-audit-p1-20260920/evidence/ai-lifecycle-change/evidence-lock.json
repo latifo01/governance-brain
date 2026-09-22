@@ -1,0 +1,27 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "be035-src-0018-p0004",
+    "be035-src-0018-p0005",
+    "be035-src-0018-p0010",
+    "be035-src-0039-p0019",
+    "gov20-src-0001-p0017",
+    "gov20-src-0002-p0008",
+    "gov20-src-0002-p0010"
+  ],
+  "excluded_evidence_refs": [
+    "gov20-src-0009-p0006"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/benchmark-evidence-035-model-lifecycle.json",
+      "sha256": "183a4824629fee7a856bf09f5db3879799c2e72f521cc9eec5c5de5130b68c50"
+    },
+    {
+      "path": "state/workshop/evidence-library/governance-lifecycle-020.json",
+      "sha256": "478f23e6df3d17cfd43e73f5c25f6c8b34de86dac4f22e122e4d60e90cc87cc2"
+    }
+  ],
+  "eligible_count": 7,
+  "excluded_count": 1
+}

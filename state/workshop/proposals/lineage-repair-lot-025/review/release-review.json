@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "c39f8f681969eba0efd81f9d81b504db62351a45dfc0199b0b89d78295784017",
+  "reviewer_identity": "codex-lineage-repair-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {"severity": "INFO", "code": "EVIDENCE_LOCK_RESOLVED", "detail": "The strict release resolves two reviewed BINDING SRC-0011 references.", "evidence_lock_sha256": "867b11cccbee5362be434e5969c4db55b5aae8d2f1fddab145ba7b05c559fb35"},
+    {"severity": "INFO", "code": "CANDIDATE_REPRODUCED", "detail": "The deterministic preview is valid for one UPDATE knowledge note and one write.", "candidate_sha256": "c39f8f681969eba0efd81f9d81b504db62351a45dfc0199b0b89d78295784017"},
+    {"severity": "INFO", "code": "SCOPE_CONFIRMED", "detail": "Only ai-board is changed; sources, questions, taxonomy and indexes remain outside scope."},
+    {"severity": "WARNING", "code": "HUMAN_APPROVAL_PENDING", "detail": "Approval is required for this exact candidate before integration.", "approval_file": "state/workshop/proposals/lineage-repair-lot-025/review/approval.md"}
+  ]
+}

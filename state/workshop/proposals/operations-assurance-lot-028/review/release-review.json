@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "5249c6958c073d072290119af75ffd94428dd284da30b5c5ca63d1dad0504d58",
+  "reviewer_identity": "codex-operations-assurance-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The strict release resolves twenty-five reviewed references through the operations-assurance receipt.",
+      "evidence_lock_sha256": "d77cb86f5b0f8d1dda35f15a43581c15af7c74dd2675c88042d144a0fdd2a0c5"
+    },
+    {
+      "severity": "INFO",
+      "code": "SCOPE_CONFIRMED",
+      "detail": "The candidate contains two knowledge notes and four questions only; no active vault, Canvas, index, taxonomy or source file is changed."
+    },
+    {
+      "severity": "INFO",
+      "code": "QUESTION_GRAPH_VALIDATED",
+      "detail": "Question IDs and topics are unique; dependencies target existing or in-overlay questions and remain acyclic; FR/EN wording is equivalent."
+    },
+    {
+      "severity": "WARNING",
+      "code": "NON_BINDING_SOURCES",
+      "detail": "The lot provides operational and assurance guidance; it does not establish legal notification duties or certification."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "The exact candidate hash must be approved before deterministic integration."
+    }
+  ]
+}

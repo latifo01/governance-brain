@@ -1,0 +1,33 @@
+{
+  "candidate_sha256": "5b05fa24933aa04c6b7caf35c9b5ca872bb17d5a167edc6e902c76f043188674",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "eac2c695549e182141a41c1ec9319d0f5964b6adb677254eab202a7df1656fa0"
+  },
+  "files": [
+    {
+      "path": "Norms & Frameworks/iso-42001.md",
+      "proposal_id": "benchmark-evidence-034-governance-core",
+      "sha256": "5d36a68ea3f24234d9bdf7af0be08ea7f09ee32daf99f54601380ae4612c8ee7"
+    },
+    {
+      "path": "questions/core/core-001-business-purpose.md",
+      "proposal_id": "benchmark-evidence-034-governance-core",
+      "sha256": "a9eb562d44d1d58cddd9f0e97da8e255b8ad314fb59b809fae554566480e8895"
+    },
+    {
+      "path": "questions/core/core-002-accountable-owner.md",
+      "proposal_id": "benchmark-evidence-034-governance-core",
+      "sha256": "60a9f04ed86b3d6535f020965a1b466037a6e9f22d5e63ca3b20baad86ac376e"
+    }
+  ],
+  "materialized_files": 3,
+  "notes": 136,
+  "proposal_ids": [
+    "benchmark-evidence-034-governance-core"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

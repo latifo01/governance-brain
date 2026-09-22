@@ -1,0 +1,21 @@
+{
+  "change": "ADD",
+  "deletes": [],
+  "files": [
+    "indexes/ai-act-index.md",
+    "indexes/legal-index.md",
+    "indexes/risk-index.md",
+    "indexes/data-protection-index.md",
+    "indexes/internal-regulation-index.md",
+    "indexes/questionnaires-index.md"
+  ],
+  "moves": [],
+  "note_type": "index",
+  "proposal_id": "domain-navigation-proposal",
+  "published": true,
+  "requires_proposals": [
+    "questionnaire-foundation-lot-011"
+  ],
+  "schema_version": 1,
+  "status": "INTEGRATED"
+}

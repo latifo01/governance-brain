@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "c5f1fc8069da125bb1540d9a5cffb981413f26d3a56da057642e1365d9188fb3",
+  "reviewer_identity": "codex-provenance-remediation-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The strict release resolves seventeen reviewed non-binding evidence references through one hash-bound receipt.",
+      "evidence_lock_sha256": "5892be2de667d285a33bb5eb01e7a11209717caf570a561d2c8cbb1302d954b3"
+    },
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "The deterministic preview is valid for two UPDATE records and would not change active note bytes; it repairs their publication lineage.",
+      "candidate_sha256": "c5f1fc8069da125bb1540d9a5cffb981413f26d3a56da057642e1365d9188fb3",
+      "files": 2,
+      "would_write": 0
+    },
+    {
+      "severity": "INFO",
+      "code": "SCOPE_CONFIRMED",
+      "detail": "Only the two selected model-validation records are in scope; the remaining forty-five warnings are documented as gaps."
+    },
+    {
+      "severity": "WARNING",
+      "code": "NON_BINDING_CONTEXT",
+      "detail": "The cited supervisory and framework material supports controls and context, not universal legal obligations."
+    },
+    {
+      "severity": "INFO",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "Approval is required for this exact candidate before integration.",
+      "approval_file": "state/workshop/proposals/provenance-remediation-lot-027/review/approval.md"
+    }
+  ]
+}

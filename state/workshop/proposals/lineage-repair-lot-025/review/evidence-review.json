@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY",
+  "evidence_lock_sha256": "867b11cccbee5362be434e5969c4db55b5aae8d2f1fddab145ba7b05c559fb35",
+  "reviewer_identity": "codex-lineage-repair-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {"severity": "INFO", "code": "RECEIPT_VERIFIED", "detail": "Two current BINDING SRC-0011 units resolve with exact hashes and local fidelity coverage."},
+    {"severity": "INFO", "code": "SECTION_BINDINGS_VERIFIED", "detail": "Five substantive sections of ai-board are bound to the two reviewed Article 65 units."},
+    {"severity": "INFO", "code": "LINEAGE_REPAIR_BOUNDED", "detail": "The note no longer asserts AI Office enforcement or operational practice from the Article 65 pages."},
+    {"severity": "WARNING", "code": "LEGAL_CURRENCY_UNKNOWN", "detail": "Current amendments and supervisory interpretations were not assessed."}
+  ]
+}

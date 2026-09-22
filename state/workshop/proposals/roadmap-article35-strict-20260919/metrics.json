@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "status": "PROPOSAL_READY",
+  "source_count": 4,
+  "verified_reference_count": 13,
+  "excluded_candidate_count": 2,
+  "excluded_source_count": 1,
+  "target_count": 1,
+  "updated_knowledge_count": 1,
+  "updated_question_count": 0,
+  "evidence_binding_count": 8,
+  "authority_counts": {
+    "BINDING": 12,
+    "GUIDANCE": 1
+  },
+  "active_vault_modified": false,
+  "candidate_sha256": "9491d5dd7075d6f2cc3569862a8eaa705232838419b72e0822a00c2f3bf6dac8",
+  "evidence_lock_sha256": "472d68d8f2edba67039707035672de6306680e6cf25c079cd6c26838ac7b269f",
+  "limits": [
+    "GDPR currentness is bounded to the 2026-09-19 EUR-Lex retrieval date.",
+    "SRC-0047 is excluded because its Articles 35/36 belong to a distinct procedural regulation and its Page 1 remains REVIEW_REQUIRED.",
+    "No human approval or active-vault integration has occurred."
+  ]
+}

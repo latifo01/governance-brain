@@ -1,0 +1,44 @@
+                                        Unit 5. Inception Stage
+
+
+            investigation is likely to uncover relevant data processing that needs to be
+            addressed.
+Classification uncertainties
+Second, the data protection professional’s habitual diligence is particularly relevant
+given the various uncertainties about AI mapped in Part I of this training module.
+Despite the technical and social complexities of AI systems, the information obtained
+through communication processes cannot be taken at face value. Instead, the
+professional must carry out a dialogue with the technical experts within the organization
+(and at the external providers) to evaluate the legal implications of the systems being
+analysed.
+For example, a department within an organization might say that their new tool is an AI
+system in order to secure extra funding or to gain prestige from using advanced
+technologies. But, upon further inspection, their system might not meet the AI Act’s
+criteria for an AI system.6 Or, conversely, an individual software developer within an
+organization might want to avoid mentioning their use of AI in a project in order to avoid
+having to deal with internal compliance requirements before a project is mature enough.
+So, any information about a supposed AI system must be thoroughly verified before it is
+added to the inventory.
+Keeping the inventory up to date
+Third, the inventory must be updated often:
+    1. Even if an organization does not develop its own AI systems (or develops just a
+       few of them), its data processors might decide to use AI for some reason. In the
+       UNw example, OfficeCorp’s business decision to use AI was taken without prior
+       notification to the university, which would only find out about it after the new AI
+       systems were implemented.
+    2. Some AI systems that were originally listed can be deactivated.
+    3. The legal classification of an AI system under the AI Act might change over time.
+       For example, Article 7 AI Act allows the European Commission to update the list
+       of high-risk AI systems.
+An inventory that is not verified from time to time might lose its usefulness or even
+become a misleading guide to AI in an organization.
+Public or private inventories?
+Fourth and finally, the organization must decide how much it wants to disclose the
+inventory. If an inventory is made accessible within the organization (or even to the
+public), departments and individuals might feel more inclined to supply information and
+
+6 See Unit 1 of this training module.
+
+
+                                                  80
+

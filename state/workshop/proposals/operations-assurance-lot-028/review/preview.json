@@ -1,0 +1,19 @@
+{
+  "valid": true,
+  "applied": false,
+  "approved": false,
+  "reviewed": true,
+  "risk_tiers": [
+    "strict"
+  ],
+  "proposal_ids": [
+    "operations-assurance-lot-028"
+  ],
+  "candidate_sha256": "5249c6958c073d072290119af75ffd94428dd284da30b5c5ca63d1dad0504d58",
+  "evidence_locks": {
+    "operations-assurance-lot-028": "d77cb86f5b0f8d1dda35f15a43581c15af7c74dd2675c88042d144a0fdd2a0c5"
+  },
+  "files": 6,
+  "would_write": 6,
+  "notes_after_integration": 125
+}

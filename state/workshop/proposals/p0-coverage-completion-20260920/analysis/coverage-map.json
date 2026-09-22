@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "proposal_id": "p0-coverage-completion-20260920",
+  "status": "PROPOSAL_READY",
+  "candidate_sha256": "62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d",
+  "cells": [
+    {
+      "cell_id": "ai-strategy-value:definition_scope_terminology",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "definition_scope_terminology",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-definition-scope-terminology",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:roles_decisions",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "roles_decisions",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-roles-decisions",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:risks_impacts",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "risks_impacts",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-risks-impacts",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:lifecycle_controls",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "lifecycle_controls",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-lifecycle-controls",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:evidence_artifacts",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "evidence_artifacts",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-evidence-artifacts",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:metrics_monitoring_incidents",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "metrics_monitoring_incidents",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-metrics-monitoring-incidents",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:exceptions_conflicts",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "exceptions_conflicts",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-exceptions-conflicts",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:questionnaire_coverage",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "questionnaire_coverage",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-questionnaire-coverage",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:source_provenance",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "source_provenance",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-source-provenance",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "ai-strategy-value:domain_index_links",
+      "pillar_id": "ai-strategy-value",
+      "criterion": "domain_index_links",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "ai-strategy-value-index",
+      "evidence_status": "NAVIGATION_ONLY",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:definition_scope_terminology",
+      "pillar_id": "data-governance-quality",
+      "criterion": "definition_scope_terminology",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-definition-scope-terminology",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:roles_decisions",
+      "pillar_id": "data-governance-quality",
+      "criterion": "roles_decisions",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-roles-decisions",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:risks_impacts",
+      "pillar_id": "data-governance-quality",
+      "criterion": "risks_impacts",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-risks-impacts",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:lifecycle_controls",
+      "pillar_id": "data-governance-quality",
+      "criterion": "lifecycle_controls",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-lifecycle-controls",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:evidence_artifacts",
+      "pillar_id": "data-governance-quality",
+      "criterion": "evidence_artifacts",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-evidence-artifacts",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:metrics_monitoring_incidents",
+      "pillar_id": "data-governance-quality",
+      "criterion": "metrics_monitoring_incidents",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-metrics-monitoring-incidents",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:exceptions_conflicts",
+      "pillar_id": "data-governance-quality",
+      "criterion": "exceptions_conflicts",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-exceptions-conflicts",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:questionnaire_coverage",
+      "pillar_id": "data-governance-quality",
+      "criterion": "questionnaire_coverage",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-questionnaire-coverage",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:source_provenance",
+      "pillar_id": "data-governance-quality",
+      "criterion": "source_provenance",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-source-provenance",
+      "evidence_status": "REVIEWED",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    },
+    {
+      "cell_id": "data-governance-quality:domain_index_links",
+      "pillar_id": "data-governance-quality",
+      "criterion": "domain_index_links",
+      "proposal_status": "PROPOSAL_READY",
+      "future_note_id": "data-governance-quality-index",
+      "evidence_status": "NAVIGATION_ONLY",
+      "publication_status": "PENDING_HUMAN_APPROVAL"
+    }
+  ],
+  "counts": {
+    "cells": 20,
+    "proposal_ready": 20,
+    "evidence_bound": 18,
+    "navigation_only": 2,
+    "publication_pending": 20
+  },
+  "gates": {
+    "evidence_lock_verified": true,
+    "independent_release_review": true,
+    "human_approval_required": true,
+    "active_vault_changes": false,
+    "sources_changes": false,
+    "ingest_changes": false
+  },
+  "coverage_map_sha256": "a1a5e99079d175da927f80914cc8710151a9ef627b6d2b11cb3d162268d14d01"
+}

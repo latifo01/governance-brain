@@ -1,0 +1,33 @@
+{
+  "author_identity": "codex-organisation-societal-domain-builder",
+  "candidate_sha256": "b710f9ba5c33209432f27d32c85baa597a7116eb03af7b850dd5a9e90cc5d666",
+  "changes": {
+    "ADD": [
+      "ai-literacy-and-change-management",
+      "ai-societal-impact-and-stakeholder-engagement",
+      "gov-006-societal-impact-feedback"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "GOVERNANCE_ACCOUNTABILITY",
+  "evidence_changes": true,
+  "files": [
+    "AI Risk Mitigations/ai-literacy-and-change-management.md",
+    "AI Risk Mitigations/ai-societal-impact-and-stakeholder-engagement.md",
+    "questions/governance/gov-006-societal-impact-feedback.md"
+  ],
+  "proposal_id": "organisation-societal-lot-029",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "organisation-literacy-societal-impact"
+  ],
+  "status": "INTEGRATED"
+}

@@ -1,0 +1,243 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-parallel-20260919",
+  "workstream": "legal-article27-completion",
+  "stage": "INDEPENDENT_EVIDENCE_REVIEW",
+  "reviewer_identity": "codex-article27-independent-reviewer",
+  "reviewed_at": "2026-09-19T23:00:00+02:00",
+  "verdict": "EVIDENCE_READY",
+  "review_scope": {
+    "assignment_path": "state/workshop/proposals/roadmap-parallel-20260919/legal-article27/analysis/article27-completion-assignment.json",
+    "assignment_sha256": "1fd598b47aea2f29c05e211914cbf30febb5cbe4fcbc2a6039ba22c1fc64beda",
+    "extraction_path": "state/workshop/proposals/roadmap-parallel-20260919/legal-article27/evidence/extraction-article27-completion.json",
+    "extraction_sha256": "31f50216029632c8fbc0451704c4c5dcfd180ddec13c962d0d0498ebb7b5239a",
+    "audit_path": "state/workshop/proposals/roadmap-parallel-20260919/legal-article27/evidence/audits/article27-completion-audit.json",
+    "audit_sha256": "c44da0a182d08c556e2127ea077e2c1a7706dd8b115460f4aff9ae3340afacf6",
+    "source_id": "SRC-0011",
+    "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+    "assigned_locators": [
+      "Page 222",
+      "Page 223"
+    ],
+    "candidate_count": 12,
+    "currentness_comparison_units": [
+      "ingest/SRC-0043/units/p0020.md",
+      "ingest/SRC-0043/units/p0035.md",
+      "ingest/SRC-0043/units/p0041.md"
+    ]
+  },
+  "integrity_review": {
+    "assignment_hash": "PASS",
+    "extraction_assignment_hash_match": true,
+    "audit_hash": "PASS",
+    "assignment_coverage": "COMPLETE",
+    "candidate_count": 12,
+    "unique_candidate_ids": 12,
+    "locator_review": "PASS",
+    "source_hash_review": "PASS",
+    "unit_hash_review": "PASS",
+    "visual_dependency_review": "PASS_NONE",
+    "unit_checks": [
+      {
+        "path": "ingest/SRC-0011/units/p0222.md",
+        "locator": "Page 222",
+        "file_sha256_expected": "a036e415dec47d0a1832124f69f8df6dded0b2b64415cbfb1f064580884c7607",
+        "file_sha256_actual": "a036e415dec47d0a1832124f69f8df6dded0b2b64415cbfb1f064580884c7607",
+        "content_sha256_expected": "6337dca60a7d782f77e632a7b4b48480569df93258e8c496d4f3aa6d2f246b8d",
+        "content_sha256_actual": "6337dca60a7d782f77e632a7b4b48480569df93258e8c496d4f3aa6d2f246b8d",
+        "visual_review": "NONE",
+        "result": "PASS"
+      },
+      {
+        "path": "ingest/SRC-0011/units/p0223.md",
+        "locator": "Page 223",
+        "file_sha256_expected": "8a5c0ba929b0b9d096d7cb38f7236be1af2a420635c58545f643e3b8022b6fec",
+        "file_sha256_actual": "8a5c0ba929b0b9d096d7cb38f7236be1af2a420635c58545f643e3b8022b6fec",
+        "content_sha256_expected": "4df5ff267fbe5dbcafc4ac2c7281da40ca9605edfd68d89cdfa08d584ea961ab",
+        "content_sha256_actual": "4df5ff267fbe5dbcafc4ac2c7281da40ca9605edfd68d89cdfa08d584ea961ab",
+        "visual_review": "NONE",
+        "result": "PASS"
+      }
+    ],
+    "result": "All 12 candidates map to the two assigned validated Markdown units. Source, locator, content and file hashes match locally."
+  },
+  "candidate_review": [
+    {
+      "candidate_id": "art27-completion-src-0011-p0222-ec-001",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "The actor categories, Article 6(2) route and Annex III point 2 exclusion remain mandatory applicability gates; the candidate does not establish a universal FRIA obligation. Article 113 application dates must be retained."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0222-ec-002",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "The requirement is limited to the deployer processes and intended purpose stated; Article 113 route and Article 27(1) applicability gates remain applicable."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0222-ec-003",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "The period and frequency are required for each system in its intended-use context; the Article 113 route-dependent application schedule remains applicable."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-004",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "Affected persons and groups are context-specific; no universal taxonomy is established. The Article 27(1) gate and Article 113 schedule remain applicable."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-005",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "The harms are specific to the affected groups and context and use provider Article 13 information; this does not replace a project-specific assessment."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-006",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "The candidate requires describing implementation of human oversight under the instructions for use; it does not prescribe one oversight design."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-007",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "Measures, internal governance and complaint mechanisms are tied to identified risks and the applicable Article 27(1) assessment."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-008",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "The first-use rule applies only after the Article 27(1) actor and system gate is satisfied and only within the Article 113 route-dependent application schedule."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-009",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "Reuse is permitted only in similar cases; it does not remove the deployer's responsibility to assess current applicability and currency."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-010",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "The update trigger is limited to a change or loss of currency of an Article 27(1) element during use."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-011",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "Notification follows completion of the assessment and refers to the Article 27(5) model; current use must be read with the amended Article 27(5) wording from SRC-0043 Page 20."
+    },
+    {
+      "candidate_id": "art27-completion-src-0011-p0223-ec-012",
+      "result": "VERIFIED",
+      "authority": "BINDING_CANDIDATE",
+      "support": "SUPPORTED_BY_ASSIGNED_UNIT",
+      "currentness": "UNCHANGED_BY_SRC0043_WITH_ARTICLE113_QUALIFIER",
+      "usable_for_binding": true,
+      "temporal_effect": "FUTURE_ROUTE_DEPENDENT",
+      "limitation": "The exception is limited to Article 46(1) and must not be generalized; Article 113 route dates remain applicable."
+    }
+  ],
+  "authority_review": {
+    "source_id": "SRC-0011",
+    "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+    "normativity": "BINDING",
+    "result": "BINDING_CANDIDATES",
+    "basis": "The assignment and prior source classification identify the official AI Act text as BINDING. Every candidate is limited to Article 27(1)-(3) wording in the assigned units."
+  },
+  "currentness_review": {
+    "result": "RESOLVED_WITH_ROUTE_QUALIFIER",
+    "base_text": "SRC-0011 Pages 222-223 support Article 27(1)-(3).",
+    "amendment_text": {
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "page_20_unit": "ingest/SRC-0043/units/p0020.md",
+      "page_20_unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38",
+      "finding": "The amended act expressly replaces Article 27(4) and (5) only. It does not replace Article 27(1)-(3); the base candidates remain usable with the amended paragraphs and their qualifiers."
+    },
+    "application_schedule": {
+      "source_id": "SRC-0043",
+      "locator": "Page 35",
+      "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "finding": "Article 113 applies Chapter III Sections 1, 2 and 3 from 2 December 2027 for Article 6(2)/Annex III systems and from 2 August 2028 for Article 6(1)/Annex I systems, subject to the Article 6(5) exception. Article 27(1)-(3) candidates must retain this route-dependent future effect."
+    },
+    "entry_into_force": {
+      "source_id": "SRC-0043",
+      "locator": "Page 41",
+      "unit_file_sha256": "fc3a5c8b099690b6fbed7f70a0b543a8abad1ab45118fb58bfa4c729d15704fa",
+      "finding": "The amending regulation entered into force on the third day after its Official Journal publication and is binding; this supports the amendment interaction review as of 2026-09-19."
+    },
+    "article27_5_dependency": "The Article 27(3) notification candidate refers to the Article 27(5) model and must be combined with the amended Article 27(5) wording from SRC-0043 Page 20."
+  },
+  "coverage": {
+    "assigned_units": 2,
+    "covered_units": 2,
+    "assigned_locators": [
+      "Page 222",
+      "Page 223"
+    ],
+    "covered_locators": [
+      "Page 222",
+      "Page 223"
+    ],
+    "omitted": [],
+    "unresolved_blockers": []
+  },
+  "blockers": [],
+  "required_next_steps": [
+    "Create a qualified evidence-lock combining the 12 verified Article 27(1)-(3) candidates with the amended Article 27(4)-(5) and Article 113 evidence.",
+    "Preserve actor gates, Annex III point 2 exclusion, Article 46(1) exception, Article 113 route dates and the amended Article 27(5) dependency.",
+    "Only after the evidence-lock and a release review, construct or update the FRIA note or questionnaire; do not write the active vault from this receipt alone."
+  ],
+  "warnings": [
+    "This review uses validated Markdown units and hash-bound receipts only; no original PDF was read.",
+    "EVIDENCE_READY means the 12 candidates are ready for qualified lock assembly; it is not an evidence-lock, legal advice, human approval or publication approval.",
+    "Article 27(1)-(3) are retained with future route-dependent application dates from Article 113; no present universal FRIA obligation is inferred.",
+    "No note, vault, source, ingest, Canvas, Domain Pack or evidence-lock was modified or created by this review."
+  ]
+}

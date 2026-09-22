@@ -1,0 +1,31 @@
+       h)   la mesure dans laquelle il existe un déséquilibre de pouvoir, ou les personnes ayant
+            potentiellement subi un préjudice ou une incidence négative se trouvent dans une
+            situation vulnérable par rapport au déployeur d'un système d'IA, notamment en
+            raison du statut, de l'autorité, de connaissances, de circonstances économiques ou
+            sociales ou de l'âge;
+
+       i)   la mesure dans laquelle les résultats obtenus en utilisant un système d'IA sont
+            facilement corrigibles ou réversibles, compte tenu des solutions techniques
+            disponibles pour les corriger ou les inverser, les résultats qui ont une incidence
+            négative sur la santé, la sécurité ou les droits fondamentaux ne devant pas être
+            considérés comme facilement corrigibles ou réversibles;
+
+       j)   la probabilité que le déploiement du système d'IA présente des avantages pour
+            certaines personnes, certains groupes de personnes ou la société dans son ensemble et
+            la portée de ces avantages, y compris les améliorations éventuelles quant à la sécurité
+            des produits;
+
+       k)   la mesure dans laquelle le droit existant de l'Union prévoit:
+
+            i)    des mesures de réparation efficaces en ce qui concerne les risques posés par un
+                  système d'IA, à l'exclusion des réclamations en dommages-intérêts;
+
+            ii)   des mesures efficaces destinées à prévenir ou à réduire substantiellement ces
+                  risques.
+
+
+
+
+PE-CONS 24/1/24 REV 1                                                                            183
+                                                                                                 FR
+

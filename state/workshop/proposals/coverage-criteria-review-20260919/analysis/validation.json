@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-criteria-review-20260919",
+  "status": "PASS",
+  "checks": {
+    "json_parse": true,
+    "cell_count_150": true,
+    "pillar_count_15": true,
+    "each_pillar_has_10_cells": true,
+    "all_matrix_cells_unassessed": true,
+    "no_completion_emitted": true,
+    "all_candidate_ids_in_current_catalogue": true,
+    "source_ingest_vault_unchanged_by_scope": true,
+    "candidate_hash_matches": true
+  },
+  "artifacts": {
+    "coverage_criteria_review_json": "state/workshop/proposals/coverage-criteria-review-20260919/analysis/coverage-criteria-review.json",
+    "coverage_criteria_review_markdown": "state/workshop/proposals/coverage-criteria-review-20260919/analysis/coverage-criteria-review.md"
+  },
+  "artifact_sha256": {
+    "coverage-criteria-review.json": "cb3452d8ddac8388f39a1d3d9f599cc1afa57cebdbabfeb8e41dccdd52170a05",
+    "coverage-criteria-review.md": "ffac231507a005eb475ff9456aad45b8758653362d2f5f8183a6412115e6a3c8"
+  },
+  "notes": "Validation covers this read-only analysis only; it does not grant approval or alter the active matrix."
+}

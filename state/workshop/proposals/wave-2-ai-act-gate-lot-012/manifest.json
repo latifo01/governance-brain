@@ -1,0 +1,82 @@
+{
+  "authority_boundary": {
+    "article_6_1_annex_i_application_date": "2028-08-02",
+    "article_6_2_annex_iii_application_date": "2027-12-02",
+    "binding_premise_sources": [
+      "SRC-0011",
+      "SRC-0043"
+    ],
+    "currency_gap": "RESOLVED_FOR_BOUNDED_LOT",
+    "currentness_basis": "BINDING_BASE_PLUS_BINDING_AMENDING_ACT",
+    "exact_application_dates": "INCLUDED_WITH_REVIEWED_TEMPORAL_QUALIFIERS",
+    "interpretive_sources": [
+      "SRC-0016",
+      "SRC-0017",
+      "SRC-0022"
+    ],
+    "new_article_5_application_date": "2026-12-02"
+  },
+  "changes": {
+    "ADD": [
+      "ai-act-prohibited-practices",
+      "high-risk-ai-system-classification"
+    ],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-system",
+      "ai-act-index",
+      "core-003-ai-system-determination",
+      "core-011-prohibited-practice-screening",
+      "core-013-high-risk-ai-classification",
+      "eu-ai-act",
+      "legal-001-ai-act-classification-record"
+    ]
+  },
+  "domains": [
+    "LEGAL",
+    "LEGAL_REGULATORY"
+  ],
+  "files": [
+    "AI concepts/ai-system.md",
+    "Data & AI Laws/ai-act-prohibited-practices.md",
+    "Data & AI Laws/eu-ai-act.md",
+    "Data & AI Laws/high-risk-ai-system-classification.md",
+    "indexes/ai-act-index.md",
+    "questions/core/core-003-ai-system-determination.md",
+    "questions/core/core-011-prohibited-practice-screening.md",
+    "questions/core/core-013-high-risk-ai-classification.md",
+    "questions/legal/legal-001-ai-act-classification-record.md"
+  ],
+  "integration": "deterministic-overlay-after-approval",
+  "objective": "Build reviewed AI Act decision-gate knowledge for AI-system determination, prohibited-practice screening and high-risk classification.",
+  "pillar": "legal-regulatory",
+  "planned_changes": {
+    "ADD": [
+      "ai-act-prohibited-practices",
+      "high-risk-ai-system-classification"
+    ],
+    "UPDATE": [
+      "ai-system",
+      "eu-ai-act",
+      "core-003-ai-system-determination",
+      "core-011-prohibited-practice-screening",
+      "core-013-high-risk-ai-classification",
+      "legal-001-ai-act-classification-record",
+      "ai-act-index"
+    ]
+  },
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "published": true,
+  "review_sequence": [
+    "source-extractor",
+    "evidence-auditor",
+    "knowledge-architect",
+    "questionnaire-curator",
+    "questionnaire-reviewer",
+    "vault-reviewer",
+    "human-approval"
+  ],
+  "schema_version": 1,
+  "status": "INTEGRATED",
+  "wave": 2
+}

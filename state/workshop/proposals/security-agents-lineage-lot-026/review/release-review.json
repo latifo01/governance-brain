@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "3ea41af54c5ab075953cc65b348dde8bbe71f93077f09391cab7ffe59d02e21e",
+  "reviewer_identity": "codex-security-agents-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {"severity": "INFO", "code": "EVIDENCE_LOCK_RESOLVED", "detail": "The strict release resolves ten reviewed non-binding references through one hash-bound receipt.", "evidence_lock_sha256": "156f2ece934b11746004c1e456a5e707f0d77b3ecdcf306f8ac6cdd3edf43baf"},
+    {"severity": "INFO", "code": "CANDIDATE_REPRODUCED", "detail": "The deterministic preview is valid for one evidence-backed UPDATE; the active vault content is unchanged because the release records lineage for the existing note.", "candidate_sha256": "3ea41af54c5ab075953cc65b348dde8bbe71f93077f09391cab7ffe59d02e21e", "files": 1, "would_write": 0},
+    {"severity": "INFO", "code": "SCOPE_CONFIRMED", "detail": "Only genai-guardrails is in scope; questions, taxonomy, indexes and sources remain outside the release."},
+    {"severity": "WARNING", "code": "NON_BINDING_CONTEXT", "detail": "The proposed control guidance must not be read as a legal obligation."},
+    {"severity": "WARNING", "code": "HUMAN_APPROVAL_PENDING", "detail": "Approval is required for this exact candidate before integration.", "approval_file": "state/workshop/proposals/security-agents-lineage-lot-026/review/approval.md"}
+  ]
+}

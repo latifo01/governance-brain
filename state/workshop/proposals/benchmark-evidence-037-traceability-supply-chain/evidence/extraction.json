@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-037-traceability-supply-chain",
+  "stage": "EXTRACT",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "assignment_sha256": "ba6fc62bcbf8b2c927ee23bbbb7be76dd4c4ac4479e944d9346b17d8decb8d9b",
+  "scope": {
+    "target_ids": [
+      "traceability",
+      "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+    ],
+    "scenario_families": [
+      "eval-10",
+      "eval-13"
+    ],
+    "source_ids": [
+      "SRC-0035",
+      "SRC-0036",
+      "SRC-0038",
+      "SRC-0046"
+    ]
+  },
+  "coverage": [
+    {
+      "source_id": "SRC-0035",
+      "assigned_locators": [
+        "Page 4",
+        "Page 5",
+        "Page 6",
+        "Page 7",
+        "Page 8",
+        "Page 9",
+        "Page 11",
+        "Page 12"
+      ],
+      "covered_locators": [
+        "Page 11",
+        "Page 12",
+        "Page 4",
+        "Page 5",
+        "Page 6",
+        "Page 7",
+        "Page 8",
+        "Page 9"
+      ],
+      "omitted": [],
+      "unresolved_items": [
+        "The framework is non-binding and does not establish that signing alone proves performance, fairness, robustness, or regulatory compliance."
+      ]
+    },
+    {
+      "source_id": "SRC-0036",
+      "assigned_locators": [
+        "Page 12",
+        "Page 13",
+        "Page 14"
+      ],
+      "covered_locators": [
+        "Page 12",
+        "Page 13",
+        "Page 14"
+      ],
+      "omitted": [],
+      "unresolved_items": [
+        "SR 26-2 is supervisory guidance with sectoral scope; it is not a universal legal requirement for all AI systems."
+      ]
+    },
+    {
+      "source_id": "SRC-0038",
+      "assigned_locators": [
+        "Page 11",
+        "Page 12",
+        "Page 13",
+        "Page 16",
+        "Page 17",
+        "Page 19",
+        "Page 21"
+      ],
+      "covered_locators": [
+        "Page 11",
+        "Page 12",
+        "Page 13",
+        "Page 16",
+        "Page 17",
+        "Page 19",
+        "Page 21"
+      ],
+      "omitted": [],
+      "unresolved_items": [
+        "SR 11-7 is historical supervisory guidance; applicability and supersession must be handled by the target note review."
+      ]
+    },
+    {
+      "source_id": "SRC-0046",
+      "assigned_locators": [
+        "/objects"
+      ],
+      "covered_locators": [
+        "/objects"
+      ],
+      "omitted": [],
+      "unresolved_items": [
+        "The ATLAS object is a dataset incident record; no independent incident source or prevalence claim is added."
+      ]
+    }
+  ],
+  "evidence_candidates": [
+    {
+      "candidate_id": "be037-src-0035-ec-001",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 4",
+      "unit_content_sha256": "5378224d5a15efa98fd399d3c3c2a2f5951650b2c9f28e096bc9e1d7599ed233",
+      "unit_file_sha256": "bc2d44345fe4674129313201d2c3021f8b1a83c2e1e7956e754396f631669905",
+      "claim": "The framework distinguishes integrity claims about an artifact digest, provenance claims about the process and inputs used to create an artifact, and property claims such as test results; signed attestations can make these claims verifiable and can support lineage investigation after an incident.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "context",
+      "relevance": "Defines the distinct traceability dimensions to represent in the traceability note."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-002",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 4",
+      "unit_content_sha256": "5378224d5a15efa98fd399d3c3c2a2f5951650b2c9f28e096bc9e1d7599ed233",
+      "unit_file_sha256": "bc2d44345fe4674129313201d2c3021f8b1a83c2e1e7956e754396f631669905",
+      "claim": "The framework links attestations to a claimant identity and describes trusted-identity policies as a way for consumers to decide which attestations to accept; cryptographic signatures are presented as a way to make attestations tamper-evident.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports identity-bound provenance checks and evidence acceptance policies."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-003",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 5",
+      "unit_content_sha256": "2f9ef0d0eb80b27ec00adc8322a214b1c0ed2593795cae0b94881179e0aa10ee",
+      "unit_file_sha256": "808fea5ea2298c4dd026122cdaf6817d33752c037073eaa688fce8464a943050",
+      "claim": "The model-signing lifecycle includes multiple producers and consumers and treats integrity, authenticity, and provenance of artifacts as important to trust for downstream consumers; transformations such as fine-tuning or distillation can extend lineage with a new signature.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports producer/consumer responsibility and transformation lineage."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-004",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 6",
+      "unit_content_sha256": "d90b505cc47e3e727ae79ff85ec6aeaf1f48fa93dcdd16770e08e45fc90f5893",
+      "unit_file_sha256": "3114e952aa37a89e0922808e113e0378709e30101cb924d55a278295b5fd7a8d",
+      "claim": "Model signing is described as providing authenticity, integrity, and provenance guarantees, while not inherently guaranteeing model performance, fairness, or robustness; the framework says signing should be complemented by testing, validation, and documentation.",
+      "evidence_kind": "limitation",
+      "normativity_candidate": "recommendation",
+      "relevance": "Prevents overclaiming what signing proves and links traceability to validation evidence."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-005",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 7",
+      "unit_content_sha256": "474cdf9143a38d337191392f349b42bf22467abc575bfa0bf46752d8630cd9ca",
+      "unit_file_sha256": "04cb6b395e3668bc1eb39895801a47abb34578e889ae1439f5f5477c029a0251",
+      "claim": "The framework assigns consumers responsibility for ensuring that an integrated AI system meets applicable governance standards, and describes signing as supporting root-cause analysis and provenance tracing; it also describes a model distributor such as a model repository as an intermediary that may validate claims or add claims.",
+      "evidence_kind": "role",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports separation of producer, consumer, distributor and governance responsibilities."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-006",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 7",
+      "unit_content_sha256": "474cdf9143a38d337191392f349b42bf22467abc575bfa0bf46752d8630cd9ca",
+      "unit_file_sha256": "04cb6b395e3668bc1eb39895801a47abb34578e889ae1439f5f5477c029a0251",
+      "claim": "The framework describes generating signatures for newly created or transformed artifacts and verifying model attestations at each consumption phase, including authenticating the signer against a deployment policy and checking signed integrity and additional claims.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports lifecycle verification before use and after transformations."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-007",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 8",
+      "unit_content_sha256": "c21aef3ffc00990518768009c959d0ebb412c75da02175de66e198dff7bf2718",
+      "unit_file_sha256": "49cdef8d9e82e2be473a132643605ae55ace6a64ee9bdf8acc8b04394f7d2a99",
+      "claim": "The framework recommends verification after downloading from a model hub and, ideally, immediately before consumption; it describes hub-side checks and rejection or policy enforcement for suspicious, invalid, incomplete, or manifest-inconsistent artifacts.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports supply-chain intake and pre-use verification controls."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-008",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 8",
+      "unit_content_sha256": "c21aef3ffc00990518768009c959d0ebb412c75da02175de66e198dff7bf2718",
+      "unit_file_sha256": "49cdef8d9e82e2be473a132643605ae55ace6a64ee9bdf8acc8b04394f7d2a99",
+      "claim": "A signed manifest can represent the collection of hashes for all model files, allowing consumers to compare the expected hashes with the artifacts present on disk and verify that all components match.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports component-level integrity and artifact inventory evidence."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-009",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 9",
+      "unit_content_sha256": "b5e40e1a093cdcbbad9cf024a3549619c74bab09802be4638e1581b5d6848fc1",
+      "unit_file_sha256": "d572eb93a618356f7974e63a8e4a2a2f3cb71a14b3534e35f6c39420abae62d3",
+      "claim": "The framework discusses detached signatures and signature formats, and identifies key leakage as a risk because leaked signing material could be used to sign malicious artifacts; the format choice depends on security and interoperability requirements.",
+      "evidence_kind": "risk",
+      "normativity_candidate": "context",
+      "relevance": "Adds signing-key and interoperability risks without prescribing a universal technology."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-010",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 11",
+      "unit_content_sha256": "29d42ebbce10232b72a931e49b542bcd9da2314d3fcf785dabfe566331d0a563",
+      "unit_file_sha256": "dcf99551b3e0556f741b62ca758ad9b15c40ec28897e5745917fe887640248ca",
+      "claim": "The framework presents model signing as part of a broader AI governance approach that also includes validation, bias testing, performance monitoring, and regulatory compliance.",
+      "evidence_kind": "context",
+      "normativity_candidate": "recommendation",
+      "relevance": "Keeps artifact provenance connected to lifecycle assurance rather than treating it as a standalone control."
+    },
+    {
+      "candidate_id": "be037-src-0035-ec-011",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "locator": "Page 12",
+      "unit_content_sha256": "7d3b72c8bd64e074cc642acf9013c83e36e50ca4e982865039506521703b98a7",
+      "unit_file_sha256": "d3057a00ce1e289c6cedf86b749cbc08ebf95d5c84590b28ba87bed493955d6d",
+      "claim": "The framework notes that complete lineage can be difficult when upstream dependencies lack detailed attestations and that interoperability across registries and signing systems may require fallback or bridging mechanisms.",
+      "evidence_kind": "limitation",
+      "normativity_candidate": "context",
+      "relevance": "Records partial-lineage and interoperability limits."
+    },
+    {
+      "candidate_id": "be037-src-0036-ec-001",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 12",
+      "unit_content_sha256": "03f780e0b8674338c40a8bd67a2edb8090dd3fe89a94878c7d9b9380548390bc",
+      "unit_file_sha256": "5e5a10bb006fdc14067d6432f75f831a0c1c9f0521d257e49f5b2e2c5abf4214",
+      "claim": "SR 26-2 describes governance supported by clear policies and effective controls, says monitoring reports depend on the model, new data, modelling approaches, and materiality, and describes clear roles and accountability across development, validation, and ongoing monitoring.",
+      "evidence_kind": "expectation",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports lifecycle records and proportional review cadence."
+    },
+    {
+      "candidate_id": "be037-src-0036-ec-002",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 13",
+      "unit_content_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+      "unit_file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+      "claim": "SR 26-2 describes outcomes analysis as comparing model outputs with corresponding real-world outcomes and says monitoring and validation reporting should reflect the model and its materiality.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports traceable validation and outcome records for the model lifecycle."
+    },
+    {
+      "candidate_id": "be037-src-0036-ec-003",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 13",
+      "unit_content_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+      "unit_file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+      "claim": "SR 26-2 says model risk management activities should have clearly defined roles and responsibilities when activities are delegated, including responsibilities for validation and monitoring.",
+      "evidence_kind": "role",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports accountable ownership and responsibility records."
+    },
+    {
+      "candidate_id": "be037-src-0036-ec-004",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "locator": "Page 14",
+      "unit_content_sha256": "eb7ab2878d456a3a0de88f260af593d06ba057e235a856018f1cc764e4863c93",
+      "unit_file_sha256": "515e610648ddec4170cae79790f4028c7b21445b6f4c33536149946656d5af12",
+      "claim": "SR 26-2 describes vendor-model review as including conceptual soundness, design, development data, and performance, and says ongoing monitoring and outcome analysis should address vendor models.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports third-party model evidence and vendor lineage."
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-001",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "locator": "Page 11",
+      "unit_content_sha256": "1e0201351f4a60012b4536b63d721f147e3d349c1328a648170c45326d66ecc0",
+      "unit_file_sha256": "37dc3093d475cc43b7098a2c47861621a80f1e3eb62da0d2124d715037af8051",
+      "claim": "SR 11-7 identifies conceptual soundness, ongoing monitoring, and outcomes analysis as core elements of comprehensive model validation.",
+      "evidence_kind": "definition",
+      "normativity_candidate": "recommendation",
+      "relevance": "Frames the evidence types expected in a traceable validation lifecycle."
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-002",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "locator": "Page 12",
+      "unit_content_sha256": "7f9390fd52096a5b3bc250bfd9b57dcc22e8e206ca2bd0b8bab30c3f037d11da",
+      "unit_file_sha256": "27a185f9c92afbd081ec0ebcf2a98b4e69d1ef3d0c5538ed3d02779e1f965405",
+      "claim": "SR 11-7 describes ongoing monitoring as checking implementation and intended performance, assessing changes that may require adjustment or replacement, and retaining process-verification and testing evidence; it also calls for approved-party change control and auditable change logs for implementing code.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports version, change, monitoring and audit records."
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-003",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "locator": "Page 13",
+      "unit_content_sha256": "f8160599c5188188953cc8075df0261f70060e8661bec04f38ddc927041bf281",
+      "unit_file_sha256": "9b3aae0931d35df1e2f027d875306496137fda259357359344df1c4d348c287c",
+      "claim": "SR 11-7 says information from internal and external sources, including third-party vendors, should be reviewed regularly; it also describes documenting overrides and investigating discrepancies from benchmark comparisons.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports third-party evidence review and decision traceability."
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-004",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "locator": "Page 16",
+      "unit_content_sha256": "9f48480f34f2ebfb2526200d7af8ab5012cad1d7835de15d5f76c86039f72438",
+      "unit_file_sha256": "432214d3d8aabd35ae2eb83186e942b055ca1b2e47424f881c06a45a49b345b2",
+      "claim": "SR 11-7 describes vendor-model selection and validation evidence, including product components, intended use, limitations, assumptions, development data, customization, monitoring, outcomes analysis, and contingency planning if vendor support ends.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports a complete third-party model evidence package and exit traceability."
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-005",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "locator": "Page 17",
+      "unit_content_sha256": "58f3b63a79e14b11b1fd68c3968c556bcef3f3586f3b02c3adb7537c40be05bf",
+      "unit_file_sha256": "6368071efdd350f86a006381cd27346cf20fcb12dff541566550df519485e1d7",
+      "claim": "SR 11-7 describes board and senior-management oversight, policies, roles, validation, reporting, and updating model-risk policies as products, exposures, and practices change.",
+      "evidence_kind": "role",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports governance ownership and change-linked policy records."
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-006",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "locator": "Page 19",
+      "unit_content_sha256": "6bda81bdf15c6c90c0f28801830d6089483769d49b276a668232290269c23c71",
+      "unit_file_sha256": "a3383565ded745c78dab35f32478c0c12faee58faf2a4086210c872aaf4de653",
+      "claim": "SR 11-7 describes documentation and tracking of model development, implementation, use, and validation as records supporting transparent compliance with policy; it also describes internal-audit checks of inventories, usage limits, update procedures, documentation standards, and data reliability.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Directly supports auditable model inventory and lifecycle traceability."
+    },
+    {
+      "candidate_id": "be037-src-0038-ec-007",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "locator": "Page 21",
+      "unit_content_sha256": "61f377fca205b258d21a21a6fba4b39001f35673665eea58c33eafaaa14cdc2f",
+      "unit_file_sha256": "1689d72d3c2ca4dbe4514945ed84a7f397452b76e0b3d09d34ad0a00ce30b43a",
+      "claim": "SR 11-7 describes documentation as necessary for understanding model operation, limitations, assumptions, continuity, recommendations, responses, exceptions, monitoring, benchmarking, outcomes analysis, and third-party approaches.",
+      "evidence_kind": "control",
+      "normativity_candidate": "recommendation",
+      "relevance": "Supports documentation completeness and traceability across internal and third-party components."
+    },
+    {
+      "candidate_id": "be037-src-0046-ec-001",
+      "source_id": "SRC-0046",
+      "source_sha256": "6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c",
+      "locator": "/objects",
+      "unit_content_sha256": "13c6eac080be6463bbeafa9ffd309df83ca5c421052f603bbbb34f8ce96d00ab",
+      "unit_file_sha256": "7b18ef3f2ed64ab84d1204bca642c073f03b8264b4a2fe3bb2f19ab84cbd5241",
+      "claim": "The MITRE ATLAS dataset contains a campaign object with external ID AML.CS0027 and title “Organization Confusion on Hugging Face”. Its description reports that a researcher created impersonating Hugging Face organizations; people from the impersonated organizations requested access believing the accounts were official, which gave the researcher access to models uploaded by those employees. The description further reports a demonstration in which malware embedded in a model enabled access to a victim environment and possible follow-on impacts including intellectual-property theft and poisoning of other AI models.",
+      "evidence_kind": "incident",
+      "normativity_candidate": "context",
+      "relevance": "Revalidates the exact incident note and its supply-chain relevance.",
+      "selector": "campaign.external_references[external_id=AML.CS0027]",
+      "incident_limits": [
+        "This dataset object records a researcher demonstration and described possible impacts; it does not establish prevalence, a legal violation, that all Hugging Face organisations are affected, or a universal control obligation.",
+        "The incident evidence is security context and must remain distinct from supervisory model-risk guidance and from binding legal authority."
+      ]
+    }
+  ],
+  "classification_proposals": [
+    {
+      "source_id": "SRC-0035",
+      "proposed_authority": "FRAMEWORK",
+      "basis": "CoSAI model-signing framework; recommendations and technical context, no binding claims."
+    },
+    {
+      "source_id": "SRC-0036",
+      "proposed_authority": "GUIDANCE",
+      "basis": "Supervisory model-risk guidance; scope and applicability require note-level qualification."
+    },
+    {
+      "source_id": "SRC-0038",
+      "proposed_authority": "GUIDANCE",
+      "basis": "Historical supervisory guidance; retain as qualified model-risk context."
+    },
+    {
+      "source_id": "SRC-0046",
+      "proposed_authority": "DATASET",
+      "basis": "MITRE ATLAS STIX dataset object; incident context and threat taxonomy, not normative authority."
+    }
+  ],
+  "unresolved_items": [
+    "Independent audit must confirm each locator and source/unit hash before any evidence lock or note construction.",
+    "No candidate supports a binding obligation or prohibition.",
+    "Traceability controls are separated into security provenance, supervisory model-risk records, and incident context."
+  ],
+  "warnings": [
+    "SRC-0046 key-0003 is a large structured-data unit; exact object selection is recorded by selector and external ID.",
+    "The ATLAS incident description is bounded to the dataset record and must not be generalized beyond that record."
+  ]
+}

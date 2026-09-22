@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "stage": "CURRENTNESS_ADDENDUM_ASSIGNMENT",
+  "method": "Addendum assignment preserving the original extraction and resolving supersession with validated Markdown units only.",
+  "scope": {
+    "target_provisions": [
+      "AI Act Article 27(4)-(5) amended text",
+      "AI Act Article 113 application schedule",
+      "AI Act Article 26(9) temporal qualifier"
+    ],
+    "source_ids": [
+      "SRC-0011",
+      "SRC-0043"
+    ],
+    "units": 2
+  },
+  "base_references": [
+    {
+      "source_id": "SRC-0011",
+      "unit_path": "ingest/SRC-0011/units/p0220.md",
+      "locator": "Page 220",
+      "purpose": "unchanged Article 26(9) wording"
+    },
+    {
+      "source_id": "SRC-0011",
+      "unit_path": "ingest/SRC-0011/units/p0224.md",
+      "locator": "Page 224",
+      "purpose": "superseded Article 27(4)-(5) wording"
+    }
+  ],
+  "units": [
+    {
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0020.md",
+      "unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38",
+      "unit_content_sha256": "24eb2a464443dc4ada59da54d94951581b306e5323c3f6a4bb676cc6ff649185",
+      "locator": "Page 20",
+      "assigned_for": "currentness addendum for amended AI Act Article 27 and Article 113"
+    },
+    {
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "unit_path": "ingest/SRC-0043/units/p0035.md",
+      "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+      "locator": "Page 35",
+      "assigned_for": "currentness addendum for amended AI Act Article 27 and Article 113"
+    }
+  ],
+  "unresolved": [
+    "GDPR Articles 35, 36 and 39 currentness remains outside this addendum and continues to block binding release readiness."
+  ]
+}

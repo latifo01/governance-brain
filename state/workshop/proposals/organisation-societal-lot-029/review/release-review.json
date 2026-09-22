@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "candidate_sha256": "b710f9ba5c33209432f27d32c85baa597a7116eb03af7b850dd5a9e90cc5d666",
+  "reviewer_identity": "codex-organisation-societal-release-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The strict release resolves twenty reviewed NIST AI RMF Playbook evidence references.",
+      "evidence_lock_sha256": "862b2d38869802844de3c263466c1cf2d9f119b1264b6e546a2a8192572c4ae4"
+    },
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "The deterministic preview is valid for two knowledge notes and one bilingual governance question; the active vault remains unchanged.",
+      "candidate_sha256": "b710f9ba5c33209432f27d32c85baa597a7116eb03af7b850dd5a9e90cc5d666",
+      "files": 3,
+      "would_write": 3
+    },
+    {
+      "severity": "INFO",
+      "code": "DUPLICATE_CONTROL",
+      "detail": "Existing AI literacy and lifecycle-change questions are reused; the proposal adds only the societal-impact feedback topic."
+    },
+    {
+      "severity": "WARNING",
+      "code": "NON_BINDING_CONTEXT",
+      "detail": "The NIST AI RMF Playbook is voluntary framework guidance and does not establish universal legal obligations."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "Approval is required for this exact candidate before integration.",
+      "approval_file": "state/workshop/proposals/organisation-societal-lot-029/review/approval.md"
+    }
+  ]
+}

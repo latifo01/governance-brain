@@ -1,0 +1,361 @@
+{
+ "schema_version": 1,
+ "method": "local-pypdf-token-multiset-coverage",
+ "scope": "Pilot-2 legal evidence units (qualification, prohibited practices, high-risk classification, FRIA, DPIA) compared page-by-page against the original PDFs identified by source_id and source_sha256.",
+ "limitations": [
+  "Token agreement does not establish layout fidelity or legal correctness.",
+  "Original PDFs were read read-only for this comparison only; no source text was copied into any artefact or log."
+ ],
+ "results": [
+  {
+   "source_id": "SRC-0010",
+   "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+   "locator": "Page 53",
+   "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+   "unit_content_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0010",
+   "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+   "locator": "Page 54",
+   "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+   "unit_content_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 157",
+   "unit_file_sha256": "0c0a47b36e5065e7a7d4ba997db89763f16feaf6c4c47379b29398ad70d3d1dd",
+   "unit_content_sha256": "af196ac8d87baf4032b3558d2ea71d011e522f711f5b8272a7314a1d1da19fc4",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 159",
+   "unit_file_sha256": "8042a12b2e431bbf566cbf4c5a96925dae06c6cf8908695624f06d476c9c1fb5",
+   "unit_content_sha256": "ecf9a58cfbf6bbb2417a590cbaa22297a6ade95d6e6219ae7f4bbd675fd56907",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 172",
+   "unit_file_sha256": "b80906c6f9a0dac563ff038b8f4cf5989696232be3c86c95d885a4dcd853f151",
+   "unit_content_sha256": "73c191b9bc3300220569364a9332bc0d1518fa4c256106a892bc15c12838d251",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 173",
+   "unit_file_sha256": "b4b6419377ca30c871d56b23ab646e6a212b1884d3e58b3954912b5039999f68",
+   "unit_content_sha256": "922c132a25822e7d2b621e7f12e4d8a902922f0394805848d025640be5331a29",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 174",
+   "unit_file_sha256": "202fc4d6c1afc88fb65819ca18ac14e5381fe4c0f0287b51106756aeee15fae7",
+   "unit_content_sha256": "82600f055789be49e0e571c47ac8799805e39252ef890870a1342f0626e0554d",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 175",
+   "unit_file_sha256": "e3547ceabd91989d7e65531192a2ae2998b994273d7ca10de90b8b65d1192c0c",
+   "unit_content_sha256": "815cce7d68919561d5ff745ccf166193ceffeacf750295f781d5b9fa7008e250",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 176",
+   "unit_file_sha256": "ff51cfb29c51fbc982fcff4e77ea3b07d87957b2dda818bb57e45c6190672af5",
+   "unit_content_sha256": "f78444a9ed3ab7054d86294c447f28177b4d87ffd1588b5d436b8e953e41f5e5",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 177",
+   "unit_file_sha256": "5e4cbe031780ffa337e101383c0384df5fcbd5465e9ef22d586609ef3d101315",
+   "unit_content_sha256": "b2d9c691a826d3ae4084767f1e174549500d32e3a35357b85946e4ba7953bca4",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 178",
+   "unit_file_sha256": "2f390e760d29ed5bf9a351aa2f24e5c7a618dc17b7549d061bf7ecc90a4f97d7",
+   "unit_content_sha256": "712c55ec9193638c85d49ad37dd0b11f6a2ee7124467bae73401268a43e0001c",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 179",
+   "unit_file_sha256": "3c3885f6c2f3661e7bc0c5dce2da34d4ff965eaddc13ef9c35f06ec766e4831d",
+   "unit_content_sha256": "b94ea3f70b6aaa04e3f0102d6254bee879cc2a856da5268104e463221aacb3e6",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 180",
+   "unit_file_sha256": "3e9e4153e61ad82132678ce792d32066400ab76c3f52a6e889284bf4c980477b",
+   "unit_content_sha256": "2dfb4a92eadd1e7b2ef713b2b05b6036eac1a250c8eecd0eaf26afefbac0ecba",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 181",
+   "unit_file_sha256": "8bd5a208a66e8dfd0a00f0b63ee2d3a8265ef91d82dcb4edae00f3be542b23d8",
+   "unit_content_sha256": "5cb4bfc3f4aaa27a4cb7ef16598a84c89dbda6e9ef7166d88ad4dca3cc20143a",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 222",
+   "unit_file_sha256": "a036e415dec47d0a1832124f69f8df6dded0b2b64415cbfb1f064580884c7607",
+   "unit_content_sha256": "6337dca60a7d782f77e632a7b4b48480569df93258e8c496d4f3aa6d2f246b8d",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 223",
+   "unit_file_sha256": "8a5c0ba929b0b9d096d7cb38f7236be1af2a420635c58545f643e3b8022b6fec",
+   "unit_content_sha256": "4df5ff267fbe5dbcafc4ac2c7281da40ca9605edfd68d89cdfa08d584ea961ab",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 224",
+   "unit_file_sha256": "0a49dfed270bf3c88f4bbaaaa155339bbc088a974bdf61abc002ed9da34c19f1",
+   "unit_content_sha256": "5edbe42945883163e8dc196dcb1b61ff9bb64f8f7e9dd5907ea14ade0b26fdf1",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 379",
+   "unit_file_sha256": "b794d014856f471515dc6c1e7614ae2676b4464c6de993523253bcd5ddf90c67",
+   "unit_content_sha256": "2a75be9458e02eb5a1890f95c438c62b4a82cb05bea4ca50a1081b3bb0bb596f",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 380",
+   "unit_file_sha256": "8dab17972a50c1b55ff8fdcef37f1d6e3e849230181775e3c9ba0aca79af9841",
+   "unit_content_sha256": "cb0c46115a711ed03237a06b7f8b10bdcd62ac0e2759953cb17793873d6d6ce1",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 381",
+   "unit_file_sha256": "dfa56f453790eb9894da6bebf4a24ee15ce3abd4b3b8d495900b21037af344e5",
+   "unit_content_sha256": "90fb9a2fdad9c7c5891676992f9a4f939b00829dfad008e69d0a8e86f05ea85a",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 382",
+   "unit_file_sha256": "1b929dc9c0fe7e7263fc1331be560623ec155e9be7f6529d9ea2ce6af5065564",
+   "unit_content_sha256": "16cfef1053120a4c3ecd83866d0a1597a68c712b155ec6464e2cf8fec5717119",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 383",
+   "unit_file_sha256": "1cf23f328cd8ce02f03559a264dad0a9fe4f7011bfd397440c095a02d2e55906",
+   "unit_content_sha256": "a53300fed81f04bcf6d7f245465ec753098a1daf2876b58601b488a26950d2a5",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 384",
+   "unit_file_sha256": "868915f5b725066e07d3cc7ec4991f49616c778eb27e5eb8b6baeaa6ab0eef86",
+   "unit_content_sha256": "2002754bef1e8362a7a535d8b5d22b33f2ae7f952097d26935ef91c0d614a712",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 385",
+   "unit_file_sha256": "1db693db6a61960f935297d7de32f99076ff75b4abf382582fafa2f9f8393d5d",
+   "unit_content_sha256": "341e65744e127a2c34ba2c9f723dee338916e9585ffcfe0b4a9c5fa5e8be0198",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 386",
+   "unit_file_sha256": "5407bd828cddc503d7eea8e3028ef2e123b4647c8b19c9a56f6ca91005711b8d",
+   "unit_content_sha256": "39e0d6604563bb782fc291eab7a28a0dcfba8bdf7aedd8e38ccf3b56c7cb8e6f",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 387",
+   "unit_file_sha256": "5259f0db44a648402e6ddad2a7001d7cb39d06c8a2a04a4b676e2fead7353402",
+   "unit_content_sha256": "33907982e3f479ca4efdc03c60512958eba35f14f0706d1e79785f5a93305a71",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "locator": "Page 388",
+   "unit_file_sha256": "966cfdfec6b1fb08230ecc376383760bda423fff634157d5fb96325af864c118",
+   "unit_content_sha256": "25bd13f3d55aa2094c7dd8aa501865cf897150a774058980655bf329973bb40b",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "locator": "Page 6",
+   "unit_file_sha256": "188b6edfdcede95c9badf066a34663c658430973e7389ccdce42bc5133702ff0",
+   "unit_content_sha256": "9f35a1b0f2946492457c54dcb512a42245e5b58e3d41381472f4e3498750d13a",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "locator": "Page 13",
+   "unit_file_sha256": "e529a174243a38368a5992b6cab34a5f5ecee78acef66d940811ce5b72ba779b",
+   "unit_content_sha256": "97bb6ec9fb89cc43568170d953fca2f619dc562ba95d35d9f8c8d2c6ac0bdf19",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "locator": "Page 15",
+   "unit_file_sha256": "465bfc1e2e8d6dec5ccd22bcdda6023a1e68df17644c5eb5b39c442d460be208",
+   "unit_content_sha256": "53ca7713ef1bb067864a3250f4495b129f271764be9ee098bdc68161d74d0104",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "locator": "Page 16",
+   "unit_file_sha256": "fc5db98561fc3e03852e14e044849ef4f18f10f4b9e4926833d96b3aeb53891f",
+   "unit_content_sha256": "b429e64d76f52a8347270a787e39e75f08e7e0aa0fa9c2c46ea98f29a2f1b0c5",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "locator": "Page 18",
+   "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff",
+   "unit_content_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "locator": "Page 22",
+   "unit_file_sha256": "b5f8b3b470657c98eaf537a7a015590f210c927b15338dfcae8f6e6489dc75cb",
+   "unit_content_sha256": "10c2839dcaef9a7c74c5bc01c91c095b60549df52073ca8ddacd9fa9c7ae253f",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "locator": "Page 35",
+   "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+   "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "locator": "Page 36",
+   "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533",
+   "unit_content_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+   "original_token_coverage": 1.0,
+   "ingest_token_coverage": 1.0,
+   "result": "MATCH"
+  }
+ ]
+}

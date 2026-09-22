@@ -1,0 +1,39 @@
+{
+  "author_identity": "codex-ai-concepts-p0-knowledge-architect",
+  "candidate_sha256": "1d8ef7e74cc49e16faa73efc956820779e6a80ec97ee50f24e4af5939d49a66f",
+  "changes": {
+    "ADD": [
+      "adversarial-machine-learning",
+      "ai-evaluation-and-tevv",
+      "ai-lifecycle",
+      "ai-robustness-and-reliability",
+      "explainability-and-interpretability",
+      "model-and-concept-drift"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "AI",
+  "evidence_changes": true,
+  "files": [
+    "AI concepts/adversarial-machine-learning.md",
+    "AI concepts/ai-evaluation-and-tevv.md",
+    "AI concepts/ai-lifecycle.md",
+    "AI concepts/ai-robustness-and-reliability.md",
+    "AI concepts/explainability-and-interpretability.md",
+    "AI concepts/model-and-concept-drift.md"
+  ],
+  "proposal_id": "ai-concepts-p0",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "ai-concepts-p0"
+  ],
+  "status": "INTEGRATED"
+}

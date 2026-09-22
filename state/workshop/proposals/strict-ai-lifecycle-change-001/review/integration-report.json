@@ -1,0 +1,60 @@
+{
+  "candidate_sha256": "9bc17ff79c9e722b3db777f24a01323260bb66b6040f4641d8d343ef09fb715e",
+  "derived": {
+    "canvas_sha256": "177c21d2bdc91fdcd89c58f69963fdbef97715f4996114eb0ba7dc3c123e43b5",
+    "dependencies": 32,
+    "questions": 50,
+    "registry_sha256": "f24a884676774a7c687da9054cd72c4d67d6b7ced18a215fc76d5d74cfc1db64"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-lifecycle-change-gates.md",
+      "proposal_id": "strict-ai-lifecycle-change-001",
+      "sha256": "5eeced1c69027f3281c9ec0c2b78b6d3c2d505c5e21b826bbc21097442089987"
+    },
+    {
+      "path": "AI concepts/ai-lifecycle.md",
+      "proposal_id": "strict-ai-lifecycle-change-001",
+      "sha256": "c0aef641777f5eb8aa6c763b0bbce53b0b8db99a66dae35506709c8cf53d50e0"
+    },
+    {
+      "path": "questions/governance/gov-009-lifecycle-release-and-rollback.md",
+      "proposal_id": "strict-ai-lifecycle-change-001",
+      "sha256": "2dc56a0a0818b05c044d3024f6d9f4678ab55fa23c3d59c13ee5381df69c3465"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-literacy-and-change-management.md",
+      "proposal_id": "strict-people-ai-literacy-001",
+      "sha256": "940b66cca043031e650287915daf08c4768330693aeee6a7f80c1b36476b521c"
+    },
+    {
+      "path": "questions/governance/gov-010-ai-literacy-effectiveness.md",
+      "proposal_id": "strict-people-ai-literacy-001",
+      "sha256": "8045aa38c2e765196e02df5425adb0ec94e8c7df9ba13a121cff7d6f4fa313af"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-societal-impact-and-stakeholder-engagement.md",
+      "proposal_id": "strict-sustainability-societal-impact-001",
+      "sha256": "18d14b2c89bdfff0f65167495862c201a100ab24a84450d13f6208a19f645fa1"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-sustainability-impact-baseline.md",
+      "proposal_id": "strict-sustainability-societal-impact-001",
+      "sha256": "ed81ecf2db057feb30307893714a481553da492a7ac5f792a214b38d74ebe284"
+    },
+    {
+      "path": "questions/governance/gov-011-sustainability-impact-metrics.md",
+      "proposal_id": "strict-sustainability-societal-impact-001",
+      "sha256": "1440beecef7fe478778aa4f5891697ea0569eb908323ba5a25b3bcb1fc801561"
+    }
+  ],
+  "materialized_files": 8,
+  "notes": 177,
+  "proposal_ids": [
+    "strict-ai-lifecycle-change-001",
+    "strict-people-ai-literacy-001",
+    "strict-sustainability-societal-impact-001"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

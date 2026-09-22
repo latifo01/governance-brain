@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "candidate_sha256": "5b05fa24933aa04c6b7caf35c9b5ca872bb17d5a167edc6e902c76f043188674",
+  "reviewer_identity": "codex-benchmark-evidence-034-independent-reviewer",
+  "reviewed_at": "2026-09-17T00:00:00Z",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_SCOPE_VALID",
+      "detail": "The proposal updates only the three assigned existing IDs and preserves their frontmatter identifiers and bilingual question wording."
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_BOUND",
+      "detail": "The candidate is bound to evidence lock 3bfb39d3cb010d52dbc8ed83515c099f1f01078c150ac9308583aac376612c00 and 32 verified references."
+    },
+    {
+      "severity": "INFO",
+      "code": "ISO_PREVIEW_LIMIT_PRESERVED",
+      "detail": "The ISO/IEC 42001 preview boundary is explicit; unseen clauses, conformity and certification are not asserted."
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_VALID",
+      "detail": "No BINDING source, obligation, prohibition or legal interpretation is present."
+    },
+    {
+      "severity": "INFO",
+      "code": "STRICT_LANE_CORRECT",
+      "detail": "Evidence changes require the strict lane."
+    },
+    {
+      "severity": "INFO",
+      "code": "SHARED_RECEIPT_DESTINATION_DECLARED",
+      "detail": "The evidence lock declares the deterministic shared evidence-library destination; receipt bytes and hash are ready for staging before integration."
+    }
+  ]
+}

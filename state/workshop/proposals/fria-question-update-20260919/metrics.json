@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "proposal_id": "fria-question-update-20260919",
+  "counts": {
+    "knowledge": 0,
+    "question": 1,
+    "index": 0
+  },
+  "evidence_refs": 3,
+  "status": "PROPOSAL_READY"
+}

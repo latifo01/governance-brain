@@ -1,0 +1,490 @@
+{
+  "schema_version": 1,
+  "purpose": "Retrieval benchmark, not a claim of pillar completeness. Missing target IDs are deliberate coverage gaps, never placeholder notes.",
+  "scenarios": [
+    {
+      "id": "eval-01-en",
+      "pillar": "ai-strategy-value",
+      "kind": "positive",
+      "language": "en",
+      "query": "Business purpose intended outcome",
+      "expected_note_ids": [
+        "core-001-business-purpose"
+      ]
+    },
+    {
+      "id": "eval-01-fr",
+      "pillar": "ai-strategy-value",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Finalité et résultat attendu",
+      "expected_note_ids": [
+        "core-001-business-purpose"
+      ]
+    },
+    {
+      "id": "eval-01-negative",
+      "pillar": "ai-strategy-value",
+      "kind": "negative",
+      "language": "fr",
+      "query": "zzunavailablegovernanceconceptzz",
+      "category": "documented-gap",
+      "filters": {},
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-02-en",
+      "pillar": "governance-accountability-policy",
+      "kind": "positive",
+      "language": "en",
+      "query": "Accountable owner governance",
+      "expected_note_ids": [
+        "core-002-accountable-owner",
+        "iso-42001"
+      ]
+    },
+    {
+      "id": "eval-02-fr",
+      "pillar": "governance-accountability-policy",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Responsabilité du propriétaire",
+      "expected_note_ids": [
+        "core-002-accountable-owner",
+        "iso-42001"
+      ]
+    },
+    {
+      "id": "eval-02-negative",
+      "pillar": "governance-accountability-policy",
+      "kind": "negative",
+      "language": "en",
+      "query": "Responsabilité du propriétaire",
+      "category": "outside-scope",
+      "filters": {
+        "domains": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-03-en",
+      "pillar": "legal-regulatory",
+      "kind": "positive",
+      "language": "en",
+      "query": "High risk AI system classification",
+      "expected_note_ids": [
+        "high-risk-ai-system-classification"
+      ]
+    },
+    {
+      "id": "eval-03-fr",
+      "pillar": "legal-regulatory",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Classification haut risque",
+      "expected_note_ids": [
+        "high-risk-ai-system-classification"
+      ]
+    },
+    {
+      "id": "eval-03-negative",
+      "pillar": "legal-regulatory",
+      "kind": "negative",
+      "language": "fr",
+      "query": "High risk AI system classification",
+      "category": "source-exclusion",
+      "filters": {
+        "allowed_source_ids": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-04-en",
+      "pillar": "data-protection",
+      "kind": "positive",
+      "language": "en",
+      "query": "GDPR Article 22 automated decision",
+      "expected_note_ids": [
+        "gdpr-article-22-automated-decision-making"
+      ]
+    },
+    {
+      "id": "eval-04-fr",
+      "pillar": "data-protection",
+      "kind": "positive",
+      "language": "fr",
+      "query": "RGPD article 22 décision automatisée",
+      "expected_note_ids": [
+        "gdpr-article-22-automated-decision-making"
+      ]
+    },
+    {
+      "id": "eval-04-negative",
+      "pillar": "data-protection",
+      "kind": "negative",
+      "language": "en",
+      "query": "zzunavailablegovernanceconceptzz",
+      "category": "documented-gap",
+      "filters": {},
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-05-en",
+      "pillar": "data-governance-quality",
+      "kind": "positive",
+      "language": "en",
+      "query": "Data quality governance provenance",
+      "expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ]
+    },
+    {
+      "id": "eval-05-fr",
+      "pillar": "data-governance-quality",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Qualité données gouvernance provenance",
+      "expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ]
+    },
+    {
+      "id": "eval-05-negative",
+      "pillar": "data-governance-quality",
+      "kind": "negative",
+      "language": "fr",
+      "query": "Qualité données gouvernance provenance",
+      "category": "outside-scope",
+      "filters": {
+        "domains": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-06-en",
+      "pillar": "model-risk-validation-tev",
+      "kind": "positive",
+      "language": "en",
+      "query": "Model validation evidence",
+      "expected_note_ids": [
+        "ai-model-validation",
+        "risk-001-model-validation-evidence"
+      ]
+    },
+    {
+      "id": "eval-06-fr",
+      "pillar": "model-risk-validation-tev",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Preuve validation modèle",
+      "expected_note_ids": [
+        "ai-model-validation",
+        "risk-001-model-validation-evidence"
+      ]
+    },
+    {
+      "id": "eval-06-negative",
+      "pillar": "model-risk-validation-tev",
+      "kind": "negative",
+      "language": "en",
+      "query": "Model validation evidence",
+      "category": "source-exclusion",
+      "filters": {
+        "allowed_source_ids": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-07-en",
+      "pillar": "ai-security",
+      "kind": "positive",
+      "language": "en",
+      "query": "Prompt injection threat model",
+      "expected_note_ids": [
+        "prompt-injection",
+        "risk-005-prompt-injection-threat-model"
+      ]
+    },
+    {
+      "id": "eval-07-fr",
+      "pillar": "ai-security",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Injection invite modèle menace",
+      "expected_note_ids": [
+        "prompt-injection",
+        "risk-005-prompt-injection-threat-model"
+      ]
+    },
+    {
+      "id": "eval-07-negative",
+      "pillar": "ai-security",
+      "kind": "negative",
+      "language": "fr",
+      "query": "zzunavailablegovernanceconceptzz",
+      "category": "documented-gap",
+      "filters": {},
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-08-en",
+      "pillar": "responsible-ai-human-oversight",
+      "kind": "positive",
+      "language": "en",
+      "query": "Human oversight authority",
+      "expected_note_ids": [
+        "human-oversight",
+        "risk-008-human-oversight-authority"
+      ]
+    },
+    {
+      "id": "eval-08-fr",
+      "pillar": "responsible-ai-human-oversight",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Contrôle humain autorité",
+      "expected_note_ids": [
+        "human-oversight",
+        "risk-008-human-oversight-authority"
+      ]
+    },
+    {
+      "id": "eval-08-negative",
+      "pillar": "responsible-ai-human-oversight",
+      "kind": "negative",
+      "language": "en",
+      "query": "Contrôle humain autorité",
+      "category": "outside-scope",
+      "filters": {
+        "domains": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-09-en",
+      "pillar": "transparency-explainability-documentation",
+      "kind": "positive",
+      "language": "en",
+      "query": "Model documentation transparency",
+      "expected_note_ids": [
+        "ai-model-documentation",
+        "ai-model-transparency"
+      ]
+    },
+    {
+      "id": "eval-09-fr",
+      "pillar": "transparency-explainability-documentation",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Documentation modèle transparence",
+      "expected_note_ids": [
+        "ai-model-documentation",
+        "ai-model-transparency"
+      ]
+    },
+    {
+      "id": "eval-09-negative",
+      "pillar": "transparency-explainability-documentation",
+      "kind": "negative",
+      "language": "fr",
+      "query": "Model documentation transparency",
+      "category": "source-exclusion",
+      "filters": {
+        "allowed_source_ids": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-10-en",
+      "pillar": "third-parties-supply-chain",
+      "kind": "positive",
+      "language": "en",
+      "query": "Hugging Face organization confusion supply chain",
+      "expected_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+      ]
+    },
+    {
+      "id": "eval-10-fr",
+      "pillar": "third-parties-supply-chain",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Hugging Face confusion organisation chaîne approvisionnement",
+      "expected_note_ids": [
+        "atlas-aml-cs0027-organization-confusion-on-hugging-face"
+      ]
+    },
+    {
+      "id": "eval-10-negative",
+      "pillar": "third-parties-supply-chain",
+      "kind": "negative",
+      "language": "en",
+      "query": "zzunavailablegovernanceconceptzz",
+      "category": "documented-gap",
+      "filters": {},
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-11-en",
+      "pillar": "operational-resilience-incidents",
+      "kind": "positive",
+      "language": "en",
+      "query": "Model monitoring response",
+      "expected_note_ids": [
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ]
+    },
+    {
+      "id": "eval-11-fr",
+      "pillar": "operational-resilience-incidents",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Surveillance modèle réponse",
+      "expected_note_ids": [
+        "ai-model-monitoring",
+        "risk-003-model-monitoring-response"
+      ]
+    },
+    {
+      "id": "eval-11-negative",
+      "pillar": "operational-resilience-incidents",
+      "kind": "negative",
+      "language": "fr",
+      "query": "Surveillance modèle réponse",
+      "category": "outside-scope",
+      "filters": {
+        "domains": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-12-en",
+      "pillar": "lifecycle-engineering-change",
+      "kind": "positive",
+      "language": "en",
+      "query": "Lifecycle change management retirement",
+      "expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ]
+    },
+    {
+      "id": "eval-12-fr",
+      "pillar": "lifecycle-engineering-change",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Cycle de vie gestion changement retrait",
+      "expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ]
+    },
+    {
+      "id": "eval-12-negative",
+      "pillar": "lifecycle-engineering-change",
+      "kind": "negative",
+      "language": "en",
+      "query": "Lifecycle change management retirement",
+      "category": "source-exclusion",
+      "filters": {
+        "allowed_source_ids": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-13-en",
+      "pillar": "audit-assurance",
+      "kind": "positive",
+      "language": "en",
+      "query": "Traceability evidence audit",
+      "expected_note_ids": [
+        "traceability"
+      ]
+    },
+    {
+      "id": "eval-13-fr",
+      "pillar": "audit-assurance",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Traçabilité preuve audit",
+      "expected_note_ids": [
+        "traceability"
+      ]
+    },
+    {
+      "id": "eval-13-negative",
+      "pillar": "audit-assurance",
+      "kind": "negative",
+      "language": "fr",
+      "query": "zzunavailablegovernanceconceptzz",
+      "category": "documented-gap",
+      "filters": {},
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-14-en",
+      "pillar": "people-ai-literacy-change",
+      "kind": "positive",
+      "language": "en",
+      "query": "AI literacy training competence",
+      "expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ]
+    },
+    {
+      "id": "eval-14-fr",
+      "pillar": "people-ai-literacy-change",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Formation IA compétences",
+      "expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ]
+    },
+    {
+      "id": "eval-14-negative",
+      "pillar": "people-ai-literacy-change",
+      "kind": "negative",
+      "language": "en",
+      "query": "Formation IA compétences",
+      "category": "outside-scope",
+      "filters": {
+        "domains": []
+      },
+      "expected_note_ids": []
+    },
+    {
+      "id": "eval-15-en",
+      "pillar": "sustainability-societal-impact",
+      "kind": "positive",
+      "language": "en",
+      "query": "Sustainability environmental impact",
+      "expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ]
+    },
+    {
+      "id": "eval-15-fr",
+      "pillar": "sustainability-societal-impact",
+      "kind": "positive",
+      "language": "fr",
+      "query": "Durabilité impact environnemental",
+      "expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ]
+    },
+    {
+      "id": "eval-15-negative",
+      "pillar": "sustainability-societal-impact",
+      "kind": "negative",
+      "language": "fr",
+      "query": "Sustainability environmental impact",
+      "category": "source-exclusion",
+      "filters": {
+        "allowed_source_ids": []
+      },
+      "expected_note_ids": []
+    }
+  ]
+}

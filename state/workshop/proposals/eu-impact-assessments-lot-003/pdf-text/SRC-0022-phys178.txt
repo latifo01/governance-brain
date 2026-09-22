@@ -1,0 +1,46 @@
+                      Law & Compliance in AI Security & Data Protection
+
+
+the form of expression. Article 15 GDPR, for instance, allows data subjects to request
+some information from data controllers, while Article 24(1) GDPR obliges controllers to
+be able to show that processing is in conformity with the GDPR.
+It is true that documentation creates some frictions with development processes. They
+demand additional effort to draw up and maintain updated documentation, and the sheer
+volume of documents relating to a large AI system can be intimidating. Because those
+efforts are often seen as having limited returns, one of the key tenets of agile software
+development is the idea that working software is more important than comprehensive
+documentation. This commandment does not mean that documentation should not exist.
+But it suggests the need to minimize written records to what is essential for business
+reasons, including compliance with the law.
+The compliance roles of software documents
+One of the challenges organizations face in determining what documents are essential
+is that there is no closed list of such documents. This is because the value of
+documented information varies with context. A piece of information that is useless for
+understanding the impact of a system used in social media might make all the difference
+for assessing whether a medical diagnosing system works as intended. Some types of
+documents are mandated by law, such as those demanded by sector-specific law.
+Others emerge as industry standards, as technical experts deem some kinds of
+information to be essential for their work and for accountability. This session cannot
+offer an exhaustive list of such documents, but it will introduce some that are deemed to
+be useful for AI governance.
+The first type of documents that can come in handy for an organization relates to the
+decisions it makes during the software life cycle. Any organization that develops an AI
+system makes various choices throughout the development process: what algorithms
+should be used? What data is relevant for training this AI system? How should we test
+the completed AI system? Likewise, a deployer of an AI system must make choices
+such as determining which AI system to use and how to use it. In both cases, the
+choices will shape how personal data is processed. As a result, Article 24 GDPR entails
+that the organizations must be able to demonstrate those choices are made in
+compliance with data protection law.
+By documenting the process behind those choices, the actual choices made, and how
+they are implemented, an organization can demonstrate its due diligence regarding the
+numerous factors highlighted in Part II of this training module. Organizations providing
+systems classified as high-risk under the AI Act are obliged to provide this kind of
+information,3 covering at least the criteria flagged in Annex IV AI Act. Any other
+
+
+3 See the documentation requirement in Article 11 AI Act.
+
+
+                                                  165
+

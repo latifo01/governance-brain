@@ -1,0 +1,1050 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-gap-triage-p1-20260920",
+  "scope": "criterion-level source-gap triage for three remaining SOURCE_GAP pillars",
+  "inputs": {
+    "coverage_register": {
+      "path": "state/workshop/coverage/coverage-register.json",
+      "sha256": "1797f31dbbd6e2bfbafdda22cd17b12a236864e5b9ae33ed3cb3376fee423f89"
+    },
+    "coverage_matrix": {
+      "path": "state/derived/brain/coverage-matrix.json",
+      "sha256": "1ae0c8e3ec2bcf2af67024c2abe5b012c607f8fdc41b5eebf3c87e6ee69ab7bb"
+    },
+    "catalogue": {
+      "path": "state/derived/brain/catalogue.json",
+      "sha256": "a58f06a39b7df7e2f12d3cbd732bab4b8d81b45d32747b0af93e1fa07abde215"
+    },
+    "evidence_index": {
+      "path": "state/derived/brain/evidence-index.json",
+      "sha256": "6de688df6d3ab5a80cc9bfaa8614bdce36586b7ee321af0c9d175613772f4d28"
+    },
+    "taxonomy_change_set": {
+      "path": "state/workshop/proposals/roadmap-parallel-20260919/source-gaps/source-gap-taxonomy-change-set.json",
+      "sha256": "2ba15a4ffbb1c743961fd40d781d389bf8c192923e5c8a11055be0e7bb129b64"
+    },
+    "audited_evidence_index": {
+      "path": "state/workshop/proposals/roadmap-parallel-20260919/source-gaps/audited-evidence-index.json",
+      "sha256": "ff58c59a55eadda3b3e606b2fc570581a989ac1d25d61e0641d8bb48adea4b05"
+    }
+  },
+  "cells": [
+    {
+      "cell_id": "lifecycle-engineering-change:definition_scope_terminology",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "definition_scope_terminology",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:roles_decisions",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "roles_decisions",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:risks_impacts",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "risks_impacts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:lifecycle_controls",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "lifecycle_controls",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:evidence_artifacts",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "evidence_artifacts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:metrics_monitoring_incidents",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "metrics_monitoring_incidents",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:exceptions_conflicts",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "exceptions_conflicts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:questionnaire_coverage",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "questionnaire_coverage",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:source_provenance",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "source_provenance",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "lifecycle-engineering-change:domain_index_links",
+      "pillar_id": "lifecycle-engineering-change",
+      "criterion": "domain_index_links",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 54,
+      "candidate_question_count": 28,
+      "candidate_source_ids": [
+        "SRC-0036",
+        "SRC-0037",
+        "SRC-0038",
+        "SRC-0039",
+        "SRC-0040"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:definition_scope_terminology",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "definition_scope_terminology",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:roles_decisions",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "roles_decisions",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:risks_impacts",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "risks_impacts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:lifecycle_controls",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "lifecycle_controls",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:evidence_artifacts",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "evidence_artifacts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:metrics_monitoring_incidents",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "metrics_monitoring_incidents",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:exceptions_conflicts",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "exceptions_conflicts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:questionnaire_coverage",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "questionnaire_coverage",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:source_provenance",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "source_provenance",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "people-ai-literacy-change:domain_index_links",
+      "pillar_id": "people-ai-literacy-change",
+      "criterion": "domain_index_links",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 15,
+      "candidate_question_count": 13,
+      "candidate_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0003",
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:definition_scope_terminology",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "definition_scope_terminology",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:roles_decisions",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "roles_decisions",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:risks_impacts",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "risks_impacts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:lifecycle_controls",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "lifecycle_controls",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:evidence_artifacts",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "evidence_artifacts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:metrics_monitoring_incidents",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "metrics_monitoring_incidents",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:exceptions_conflicts",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "exceptions_conflicts",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:questionnaire_coverage",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "questionnaire_coverage",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:source_provenance",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "source_provenance",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    },
+    {
+      "cell_id": "sustainability-societal-impact:domain_index_links",
+      "pillar_id": "sustainability-societal-impact",
+      "criterion": "domain_index_links",
+      "recorded_pillar_status": "SOURCE_GAP",
+      "current_cell_status": "UNASSESSED",
+      "next_action": "REVIEW_CRITERION_EVIDENCE",
+      "candidate_note_count": 4,
+      "candidate_question_count": 3,
+      "candidate_source_ids": [
+        "SRC-0008",
+        "SRC-0009"
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "pillar_id": "lifecycle-engineering-change",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "release_id": "strict-ai-lifecycle-change-001",
+      "current_status": "SOURCE_GAP",
+      "taxonomy_status": "SOURCE_GAP",
+      "activation": "DEFERRED",
+      "current_coverage": [
+        "ai-lifecycle",
+        "gov-002-lifecycle-change-reassessment",
+        "ai-model-monitoring",
+        "ai-model-documentation",
+        "traceability"
+      ],
+      "overlap_decision": "The lifecycle concept, change-reassessment question, monitoring, documentation and traceability already form a coherent route across PROCESS and MODEL_RISK. A new top-level domain would duplicate existing decision gates and fragment the graph.",
+      "evidence_gaps": [
+        "single lifecycle gate map from purpose through retirement",
+        "material-change taxonomy covering data, model, code, configuration, supplier and context changes",
+        "release, rollback, reassessment and decommission evidence",
+        "handoffs between lifecycle controls, incidents, security and third-party controls"
+      ],
+      "candidate_evidence_refs": [
+        "gov20-src-0001-p0017",
+        "gov20-src-0002-p0008",
+        "gov20-src-0002-p0010",
+        "gov20-src-0009-p0006",
+        "be035-src-0018-p0004",
+        "be035-src-0018-p0005",
+        "be035-src-0018-p0010",
+        "be035-src-0039-p0019"
+      ],
+      "audited_candidate_count": 8,
+      "audited_authority_counts": {
+        "FRAMEWORK": 1,
+        "GUIDANCE": 6,
+        "RESEARCH": 1
+      },
+      "audited_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0009",
+        "SRC-0018",
+        "SRC-0039"
+      ],
+      "required_next_stage": "strict extraction, applicability/currentness review, fidelity check where needed, independent evidence audit, then construction"
+    },
+    {
+      "pillar_id": "people-ai-literacy-change",
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "release_id": "strict-people-ai-literacy-001",
+      "current_status": "SOURCE_GAP",
+      "taxonomy_status": "SOURCE_GAP",
+      "activation": "DEFERRED",
+      "current_coverage": [
+        "ai-literacy-and-change-management",
+        "gov-005-role-specific-ai-literacy",
+        "human-oversight"
+      ],
+      "overlap_decision": "Role-specific literacy and change-management knowledge already exists under governance and responsible AI. A separate top-level pack would duplicate accountability and human-authority routing.",
+      "evidence_gaps": [
+        "role competency profiles and accountability for training decisions",
+        "competence or effectiveness evidence beyond attendance",
+        "literacy triggers following material system, role or context changes",
+        "coverage for affected users and operational change adoption",
+        "current binding analysis for any jurisdiction-specific literacy duties"
+      ],
+      "candidate_evidence_refs": [
+        "gov20-src-0001-p0011",
+        "gov20-src-0002-p0009",
+        "gov20-src-0009-p0026",
+        "org29-src-0040-p0072",
+        "org29-src-0040-p0082",
+        "org29-src-0040-p0083"
+      ],
+      "audited_candidate_count": 6,
+      "audited_authority_counts": {
+        "FRAMEWORK": 3,
+        "GUIDANCE": 2,
+        "RESEARCH": 1
+      },
+      "audited_source_ids": [
+        "SRC-0001",
+        "SRC-0002",
+        "SRC-0009",
+        "SRC-0040"
+      ],
+      "required_next_stage": "strict extraction, applicability/currentness review, fidelity check where needed, independent evidence audit, then construction"
+    },
+    {
+      "pillar_id": "sustainability-societal-impact",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "release_id": "strict-sustainability-societal-impact-001",
+      "current_status": "SOURCE_GAP",
+      "taxonomy_status": "SOURCE_GAP",
+      "activation": "DEFERRED",
+      "current_coverage": [
+        "ai-societal-impact-and-stakeholder-engagement",
+        "gov-006-societal-impact-feedback",
+        "ai-impact-assessment-aiia"
+      ],
+      "overlap_decision": "The active vault already covers affected groups, stakeholder feedback, impact assessment and environmental indicators. The candidate remains a distinct cross-cutting subdomain because its evidence, metrics and decision trade-offs are not reducible to human oversight alone.",
+      "evidence_gaps": [
+        "environmental baseline, measurement boundary and materiality",
+        "societal impact taxonomy and affected-group representation",
+        "decision rights for trade-offs, mitigation and decommissioning",
+        "monitoring cadence and audit evidence for impact indicators",
+        "binding or sector-specific obligations where environmental or social reporting applies"
+      ],
+      "candidate_evidence_refs": [
+        "org29-src-0040-p0028",
+        "org29-src-0040-p0030",
+        "org29-src-0040-p0035",
+        "org29-src-0040-p0036",
+        "org29-src-0040-p0059",
+        "org29-src-0040-p0127"
+      ],
+      "audited_candidate_count": 6,
+      "audited_authority_counts": {
+        "FRAMEWORK": 6
+      },
+      "audited_source_ids": [
+        "SRC-0040"
+      ],
+      "required_next_stage": "strict extraction, applicability/currentness review, fidelity check where needed, independent evidence audit, then construction"
+    }
+  ],
+  "evidence": [
+    {
+      "evidence_ref": "gov20-src-0001-p0017",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0017.md",
+      "unit_sha256": "b95d5f3b2ab3f9992887fe446ae1e4015e257a57204ce2818587333baadfd8be",
+      "unit_file_sha256": "04f76de176d8c5641cdaf617f866cb359bc162315fa7c290ec4001150201391d",
+      "locator": "Page 17",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE"
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0008",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0008.md",
+      "unit_sha256": "dd08fe1c774fed697bcb045139342b0ffeb11868ec5f073bb37d7aa350fa007b",
+      "unit_file_sha256": "318e25cbe755449b6c31cb9566bb8a00e04da76d2d6d1fd34b447ed1dddac9fe",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE"
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0010",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0010.md",
+      "unit_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "unit_file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE"
+    },
+    {
+      "evidence_ref": "gov20-src-0009-p0006",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0006.md",
+      "unit_sha256": "ebc07658b042ce7f8cbbb091ff93b0a4730b7b1ef9f4950ea819a0d335b191ca",
+      "unit_file_sha256": "95776257fc0f685861c2727ed5cd892203e152fd4c9f5c48281dc13ddc88f415",
+      "locator": "Page 6",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE"
+    },
+    {
+      "evidence_ref": "be035-src-0018-p0004",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0004.md",
+      "unit_sha256": "bf54803df3da779bcd85bafd4b5f843f7214d442e52e63216bb05c20b54c69f4",
+      "unit_file_sha256": "d1e17475d59dcb337a063dde45f9a61f4ed0b89ec0ae49f05ef711aa873ddee0",
+      "locator": "Page 4",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "benchmark-evidence-035-model-lifecycle",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE"
+    },
+    {
+      "evidence_ref": "be035-src-0018-p0005",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0005.md",
+      "unit_sha256": "34f96fbced761a0e5075a0931a2a9ff5bf9f1e2164303bbf59b25c0573eac477",
+      "unit_file_sha256": "dc89b9ad0ba76e0c16fbc52d3721c9f2a271696f1f5174d54a1b33190c1aa144",
+      "locator": "Page 5",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "benchmark-evidence-035-model-lifecycle",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE"
+    },
+    {
+      "evidence_ref": "be035-src-0018-p0010",
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "unit_path": "ingest/SRC-0018/units/p0010.md",
+      "unit_sha256": "538f4c5cdf6ebbecb65c1eb3b369cf4e6c9b0f432c2c07579f6c299d073849d3",
+      "unit_file_sha256": "2e8764c9c988b3f73f90377cf7f5e91eaddf083a33bca6bfa365df801b03a71c",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "benchmark-evidence-035-model-lifecycle",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE"
+    },
+    {
+      "evidence_ref": "be035-src-0039-p0019",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0019.md",
+      "unit_sha256": "cd40c4c5370072e0513212997a18907787d6850e4aec8be6956c902460fda651",
+      "unit_file_sha256": "4ae38bae64b04241a9a3e3a2009e18379aa9d0f6056878a9ceed639d9f6788c0",
+      "locator": "Page 19",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "benchmark-evidence-035-model-lifecycle",
+      "candidate_domain": "AI_LIFECYCLE_CHANGE"
+    },
+    {
+      "evidence_ref": "gov20-src-0001-p0011",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0011.md",
+      "unit_sha256": "2bebbf22e79fcb7398cada2e6f70011d9d1336df8b1fcde8266313ae598e9a29",
+      "unit_file_sha256": "44438d92683d60307fb3ca2231c7e9b2d2185c966a0901db7675ce5a7f5d77a8",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "candidate_domain": "PEOPLE_AI_LITERACY"
+    },
+    {
+      "evidence_ref": "gov20-src-0002-p0009",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0009.md",
+      "unit_sha256": "5d850e0e987babbcbf0f5d9d00c25f5aa0561c6205480f11277d87a5ab28fc52",
+      "unit_file_sha256": "e93584abd9a8580c362a3fff4f5eda8e799be89d024354645eadde94fcc3b69c",
+      "locator": "Page 9",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "candidate_domain": "PEOPLE_AI_LITERACY"
+    },
+    {
+      "evidence_ref": "gov20-src-0009-p0026",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0026.md",
+      "unit_sha256": "c1eb84e21a76668d73065c44166204a8e97c96b4667e0e746ae98b8eb5b4ca07",
+      "unit_file_sha256": "8608ee961a4656a37574610c6174860df43e694b7f6aac294fd1baca9799b678",
+      "locator": "Page 26",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "governance-lifecycle-020",
+      "candidate_domain": "PEOPLE_AI_LITERACY"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0072",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0072.md",
+      "unit_sha256": "9ea2a99caeac24f6f72dafbdd9d5c22b500864d6f3e813f77c16a6c1837fbcfe",
+      "unit_file_sha256": "0a4fd748efd6e9ac352915822ab9df6ed4cb3f1f34367a9f72eb48d52dca79a5",
+      "locator": "Page 72",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "PEOPLE_AI_LITERACY"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0082",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0082.md",
+      "unit_sha256": "1b14ab94d49b74ab13a3a9fd5f36e05a310e0faf7a49163cbe0fb9d246682316",
+      "unit_file_sha256": "f16b3ca236167aab2be09bdb8cfce8892cf21bc566b6c1eb6629e215f4d9b637",
+      "locator": "Page 82",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "PEOPLE_AI_LITERACY"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0083",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0083.md",
+      "unit_sha256": "d9bae7d3c24abbda6fca8de31f216da3dbdbff6a24720ba889a4d8257bb2dce3",
+      "unit_file_sha256": "203168c49dfdfeeefc8f3b6c2206f2abcb8a061ae2870a5e65cd38c69fcc723d",
+      "locator": "Page 83",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "PEOPLE_AI_LITERACY"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0028",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0028.md",
+      "unit_sha256": "cafb82055d74abdbffdb365542b93303dc472d80b9d40dedfadac3047be2418b",
+      "unit_file_sha256": "e992a84d10086774cc5782eb2a61e3c6519ae0f8a8f15d3dd8a16699e3932c43",
+      "locator": "Page 28",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0030",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0030.md",
+      "unit_sha256": "e2c105e43c9150b2d5fd54c25a1671fff120866e90d71ef825c6a6d9b276c75e",
+      "unit_file_sha256": "e076baecabe42d25076df4a809ae809e0875fb8e3b7880c7f9e6aa08f567154d",
+      "locator": "Page 30",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0035",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0035.md",
+      "unit_sha256": "98a2b39b2884a60b87b4f74adef7445be8064bdee3b2844445576ed7e8e89ffc",
+      "unit_file_sha256": "33509b9fb484e8c7ea15a5be744838eee0e5640531e22482f21e0f00791e3126",
+      "locator": "Page 35",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0036",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0036.md",
+      "unit_sha256": "134f9f3b8be4acb77b287e6feb5bbf5156aa16c6b95edc904dd70109ed8a4fcd",
+      "unit_file_sha256": "d323c488e78cfeb7e405fbf1251f413ba1e129360dc7d1c580d287de0b991bf1",
+      "locator": "Page 36",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0059",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0059.md",
+      "unit_sha256": "b5f9e80ca7bebc58a3dd24ffc8dee8842017ac2bbc59d5d8daf37d7bd3d2355f",
+      "unit_file_sha256": "cac576a5deeb75cdd32ba3befb6c2d9bf75b7e3d6cc0932fc0c59c129003d4a2",
+      "locator": "Page 59",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT"
+    },
+    {
+      "evidence_ref": "org29-src-0040-p0127",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0127.md",
+      "unit_sha256": "583e279e769939699e63fd75cb269e5ffc94aeda32cbfcc2a3914e37a1853acc",
+      "unit_file_sha256": "7cc18ffd51556447fcef55617687efb6df8da4444e0110b062c519c0df705339",
+      "locator": "Page 127",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "receipt_id": "organisation-societal-lot-029",
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT"
+    }
+  ],
+  "source_inventory": [
+    {
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "AUDIT_ASSURANCE",
+        "GOVERNANCE_ACCOUNTABILITY"
+      ],
+      "unit_count": 21
+    },
+    {
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "AUDIT_ASSURANCE",
+        "GOVERNANCE_ACCOUNTABILITY"
+      ],
+      "unit_count": 14
+    },
+    {
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "GOVERNANCE_ACCOUNTABILITY",
+        "HUMAN_OVERSIGHT_RESPONSIBLE_AI",
+        "TRANSPARENCY_DISCLOSURE"
+      ],
+      "unit_count": 35
+    },
+    {
+      "source_id": "SRC-0018",
+      "source_sha256": "30861fc5de31205846f023068069c92fabc7271ebeac6af7bef68b97f0a33f66",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "LEGAL_REGULATORY",
+        "TRANSPARENCY_DISCLOSURE"
+      ],
+      "unit_count": 51
+    },
+    {
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "MODEL_RISK"
+      ],
+      "unit_count": 48
+    },
+    {
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "status": "READY_FOR_LLM",
+      "domains": [
+        "MODEL_RISK"
+      ],
+      "unit_count": 147
+    }
+  ],
+  "publication": {
+    "active_vault_changes": false,
+    "coverage_register_changes": false,
+    "domain_pack_activation": false,
+    "source_changes": false,
+    "ingest_changes": false,
+    "evidence_library_changes": false
+  },
+  "decision": "Evidence candidates are routing inputs only. No claim, obligation, prohibition, question or note is published by this triage.",
+  "status": "PROPOSAL_READY",
+  "candidate_sha256": "38ebae36895612a69dc96ec78afccfdfc18bb61e44b680bc3f292c9bbdc2e084",
+  "counts": {
+    "pillars": 3,
+    "cells": 30,
+    "audited_candidates": 20,
+    "candidate_sources": 6,
+    "candidate_authority_counts": {
+      "FRAMEWORK": 10,
+      "GUIDANCE": 8,
+      "RESEARCH": 2
+    },
+    "cells_by_next_action": {
+      "REVIEW_CRITERION_EVIDENCE": 30
+    }
+  }
+}

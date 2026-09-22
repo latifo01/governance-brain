@@ -1,0 +1,3359 @@
+{
+  "schema_version": 1,
+  "receipt_id": "p0-coverage-completion-20260920",
+  "author_identity": "codex-p0-coverage-evidence-assembler",
+  "evidence": [
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0017-ec-004",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "unit_path": "ingest/SRC-0017/units/p0005.md",
+      "unit_sha256": "ee8ff77614401b816911b5322f13c45aa4a35396ec70f5f6a5e9771f2027eeb2",
+      "unit_file_sha256": "406018865bb3967fffd4a6aa8513d9ff4c335d3d609b063c4a736a7eb19d4408",
+      "locator": "Page 5",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0017-ec-005",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "unit_path": "ingest/SRC-0017/units/p0006.md",
+      "unit_sha256": "9d8c59a83af3d61f0c16a0633698eea3f4208f714f7f39e762c0b74a2b8349cc",
+      "unit_file_sha256": "050d84ec3d750f84be24a155c64f3ba4834ecebe6023c7ed82d5f4c4911228ee",
+      "locator": "Page 6",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0039-ec-009",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0031.md",
+      "unit_sha256": "44a114c762f77234248abc7bbb3a37a8d10689119753e41c3801192198958cd8",
+      "unit_file_sha256": "ecffb3d85aff358158c2146b81247b62fe7d399ade60bcd4ab979023a56d5076",
+      "locator": "Page 31",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0017-ec-001",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "unit_path": "ingest/SRC-0017/units/p0002.md",
+      "unit_sha256": "49053f6e7528412dddf6563c304f6a143e9065f7b342a82cc35e4a25dbc3a0e9",
+      "unit_file_sha256": "9e45a12f6336ed5ab8e64aa57757482913326238b7db8d425767c1a71b8fd1b6",
+      "locator": "Page 2",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0017-ec-002",
+      "source_id": "SRC-0017",
+      "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+      "unit_path": "ingest/SRC-0017/units/p0003.md",
+      "unit_sha256": "f62b10bc2498d7dbeb06ff99223f173276542904a9f68b440bf27f9a5cb7c7f6",
+      "unit_file_sha256": "941aee572b2afc330fee2c0394b860803c3362014ee9ceca30cb74103c381083",
+      "locator": "Page 3",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0039-ec-002",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0007.md",
+      "unit_sha256": "648daf5642773488177243476b1c6bfa861d92dce792a11494084d7b5304d9e5",
+      "unit_file_sha256": "14b7a52aea6ecc852db92422f27dacc0b6ec408ec4a7961df457f9181d429fad",
+      "locator": "Page 7",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0039-ec-016",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0047.md",
+      "unit_sha256": "e40b7f1678e2f79be535676b7254b72518706031a3e6984dddcc2c6d2f05f552",
+      "unit_file_sha256": "9e8f1dd29ca7dfe6d4de20998a05c36d64ab7848b6605452770f1c78f17e9415",
+      "locator": "Page 47",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0006-ec-003",
+      "source_id": "SRC-0006",
+      "source_sha256": "3220aeccaea0fd2b95807eaae1ab88ed74cf059f1add022e712ffa4afcbd50f8",
+      "unit_path": "ingest/SRC-0006/units/p0007.md",
+      "unit_sha256": "d08ef12966b3f395f06dcb17739adeb56fe4f470e0a09bd9079d13188a6afd86",
+      "unit_file_sha256": "d2dcecbd8e46ec46490ce2980eaef3b732ec9a4abf2163802b7a27fbb1eacd44",
+      "locator": "Page 7",
+      "authority": "STANDARD",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0006-ec-005",
+      "source_id": "SRC-0006",
+      "source_sha256": "3220aeccaea0fd2b95807eaae1ab88ed74cf059f1add022e712ffa4afcbd50f8",
+      "unit_path": "ingest/SRC-0006/units/p0010.md",
+      "unit_sha256": "872ff0e3262e7817ec9b6d9be852f7a9a8f6ab6e9432650a3de34737b7488f2e",
+      "unit_file_sha256": "84bc9a630061e697cb5107aa634132c492eca898c967e77b0e47eb2f09af0a7b",
+      "locator": "Page 10",
+      "authority": "STANDARD",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0006-ec-006",
+      "source_id": "SRC-0006",
+      "source_sha256": "3220aeccaea0fd2b95807eaae1ab88ed74cf059f1add022e712ffa4afcbd50f8",
+      "unit_path": "ingest/SRC-0006/units/p0012.md",
+      "unit_sha256": "7051348dd06fd6b244b9b1fe1b65adf662ae11b1a1e066858eb25cb3f3a1f3e4",
+      "unit_file_sha256": "a46f208615a9d1b627189e9b71c9cb26e63510d6e1977b164b621da75e33da0a",
+      "locator": "Page 12",
+      "authority": "STANDARD",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0039-ec-006",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0014.md",
+      "unit_sha256": "f0216265a138e196180f41f4aa59f26949e4de0176db0c506f77b7497b38699c",
+      "unit_file_sha256": "442787cb43607b8d453a33296424e2896ccd9d275296abeede00217e3645e3c5",
+      "locator": "Page 14",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be034-src-0006-ec-001",
+      "source_id": "SRC-0006",
+      "source_sha256": "3220aeccaea0fd2b95807eaae1ab88ed74cf059f1add022e712ffa4afcbd50f8",
+      "unit_path": "ingest/SRC-0006/units/p0006.md",
+      "unit_sha256": "8cab49dcb74fa886632e4f5d8ef5162840a32b04aa84d664301b8e3887448c85",
+      "unit_file_sha256": "3782ef8698d6fd5d0d644d69e10f5709ef3a86ec68b2dd0ad4453a740be5d603",
+      "locator": "Page 6",
+      "authority": "STANDARD",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/fidelity-review.json",
+          "sha256": "fa9bf3c58a09bd9e4d4fc8ff58a1bc185dbfc32bbc7eb4931a41a93d9c1c4ddc"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-govq24-src-0002-p0004",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0004.md",
+      "unit_sha256": "8effcb6abbe7ed48186e0f3fb9d5e10c386b642d33110af75a3c09bb4cdb963c",
+      "unit_file_sha256": "00f277b1536cf11ccad593e8557d52e0ee6058d62e708afe62f00f97ddc659ed",
+      "locator": "Page 4",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-govq24-src-0002-p0009",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0009.md",
+      "unit_sha256": "5d850e0e987babbcbf0f5d9d00c25f5aa0561c6205480f11277d87a5ab28fc52",
+      "unit_file_sha256": "e93584abd9a8580c362a3fff4f5eda8e799be89d024354645eadde94fcc3b69c",
+      "locator": "Page 9",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-govq24-src-0001-p0017",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0017.md",
+      "unit_sha256": "b95d5f3b2ab3f9992887fe446ae1e4015e257a57204ce2818587333baadfd8be",
+      "unit_file_sha256": "04f76de176d8c5641cdaf617f866cb359bc162315fa7c290ec4001150201391d",
+      "locator": "Page 17",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-govq24-src-0002-p0010",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0010.md",
+      "unit_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "unit_file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-govq24-src-0002-p0008",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0008.md",
+      "unit_sha256": "dd08fe1c774fed697bcb045139342b0ffeb11868ec5f073bb37d7aa350fa007b",
+      "unit_file_sha256": "318e25cbe755449b6c31cb9566bb8a00e04da76d2d6d1fd34b447ed1dddac9fe",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-govq24-src-0009-p0006",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0006.md",
+      "unit_sha256": "ebc07658b042ce7f8cbbb091ff93b0a4730b7b1ef9f4950ea819a0d335b191ca",
+      "unit_file_sha256": "95776257fc0f685861c2727ed5cd892203e152fd4c9f5c48281dc13ddc88f415",
+      "locator": "Page 6",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-govq24-src-0002-p0011",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0011.md",
+      "unit_sha256": "7ca44d4b72df7aa6b214afa03cb8ff2bbe7668738a6e78735c3cceb0416abc06",
+      "unit_file_sha256": "0265b7f3bba5b1a4489c80a974aa44ff8791364c3436a9cbaf6730edc0073be2",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-govq24-src-0009-p0028",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0028.md",
+      "unit_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+      "unit_file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+      "locator": "Page 28",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0009-p0028",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0028.md",
+      "unit_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+      "unit_file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+      "locator": "Page 28",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0013",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0013.md",
+      "unit_sha256": "908b61808591742b4eceb039781bf5dad1b584175684d13d13b61708946d092b",
+      "unit_file_sha256": "3190774657243f189f8fd87d7ab4cd6a21f2f994abfa7f0bec26e43fea9b187c",
+      "locator": "Page 13",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0027",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0027.md",
+      "unit_sha256": "5bf996e75f9b8e7e3bc9a21870c865906e011176bec408fc3daabd3eeea0c8b0",
+      "unit_file_sha256": "b168358739b1695a4992b9e6a8e36467c08f96741b0cb81796f9ae017d371426",
+      "locator": "Page 27",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0030",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0030.md",
+      "unit_sha256": "eeb9308986d824c4d415604e258073e48a2d9d2bb7530cd89a301253612f70fb",
+      "unit_file_sha256": "40ba83d46bd174e24e07601a2fd8d81af804e456c0e32ca226f53cdd14c692d7",
+      "locator": "Page 30",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0031",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0031.md",
+      "unit_sha256": "44a114c762f77234248abc7bbb3a37a8d10689119753e41c3801192198958cd8",
+      "unit_file_sha256": "ecffb3d85aff358158c2146b81247b62fe7d399ade60bcd4ab979023a56d5076",
+      "locator": "Page 31",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0032",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0032.md",
+      "unit_sha256": "4d6d21a07d29ce58c5e16dd5acd6c0cbe08e8a08e43f18b968eabfe92132bb57",
+      "unit_file_sha256": "3fb08605b67176fe71e367f627b72a5b557a50e19ed8d048a64271e490d3b54d",
+      "locator": "Page 32",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0009",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0009.md",
+      "unit_sha256": "f3e81739bd22251e4d1e6d6127f617a649508a6216edc6571c4dff0a9ee1ba81",
+      "unit_file_sha256": "cd5d58ea4c3d4091f641b3ba11be246bdcc743f58fe2810fcfaba0380c664531",
+      "locator": "Page 9",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0025",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0025.md",
+      "unit_sha256": "dd3175af3d7f0bd24b5502cda22174c90d4c4dd9840ec7ac6c508cf09ea9bf96",
+      "unit_file_sha256": "f4ddf2163b1dca124ee605cac9ed23166878e90506719fc8c48b2af5fef67aa2",
+      "locator": "Page 25",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0006",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0006.md",
+      "unit_sha256": "c4be3f3f73e612bb68b3e776b6bc5c7544e5ce3c8cd9c21f92c4824b951f2668",
+      "unit_file_sha256": "caf8012b64c1c82af815a7927693992f08104e0f4da61d376304bcc7dda54733",
+      "locator": "Page 6",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0011",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0011.md",
+      "unit_sha256": "cebb3eb0d79edbd81e0f9558da25981a125abc971f79e2b823612cac6c146a33",
+      "unit_file_sha256": "aa64e9f63456a6f166720d6db04f28b24a98032a1f97c0aea407024cff99b727",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0014",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0014.md",
+      "unit_sha256": "eb7ab2878d456a3a0de88f260af593d06ba057e235a856018f1cc764e4863c93",
+      "unit_file_sha256": "515e610648ddec4170cae79790f4028c7b21445b6f4c33536149946656d5af12",
+      "locator": "Page 14",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0028",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0028.md",
+      "unit_sha256": "521f411644d01eb7dab20fb43c840359707dfbe00e1d72f429b211e02790da2a",
+      "unit_file_sha256": "bc7c8d30729f64d1c9323c11030b4087e3dd99c08537e315d1dcc93d7078d10e",
+      "locator": "Page 28",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0029",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0029.md",
+      "unit_sha256": "c9d34a79fc87d4964f095d334b822d98ebc4352693c876b5cd14b8eeaf066300",
+      "unit_file_sha256": "32f6a3f061a191168139b2c7e24b53ab00cc8dfd3139697ca910218070738f5e",
+      "locator": "Page 29",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0033",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0033.md",
+      "unit_sha256": "de022cf2b8f82975598a5839143a82a49b70f1ab04c198dbedc63eb5ca6e1514",
+      "unit_file_sha256": "4b67ee60cea7ec6910893d30c3709a071d6072e3cfe4c47b2c11944b23ca05fb",
+      "locator": "Page 33",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0035",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0035.md",
+      "unit_sha256": "7c2df886cf5671889f4e54cfd1e5097145ed938a3c5ac78ed1e4c151c06ebcef",
+      "unit_file_sha256": "9c378153e475afecb6438fda22c12e7a4d0af0fafe7055b4619a1934f41f2add",
+      "locator": "Page 35",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0038",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0038.md",
+      "unit_sha256": "d3f4eff907102e22e34b18552cff5f1a2cc62a4631a6a9361cff58129a950c2a",
+      "unit_file_sha256": "ff1de0e3693819bc5f7068ef4a1481d154d2891deacc1b5ab16e03374914b60f",
+      "locator": "Page 38",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0042",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0042.md",
+      "unit_sha256": "79ad38aace1bc1f870070024a985e270418b3ab176982a9010a62814580c8f17",
+      "unit_file_sha256": "83d7984bb993a43322b51cfcd77982ae4bba5f975f82a4eab4f5c7f73f9007ed",
+      "locator": "Page 42",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0007",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0007.md",
+      "unit_sha256": "a66ff86bdcb5a4578d96d4d6fd578ef98dd7e6b23e216991bc74f820df0531dc",
+      "unit_file_sha256": "b519d3ab5b07d79abdb3988aa7ac0580e9dee0de38e0273c9b7e81dec0c08874",
+      "locator": "Page 7",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0010",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0010.md",
+      "unit_sha256": "a9d686c32b747508b981cbd13d6b9459626ae7dd30b8a7ea88208924e42e65b0",
+      "unit_file_sha256": "07acdadc0a0bda9925b6d66a5d93ece7ad30ac223014000654e59d4c586baafa",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0037",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0037.md",
+      "unit_sha256": "70995f881cc7f2563d8f541900ec5d39c94f5d24c14e43d6fb5669d1593101d6",
+      "unit_file_sha256": "882a5e7f9abe541347758055c17d6c3bc5ff0a03852038df9058f7538db9a681",
+      "locator": "Page 37",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0041",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0041.md",
+      "unit_sha256": "4776066e53382666714293156082d44a5e97e09b1aa45c9db1be54ae5e7f0d5b",
+      "unit_file_sha256": "f30e89ebfbb106b12ed700b6b8f89ad8a999df16ca039a5bdbcd2a58fa0ea831",
+      "locator": "Page 41",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0009",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0009.md",
+      "unit_sha256": "ce9d4d57bed3d3dd5f827497303dc3a697e652ee5d7060745d4ee0954e3b6714",
+      "unit_file_sha256": "580001998850c50baf8e41a8a030f3e7b2e37d550860e5196583d3dc61ce6890",
+      "locator": "Page 9",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0034",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0034.md",
+      "unit_sha256": "c721e01ce436180b63165e69fb45c7a2994b59916bbbaf6676777b9efd11701d",
+      "unit_file_sha256": "4a993b22fe7d513c3a4bd0a29af77058c4692f0fdd401aa37d5f8e4cf0acccd4",
+      "locator": "Page 34",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0003",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0003.md",
+      "unit_sha256": "ab5bfc41d093885cd81182099d32e9592bb1995c6e387e8a68b64a0b314d7887",
+      "unit_file_sha256": "27afd27ccc6e7adca435172c69d81e9498a188c682f1a21022d8614812a3bfff",
+      "locator": "Page 3",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0004",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0004.md",
+      "unit_sha256": "d1ecfe57f728692dc7971a88c246332a5ebe0dc34bfee427747a26bb24fcfd30",
+      "unit_file_sha256": "da5d74e0748387a682d68b5f60d6ab6208cbb06377ff442c52376e3f59e361f9",
+      "locator": "Page 4",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0036-p0005",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0005.md",
+      "unit_sha256": "0cca436bb57a709cc5bea57ff32ab92f63f68b6e31f89af96068217c6f0949c0",
+      "unit_file_sha256": "7a2f438e6a922f679b87f81e1220fb360ee5eb164ab544e0927ed996ac0c14da",
+      "locator": "Page 5",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "US"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be035-src-0039-p0012",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0012.md",
+      "unit_sha256": "6638dfa78204e0e2c92ea67334637b34c6add8685754aec351c49077162a3590",
+      "unit_file_sha256": "e74c481c9ec1189c00dd9d0d935fbdfd95bccfa8b07f16910d6523a87f3e4b43",
+      "locator": "Page 12",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+          "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-model23-src-0036-p0006",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0006.md",
+      "unit_sha256": "c4be3f3f73e612bb68b3e776b6bc5c7544e5ce3c8cd9c21f92c4824b951f2668",
+      "unit_file_sha256": "caf8012b64c1c82af815a7927693992f08104e0f4da61d376304bcc7dda54733",
+      "locator": "Page 6",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/model-validation-023-fidelity.json",
+          "sha256": "3e92ebcd80b1a8891b121d73337d51797dcfd14c6b4ed22f46a3ea14fe8d8fac"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-model23-src-0039-p0028",
+      "source_id": "SRC-0039",
+      "source_sha256": "7576edb531d9848825814ee88e28b1795d3a84b435b4b797d3670eafdc4a89f1",
+      "unit_path": "ingest/SRC-0039/units/p0028.md",
+      "unit_sha256": "521f411644d01eb7dab20fb43c840359707dfbe00e1d72f429b211e02790da2a",
+      "unit_file_sha256": "bc7c8d30729f64d1c9323c11030b4087e3dd99c08537e315d1dcc93d7078d10e",
+      "locator": "Page 28",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/model-validation-023-fidelity.json",
+          "sha256": "3e92ebcd80b1a8891b121d73337d51797dcfd14c6b4ed22f46a3ea14fe8d8fac"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-model23-src-0036-p0008",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0008.md",
+      "unit_sha256": "36e25926b74ec476b4c1955ca191b9ac6c1d809237c4565dd9cf06d9695ab786",
+      "unit_file_sha256": "eb8849e7fc295f0ba69c6b4ccd73292749bbd1566afef5edf3651e555935a63d",
+      "locator": "Page 8",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/model-validation-023-fidelity.json",
+          "sha256": "3e92ebcd80b1a8891b121d73337d51797dcfd14c6b4ed22f46a3ea14fe8d8fac"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0035-ec-001",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_path": "ingest/SRC-0035/units/p0004.md",
+      "unit_sha256": "5378224d5a15efa98fd399d3c3c2a2f5951650b2c9f28e096bc9e1d7599ed233",
+      "unit_file_sha256": "bc2d44345fe4674129313201d2c3021f8b1a83c2e1e7956e754396f631669905",
+      "locator": "Page 4",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0035-ec-004",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_path": "ingest/SRC-0035/units/p0006.md",
+      "unit_sha256": "d90b505cc47e3e727ae79ff85ec6aeaf1f48fa93dcdd16770e08e45fc90f5893",
+      "unit_file_sha256": "3114e952aa37a89e0922808e113e0378709e30101cb924d55a278295b5fd7a8d",
+      "locator": "Page 6",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0035-ec-005",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_path": "ingest/SRC-0035/units/p0007.md",
+      "unit_sha256": "474cdf9143a38d337191392f349b42bf22467abc575bfa0bf46752d8630cd9ca",
+      "unit_file_sha256": "04cb6b395e3668bc1eb39895801a47abb34578e889ae1439f5f5477c029a0251",
+      "locator": "Page 7",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0035-ec-006",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_path": "ingest/SRC-0035/units/p0007.md",
+      "unit_sha256": "474cdf9143a38d337191392f349b42bf22467abc575bfa0bf46752d8630cd9ca",
+      "unit_file_sha256": "04cb6b395e3668bc1eb39895801a47abb34578e889ae1439f5f5477c029a0251",
+      "locator": "Page 7",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0035-ec-007",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_path": "ingest/SRC-0035/units/p0008.md",
+      "unit_sha256": "c21aef3ffc00990518768009c959d0ebb412c75da02175de66e198dff7bf2718",
+      "unit_file_sha256": "49cdef8d9e82e2be473a132643605ae55ace6a64ee9bdf8acc8b04394f7d2a99",
+      "locator": "Page 8",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0035-ec-008",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_path": "ingest/SRC-0035/units/p0008.md",
+      "unit_sha256": "c21aef3ffc00990518768009c959d0ebb412c75da02175de66e198dff7bf2718",
+      "unit_file_sha256": "49cdef8d9e82e2be473a132643605ae55ace6a64ee9bdf8acc8b04394f7d2a99",
+      "locator": "Page 8",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0035-ec-010",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_path": "ingest/SRC-0035/units/p0011.md",
+      "unit_sha256": "29d42ebbce10232b72a931e49b542bcd9da2314d3fcf785dabfe566331d0a563",
+      "unit_file_sha256": "dcf99551b3e0556f741b62ca758ad9b15c40ec28897e5745917fe887640248ca",
+      "locator": "Page 11",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0035-ec-011",
+      "source_id": "SRC-0035",
+      "source_sha256": "8043891483f54b5770a016e9d7ca1cc17f3b4ac5082b010b85326b4a8bef3b03",
+      "unit_path": "ingest/SRC-0035/units/p0012.md",
+      "unit_sha256": "7d3b72c8bd64e074cc642acf9013c83e36e50ca4e982865039506521703b98a7",
+      "unit_file_sha256": "d3057a00ce1e289c6cedf86b749cbc08ebf95d5c84590b28ba87bed493955d6d",
+      "locator": "Page 12",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0036-ec-001",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0012.md",
+      "unit_sha256": "03f780e0b8674338c40a8bd67a2edb8090dd3fe89a94878c7d9b9380548390bc",
+      "unit_file_sha256": "5e5a10bb006fdc14067d6432f75f831a0c1c9f0521d257e49f5b2e2c5abf4214",
+      "locator": "Page 12",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0036-ec-004",
+      "source_id": "SRC-0036",
+      "source_sha256": "956b3bc642dac3b7a1ce6b2ac0f4fc1421b13d7b4f06db6fcfa022a90e7b38a7",
+      "unit_path": "ingest/SRC-0036/units/p0014.md",
+      "unit_sha256": "eb7ab2878d456a3a0de88f260af593d06ba057e235a856018f1cc764e4863c93",
+      "unit_file_sha256": "515e610648ddec4170cae79790f4028c7b21445b6f4c33536149946656d5af12",
+      "locator": "Page 14",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0038-ec-001",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0011.md",
+      "unit_sha256": "1e0201351f4a60012b4536b63d721f147e3d349c1328a648170c45326d66ecc0",
+      "unit_file_sha256": "37dc3093d475cc43b7098a2c47861621a80f1e3eb62da0d2124d715037af8051",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0038-ec-002",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0012.md",
+      "unit_sha256": "7f9390fd52096a5b3bc250bfd9b57dcc22e8e206ca2bd0b8bab30c3f037d11da",
+      "unit_file_sha256": "27a185f9c92afbd081ec0ebcf2a98b4e69d1ef3d0c5538ed3d02779e1f965405",
+      "locator": "Page 12",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0038-ec-004",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0016.md",
+      "unit_sha256": "9f48480f34f2ebfb2526200d7af8ab5012cad1d7835de15d5f76c86039f72438",
+      "unit_file_sha256": "432214d3d8aabd35ae2eb83186e942b055ca1b2e47424f881c06a45a49b345b2",
+      "locator": "Page 16",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0038-ec-006",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0019.md",
+      "unit_sha256": "6bda81bdf15c6c90c0f28801830d6089483769d49b276a668232290269c23c71",
+      "unit_file_sha256": "a3383565ded745c78dab35f32478c0c12faee58faf2a4086210c872aaf4de653",
+      "locator": "Page 19",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-be037-src-0038-ec-007",
+      "source_id": "SRC-0038",
+      "source_sha256": "0046c0e4eb705830d43312da000271655000beb2a349e1cc3802815638c62cc0",
+      "unit_path": "ingest/SRC-0038/units/p0021.md",
+      "unit_sha256": "61f377fca205b258d21a21a6fba4b39001f35673665eea58c33eafaaa14cdc2f",
+      "unit_file_sha256": "1689d72d3c2ca4dbe4514945ed84a7f397452b76e0b3d09d34ad0a00ce30b43a",
+      "locator": "Page 21",
+      "authority": "GUIDANCE",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/benchmark-evidence-037-traceability-supply-chain/evidence/fidelity-review.json",
+          "sha256": "58462eec7f59efacb75c2298c7e2e390c7c0a4647f4a8edcfa1006a817034e4d"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-art27-completion-src-0011-p0222-ec-001",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0222.md",
+      "unit_sha256": "6337dca60a7d782f77e632a7b4b48480569df93258e8c496d4f3aa6d2f246b8d",
+      "unit_file_sha256": "a036e415dec47d0a1832124f69f8df6dded0b2b64415cbfb1f064580884c7607",
+      "locator": "Page 222",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/fria-article27-completion-20260919/evidence/fidelity-article27-completion.json",
+          "sha256": "1c724489f8047926336e711710ea48c1f2bddd6fa1b60757e023d2cb2762b704"
+        }
+      ]
+    },
+    {
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/fidelity-article35.json",
+          "sha256": "fe2b6e27e03fb23fb42bd0a33e6312c7edec2e819143b5b434fb24f3d1f547fd"
+        }
+      ],
+      "evidence_ref": "p0cov-reuse-fria27-amend-src-0043-p0035-ec-001",
+      "unit_path": "ingest/SRC-0043/units/p0035.md",
+      "unit_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+      "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+      "locator": "Page 35"
+    },
+    {
+      "evidence_ref": "p0cov-reuse-art27-completion-src-0011-p0222-ec-002",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0222.md",
+      "unit_sha256": "6337dca60a7d782f77e632a7b4b48480569df93258e8c496d4f3aa6d2f246b8d",
+      "unit_file_sha256": "a036e415dec47d0a1832124f69f8df6dded0b2b64415cbfb1f064580884c7607",
+      "locator": "Page 222",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/fria-article27-completion-20260919/evidence/fidelity-article27-completion.json",
+          "sha256": "1c724489f8047926336e711710ea48c1f2bddd6fa1b60757e023d2cb2762b704"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-art27-completion-src-0011-p0222-ec-003",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0222.md",
+      "unit_sha256": "6337dca60a7d782f77e632a7b4b48480569df93258e8c496d4f3aa6d2f246b8d",
+      "unit_file_sha256": "a036e415dec47d0a1832124f69f8df6dded0b2b64415cbfb1f064580884c7607",
+      "locator": "Page 222",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/fria-article27-completion-20260919/evidence/fidelity-article27-completion.json",
+          "sha256": "1c724489f8047926336e711710ea48c1f2bddd6fa1b60757e023d2cb2762b704"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-art27-completion-src-0011-p0223-ec-004",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0223.md",
+      "unit_sha256": "4df5ff267fbe5dbcafc4ac2c7281da40ca9605edfd68d89cdfa08d584ea961ab",
+      "unit_file_sha256": "8a5c0ba929b0b9d096d7cb38f7236be1af2a420635c58545f643e3b8022b6fec",
+      "locator": "Page 223",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/fria-article27-completion-20260919/evidence/fidelity-article27-completion.json",
+          "sha256": "1c724489f8047926336e711710ea48c1f2bddd6fa1b60757e023d2cb2762b704"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-art27-completion-src-0011-p0223-ec-005",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0223.md",
+      "unit_sha256": "4df5ff267fbe5dbcafc4ac2c7281da40ca9605edfd68d89cdfa08d584ea961ab",
+      "unit_file_sha256": "8a5c0ba929b0b9d096d7cb38f7236be1af2a420635c58545f643e3b8022b6fec",
+      "locator": "Page 223",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/fria-article27-completion-20260919/evidence/fidelity-article27-completion.json",
+          "sha256": "1c724489f8047926336e711710ea48c1f2bddd6fa1b60757e023d2cb2762b704"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-art27-completion-src-0011-p0223-ec-006",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0223.md",
+      "unit_sha256": "4df5ff267fbe5dbcafc4ac2c7281da40ca9605edfd68d89cdfa08d584ea961ab",
+      "unit_file_sha256": "8a5c0ba929b0b9d096d7cb38f7236be1af2a420635c58545f643e3b8022b6fec",
+      "locator": "Page 223",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/fria-article27-completion-20260919/evidence/fidelity-article27-completion.json",
+          "sha256": "1c724489f8047926336e711710ea48c1f2bddd6fa1b60757e023d2cb2762b704"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-art27-completion-src-0011-p0223-ec-007",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0223.md",
+      "unit_sha256": "4df5ff267fbe5dbcafc4ac2c7281da40ca9605edfd68d89cdfa08d584ea961ab",
+      "unit_file_sha256": "8a5c0ba929b0b9d096d7cb38f7236be1af2a420635c58545f643e3b8022b6fec",
+      "locator": "Page 223",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/fria-article27-completion-20260919/evidence/fidelity-article27-completion.json",
+          "sha256": "1c724489f8047926336e711710ea48c1f2bddd6fa1b60757e023d2cb2762b704"
+        }
+      ]
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "p0cov-reuse-dpia2-src-0010-p0053",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+          "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 53",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "unit_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "p0cov-reuse-dpia2-src-0022-p0181",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+          "sha256": "d3c7a429bf2726ee9a7ef2615c28c4027429824e0c869546f7a2066d2e2f4ab9"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 181",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_file_sha256": "abe4261e2db987c5165f0ec2cbc05236237086e19f5a6ac4b49845a2a3929b86",
+      "unit_path": "ingest/SRC-0022/units/p0181.md",
+      "unit_sha256": "7c6138256ed7853b70e9762339a80eee9af2c45a58b565d0372b3e748adc6cad",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "GUIDANCE",
+      "evidence_ref": "p0cov-reuse-dpia2-src-0022-p0182",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+          "sha256": "d3c7a429bf2726ee9a7ef2615c28c4027429824e0c869546f7a2066d2e2f4ab9"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 182",
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_file_sha256": "d7272507cfc260019e86926fcb5535cd6b1591b1ff9489ab3aed90a058216048",
+      "unit_path": "ingest/SRC-0022/units/p0182.md",
+      "unit_sha256": "85f3319fc5679da2027bf7e7a9b44a54daf37cd88cec77d3b092faac33bf5ac6",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "authority": "BINDING",
+      "evidence_ref": "p0cov-reuse-dpia2-src-0010-p0054",
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+          "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+        }
+      ],
+      "jurisdiction": [
+        "EU"
+      ],
+      "locator": "Page 54",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "unit_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "valid_from": null,
+      "valid_until": null
+    },
+    {
+      "evidence_ref": "p0cov-reuse-gov20-src-0001-p0011",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0011.md",
+      "unit_sha256": "2bebbf22e79fcb7398cada2e6f70011d9d1336df8b1fcde8266313ae598e9a29",
+      "unit_file_sha256": "44438d92683d60307fb3ca2231c7e9b2d2185c966a0901db7675ce5a7f5d77a8",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-gov20-src-0001-p0017",
+      "source_id": "SRC-0001",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52",
+      "unit_path": "ingest/SRC-0001/units/p0017.md",
+      "unit_sha256": "b95d5f3b2ab3f9992887fe446ae1e4015e257a57204ce2818587333baadfd8be",
+      "unit_file_sha256": "04f76de176d8c5641cdaf617f866cb359bc162315fa7c290ec4001150201391d",
+      "locator": "Page 17",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-gov20-src-0002-p0009",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0009.md",
+      "unit_sha256": "5d850e0e987babbcbf0f5d9d00c25f5aa0561c6205480f11277d87a5ab28fc52",
+      "unit_file_sha256": "e93584abd9a8580c362a3fff4f5eda8e799be89d024354645eadde94fcc3b69c",
+      "locator": "Page 9",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-gov20-src-0002-p0010",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0010.md",
+      "unit_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "unit_file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "locator": "Page 10",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-gov20-src-0009-p0006",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0006.md",
+      "unit_sha256": "ebc07658b042ce7f8cbbb091ff93b0a4730b7b1ef9f4950ea819a0d335b191ca",
+      "unit_file_sha256": "95776257fc0f685861c2727ed5cd892203e152fd4c9f5c48281dc13ddc88f415",
+      "locator": "Page 6",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-gov20-src-0009-p0026",
+      "source_id": "SRC-0009",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "unit_path": "ingest/SRC-0009/units/p0026.md",
+      "unit_sha256": "c1eb84e21a76668d73065c44166204a8e97c96b4667e0e746ae98b8eb5b4ca07",
+      "unit_file_sha256": "8608ee961a4656a37574610c6174860df43e694b7f6aac294fd1baca9799b678",
+      "locator": "Page 26",
+      "authority": "RESEARCH",
+      "jurisdiction": [
+        "GLOBAL"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-gov20-src-0002-p0011",
+      "source_id": "SRC-0002",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12",
+      "unit_path": "ingest/SRC-0002/units/p0011.md",
+      "unit_sha256": "7ca44d4b72df7aa6b214afa03cb8ff2bbe7668738a6e78735c3cceb0416abc06",
+      "unit_file_sha256": "0265b7f3bba5b1a4489c80a974aa44ff8791364c3436a9cbaf6730edc0073be2",
+      "locator": "Page 11",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-reuse-gov20-src-0003-p0007",
+      "source_id": "SRC-0003",
+      "source_sha256": "edc972e30f5c2c264b8ea449e291c3457754584a248706e647bca0c7ecf81e68",
+      "unit_path": "ingest/SRC-0003/units/p0007.md",
+      "unit_sha256": "44fe16c44171a8bc37597d2f23ed1759e4f534626d0221aae19653ae1fc81c6c",
+      "unit_file_sha256": "21252280a3d3772c5f2e136059bd1d54b9800b2eb246822836268451cbcd7ac4",
+      "locator": "Page 7",
+      "authority": "GUIDANCE",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+          "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0016",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0016.md",
+      "unit_sha256": "19e67c2247679cca0cae8ce3ab4b7e609a431de1a1c1ae08db31a0cc721fe233",
+      "unit_file_sha256": "d0688c4eb87be1ef5b0e52a7a568de8d12b7d176dd34ac684badf97bc6b2f1a6",
+      "locator": "Page 16",
+      "selector": "p0-coverage-p0016",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0049",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0049.md",
+      "unit_sha256": "645a1a0434fed2074cd5c57a841ebd64e6ea5ebe1b63975ec7e9a6d9dd7bcd0f",
+      "unit_file_sha256": "b34c8cbbb489b4f5b3e4ae3141ab4b6d1f4efd33470e476e65296a04306caf6c",
+      "locator": "Page 49",
+      "selector": "p0-coverage-p0049",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0050",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0050.md",
+      "unit_sha256": "fec870fcd1704ad6af4f21f576f7337c93fb2b1c5f98222198d47db53ef627d6",
+      "unit_file_sha256": "ebedf8fcf5429506e5f35308566ea0d92acb674acf6b9638822ba3b1e994f6ca",
+      "locator": "Page 50",
+      "selector": "p0-coverage-p0050",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0051",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0051.md",
+      "unit_sha256": "50b445fc94e11d0b56eb44caa2a42c97753e2b3188cbb299a8dff03780deb506",
+      "unit_file_sha256": "f79c5512c99554b7aed31c6e82d849dc3aa87b0b433508c498c3bc18d13a968c",
+      "locator": "Page 51",
+      "selector": "p0-coverage-p0051",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0054",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "unit_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "locator": "Page 54",
+      "selector": "p0-coverage-p0054",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0018",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0018.md",
+      "unit_sha256": "9a17b098fb1ba94729535f66a26946a7869a95de57b6ce1b6f4c4c0a81ff1f86",
+      "unit_file_sha256": "e3da33167b1f1bfd91f75d50b6b8d349faa9fba35055a4c7b14f8bda636303d1",
+      "locator": "Page 18",
+      "selector": "p0-coverage-p0018",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0053",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "unit_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "locator": "Page 53",
+      "selector": "p0-coverage-p0053",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0020",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0020.md",
+      "unit_sha256": "eeebb0ba6bcde6e8c29684e1a087f6c7a5b1b06ef50f80649cd8a215d793ee05",
+      "unit_file_sha256": "0a3f361c10c668d53c060cc489bd6466e4010f27be9c856787a59ba5bc81e7ec",
+      "locator": "Page 20",
+      "selector": "p0-coverage-p0020",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0023",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0023.md",
+      "unit_sha256": "aff49243394fe315604c5d4d779f9c3666bacdbca4bdedfe4fcf58cc27a8afee",
+      "unit_file_sha256": "713c7f370dedb587ff947848080b05cdf2df77aec34a6fc9915305abead5fbc6",
+      "locator": "Page 23",
+      "selector": "p0-coverage-p0023",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0026",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0026.md",
+      "unit_sha256": "cfdc06d81f835e74650dfb046e430753a4b14c730d1cc43f3e90b3bf6b8df27b",
+      "unit_file_sha256": "56da9083d7e7c8adc06942f596d5185e997f838e7c8730db005fe4cdfc8c64c1",
+      "locator": "Page 26",
+      "selector": "p0-coverage-p0026",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "p0cov-src-0010-p0027",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0027.md",
+      "unit_sha256": "d69cdf6b13bf309a45124e5295f030e1f7287b60e4aa98eda1f4a0769b792664",
+      "unit_file_sha256": "338af9ef27654a85fe7e1354d48486d396ea6e5d36950b9181be676edce7d002",
+      "locator": "Page 27",
+      "selector": "p0-coverage-p0027",
+      "authority": "BINDING",
+      "jurisdiction": [
+        "EU"
+      ],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/p0-coverage-completion-20260920/evidence/fidelity-review-p0.json",
+          "sha256": "d7c2062ecbd34605dcbe7685a983958f82a788486b16fba7be97ab66087255ab"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "ai-strategy-value-definition-scope-terminology",
+      "note_sha256": "fc408cc16160cc876f29fe766bd3df04b1e0a8ad282668d6cf6b718715915033",
+      "section_id": "ai-strategy-value-definition-scope-terminology:787b3b797116ae5c",
+      "section_sha256": "3ceb60da02cd5ef4e49a0fbce50cfee0ae90a96d273a67f8982c4004f1dba90f",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0039-ec-009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-definition-scope-terminology",
+      "note_sha256": "fc408cc16160cc876f29fe766bd3df04b1e0a8ad282668d6cf6b718715915033",
+      "section_id": "ai-strategy-value-definition-scope-terminology:e1e8e678c5864564",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0039-ec-009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-definition-scope-terminology",
+      "note_sha256": "fc408cc16160cc876f29fe766bd3df04b1e0a8ad282668d6cf6b718715915033",
+      "section_id": "ai-strategy-value-definition-scope-terminology:a2bd9bc57ade771b",
+      "section_sha256": "660708449f21ba65899001304d435835c53c6d484dcc2ead35f5857add91f3a4",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0039-ec-009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-definition-scope-terminology",
+      "note_sha256": "fc408cc16160cc876f29fe766bd3df04b1e0a8ad282668d6cf6b718715915033",
+      "section_id": "ai-strategy-value-definition-scope-terminology:ff65026a2d910962",
+      "section_sha256": "49e489afcfcfbd74c5b13393919deda136138402a8060d11629c5b64e712d352",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0039-ec-009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-definition-scope-terminology",
+      "note_sha256": "fc408cc16160cc876f29fe766bd3df04b1e0a8ad282668d6cf6b718715915033",
+      "section_id": "ai-strategy-value-definition-scope-terminology:b2c8691e1f9a3b05",
+      "section_sha256": "945456aab21b19a03c368a8046e87ac8a164ceda19303cb538dfeb98a8149eea",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0039-ec-009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-roles-decisions",
+      "note_sha256": "a4276fabdfb02ead6540d24430a205a0651f9b2585bfd14200f7d2ee0995788f",
+      "section_id": "ai-strategy-value-roles-decisions:fcc5f779b2ea168d",
+      "section_sha256": "d4e4db07456bb3a69659e620067743113675af4726b72f4f83e955ab44dafe8b",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0002-p0004",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-roles-decisions",
+      "note_sha256": "a4276fabdfb02ead6540d24430a205a0651f9b2585bfd14200f7d2ee0995788f",
+      "section_id": "ai-strategy-value-roles-decisions:838190150b1428d9",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0002-p0004",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-roles-decisions",
+      "note_sha256": "a4276fabdfb02ead6540d24430a205a0651f9b2585bfd14200f7d2ee0995788f",
+      "section_id": "ai-strategy-value-roles-decisions:1e7f98de8f15a690",
+      "section_sha256": "cb042434546fe488cc44db7f210657fcc85a31e9bfeb12dc410fb5e5191dd489",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0002-p0004",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-roles-decisions",
+      "note_sha256": "a4276fabdfb02ead6540d24430a205a0651f9b2585bfd14200f7d2ee0995788f",
+      "section_id": "ai-strategy-value-roles-decisions:1ef8eb5208fcf4b5",
+      "section_sha256": "a670463817c930e6d93e5958c99383863998e50192d23e78ef053465dea8f414",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0002-p0004",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-roles-decisions",
+      "note_sha256": "a4276fabdfb02ead6540d24430a205a0651f9b2585bfd14200f7d2ee0995788f",
+      "section_id": "ai-strategy-value-roles-decisions:4a683896b24caa3a",
+      "section_sha256": "ae99fb1bd5decbaa1cae76c8999df146e9c1420af2bbf5e2bdfe1e39c44ef404",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0002-p0004",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-risks-impacts",
+      "note_sha256": "2a8dab3d711e5df396a647336aad469c52e32e7301dbb69f89dbcc7833086331",
+      "section_id": "ai-strategy-value-risks-impacts:2be4298a861598c5",
+      "section_sha256": "ec5b9309f6c7b194eae4b36bcd6ac04b2ce727dbef1984d26e6b7495bc3db776",
+      "evidence_refs": [
+        "p0cov-reuse-art27-completion-src-0011-p0222-ec-001",
+        "p0cov-reuse-fria27-amend-src-0043-p0035-ec-001",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-risks-impacts",
+      "note_sha256": "2a8dab3d711e5df396a647336aad469c52e32e7301dbb69f89dbcc7833086331",
+      "section_id": "ai-strategy-value-risks-impacts:04c7a24d8e68bead",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-art27-completion-src-0011-p0222-ec-001",
+        "p0cov-reuse-fria27-amend-src-0043-p0035-ec-001",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-risks-impacts",
+      "note_sha256": "2a8dab3d711e5df396a647336aad469c52e32e7301dbb69f89dbcc7833086331",
+      "section_id": "ai-strategy-value-risks-impacts:4fb148a3158f3dec",
+      "section_sha256": "ea2c30077a3a7a09f06557c9fc7c6109a07989723c316394b069c0eaa86b8352",
+      "evidence_refs": [
+        "p0cov-reuse-art27-completion-src-0011-p0222-ec-001",
+        "p0cov-reuse-fria27-amend-src-0043-p0035-ec-001",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-risks-impacts",
+      "note_sha256": "2a8dab3d711e5df396a647336aad469c52e32e7301dbb69f89dbcc7833086331",
+      "section_id": "ai-strategy-value-risks-impacts:50a455810f0c10c7",
+      "section_sha256": "5a06d3364e84eb80e814d730085aabde89907327c42148a7a21b73a60a728f7a",
+      "evidence_refs": [
+        "p0cov-reuse-art27-completion-src-0011-p0222-ec-001",
+        "p0cov-reuse-fria27-amend-src-0043-p0035-ec-001",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-risks-impacts",
+      "note_sha256": "2a8dab3d711e5df396a647336aad469c52e32e7301dbb69f89dbcc7833086331",
+      "section_id": "ai-strategy-value-risks-impacts:aeed9996a86a0d0c",
+      "section_sha256": "b311a7f9f6795bb9b0de39b367033b0d76934f13e7ade7929524ff2f6febf36c",
+      "evidence_refs": [
+        "p0cov-reuse-art27-completion-src-0011-p0222-ec-001",
+        "p0cov-reuse-fria27-amend-src-0043-p0035-ec-001",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-lifecycle-controls",
+      "note_sha256": "45bd02435ab3ace442c72a96e8923bf145ec5a496ea7e06e04fb51515989640a",
+      "section_id": "ai-strategy-value-lifecycle-controls:290ca702ed35277a",
+      "section_sha256": "906d201434bc5addf1913f5998ffc698f2ef2f6b249d46700a341d8c4ac21cd8",
+      "evidence_refs": [
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-lifecycle-controls",
+      "note_sha256": "45bd02435ab3ace442c72a96e8923bf145ec5a496ea7e06e04fb51515989640a",
+      "section_id": "ai-strategy-value-lifecycle-controls:8932ba4789d3e9fb",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-lifecycle-controls",
+      "note_sha256": "45bd02435ab3ace442c72a96e8923bf145ec5a496ea7e06e04fb51515989640a",
+      "section_id": "ai-strategy-value-lifecycle-controls:226142cd4f9619ca",
+      "section_sha256": "0fb63a7f1d944ab80caef17f3e527ce0f77dc6a4e8868d559acd830e26ff76ee",
+      "evidence_refs": [
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-lifecycle-controls",
+      "note_sha256": "45bd02435ab3ace442c72a96e8923bf145ec5a496ea7e06e04fb51515989640a",
+      "section_id": "ai-strategy-value-lifecycle-controls:c48c0cc2b611ba14",
+      "section_sha256": "d47f4c3d6316cb91963273178c2c7a6998ab1323e141bfd00a7f55bbc8f6727c",
+      "evidence_refs": [
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-lifecycle-controls",
+      "note_sha256": "45bd02435ab3ace442c72a96e8923bf145ec5a496ea7e06e04fb51515989640a",
+      "section_id": "ai-strategy-value-lifecycle-controls:3e5e28e80a4a9807",
+      "section_sha256": "021f674704cc7c460a60a23a17920b8690ac5dbec22734eb8b1708f2e6383898",
+      "evidence_refs": [
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-evidence-artifacts",
+      "note_sha256": "30649c02413bc32a66c587f4de8b79108e7176eb46e21df1dc94b568a9b98ecd",
+      "section_id": "ai-strategy-value-evidence-artifacts:825a404f32b7f496",
+      "section_sha256": "576f4231c4370e5c8a79054c15886c87232488bb5b675ec10ccd538bcbad104c",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-evidence-artifacts",
+      "note_sha256": "30649c02413bc32a66c587f4de8b79108e7176eb46e21df1dc94b568a9b98ecd",
+      "section_id": "ai-strategy-value-evidence-artifacts:e56a0e9eaf3a58a9",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-evidence-artifacts",
+      "note_sha256": "30649c02413bc32a66c587f4de8b79108e7176eb46e21df1dc94b568a9b98ecd",
+      "section_id": "ai-strategy-value-evidence-artifacts:b82eb334d424dca7",
+      "section_sha256": "31c5331f04e72f3e730d66233221c40d9ca2e8f7aa392c9161be4755cb86a1e4",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-evidence-artifacts",
+      "note_sha256": "30649c02413bc32a66c587f4de8b79108e7176eb46e21df1dc94b568a9b98ecd",
+      "section_id": "ai-strategy-value-evidence-artifacts:1895e95bee0a0fcf",
+      "section_sha256": "e732c6dd627d953c6965c87046845941bf0324dd853acba098c95b0fb640d109",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-evidence-artifacts",
+      "note_sha256": "30649c02413bc32a66c587f4de8b79108e7176eb46e21df1dc94b568a9b98ecd",
+      "section_id": "ai-strategy-value-evidence-artifacts:b14636473774502d",
+      "section_sha256": "683bee5fa5b7d080f8afc6710c1fa031517c9f969115445d37489f9bf03b44ab",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-metrics-monitoring-incidents",
+      "note_sha256": "46582b15ed2f0ac84cdef3153a36d46c65a787de75eb897de67283b2eec994a1",
+      "section_id": "ai-strategy-value-metrics-monitoring-incidents:c62e4d9a0815922f",
+      "section_sha256": "7786206f5b9de1b16f4ba3599301cd4732aeb7c477eafcbb8cd8d109d9a4eee9",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be035-src-0036-p0014",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-metrics-monitoring-incidents",
+      "note_sha256": "46582b15ed2f0ac84cdef3153a36d46c65a787de75eb897de67283b2eec994a1",
+      "section_id": "ai-strategy-value-metrics-monitoring-incidents:b4435c72c6338203",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be035-src-0036-p0014",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-metrics-monitoring-incidents",
+      "note_sha256": "46582b15ed2f0ac84cdef3153a36d46c65a787de75eb897de67283b2eec994a1",
+      "section_id": "ai-strategy-value-metrics-monitoring-incidents:0908c088591924af",
+      "section_sha256": "2b7cc3b701adbd36724f29628ef73c9fdab3fdd2fbde8369ef2e79f7acbca9a4",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be035-src-0036-p0014",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-metrics-monitoring-incidents",
+      "note_sha256": "46582b15ed2f0ac84cdef3153a36d46c65a787de75eb897de67283b2eec994a1",
+      "section_id": "ai-strategy-value-metrics-monitoring-incidents:8767018d1b7aeb86",
+      "section_sha256": "9155aa45c2d90e4c9eb0103de9a59f496df244b424226bd1e48e6692aa8260b5",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be035-src-0036-p0014",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-metrics-monitoring-incidents",
+      "note_sha256": "46582b15ed2f0ac84cdef3153a36d46c65a787de75eb897de67283b2eec994a1",
+      "section_id": "ai-strategy-value-metrics-monitoring-incidents:63a5fab1a6124966",
+      "section_sha256": "cd038b08d3bb85d60b5874f4307157b3c256d097358209a03dbdeaad11aa4bb8",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be035-src-0036-p0014",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-exceptions-conflicts",
+      "note_sha256": "e8e7e5b22eb3074ba11033e37164e54645aea6280a74aece4ac65724610b686c",
+      "section_id": "ai-strategy-value-exceptions-conflicts:9f0fd9b0cebaf5c3",
+      "section_sha256": "796ed679aab7d7b00fd80210455f98d5c11295b421169bb6c057e2fbcf91db62",
+      "evidence_refs": [
+        "p0cov-reuse-gov20-src-0001-p0011",
+        "p0cov-reuse-gov20-src-0001-p0017"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-exceptions-conflicts",
+      "note_sha256": "e8e7e5b22eb3074ba11033e37164e54645aea6280a74aece4ac65724610b686c",
+      "section_id": "ai-strategy-value-exceptions-conflicts:e8e40c4bfdc7a74a",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-gov20-src-0001-p0011",
+        "p0cov-reuse-gov20-src-0001-p0017"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-exceptions-conflicts",
+      "note_sha256": "e8e7e5b22eb3074ba11033e37164e54645aea6280a74aece4ac65724610b686c",
+      "section_id": "ai-strategy-value-exceptions-conflicts:81417fe80e987f48",
+      "section_sha256": "2cc4b9b96f679bbe3003ab4074b174094a6fbe9b25a2b8673f6ebde8173be338",
+      "evidence_refs": [
+        "p0cov-reuse-gov20-src-0001-p0011",
+        "p0cov-reuse-gov20-src-0001-p0017"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-exceptions-conflicts",
+      "note_sha256": "e8e7e5b22eb3074ba11033e37164e54645aea6280a74aece4ac65724610b686c",
+      "section_id": "ai-strategy-value-exceptions-conflicts:be60bd4352e00745",
+      "section_sha256": "0b9c2ab8d2fb4514ffd974a6af7a9dde31085e12b557366213cb920d2ecffa11",
+      "evidence_refs": [
+        "p0cov-reuse-gov20-src-0001-p0011",
+        "p0cov-reuse-gov20-src-0001-p0017"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-exceptions-conflicts",
+      "note_sha256": "e8e7e5b22eb3074ba11033e37164e54645aea6280a74aece4ac65724610b686c",
+      "section_id": "ai-strategy-value-exceptions-conflicts:f90468439da3d96f",
+      "section_sha256": "5af241520678a431140a5d20ad4c8e53d9a7aa29e069d0c0bf87d24c53b40dd5",
+      "evidence_refs": [
+        "p0cov-reuse-gov20-src-0001-p0011",
+        "p0cov-reuse-gov20-src-0001-p0017"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-questionnaire-coverage",
+      "note_sha256": "01bfc1749e5a99e32ebe7623b6a86fadaed118795968a40d26e40089753356d5",
+      "section_id": "ai-strategy-value-questionnaire-coverage:d1dc3e9cbd6e78d2",
+      "section_sha256": "80b9005b03d1347f361beb31c8eb2928aac26089784c9ad03c5840f63a6b109d",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-questionnaire-coverage",
+      "note_sha256": "01bfc1749e5a99e32ebe7623b6a86fadaed118795968a40d26e40089753356d5",
+      "section_id": "ai-strategy-value-questionnaire-coverage:cd3fa9a6eaacadec",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-questionnaire-coverage",
+      "note_sha256": "01bfc1749e5a99e32ebe7623b6a86fadaed118795968a40d26e40089753356d5",
+      "section_id": "ai-strategy-value-questionnaire-coverage:53e8206018fb7619",
+      "section_sha256": "a8928fc5f0e189f47dee33b627ff04308ed14df418ffdd8a570c9471afb50953",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-questionnaire-coverage",
+      "note_sha256": "01bfc1749e5a99e32ebe7623b6a86fadaed118795968a40d26e40089753356d5",
+      "section_id": "ai-strategy-value-questionnaire-coverage:4d50e0907993554e",
+      "section_sha256": "d4b4bc1b6115731205d6caf5b5326e2dfd8cd1d1f76ecb6c0399536f9e8ecb2e",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-questionnaire-coverage",
+      "note_sha256": "01bfc1749e5a99e32ebe7623b6a86fadaed118795968a40d26e40089753356d5",
+      "section_id": "ai-strategy-value-questionnaire-coverage:aeda0a789ebafe42",
+      "section_sha256": "7b7057558f3c74514d41d87b6cb29130dde56ca7b3676274c8b794aa52391322",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005",
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-source-provenance",
+      "note_sha256": "dfcb68b3d5883ad7978304a5f5dbae3472838fd2a0a9cb28e9f5e7f4bad10128",
+      "section_id": "ai-strategy-value-source-provenance:e6978384823929c7",
+      "section_sha256": "3945db9a4590fffa01e931e6c72a325107baedb33993f4eb011a5e27a041c152",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-source-provenance",
+      "note_sha256": "dfcb68b3d5883ad7978304a5f5dbae3472838fd2a0a9cb28e9f5e7f4bad10128",
+      "section_id": "ai-strategy-value-source-provenance:52b0b32aac86895d",
+      "section_sha256": "62c447bc60dd8cb44a25add39be6f5fd0e2c3d5e6afea1ec0f49170fc6e8bc7b",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-source-provenance",
+      "note_sha256": "dfcb68b3d5883ad7978304a5f5dbae3472838fd2a0a9cb28e9f5e7f4bad10128",
+      "section_id": "ai-strategy-value-source-provenance:827a4d7c65827099",
+      "section_sha256": "dc19d052e1194b865bfef52a91e23088d07e4d0480e3f2e5178aa097ec32d13e",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-source-provenance",
+      "note_sha256": "dfcb68b3d5883ad7978304a5f5dbae3472838fd2a0a9cb28e9f5e7f4bad10128",
+      "section_id": "ai-strategy-value-source-provenance:9059d3fd7794c2a9",
+      "section_sha256": "1b59a54e465afc8f99ae050ee9f3c023e7c9803863c7c6676cdf737f77c82f4f",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "ai-strategy-value-source-provenance",
+      "note_sha256": "dfcb68b3d5883ad7978304a5f5dbae3472838fd2a0a9cb28e9f5e7f4bad10128",
+      "section_id": "ai-strategy-value-source-provenance:69c245d73e23e78f",
+      "section_sha256": "35760ce4f022504cdb62d3fe70fe9d8602f9350f316d6e84385eb0a6570f0130",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-definition-scope-terminology",
+      "note_sha256": "ad047a848736d9b7c43d5bb0a639310fca60716e4e2e5858d421680ed3da0abb",
+      "section_id": "data-governance-quality-definition-scope-terminology:e0d3374028e39150",
+      "section_sha256": "040d6fca34e03ab0d340e8b8327144a8f6d2493a4d4117ca7b6240434008681f",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-model23-src-0036-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-definition-scope-terminology",
+      "note_sha256": "ad047a848736d9b7c43d5bb0a639310fca60716e4e2e5858d421680ed3da0abb",
+      "section_id": "data-governance-quality-definition-scope-terminology:2f20d8a5feaa900a",
+      "section_sha256": "173f7c853f2334dba9c441429c39b68cf09e293c94ccd37469dd31fddeaca07a",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-model23-src-0036-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-definition-scope-terminology",
+      "note_sha256": "ad047a848736d9b7c43d5bb0a639310fca60716e4e2e5858d421680ed3da0abb",
+      "section_id": "data-governance-quality-definition-scope-terminology:aa42df20c4e4bcdc",
+      "section_sha256": "f86e679c607a63da80433a0ed0ff0cac722113dddd1c800cb48005b528838bae",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-model23-src-0036-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-definition-scope-terminology",
+      "note_sha256": "ad047a848736d9b7c43d5bb0a639310fca60716e4e2e5858d421680ed3da0abb",
+      "section_id": "data-governance-quality-definition-scope-terminology:f758885e93635f98",
+      "section_sha256": "3cfd36adf44a21d920593bd72fa85d5f6b187ba16f45f00edc5e7c8f92c77eed",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-model23-src-0036-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-definition-scope-terminology",
+      "note_sha256": "ad047a848736d9b7c43d5bb0a639310fca60716e4e2e5858d421680ed3da0abb",
+      "section_id": "data-governance-quality-definition-scope-terminology:945e3e487b2a852c",
+      "section_sha256": "88d4d66b37d9093f2b0be169d781e2d8b16623fc878b22415d1a0517aaf5f78a",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-model23-src-0036-p0008"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-roles-decisions",
+      "note_sha256": "3700ebc7f1f3909547cc31528295cf7121d7845951a25587e1eec3af2caedb01",
+      "section_id": "data-governance-quality-roles-decisions:aea6f63852b15b21",
+      "section_sha256": "dc13be5b7e917915f8de252878461bd83caf33ce385a9029c5b5be76e5bf592c",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-src-0010-p0016",
+        "p0cov-src-0010-p0049",
+        "p0cov-src-0010-p0050"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-roles-decisions",
+      "note_sha256": "3700ebc7f1f3909547cc31528295cf7121d7845951a25587e1eec3af2caedb01",
+      "section_id": "data-governance-quality-roles-decisions:20bf71a137c12c7a",
+      "section_sha256": "b3565db1a62ab539bf06378db2fd2de81c99e04811ef36678a13aa99a32ca752",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-src-0010-p0016",
+        "p0cov-src-0010-p0049",
+        "p0cov-src-0010-p0050"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-roles-decisions",
+      "note_sha256": "3700ebc7f1f3909547cc31528295cf7121d7845951a25587e1eec3af2caedb01",
+      "section_id": "data-governance-quality-roles-decisions:b8965e5f7bd80b72",
+      "section_sha256": "f672d7eb4f19eaf9fcad7195592363db543416dea8dd49c68e66d07690309528",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-src-0010-p0016",
+        "p0cov-src-0010-p0049",
+        "p0cov-src-0010-p0050"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-roles-decisions",
+      "note_sha256": "3700ebc7f1f3909547cc31528295cf7121d7845951a25587e1eec3af2caedb01",
+      "section_id": "data-governance-quality-roles-decisions:d0d3c90c89de879e",
+      "section_sha256": "70517235d1e2cfc88d0ef9948527da4d657bc106ec6174d806392a84e5c93f54",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-src-0010-p0016",
+        "p0cov-src-0010-p0049",
+        "p0cov-src-0010-p0050"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-roles-decisions",
+      "note_sha256": "3700ebc7f1f3909547cc31528295cf7121d7845951a25587e1eec3af2caedb01",
+      "section_id": "data-governance-quality-roles-decisions:31a33836f10650ce",
+      "section_sha256": "3c580d64b2814ae9b1bf93d39a72674f7a00d745ff2b48aa51e630f13a7fd66e",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0006-ec-003",
+        "p0cov-reuse-be034-src-0006-ec-005",
+        "p0cov-src-0010-p0016",
+        "p0cov-src-0010-p0049",
+        "p0cov-src-0010-p0050"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-risks-impacts",
+      "note_sha256": "98370ae35d054deea9f63d2072846bdec06cbe2632b3e508e4d92a47f14368b8",
+      "section_id": "data-governance-quality-risks-impacts:8b1daa7d822cf085",
+      "section_sha256": "ff48e21abbf7c194f334d648c16af4cdbf9e939387c07ba5ebdeeadf3256ef32",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-risks-impacts",
+      "note_sha256": "98370ae35d054deea9f63d2072846bdec06cbe2632b3e508e4d92a47f14368b8",
+      "section_id": "data-governance-quality-risks-impacts:93910b5aa52becc8",
+      "section_sha256": "309fe005763bcb4540f93acae15dbfe6ed7b3566f5d0d2e50add6075669c8fbe",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-risks-impacts",
+      "note_sha256": "98370ae35d054deea9f63d2072846bdec06cbe2632b3e508e4d92a47f14368b8",
+      "section_id": "data-governance-quality-risks-impacts:8e1a8889713324f4",
+      "section_sha256": "2e7a299303c1a97d0173195827d71e0dd917684701b5f926ae5299fd14617298",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-risks-impacts",
+      "note_sha256": "98370ae35d054deea9f63d2072846bdec06cbe2632b3e508e4d92a47f14368b8",
+      "section_id": "data-governance-quality-risks-impacts:49d5e0bd908c53b3",
+      "section_sha256": "f7f267f454e1e674b92bd60de1c1d34ada8753755907c3b2b24b5f0275ef0738",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-risks-impacts",
+      "note_sha256": "98370ae35d054deea9f63d2072846bdec06cbe2632b3e508e4d92a47f14368b8",
+      "section_id": "data-governance-quality-risks-impacts:a49d3fb7738f4cd9",
+      "section_sha256": "f43a2d8ddc05347c5a944cf3849d06ed74069046b2e13ef4acb50d9f85675f87",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-dpia2-src-0010-p0053",
+        "p0cov-reuse-dpia2-src-0022-p0181"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-lifecycle-controls",
+      "note_sha256": "d3e91b96795ea7f47a3dd1df9a0763800b4cdcb877cb7a5a445e8c78120a48e0",
+      "section_id": "data-governance-quality-lifecycle-controls:bc3d470d8f865fd9",
+      "section_sha256": "311b55d6fb31a782478701964c1919666450f2a8e3f889198eb2b6a771a3bc80",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-lifecycle-controls",
+      "note_sha256": "d3e91b96795ea7f47a3dd1df9a0763800b4cdcb877cb7a5a445e8c78120a48e0",
+      "section_id": "data-governance-quality-lifecycle-controls:1486a494d2765ca4",
+      "section_sha256": "a01b6eddcb9a208313b07e48c8138f608940bac1f4edcb4a172906db326d1e26",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-lifecycle-controls",
+      "note_sha256": "d3e91b96795ea7f47a3dd1df9a0763800b4cdcb877cb7a5a445e8c78120a48e0",
+      "section_id": "data-governance-quality-lifecycle-controls:7bab1fab84fd3062",
+      "section_sha256": "2da95adc96ed0aaa349ee48b132e64713c8ad1cd4e2a26e53ccecc84f732f0dd",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-lifecycle-controls",
+      "note_sha256": "d3e91b96795ea7f47a3dd1df9a0763800b4cdcb877cb7a5a445e8c78120a48e0",
+      "section_id": "data-governance-quality-lifecycle-controls:b35aaa7c386aced3",
+      "section_sha256": "eff7a3fb2f4fda11afe6b32bb400844be504fc69f3b0469911eb20d9967f4287",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-lifecycle-controls",
+      "note_sha256": "d3e91b96795ea7f47a3dd1df9a0763800b4cdcb877cb7a5a445e8c78120a48e0",
+      "section_id": "data-governance-quality-lifecycle-controls:6e434cee0d716e09",
+      "section_sha256": "27e918711e45eca85706196afd4fa08437bb395608d6b73a31a5437afabab4bf",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0009-p0028",
+        "p0cov-reuse-be035-src-0036-p0013",
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-evidence-artifacts",
+      "note_sha256": "31883993d0013eebf93eb1738758e6f05b9a6758063007911aa865e705e3c978",
+      "section_id": "data-governance-quality-evidence-artifacts:0ee23673f53005a8",
+      "section_sha256": "12cbd17e9c416ce6c98654f4f89d17b6a027e7759b4e79f2b888d9e51965fafc",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051",
+        "p0cov-src-0010-p0053",
+        "p0cov-src-0010-p0054",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-evidence-artifacts",
+      "note_sha256": "31883993d0013eebf93eb1738758e6f05b9a6758063007911aa865e705e3c978",
+      "section_id": "data-governance-quality-evidence-artifacts:c2b8b18814e3f5f4",
+      "section_sha256": "2dca484fc8ee1cd641fe7363771d998d438e6ad67bb85aa1145c4c97d9203c2a",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051",
+        "p0cov-src-0010-p0053",
+        "p0cov-src-0010-p0054",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-evidence-artifacts",
+      "note_sha256": "31883993d0013eebf93eb1738758e6f05b9a6758063007911aa865e705e3c978",
+      "section_id": "data-governance-quality-evidence-artifacts:14dca4c71be98458",
+      "section_sha256": "cf0049a1d1166ac17ef056766de15cad7b1d1ed1d72db5de0560bb12f68e03e4",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051",
+        "p0cov-src-0010-p0053",
+        "p0cov-src-0010-p0054",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-evidence-artifacts",
+      "note_sha256": "31883993d0013eebf93eb1738758e6f05b9a6758063007911aa865e705e3c978",
+      "section_id": "data-governance-quality-evidence-artifacts:ab206034fd90c6b5",
+      "section_sha256": "89980fe437af222873e6abe46e56be2042437f0d46142624918536784993a24a",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051",
+        "p0cov-src-0010-p0053",
+        "p0cov-src-0010-p0054",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-evidence-artifacts",
+      "note_sha256": "31883993d0013eebf93eb1738758e6f05b9a6758063007911aa865e705e3c978",
+      "section_id": "data-governance-quality-evidence-artifacts:6ec55ed0ae14a753",
+      "section_sha256": "17c56c5e19842ce2fc8830604aaffe16aa7b31bfd02187bcadcaf86c1fbe4131",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051",
+        "p0cov-src-0010-p0053",
+        "p0cov-src-0010-p0054",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-metrics-monitoring-incidents",
+      "note_sha256": "466e45152d0b82eb75020eb5820ed45f6190dd91784c052fb9838e34ac2b9665",
+      "section_id": "data-governance-quality-metrics-monitoring-incidents:2c63728cca64eab4",
+      "section_sha256": "41989064e119931e42ce04d2365cd18ec0901b98ba738d02fe1bd7126fdfe38c",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-metrics-monitoring-incidents",
+      "note_sha256": "466e45152d0b82eb75020eb5820ed45f6190dd91784c052fb9838e34ac2b9665",
+      "section_id": "data-governance-quality-metrics-monitoring-incidents:dfc9150c96b0590b",
+      "section_sha256": "b94b6ae6f68168136819504b7f7e1f957cd6adec44411b062679efb807aa5435",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-metrics-monitoring-incidents",
+      "note_sha256": "466e45152d0b82eb75020eb5820ed45f6190dd91784c052fb9838e34ac2b9665",
+      "section_id": "data-governance-quality-metrics-monitoring-incidents:3f99e5c7b20f15eb",
+      "section_sha256": "62098266635c0b3bd450a28a27906d4afe1f67e00574e0be07c681850c39b937",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-metrics-monitoring-incidents",
+      "note_sha256": "466e45152d0b82eb75020eb5820ed45f6190dd91784c052fb9838e34ac2b9665",
+      "section_id": "data-governance-quality-metrics-monitoring-incidents:86abf4e4e6207d5a",
+      "section_sha256": "77717fd5b4f811feccedd4da6d945b5d3f3e8a99afca735de85989cda8a63caa",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-metrics-monitoring-incidents",
+      "note_sha256": "466e45152d0b82eb75020eb5820ed45f6190dd91784c052fb9838e34ac2b9665",
+      "section_id": "data-governance-quality-metrics-monitoring-incidents:c12e7ad912fec5e9",
+      "section_sha256": "2552ce89d45704ad5947f9bec034509cdcb18da98e7393ad65911bc8c45d94b1",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "data-governance-quality-exceptions-conflicts",
+      "note_sha256": "e7ebfffe47d387dc1ff0806b4f34934b3f687d8af32b10872a008206052f52c2",
+      "section_id": "data-governance-quality-exceptions-conflicts:803bc99defbaad17",
+      "section_sha256": "0e999456252917fda6807a7ad32af62ca80938132a8f173ceafe665dd4bf5f9a",
+      "evidence_refs": [
+        "p0cov-src-0010-p0020",
+        "p0cov-src-0010-p0023",
+        "p0cov-src-0010-p0026",
+        "p0cov-src-0010-p0027"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-exceptions-conflicts",
+      "note_sha256": "e7ebfffe47d387dc1ff0806b4f34934b3f687d8af32b10872a008206052f52c2",
+      "section_id": "data-governance-quality-exceptions-conflicts:4e4accfbbac62f7c",
+      "section_sha256": "f15f46ef638379a5d7c8216432a0c8360e8bf213bddaa3808b23d038bb00b393",
+      "evidence_refs": [
+        "p0cov-src-0010-p0020",
+        "p0cov-src-0010-p0023",
+        "p0cov-src-0010-p0026",
+        "p0cov-src-0010-p0027"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-exceptions-conflicts",
+      "note_sha256": "e7ebfffe47d387dc1ff0806b4f34934b3f687d8af32b10872a008206052f52c2",
+      "section_id": "data-governance-quality-exceptions-conflicts:f5027e1147b09cb1",
+      "section_sha256": "4fa2686ae5d52369edb26f598f6e8070f43c6862d7cedc0ba75f3edcda996297",
+      "evidence_refs": [
+        "p0cov-src-0010-p0020",
+        "p0cov-src-0010-p0023",
+        "p0cov-src-0010-p0026",
+        "p0cov-src-0010-p0027"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-exceptions-conflicts",
+      "note_sha256": "e7ebfffe47d387dc1ff0806b4f34934b3f687d8af32b10872a008206052f52c2",
+      "section_id": "data-governance-quality-exceptions-conflicts:d98117b70acfd61e",
+      "section_sha256": "f9a115f0c3fc8d319224fc077c6398632cbaa2d415ae20392fc4078ab06060f6",
+      "evidence_refs": [
+        "p0cov-src-0010-p0020",
+        "p0cov-src-0010-p0023",
+        "p0cov-src-0010-p0026",
+        "p0cov-src-0010-p0027"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-exceptions-conflicts",
+      "note_sha256": "e7ebfffe47d387dc1ff0806b4f34934b3f687d8af32b10872a008206052f52c2",
+      "section_id": "data-governance-quality-exceptions-conflicts:37de9b49a8ee236a",
+      "section_sha256": "3148d3b60dc399d1be8e4031b12f99e2a0032b01a0f8dd729be527f545101d24",
+      "evidence_refs": [
+        "p0cov-src-0010-p0020",
+        "p0cov-src-0010-p0023",
+        "p0cov-src-0010-p0026",
+        "p0cov-src-0010-p0027"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-questionnaire-coverage",
+      "note_sha256": "81958170e46a8cc09afbd5ad7747d910b0ce8b82956e0c897266c20471d63fcd",
+      "section_id": "data-governance-quality-questionnaire-coverage:982cad6c66260a56",
+      "section_sha256": "f5859da4453578dd67cf91fda243eecddc1f7d7bddbecb5f4ece5e363b5fa86b",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-src-0010-p0054",
+        "p0cov-src-0010-p0018",
+        "p0cov-src-0010-p0053"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-questionnaire-coverage",
+      "note_sha256": "81958170e46a8cc09afbd5ad7747d910b0ce8b82956e0c897266c20471d63fcd",
+      "section_id": "data-governance-quality-questionnaire-coverage:eca1cd8f467c9845",
+      "section_sha256": "6e1fcb5ea087b408b82b1e21d76c04cd89309fcbcaa0b1bdb21948093aefd578",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-src-0010-p0054",
+        "p0cov-src-0010-p0018",
+        "p0cov-src-0010-p0053"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-questionnaire-coverage",
+      "note_sha256": "81958170e46a8cc09afbd5ad7747d910b0ce8b82956e0c897266c20471d63fcd",
+      "section_id": "data-governance-quality-questionnaire-coverage:e6f1e729ac62f3dd",
+      "section_sha256": "e31a14a9a82ac9dfb4e7a39e3e93f992b98891f9a8a5483581c34db6a2b2f325",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-src-0010-p0054",
+        "p0cov-src-0010-p0018",
+        "p0cov-src-0010-p0053"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-questionnaire-coverage",
+      "note_sha256": "81958170e46a8cc09afbd5ad7747d910b0ce8b82956e0c897266c20471d63fcd",
+      "section_id": "data-governance-quality-questionnaire-coverage:3cadfba10d87b416",
+      "section_sha256": "085bc250cf7bc7e1a5efe4ec8ed3db88f12736b26d38a6616d51b1ca90c89e89",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-src-0010-p0054",
+        "p0cov-src-0010-p0018",
+        "p0cov-src-0010-p0053"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-questionnaire-coverage",
+      "note_sha256": "81958170e46a8cc09afbd5ad7747d910b0ce8b82956e0c897266c20471d63fcd",
+      "section_id": "data-governance-quality-questionnaire-coverage:01c65ad1e1078685",
+      "section_sha256": "33b28f943e260cc58e7d6c0fd5e59a243fbb43663c37b864b195db19f87f59a4",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0008",
+        "p0cov-src-0010-p0054",
+        "p0cov-src-0010-p0018",
+        "p0cov-src-0010-p0053"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-source-provenance",
+      "note_sha256": "156e22cd86b7f90faea3235de8bae446569e12890eed752f357fbb3e8a79920b",
+      "section_id": "data-governance-quality-source-provenance:0ef0e7de94e9e620",
+      "section_sha256": "64bba2c1fb67e6140f66741073ff9254763a7304d514f3d403963bbec7d8e4b1",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-source-provenance",
+      "note_sha256": "156e22cd86b7f90faea3235de8bae446569e12890eed752f357fbb3e8a79920b",
+      "section_id": "data-governance-quality-source-provenance:376e35e2caf53679",
+      "section_sha256": "dcef3b4661d16d251903acf5640fe153118d9de3a4df0431e7e62263ede559ee",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-source-provenance",
+      "note_sha256": "156e22cd86b7f90faea3235de8bae446569e12890eed752f357fbb3e8a79920b",
+      "section_id": "data-governance-quality-source-provenance:87bb999f3b78bd00",
+      "section_sha256": "5bd19b0b8e620e33ed09723dddc368ba2e918bead5abb8a5e51fc18c69c0cba9",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-source-provenance",
+      "note_sha256": "156e22cd86b7f90faea3235de8bae446569e12890eed752f357fbb3e8a79920b",
+      "section_id": "data-governance-quality-source-provenance:6015b0415b2cc214",
+      "section_sha256": "eee3dc384f3a0bf42d6d06837843b7ee9d2fd229e994b4f4e6c7223545335e80",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "data-governance-quality-source-provenance",
+      "note_sha256": "156e22cd86b7f90faea3235de8bae446569e12890eed752f357fbb3e8a79920b",
+      "section_id": "data-governance-quality-source-provenance:6a1ed0bddd4ad2c0",
+      "section_sha256": "cf03558b14885678cf909f028cce827f006a27faa573009b2d8afc626fd8e9b5",
+      "evidence_refs": [
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004",
+        "p0cov-reuse-be037-src-0035-ec-005",
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-src-0010-p0051"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "core-014-ai-strategy-value-record",
+      "note_sha256": "2cf08cc0b69ebb2e8f9fbf9c4c456686063fb9e9ad7ccd9a2e68c1c654e20327",
+      "section_id": "core-014-ai-strategy-value-record:a7f363281a655934",
+      "section_sha256": "713b878e85f93d6096486fb88e0f5f0d167a0ccecbd9fc1c4e820aa7beb89f90",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "core-014-ai-strategy-value-record",
+      "note_sha256": "2cf08cc0b69ebb2e8f9fbf9c4c456686063fb9e9ad7ccd9a2e68c1c654e20327",
+      "section_id": "core-014-ai-strategy-value-record:89c874524a10fcb9",
+      "section_sha256": "431ffbddef57a31d23511fd5ccb9a64aaeedb1e17eb740b3cf06d17f32dccb03",
+      "evidence_refs": [
+        "p0cov-reuse-be034-src-0017-ec-004",
+        "p0cov-reuse-be034-src-0017-ec-005"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "gov-008-ai-strategy-metrics-and-review",
+      "note_sha256": "d739a31102746d8720593310cb978801bf3bfeded12d3ab9ed6e276970cfa9e3",
+      "section_id": "gov-008-ai-strategy-metrics-and-review:b40cb8cf4265f14c",
+      "section_sha256": "38cec151e72ce03b18c56506ac8bd6e2c3b794878dbe1aa3d5b5316f44290961",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "gov-008-ai-strategy-metrics-and-review",
+      "note_sha256": "d739a31102746d8720593310cb978801bf3bfeded12d3ab9ed6e276970cfa9e3",
+      "section_id": "gov-008-ai-strategy-metrics-and-review:c41a17e4778b0818",
+      "section_sha256": "1f29a2d27569b80dc4bbae93c2524e6dac4a8abec93af5d5aac4fe09eafc1780",
+      "evidence_refs": [
+        "p0cov-reuse-be035-src-0036-p0006",
+        "p0cov-reuse-be035-src-0036-p0011",
+        "p0cov-reuse-govq24-src-0001-p0017",
+        "p0cov-reuse-govq24-src-0002-p0009"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "risk-015-data-governance-quality-evidence",
+      "note_sha256": "f9899a06e0ddcd6d0aac20a401c78263946d558fb8356c24def768070021cc0c",
+      "section_id": "risk-015-data-governance-quality-evidence:d4e685ea1c756880",
+      "section_sha256": "2ecd0019b3b49b603313a130a202784806ec14d42f8894eb26fb3c842836d2e5",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "risk-015-data-governance-quality-evidence",
+      "note_sha256": "f9899a06e0ddcd6d0aac20a401c78263946d558fb8356c24def768070021cc0c",
+      "section_id": "risk-015-data-governance-quality-evidence:11979f6b2df0a0f7",
+      "section_sha256": "4a6c1b34e2b8f962fbb3cc3eeba26247ad3b4d89763d0183b50b0a0fb5a6665a",
+      "evidence_refs": [
+        "p0cov-reuse-model23-src-0036-p0006",
+        "p0cov-reuse-model23-src-0039-p0028",
+        "p0cov-reuse-be037-src-0035-ec-001",
+        "p0cov-reuse-be037-src-0035-ec-004"
+      ],
+      "modality": "recommendation"
+    },
+    {
+      "note_id": "legal-006-personal-data-governance-trigger",
+      "note_sha256": "40f6b53d3ee1bd7dd59ba2a8a2d7bcb1ad289ffebe815ab934ede963f4bb7d70",
+      "section_id": "legal-006-personal-data-governance-trigger:55ecf2563a1706f0",
+      "section_sha256": "1b51ae7008e95b40e1ac8c89f9dd5c7f5326f2de6f543420bc0168fce121f3a8",
+      "evidence_refs": [
+        "p0cov-src-0010-p0016",
+        "p0cov-src-0010-p0049",
+        "p0cov-src-0010-p0050",
+        "p0cov-src-0010-p0053"
+      ],
+      "modality": "obligation"
+    },
+    {
+      "note_id": "legal-006-personal-data-governance-trigger",
+      "note_sha256": "40f6b53d3ee1bd7dd59ba2a8a2d7bcb1ad289ffebe815ab934ede963f4bb7d70",
+      "section_id": "legal-006-personal-data-governance-trigger:99b50941fcceb5cb",
+      "section_sha256": "88dcc8a0e8334ac7256d04259f423ed0b27581bf633b578413fb91c1ddf49276",
+      "evidence_refs": [
+        "p0cov-src-0010-p0016",
+        "p0cov-src-0010-p0049",
+        "p0cov-src-0010-p0050",
+        "p0cov-src-0010-p0053"
+      ],
+      "modality": "obligation"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-p0-coverage-independent-reviewer",
+    "reviewed_at": "2026-09-20T00:00:00+00:00",
+    "candidate_sha256": "426ef1243d06a42834ed704fffddf146eff1090546ae269f1af3f74d773f9664",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "REUSED_REVIEWED_UNITS",
+        "detail": "Framework and prior legal evidence records are reused with exact source, unit and fidelity hashes."
+      },
+      {
+        "severity": "INFO",
+        "code": "GDPR_LOCAL_FIDELITY_REVIEWED",
+        "detail": "Eleven SRC-0010 units were checked for frontmatter, locator and native-text consistency; no raw source text is retained."
+      },
+      {
+        "severity": "WARNING",
+        "code": "CONDITIONAL_PERSONAL_DATA_SCOPE",
+        "detail": "GDPR references support only personal-data processing routes and do not establish general data quality."
+      },
+      {
+        "severity": "WARNING",
+        "code": "SOURCE_PDF_MAPPING_LIMITATION",
+        "detail": "SRC-0010 groups two local PDF paths; the source SHA and unit lineage remain the controlling provenance identifiers."
+      }
+    ]
+  }
+}

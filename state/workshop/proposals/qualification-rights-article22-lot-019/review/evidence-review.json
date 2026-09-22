@@ -1,0 +1,29 @@
+{
+  "evidence_lock_sha256": "7bb78c27901ee647596045c24b41ff0375c39d3ea583850955a347549c97ee77",
+  "findings": [
+    {
+      "code": "RECEIPT_VERIFIED",
+      "detail": "The new Article 22 governance receipt resolves four reviewed BINDING GDPR units and five exact section bindings against the future-vault note hash.",
+      "severity": "INFO"
+    },
+    {
+      "code": "GOVERNANCE_SECTION_REPAIRED",
+      "detail": "The formerly unresolved Governance considerations section is now bounded to Article 22 safeguards and binding-corporate-rules routing supported by Pages 46 and 63.",
+      "severity": "INFO"
+    },
+    {
+      "code": "LEGAL_CURRENCY_UNKNOWN",
+      "detail": "valid_from and valid_until remain null; current amendments and supervisory interpretations were not assessed.",
+      "severity": "WARNING"
+    },
+    {
+      "code": "FIDELITY_SCOPE_LIMITED",
+      "detail": "The local fidelity receipt records token agreement only and does not establish layout fidelity or legal correctness.",
+      "severity": "WARNING"
+    }
+  ],
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "reviewer_identity": "codex-qualification-rights-evidence-auditor",
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY"
+}

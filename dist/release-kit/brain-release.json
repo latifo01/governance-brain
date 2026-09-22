@@ -1,0 +1,831 @@
+{
+  "files": [
+    {
+      "path": ".agents/skills/knowledge-synthesis/SKILL.md",
+      "sha256": "e3c23d3194946bd6ef237635ac45c4cc08de364d2fdedc0f93fd757731b4edbf",
+      "size": 1359
+    },
+    {
+      "path": ".agents/skills/knowledge-synthesis/references/materialization.md",
+      "sha256": "a4cced1fe08570aac311635d6cb7452b1a1fff21957ee1a9b79d536487f5f612",
+      "size": 770
+    },
+    {
+      "path": ".agents/skills/obsidian-graph/SKILL.md",
+      "sha256": "122fedce4cc04a6b25c8dc77d5d6b7cd5b9077e79314b838db982acf00488dad",
+      "size": 1286
+    },
+    {
+      "path": ".agents/skills/obsidian-graph/references/vault-contract.md",
+      "sha256": "b6faf130034b4d335e82c91c340563a98dc24996f5d1b01b1be924aab57021ef",
+      "size": 775
+    },
+    {
+      "path": ".agents/skills/pdf-evidence-extraction/SKILL.md",
+      "sha256": "0aa40e14b0dff1931e799b23ca8a06fa97c8d325da3e6d782cb5696aac97bf5e",
+      "size": 964
+    },
+    {
+      "path": ".agents/skills/pdf-evidence-extraction/references/visual-triage.md",
+      "sha256": "aa0dd3a77cba1d49957633234c78c91c64f9108ff1b67a9261f0b1f1d016c9d5",
+      "size": 717
+    },
+    {
+      "path": ".agents/skills/questionnaire-design/SKILL.md",
+      "sha256": "842348e20b364c9d8c26b1cd528c9acbcd0b9c39cb5bc24b2e99929645063fe0",
+      "size": 1137
+    },
+    {
+      "path": ".agents/skills/questionnaire-design/references/question-logic.md",
+      "sha256": "32cacb11e1cd002e496f09c16da7557cde50281264fdf51ff9bea4efe7862ee5",
+      "size": 695
+    },
+    {
+      "path": ".agents/skills/source-ingestion/SKILL.md",
+      "sha256": "61967f4ee8a9aa57323c383ec8cd5309b9aa0681c84ce618b3f15036dc36d523",
+      "size": 1438
+    },
+    {
+      "path": ".agents/skills/source-ingestion/references/format-routing.md",
+      "sha256": "258afe7c76e2e0c967630419b88e6a84ca3f9c71725f0c381e7f7502b08e9d4a",
+      "size": 1552
+    },
+    {
+      "path": ".agents/skills/vault-audit/SKILL.md",
+      "sha256": "c082f464e68281ba90bd7d176abcc5aca9d5e668a530c24515ccbe24694a62c2",
+      "size": 1345
+    },
+    {
+      "path": ".agents/skills/vault-audit/references/audit-checks.md",
+      "sha256": "554a232ee426bae49feefa26bc5fbf75e8d4b30a1b86ceb99a30dce033d0d0ec",
+      "size": 1248
+    },
+    {
+      "path": ".codex/agents/cdo_program_lead.toml",
+      "sha256": "a1d6bd07568cbdaefc6d1359c011852f263ec7e60aaccab556169abfa7a3f6e4",
+      "size": 393
+    },
+    {
+      "path": ".codex/agents/domain_builder.toml",
+      "sha256": "1b76a6c4aa120c399c6cc1ab7df5074f97605555237005dda3305fc14f435b14",
+      "size": 387
+    },
+    {
+      "path": ".codex/agents/evidence_auditor.toml",
+      "sha256": "b0c6eb39ab343f332234f055f1634dc2c93ba5f1629c53995f736fab72dfda05",
+      "size": 433
+    },
+    {
+      "path": ".codex/agents/git_helper.toml",
+      "sha256": "b5481f66eadcf25e7b0d8e209c778894d86e1613c8a23a2d92e76e3f5935533d",
+      "size": 448
+    },
+    {
+      "path": ".codex/agents/knowledge_architect.toml",
+      "sha256": "f2b9aa2b71cc372913f4e7de5761a0e079e46578f3ddf5127618d8d7386fad79",
+      "size": 415
+    },
+    {
+      "path": ".codex/agents/questionnaire_curator.toml",
+      "sha256": "e0194e1f3d02f0ffef80dc66015633c1c2df82ce85a360065d0d101433fb0d73",
+      "size": 436
+    },
+    {
+      "path": ".codex/agents/questionnaire_reviewer.toml",
+      "sha256": "7c65ad543a5cbab7980575bdeac4e119b14e4780198ab51290678ef74aadfd2e",
+      "size": 405
+    },
+    {
+      "path": ".codex/agents/release_reviewer.toml",
+      "sha256": "342ac7a8908ea7bc5ab34f0bae46bbad0da7819d73b4c7c942fea2ae3deb62e1",
+      "size": 374
+    },
+    {
+      "path": ".codex/agents/source_extractor.toml",
+      "sha256": "152b7ec22c74fb8deb469a9dfb06c8508403e4062f74c25e2a17c1eb94f03618",
+      "size": 441
+    },
+    {
+      "path": ".codex/agents/vault_reviewer.toml",
+      "sha256": "f5d144cd53199dace56cc911f8ee540361c3122263902000ee15aa644abbc53f",
+      "size": 425
+    },
+    {
+      "path": ".codex/config.toml",
+      "sha256": "133cb7af4616c058b914cccfcaabdfaf99ed1f5f36002ff41945b34ef6600816",
+      "size": 1654
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "cf844795662d8d12037c708a2d46f69a41f20349c6980321cd255b1c97bc17f2",
+      "size": 762
+    },
+    {
+      "path": ".opencode/agents/cdo-program-lead.md",
+      "sha256": "139d3969a0d09c1ac543813cf9377973ad1e8f2f98475596512b417e193e087f",
+      "size": 605
+    },
+    {
+      "path": ".opencode/agents/domain-builder.md",
+      "sha256": "bcde3b7cddc7d0712fbd2448d7298882ccf512802ded12ddaa59fdf83bad0942",
+      "size": 707
+    },
+    {
+      "path": ".opencode/agents/evidence-auditor.md",
+      "sha256": "21bb8b366bed7a16e0f889d5a774e1fd93a2c5a68f24c163bdb66c9990746799",
+      "size": 587
+    },
+    {
+      "path": ".opencode/agents/git-helper.md",
+      "sha256": "371d10bb84dea60b06b7fe7a0d2e09084ff232ddd3e94e42601720cc80fbc6f8",
+      "size": 994
+    },
+    {
+      "path": ".opencode/agents/knowledge-architect.md",
+      "sha256": "e92c5beefa06b5f56e3c4fe540bb9c7d9fed0fd653d0e4468ef1642ce54f348f",
+      "size": 560
+    },
+    {
+      "path": ".opencode/agents/questionnaire-curator.md",
+      "sha256": "813fda1f7839723a7567f5bc6e549163b21f4887d0917f72c5d77dc674566629",
+      "size": 562
+    },
+    {
+      "path": ".opencode/agents/questionnaire-reviewer.md",
+      "sha256": "bb134a8d6c7cbe1e28a13b7690cd1ac5f1fb6b0ce71097773840df91fd934248",
+      "size": 606
+    },
+    {
+      "path": ".opencode/agents/release-reviewer.md",
+      "sha256": "c685093c6f08124b7e6f2a79979479e9fee90711e0f8b0a4dc215ef5a0bfd8e5",
+      "size": 1146
+    },
+    {
+      "path": ".opencode/agents/source-extractor.md",
+      "sha256": "6708b33e4ef5b8802dff6a5899976ae5eab73c73986aee882f15055b0e651b62",
+      "size": 578
+    },
+    {
+      "path": ".opencode/agents/vault-reviewer.md",
+      "sha256": "9a629cbb1aca0012560cc70b5f850289c9f944167e89d14699014fe4b743ffbc",
+      "size": 593
+    },
+    {
+      "path": ".opencode/commands/brain-build.md",
+      "sha256": "af2fe44ae40ad6f9c976d52282ef5bcfb4f958814ded2a30586205303c15f07c",
+      "size": 613
+    },
+    {
+      "path": ".opencode/commands/brain-canvas-watch.md",
+      "sha256": "270162a52a6eea422707b5e4738410cb777e31b0a0fd08dcdb2f81bdf6fbcc57",
+      "size": 357
+    },
+    {
+      "path": ".opencode/commands/brain-git-helper.md",
+      "sha256": "2a1a20163acc35e5d0a1c37381a1373d51dfa6a54cbd685262216ece1e8901bf",
+      "size": 549
+    },
+    {
+      "path": ".opencode/commands/brain-next.md",
+      "sha256": "d6f3ba757cd39ac0ba6a103c6048fc3a269da08bf5c01e9899bdaf533184031e",
+      "size": 672
+    },
+    {
+      "path": ".opencode/commands/brain-release.md",
+      "sha256": "7735e94d44d70813d34ea79fb127a40745f18a23c01cb50fc3d0ba25fd81a097",
+      "size": 564
+    },
+    {
+      "path": ".opencode/commands/brain-review-strict.md",
+      "sha256": "f5ace0867df067a396edcb2d6f9e7d5a70f13d62540a80a64a16a18dff28903c",
+      "size": 542
+    },
+    {
+      "path": ".opencode/commands/brain-review.md",
+      "sha256": "eb1f095d76e65c5e25d7e55848dd9f22e11c9a1effacdf3a41a72dcec46a5006",
+      "size": 492
+    },
+    {
+      "path": ".opencode/commands/question-lot.md",
+      "sha256": "6325dda56cc0e91b17513503bfc326c23e556041be734ed15e2a3ce8b38c7e9d",
+      "size": 622
+    },
+    {
+      "path": ".opencode/commands/review-question-lot.md",
+      "sha256": "8662b0f14d20f37304b68f866b9d0b54ffdfae772abd6913756e7bd3fec287fe",
+      "size": 603
+    },
+    {
+      "path": ".opencode/commands/review-vault-lot.md",
+      "sha256": "44feaf212f22a7251136bbb0660e02875acfdb2b165761bb0c41d20e853c124b",
+      "size": 663
+    },
+    {
+      "path": ".python-version",
+      "sha256": "f01d748a75eb195e6fd73201279bfb23f09036ddd360eb3e9ff40ef042acbc8a",
+      "size": 8
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "f4475b03ed5b6fb1d90fa787064dd39bb8e719b1997b0ba88f860fbeea2e19a4",
+      "size": 9782
+    },
+    {
+      "path": "KIT.md",
+      "sha256": "7da8740e9b06da5f6569bf3ac9d3e35b792526a3f3113994ead403c24b7eb2a0",
+      "size": 1107
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "size": 11358
+    },
+    {
+      "path": "README.md",
+      "sha256": "811720f5808685cdf3f8dee31460b034a9e551c20d73436459042cee01b5c408",
+      "size": 10479
+    },
+    {
+      "path": "ROADMAP.md",
+      "sha256": "c729c1f96ba1fd1b4807b93630a5270ed5df30dd808031c1dd7131fd18d73044",
+      "size": 29935
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "880959459a1ebc4254937bfb172a2fb840749ac4aa8889f81d7a595f02a46d1d",
+      "size": 1959
+    },
+    {
+      "path": "WORKSHOP.md",
+      "sha256": "d9e5dece04b1d97a11fedd62937352dc1a50ee5323f16389d9fff47eac91249f",
+      "size": 11175
+    },
+    {
+      "path": "brain wiki/SCHEMA.md",
+      "sha256": "8e0cefeff7593f306a106a91e1294fe3b06baf45d2fdfe6ff41bdae38bc04923",
+      "size": 3535
+    },
+    {
+      "path": "config/brain-domains.json",
+      "sha256": "709ae79b951d078bbdb632b7b1e31013e1e8a50f38d4d03bed3401a501fd1bb6",
+      "size": 364
+    },
+    {
+      "path": "config/brain-evaluation-extension.json",
+      "sha256": "6e4e9d53a07cf0c23b39ee797d8ff7ef860c0f544db47c1dd99dc6318e3b033f",
+      "size": 1785
+    },
+    {
+      "path": "config/brain-evaluation.json",
+      "sha256": "540b416c6e31e149a95baf26376aac34c0ebb0ab6ca8fdbe8372d23a1bec8270",
+      "size": 13119
+    },
+    {
+      "path": "config/brain-vocabulary.json",
+      "sha256": "1648e0a4cfe95a88b6c4e834ee09ceb003331deb150d036d15794a8bd63fe593",
+      "size": 4052
+    },
+    {
+      "path": "config/profiles/no-llm.yaml",
+      "sha256": "ba8df6a3ce5be91b941bfd0bfb9f53f88688d61f79afe635aef9c87c8a5ce3a0",
+      "size": 185
+    },
+    {
+      "path": "config/profiles/strict-local.yaml",
+      "sha256": "0a7b18493933ddfff6e4ad58fb090647c7ee706b1a2a56287d4ca8020ef97764",
+      "size": 457
+    },
+    {
+      "path": "config/redistribution-policy.json",
+      "sha256": "040a28040b1712417953fd2b252dbcfcdbf8e1bb813d4a9fecd087d74fed8492",
+      "size": 7344
+    },
+    {
+      "path": "config/schemas/brain-context.schema.json",
+      "sha256": "82a37cfe33cb7ac072ab7b397c21272e080973536c6aaddbf65a4a43547729dc",
+      "size": 9205
+    },
+    {
+      "path": "config/schemas/brain-coverage-review.schema.json",
+      "sha256": "a05a8f78c526fd00f7bc8c9299d2e3ee628d65d37e0d241109fb1e9abf086ca2",
+      "size": 4588
+    },
+    {
+      "path": "config/schemas/brain-evidence.schema.json",
+      "sha256": "c8817f5405444bd6d69e935c1607e43ff8482b551a7059a32071297d0a3cbf30",
+      "size": 8129
+    },
+    {
+      "path": "config/schemas/brain-note.schema.json",
+      "sha256": "4401f89193f7d8238685cdcc8eaa5055d7ec6cc3682c228145308caaa8a0046d",
+      "size": 2664
+    },
+    {
+      "path": "config/schemas/brain-research.schema.json",
+      "sha256": "05ab2d4d79ebdfe7301df503507e75418d51a4f5dcd365f2576e3481fef3c351",
+      "size": 3304
+    },
+    {
+      "path": "config/schemas/brain-task.schema.json",
+      "sha256": "588173c6a2eb34dfa6f131a19a91be2028bb40ec48e5b96545de6b3c1ba61d16",
+      "size": 2798
+    },
+    {
+      "path": "config/schemas/context-packet.schema.json",
+      "sha256": "81363968b7f2cac42a57a88755c67485dbb87f71f7e246dcb3db2f4c124e4ed4",
+      "size": 5379
+    },
+    {
+      "path": "config/schemas/domain-pack.schema.json",
+      "sha256": "3ee3bc8057d16a43a446d11b736fa27955eb749f3b08b43a49294c6071cb5211",
+      "size": 1778
+    },
+    {
+      "path": "config/schemas/ingested-unit.schema.json",
+      "sha256": "2092d571f483e5f9f6fb62b2996d3890475fdcfa80f1e570a148b30d24f96b75",
+      "size": 1677
+    },
+    {
+      "path": "config/schemas/profile.schema.json",
+      "sha256": "aa9e9a06659071005db5ac1ccbcfa48fd9543531f3fd7a7e1bfd3670d277334e",
+      "size": 1871
+    },
+    {
+      "path": "config/schemas/questionnaire.schema.json",
+      "sha256": "e431f979a1e94032dcebeb6523653bbf60007e03a61d2622769fa0b779febb30",
+      "size": 4100
+    },
+    {
+      "path": "config/schemas/receipt.schema.json",
+      "sha256": "df813f0bbd4310c894f289351ae22ef45824600ebc7040c036d25f6847849aae",
+      "size": 1610
+    },
+    {
+      "path": "config/schemas/relation.schema.json",
+      "sha256": "6e89f9471f372278a111b6a661588041581c74b5408a704453b8f0c14aa8c73a",
+      "size": 1653
+    },
+    {
+      "path": "config/schemas/source-manifest.schema.json",
+      "sha256": "d47575f322b869d2a44bf943385862aea26148f2463b4157d1f2f80dfcfce829",
+      "size": 2238
+    },
+    {
+      "path": "config/schemas/vault-frontmatter.schema.json",
+      "sha256": "f72a70864c11962f19745eb6358d6e3c1d0e430aa70543da21a9f72211a3a977",
+      "size": 10770
+    },
+    {
+      "path": "config/schemas/workshop-release-v3.schema.json",
+      "sha256": "c549ab9ef1b2ed6d9a6209dfa3153c9e9bfc048d50a1271dbdf1f38269de51bf",
+      "size": 2818
+    },
+    {
+      "path": "config/schemas/workshop-release.schema.json",
+      "sha256": "40d959fd79ccd9db62952f0c9749c0698019753ab4a4e1434186772f1e7581b6",
+      "size": 2170
+    },
+    {
+      "path": "config/source-seed.json",
+      "sha256": "2ba82282febf245b5924c9bb0dd9159e033024ac231a1fb04093f44b7feeae25",
+      "size": 654442
+    },
+    {
+      "path": "docs/brain-harness.md",
+      "sha256": "a16b8b592ffb2bfb28ba00cc74c6fe0506ce0ba8aef623f0ed4157227c4fd8a3",
+      "size": 3560
+    },
+    {
+      "path": "docs/okf-mapping.md",
+      "sha256": "86364965cf9732aa98ede409e10d0d7cba13245aa72681e8913b7b060567d33f",
+      "size": 5379
+    },
+    {
+      "path": "domain_packs/_template/domain.yaml",
+      "sha256": "342eb96025c8952b9bf35a90f4c36f3ab2558eb72804347066b8ffb2f8ffa6e4",
+      "size": 324
+    },
+    {
+      "path": "domain_packs/ai-security/domain.yaml",
+      "sha256": "ec45ce49fcbc18ff589f5f1602cb56319d7bc4195fd6d3f2f6449d835eb25dcc",
+      "size": 404
+    },
+    {
+      "path": "domain_packs/audit-assurance/domain.yaml",
+      "sha256": "3a5eab55d638e04b21e1c4fdacaf204aaefbf24f7d2dd131f5e7f4384eba1bad",
+      "size": 425
+    },
+    {
+      "path": "domain_packs/data-privacy/domain.yaml",
+      "sha256": "2343ec3dfc5a64adfeccaa4a9558f79f1d3e275050636de0b416ce7649de24f8",
+      "size": 380
+    },
+    {
+      "path": "domain_packs/governance-accountability/domain.yaml",
+      "sha256": "dcec01d2f6b5a385af2834899cc02eff9958ed69d567d18e7471177abc70846b",
+      "size": 445
+    },
+    {
+      "path": "domain_packs/human-oversight-responsible-ai/domain.yaml",
+      "sha256": "19854ab68cce6559a35437e6e18f660454194f892a01df66004a33a8abc669f7",
+      "size": 440
+    },
+    {
+      "path": "domain_packs/legal-regulatory/domain.yaml",
+      "sha256": "997e797489f36f340463637cbffdf49261eed440dc8787b93be23bc8adf15608",
+      "size": 441
+    },
+    {
+      "path": "domain_packs/model-risk/domain.yaml",
+      "sha256": "2ab9d3b4e0ed5b872650cd4015dc6dad13cea974c64cc5ff23407528084e56ad",
+      "size": 389
+    },
+    {
+      "path": "domain_packs/operational-resilience-incidents/domain.yaml",
+      "sha256": "68e542dba5f794d2ac287f947691a2b2d40182a0a862505d279c43510e7b0134",
+      "size": 464
+    },
+    {
+      "path": "domain_packs/third-parties-supply-chain/domain.yaml",
+      "sha256": "1a7d07809a77fd2154d53ebc120578db96fa95bdf9b528b4e6ceb44adeab1003",
+      "size": 430
+    },
+    {
+      "path": "domain_packs/transparency-disclosure/domain.yaml",
+      "sha256": "3b5cb78833f6b1a8c303bd31ee6ad6c54243bc912c35d95d8085a4fd06ad6dcc",
+      "size": 452
+    },
+    {
+      "path": "manuel.md",
+      "sha256": "28c58106d812b8ffd01085807135b0bf5d599cef8e9e3fd89f8b8fddce768eda",
+      "size": 72132
+    },
+    {
+      "path": "opencode.json",
+      "sha256": "584648a0971ad49a3d0f520503e8a054ab7969bf9a38a9e513dc086614443903",
+      "size": 418
+    },
+    {
+      "path": "plan.md",
+      "sha256": "d455dc269ee04a58273b8f92a8e67dea73a64758dfce025ac62d25d4e1a296e2",
+      "size": 51194
+    },
+    {
+      "path": "prompts/roles/cdo_program_lead.md",
+      "sha256": "700d98f336a0923f13d9740e15d85883c7358f2f4a2a5285d54170e5eb7b9e66",
+      "size": 2118
+    },
+    {
+      "path": "prompts/roles/domain_builder.md",
+      "sha256": "d6b4210ee64bacd637153a5a7f90ccaed588fa10dd68713a38083f34d92f55a2",
+      "size": 1902
+    },
+    {
+      "path": "prompts/roles/evidence_auditor.md",
+      "sha256": "2c16e3836dc46391d952f291cdcc852a8dce9b0d954d7240b90e9addd5e748da",
+      "size": 1247
+    },
+    {
+      "path": "prompts/roles/git_helper.md",
+      "sha256": "c13859d507166336bf559caa0f295ce09cf44818eed4619466eef447f4665bba",
+      "size": 2186
+    },
+    {
+      "path": "prompts/roles/knowledge_architect.md",
+      "sha256": "15abbc487310461baf67410fcf845fb157faaadaa2c0e30a58040dfa58657fda",
+      "size": 1845
+    },
+    {
+      "path": "prompts/roles/questionnaire_curator.md",
+      "sha256": "071c739be7ea2a8a524af764e65911e7901487c9d9f30f7758953c6d94ac0bec",
+      "size": 2045
+    },
+    {
+      "path": "prompts/roles/questionnaire_reviewer.md",
+      "sha256": "4e17e0e118e3712a4a4a4cc5981880371a5fd5aa11a2b18f2ed17ac50e2cbc7d",
+      "size": 1697
+    },
+    {
+      "path": "prompts/roles/release_reviewer.md",
+      "sha256": "36bbefd02ae4e8f7a320dca859e0e8a07c8fba29479a2c86bda3c13f47182e9e",
+      "size": 1511
+    },
+    {
+      "path": "prompts/roles/source_extractor.md",
+      "sha256": "b489725e21870eb7e8c9fda38d9cb1283d0b2f28604d5cdc2b8b756882077a2b",
+      "size": 1430
+    },
+    {
+      "path": "prompts/roles/vault_reviewer.md",
+      "sha256": "eb2abcf0d44de01e1b4a9ff82d5f6a28a59f1ef8d88997e61e082683c586d833",
+      "size": 1381
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "e6ba0657f35c2a474aa23a54fd4cd0808b593a9dd189252ab64e30291fbad0d3",
+      "size": 939
+    },
+    {
+      "path": "src/gov360_brain/__init__.py",
+      "sha256": "70f9efaee153edb2302431a828dda099d0be94918a16872b5cca31d883a043a1",
+      "size": 438
+    },
+    {
+      "path": "src/gov360_brain/adapters/__init__.py",
+      "sha256": "4c1f5a185420c080500b1e67384e1eb0e628e50e334f4719cec652aea71ce159",
+      "size": 491
+    },
+    {
+      "path": "src/gov360_brain/adapters/base.py",
+      "sha256": "b106edf8a815e1b7d86b58a3663658521a974d5332875ed0e8df30491997962b",
+      "size": 7889
+    },
+    {
+      "path": "src/gov360_brain/adapters/image.py",
+      "sha256": "54c07da867442183e68f48a75ea52796a8367401ce466a755958e7f8b3b0f109",
+      "size": 4742
+    },
+    {
+      "path": "src/gov360_brain/adapters/office.py",
+      "sha256": "04fbb43bd3e290bf6b39c9ace29e660e53d8c0ddaf69dd76639976a5edfa1f2a",
+      "size": 34834
+    },
+    {
+      "path": "src/gov360_brain/adapters/pdf.py",
+      "sha256": "233904048d1a6870ef9a2eb204f58bc7553154fcba84ba6d49418cf1fff75654",
+      "size": 8014
+    },
+    {
+      "path": "src/gov360_brain/adapters/registry.py",
+      "sha256": "159e73cd2982f3fc2728ff6e61c43c5bf49a9bc35030ec9b770772b89a7f19e4",
+      "size": 5667
+    },
+    {
+      "path": "src/gov360_brain/adapters/structured.py",
+      "sha256": "9997c413f5b207964ed584e0074a810461a4d40c3597549cdb41b17e7db0d0f2",
+      "size": 13632
+    },
+    {
+      "path": "src/gov360_brain/adapters/tabular.py",
+      "sha256": "ccccc1d88698dec75ec9de52c2baf6bf1d40012618186306e3f9fe01697360a7",
+      "size": 11390
+    },
+    {
+      "path": "src/gov360_brain/adapters/text.py",
+      "sha256": "3c54e6d07684d5ce388caade81e400197fe4a3bf54e0eb1f216ab12cf8430dd5",
+      "size": 6982
+    },
+    {
+      "path": "src/gov360_brain/brain/__init__.py",
+      "sha256": "9c30ddfab62b77ed1fc6f5edc640a29bb8d3395ee9df04b410a88bd0cedafc02",
+      "size": 82
+    },
+    {
+      "path": "src/gov360_brain/brain/catalogue.py",
+      "sha256": "97f86209ce5e18616fbd848d7860f10e1f62381f3455f66842c328a45927bf1a",
+      "size": 14848
+    },
+    {
+      "path": "src/gov360_brain/brain/cli.py",
+      "sha256": "b3fa28c05a345a4106d605d5b235149c07e2738fdc34a7c86b60083496f120d4",
+      "size": 5905
+    },
+    {
+      "path": "src/gov360_brain/brain/common.py",
+      "sha256": "a2dfcec5dc38110cc513db2b74b0a47b8f13aa13aa94d65669993dcae268f6c8",
+      "size": 3474
+    },
+    {
+      "path": "src/gov360_brain/brain/coverage.py",
+      "sha256": "cd1761a9611a0d2d1144a012b69edef8d280058c9a71dc4fd8bd012ac050dfbc",
+      "size": 32647
+    },
+    {
+      "path": "src/gov360_brain/brain/evidence.py",
+      "sha256": "dde779a848f482fffb1957218272a8d45feb1ae91dc9120f54e248b5772f1eb5",
+      "size": 9143
+    },
+    {
+      "path": "src/gov360_brain/brain/harness.py",
+      "sha256": "bb6963ac2985367666579f9153839fdc7d36ab5f4510760a8d5afef1cf72bda7",
+      "size": 30770
+    },
+    {
+      "path": "src/gov360_brain/brain/impact.py",
+      "sha256": "1f4cec4bf3aa976eeaf6927688010aebea03fa6a5b4f6380b7a3702f768310c8",
+      "size": 2222
+    },
+    {
+      "path": "src/gov360_brain/brain/ingest_reader.py",
+      "sha256": "907248c1592f1fbbcec204fd519bd6bbe414e1fa440855eff33c2ea42ff64f22",
+      "size": 4318
+    },
+    {
+      "path": "src/gov360_brain/brain/portability.py",
+      "sha256": "fffdf3beb4ac36b22c80bb28f0c4ffcd28317a5b5c5b2ad7d441169c5584c485",
+      "size": 41393
+    },
+    {
+      "path": "src/gov360_brain/brain/releases.py",
+      "sha256": "82a947b1aac3ee2ead5869d477cf68777731c0de2c18adedf773bc4d201561cc",
+      "size": 3874
+    },
+    {
+      "path": "src/gov360_brain/brain/research.py",
+      "sha256": "e93dc0ac87b1706e82992386429eaa30c756dfdce81cd6cee1b2dfee1ea5dee3",
+      "size": 4840
+    },
+    {
+      "path": "src/gov360_brain/brain/retrieval.py",
+      "sha256": "6ad2547f1514e7c094983e6500526472860508b8604b01263dba33f5741b111e",
+      "size": 20272
+    },
+    {
+      "path": "src/gov360_brain/cli.py",
+      "sha256": "70c9627e66da624f4404eb5cc1264bc427801c9ec5409750ad2fd510f8f0cd4d",
+      "size": 18660
+    },
+    {
+      "path": "src/gov360_brain/context/__init__.py",
+      "sha256": "3d90d250c53fbdbe414af27274d8e892bd9771ab5a318df4c94f679cbeaf461c",
+      "size": 386
+    },
+    {
+      "path": "src/gov360_brain/context/builder.py",
+      "sha256": "b2fe2ad94b696de2a3fb2bcfacc8e75b81307c7fff8ad4bea0c93abbc6ad41c7",
+      "size": 46803
+    },
+    {
+      "path": "src/gov360_brain/contracts.py",
+      "sha256": "edf52abca41b016155e1a46588faeaddb3d39f9033ee0238a07ff144163544a7",
+      "size": 2390
+    },
+    {
+      "path": "src/gov360_brain/derived.py",
+      "sha256": "b67fdc3fe333f1f80473603f6513a16c1010a458adb6070ae92fb686bea1f696",
+      "size": 15261
+    },
+    {
+      "path": "src/gov360_brain/domains/__init__.py",
+      "sha256": "aeeefc85358775fa44d90fac14e78c224b30cfe570e01a6a54a514f5807dc09e",
+      "size": 157
+    },
+    {
+      "path": "src/gov360_brain/domains/manager.py",
+      "sha256": "3d11e62568e937e5b3f724c6c8738500bb4771146ca27b7b04df4ca7181a174b",
+      "size": 12808
+    },
+    {
+      "path": "src/gov360_brain/llm/__init__.py",
+      "sha256": "7401be3a313c089d21041811b221e9868173f1587fe2f19b42bab43636b2a1be",
+      "size": 345
+    },
+    {
+      "path": "src/gov360_brain/llm/client.py",
+      "sha256": "7354190a0f94d5e5f74d18a1fe8f4f2d5a080ed23bd52b235d538ca733183acc",
+      "size": 10075
+    },
+    {
+      "path": "src/gov360_brain/orchestration/__init__.py",
+      "sha256": "20a3b3e4aa870def10ed0a0af78d1c5b163075fdea6eecf7220b64109e0d5cc2",
+      "size": 308
+    },
+    {
+      "path": "src/gov360_brain/orchestration/approval.py",
+      "sha256": "0455efa4b08bf986fd2c20c564fff4192b9d3c330866c35ec1bb196243514af2",
+      "size": 5977
+    },
+    {
+      "path": "src/gov360_brain/orchestration/ingestion.py",
+      "sha256": "c7a28d5114bf112aa29a94429552baff054d2bf728872c07866ede7fb2fca80b",
+      "size": 13914
+    },
+    {
+      "path": "src/gov360_brain/orchestration/pipeline.py",
+      "sha256": "c2830e1f3f226e8ed19b607c273c5e43a5688ea711ea0dfe84fb586779b51767",
+      "size": 26967
+    },
+    {
+      "path": "src/gov360_brain/orchestration/state.py",
+      "sha256": "1b07b983499bfb94cdb844a3fee361325d9e4eb98294dd20dcc8f985d1fa4a21",
+      "size": 11855
+    },
+    {
+      "path": "src/gov360_brain/project.py",
+      "sha256": "f108fc971fc9c38970e93abe4b290ec505a7ab97b2267df4614f96212e702649",
+      "size": 1853
+    },
+    {
+      "path": "src/gov360_brain/utils.py",
+      "sha256": "17efc1c29e056f8aadfa71f1104f185ceaece6a948be4c6b5d76ee421ed80fcc",
+      "size": 5101
+    },
+    {
+      "path": "src/gov360_brain/vault/__init__.py",
+      "sha256": "8ca928c768c6298eb8bcd5a5d16e1221150a80603acd2a341837cc7ad5ceba1b",
+      "size": 890
+    },
+    {
+      "path": "src/gov360_brain/vault/audit.py",
+      "sha256": "710c2ce941daee03793e6f4e9865edc0290f7ab6fb52f834e8cd3e1708deef4e",
+      "size": 13137
+    },
+    {
+      "path": "src/gov360_brain/vault/frontmatter.py",
+      "sha256": "6deaa21ea0f1fe97304f3e1653baefbcb0efd4489073e38f8021faa30f4926b7",
+      "size": 18698
+    },
+    {
+      "path": "src/gov360_brain/vault/publisher.py",
+      "sha256": "abd3522064508163ce947352eb3b76689fd2801e5f420877def167be2aade5fa",
+      "size": 40428
+    },
+    {
+      "path": "src/gov360_brain/workshop.py",
+      "sha256": "1b864c2e85fbbf10642ccf709f2cbbb4346a65bf258bf253056af7a7263f96c5",
+      "size": 31918
+    },
+    {
+      "path": "tests/test_brain_canvas_watch.py",
+      "sha256": "6c5af861d43246d17642ee31ffe340e4dad810553d0a6b601dfe48a4a8bdee77",
+      "size": 1767
+    },
+    {
+      "path": "tests/test_brain_catalogue.py",
+      "sha256": "af7f385f24c13b26b95471a82c4f20b0849cc1d76e62e6cab798178cba64f7f7",
+      "size": 6555
+    },
+    {
+      "path": "tests/test_brain_coverage.py",
+      "sha256": "fd237c075b0b972a64e77d0f196b2b66f2d2f4a90a8797cc2c098277daf9b875",
+      "size": 11584
+    },
+    {
+      "path": "tests/test_brain_evidence.py",
+      "sha256": "bf2f558167fa5d95b4198cb07351238d525e97ddee1c53e66604994cb8b7c3a2",
+      "size": 6620
+    },
+    {
+      "path": "tests/test_brain_evidence_qualification.py",
+      "sha256": "d820d66f02e3556f20dd752126c83c880010ebba55936d0c71383196cf8d44c6",
+      "size": 1865
+    },
+    {
+      "path": "tests/test_brain_harness.py",
+      "sha256": "280fcfed04c6fd0b523077c13f92c98b79ef2aac0d27a05cc849ccc87ea10e1c",
+      "size": 12838
+    },
+    {
+      "path": "tests/test_brain_impact.py",
+      "sha256": "d3e99683c25f77cea3de6a2629defc9f2f7b903f0b3ef7494ac08f6396d06c6d",
+      "size": 1234
+    },
+    {
+      "path": "tests/test_brain_ingest_reader.py",
+      "sha256": "5a43ffdc7c1f537573d20c7911b180300a5563629d497a973bcfb44683c1ee69",
+      "size": 4800
+    },
+    {
+      "path": "tests/test_brain_portability.py",
+      "sha256": "0e4f3d4d34c48c1f1675d1b789751ffbc73ae881c7762936195de4c753f3d72d",
+      "size": 17355
+    },
+    {
+      "path": "tests/test_brain_qualified_context.py",
+      "sha256": "675377cee536f305898f2ecd95a564fe31086c57540238893a503da1b678abc7",
+      "size": 4068
+    },
+    {
+      "path": "tests/test_brain_releases.py",
+      "sha256": "4a66a08663fcd706fa05dabad582522dc43f86e0359c1d95b9abc061fde6bae7",
+      "size": 5343
+    },
+    {
+      "path": "tests/test_brain_research.py",
+      "sha256": "5fedba3f382a0fb50ae87bece847ee9434ad542ef2df67baa2ee2a8394e05ded",
+      "size": 2012
+    },
+    {
+      "path": "tests/test_brain_retrieval.py",
+      "sha256": "be23fd644eb013fd7b9046e293f73d75358cb6ae6ff35848a1b37fa4e045847d",
+      "size": 9175
+    },
+    {
+      "path": "uv.lock",
+      "sha256": "901688549c5a0c47c7308ce016b02c4d4f72ee5508b0c7185980c08b761ef233",
+      "size": 572325
+    }
+  ],
+  "gaps": [],
+  "history_included": false,
+  "kind": "release-kit",
+  "original_code_license": "Apache-2.0",
+  "public": true,
+  "schema_version": 1,
+  "source_count": 47,
+  "transforms": [
+    "remove_opencode_wrapper_model_pins",
+    "generate_model_free_opencode_config",
+    "register_allowlisted_codex_agents"
+  ]
+}

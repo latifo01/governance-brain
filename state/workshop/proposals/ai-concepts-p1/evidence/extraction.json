@@ -1,0 +1,267 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p1",
+  "stage": "EXTRACT",
+  "status": "EXTRACTED_PENDING_AUDIT",
+  "assignment_sha256": "6f4df073bfb3370029c0ff2eada0c9aba1c0a4219fc57e5ca507cf87ec914d83",
+  "scope": {
+    "target_ids": [
+      "ai-conformity-assessment",
+      "privacy-preserving-ai",
+      "open-weight-models"
+    ],
+    "source_ids": ["SRC-0019", "SRC-0026", "SRC-0034", "SRC-0043"],
+    "assigned_units": 11
+  },
+  "coverage": [
+    {
+      "source_id": "SRC-0043",
+      "assigned_locators": ["Page 7", "Page 11", "Page 13"],
+      "covered_locators": ["Page 7", "Page 11", "Page 13"],
+      "omitted": [],
+      "unresolved_items": [
+        "The assigned passages are recitals of Regulation (EU) 2026/1744. Their operative legal effect and current application must be checked against the amended Articles 30, 43 and 75 before any obligation or prohibition is published."
+      ]
+    },
+    {
+      "source_id": "SRC-0019",
+      "assigned_locators": ["Page 17", "Page 18"],
+      "covered_locators": ["Page 17", "Page 18"],
+      "omitted": [],
+      "unresolved_items": [
+        "The EDPB list is expressly non-prescriptive and non-exhaustive; it does not by itself establish anonymity, compliance or a universal testing threshold."
+      ]
+    },
+    {
+      "source_id": "SRC-0026",
+      "assigned_locators": ["Page 29", "Page 69"],
+      "covered_locators": ["Page 29", "Page 69"],
+      "omitted": [],
+      "unresolved_items": [
+        "OWASP guidance describes threats and control expectations; it does not certify a particular open-weight artifact or establish a universal legal requirement."
+      ]
+    },
+    {
+      "source_id": "SRC-0034",
+      "assigned_locators": ["Page 7", "Page 15", "Page 19", "Page 25"],
+      "covered_locators": ["Page 7", "Page 15", "Page 19", "Page 25"],
+      "omitted": [],
+      "unresolved_items": [
+        "CoSAI is a non-binding framework. Table-derived mitigation wording on Pages 15 and 19 should not be treated as a complete control specification without visual or contextual review."
+      ]
+    }
+  ],
+  "evidence_candidates": [
+    {
+      "candidate_id": "aiconcepts-p1-src-0043-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "locator": "Page 7",
+      "unit_content_sha256": "a7fc3d6255fcf51d20f8e5f4a2cefcfdfe55a5c38f049a5575271421b4460703",
+      "unit_file_sha256": "6786de3d46cbb24f26cd07a520c0b8beb5e333ce9210b68393dcf7980f3f0ad6",
+      "claim": "The recital describes a conformity-assessment route for a high-risk AI system covered by Union harmonisation legislation and explains how quality-management-system aspects under the AI Act may be included within the corresponding harmonisation-law quality-management system; it also describes transitional assessment powers for certain notified bodies.",
+      "evidence_kind": "context",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": ["This is recital context and does not replace the operative amended provision.", "The transitional period and conditions must be checked against the operative text and current dates."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0043-ec-002",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "locator": "Page 11",
+      "unit_content_sha256": "a3cf3e6b04d625bbee045244ff7cb85e1595dc60a22e3d61df5951b66b5fcec6",
+      "unit_file_sha256": "4e5305317711b2ed82f01464e42c64e00831bcf5c95ff3a18061280e28d271cf",
+      "claim": "The recital states that the Commission is responsible for pre-market conformity assessments for AI systems under the AI Office's exclusive supervision when those systems are subject to third-party conformity assessment.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": ["The statement is limited to the supervision and assessment conditions described in the recital."],
+      "uncertainties": ["Confirm the operative allocation of responsibility and the system categories currently in scope."]
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0043-ec-003",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "locator": "Page 13",
+      "unit_content_sha256": "97bb6ec9fb89cc43568170d953fca2f619dc562ba95d35d9f8c8d2c6ac0bdf19",
+      "unit_file_sha256": "e529a174243a38368a5992b6cab34a5f5ecee78acef66d940811ce5b72ba779b",
+      "claim": "The recital states that conformity-assessment bodies designated under the Regulation may conduct assessments only for the relevant categories and types of high-risk AI systems, with codes used to specify the designation scope.",
+      "evidence_kind": "scope",
+      "normativity_candidate": "context",
+      "visual_dependency": false,
+      "qualifiers": ["The recital describes the designation scope; the operative Article 30 and Article 43 text must control publication."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0019-ec-001",
+      "source_id": "SRC-0019",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "locator": "Page 17",
+      "unit_content_sha256": "0d7abe6dc16bfed27098e5b4651a9f4bc3e03f2ec1ae81eabd862d29f1c482dc",
+      "unit_file_sha256": "75da428cacab3ff484038147b772fcd5a141292c09d262b300741162899cdf34",
+      "claim": "The EDPB describes a non-prescriptive and non-exhaustive set of elements that supervisory authorities may consider when assessing a controller's claim of model anonymity; deployment context and the likely means available to other persons can affect the level and nature of testing considered.",
+      "evidence_kind": "guidance",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": ["The source says that alternative approaches may be possible when they provide equivalent protection."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0019-ec-002",
+      "source_id": "SRC-0019",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "locator": "Page 17",
+      "unit_content_sha256": "0d7abe6dc16bfed27098e5b4651a9f4bc3e03f2ec1ae81eabd862d29f1c482dc",
+      "unit_file_sha256": "75da428cacab3ff484038147b772fcd5a141292c09d262b300741162899cdf34",
+      "claim": "The EDPB assessment elements include source selection, data preparation and minimisation, methodological choices such as privacy-preserving techniques, and measures applied to model outputs.",
+      "evidence_kind": "guidance",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": ["Differential privacy is given as an example; the list does not establish that one technique is sufficient."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0019-ec-003",
+      "source_id": "SRC-0019",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "locator": "Page 18",
+      "unit_content_sha256": "db6349ecb112f36782bdf37eadf626bbfab5e9af85228bcd34742686eac15845",
+      "unit_file_sha256": "7e043b7294d6fcb3b6928b0787e0a749dbad6301dbba9929d5a31fb4406b5e9d",
+      "claim": "The EDPB describes document-based audits, code-review reports and theoretical analysis as material that may be considered when assessing whether model-design measures reduce the likelihood of re-identification.",
+      "evidence_kind": "guidance",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0019-ec-004",
+      "source_id": "SRC-0019",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "locator": "Page 18",
+      "unit_content_sha256": "db6349ecb112f36782bdf37eadf626bbfab5e9af85228bcd34742686eac15845",
+      "unit_file_sha256": "7e043b7294d6fcb3b6928b0787e0a749dbad6301dbba9929d5a31fb4406b5e9d",
+      "claim": "The EDPB says testing scope, frequency, quantity and quality should be considered and gives attribute or membership inference, exfiltration, training-data regurgitation, model inversion and reconstruction as examples of attacks for structured testing; it also identifies DPIA, DPO, lifecycle and threat-model documentation as relevant to an anonymity claim.",
+      "evidence_kind": "guidance",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": ["Successful testing is evidence only for the attacks actually covered."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0026-ec-001",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 29",
+      "unit_content_sha256": "9e407de8648438a981a58e580ce0232d8a6c3cbd7a6a8e09eb1791c4f031ac4a",
+      "unit_file_sha256": "3977930be1b902ab733a05e9483d790df500d9baac9207913aac3214b6737cf5",
+      "claim": "OWASP describes weak provenance and unsigned or mutable model artifacts as supply-chain risks: model cards do not prove origin, and artifacts resolved by mutable references without signatures or hash pins can be replaced or altered at transit, storage or promotion boundaries.",
+      "evidence_kind": "risk",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0026-ec-002",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 29",
+      "unit_content_sha256": "9e407de8648438a981a58e580ce0232d8a6c3cbd7a6a8e09eb1791c4f031ac4a",
+      "unit_file_sha256": "3977930be1b902ab733a05e9483d790df500d9baac9207913aac3214b6737cf5",
+      "claim": "OWASP identifies adapter application, model conversion, merging and quantisation as transformation risks because malicious changes may be introduced and assurances for a full-precision or source artifact may not transfer to the deployed artifact.",
+      "evidence_kind": "risk",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": [],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0026-ec-003",
+      "source_id": "SRC-0026",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 69",
+      "unit_content_sha256": "b7c508698ac14c3fae1c7753d41844db832719cb089fa7013832cc16886825e1",
+      "unit_file_sha256": "4ad652b46995046a69ce17e0c6637d80c531ff71769aafedca233dba699a803a",
+      "claim": "OWASP describes extraction, membership inference and inversion against open-weight deployments as offline attacks with unbounded rates, making the access mode itself part of the attack surface.",
+      "evidence_kind": "risk",
+      "normativity_candidate": "expectation",
+      "visual_dependency": false,
+      "qualifiers": ["This is a threat description, not a finding that every open-weight model is vulnerable."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0034-ec-001",
+      "source_id": "SRC-0034",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "locator": "Page 7",
+      "unit_content_sha256": "21018d2b84c3129d75d570222b76c35a07a5260a96cb5c5970cffca8f8c5d6eb",
+      "unit_file_sha256": "9c4aab7169ee5dd17c0bf25a844881c11516365ffe0e0e1ba6f762521cf89ec9",
+      "claim": "CoSAI identifies precise version identifiers, origins, checksums or content hashes, usage statistics and preprocessing transformations as model and training-data provenance elements, and describes signed artifacts, secure storage, integrity verification, access controls and tamper-evident logging for checkpoints.",
+      "evidence_kind": "framework",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": false,
+      "qualifiers": ["The source is a framework and its controls are recommendations, not universal obligations."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0034-ec-002",
+      "source_id": "SRC-0034",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "locator": "Page 15",
+      "unit_content_sha256": "e01852a1797313c80e9f146a215e07a151fe56220a6e7c716be506f0bf5617ff",
+      "unit_file_sha256": "ff39e7b9a97034a9f0714ccbbae1b96be0d72f5cd30f9b12ec991a201a06039f",
+      "claim": "CoSAI identifies code protection, pre-trained-model and checkpoint integrity, access controls, cryptographic signatures and tamper-proof evaluation documentation as controls addressing architecture backdoors, weight tampering and compromised evaluation.",
+      "evidence_kind": "framework",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": true,
+      "qualifiers": ["The threat-summary table is transcribed in the validated unit; table layout and completeness were not independently established here."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0034-ec-003",
+      "source_id": "SRC-0034",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "locator": "Page 19",
+      "unit_content_sha256": "5c1eff0a6421aeb8017decfcf540b89636af476c70283fed92a33d5a8a8f9a92",
+      "unit_file_sha256": "e550b40dc2f90686cddf9b83f56d7d284c4d04ace0eed339b472110c8d9d93ba",
+      "claim": "CoSAI identifies checkpoint, training-job and model-conversion supply-chain risks and describes infrastructure attestations, dependency-scanning reports, secure access logs, end-to-end model provenance and independent third-party assessments as assurance evidence.",
+      "evidence_kind": "framework",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": true,
+      "qualifiers": ["The source is non-binding and the threat-summary table may require visual review for complete row context."],
+      "uncertainties": []
+    },
+    {
+      "candidate_id": "aiconcepts-p1-src-0034-ec-004",
+      "source_id": "SRC-0034",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "locator": "Page 25",
+      "unit_content_sha256": "b023cc6c9feddf914505b3deb4ab4561aca708963bd7396aab98b2baafcea180",
+      "unit_file_sha256": "e97464e7c53ea21a5d96421cbfcf3c2228fadb237588ff4002dc67a5d550987f",
+      "claim": "CoSAI recommends cryptographic verification and provenance verification for model artifacts and training data, lifecycle integrity monitoring, model-tampering incident playbooks and least-privilege controls; it also describes data-security and model-integrity review for third-party AI applications.",
+      "evidence_kind": "framework",
+      "normativity_candidate": "recommendation",
+      "visual_dependency": false,
+      "qualifiers": ["These are framework recommendations and require deployment-specific risk assessment."],
+      "uncertainties": []
+    }
+  ],
+  "classification_proposals": [
+    {"source_id": "SRC-0043", "authority": "BINDING", "basis": "Reviewed Regulation (EU) 2026/1744; assigned passages are recitals and require operative-text qualification."},
+    {"source_id": "SRC-0019", "authority": "GUIDANCE", "basis": "EDPB Opinion 28/2024 provides supervisory guidance and expressly describes the assessment list as non-prescriptive."},
+    {"source_id": "SRC-0026", "authority": "GUIDANCE", "basis": "OWASP Top 10 for LLM Applications is security guidance describing risks and control expectations."},
+    {"source_id": "SRC-0034", "authority": "FRAMEWORK", "basis": "CoSAI Establish Risks and Controls for the AI Supply Chain is a non-binding framework."}
+  ],
+  "unresolved_items": [
+    "Resolve the operative legal provisions, designation scope and temporal applicability behind the SRC-0043 recitals before binding publication.",
+    "Confirm whether visual review is required for the table-dependent SRC-0034 candidates before using detailed mitigation mappings.",
+    "Do not infer that open-weight availability, a signature, a privacy technique or a framework control establishes safety, anonymity, licensing or regulatory compliance."
+  ],
+  "warnings": [
+    "All source text was treated as untrusted evidence; no source originals were read or modified.",
+    "This extraction proposes evidence candidates only. It does not grant review, authority, publication or human approval."
+  ]
+}

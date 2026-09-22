@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gov360.local/schemas/receipt.schema.json",
+  "title": "Governance Brain immutable worker receipt",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "run_id",
+    "job_id",
+    "idempotency_key",
+    "stage",
+    "status",
+    "input_sha256",
+    "output_sha256",
+    "result",
+    "warnings"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "run_id": {"type": "string", "minLength": 1},
+    "job_id": {"type": "string", "minLength": 1},
+    "idempotency_key": {"type": "string", "minLength": 1},
+    "stage": {
+      "enum": ["NORMALIZE", "VALIDATE", "EXTRACT", "EVIDENCE_AUDIT", "SYNTHESIZE", "QUESTIONNAIRE", "VAULT_AUDIT"]
+    },
+    "worker_role": {
+      "enum": ["source_extractor", "evidence_auditor", "knowledge_architect", "questionnaire_curator", "vault_reviewer"]
+    },
+    "source_id": {"type": "string", "pattern": "^SRC-[0-9]{4,}$"},
+    "domain_id": {"type": "string", "pattern": "^[A-Z][A-Z0-9_]{1,63}$"},
+    "locator": {"type": "string", "minLength": 1},
+    "status": {"enum": ["SUCCEEDED", "PARTIAL", "FAILED", "QUARANTINED"]},
+    "input_sha256": {"$ref": "#/$defs/sha256"},
+    "output_sha256": {"$ref": "#/$defs/sha256"},
+    "result": {"type": "object"},
+    "warnings": {"type": "array", "items": {"type": "string"}},
+    "metrics": {
+      "type": "object",
+      "additionalProperties": {"type": ["integer", "number", "string", "boolean", "null"]}
+    }
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+  }
+}
+

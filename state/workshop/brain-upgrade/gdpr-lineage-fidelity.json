@@ -1,0 +1,188 @@
+{
+  "results": [
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 9",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "6b822518eb075158ba1702971a94e2c627e2f09a8a37452780b044bb640022c4",
+      "unit_file_sha256": "635072859f4a2925d91b748a3a73b9f21a69a1e12df751308992dcaecd26af69"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 32",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "3dd01359b4cc1ed7fcdc272002f48fdc0aecb8abff43e728fee52355b725d1ee",
+      "unit_file_sha256": "958f6eb2eb215d97f97c82e47e4f6f657325ff1e1cc8ccd9428d1bc765525bf0"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 33",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "53255c69961be0c91be380da0cc899a9e42d264dac744538b227ea1a4a1a9a12",
+      "unit_file_sha256": "1dd74ad1ba8ed8f56de7c9dece6d28efd0c44803dbd9faa209f2b8d8372fb303"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 35",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "ed12a4a0f9dc0d172914e9a8fb62d13e7523d01d62b710c7cb5dd59683d984b2",
+      "unit_file_sha256": "fb8fd57e994eb19cd9b4a07122f2f0c9288f963aaf599c699880e5e9b508adea"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 36",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "87e51a469baef6b39a977d5d651d05b1e36ccffd8472a531ceeb6e607c139821",
+      "unit_file_sha256": "bb528f932f15e99317baff624ba8f2c41f1bc33d121c12883a9316fda23bdc63"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 39",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "c1eee168bf62c6072d4a504165b2f641208156c19764b878563ab910b6669c74",
+      "unit_file_sha256": "7a652d43c2203e9ccd8555245793773d8b1bf61ce89a2fb54d5790313457d242"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 43",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "d23a9282fc84871ec738ec841dfca0b2fa2691da07a9a989ba7dac19ab491194",
+      "unit_file_sha256": "434e35807c6d6ed651f4359ec7a1899e33a59aa1b23e28519416fb8bf3ffe759"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 55",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "83c741ba577b5114be7bb2c0c72e5de2d340f17f52abe7b456c2d17e3273e7a6",
+      "unit_file_sha256": "78c3645c460e6113f1b1539edf29dc962889414c6c9473c766c596936836a232"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 56",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "826e663bfd0750f1bb0efe656171c909eac064b5ae449477847fded5f4500adc",
+      "unit_file_sha256": "d2ce304d76b14d06d891e5a6b99f3ccb4da45a079755d66e7aec85c36376184c"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 65",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "4d95f1beb734d296736daacc9f2050d57ee48ea091e4598a02fcb9045d635f1c",
+      "unit_file_sha256": "30c328b7ddf7c5c06c0ebb94be9ec074bd1707dbb25d55272feae2ffa50aa4cc"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 66",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "3248312673ddb0773d940f1728f051fb62abeb8b4f7572bdc012f745495afdfe",
+      "unit_file_sha256": "80c24ac6b857bc03dd4a3976b4ca80463cce3c121c0e76fd57c799b64dc645f5"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 67",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "d6611c2a80c5943e964ed5510572890bcc5a48187ef260567f171b4900ed5b3a",
+      "unit_file_sha256": "c83af486ef414b446da519d6958c5725ae7704e38031b1f2fd83c2dd463f0363"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 68",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "62ae7f12d1d6154b08941c01bdf4b3cc1cb93bbd3dee7d26e59d03854ff54e0c",
+      "unit_file_sha256": "2a31fd3962341abf5aa2eb6202a777838ba90af41292a1a4396fbf2b54816cc3"
+    },
+    {
+      "limitations": [
+        "Token agreement does not establish layout fidelity or legal correctness."
+      ],
+      "locator": "Page 69",
+      "method": "local-pypdf-token-coverage",
+      "original_token_coverage": 1.0,
+      "result": "MATCH",
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_content_sha256": "163e741bee552b1bd5bdcb3b057ac51108896fc239d1519700dc028175cc82e1",
+      "unit_file_sha256": "16843af0749966c95112f0f4d9b44ddf1b03f2a6acb63467459a776316e2dfc6"
+    }
+  ],
+  "schema_version": 1,
+  "source_id": "SRC-0010"
+}

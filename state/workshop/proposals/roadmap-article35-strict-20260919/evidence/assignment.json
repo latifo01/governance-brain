@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-article35-strict-20260919",
+  "method": "Bounded extraction assignment over validated Markdown units; original sources remain outside the role input.",
+  "units": [
+    {
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0053.md",
+      "unit_file_sha256": "f8fc78d7e94a0f5686155e20366218284951be467d0df51afcfb2e8ade1c6968",
+      "unit_content_sha256": "cb66f30fab80fb8c30897464c5ac49121837304cffc0ad44398c0804de44ee4a",
+      "locator": "Page 53",
+      "visual_review": "NONE",
+      "assigned_for": "Article 35 / DPIA strict evidence audit"
+    },
+    {
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0054.md",
+      "unit_file_sha256": "f8e710000dd9b6754bf45a1ed12ed2fdffa8434f8e47dc502202f949d13c232f",
+      "unit_content_sha256": "667eddb7c78d5c54b0978d37afaa20a42d52fd7581b58d548d06a9ed3a1c333f",
+      "locator": "Page 54",
+      "visual_review": "NONE",
+      "assigned_for": "Article 35 / DPIA strict evidence audit"
+    },
+    {
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0055.md",
+      "unit_file_sha256": "78c3645c460e6113f1b1539edf29dc962889414c6c9473c766c596936836a232",
+      "unit_content_sha256": "83c741ba577b5114be7bb2c0c72e5de2d340f17f52abe7b456c2d17e3273e7a6",
+      "locator": "Page 55",
+      "visual_review": "NONE",
+      "assigned_for": "Article 35 / DPIA strict evidence audit"
+    },
+    {
+      "source_id": "SRC-0010",
+      "source_sha256": "bd84e63f5b622b739a83389afc3b30d240f792bb88d8eb03a816c9a82b0c2499",
+      "unit_path": "ingest/SRC-0010/units/p0056.md",
+      "unit_file_sha256": "d2ce304d76b14d06d891e5a6b99f3ccb4da45a079755d66e7aec85c36376184c",
+      "unit_content_sha256": "826e663bfd0750f1bb0efe656171c909eac064b5ae449477847fded5f4500adc",
+      "locator": "Page 56",
+      "visual_review": "NONE",
+      "assigned_for": "Article 35 / DPIA strict evidence audit"
+    },
+    {
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0220.md",
+      "unit_file_sha256": "f0ba15053d06d6a000f5e018964f5a6aab23491633837e0b5ce8722f0a49eeb8",
+      "unit_content_sha256": "aa9a070bfc5cc4147319318f88b78f4607d4e7a7c2e515b94862a6ac75109d4f",
+      "locator": "Page 220",
+      "visual_review": "NONE",
+      "assigned_for": "Article 35 / DPIA strict evidence audit"
+    },
+    {
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "unit_path": "ingest/SRC-0011/units/p0224.md",
+      "unit_file_sha256": "0a49dfed270bf3c88f4bbaaaa155339bbc088a974bdf61abc002ed9da34c19f1",
+      "unit_content_sha256": "5edbe42945883163e8dc196dcb1b61ff9bb64f8f7e9dd5907ea14ade0b26fdf1",
+      "locator": "Page 224",
+      "visual_review": "NONE",
+      "assigned_for": "Article 35 / DPIA strict evidence audit"
+    },
+    {
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0183.md",
+      "unit_file_sha256": "38c56f210b3b5ae0fd14426a6f9aca9c919a5122a172906ec87b33df28287840",
+      "unit_content_sha256": "b5832f79403b2780a9b45501fbb1fd3a7e1762c0f663a116795cd194da24b11c",
+      "locator": "Page 183",
+      "visual_review": "NONE",
+      "assigned_for": "Article 35 / DPIA strict evidence audit"
+    },
+    {
+      "source_id": "SRC-0022",
+      "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+      "unit_path": "ingest/SRC-0022/units/p0184.md",
+      "unit_file_sha256": "335b59550a39ba358eb15d38135ff203a281456ff70139e7d4b0e8396a6df59f",
+      "unit_content_sha256": "6a40946bac1517882ab84710f47e58de79b47b0a4d72dd4fb967a18a8dfab32c",
+      "locator": "Page 184",
+      "visual_review": "NONE",
+      "assigned_for": "Article 35 / DPIA strict evidence audit"
+    }
+  ],
+  "counts": {
+    "sources": 3,
+    "units": 8
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-gap-triage-p1-20260920",
+  "candidate_sha256": "38ebae36895612a69dc96ec78afccfdfc18bb61e44b680bc3f292c9bbdc2e084",
+  "reviewer_identity": "deterministic-source-gap-triage-validator",
+  "reviewed_at": "2026-09-20T00:00:00+00:00",
+  "verdict": "READY_FOR_NEXT_STAGE",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "THREE_SOURCE_GAPS_BOUND",
+      "detail": "Exactly three remaining SOURCE_GAP pillars and 30 criterion cells are included."
+    },
+    {
+      "severity": "INFO",
+      "code": "CANDIDATES_HAVE_LINEAGE",
+      "detail": "20 candidate references retain source, unit, locator and receipt identifiers."
+    },
+    {
+      "severity": "WARNING",
+      "code": "CANDIDATES_NOT_PUBLISHABLE",
+      "detail": "The audited candidate references require strict extraction/applicability/currentness review before any future-vault construction."
+    },
+    {
+      "severity": "INFO",
+      "code": "NO_MUTATIONS",
+      "detail": "No active vault, sources, ingest, coverage register, evidence library or Domain Pack is changed."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+                   Law & Compliance in AI Security & Data Protection
+
+
+Exercise 4. Which of the following rights is more likely to be invoked against the data
+controller responsible for training an AI system with personal data?
+a. Right to data portability
+b. Right to rectification
+c. Right to an explanation
+d. Right to contest automated decisions
+e. Right to restrict processing
+Exercise 5. How does the Schufa case influence automated decision-making under
+GDPR?
+a. It restricts Article 22 GDPR to AI outputs only.
+b. It exempts human-overseen decisions from Article 22 GDPR.
+c. It limits the definition of automated decisions to formal approvals.
+d. It clarifies that some outputs produced by the automated processing of personal data
+are covered by Article 22 GDPR even if they do not take the form of a decision.
+e. It introduces new exceptions to Article 22 GDPR.
+Prompt for reflection
+The chapter highlights that exercising data subject rights, such as restriction,
+rectification, and erasure, can be technically complex in AI systems. Discuss potential
+organizational measures that could help bridge the gap between technical limitations
+and GDPR compliance, such as ombudsman offices or specialized teams for handling
+data subject requests. What role can data protection professionals play in facilitating
+these measures?
+Answer sheet
+Exercise 1. Alternative B is correct. Training must be universal but tailored to the needs
+of each role.
+Exercise 2. Alternative A is correct. A well-designed literacy programme is an
+organizational measure in the sense of Article 25 GDPR, as it allows different actors
+within an organization to understand how data is processed by the AI system. The
+programme does not require formal certification.
+Exercise 3. Alternative C is correct. Rectification is required and can be enforced by
+authorities, but it faces certain technical obstacles.
+Exercise 4. Alternative E is correct. The other alternatives tend to have the most impact
+when invoked against the controller using the AI system with the data subject’s data.
+Exercise 5. Alternative D is correct.
+
+
+
+
+                                           141
+

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "review_kind": "local_ingest_lineage_review",
+  "method": "hash-bound review of the selected validated Markdown units; no legal or visual-fidelity conclusion",
+  "reviewer_identity": "codex-governance-lifecycle-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "results": [
+    {
+      "source_id": "SRC-0001",
+      "locator": "Page 11",
+      "unit_path": "ingest/SRC-0001/units/p0011.md",
+      "unit_file_sha256": "44438d92683d60307fb3ca2231c7e9b2d2185c966a0901db7675ce5a7f5d77a8",
+      "unit_content_sha256": "2bebbf22e79fcb7398cada2e6f70011d9d1336df8b1fcde8266313ae598e9a29",
+      "result": "REVIEWED",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52"
+    },
+    {
+      "source_id": "SRC-0001",
+      "locator": "Page 17",
+      "unit_path": "ingest/SRC-0001/units/p0017.md",
+      "unit_file_sha256": "04f76de176d8c5641cdaf617f866cb359bc162315fa7c290ec4001150201391d",
+      "unit_content_sha256": "b95d5f3b2ab3f9992887fe446ae1e4015e257a57204ce2818587333baadfd8be",
+      "result": "REVIEWED",
+      "source_sha256": "e82c1f6865f41239c899de0eaa988bd52a4903627e1a080a39eb39df9293ff52"
+    },
+    {
+      "source_id": "SRC-0002",
+      "locator": "Page 4",
+      "unit_path": "ingest/SRC-0002/units/p0004.md",
+      "unit_file_sha256": "00f277b1536cf11ccad593e8557d52e0ee6058d62e708afe62f00f97ddc659ed",
+      "unit_content_sha256": "8effcb6abbe7ed48186e0f3fb9d5e10c386b642d33110af75a3c09bb4cdb963c",
+      "result": "REVIEWED",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12"
+    },
+    {
+      "source_id": "SRC-0002",
+      "locator": "Page 8",
+      "unit_path": "ingest/SRC-0002/units/p0008.md",
+      "unit_file_sha256": "318e25cbe755449b6c31cb9566bb8a00e04da76d2d6d1fd34b447ed1dddac9fe",
+      "unit_content_sha256": "dd08fe1c774fed697bcb045139342b0ffeb11868ec5f073bb37d7aa350fa007b",
+      "result": "REVIEWED",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12"
+    },
+    {
+      "source_id": "SRC-0002",
+      "locator": "Page 9",
+      "unit_path": "ingest/SRC-0002/units/p0009.md",
+      "unit_file_sha256": "e93584abd9a8580c362a3fff4f5eda8e799be89d024354645eadde94fcc3b69c",
+      "unit_content_sha256": "5d850e0e987babbcbf0f5d9d00c25f5aa0561c6205480f11277d87a5ab28fc52",
+      "result": "REVIEWED",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12"
+    },
+    {
+      "source_id": "SRC-0002",
+      "locator": "Page 10",
+      "unit_path": "ingest/SRC-0002/units/p0010.md",
+      "unit_file_sha256": "a3185565d9c70a6904cf893eb9c4e5cfaeb8cc638297424c8786bf106b3454f5",
+      "unit_content_sha256": "126587b9190d57899d884c5f3b04b070207ce7de8fa956acbdba3bf041313529",
+      "result": "REVIEWED",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12"
+    },
+    {
+      "source_id": "SRC-0002",
+      "locator": "Page 11",
+      "unit_path": "ingest/SRC-0002/units/p0011.md",
+      "unit_file_sha256": "0265b7f3bba5b1a4489c80a974aa44ff8791364c3436a9cbaf6730edc0073be2",
+      "unit_content_sha256": "7ca44d4b72df7aa6b214afa03cb8ff2bbe7668738a6e78735c3cceb0416abc06",
+      "result": "REVIEWED",
+      "source_sha256": "87a5801c62e9e59e2b2481f41b8531620837b278d2d72f53020309806ddf0b12"
+    },
+    {
+      "source_id": "SRC-0003",
+      "locator": "Page 7",
+      "unit_path": "ingest/SRC-0003/units/p0007.md",
+      "unit_file_sha256": "21252280a3d3772c5f2e136059bd1d54b9800b2eb246822836268451cbcd7ac4",
+      "unit_content_sha256": "44fe16c44171a8bc37597d2f23ed1759e4f534626d0221aae19653ae1fc81c6c",
+      "result": "REVIEWED",
+      "source_sha256": "edc972e30f5c2c264b8ea449e291c3457754584a248706e647bca0c7ecf81e68"
+    },
+    {
+      "source_id": "SRC-0009",
+      "locator": "Page 6",
+      "unit_path": "ingest/SRC-0009/units/p0006.md",
+      "unit_file_sha256": "95776257fc0f685861c2727ed5cd892203e152fd4c9f5c48281dc13ddc88f415",
+      "unit_content_sha256": "ebc07658b042ce7f8cbbb091ff93b0a4730b7b1ef9f4950ea819a0d335b191ca",
+      "result": "REVIEWED",
+      "warning": "source ingest visual_review is REVIEW_REQUIRED; descriptive text only",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8"
+    },
+    {
+      "source_id": "SRC-0009",
+      "locator": "Page 26",
+      "unit_path": "ingest/SRC-0009/units/p0026.md",
+      "unit_file_sha256": "8608ee961a4656a37574610c6174860df43e694b7f6aac294fd1baca9799b678",
+      "unit_content_sha256": "c1eb84e21a76668d73065c44166204a8e97c96b4667e0e746ae98b8eb5b4ca07",
+      "result": "REVIEWED",
+      "warning": "source ingest visual_review is REVIEW_REQUIRED; descriptive text only",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8"
+    },
+    {
+      "source_id": "SRC-0009",
+      "locator": "Page 28",
+      "unit_path": "ingest/SRC-0009/units/p0028.md",
+      "unit_file_sha256": "25f2e6b25f0a1561cb8031730317b7555963a6294b2b5a854e2e203877f72da8",
+      "unit_content_sha256": "634927aadbcceccde6b493179513f4e9acb182a8cb9f9a4793924cdfea4d742b",
+      "result": "REVIEWED",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8"
+    }
+  ]
+}

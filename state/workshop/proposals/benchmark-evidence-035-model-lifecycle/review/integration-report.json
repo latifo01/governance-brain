@@ -1,0 +1,48 @@
+{
+  "candidate_sha256": "8cb6dfe6a40c39989520fc5bc9bf0b6014f8b9c0736d5bb3350c47830ee86730",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "77e507862c110a110ec118a6556bc73ef7397005fee02c03385b11f34b92261a"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-model-documentation.md",
+      "proposal_id": "benchmark-evidence-035-model-lifecycle",
+      "sha256": "593f077ffeb4093d6106ba161326792c1d65ec372af9e6ff826ab026256c4864"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-model-monitoring.md",
+      "proposal_id": "benchmark-evidence-035-model-lifecycle",
+      "sha256": "742c624523f34de1c9053bf99f563a444c67a0195ba27d9953a233ef9bd44dcf"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-model-transparency.md",
+      "proposal_id": "benchmark-evidence-035-model-lifecycle",
+      "sha256": "dabc7f58bcfa4bc6bf8d67ecb59c5a1294871ae6051337666d52bb977de80454"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-model-validation.md",
+      "proposal_id": "benchmark-evidence-035-model-lifecycle",
+      "sha256": "26fb588af9f239463ae4977aa45f963242ec4e0ba36397846d34d8d37d987096"
+    },
+    {
+      "path": "questions/risk/risk-001-model-validation-evidence.md",
+      "proposal_id": "benchmark-evidence-035-model-lifecycle",
+      "sha256": "004b6a39e25918a018dc49ada269570c8c061931be04a043721e1417485f895f"
+    },
+    {
+      "path": "questions/risk/risk-003-model-monitoring-response.md",
+      "proposal_id": "benchmark-evidence-035-model-lifecycle",
+      "sha256": "6cc56149c4915ff993d277a80b26d7bf00b15d7be7709aa7ea454c6cdff66598"
+    }
+  ],
+  "materialized_files": 6,
+  "notes": 136,
+  "proposal_ids": [
+    "benchmark-evidence-035-model-lifecycle"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

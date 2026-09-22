@@ -1,0 +1,1 @@
+This is an obsidian vault to store all concepts regarding AI risks, AI risk management and mitigations measures.

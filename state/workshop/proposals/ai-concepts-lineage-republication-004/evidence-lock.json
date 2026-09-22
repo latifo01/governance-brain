@@ -1,0 +1,22 @@
+{
+  "evidence_refs": [
+    "concepts-lin4-src-0009-p0010",
+    "concepts-lin4-src-0009-p0016",
+    "concepts-lin4-src-0015-p0002",
+    "concepts-lin4-src-0015-p0006",
+    "concepts-lin4-src-0017-p0007",
+    "concepts-lin4-src-0017-p0011",
+    "concepts-lin4-src-0017-p0012",
+    "concepts-lin4-src-0026-p0034",
+    "concepts-lin4-src-0026-p0050",
+    "concepts-lin4-src-0026-p0052",
+    "concepts-lin4-src-0027-p0011"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/ai-concepts-lineage-004-001.json",
+      "sha256": "01a624b5c7424fa2d230d231e56d838316933528cce6ffb2c0abc171950e58ca"
+    }
+  ],
+  "schema_version": 2
+}

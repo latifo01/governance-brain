@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "verdict": "EVIDENCE_READY",
+  "evidence_lock_sha256": "862b2d38869802844de3c263466c1cf2d9f119b1264b6e546a2a8192572c4ae4",
+  "reviewer_identity": "codex-organisation-societal-evidence-auditor",
+  "reviewed_at": "2026-09-17T00:00:00+00:00",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "RECEIPT_VERIFIED",
+      "detail": "Twenty selected NIST AI RMF Playbook units resolve with exact source, unit and fidelity hashes."
+    },
+    {
+      "severity": "INFO",
+      "code": "SECTION_BINDINGS_VERIFIED",
+      "detail": "All substantive sections are bound to reviewed evidence."
+    },
+    {
+      "severity": "INFO",
+      "code": "NON_BINDING_SCOPE",
+      "detail": "The proposal uses voluntary framework evidence only."
+    },
+    {
+      "severity": "WARNING",
+      "code": "PARTICIPATION_LIMITS",
+      "detail": "Engagement and literacy evidence requires contextual interpretation and does not establish legal compliance."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p1",
+  "reviewer_identity": "codex-ai-concepts-p1-fidelity-reviewer",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "method": {
+    "tool": "pypdf",
+    "mode": "local_native_text",
+    "comparison": "whitespace-normalized exact comparison between the local PDF page extraction and the corresponding validated Markdown unit",
+    "normalization": "removed Markdown blockquote markers and the generated page heading, then collapsed whitespace",
+    "raw_source_text_retained": false
+  },
+  "results": [
+    {
+      "source_id": "SRC-0019",
+      "source_path": "sources/05_EU_AI_Legislation/edpb_opinion_202428_ai-models_en.pdf",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "locator": "Page 17",
+      "unit_path": "ingest/SRC-0019/units/p0017.md",
+      "unit_file_sha256": "75da428cacab3ff484038147b772fcd5a141292c09d262b300741162899cdf34",
+      "unit_content_sha256": "0d7abe6dc16bfed27098e5b4651a9f4bc3e03f2ec1ae81eabd862d29f1c482dc",
+      "visual_review": "NONE",
+      "source_page_count": 35,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization"
+    },
+    {
+      "source_id": "SRC-0019",
+      "source_path": "sources/05_EU_AI_Legislation/edpb_opinion_202428_ai-models_en.pdf",
+      "source_sha256": "addcafb4e28028fa87d13a15f91d593ac4b38c4d897be901e38556b5f816a50e",
+      "locator": "Page 18",
+      "unit_path": "ingest/SRC-0019/units/p0018.md",
+      "unit_file_sha256": "7e043b7294d6fcb3b6928b0787e0a749dbad6301dbba9929d5a31fb4406b5e9d",
+      "unit_content_sha256": "db6349ecb112f36782bdf37eadf626bbfab5e9af85228bcd34742686eac15845",
+      "visual_review": "NONE",
+      "source_page_count": 35,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization"
+    },
+    {
+      "source_id": "SRC-0026",
+      "source_path": "sources/02_AI_Security_Frameworks/OWASP Top 10 for LLM Applications 2026.pdf",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 29",
+      "unit_path": "ingest/SRC-0026/units/p0029.md",
+      "unit_file_sha256": "3977930be1b902ab733a05e9483d790df500d9baac9207913aac3214b6737cf5",
+      "unit_content_sha256": "9e407de8648438a981a58e580ce0232d8a6c3cbd7a6a8e09eb1791c4f031ac4a",
+      "visual_review": "DECORATIVE",
+      "source_page_count": 122,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization"
+    },
+    {
+      "source_id": "SRC-0026",
+      "source_path": "sources/02_AI_Security_Frameworks/OWASP Top 10 for LLM Applications 2026.pdf",
+      "source_sha256": "ef87993a4e50ae9d83b41ff7a3d3e6320a82dfa8d4ec6bf98d0ce264b2e6108e",
+      "locator": "Page 69",
+      "unit_path": "ingest/SRC-0026/units/p0069.md",
+      "unit_file_sha256": "4ad652b46995046a69ce17e0c6637d80c531ff71769aafedca233dba699a803a",
+      "unit_content_sha256": "b7c508698ac14c3fae1c7753d41844db832719cb089fa7013832cc16886825e1",
+      "visual_review": "DECORATIVE",
+      "source_page_count": 122,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization"
+    },
+    {
+      "source_id": "SRC-0034",
+      "source_path": "sources/03_CoSAI/CoSAI risks-and-controls-for-the-ai-supply-chain-v1.pdf",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "locator": "Page 15",
+      "unit_path": "ingest/SRC-0034/units/p0015.md",
+      "unit_file_sha256": "ff39e7b9a97034a9f0714ccbbae1b96be0d72f5cd30f9b12ec991a201a06039f",
+      "unit_content_sha256": "e01852a1797313c80e9f146a215e07a151fe56220a6e7c716be506f0bf5617ff",
+      "visual_review": "DECORATIVE",
+      "source_page_count": 37,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization"
+    },
+    {
+      "source_id": "SRC-0034",
+      "source_path": "sources/03_CoSAI/CoSAI risks-and-controls-for-the-ai-supply-chain-v1.pdf",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "locator": "Page 19",
+      "unit_path": "ingest/SRC-0034/units/p0019.md",
+      "unit_file_sha256": "e550b40dc2f90686cddf9b83f56d7d284c4d04ace0eed339b472110c8d9d93ba",
+      "unit_content_sha256": "5c1eff0a6421aeb8017decfcf540b89636af476c70283fed92a33d5a8a8f9a92",
+      "visual_review": "DECORATIVE",
+      "source_page_count": 37,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization"
+    },
+    {
+      "source_id": "SRC-0034",
+      "source_path": "sources/03_CoSAI/CoSAI risks-and-controls-for-the-ai-supply-chain-v1.pdf",
+      "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+      "locator": "Page 25",
+      "unit_path": "ingest/SRC-0034/units/p0025.md",
+      "unit_file_sha256": "e97464e7c53ea21a5d96421cbfcf3c2228fadb237588ff4002dc67a5d550987f",
+      "unit_content_sha256": "b023cc6c9feddf914505b3deb4ab4561aca708963bd7396aab98b2baafcea180",
+      "visual_review": "DECORATIVE",
+      "source_page_count": 37,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization"
+    }
+  ],
+  "findings": []
+}

@@ -1,0 +1,24 @@
+{
+  "schema_version": 3,
+  "proposal_id": "provenance-remediation-lot-027",
+  "status": "DRAFT",
+  "published": false,
+  "domain": "MODEL_RISK",
+  "risk_tier": "strict",
+  "evidence_changes": false,
+  "contract_changes": false,
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "shards": [
+    "model-validation-provenance-audit"
+  ],
+  "changes": {
+    "ADD": [],
+    "UPDATE": [],
+    "SUPERSEDE": [],
+    "NOOP": []
+  },
+  "files": [],
+  "requires_proposals": [],
+  "author_identity": "codex-provenance-remediation-domain-builder"
+}

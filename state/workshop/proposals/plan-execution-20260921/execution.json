@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "status": "IN_PROGRESS",
+  "objective_document": "plan.md",
+  "risk_tier": "strict",
+  "baseline": {
+    "sources": {
+      "files": 54,
+      "sha256": "c98deb644b51fcbbb7604ab755d6c68d96a9b93428628e222bc86dabe32ef74e"
+    },
+    "ingest": {
+      "files": 2955,
+      "sha256": "8fac3dd21786de3e760cd913fcd65856fc5034e2dfe1b6d34f37bef352df3874"
+    },
+    "brain wiki": {
+      "files": 178,
+      "sha256": "582d6fb9d59c4477fd301bc0f90b7d74b43b7d15cb74afbf8ca47e55c579dc79"
+    },
+    "state/workshop/evidence-library": {
+      "files": 37,
+      "sha256": "f78c29e1e5a8e4ab51059ca541bda33d482289fc484f580086cfce0a6ef856a1"
+    },
+    "state/workshop/coverage": {
+      "files": 4,
+      "sha256": "861a55545639ec2352e061183966b3a01c526a7ccfb4631953f42b83eed6614f"
+    }
+  },
+  "units": {
+    "U01": "TECHNICAL_READY_PENDING_INDEPENDENT_REVIEW",
+    "U02": "TECHNICAL_READY_PENDING_INDEPENDENT_REVIEW",
+    "U03": "TECHNICAL_READY_PENDING_INDEPENDENT_REVIEW",
+    "U04": "TECHNICAL_READY_PENDING_INDEPENDENT_REVIEW",
+    "U05": "TECHNICAL_READY_PENDING_INDEPENDENT_REVIEW",
+    "U06": "QUALIFIED_GAPS_NO_PUBLICATION",
+    "U07": "DOCUMENTATION_UPDATED_DERIVED_OUTPUTS_CURRENT",
+    "U08": "LOCAL_EXPORT_AND_KIT_CURRENT"
+  },
+  "workers": [
+    {
+      "task": "execute_u01",
+      "model": "gpt-5.6-luna",
+      "reasoning": "high",
+      "output": "shards/u01"
+    },
+    {
+      "task": "execute_u02",
+      "model": "gpt-5.6-luna",
+      "reasoning": "high",
+      "output": "shards/u02"
+    },
+    {
+      "task": "execute_u03",
+      "model": "gpt-5.6-luna",
+      "reasoning": "high",
+      "output": "shards/u03"
+    }
+  ],
+  "worker_outcome": {
+    "execute_u01": "SESSION_LIMIT_BEFORE_HANDOFF; overlay inspected and coordinator completed a corrected local implementation",
+    "execute_u02": "SESSION_LIMIT_BEFORE_HANDOFF; overlay inspected and coordinator completed a corrected local implementation",
+    "execute_u03": "SESSION_LIMIT_BEFORE_HANDOFF; overlay inspected and coordinator completed a corrected local implementation"
+  },
+  "acceptance": [
+    "Tests and deterministic validators pass",
+    "Coverage changes bind exact independent review and approval to current evidence",
+    "No fabricated COMPLETE decision",
+    "Context retains modality and missing temporal metadata",
+    "ATLAS consumes validated ingest",
+    "Research explicitly separated from assistance",
+    "Local exports and kit reconstruct and rerun without material diff",
+    "Protected originals and knowledge preserved except exact approved integration"
+  ],
+  "historical_review_caveat": "U01 review/independent-review.json uses upstream P0 candidate hash. It does not bind the U01 technical dossier; preserve historical record and re-review corrected proposal.",
+  "remote_publication": "NOT_AUTHORIZED",
+  "metrics": {
+    "coverage_cells": 150,
+    "coverage_unassessed": 150,
+    "retrieval_scenarios": 45,
+    "retrieval_ready_positives": 30,
+    "retrieval_positive_hits": 30,
+    "retrieval_negative_cases": 15,
+    "retrieval_negative_passes": 15,
+    "retrieval_recall_at_5": 1.0,
+    "atlas_objects": 308,
+    "atlas_relations": 1088,
+    "atlas_input_kind": "validated_markdown",
+    "tests": "full pytest PASS",
+    "brain_validate": "PASS",
+    "brain_build_check": "PASS",
+    "okf_export_check": "PASS",
+    "release_kit_check": "PASS (161 files, current)",
+    "atlas_check": "PASS"
+  },
+  "telemetry": {
+    "input_tokens": null,
+    "output_tokens": null,
+    "cost": null
+  }
+}

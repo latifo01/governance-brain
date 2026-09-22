@@ -1,0 +1,22 @@
+{
+  "author_identity": "codex-u01-coverage-reconciliation",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": true,
+  "domain": "GENERAL",
+  "evidence_changes": false,
+  "files": [],
+  "proposal_id": "coverage-reconciliation-u01-20260921",
+  "published": false,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [],
+  "status": "PROPOSAL_READY"
+}

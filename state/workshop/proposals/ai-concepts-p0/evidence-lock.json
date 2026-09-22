@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "aicp0-src-0036-p0006",
+    "aicp0-src-0036-p0014",
+    "aicp0-src-0039-p0011",
+    "aicp0-src-0039-p0014",
+    "aicp0-src-0039-p0019",
+    "aicp0-src-0039-p0020",
+    "aicp0-src-0039-p0026",
+    "aicp0-src-0039-p0032",
+    "aicp0-src-0039-p0033",
+    "aicp0-src-0039-p0034",
+    "aicp0-src-0039-p0035",
+    "aicp0-src-0039-p0036",
+    "aicp0-src-0039-p0040",
+    "aicp0-src-0039-p0041"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/ai-concepts-p0.json",
+      "sha256": "186127811867dff13aecc54096042d3331d2bc2b76561cd0dc7ef406166d506a"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-034-governance-core",
+  "stage": "KNOWLEDGE_AND_QUESTION_PROPOSAL",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "question",
+      "path": "questions/core/core-001-business-purpose.md",
+      "id": "core-001-business-purpose"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "question",
+      "path": "questions/core/core-002-accountable-owner.md",
+      "id": "core-002-accountable-owner"
+    },
+    {
+      "change_type": "UPDATE",
+      "artifact_type": "knowledge",
+      "path": "Norms & Frameworks/iso-42001.md",
+      "id": "iso-42001"
+    }
+  ],
+  "evidence": {
+    "receipt": "state/workshop/proposals/benchmark-evidence-034-governance-core/evidence/evidence-library-receipt.json",
+    "evidence_lock_sha256": "3bfb39d3cb010d52dbc8ed83515c099f1f01078c150ac9308583aac376612c00"
+  },
+  "approval": "PENDING"
+}

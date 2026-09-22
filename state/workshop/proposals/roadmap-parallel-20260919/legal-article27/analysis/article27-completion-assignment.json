@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-parallel-20260919",
+  "workstream": "legal-article27-completion",
+  "stage": "EXTRACTION_ASSIGNMENT",
+  "assignment_id": "fria-article27-pages222-223-20260919",
+  "assigned_at": "2026-09-19",
+  "scope": "Extract atomic candidates for AI Act Article 27(1)-(3) from the validated SRC-0011 Pages 222-223 units. Preserve the actor gate, exclusions, six assessment elements, first-use/reuse/update conditions, notification rule and Article 46(1) exception.",
+  "source": {
+    "source_id": "SRC-0011",
+    "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+    "normativity": "BINDING",
+    "manifest_path": "state/source_manifest.jsonl",
+    "manifest_sha256": "873176622eeee6d33a3e373dda4cc267f3275cc8aca4d536f3d0f78822739e8a",
+    "document_path": "ingest/SRC-0011/document.json",
+    "document_sha256": "9de31fbb2cf96dd87c9608bed768a82b6ab37671015b7d12583ee9c95cdb249"
+  },
+  "assigned_units": [
+    {
+      "path": "ingest/SRC-0011/units/p0222.md",
+      "locator": "Page 222",
+      "content_sha256": "6337dca60a7d782f77e632a7b4b48480569df93258e8c496d4f3aa6d2f246b8d",
+      "file_sha256": "a036e415dec47d0a1832124f69f8df6dded0b2b64415cbfb1f064580884c7607",
+      "visual_review": "NONE"
+    },
+    {
+      "path": "ingest/SRC-0011/units/p0223.md",
+      "locator": "Page 223",
+      "content_sha256": "4df5ff267fbe5dbcafc4ac2c7281da40ca9605edfd68d89cdfa08d584ea961ab",
+      "file_sha256": "8a5c0ba929b0b9d096d7cb38f7236be1af2a420635c58545f643e3b8022b6fec",
+      "visual_review": "NONE"
+    }
+  ],
+  "candidate_plan": [
+    "Article 27(1) scope, actor categories and Annex III point 2 exclusion",
+    "Article 27(1)(a) intended-purpose process description",
+    "Article 27(1)(b) intended period and frequency",
+    "Article 27(1)(c) affected persons and groups",
+    "Article 27(1)(d) specific harms and provider information",
+    "Article 27(1)(e) human-oversight implementation",
+    "Article 27(1)(f) measures, internal governance and complaints",
+    "Article 27(2) first-use applicability",
+    "Article 27(2) reuse of prior deployer or provider assessments",
+    "Article 27(2) update trigger when an element changes or is no longer current",
+    "Article 27(3) notification of results and completed template",
+    "Article 27(3) Article 46(1) notification exemption"
+  ],
+  "constraints": [
+    "Use only the two validated Markdown units; do not read or modify the original PDF.",
+    "Do not reuse the superseded SRC-0011 Page 224 Article 27(4)-(5) candidate.",
+    "Do not infer applicability beyond the actor gate, exclusions and conditions stated in Article 27.",
+    "Preserve the need to combine the base text with SRC-0043 amended Article 27(4)-(5) and Article 113 for a future currentness release.",
+    "Do not create or modify a vault note, question, Canvas, Domain Pack or evidence-lock in this extraction stage."
+  ],
+  "required_review": [
+    "candidate coverage and locator check",
+    "source, unit-content and unit-file hash check",
+    "binding authority check",
+    "currentness and supersession comparison with SRC-0043",
+    "independent evidence review before any FRIA note construction"
+  ]
+}

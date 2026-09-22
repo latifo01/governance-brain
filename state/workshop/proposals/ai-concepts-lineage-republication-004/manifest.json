@@ -1,0 +1,39 @@
+{
+  "author_identity": "opencode-domain-builder",
+  "candidate_sha256": "7b2453ee8c89e1611d18b39909c15d3fa8944881ba220e40c78e8cc95ab5dd70",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "agentic-ai",
+      "generative-ai",
+      "gpai-model",
+      "machine-learning",
+      "predictive-ai",
+      "retrieval-augmented-generation"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "AI",
+  "evidence_changes": true,
+  "files": [
+    "AI concepts/agentic-ai.md",
+    "AI concepts/generative-ai.md",
+    "AI concepts/gpai-model.md",
+    "AI concepts/machine-learning.md",
+    "AI concepts/predictive-ai.md",
+    "AI concepts/retrieval-augmented-generation.md"
+  ],
+  "proposal_id": "ai-concepts-lineage-republication-004",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "ai-concepts"
+  ],
+  "status": "INTEGRATED"
+}

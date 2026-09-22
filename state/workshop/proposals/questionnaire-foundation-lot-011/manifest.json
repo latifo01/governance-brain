@@ -1,0 +1,41 @@
+{
+  "canvas_sha256": "e602be42f5828992c1d1f7bae1f31f207527f7a0b82dffc2973a8a55293f7188",
+  "changes": {
+    "ADD": [
+      "core-001-business-purpose",
+      "core-002-accountable-owner",
+      "core-003-ai-system-determination",
+      "core-004-system-boundary",
+      "core-005-predictive-capability",
+      "core-006-generative-capability",
+      "core-007-agentic-capability",
+      "core-008-users-affected-people",
+      "core-009-personal-data-involvement",
+      "core-010-eu-ai-act-scope",
+      "core-011-prohibited-practice-screening",
+      "core-012-automated-decision-trigger",
+      "core-013-high-risk-ai-classification"
+    ],
+    "NOOP": [
+      "risk-005-prompt-injection-threat-model",
+      "risk-009-misinformation-overreliance"
+    ],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "legal-001-ai-act-classification-record",
+      "legal-002-fria-trigger",
+      "legal-003-dpia-ai-processing",
+      "legal-004-automated-decision-safeguards"
+    ]
+  },
+  "integration": "deterministic-overlay-after-approval",
+  "proposal_id": "questionnaire-foundation-lot-011",
+  "published": true,
+  "review_sequence": [
+    "questionnaire-reviewer",
+    "vault-reviewer",
+    "human-approval"
+  ],
+  "schema_version": 1,
+  "status": "INTEGRATED"
+}

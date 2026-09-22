@@ -1,0 +1,45 @@
+{
+  "assembly_rule": "Retain prior rows; add only SRC-0043 VERIFIED verdicts; derive evidence_ref from canonical source/hash/locator/unit-content-hash/claim identity; sort deterministically by source, numeric locator and evidence_ref.",
+  "classification_event_id": "CLS-BDD96D5F37B77E8CD3C4",
+  "counts": {
+    "candidates": 30,
+    "rejected_excluded": 4,
+    "usable_for_binding_added": 18,
+    "verified_added": 26,
+    "verified_registry_total": 96
+  },
+  "inputs": {
+    "assignment_receipt": {
+      "path": "evidence/assignments/SRC-0043-assignment.json",
+      "sha256": "90cf818e08504dfc47d06eab5a773404c178e20c59227ada9ff5504540ccf7ed"
+    },
+    "audit_receipt": {
+      "path": "evidence/audits/SRC-0043-audit.json",
+      "sha256": "661be71e60bdb8a8cfd7cbcdedf160f90edf3563c540c08b1a50c7226a52b570"
+    },
+    "extraction_receipt": {
+      "path": "evidence/extractions/SRC-0043-extraction.json",
+      "sha256": "515efa6618711f913301567fc1952232f7336b442bc405093fe5b4241aa61021"
+    },
+    "fidelity_receipt": {
+      "path": "evidence/SRC-0043-fidelity.json",
+      "sha256": "e2286cbb68903e5e04fe947be230f1e5454d6f23991e214fe32d680d7d31dbdc"
+    }
+  },
+  "prior_verified_evidence_sha256": "3a37ed10fbf33e3e5bf868a98186c697bdc7f61369163e5ea2064cbbb1a9a158",
+  "proposal_id": "wave-2-ai-act-gate-lot-012",
+  "rejected_candidate_ids": [
+    "w2-012-src-0043-ec-014",
+    "w2-012-src-0043-ec-015",
+    "w2-012-src-0043-ec-029",
+    "w2-012-src-0043-ec-030"
+  ],
+  "schema_version": 1,
+  "source_classification": "BINDING",
+  "source_id": "SRC-0043",
+  "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+  "stage": "VERIFIED_EVIDENCE_ASSEMBLY",
+  "status": "ASSEMBLED",
+  "verified_evidence_path": "evidence/verified-evidence.jsonl",
+  "verified_evidence_sha256": "ff9a7b2e148b9bdb9175d86227373c74e681210abf4a14b81f624f3945428ed7"
+}

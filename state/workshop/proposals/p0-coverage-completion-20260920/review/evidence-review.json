@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "evidence_lock_sha256": "4d0ee7c9a750f4b1da819f290f72cd71daa8128d8c494a02667e9d465b49a553",
+  "reviewer_identity": "codex-p0-coverage-independent-evidence-reviewer",
+  "reviewed_at": "2026-09-20T00:00:00+00:00",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "RECEIPT_AND_UNIT_HASHES_VERIFIED",
+      "detail": "The release-local receipt resolves 96 unique references to validated ingest units with exact source, unit and fidelity hashes."
+    },
+    {
+      "severity": "INFO",
+      "code": "P0_SCOPE_COVERED",
+      "detail": "Eighteen substantive future-vault notes and four questions are bound to reviewed evidence; two index cells are navigation-only."
+    },
+    {
+      "severity": "WARNING",
+      "code": "CONDITIONAL_GDPR_SCOPE",
+      "detail": "The 7 direct GDPR candidates are bound only under personal-data applicability; 4 adjacent GDPR pages remain context and cannot establish general data quality."
+    },
+    {
+      "severity": "WARNING",
+      "code": "NO_ACTIVE_PUBLICATION",
+      "detail": "No active vault, source or ingest file is changed by this candidate; human approval remains required."
+    }
+  ]
+}

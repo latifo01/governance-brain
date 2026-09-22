@@ -1,0 +1,241 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 0,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "AI_SECURITY",
+    "THIRD_PARTIES_SUPPLY_CHAIN"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 19
+    },
+    "native_unit_count": 19,
+    "normalized_unit_count": 19,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 19,
+    "unit_count": 19
+  },
+  "relative_source_paths": [
+    "sources/03_CoSAI/CoSAI agentic-identity-and-access-control.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0031",
+  "source_kind": "document",
+  "source_sha256": "9f7f5988eb6db46576732f579dd81ac75e4e05bdf7a06eb4cebd32eedf4be872",
+  "units": [
+    {
+      "content_sha256": "9f0351e7f486b5eff1dbb1603f79beeed658dd06df3fac21206a0b9f649f4adf",
+      "file_sha256": "7fb43af2dc4a32d49c5738d6ec3aada23eba50cccddfc6e24c4c87c7432f140f",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "03269476ba8c5251b4c2457f80a40cbec463a5f3d7bc573f778783ca0a49c490",
+      "file_sha256": "6231f12f45a0c82fbe491109315be46bf7b49d205cfb476ea8bed5e53ebda91f",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "8db7911b5f297e0458eea2f0de644be3de88605d949316e8d5647e86940e4981",
+      "file_sha256": "ff3b44fd9976220d3bb4ff4ef1a8a5d582c95b32cab18b08ad68e669676d587e",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "3179620b5ae18482cf2b744653dc940b9ef6ae5b1b0a0c480fce413b93a11529",
+      "file_sha256": "af9ce17eed46704973785b46c1ea60008afb043e4edcab6c06dba21f9308dd94",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "88d8c31cf209f46514c0619e81ff223479297b461247f9fc6b1440909860e762",
+      "file_sha256": "4c74da3d391d166b799f07853d751c685443ff21849e51b1d0d75625349f45bd",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "ee2bf1bda188f4e0b0f4ec497c115fe7c1752b50f6a1c528003e8514634f4634",
+      "file_sha256": "bd032eeac1f4333f0f8052ac0550a073f4d8ec2901cff1d2192b4c24adbc37b6",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "8ab89a299470f0a3aae2fb0c4690dfb419371443ca48dfa28ee2b9c4154bc5d4",
+      "file_sha256": "4ed6fb4169e10e2dc40349e9f402ca55cbdce38b57bdb6e5660c994978e53d7e",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "48149cc378c829b178a44bfc21255c81a60ba4e2ee95fb52a6405e5369525046",
+      "file_sha256": "ef123e19882961e002fca74819fe8678d918f8d2c41c0166837c68a8f4543151",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "658ffed1c9ca01d7d625ca0c0622a635b33713cb1e8a19b9fc505e4723a3adaa",
+      "file_sha256": "afce05ebcab70cb5d6ce8a20bf5f77b03cc81a86c276a67138fc2fce415d94c3",
+      "filename": "units/p0009.md",
+      "index": 9,
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "11b21acfedf1e984c72925da6e56a6e0eb6548bdcfca1d9562abb00920fe0407",
+      "file_sha256": "4f03cf7e3df0b9de838adc7f7c06c90f492773d49cb58a0fcedbdfd4be223642",
+      "filename": "units/p0010.md",
+      "index": 10,
+      "locator": "Page 10",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "acc59c4a1861c2edb91a348e46b37297e3db606d9ac33fc76097b5c84a7163f7",
+      "file_sha256": "91d6133bc20a20d14cac5fbf1d4ebb89ec4ecedaaf7b0dfbc7ac6b1da5e525d4",
+      "filename": "units/p0011.md",
+      "index": 11,
+      "locator": "Page 11",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "01077fd7866f7252bae852b67978718b99eefa842bbc94ebd3ec707ae1b0496d",
+      "file_sha256": "be7cb41a2cc78f9aac22a21834d1361452ad417f73413f79a68850bd97e9327a",
+      "filename": "units/p0012.md",
+      "index": 12,
+      "locator": "Page 12",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "a097c8e671cfc018b50b660a7545590940a521f8dfba2f62e8047bf2540a92c2",
+      "file_sha256": "0baba6ec002710bebb4f80302f4c021828827c915c0a5cb2622fff651d152bf4",
+      "filename": "units/p0013.md",
+      "index": 13,
+      "locator": "Page 13",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "b05421cf9b9c2fe944dbe0693edf02f1418ca74249a3012103fd8ea7f0c506d8",
+      "file_sha256": "38aa246199dd4c6e260014e2179e85edd6ccf35e4b24a8ed4f048f3c42495180",
+      "filename": "units/p0014.md",
+      "index": 14,
+      "locator": "Page 14",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "8c4c3228ed7e3f6bd538d55c2be161a9442a25a56f42dbb191c08867b9ea4ddd",
+      "file_sha256": "b0867c1de8a57f9212ddeb4266dd848d8c6ccefe21b72140dd626e8c124cf50c",
+      "filename": "units/p0015.md",
+      "index": 15,
+      "locator": "Page 15",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "825469e1da1de7f3130a25e07f9c92c77aa103102b7f4027593022e6926211aa",
+      "file_sha256": "8ffe82bf362eea49a0c2579159fab6ea6a72af10a619d1f3ecefc3bf94dd3449",
+      "filename": "units/p0016.md",
+      "index": 16,
+      "locator": "Page 16",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "24866da0c3305d8a8eb5f1e999ec8929104d3383a86521e67270eb85a3e3bd36",
+      "file_sha256": "2a21a07ff87be2a457ab67d8d7e1a3790747651d08d577fbc39a387289449091",
+      "filename": "units/p0017.md",
+      "index": 17,
+      "locator": "Page 17",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "41edb2d3e3111c4a257a227167d6cddd5ecc4f2485fd66a4a77dc13f87f4d67b",
+      "file_sha256": "91615ff10fcfa2e8507ddcc5b0f036b26abc546e87a17eed34b1fc2ec425ed22",
+      "filename": "units/p0018.md",
+      "index": 18,
+      "locator": "Page 18",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "c84308fbc574cbf9093b3efb6c26c2a6e239ea7082a2d69a90273e758e8f441e",
+      "file_sha256": "5479e92c733a311aa0740f6107917799d9587c6a9b0b339aebe4b47b542b2853",
+      "filename": "units/p0019.md",
+      "index": 19,
+      "locator": "Page 19",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 48029,
+      "native_unit_count": 19,
+      "normalized_unit_count": 19
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

@@ -1,0 +1,33 @@
+{
+  "candidate_sha256": "685ae2662fb43c82180e4f2853bf799699fc478f0b38674e76e5cdd1fa16efaf",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "8aa02eecc411dafe78b1b146da49e14a3302444bc838b84856823228fcd67800"
+  },
+  "files": [
+    {
+      "path": "indexes/ai-act-index.md",
+      "proposal_id": "orphan-link-repair-20260920",
+      "sha256": "7a05d6f587f9f5b7b828701764dd675ee537bcd13f8fb7e113ecb39fc37c972a"
+    },
+    {
+      "path": "indexes/data-protection-index.md",
+      "proposal_id": "orphan-link-repair-20260920",
+      "sha256": "674ac2cd2814ee6da89f53b8c7c1120798fcef190744fcaf3af45477e8d4fb2a"
+    },
+    {
+      "path": "indexes/risk-index.md",
+      "proposal_id": "orphan-link-repair-20260920",
+      "sha256": "86f99ff264289d5b29d0ca73c24aa7dccdb6e330461ad12d296afda86be6a8b4"
+    }
+  ],
+  "materialized_files": 3,
+  "notes": 148,
+  "proposal_ids": [
+    "orphan-link-repair-20260920"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

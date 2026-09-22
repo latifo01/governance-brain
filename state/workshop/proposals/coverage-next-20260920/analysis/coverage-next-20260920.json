@@ -1,0 +1,870 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-next-20260920",
+  "status": "PROPOSED",
+  "publish": false,
+  "human_approval_required": true,
+  "active_vault_changes": false,
+  "source_changes": false,
+  "ingest_changes": false,
+  "coverage_register_changes": false,
+  "domain_pack_activation": false,
+  "contract_changes": false,
+  "objective": "Prioritise all 20 P0 SOURCE_GAP cells for taxonomy/source discovery and define one bounded P1 navigation sub-lot where reviewed evidence is sufficient. This analysis does not publish, activate domains, or mark cells COMPLETE.",
+  "inputs": {
+    "coverage_review": {
+      "path": "state/workshop/proposals/coverage-criteria-review-20260919/analysis/coverage-criteria-review.json",
+      "sha256": "cb3452d8ddac8388f39a1d3d9f599cc1afa57cebdbabfeb8e41dccdd52170a05"
+    },
+    "coverage_matrix": {
+      "path": "state/derived/brain/coverage-matrix.json",
+      "sha256": "08d9f90f6eca23440b9481a03ac38bfd0f93ab3d24885d70990f69eefb7b0251"
+    },
+    "coverage_register": {
+      "path": "state/workshop/coverage/coverage-register.json",
+      "sha256": "8638b15c5c904703611fdee5c58b9c3e47d5694e39fda1da55f0953cf6f26d5c"
+    },
+    "catalogue": {
+      "path": "state/derived/brain/catalogue.json",
+      "sha256": "baa8951930720bb6057627a353a8ab11c9dd4ddd2381cab9d19dbbb6719e91ac"
+    },
+    "evidence_index": {
+      "path": "state/derived/brain/evidence-index.json",
+      "sha256": "b810d584362d92e71236291753a0400a00eaa7600dd529d03cf49b84dbc2a293"
+    },
+    "taxonomy_change_set": {
+      "path": "state/workshop/proposals/roadmap-parallel-20260919/source-gaps/source-gap-taxonomy-change-set.json",
+      "sha256": "2ba15a4ffbb1c743961fd40d781d389bf8c192923e5c8a11055be0e7bb129b64"
+    },
+    "taxonomy_validation": {
+      "path": "state/workshop/proposals/roadmap-parallel-20260919/source-gaps/validation-report.json",
+      "sha256": "163933ed9780efd97af62113b61012d09256b882bd381cd4cd97091bd6f71a53"
+    }
+  },
+  "method": {
+    "p0_selection": "Exactly the 20 cells with triage status SOURCE_GAP and priority P0 in the audited 150-cell review.",
+    "taxonomy_gate": "Use the reviewed taxonomy decision set as routing input only; keep all five candidate Domain Pack activations DEFERRED.",
+    "source_discovery_gate": "No new note, question, claim, source or ingest unit is constructed until source families, applicability, currentness and locators are independently reviewed.",
+    "p1_selection": "Select only existing domain-index navigation cells where the prior audit specifies ADD_OR_REVIEW_DOMAIN_INDEX_NAVIGATION and reviewed target material exists.",
+    "evidence_rule": "Reviewed evidence supports routing and bounded navigation assessment; it does not establish completion or approval.",
+    "completion_rule": "No cell is COMPLETE, HUMAN_REVIEW or APPROVED. Future publication requires a v3 release, independent review and hash-bound human approval.",
+    "confidentiality": "Only IDs, hashes, paths, locators/counts and status values are emitted; no source text or project answers are copied."
+  },
+  "p0_source_discovery": {
+    "cell_count": 20,
+    "pillars": [
+      "ai-strategy-value",
+      "data-governance-quality"
+    ],
+    "taxonomy_candidates": [
+      {
+        "id": "AI_STRATEGY_VALUE",
+        "category": "SUBDOMAIN",
+        "parent_domains": [
+          "AI",
+          "PROCESS"
+        ],
+        "cross_routes": [
+          "GOVERNANCE_ACCOUNTABILITY",
+          "MODEL_RISK"
+        ],
+        "activation": "DEFERRED",
+        "next_release": "strict-ai-strategy-value-001"
+      },
+      {
+        "id": "DATA_GOVERNANCE_QUALITY",
+        "category": "SUBDOMAIN",
+        "parent_domains": [
+          "AI",
+          "MODEL_RISK"
+        ],
+        "cross_routes": [
+          "DATA_PRIVACY",
+          "TRANSPARENCY_DISCLOSURE",
+          "AUDIT_ASSURANCE"
+        ],
+        "activation": "DEFERRED",
+        "next_release": "strict-data-governance-quality-001"
+      }
+    ],
+    "cells": [
+      {
+        "cell_id": "ai-strategy-value:definition_scope_terminology",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "definition_scope_terminology",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Identify independently reviewed definitions and scope for the pillar without creating a new active domain.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:roles_decisions",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "roles_decisions",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Identify evidence for accountable ownership, decision rights and escalation relevant to the pillar.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:risks_impacts",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "risks_impacts",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Identify evidence for risks, impacts, affected parties and applicability boundaries.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:lifecycle_controls",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "lifecycle_controls",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Identify evidence for lifecycle gates, change triggers, release, rollback or retirement controls.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:evidence_artifacts",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "evidence_artifacts",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Identify evidence-backed artefacts and records that can be requested or verified.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:metrics_monitoring_incidents",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "metrics_monitoring_incidents",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Identify measurable indicators, monitoring cadence, incidents and remediation evidence.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:exceptions_conflicts",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "exceptions_conflicts",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Identify exceptions, jurisdiction, effective dates and conflicting requirements.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:questionnaire_coverage",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "questionnaire_coverage",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "TAXONOMY_AND_EVIDENCE_GATE",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Map existing questions first; propose new questions only after evidence and taxonomy review.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:source_provenance",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "source_provenance",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "TAXONOMY_AND_PROVENANCE_GATE",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Bind source families, units and locators before criterion synthesis.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "ai-strategy-value:domain_index_links",
+        "pillar_id": "ai-strategy-value",
+        "criterion": "domain_index_links",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "TAXONOMY_GATE",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "AI_STRATEGY_VALUE",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "PROCESS"
+          ],
+          "cross_routes": [
+            "GOVERNANCE_ACCOUNTABILITY",
+            "MODEL_RISK"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-ai-strategy-value-001"
+        },
+        "discovery_objective": "Defer navigation changes until the route is approved and target notes are stable.",
+        "source_gap_reason": "Retain the candidate as a governed subdomain route under AI/PROCESS. Do not add a new Domain Pack until evidence for value governance and portfolio decisions is independently reviewed."
+      },
+      {
+        "cell_id": "data-governance-quality:definition_scope_terminology",
+        "pillar_id": "data-governance-quality",
+        "criterion": "definition_scope_terminology",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Identify independently reviewed definitions and scope for the pillar without creating a new active domain.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:roles_decisions",
+        "pillar_id": "data-governance-quality",
+        "criterion": "roles_decisions",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Identify evidence for accountable ownership, decision rights and escalation relevant to the pillar.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:risks_impacts",
+        "pillar_id": "data-governance-quality",
+        "criterion": "risks_impacts",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Identify evidence for risks, impacts, affected parties and applicability boundaries.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:lifecycle_controls",
+        "pillar_id": "data-governance-quality",
+        "criterion": "lifecycle_controls",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Identify evidence for lifecycle gates, change triggers, release, rollback or retirement controls.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:evidence_artifacts",
+        "pillar_id": "data-governance-quality",
+        "criterion": "evidence_artifacts",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Identify evidence-backed artefacts and records that can be requested or verified.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:metrics_monitoring_incidents",
+        "pillar_id": "data-governance-quality",
+        "criterion": "metrics_monitoring_incidents",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Identify measurable indicators, monitoring cadence, incidents and remediation evidence.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:exceptions_conflicts",
+        "pillar_id": "data-governance-quality",
+        "criterion": "exceptions_conflicts",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "SOURCE_DISCOVERY",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Identify exceptions, jurisdiction, effective dates and conflicting requirements.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:questionnaire_coverage",
+        "pillar_id": "data-governance-quality",
+        "criterion": "questionnaire_coverage",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "TAXONOMY_AND_EVIDENCE_GATE",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Map existing questions first; propose new questions only after evidence and taxonomy review.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:source_provenance",
+        "pillar_id": "data-governance-quality",
+        "criterion": "source_provenance",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "TAXONOMY_AND_PROVENANCE_GATE",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Bind source families, units and locators before criterion synthesis.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      },
+      {
+        "cell_id": "data-governance-quality:domain_index_links",
+        "pillar_id": "data-governance-quality",
+        "criterion": "domain_index_links",
+        "recorded_pillar_status": "SOURCE_GAP",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "SOURCE_GAP",
+        "priority": "P0",
+        "gate": "TAXONOMY_GATE",
+        "next_action": "SOURCE_DISCOVERY_AND_TAXONOMY_REVIEW",
+        "constructible_now": false,
+        "completion_prohibited": true,
+        "taxonomy_route": {
+          "candidate_id": "DATA_GOVERNANCE_QUALITY",
+          "category": "SUBDOMAIN",
+          "parent_domains": [
+            "AI",
+            "MODEL_RISK"
+          ],
+          "cross_routes": [
+            "DATA_PRIVACY",
+            "TRANSPARENCY_DISCLOSURE",
+            "AUDIT_ASSURANCE"
+          ],
+          "activation": "DEFERRED",
+          "next_release": "strict-data-governance-quality-001"
+        },
+        "discovery_objective": "Defer navigation changes until the route is approved and target notes are stable.",
+        "source_gap_reason": "Retain as a subdomain route spanning AI and MODEL_RISK, with explicit cross-routing to DATA_PRIVACY. Preserve existing note and question IDs; extend them only through a reviewed release."
+      }
+    ],
+    "exit_gates": [
+      "Human taxonomy decision recorded without activating a Domain Pack automatically.",
+      "At least the required independent source families are identified and their validated Markdown units are inventoried.",
+      "A strict evidence lock binds source/unit hashes and locators for any claim-bearing construction.",
+      "Question and index changes remain downstream of evidence review."
+    ]
+  },
+  "p1_bounded_navigation": {
+    "release_candidate_id": "coverage-p1-index-navigation-001",
+    "cell_count": 2,
+    "scope": "Existing index navigation only; no new knowledge or questions.",
+    "cells": [
+      {
+        "cell_id": "operational-resilience-incidents:domain_index_links",
+        "pillar_id": "operational-resilience-incidents",
+        "criterion": "domain_index_links",
+        "recorded_pillar_status": "EVIDENCE_READY",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "EVIDENCE_READY",
+        "priority": "P1",
+        "bounded_release_id": "coverage-p1-index-navigation-001",
+        "bounded_action": "REVIEW_AND_ASSEMBLE_EXISTING_INDEX_LINKS",
+        "constructible_now": false,
+        "bounded_candidate": true,
+        "completion_prohibited": true,
+        "index_candidates": [
+          "risk-index",
+          "questionnaires-index"
+        ],
+        "target_note_ids": [
+          "ai-incident-response-resilience"
+        ],
+        "target_question_ids": [
+          "gov-003-incident-and-abnormal-behaviour-records",
+          "ori-001-ai-incident-response-playbook",
+          "ori-002-recovery-validation-and-lessons-learned"
+        ],
+        "evidence_basis": {
+          "reviewed_receipt_ids": [
+            "operations-assurance-028"
+          ],
+          "reviewed_source_ids": [
+            "SRC-0028",
+            "SRC-0041"
+          ],
+          "current_reviewed_binding_count": 6,
+          "criterion_relevant_reviewed_binding_count": 2,
+          "target_notes": [
+            {
+              "id": "ai-incident-response-resilience",
+              "path": "brain wiki/AI Risk Mitigations/ai-incident-response-resilience.md",
+              "sha256": "011d546ab6348a25a39ad79aacbda213aba3eae56af57cbf4e1aa03648aa600b"
+            }
+          ]
+        },
+        "sufficiency": {
+          "for_bounded_navigation": true,
+          "for_new_knowledge_or_questions": false,
+          "reason": "The operational-resilience note and three related questions have reviewed evidence; the remaining bounded work is semantic navigation review."
+        },
+        "constraints": [
+          "No new note or question content in this sub-lot.",
+          "Use only existing IDs and meaningful links.",
+          "Do not activate a Domain Pack or infer a legal obligation.",
+          "Deterministic integration and independent review remain required before publication."
+        ],
+        "acceptance_checks": [
+          "All target IDs exist in the current catalogue.",
+          "Every proposed link has a semantic relationship and stable target ID.",
+          "Index and question registry validators pass after any future approved integration.",
+          "Candidate hash and review receipt are recorded before human approval."
+        ]
+      },
+      {
+        "cell_id": "third-parties-supply-chain:domain_index_links",
+        "pillar_id": "third-parties-supply-chain",
+        "criterion": "domain_index_links",
+        "recorded_pillar_status": "EVIDENCE_READY",
+        "matrix_status": "UNASSESSED",
+        "triage_status": "EVIDENCE_READY",
+        "priority": "P1",
+        "bounded_release_id": "coverage-p1-index-navigation-001",
+        "bounded_action": "REVIEW_AND_ASSEMBLE_EXISTING_INDEX_LINKS",
+        "constructible_now": false,
+        "bounded_candidate": true,
+        "completion_prohibited": true,
+        "index_candidates": [
+          "risk-index",
+          "questionnaires-index"
+        ],
+        "target_note_ids": [
+          "ai-agent-identity-and-access-control",
+          "ai-supply-chain-governance",
+          "mcp-and-agent-tool-governance",
+          "third-party-ai-assurance-and-shared-responsibility"
+        ],
+        "target_question_ids": [
+          "gov-007-third-party-ai-assurance",
+          "risk-012-ai-supply-chain-inventory",
+          "risk-013-agent-identity-and-access",
+          "risk-014-mcp-tool-governance"
+        ],
+        "evidence_basis": {
+          "reviewed_receipt_ids": [
+            "security-third-party-lot-031"
+          ],
+          "reviewed_source_ids": [
+            "SRC-0023",
+            "SRC-0024",
+            "SRC-0025",
+            "SRC-0028",
+            "SRC-0029",
+            "SRC-0032",
+            "SRC-0034",
+            "SRC-0035",
+            "SRC-0044",
+            "SRC-0046"
+          ],
+          "current_reviewed_binding_count": 17,
+          "criterion_relevant_reviewed_binding_count": 0,
+          "target_notes": [
+            {
+              "id": "ai-agent-identity-and-access-control",
+              "path": "brain wiki/AI Risk Mitigations/ai-agent-identity-and-access-control.md",
+              "sha256": "3797aad6de503ad79d21ef9b27e073d28cfafed09399b31680a13f70ef424d0a"
+            },
+            {
+              "id": "ai-supply-chain-governance",
+              "path": "brain wiki/AI Risk Mitigations/ai-supply-chain-governance.md",
+              "sha256": "748a87b43850509a9c74bd86ad96ca9b5f6fada9e4acde32e69815d08d0f9e13"
+            },
+            {
+              "id": "mcp-and-agent-tool-governance",
+              "path": "brain wiki/AI Risk Mitigations/mcp-and-agent-tool-governance.md",
+              "sha256": "e8cb9c6963992acbd8f5e51c0f31e41453b5034442a07025c693d559a44dc001"
+            },
+            {
+              "id": "third-party-ai-assurance-and-shared-responsibility",
+              "path": "brain wiki/AI Risk Mitigations/third-party-ai-assurance-and-shared-responsibility.md",
+              "sha256": "7130817ae93ef95cb43359094a0242fcca9e18aa0179619e4e347f4bfba8b46c"
+            }
+          ]
+        },
+        "sufficiency": {
+          "for_bounded_navigation": true,
+          "for_new_knowledge_or_questions": false,
+          "reason": "The supply-chain and agent-control notes/questions have reviewed evidence; navigation can be bounded to existing concepts without introducing new claims."
+        },
+        "constraints": [
+          "No new note or question content in this sub-lot.",
+          "Use only existing IDs and meaningful links.",
+          "Do not activate a Domain Pack or infer a legal obligation.",
+          "Deterministic integration and independent review remain required before publication."
+        ],
+        "acceptance_checks": [
+          "All target IDs exist in the current catalogue.",
+          "Every proposed link has a semantic relationship and stable target ID.",
+          "Index and question registry validators pass after any future approved integration.",
+          "Candidate hash and review receipt are recorded before human approval."
+        ]
+      }
+    ],
+    "exit_gates": [
+      "All target notes/questions exist and retain stable IDs.",
+      "Only semantically justified links are proposed.",
+      "Independent release review and deterministic validation pass.",
+      "Human approval is recorded before any active-vault integration."
+    ]
+  },
+  "summary": {
+    "p0_cells": 20,
+    "p0_pillars": 2,
+    "p1_bounded_cells": 2,
+    "p1_bounded_release": "coverage-p1-index-navigation-001",
+    "domain_packs_activated": 0,
+    "complete_cells_emitted": 0,
+    "publication": false
+  },
+  "invariants": {
+    "exactly_20_p0_cells": true,
+    "p0_only_two_pillars": true,
+    "exactly_two_p1_cells": true,
+    "all_targets_exist": true,
+    "no_domain_pack_activation": true,
+    "no_complete_status": true,
+    "no_mutation_scopes": true
+  },
+  "candidate_sha256": "5bd5d78627db7e13cf29b6bec8fc1ba704e99682fd9cff63d108853067bdfe9f"
+}

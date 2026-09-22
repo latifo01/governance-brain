@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "proposal_id": "coverage-state-p0-20260920",
+  "status": "INTEGRATED",
+  "candidate_sha256": "61b7c7e46b1448fe4ce0e0fbebb58b34c3589172f301105304764f07f249b975",
+  "scope": "coverage-register programme state only",
+  "risk_tier": "strict",
+  "human_approval_required": true,
+  "active_vault_files_to_modify_after_approval": [],
+  "source_files_to_modify": [],
+  "ingest_files_to_modify": [],
+  "derived_files_to_modify": [],
+  "coverage_register_files_to_modify_after_approval": [
+    "state/workshop/coverage/coverage-register.json"
+  ],
+  "inputs": {
+    "coverage_register": {
+      "path": "state/workshop/coverage/coverage-register.json",
+      "sha256": "8638b15c5c904703611fdee5c58b9c3e47d5694e39fda1da55f0953cf6f26d5c"
+    },
+    "p0_candidate": {
+      "proposal_id": "p0-coverage-completion-20260920",
+      "candidate_sha256": "62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d",
+      "manifest_sha256": "20f85c5c3d0b23d6cd387a632b7e10aa7fa837259d5b24856f7fa47e8ede7c51",
+      "evidence_lock_sha256": "4d0ee7c9a750f4b1da819f290f72cd71daa8128d8c494a02667e9d465b49a553",
+      "coverage_map_sha256": "e190e198cc1708599d8717016ec53c55a1e8ae087005271d1881441d8d9a9bf8",
+      "integration_report_sha256": "3ce22ca6f5d2f8a472200159e7ad0bf25f4213db8e6e9ddeae5185952ffa9a1b",
+      "integration_report_path": "state/workshop/proposals/p0-coverage-completion-20260920/review/integration-report.json"
+    },
+    "active_catalogue": {
+      "path": "state/derived/brain/catalogue.json",
+      "sha256": "baa8951930720bb6057627a353a8ab11c9dd4ddd2381cab9d19dbbb6719e91ac"
+    },
+    "active_coverage_matrix": {
+      "path": "state/derived/brain/coverage-matrix.json",
+      "sha256": "08d9f90f6eca23440b9481a03ac38bfd0f93ab3d24885d70990f69eefb7b0251"
+    }
+  },
+  "target_sha256": "1797f31dbbd6e2bfbafdda22cd17b12a236864e5b9ae33ed3cb3376fee423f89",
+  "applied": true,
+  "integrated_target_sha256": "1797f31dbbd6e2bfbafdda22cd17b12a236864e5b9ae33ed3cb3376fee423f89",
+  "integrated_candidate_sha256": "61b7c7e46b1448fe4ce0e0fbebb58b34c3589172f301105304764f07f249b975",
+  "integrated_at": "2026-09-20"
+}

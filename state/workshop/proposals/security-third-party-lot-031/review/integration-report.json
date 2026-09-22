@@ -1,0 +1,58 @@
+{
+  "candidate_sha256": "5b750e6cb3a63d6846d8a7fb1a1579ade0917740cb26714b04a613959e161a17",
+  "derived": {
+    "canvas_sha256": "05fbccd19163024f107322e59012dc210dc1a64a5dd416c77c09982ad854a570",
+    "dependencies": 27,
+    "questions": 43,
+    "registry_sha256": "27ad1eb2720206bd2c6b3dcbd99420ec64a127afdb21af61810a17c6c7eb11eb"
+  },
+  "files": [
+    {
+      "path": "AI Risk Mitigations/ai-agent-identity-and-access-control.md",
+      "proposal_id": "security-third-party-lot-031",
+      "sha256": "3797aad6de503ad79d21ef9b27e073d28cfafed09399b31680a13f70ef424d0a"
+    },
+    {
+      "path": "AI Risk Mitigations/ai-supply-chain-governance.md",
+      "proposal_id": "security-third-party-lot-031",
+      "sha256": "748a87b43850509a9c74bd86ad96ca9b5f6fada9e4acde32e69815d08d0f9e13"
+    },
+    {
+      "path": "AI Risk Mitigations/mcp-and-agent-tool-governance.md",
+      "proposal_id": "security-third-party-lot-031",
+      "sha256": "e8cb9c6963992acbd8f5e51c0f31e41453b5034442a07025c693d559a44dc001"
+    },
+    {
+      "path": "AI Risk Mitigations/third-party-ai-assurance-and-shared-responsibility.md",
+      "proposal_id": "security-third-party-lot-031",
+      "sha256": "7130817ae93ef95cb43359094a0242fcca9e18aa0179619e4e347f4bfba8b46c"
+    },
+    {
+      "path": "questions/governance/gov-007-third-party-ai-assurance.md",
+      "proposal_id": "security-third-party-lot-031",
+      "sha256": "11b2167f98b24b5c0a11abdfce507ffd193a4bf0f9bd314a2e687cf66612df03"
+    },
+    {
+      "path": "questions/risk/risk-012-ai-supply-chain-inventory.md",
+      "proposal_id": "security-third-party-lot-031",
+      "sha256": "b6f16b6d4026784e7a0b42d1ccdffb16255037a3b8369da3943d7af435d6f554"
+    },
+    {
+      "path": "questions/risk/risk-013-agent-identity-and-access.md",
+      "proposal_id": "security-third-party-lot-031",
+      "sha256": "7748e45d83f3e707105c040ad6d04ae8ab2b91ed6c830b54b5d180a25fb90608"
+    },
+    {
+      "path": "questions/risk/risk-014-mcp-tool-governance.md",
+      "proposal_id": "security-third-party-lot-031",
+      "sha256": "e80e104c010fdcabab7ce52e99e6a349b82fc3dd9bff8e73d72f6f3398b24278"
+    }
+  ],
+  "materialized_files": 8,
+  "notes": 136,
+  "proposal_ids": [
+    "security-third-party-lot-031"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

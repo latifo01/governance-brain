@@ -1,0 +1,40 @@
+{
+  "author_identity": "opencode-domain-builder",
+  "candidate_sha256": "5c7e83687cc247d715788c6d55e21afd450191e883caededabd606b4e0014b70",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "automatic-decision-making-assessment-adma",
+      "data-protection-authority-dpa",
+      "data-protection-officer-dpo",
+      "data-subject-access-requests",
+      "gdpr",
+      "legitimate-interest"
+    ]
+  },
+  "contains_binding_claims": true,
+  "contains_legal_interpretation": true,
+  "contract_changes": false,
+  "domain": "DATA_PROTECTION",
+  "evidence_changes": true,
+  "files": [
+    "Data & AI Laws/Data Privacy/automatic-decision-making-assessment-adma.md",
+    "Data & AI Laws/Data Privacy/data-protection-authority-dpa.md",
+    "Data & AI Laws/Data Privacy/data-protection-officer-dpo.md",
+    "Data & AI Laws/Data Privacy/data-subject-access-requests.md",
+    "Data & AI Laws/Data Privacy/gdpr.md",
+    "Data & AI Laws/Data Privacy/legitimate-interest.md"
+  ],
+  "proposal_id": "gdpr-lineage-republication-001",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 3,
+  "shards": [
+    "gdpr-lawful-basis-and-adma",
+    "gdpr-rights-and-supervision"
+  ],
+  "status": "INTEGRATED"
+}

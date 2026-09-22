@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "proposal_id": "fria-question-update-20260919",
+  "reviewer_identity": "codex-fria-question-independent-release-reviewer",
+  "reviewed_at": "2026-09-19T23:55:00+02:00",
+  "candidate_sha256": "55926b46e4e0fb2f4970675bf38cd49704f37741ee5166ac8ab54f68854e2139",
+  "evidence_lock_sha256": "56738e57f12cf60fe64aed2cd1d0befa9575e01568bb888442afb949e79adb19",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_VALID",
+      "detail": "The future-vault contains exactly one UPDATE for legal-002-fria-trigger; active identifiers, domains, bilingual fields and dependency structure are preserved."
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The strict evidence lock resolves three reviewed BINDING references through the question-specific receipt."
+    },
+    {
+      "severity": "INFO",
+      "code": "OBSOLETE_CITATIONS_REMOVED",
+      "detail": "The candidate removes the unqualified Page 224 and SRC-0022 references and cites only SRC-0011 Pages 222-223 plus SRC-0043 Page 35."
+    },
+    {
+      "severity": "INFO",
+      "code": "ARTICLE27_113_QUALIFIERS_PRESERVED",
+      "detail": "Applicability is limited to Article 27(1) actor/system gates and the Annex III point 2 exclusion; Article 113 route-dependent timing is explicit."
+    },
+    {
+      "severity": "INFO",
+      "code": "DEPENDENCY_INTACT",
+      "detail": "depends_on remains core-013-high-risk-ai-classification equals high-risk."
+    },
+    {
+      "severity": "INFO",
+      "code": "ACTIVE_VAULT_UNCHANGED",
+      "detail": "Preview mode reports one would-write file and no active-vault write was applied."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This review establishes readiness only; the exact candidate hash must be approved before deterministic integration."
+    }
+  ]
+}

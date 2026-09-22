@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "proposal_id": "fria-article27-completion-20260919",
+  "reviewer_identity": "codex-fria-article27-independent-release-reviewer",
+  "reviewed_at": "2026-09-19T23:30:00+02:00",
+  "candidate_sha256": "cc178c35e0b3e634b7f4832719843a3254f8e58c7d079fcd36f46a09ca776f6a",
+  "evidence_lock_sha256": "e21abde3bd4a91c08fbae82823b05bd9ddcdf5dd46c46181e856fc2011b3ee41",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "The deterministic integration preview reproduces the declared candidate exactly: one UPDATE file, one file to write and 148 notes after integration. No active-vault write was applied.",
+      "candidate_sha256": "cc178c35e0b3e634b7f4832719843a3254f8e58c7d079fcd36f46a09ca776f6a",
+      "files": 1,
+      "would_write": 1,
+      "notes_after_integration": 148
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The evidence lock contains 15 unique Article 27 references and the shared receipt resolves all 15 as REVIEWED with no findings.",
+      "evidence_lock_sha256": "e21abde3bd4a91c08fbae82823b05bd9ddcdf5dd46c46181e856fc2011b3ee41",
+      "library_receipt_sha256": "8f309c22c50da8789a015b48e2e2788598ae0119b9647621d122d679dd9ab18b",
+      "receipt_candidate_sha256": "b7a96026334833ae31f830ea819e532304c96bfffca13866d38422eed823b62d"
+    },
+    {
+      "severity": "INFO",
+      "code": "BINDINGS_EXACT",
+      "detail": "All eight bindings match the future-vault note ID, note SHA-256, section IDs, section SHA-256 values and locked evidence references.",
+      "binding_count": 8,
+      "bindings": [
+        {
+          "section_id": "fundamental-right-impact-assessment-fria:2adcb38de29a4778",
+          "section_sha256": "272e9e93b350d162752bc5453ced7cd76b99bd5b95c203cc83a12a3b946f21fa",
+          "modality": "context",
+          "evidence_refs": [
+            "art27-completion-src-0011-p0222-ec-001",
+            "art27-completion-src-0011-p0222-ec-002",
+            "art27-completion-src-0011-p0222-ec-003",
+            "art27-completion-src-0011-p0223-ec-004",
+            "art27-completion-src-0011-p0223-ec-005",
+            "art27-completion-src-0011-p0223-ec-006",
+            "art27-completion-src-0011-p0223-ec-007",
+            "art27-completion-src-0011-p0223-ec-008",
+            "art27-completion-src-0011-p0223-ec-009",
+            "art27-completion-src-0011-p0223-ec-010",
+            "art27-completion-src-0011-p0223-ec-011",
+            "art27-completion-src-0011-p0223-ec-012"
+          ],
+          "exact": true
+        },
+        {
+          "section_id": "fundamental-right-impact-assessment-fria:3dc6709adf9d11db",
+          "section_sha256": "1eb2072834a5e216c3006974d94f330510e504c72c7e7dc56c3195b99b7eac87",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art27-completion-src-0011-p0222-ec-001",
+            "fria27-amend-src-0043-p0035-ec-001"
+          ],
+          "exact": true
+        },
+        {
+          "section_id": "fundamental-right-impact-assessment-fria:ec6bd93a715ee5c7",
+          "section_sha256": "fa3e209543a69a2a3585c58b045a63f597d3de95bc15aa3cddaeb156b0f6f836",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art27-completion-src-0011-p0222-ec-002",
+            "art27-completion-src-0011-p0222-ec-003",
+            "art27-completion-src-0011-p0223-ec-004",
+            "art27-completion-src-0011-p0223-ec-005",
+            "art27-completion-src-0011-p0223-ec-006",
+            "art27-completion-src-0011-p0223-ec-007"
+          ],
+          "exact": true
+        },
+        {
+          "section_id": "fundamental-right-impact-assessment-fria:ab0ca51091430020",
+          "section_sha256": "2674746d8fcd8e95c831901f72c0e34a8d2cf2bd0fbebbfcf3440d923b3d717e",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art27-completion-src-0011-p0223-ec-008",
+            "art27-completion-src-0011-p0223-ec-009",
+            "art27-completion-src-0011-p0223-ec-010"
+          ],
+          "exact": true
+        },
+        {
+          "section_id": "fundamental-right-impact-assessment-fria:a70f00f4ed03ba6c",
+          "section_sha256": "66082dda99c73b5f2cc8c7c4ec868a64e915edf44da4b84dac180ed5d49bf45a",
+          "modality": "obligation",
+          "evidence_refs": [
+            "art27-completion-src-0011-p0223-ec-011",
+            "art27-completion-src-0011-p0223-ec-012",
+            "fria27-amend-src-0043-p0020-ec-002"
+          ],
+          "exact": true
+        },
+        {
+          "section_id": "fundamental-right-impact-assessment-fria:c9fab3fc5ce7fa29",
+          "section_sha256": "256802ed0362f2ce63e7e553cfb4e6e305a1a1821fe35cef932995e5c0fb8ef6",
+          "modality": "context",
+          "evidence_refs": [
+            "fria27-amend-src-0043-p0020-ec-001"
+          ],
+          "exact": true
+        },
+        {
+          "section_id": "fundamental-right-impact-assessment-fria:adf67901d4ea1919",
+          "section_sha256": "51cc057f19c04718966fc4236cd8e45bc37e06b1c703e04b7e6d5f263c10d733",
+          "modality": "context",
+          "evidence_refs": [
+            "art27-completion-src-0011-p0222-ec-001",
+            "art27-completion-src-0011-p0223-ec-006",
+            "art27-completion-src-0011-p0223-ec-007",
+            "fria27-amend-src-0043-p0035-ec-001"
+          ],
+          "exact": true
+        },
+        {
+          "section_id": "fundamental-right-impact-assessment-fria:57932304c72e9a8e",
+          "section_sha256": "219028499acbca5e283ffe2a0c166aea5cd570825b55bfd4fbb0008968998c64",
+          "modality": "context",
+          "evidence_refs": [
+            "art27-completion-src-0011-p0222-ec-001",
+            "art27-completion-src-0011-p0222-ec-002",
+            "art27-completion-src-0011-p0222-ec-003",
+            "art27-completion-src-0011-p0223-ec-004",
+            "art27-completion-src-0011-p0223-ec-005",
+            "art27-completion-src-0011-p0223-ec-006",
+            "art27-completion-src-0011-p0223-ec-007",
+            "art27-completion-src-0011-p0223-ec-008",
+            "art27-completion-src-0011-p0223-ec-009",
+            "art27-completion-src-0011-p0223-ec-010",
+            "art27-completion-src-0011-p0223-ec-011",
+            "art27-completion-src-0011-p0223-ec-012",
+            "fria27-amend-src-0043-p0020-ec-001",
+            "fria27-amend-src-0043-p0020-ec-002",
+            "fria27-amend-src-0043-p0035-ec-001"
+          ],
+          "exact": true
+        }
+      ]
+    },
+    {
+      "severity": "INFO",
+      "code": "ARTICLE27_GATES_PRESERVED",
+      "detail": "The note preserves the Article 27(1) actor and system gates, Annex III point 2 exclusion, first-use/reuse/update conditions, Article 46(1) notification exception, amended Article 27(4)-(5) coordination and Article 113 route-dependent dates.",
+      "scope": "Article 27(1)-(5), Article 46(1), Article 113"
+    },
+    {
+      "severity": "INFO",
+      "code": "AUTHORITY_BOUNDARY_PRESERVED",
+      "detail": "All 15 locked references are BINDING SRC-0011 or SRC-0043 evidence. The note retains applicability qualifiers and does not assert a universal FRIA obligation or an unverified official AI Office template."
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "The locked references preserve source identifiers, source hashes, validated Markdown paths, unit hashes, locators and fidelity lineage.",
+      "fidelity_receipt": "state/workshop/proposals/fria-article27-completion-20260919/evidence/fidelity-article27-completion.json",
+      "fidelity_sha256": "1c724489f8047926336e711710ea48c1f2bddd6fa1b60757e023d2cb2762b704"
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_AND_LINKS_VALID",
+      "detail": "The future-vault contains exactly the declared UPDATE note. Deterministic overlay validation passes with zero errors and all Obsidian links resolve against the active vault plus overlay.",
+      "file_count": 1,
+      "future_note_sha256": "7c5a4e324359b0a1e9433add77408c4826718e17b653c2fa9527178520f09ab5"
+    },
+    {
+      "severity": "INFO",
+      "code": "ACTIVE_VAULT_UNCHANGED",
+      "detail": "The candidate note hash differs from the active note hash and preview mode reports no write applied; the active vault remains unchanged."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This review establishes readiness only. Human approval must bind the exact candidate SHA-256 before deterministic integration.",
+      "approval_file": "state/workshop/proposals/fria-article27-completion-20260919/review/approval.md"
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_15_REFERENCES",
+    "shared_receipt": "PASS_15_RECORDS_8_BINDINGS",
+    "evidence_review": "PASS_EVIDENCE_READY",
+    "fidelity_review": "PASS_4_UNITS_REVIEWED",
+    "binding_exactness": "PASS_8_OF_8",
+    "article27_gates": "PASS",
+    "authority_boundary": "PASS_BINDING_CLAIMS_SCOPED",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS",
+    "derived_unchanged": "PASS"
+  },
+  "scope": {
+    "manifest_changes": {
+      "ADD": [],
+      "UPDATE": [
+        "fundamental-right-impact-assessment-fria"
+      ],
+      "SUPERSEDE": [],
+      "NOOP": []
+    },
+    "manifest_files": [
+      "AI Risk Mitigations/fundamental-right-impact-assessment-fria.md"
+    ],
+    "target_note_id": "fundamental-right-impact-assessment-fria",
+    "future_vault_file_count": 1,
+    "active_vault_modified": false,
+    "questions_modified": 0,
+    "contract_changes": false
+  },
+  "warnings": [
+    "The candidate contains binding legal claims and remains in the strict lane.",
+    "Article 27 applicability remains conditional on the actor/system gates and Article 113 route dates; it is not a universal FRIA requirement.",
+    "The note does not establish national enforcement procedures, project-specific classification or the content of a future AI Office template beyond the reviewed amendment.",
+    "Human approval is separate from evidence readiness and is still required for this exact candidate hash."
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "review_id": "u02-u04-u05-independent-20260922",
+  "reviewed_at": "2026-09-22",
+  "scope": ["U02 retrieval and evidence qualification", "U04 retrieval evaluation and budget/schema contract", "U05 validated ingest, research, ATLAS derivation and impact metadata"],
+  "method": "Independent read-only implementation, contract, test and benchmark review. No source originals were opened and no active code or derived artefact was written.",
+  "human_approval": "NOT_REQUESTED",
+  "publication_status": "REVIEW_REQUIRED",
+  "technical_verdict": "CONDITIONAL_TECHNICAL_REVIEW",
+  "summary": {
+    "positive_checks": [
+      "Assistance eligibility fails closed for unresolved evidence, blocked lineage, invalid dates, expired review, jurisdiction mismatch, unknown required validity and unsupported modality.",
+      "Obligation and prohibition sections require reviewed evidence with BINDING authority; guidance does not satisfy this gate.",
+      "Validated ingest checks source/document/unit identity, hashes, metadata schema, locator and confined paths; the research and ATLAS paths consume validated Markdown units.",
+      "Context and research packets have separate schemas, explicit modes, bounded budgets and serialized-envelope estimates; repository tests and both benchmark suites passed.",
+      "The ATLAS derivation declares validated_markdown input and does not open immutable source originals."
+    ],
+    "open_findings": 2,
+    "follow_up_gaps": 1
+  },
+  "findings": [
+    {
+      "id": "U04-BENCHMARK-NARROW-EXTENSION",
+      "severity": "WARNING",
+      "status": "OPEN",
+      "area": "U04 benchmark design",
+      "observed": true,
+      "evidence": [
+        "config/brain-evaluation-extension.json:5-12 defines four positive cases for one operational-resilience concept, with three expected-note pairs repeated and one expected-note singleton.",
+        "config/brain-vocabulary.json contains the matching French and English monitoring phrases used by those positive queries.",
+        "The extension command accepted all 8 cases (4/4 positive ready and hit, 4/4 negative, recall@5 1.0)."
+      ],
+      "impact": "The result is valid for the declared engineering probes, but it is not evidence of broad retrieval generalisation. A phrase-targeted extension can pass while other pillars, paraphrases, distractors and unseen terminology remain untested.",
+      "action": "Keep this suite labelled as a probe and add a held-out set spanning multiple pillars, independent query paraphrases and distractor/near-miss notes. Do not use the 1.0 extension result alone as a release-quality generalisation claim."
+    },
+    {
+      "id": "U05-DERIVED-ARTEFACTS-NOT-CURRENT",
+      "severity": "WARNING",
+      "status": "OPEN",
+      "area": "U05 deterministic derivation",
+      "observed": true,
+      "evidence": [
+        "gov360 brain build --check exited 1 with current=false, written=0, llm_calls=0 and five changed derived paths: state/derived/brain/catalogue.json, coverage-matrix.json, reconciliation.json, baseline.json and report.md.",
+        "The same check reported valid=true, evidence_findings=0, source_baseline_unchanged=true, 177 notes, 971 sections and catalogue_sha256 2f462fd698086ea08718a2dc588b2ba7af0d84c080d8d6d82002a2369b9430f1."
+      ],
+      "impact": "Validation passes, but the checked-in derived outputs are stale relative to the current deterministic inputs. The review cannot claim a current reproducible NOOP or a release-ready derived catalogue while this gate is red.",
+      "action": "The owning build/release step should regenerate the five derived outputs in its controlled write lane, then rerun gov360 brain build --check and retain a passing current=true result. This review intentionally did not write them."
+    }
+  ],
+  "follow_up_gaps": [
+    {
+      "id": "U02-CLASSIFICATION-EVENT-IDENTITY-GAP",
+      "severity": "INFO",
+      "status": "FOLLOW_UP",
+      "observed": false,
+      "evidence": "src/gov360_brain/brain/evidence.py:65 indexes classification events by source_id without a duplicate/event-order check. Current state classification IDs are unique, so no current failure was observed.",
+      "risk": "If duplicate classification events are introduced, last-row selection is implicit and provenance resolution may be ambiguous.",
+      "action": "Define and test a fail-closed duplicate or explicit event-order policy before allowing multiple classification events per source."
+    }
+  ],
+  "checks": [
+    {
+      "id": "U02-DATES-AUTHORITY-MODALITY",
+      "status": "PASS_WITH_TEST_COVERAGE",
+      "evidence": "retrieval._reason validates ISO dates and timezone-bearing review timestamps, date/applicability intervals, review expiry, optional known-validity mode, and modality authority; tests/test_brain_qualified_context.py covers invalid dates, applicability, expiry, lineage and binding modality. A read-only synthetic gate probe produced: guidance obligation excluded with modality_authority; BINDING obligation retained; expired review excluded; fully dated reviewed evidence retained under require_known_validity.",
+      "limitations": "The synthetic probe is behavioural coverage, not approval of any source or note."
+    },
+    {
+      "id": "U02-LINEAGE-AND-ACCESS",
+      "status": "PASS",
+      "evidence": "evidence.resolve_library and retrieval eligibility require source/unit/locator/hash metadata, reject changed or superseded evidence, enforce fidelity receipts and source classification for BINDING evidence, and apply deny-before-allow source access. Evidence, retrieval and ingest tests passed."
+    },
+    {
+      "id": "U05-NO-ORIGINAL-READS",
+      "status": "PASS",
+      "evidence": "ingest_reader.source_document and validated_unit read the source manifest, ingest document and confined normalized unit only. research validates every unit before ranking. derived.atlas_catalog selects SRC-0046 /objects through those readers and records source provenance as metadata; it does not open the immutable original. Tests cover absent originals, tampering, path escape, non-exhaustive input and normalized JSON handling."
+    },
+    {
+      "id": "U02-U04-CONTEXT-BUDGET-SCHEMA",
+      "status": "PASS_WITH_DECLARED_ESTIMATE",
+      "evidence": "brain-context schema v3 and brain-research schema v1 were reviewed. build_context and research enforce explicit modes and minimum budgets, settle bounded serialized envelopes, and expose estimate method and data policy. The focused suite passed 52 tests; reference evaluation passed 45/45 (30/30 positive hits, 15/15 negatives); extension evaluation passed 8/8.",
+      "limitations": "The implementation declares a tokenizer-independent UTF-8-bytes-divided-by-four estimate, not an exact provider tokenizer count."
+    },
+    {
+      "id": "U05-IMPACT-METADATA",
+      "status": "PASS",
+      "evidence": "impact requires exactly one source/evidence/receipt selector, reports unresolved references and affected metadata, and explicitly states that dependency impact is not approval."
+    }
+  ],
+  "commands": [
+    {
+      "command": "uv --cache-dir /tmp/u02-u04-u05-uv-cache run --offline --no-sync pytest -q tests/test_brain_retrieval.py tests/test_brain_evidence.py tests/test_brain_evidence_qualification.py tests/test_brain_research.py tests/test_brain_ingest_reader.py tests/test_brain_impact.py tests/test_brain_catalogue.py",
+      "exit_code": 0,
+      "result": "52 passed"
+    },
+    {
+      "command": "uv --cache-dir /tmp/u02-u04-u05-uv-cache run --offline --no-sync gov360 brain evaluate",
+      "exit_code": 0,
+      "result": "accepted=true; reference 45 scenarios; positives 30/30 hits; negatives 15/15; recall@5=1.0"
+    },
+    {
+      "command": "uv --cache-dir /tmp/u02-u04-u05-uv-cache run --offline --no-sync gov360 brain evaluate --suite extension",
+      "exit_code": 0,
+      "result": "accepted=true; extension 8 scenarios; positives 4/4 hits; negatives 4/4; recall@5=1.0"
+    },
+    {
+      "command": "uv --cache-dir /tmp/u02-u04-u05-uv-cache run --offline --no-sync gov360 brain status",
+      "exit_code": 0,
+      "result": "valid=true; evidence_findings=0; notes=177; sections=971; reviewed_sections=514; sources=47; orphan_knowledge=0"
+    },
+    {
+      "command": "uv --cache-dir /tmp/u02-u04-u05-uv-cache run --offline --no-sync gov360 brain validate",
+      "exit_code": 0,
+      "result": "valid=true; errors=[]; warnings=5; evidence_findings=0"
+    },
+    {
+      "command": "uv --cache-dir /tmp/u02-u04-u05-uv-cache run --offline --no-sync gov360 brain build --check",
+      "exit_code": 1,
+      "result": "valid=true but current=false; written=0; five derived paths changed; see U05-DERIVED-ARTEFACTS-NOT-CURRENT"
+    },
+    {
+      "command": "uv --cache-dir /tmp/u02-u04-u05-uv-cache run --offline --no-sync gov360 brain research 'model monitoring' --allowed-source-ids SRC-0046 --token-budget 6000",
+      "exit_code": 0,
+      "result": "explicit ingest_research packet; one validated unit; estimated_tokens=883; authority=UNKNOWN; evidence_status=UNREVIEWED_RESEARCH; 46 source-access exclusions"
+    }
+  ],
+  "input_hash_inventory": [
+    {"path": "AGENTS.md", "sha256": "6679f1bfdb01ef409368b44aee70974b76d6eb9a0b1d5da99c0b5f085e4e3813"},
+    {"path": "WORKSHOP.md", "sha256": "7ce4f3ed33e92f529987b9789459a5f5bf5eff4c0f0d67cb1a8ff649db491f1e"},
+    {"path": "brain wiki/SCHEMA.md", "sha256": "8e0cefeff7593f306a106a91e1294fe3b06baf45d2fdfe6ff41bdae38bc04923"},
+    {"path": "src/gov360_brain/brain/retrieval.py", "sha256": "6ad2547f1514e7c094983e6500526472860508b8604b01263dba33f5741b111e"},
+    {"path": "src/gov360_brain/brain/evidence.py", "sha256": "dde779a848f482fffb1957218272a8d45feb1ae91dc9120f54e248b5772f1eb5"},
+    {"path": "src/gov360_brain/brain/research.py", "sha256": "e93dc0ac87b1706e82992386429eaa30c756dfdce81cd6cee1b2dfee1ea5dee3"},
+    {"path": "src/gov360_brain/brain/ingest_reader.py", "sha256": "907248c1592f1fbbcec204fd519bd6bbe414e1fa440855eff33c2ea42ff64f22"},
+    {"path": "src/gov360_brain/brain/impact.py", "sha256": "1f4cec4bf3aa976eeaf6927688010aebea03fa6a5b4f6380b7a3702f768310c8"},
+    {"path": "src/gov360_brain/brain/catalogue.py", "sha256": "97f86209ce5e18616fbd848d7860f10e1f62381f3455f66842c328a45927bf1a"},
+    {"path": "src/gov360_brain/brain/common.py", "sha256": "a2dfcec5dc38110cc513db2b74b0a47b8f13aa13aa94d65669993dcae268f6c8"},
+    {"path": "src/gov360_brain/derived.py", "sha256": "b67fdc3fe333f1f80473603f6513a16c1010a458adb6070ae92fb686bea1f696"},
+    {"path": "tests/test_brain_retrieval.py", "sha256": "be23fd644eb013fd7b9046e293f73d75358cb6ae6ff35848a1b37fa4e045847d"},
+    {"path": "tests/test_brain_evidence.py", "sha256": "bf2f558167fa5d95b4198cb07351238d525e97ddee1c53e66604994cb8b7c3a2"},
+    {"path": "tests/test_brain_evidence_qualification.py", "sha256": "d820d66f02e3556f20dd752126c83c880010ebba55936d0c71383196cf8d44c6"},
+    {"path": "tests/test_brain_research.py", "sha256": "5fedba3f382a0fb50ae87bece847ee9434ad542ef2df67baa2ee2a8394e05ded"},
+    {"path": "tests/test_brain_ingest_reader.py", "sha256": "5a43ffdc7c1f537573d20c7911b180300a5563629d497a973bcfb44683c1ee69"},
+    {"path": "tests/test_brain_impact.py", "sha256": "d3e99683c25f77cea3de6a2629defc9f2f7b903f0b3ef7494ac08f6396d06c6d"},
+    {"path": "tests/test_brain_catalogue.py", "sha256": "af7f385f24c13b26b95471a82c4f20b0849cc1d76e62e6cab798178cba64f7f7"},
+    {"path": "tests/test_brain_qualified_context.py", "sha256": "675377cee536f305898f2ecd95a564fe31086c57540238893a503da1b678abc7"},
+    {"path": "config/schemas/brain-context.schema.json", "sha256": "82a37cfe33cb7ac072ab7b397c21272e080973536c6aaddbf65a4a43547729dc"},
+    {"path": "config/schemas/brain-research.schema.json", "sha256": "05ab2d4d79ebdfe7301df503507e75418d51a4f5dcd365f2576e3481fef3c351"},
+    {"path": "config/schemas/brain-evidence.schema.json", "sha256": "c8817f5405444bd6d69e935c1607e43ff8482b551a7059a32071297d0a3cbf30"},
+    {"path": "config/schemas/ingested-unit.schema.json", "sha256": "2092d571f483e5f9f6fb62b2996d3890475fdcfa80f1e570a148b30d24f96b75"},
+    {"path": "config/brain-evaluation.json", "sha256": "540b416c6e31e149a95baf26376aac34c0ebb0ab6ca8fdbe8372d23a1bec8270"},
+    {"path": "config/brain-evaluation-extension.json", "sha256": "6e4e9d53a07cf0c23b39ee797d8ff7ef860c0f544db47c1dd99dc6318e3b033f"},
+    {"path": "config/brain-vocabulary.json", "sha256": "1648e0a4cfe95a88b6c4e834ee09ceb003331deb150d036d15794a8bd63fe593"},
+    {"path": "state/workshop/proposals/plan-execution-20260921/u05-progress.md", "sha256": "62b7269dd6b955112fefd67bc63b7cac38bd9c622a2eea24585e218bfe341429"}
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "proposal_id": "roadmap-parallel-20260919",
+  "workstream": "legal-article27",
+  "stage": "EVIDENCE_AUDIT",
+  "status": "AUDITED_WITH_UNCERTAINTIES",
+  "assignment_path": "state/workshop/proposals/roadmap-parallel-20260919/legal-article27/analysis/assignment.json",
+  "assignment_sha256": "4944abcc46f866374c7761e9296df23b42c5ab6dd152eab4ebd49c350e5edb84",
+  "extraction_receipts": [
+    {
+      "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/extraction-article26-qualifier.json",
+      "sha256": "0a04be4db5ff644794a7407e454a4675320fb754b271be5d75eaa23a09249883",
+      "candidate_count_used": 2
+    },
+    {
+      "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/extraction-currentness-addendum.json",
+      "sha256": "c06a0e0ff64a68378fb3bfe560ed68abdc3a6da3482dc9b5a357a9e18f9252d2",
+      "candidate_count_used": 3
+    },
+    {
+      "path": "state/workshop/proposals/roadmap-article35-strict-20260919/evidence/extraction.json",
+      "sha256": "aa2e3a107355a726e9857bc73b066078b66716975b30237d20d649ca0bac3fd5",
+      "candidate_count_used": 1
+    }
+  ],
+  "authority_verdict": "BINDING_AI_ACT_WITH_CURRENTNESS_AND_COMPLETENESS_LIMITS",
+  "authority_basis": "SRC-0011 is the reviewed base AI Act text and SRC-0043 is a reviewed binding amending act. The amended Article 27(4)-(5) and the Article 113 schedule are usable only with the recorded amendment and route-dependent temporal qualifiers. The available extractor output does not cover Article 27(1)-(3), so no complete FRIA obligation may be published from this audit.",
+  "coverage": {
+    "assigned_source_count": 2,
+    "assigned_unit_count": 6,
+    "candidate_count": 5,
+    "candidate_ids_assigned": [
+      "art27-src-0011-p0220-ec-001",
+      "art27-src-0011-p0224-ec-001",
+      "art27-src-0043-p0020-ec-001",
+      "art27-src-0043-p0020-ec-002",
+      "art27-src-0043-p0035-ec-001"
+    ],
+    "candidate_ids_audited": [
+      "art27-src-0011-p0220-ec-001",
+      "art27-src-0011-p0224-ec-001",
+      "art27-src-0043-p0020-ec-001",
+      "art27-src-0043-p0020-ec-002",
+      "art27-src-0043-p0035-ec-001"
+    ],
+    "verified_count": 4,
+    "uncertain_count": 0,
+    "rejected_count": 1,
+    "omitted": [
+      {
+        "scope": "Article 27(1)-(3)",
+        "units": ["SRC-0011 Page 222", "SRC-0011 Page 223"],
+        "reason": "Validated units are available, but the assigned extractor result contains no candidate records for these operative paragraphs. Direct unit reading cannot substitute for an extractor receipt in this release circuit."
+      }
+    ]
+  },
+  "verdicts": [
+    {
+      "candidate_id": "art27-src-0011-p0220-ec-001",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_WITH_TEMPORAL_QUALIFIER",
+      "finding": "The qualified extractor candidate and Page 220 unit hashes match. The Article 26(9) hand-off to a GDPR Article 35 or Directive (EU) 2016/680 Article 27 assessment is supported, but it remains conditional and does not itself create a universal DPIA or FRIA trigger. The Article 113 route must be retained when used for current AI Act applicability."
+    },
+    {
+      "candidate_id": "art27-src-0011-p0224-ec-001",
+      "status": "REJECTED",
+      "reason_code": "SUPERSEDED_BY_AMENDMENT",
+      "finding": "The Page 224 base candidate is supported as historical base text, but SRC-0043 Page 20 replaces Article 27(4) and (5). It cannot support current binding wording or a current FRIA/DPIA coordination rule."
+    },
+    {
+      "candidate_id": "art27-src-0043-p0020-ec-001",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BINDING_WITH_ROUTE_DATE",
+      "finding": "The Page 20 unit and hashes support the amended Article 27(4) option to cross-reference relevant DPIA sections or include relevant parts in the FRIA when obligations are already met through the specified data-protection assessment. The candidate is binding amending-act evidence, subject to the Article 113 application route."
+    },
+    {
+      "candidate_id": "art27-src-0043-p0020-ec-002",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_BINDING_WITH_ROUTE_DATE",
+      "finding": "The Page 20 unit and hashes support the amended Article 27(5) AI Office questionnaire-template mandate and the possibility of DPIA cross-references or included relevant parts where relevant. The candidate is binding amending-act evidence, subject to the Article 113 application route."
+    },
+    {
+      "candidate_id": "art27-src-0043-p0035-ec-001",
+      "status": "VERIFIED",
+      "reason_code": "SUPPORTED_TEMPORAL_SCOPE",
+      "finding": "The Page 35 unit and hashes support route-dependent application dates for Chapter III Sections 1, 2 and 3: 2 December 2027 for Article 6(2)/Annex III high-risk systems and 2 August 2028 for Article 6(1)/Annex I high-risk systems, subject to the recorded Article 6(5) exception. This is not a universal Article 27 date."
+    }
+  ],
+  "evidence": [
+    {
+      "candidate_id": "art27-src-0011-p0220-ec-001",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 220",
+      "unit_content_sha256": "aa9a070bfc5cc4147319318f88b78f4607d4e7a7c2e515b94862a6ac75109d4f",
+      "unit_file_sha256": "f0ba15053d06d6a000f5e018964f5a6aab23491633837e0b5ce8722f0a49eeb8"
+    },
+    {
+      "candidate_id": "art27-src-0011-p0224-ec-001",
+      "source_id": "SRC-0011",
+      "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+      "locator": "Page 224",
+      "unit_content_sha256": "5edbe42945883163e8dc196dcb1b61ff9bb64f8f7e9dd5907ea14ade0b26fdf1",
+      "unit_file_sha256": "0a49dfed270bf3c88f4bbaaaa155339bbc088a974bdf61abc002ed9da34c19f1"
+    },
+    {
+      "candidate_id": "art27-src-0043-p0020-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "locator": "Page 20",
+      "unit_content_sha256": "24eb2a464443dc4ada59da54d94951581b306e5323c3f6a4bb676cc6ff649185",
+      "unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38"
+    },
+    {
+      "candidate_id": "art27-src-0043-p0020-ec-002",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "locator": "Page 20",
+      "unit_content_sha256": "24eb2a464443dc4ada59da54d94951581b306e5323c3f6a4bb676cc6ff649185",
+      "unit_file_sha256": "fc5786ebf452a08306c9324b8db63efe31d630dacc0c12e5d694ed17abc48a38"
+    },
+    {
+      "candidate_id": "art27-src-0043-p0035-ec-001",
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "locator": "Page 35",
+      "unit_content_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+      "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b"
+    }
+  ],
+  "coverage_matrix": [
+    {
+      "requirement": "Article 27(1) scope, actors and exception",
+      "status": "SOURCE_GAP",
+      "units": ["SRC-0011 Page 222"],
+      "next_action": "Run assigned extractor and audit atomic candidates."
+    },
+    {
+      "requirement": "Article 27(1)(a)-(f) FRIA minimum content",
+      "status": "SOURCE_GAP",
+      "units": ["SRC-0011 Page 222", "SRC-0011 Page 223"],
+      "next_action": "Extract each field separately with complete locator and qualifier retention."
+    },
+    {
+      "requirement": "Article 27(2) first-use, reuse and update",
+      "status": "SOURCE_GAP",
+      "units": ["SRC-0011 Page 223"],
+      "next_action": "Extract first-use trigger, prior-assessment reuse conditions and update trigger separately."
+    },
+    {
+      "requirement": "Article 27(3) notification and questionnaire submission",
+      "status": "SOURCE_GAP",
+      "units": ["SRC-0011 Page 223"],
+      "next_action": "Extract notification, authority and Article 46(1) exception as separate candidates."
+    },
+    {
+      "requirement": "Article 27(4) current DPIA/FRIA coordination",
+      "status": "VERIFIED_WITH_TEMPORAL_QUALIFIER",
+      "units": ["SRC-0043 Page 20", "SRC-0043 Page 35"],
+      "next_action": "Use amended candidate only; retain route-dependent application date."
+    },
+    {
+      "requirement": "Article 27(5) questionnaire template and DPIA cross-reference",
+      "status": "VERIFIED_WITH_TEMPORAL_QUALIFIER",
+      "units": ["SRC-0043 Page 20", "SRC-0043 Page 35"],
+      "next_action": "Use amended candidate only; do not treat a local questionnaire as the AI Office template."
+    },
+    {
+      "requirement": "Article 26(9) information hand-off",
+      "status": "VERIFIED_WITH_TEMPORAL_QUALIFIER",
+      "units": ["SRC-0011 Page 220", "SRC-0043 Page 35"],
+      "next_action": "Keep conditional wording and route-date qualifier."
+    }
+  ],
+  "critical_issues": [
+    "A complete current FRIA Article 27 note cannot be constructed: Article 27(1)-(3) lacks extractor candidates despite validated units being available.",
+    "The Page 224 base wording for Article 27(4)-(5) is superseded by SRC-0043 Page 20 and must remain excluded from current binding evidence.",
+    "The amending act is not a complete consolidation of Regulation (EU) 2024/1689; current Article 27 use requires deterministic combination with the reviewed base text and the Article 113 route schedule.",
+    "The Article 113 dates require a classification route and the Article 6(5) exception; they must not be generalized to all FRIA cases."
+  ],
+  "blockers": [
+    {
+      "id": "FRIA-27-EXTRACTION-GAP",
+      "severity": "BLOCKING",
+      "status": "OPEN",
+      "description": "No assigned extractor result covers Article 27(1)-(3) Pages 222-223.",
+      "resolution": "Create a source-specific assignment and extraction receipt for Pages 222-223, then run an independent evidence audit."
+    },
+    {
+      "id": "FRIA-27-CONSOLIDATION",
+      "severity": "HIGH",
+      "status": "OPEN",
+      "description": "SRC-0043 is an amending act and does not reproduce the complete AI Act text.",
+      "resolution": "Bind base Article 27(1)-(3), amended Article 27(4)-(5), and Article 113 schedule in one currentness-reviewed evidence set."
+    },
+    {
+      "id": "FRIA-27-ROUTE-DATE",
+      "severity": "HIGH",
+      "status": "CONTROLLED",
+      "description": "Article 27 application depends on the applicable high-risk classification route and stated exception.",
+      "resolution": "Require route classification before a binding currentness claim is rendered."
+    }
+  ],
+  "assignment_evidence_plan": {
+    "next_assignment_path": "state/workshop/proposals/roadmap-parallel-20260919/legal-article27/analysis/article27-completion-assignment.json",
+    "units_to_extract": [
+      "ingest/SRC-0011/units/p0222.md",
+      "ingest/SRC-0011/units/p0223.md"
+    ],
+    "candidate_design": [
+      "one candidate for Article 27(1) scope and actor gate",
+      "six atomic candidates for Article 27(1)(a)-(f)",
+      "three atomic candidates for Article 27(2) first-use, reuse and update",
+      "two atomic candidates for Article 27(3) notification and Article 46(1) exception"
+    ],
+    "required_review": [
+      "hash and locator audit",
+      "binding-authority confirmation",
+      "currentness/supersession review against SRC-0043",
+      "independent release review before any note construction"
+    ],
+    "publication_boundary": "No vault note, evidence-lock, question or Canvas update is authorized by this audit."
+  },
+  "warnings": [
+    "No raw source text is reproduced in this receipt.",
+    "Evidence verification does not establish human approval.",
+    "Validated units without extractor candidates remain a source gap, not verified evidence."
+  ]
+}

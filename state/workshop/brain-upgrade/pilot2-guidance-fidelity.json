@@ -1,0 +1,173 @@
+{
+ "schema_version": 1,
+ "method": "local-pypdf-token-multiset-coverage",
+ "scope": "Guidance units for lot pilot2-consolidation-001 (Commission guidelines on prohibited practices and the AI-system definition, and the SPE training module) compared page-by-page against the originals identified by source_id and source_sha256.",
+ "limitations": [
+  "Token agreement does not establish layout fidelity or legal correctness.",
+  "Original PDFs were read read-only for this comparison only; no source text was copied into any artefact or log."
+ ],
+ "results": [
+  {
+   "source_id": "SRC-0022",
+   "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+   "locator": "Page 180",
+   "unit_file_sha256": "081d2a276b0145216436671e0824862b91b68e31da45118af7a12d721c5e0946",
+   "unit_content_sha256": "56801e9a5b34a945ed08b131171eb73ae6c5578f2f344edd548411c1d48ae756",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0022",
+   "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+   "locator": "Page 181",
+   "unit_file_sha256": "abe4261e2db987c5165f0ec2cbc05236237086e19f5a6ac4b49845a2a3929b86",
+   "unit_content_sha256": "7c6138256ed7853b70e9762339a80eee9af2c45a58b565d0372b3e748adc6cad",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0022",
+   "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+   "locator": "Page 182",
+   "unit_file_sha256": "d7272507cfc260019e86926fcb5535cd6b1591b1ff9489ab3aed90a058216048",
+   "unit_content_sha256": "85f3319fc5679da2027bf7e7a9b44a54daf37cd88cec77d3b092faac33bf5ac6",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0022",
+   "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+   "locator": "Page 183",
+   "unit_file_sha256": "38c56f210b3b5ae0fd14426a6f9aca9c919a5122a172906ec87b33df28287840",
+   "unit_content_sha256": "b5832f79403b2780a9b45501fbb1fd3a7e1762c0f663a116795cd194da24b11c",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0022",
+   "source_sha256": "eda47ab29e702c73505dd685aae0e4c4cd1e3b56197555021e3662b76faae791",
+   "locator": "Page 184",
+   "unit_file_sha256": "335b59550a39ba358eb15d38135ff203a281456ff70139e7d4b0e8396a6df59f",
+   "unit_content_sha256": "6a40946bac1517882ab84710f47e58de79b47b0a4d72dd4fb967a18a8dfab32c",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 6",
+   "unit_file_sha256": "593f908b803326d1881fe2bc49b54bb2fd2cb24e30be1e4fa11e8f4cfc3faa77",
+   "unit_content_sha256": "31965781c7638af3f180b76250595adc5ed07c7c6c73c593aeff3f36ae102508",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 7",
+   "unit_file_sha256": "fc1c6dbf4e29d37a5854d4213c082fa3a0a8ccd9f0bfe82a521781ec3a4de0d8",
+   "unit_content_sha256": "07ba5c1991ee43f1a7f96aab693956ff73ec4409ac6f388a25f3824dfe5a62ac",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 9",
+   "unit_file_sha256": "fb11b5e4627ae334566d1ec1dad97b88d5a8ebdf15cddf62459540e8f099feba",
+   "unit_content_sha256": "ffff5f603738c366d3acd643d17d6b37ee580c18c07933f5f825d8a6ac19bc9e",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 10",
+   "unit_file_sha256": "f9835c508144b93d7dd7f9d7076e5ba7977919c5fea2fc137b2f56826faabe9f",
+   "unit_content_sha256": "aa8aae3420973f90f3486925bafce34c7b3e307aa77acaaa5473ee95d16ba173",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 11",
+   "unit_file_sha256": "481e48d8cbf95548491b5fc643db8fc290b359a61077677f6e0c7496c9c3aad2",
+   "unit_content_sha256": "f3adf8d244f2582dbf6cabdbf91d0043e2cb64db50bb26f5a7daf3bd2727aad5",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 12",
+   "unit_file_sha256": "a4be00eb7252c4038f7e79cbf8526c20dce590f2be5f7a80e977374d83837dea",
+   "unit_content_sha256": "431e81b5f36404c373a40c35c0eba6c127f8ec805228d214f3e7e38a7dc45919",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 13",
+   "unit_file_sha256": "86e0c991c1fa25251fec4715da1730f47b71c8efa2a92c2257a8cfe690b6e245",
+   "unit_content_sha256": "1a82e9aab155a5e2c7b13fa832a886502ffd70f56e7e4b79b50d9ad928a906d1",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 16",
+   "unit_file_sha256": "eb58dec6c7fdc18ec3af763c5f1d3facb6bf6c3123f5a6638ab0c2d6eb35a119",
+   "unit_content_sha256": "a3dd1635e3f18cee282ac69e72f3b5ac86ae061c5fe6a4cadee44f677643583d",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 17",
+   "unit_file_sha256": "b6a67ca90f78ceec1f369e44a82a190d7ce4a3ad2a7dfeb1f25380867a761dcb",
+   "unit_content_sha256": "e126e09180b4fb5d78a64d8cd7b4db5e84008d80e4a0064319480f5927c7e13a",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 18",
+   "unit_file_sha256": "2b94cd50010b36d61f363163de99ac0ebc00e92e7532980579af9ac21c0a2565",
+   "unit_content_sha256": "12011b84cf93819c05811a15526aa5e62cd2d4699dcc4655979e20b1d258f0b0",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 19",
+   "unit_file_sha256": "d8db9f1c0d27392b669d42905cda0ff7d84ffe11af2901c9e3c6dcc535c21a92",
+   "unit_content_sha256": "dcf2f2e4de04cc7e72b15f57a65656688e75dff6e7e9e87845d148a4527bddb6",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "locator": "Page 21",
+   "unit_file_sha256": "4d9cd9d3603d503a7f4389ff3066afc8df8bcc22aa1c9814ea8626805afb2fa2",
+   "unit_content_sha256": "99261824da33d44aeec368180ffc31c93439774ea7f25b02d205733e047ccb19",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  },
+  {
+   "source_id": "SRC-0017",
+   "source_sha256": "fe39f41d061184a913c32f1f92aaaa30a096858fa168c6053e22a19eef58910e",
+   "locator": "Page 2",
+   "unit_file_sha256": "9e45a12f6336ed5ab8e64aa57757482913326238b7db8d425767c1a71b8fd1b6",
+   "unit_content_sha256": "49053f6e7528412dddf6563c304f6a143e9065f7b342a82cc35e4a25dbc3a0e9",
+   "original_token_coverage": 1.0,
+   "result": "MATCH"
+  }
+ ]
+}

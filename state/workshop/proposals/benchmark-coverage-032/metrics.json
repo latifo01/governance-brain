@@ -1,0 +1,48 @@
+{
+  "active_vault_changed": false,
+  "candidate_sha256": "6ca0138a638dd9ddbe120ee3d171b3cf90ae841e96407b697269d29aed4711f2",
+  "coverage_cells": 150,
+  "coverage_current_status_counts": {
+    "UNASSESSED": 150
+  },
+  "coverage_proposed_action_counts": {
+    "REVIEW_CRITERION_EVIDENCE": 130,
+    "SEARCH_EXISTING_CORPUS_AND_RECORD_GAP": 20
+  },
+  "current": {
+    "accepted": false,
+    "complete_suite": true,
+    "negative_count": 15,
+    "negative_pass_count": 15,
+    "positive_count": 30,
+    "readiness": 0.13333333333333333,
+    "ready_positive_count": 4,
+    "recall_at_5": 1.0,
+    "scenario_count": 45,
+    "unavailable_positive_count": 26
+  },
+  "predicted_after_id_correction": {
+    "accepted": false,
+    "complete_suite": true,
+    "negative_count": 15,
+    "negative_pass_count": 15,
+    "note": "Predicted by applying only the proposed expected-ID corrections in memory; no file was changed and unresolved evidence remains unavailable.",
+    "positive_count": 30,
+    "readiness": 0.4,
+    "ready_positive_count": 12,
+    "recall_at_5": 1.0,
+    "scenario_count": 45,
+    "unavailable_positive_count": 18
+  },
+  "applied_result": {
+    "accepted": false,
+    "negative_pass_count": 15,
+    "ready_positive_count": 12,
+    "unavailable_positive_count": 18,
+    "readiness": 0.4,
+    "recall_at_5": 1.0
+  },
+  "proposal_id": "benchmark-coverage-032",
+  "schema_version": 1,
+  "sources_changed": false
+}

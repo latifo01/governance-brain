@@ -1,0 +1,23 @@
+{
+  "candidate_sha256": "c39f8f681969eba0efd81f9d81b504db62351a45dfc0199b0b89d78295784017",
+  "derived": {
+    "canvas_sha256": "c25ca415eda3b53132617541d6a394700ab58e5294c3789da5ad5d884e3743db",
+    "dependencies": 19,
+    "questions": 34,
+    "registry_sha256": "06bb5aeb39119c0f9dcb751186cf513c43b99166569db5fb8c4afb12d7dfceb3"
+  },
+  "files": [
+    {
+      "path": "Organizations/ai-board.md",
+      "proposal_id": "lineage-repair-lot-025",
+      "sha256": "ffee0f65479174afea8bdadfcf8d6d82d1a1ed0fdf0eaa5230a9e3cac205b714"
+    }
+  ],
+  "materialized_files": 1,
+  "notes": 119,
+  "proposal_ids": [
+    "lineage-repair-lot-025"
+  ],
+  "schema_version": 1,
+  "valid": true
+}

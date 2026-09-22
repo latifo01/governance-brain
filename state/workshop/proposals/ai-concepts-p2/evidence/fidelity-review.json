@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p2",
+  "reviewer_identity": "codex-ai-concepts-p2-fidelity-reviewer",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "extraction_receipt_path": "state/workshop/proposals/ai-concepts-p2/evidence/extraction.json",
+  "extraction_receipt_sha256": "cbc1b4423279ec28f315f5d0888e83d4071c92ac2f5fb8e8b384bf291fbdb279",
+  "method": {
+    "tool": "pypdf",
+    "mode": "local_native_text_and_pdf_structure",
+    "comparison": "whitespace-normalized exact comparison between local PDF page text and the corresponding validated Markdown unit",
+    "normalization": "removed Markdown blockquote markers and generated page heading, then collapsed whitespace",
+    "visual_rendering": "local raster rendering with PyMuPDF 1.28.2 at 2x scale; rendered page images were inspected locally and deleted from the working tree after review",
+    "render_cache": "temporary /tmp/gov360-src0009-render only; no source text retained",
+    "raw_source_text_retained": false
+  },
+  "results": [
+    {
+      "source_id": "SRC-0009",
+      "source_path": "sources/10_Responsible_AI/Microsoft Responsible AI Transparency Report.pdf",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "locator": "Page 10",
+      "unit_path": "ingest/SRC-0009/units/p0010.md",
+      "unit_file_sha256": "01401bafdfc32110b78ea4bac61148e320e10a8f2e8daddc6be2b6631a94ca59",
+      "unit_content_sha256": "9b3880abc4c1650d731dcdfa434a09491f914271ed1cc17e71572eddcd5c19e0",
+      "visual_review": "REVIEWED",
+      "source_page_count": 35,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization",
+      "normalized_pdf_text_sha256": "34961c13bc8ac6648f0acffb4413070b1e0ec9810d02e1c4be743c3ecf5cf415",
+      "normalized_unit_text_sha256": "34961c13bc8ac6648f0acffb4413070b1e0ec9810d02e1c4be743c3ecf5cf415",
+      "visual_render_sha256": "e1f660eecfc6db1a2c43b1a15774574f77d9fe1bcb0a6d4b8be7da53f7ac3736",
+      "visual_findings": "The automated-measurement pipeline diagram is legible. Its text-bearing labels and the target-system, adversarial-simulator, simulated-dataset, evaluator-system and metrics relationships are represented in the Markdown unit. Decorative imagery and navigation elements are not treated as evidence.",
+      "unresolved": null
+    },
+    {
+      "source_id": "SRC-0009",
+      "source_path": "sources/10_Responsible_AI/Microsoft Responsible AI Transparency Report.pdf",
+      "source_sha256": "86c75fe503f3ee1225fc3eea0c770bbbdc795490a7a6402a5d9348b80bb540f8",
+      "locator": "Page 16",
+      "unit_path": "ingest/SRC-0009/units/p0016.md",
+      "unit_file_sha256": "cddf3a698db16b5052d78f6d54783b7ada41f162d212045708d0836cdecbc6c8",
+      "unit_content_sha256": "8c27fb9b2cb4c76569cfd10dc5f0f076a0256fdbca5260d0c5c87f1d381f07c5",
+      "visual_review": "REVIEWED",
+      "source_page_count": 35,
+      "result": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization",
+      "normalized_pdf_text_sha256": "3a8b633fa595714ba7c32c9d33bd6f6900aaa891abec15c01fa69ed5ea8cdbbb",
+      "normalized_unit_text_sha256": "3a8b633fa595714ba7c32c9d33bd6f6900aaa891abec15c01fa69ed5ea8cdbbb",
+      "visual_render_sha256": "d2f9b89320216580cb307b0d097243d59f0544d37ac5ad47cc961fe44ac63442",
+      "visual_findings": "The case-study timeline, five break-fix steps and model-list labels are legible and represented in the Markdown unit. Decorative imagery, branding and navigation elements are not treated as evidence.",
+      "unresolved": null
+    }
+  ],
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "VISUAL_FIDELITY_REVIEWED",
+      "detail": "Both assigned pages were rendered locally and their evidence-bearing visual regions were inspected. No material omission requiring Markdown regeneration was found."
+    },
+    {
+      "severity": "INFO",
+      "code": "TEXTUAL_LINEAGE_CONFIRMED",
+      "detail": "Both local PDF page extractions are equal to their corresponding validated Markdown units after the documented normalization."
+    }
+  ]
+}

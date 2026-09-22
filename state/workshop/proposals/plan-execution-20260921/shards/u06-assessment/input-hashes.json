@@ -1,0 +1,86 @@
+{
+  "derived_catalogue_sha256_field": "ed9ed16874d4d23fcc655c06c06bd331abd1fd937633cae548877007a8d77c8a",
+  "derived_coverage_catalogue_sha256_field": "ed9ed16874d4d23fcc655c06c06bd331abd1fd937633cae548877007a8d77c8a",
+  "evidence_index_binding_count": 556,
+  "evidence_index_record_count": 772,
+  "files": [
+    {
+      "path": "state/derived/brain/coverage-matrix.json",
+      "sha256": "a4fc70a23da97b16f97daac61a3c637feb0302088c3f4b2de750f1f75be31560"
+    },
+    {
+      "path": "state/derived/brain/catalogue.json",
+      "sha256": "045b1619b40aa94c20e88678abbba97c17c00b554f4c37c13f983de37d0f4d0c"
+    },
+    {
+      "path": "state/derived/brain/evidence-index.json",
+      "sha256": "b32adb97243840144a322b985b7c106285d6c9770b9a601759778d2c0594c96f"
+    },
+    {
+      "path": "state/workshop/evidence-library/p0-coverage-completion-20260920.json",
+      "sha256": "888d400e20e9dc5db50ec0a42f9057dc62d551361b22542067cafe172b3d81a7"
+    },
+    {
+      "path": "state/workshop/evidence-library/strict-ai-lifecycle-change-001.json",
+      "sha256": "adb7f27352f6be6a963472aa794b743b78d377dc708296cde251b2601454479f"
+    },
+    {
+      "path": "state/workshop/evidence-library/strict-people-ai-literacy-001.json",
+      "sha256": "a2fa6df228e8edfe549ff241d8f14157eef348c705bedb8fa96749dfea809f8e"
+    },
+    {
+      "path": "state/workshop/evidence-library/strict-sustainability-societal-impact-001.json",
+      "sha256": "5ff852a44bf17ebc5ea338ed8fcf8edea274d99b7746dec85a3bfeb81986b603"
+    },
+    {
+      "path": "state/workshop/proposals/orphan-provenance-review-20260919/analysis/provenance-warning-audit.json",
+      "sha256": "166085c3b81f4afca08c93b2dee29b3e8953c0718241e638b7aae63356800cc2"
+    },
+    {
+      "path": "state/workshop/proposals/coverage-reconciliation-u01-20260921/analysis/criterion-reconciliation.json",
+      "sha256": "eaa9f607f7f9734beed9ae952c2e51987d81283d0956b84d59daa8bbf0b2646d"
+    },
+    {
+      "path": "state/workshop/proposals/plan-execution-20260921/u05-progress.md",
+      "sha256": "62b7269dd6b955112fefd67bc63b7cac38bd9c622a2eea24585e218bfe341429"
+    },
+    {
+      "path": "state/workshop/proposals/plan-execution-20260921/u06-gap-assessment.md",
+      "sha256": "8625d7c0d74e36500844ceeb53b527d36f5c66b4fed979b3531a71b96e6800b7"
+    },
+    {
+      "path": "state/workshop/brain-upgrade/governance-lifecycle-fidelity.json",
+      "sha256": "504182a0ecd5e54be94f302eff78fd77377f2c7cbf4b83c458ff7b6805044f8f"
+    },
+    {
+      "path": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/evidence/fidelity-review.json",
+      "sha256": "b5a14dcdfd57ac58539a61acb14c802545bab750855b857f80d1501882b476a7"
+    },
+    {
+      "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+      "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+    },
+    {
+      "path": "ingest/SRC-0001/document.json",
+      "sha256": "e5687e774bf0417fcded001b1fc5b895881e526fcdb2b9cabc522e80ab6c91e6"
+    },
+    {
+      "path": "ingest/SRC-0002/document.json",
+      "sha256": "d547d30e1ede68fea55ed2b4225ed2cb6d6fabd188739adaede291066000db4b"
+    },
+    {
+      "path": "ingest/SRC-0018/document.json",
+      "sha256": "ec0e916d363ea576b708d0deb7373d61cd7e4a4ed3ebb03086eb1154420257fc"
+    },
+    {
+      "path": "ingest/SRC-0039/document.json",
+      "sha256": "8cdfef02000d98cf3588fd53b0d887ece5c7aa696faa6fd22372ee3c2b3fe11e"
+    },
+    {
+      "path": "ingest/SRC-0040/document.json",
+      "sha256": "6745d040d96fd36a83f435fdf6076c017bb53e8794619396d1c9e50c03c7060e"
+    }
+  ],
+  "generated_at": "2026-09-22",
+  "schema_version": 1
+}

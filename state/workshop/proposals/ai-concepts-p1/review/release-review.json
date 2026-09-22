@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "proposal_id": "ai-concepts-p1",
+  "candidate_sha256": "1d8ef7e74cc49e16faa73efc956820779e6a80ec97ee50f24e4af5939d49a66f",
+  "evidence_lock_sha256": "2121ff96151dffc86621e7f4e054b99004f61d73932fa48fd9b100b982875f53",
+  "reviewer_identity": "codex-ai-concepts-p1-independent-release-reviewer",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {"severity":"INFO","code":"CANDIDATE_REPRODUCED","detail":"The deterministic integration preview reproduces the candidate hash for three ADD notes."},
+    {"severity":"INFO","code":"EVIDENCE_LOCK_RESOLVED","detail":"Fourteen evidence references resolve through the reviewed P1 library receipt and eleven locator fidelity checks."},
+    {"severity":"INFO","code":"PROVENANCE_VERIFIED","detail":"Source, unit and file hashes are preserved; no sources/ or ingest/ files were modified."},
+    {"severity":"INFO","code":"OVERLAY_SCHEMA_AND_LINKS_VALID","detail":"The proposal overlay validates with zero errors and all links resolve against the current vault or proposal."},
+    {"severity":"INFO","code":"AUTHORITY_BOUNDARY_PRESERVED","detail":"The AI Act material is contextual recital evidence; guidance and framework claims remain non-binding and bounded."},
+    {"severity":"WARNING","code":"BOUNDED_SCOPE","detail":"The notes do not establish legal currency, certification, anonymity, artifact safety or project-specific applicability."},
+    {"severity":"INFO","code":"HUMAN_APPROVAL_PENDING","detail":"Integration remains blocked until the operator approves this exact candidate hash."}
+  ]
+}

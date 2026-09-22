@@ -1,0 +1,1413 @@
+{
+  "limitations": [
+    "Token agreement resolves text completeness only; image, chart or layout fidelity still requires human or approved vision review."
+  ],
+  "method": "local-pypdf-token-coverage triage of VISUAL_REVIEW flagged units",
+  "results": [
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0001"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 19",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0001"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0002"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0003"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 4",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0003"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 5",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0003"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 2",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0004"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 2",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0005"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 2",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0006"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 2",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 3",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 4",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 6",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 7",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 10",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 11",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 15",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 16",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 23",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 26",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 39",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 44",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 51",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 137",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 138",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 139",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 141",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 143",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 144",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 145",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 146",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 147",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 148",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 149",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 150",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 153",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 155",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 156",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 157",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 158",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 159",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 160",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 161",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 164",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 165",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 166",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 167",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 168",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 176",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 187",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 188",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 189",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 191",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 192",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 193",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 194",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 195",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 196",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 215",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 312",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 316",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 317",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 318",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 319",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0008"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 3",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 4",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 5",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 6",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 7",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 8",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 9",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 10",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 11",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 12",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 13",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 14",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 15",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 16",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 17",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 18",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 19",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 20",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 21",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 22",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 23",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 24",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 25",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 26",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 27",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 29",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 30",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 31",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 32",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0009"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0012"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 108",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0014"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 6",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0015"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 15",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0015"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 17",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0015"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 134",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0016"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 13",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0017"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0019"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0020"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0021"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 2",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0021"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0022"
+    },
+    {
+      "coverage": null,
+      "locator": "Page 250",
+      "result": "NEEDS_VISION",
+      "source_id": "SRC-0022"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0023"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 3",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0023"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 54",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0023"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 5",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 7",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 11",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 12",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 13",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 14",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 17",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 19",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 28",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 34",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 39",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 42",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 47",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 49",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 51",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 61",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 62",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 64",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 67",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 68",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 75",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 76",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 77",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 78",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 80",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 82",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 84",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 85",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 86",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 87",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 89",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 90",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 91",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 92",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 94",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 95",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 97",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 98",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 100",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 101",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 103",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 104",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 105",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 106",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 108",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 109",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 110",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 111",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 113",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 114",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 116",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 117",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 119",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 120",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 121",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 122",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 123",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 124",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 125",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 126",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 127",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 128",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 129",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 130",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0024"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 3",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 7",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 13",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 21",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 34",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 35",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 45",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 59",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 118",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 121",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 122",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 123",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 124",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 126",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 128",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 129",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 138",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0025"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0026"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 3",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0026"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 6",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0026"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 9",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0026"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 28",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0026"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 107",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0026"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 121",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0026"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0027"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 3",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0027"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 9",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0027"
+    },
+    {
+      "coverage": null,
+      "locator": "Page 56",
+      "result": "NEEDS_VISION",
+      "source_id": "SRC-0027"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 8",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0029"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 26",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0029"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 6",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 10",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 20",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 21",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 22",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 25",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 27",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 32",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 41",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 46",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0030"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 5",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0034"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 6",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0034"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 9",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0034"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 20",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0034"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 21",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0034"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 5",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0035"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 9",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0035"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0036"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0039"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 2",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0039"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 15",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0039"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 48",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0039"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 1",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0040"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 5",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0040"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 37",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0040"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 61",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0040"
+    },
+    {
+      "coverage": 1.0,
+      "locator": "Page 97",
+      "result": "TEXT_VERIFIED",
+      "source_id": "SRC-0040"
+    }
+  ],
+  "schema_version": 1
+}

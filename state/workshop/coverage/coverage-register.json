@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "definition_of_done": [
+    "definition_scope_terminology",
+    "roles_decisions",
+    "risks_impacts",
+    "lifecycle_controls",
+    "evidence_artifacts",
+    "metrics_monitoring_incidents",
+    "exceptions_conflicts",
+    "questionnaire_coverage",
+    "source_provenance",
+    "domain_index_links"
+  ],
+  "allowed_statuses": [
+    "SOURCE_GAP",
+    "EVIDENCE_READY",
+    "PROPOSAL_READY",
+    "HUMAN_REVIEW",
+    "APPROVED",
+    "COMPLETE"
+  ],
+  "pillars": [
+    {
+      "id": "ai-strategy-value",
+      "title": "AI strategy, use case, and value",
+      "domains": [
+        "AI",
+        "PROCESS"
+      ],
+      "candidate_domain": "AI_STRATEGY_VALUE",
+      "status": "APPROVED"
+    },
+    {
+      "id": "governance-accountability-policy",
+      "title": "Governance, accountability, and policy",
+      "domains": [
+        "GOVERNANCE_ACCOUNTABILITY",
+        "INTERNAL_REGULATION"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "legal-regulatory",
+      "title": "Legal and regulatory",
+      "domains": [
+        "LEGAL",
+        "LEGAL_REGULATORY"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "data-protection",
+      "title": "Data protection",
+      "domains": [
+        "DATA_PROTECTION",
+        "DATA_PRIVACY"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "data-governance-quality",
+      "title": "Data governance and quality",
+      "domains": [
+        "AI",
+        "RISK"
+      ],
+      "candidate_domain": "DATA_GOVERNANCE_QUALITY",
+      "status": "APPROVED"
+    },
+    {
+      "id": "model-risk-validation-tev",
+      "title": "Model risk, validation, and TEVV",
+      "domains": [
+        "MODEL_RISK",
+        "RISK"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "ai-security",
+      "title": "AI security",
+      "domains": [
+        "AI_SECURITY",
+        "RISK"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "responsible-ai-human-oversight",
+      "title": "Responsible AI and human oversight",
+      "domains": [
+        "HUMAN_OVERSIGHT_RESPONSIBLE_AI"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "transparency-explainability-documentation",
+      "title": "Transparency, explainability, and documentation",
+      "domains": [
+        "TRANSPARENCY_DISCLOSURE"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "third-parties-supply-chain",
+      "title": "Third parties and supply chain",
+      "domains": [
+        "THIRD_PARTIES_SUPPLY_CHAIN"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "operational-resilience-incidents",
+      "title": "Operational resilience and incidents",
+      "domains": [
+        "OPERATIONAL_RESILIENCE_INCIDENTS"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "lifecycle-engineering-change",
+      "title": "Lifecycle engineering and change",
+      "domains": [
+        "PROCESS",
+        "MODEL_RISK"
+      ],
+      "candidate_domain": "AI_LIFECYCLE_CHANGE",
+      "status": "SOURCE_GAP"
+    },
+    {
+      "id": "audit-assurance",
+      "title": "Audit and assurance",
+      "domains": [
+        "AUDIT_ASSURANCE"
+      ],
+      "status": "EVIDENCE_READY"
+    },
+    {
+      "id": "people-ai-literacy-change",
+      "title": "People, AI literacy, and change",
+      "domains": [
+        "GOVERNANCE_ACCOUNTABILITY"
+      ],
+      "candidate_domain": "PEOPLE_AI_LITERACY",
+      "status": "SOURCE_GAP"
+    },
+    {
+      "id": "sustainability-societal-impact",
+      "title": "Sustainability and societal impact",
+      "domains": [
+        "HUMAN_OVERSIGHT_RESPONSIBLE_AI"
+      ],
+      "candidate_domain": "SUSTAINABILITY_SOCIETAL_IMPACT",
+      "status": "SOURCE_GAP"
+    }
+  ]
+}

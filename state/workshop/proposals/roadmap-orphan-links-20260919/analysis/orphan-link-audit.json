@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "workstream": "roadmap-point-5-orphan-links",
+  "method": "Read-only graph audit from generated catalogue. Candidate links are not asserted as valid until a reviewer confirms semantic relevance.",
+  "orphan_count": 7,
+  "orphans": [
+    {
+      "note_id": "ai-conformity-assessment",
+      "path": "AI concepts/ai-conformity-assessment.md",
+      "candidate_index_paths": [],
+      "action": "review semantic inbound link before publication",
+      "status": "ORPHAN_REVIEW_REQUIRED"
+    },
+    {
+      "note_id": "explainability-and-interpretability",
+      "path": "AI concepts/explainability-and-interpretability.md",
+      "candidate_index_paths": [],
+      "action": "review semantic inbound link before publication",
+      "status": "ORPHAN_REVIEW_REQUIRED"
+    },
+    {
+      "note_id": "model-and-concept-drift",
+      "path": "AI concepts/model-and-concept-drift.md",
+      "candidate_index_paths": [],
+      "action": "review semantic inbound link before publication",
+      "status": "ORPHAN_REVIEW_REQUIRED"
+    },
+    {
+      "note_id": "open-weight-models",
+      "path": "AI concepts/open-weight-models.md",
+      "candidate_index_paths": [],
+      "action": "review semantic inbound link before publication",
+      "status": "ORPHAN_REVIEW_REQUIRED"
+    },
+    {
+      "note_id": "privacy-preserving-ai",
+      "path": "AI concepts/privacy-preserving-ai.md",
+      "candidate_index_paths": [],
+      "action": "review semantic inbound link before publication",
+      "status": "ORPHAN_REVIEW_REQUIRED"
+    },
+    {
+      "note_id": "synthetic-data",
+      "path": "AI concepts/synthetic-data.md",
+      "candidate_index_paths": [],
+      "action": "review semantic inbound link before publication",
+      "status": "ORPHAN_REVIEW_REQUIRED"
+    },
+    {
+      "note_id": "uncertainty-and-calibration",
+      "path": "AI concepts/uncertainty-and-calibration.md",
+      "candidate_index_paths": [],
+      "action": "review semantic inbound link before publication",
+      "status": "ORPHAN_REVIEW_REQUIRED"
+    }
+  ],
+  "placeholder_policy": "Do not create placeholder notes or add links solely to eliminate orphan status.",
+  "source_status": "UNCHANGED",
+  "vault_status": "UNCHANGED",
+  "conclusion": "Seven knowledge notes require reviewed inbound-link decisions; no automatic link repair was applied."
+}

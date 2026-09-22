@@ -1,0 +1,266 @@
+{
+  "schema_version": 1,
+  "receipt_id": "strict-sustainability-societal-impact-001",
+  "author_identity": "strict-sustainability-societal-impact-001-evidence-constructor",
+  "evidence": [
+    {
+      "evidence_ref": "ssi-org29-src-0040-p0028",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0028.md",
+      "unit_sha256": "cafb82055d74abdbffdb365542b93303dc472d80b9d40dedfadac3047be2418b",
+      "unit_file_sha256": "e992a84d10086774cc5782eb2a61e3c6519ae0f8a8f15d3dd8a16699e3932c43",
+      "locator": "Page 28",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ssi-org29-src-0040-p0030",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0030.md",
+      "unit_sha256": "e2c105e43c9150b2d5fd54c25a1671fff120866e90d71ef825c6a6d9b276c75e",
+      "unit_file_sha256": "e076baecabe42d25076df4a809ae809e0875fb8e3b7880c7f9e6aa08f567154d",
+      "locator": "Page 30",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ssi-org29-src-0040-p0035",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0035.md",
+      "unit_sha256": "98a2b39b2884a60b87b4f74adef7445be8064bdee3b2844445576ed7e8e89ffc",
+      "unit_file_sha256": "33509b9fb484e8c7ea15a5be744838eee0e5640531e22482f21e0f00791e3126",
+      "locator": "Page 35",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ssi-org29-src-0040-p0036",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0036.md",
+      "unit_sha256": "134f9f3b8be4acb77b287e6feb5bbf5156aa16c6b95edc904dd70109ed8a4fcd",
+      "unit_file_sha256": "d323c488e78cfeb7e405fbf1251f413ba1e129360dc7d1c580d287de0b991bf1",
+      "locator": "Page 36",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ssi-org29-src-0040-p0059",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0059.md",
+      "unit_sha256": "b5f9e80ca7bebc58a3dd24ffc8dee8842017ac2bbc59d5d8daf37d7bd3d2355f",
+      "unit_file_sha256": "cac576a5deeb75cdd32ba3befb6c2d9bf75b7e3d6cc0932fc0c59c129003d4a2",
+      "locator": "Page 59",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ]
+    },
+    {
+      "evidence_ref": "ssi-org29-src-0040-p0127",
+      "source_id": "SRC-0040",
+      "source_sha256": "65d6101d806502875aadb0fd19a75c3a9cc9a5e9461129e9398a39192d8202d2",
+      "unit_path": "ingest/SRC-0040/units/p0127.md",
+      "unit_sha256": "583e279e769939699e63fd75cb269e5ffc94aeda32cbfcc2a3914e37a1853acc",
+      "unit_file_sha256": "7cc18ffd51556447fcef55617687efb6df8da4444e0110b062c519c0df705339",
+      "locator": "Page 127",
+      "authority": "FRAMEWORK",
+      "jurisdiction": [],
+      "valid_from": null,
+      "valid_until": null,
+      "fidelity_inputs": [
+        {
+          "path": "state/workshop/proposals/organisation-societal-lot-029/review/fidelity-checks.json",
+          "sha256": "0be5c1434e6293d7532e3884b882dde7d6c328e3c539387264f56bf2760827c4"
+        }
+      ]
+    }
+  ],
+  "bindings": [
+    {
+      "note_id": "ai-societal-impact-and-stakeholder-engagement",
+      "note_sha256": "18d14b2c89bdfff0f65167495862c201a100ab24a84450d13f6208a19f645fa1",
+      "section_id": "ai-societal-impact-and-stakeholder-engagement:b08710c43320a467",
+      "section_sha256": "9b0becca82083f50bef5f19de1e61bbc00b0882dca178205f179dafc722bca4c",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0059"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-societal-impact-and-stakeholder-engagement",
+      "note_sha256": "18d14b2c89bdfff0f65167495862c201a100ab24a84450d13f6208a19f645fa1",
+      "section_id": "ai-societal-impact-and-stakeholder-engagement:b09c9aa895adc7d4",
+      "section_sha256": "821d478c613b1068101dafac52436c433908a03090c307856c61f745349b5aae",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0028"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-societal-impact-and-stakeholder-engagement",
+      "note_sha256": "18d14b2c89bdfff0f65167495862c201a100ab24a84450d13f6208a19f645fa1",
+      "section_id": "ai-societal-impact-and-stakeholder-engagement:13ea7560299f0192",
+      "section_sha256": "e2e9f1d5e34b35bd790488cc8381b66e9a22e67b7691da1edb4e2c3a846cc3f0",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0030"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-societal-impact-and-stakeholder-engagement",
+      "note_sha256": "18d14b2c89bdfff0f65167495862c201a100ab24a84450d13f6208a19f645fa1",
+      "section_id": "ai-societal-impact-and-stakeholder-engagement:1e5e7c031e0f949f",
+      "section_sha256": "db3397565e157f6340d8b858f9bf8c17c919c4c923171c2b498a0927761e37dc",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0127"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-societal-impact-and-stakeholder-engagement",
+      "note_sha256": "18d14b2c89bdfff0f65167495862c201a100ab24a84450d13f6208a19f645fa1",
+      "section_id": "ai-societal-impact-and-stakeholder-engagement:fc556c1d1063edd5",
+      "section_sha256": "9d746e7e5296e732bada3bb785b6475cec31840bfde6d58900919fd333cc7cb2",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0035"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-societal-impact-and-stakeholder-engagement",
+      "note_sha256": "18d14b2c89bdfff0f65167495862c201a100ab24a84450d13f6208a19f645fa1",
+      "section_id": "ai-societal-impact-and-stakeholder-engagement:3956b2ac3265a971",
+      "section_sha256": "d58fcb5908ad5ad8a185f97dd671fdd1ded0b013bc3f2c3dd97b1c0fd0bbd324",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-sustainability-impact-baseline",
+      "note_sha256": "ed81ecf2db057feb30307893714a481553da492a7ac5f792a214b38d74ebe284",
+      "section_id": "ai-sustainability-impact-baseline:696c80c5c7dc9d1b",
+      "section_sha256": "d7418f19b61a11b3a220c6888ae3a7db113934a39003acaae41e1b7bda5fc13f",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0127"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-sustainability-impact-baseline",
+      "note_sha256": "ed81ecf2db057feb30307893714a481553da492a7ac5f792a214b38d74ebe284",
+      "section_id": "ai-sustainability-impact-baseline:3db5772e0f137053",
+      "section_sha256": "cebc1a072ed425eaf49e0cec3af6f5660b62f70b695a209c0c44524c46d7a3d8",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0059"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-sustainability-impact-baseline",
+      "note_sha256": "ed81ecf2db057feb30307893714a481553da492a7ac5f792a214b38d74ebe284",
+      "section_id": "ai-sustainability-impact-baseline:c9e927f157c61cfb",
+      "section_sha256": "14cbaaeb7d9a90f0434fd808f3ca9e8c3bde9b04e94ea4adf3202a6e8b3431cd",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0035"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "ai-sustainability-impact-baseline",
+      "note_sha256": "ed81ecf2db057feb30307893714a481553da492a7ac5f792a214b38d74ebe284",
+      "section_id": "ai-sustainability-impact-baseline:02fac64bce85115f",
+      "section_sha256": "612001955a17b8daaf399e3f85bcff8dc43799480b5b452c75e656d115b4cd79",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0036"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "gov-011-sustainability-impact-metrics",
+      "note_sha256": "1440beecef7fe478778aa4f5891697ea0569eb908323ba5a25b3bcb1fc801561",
+      "section_id": "gov-011-sustainability-impact-metrics:5664698bf87c49c4",
+      "section_sha256": "631c435718cadf0e93cc077025edddcb18ba62b993f422b8f2597fb89f8c06d8",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0030"
+      ],
+      "modality": "context"
+    },
+    {
+      "note_id": "gov-011-sustainability-impact-metrics",
+      "note_sha256": "1440beecef7fe478778aa4f5891697ea0569eb908323ba5a25b3bcb1fc801561",
+      "section_id": "gov-011-sustainability-impact-metrics:fda68db5703880f1",
+      "section_sha256": "00a8195e826923d1ae991520b0b2850ad94da8a1df688e818f3a4297228a6181",
+      "evidence_refs": [
+        "ssi-org29-src-0040-p0127"
+      ],
+      "modality": "context"
+    }
+  ],
+  "review": {
+    "reviewer_identity": "codex-strict-sustainability-independent-evidence-reviewer",
+    "reviewed_at": "2026-09-20T00:00:00+00:00",
+    "candidate_sha256": "243a69a8569861d41c79515e70768908208928754a213a7a28feb1775a789d1d",
+    "verdict": "EVIDENCE_READY",
+    "findings": [
+      {
+        "severity": "INFO",
+        "code": "SECTION_BINDINGS_VERIFIED",
+        "count": 12
+      },
+      {
+        "severity": "INFO",
+        "code": "EVIDENCE_ITEMS_VERIFIED",
+        "count": 6
+      },
+      {
+        "severity": "WARNING",
+        "code": "NON_BINDING_SCOPE",
+        "detail": "The reviewed sources support guidance, framework or research context; no binding obligation is asserted."
+      }
+    ]
+  }
+}

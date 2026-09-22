@@ -1,0 +1,635 @@
+{
+ "schema_version": 1,
+ "receipt_id": "aiact-highrisk-republication-001",
+ "author_identity": "opencode-evidence-auditor-20260916",
+ "evidence": [
+  {
+   "evidence_ref": "hr2-src-0011-p0179",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0179.md",
+   "unit_sha256": "b94ea3f70b6aaa04e3f0102d6254bee879cc2a856da5268104e463221aacb3e6",
+   "unit_file_sha256": "3c3885f6c2f3661e7bc0c5dce2da34d4ff965eaddc13ef9c35f06ec766e4831d",
+   "locator": "Page 179",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0180",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0180.md",
+   "unit_sha256": "2dfb4a92eadd1e7b2ef713b2b05b6036eac1a250c8eecd0eaf26afefbac0ecba",
+   "unit_file_sha256": "3e9e4153e61ad82132678ce792d32066400ab76c3f52a6e889284bf4c980477b",
+   "locator": "Page 180",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0181",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0181.md",
+   "unit_sha256": "5cb4bfc3f4aaa27a4cb7ef16598a84c89dbda6e9ef7166d88ad4dca3cc20143a",
+   "unit_file_sha256": "8bd5a208a66e8dfd0a00f0b63ee2d3a8265ef91d82dcb4edae00f3be542b23d8",
+   "locator": "Page 181",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0379",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0379.md",
+   "unit_sha256": "2a75be9458e02eb5a1890f95c438c62b4a82cb05bea4ca50a1081b3bb0bb596f",
+   "unit_file_sha256": "b794d014856f471515dc6c1e7614ae2676b4464c6de993523253bcd5ddf90c67",
+   "locator": "Page 379",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0380",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0380.md",
+   "unit_sha256": "cb0c46115a711ed03237a06b7f8b10bdcd62ac0e2759953cb17793873d6d6ce1",
+   "unit_file_sha256": "8dab17972a50c1b55ff8fdcef37f1d6e3e849230181775e3c9ba0aca79af9841",
+   "locator": "Page 380",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0381",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0381.md",
+   "unit_sha256": "90fb9a2fdad9c7c5891676992f9a4f939b00829dfad008e69d0a8e86f05ea85a",
+   "unit_file_sha256": "dfa56f453790eb9894da6bebf4a24ee15ce3abd4b3b8d495900b21037af344e5",
+   "locator": "Page 381",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0384",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0384.md",
+   "unit_sha256": "2002754bef1e8362a7a535d8b5d22b33f2ae7f952097d26935ef91c0d614a712",
+   "unit_file_sha256": "868915f5b725066e07d3cc7ec4991f49616c778eb27e5eb8b6baeaa6ab0eef86",
+   "locator": "Page 384",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0385",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0385.md",
+   "unit_sha256": "341e65744e127a2c34ba2c9f723dee338916e9585ffcfe0b4a9c5fa5e8be0198",
+   "unit_file_sha256": "1db693db6a61960f935297d7de32f99076ff75b4abf382582fafa2f9f8393d5d",
+   "locator": "Page 385",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0386",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0386.md",
+   "unit_sha256": "39e0d6604563bb782fc291eab7a28a0dcfba8bdf7aedd8e38ccf3b56c7cb8e6f",
+   "unit_file_sha256": "5407bd828cddc503d7eea8e3028ef2e123b4647c8b19c9a56f6ca91005711b8d",
+   "locator": "Page 386",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0387",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0387.md",
+   "unit_sha256": "33907982e3f479ca4efdc03c60512958eba35f14f0706d1e79785f5a93305a71",
+   "unit_file_sha256": "5259f0db44a648402e6ddad2a7001d7cb39d06c8a2a04a4b676e2fead7353402",
+   "locator": "Page 387",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0011-p0388",
+   "source_id": "SRC-0011",
+   "source_sha256": "bd7134beb56eaca3b859e272563e464dc234f2daee8f305b942b64eb16fc700c",
+   "unit_path": "ingest/SRC-0011/units/p0388.md",
+   "unit_sha256": "25bd13f3d55aa2094c7dd8aa501865cf897150a774058980655bf329973bb40b",
+   "unit_file_sha256": "966cfdfec6b1fb08230ecc376383760bda423fff634157d5fb96325af864c118",
+   "locator": "Page 388",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0043-p0013",
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "unit_path": "ingest/SRC-0043/units/p0013.md",
+   "unit_sha256": "97bb6ec9fb89cc43568170d953fca2f619dc562ba95d35d9f8c8d2c6ac0bdf19",
+   "unit_file_sha256": "e529a174243a38368a5992b6cab34a5f5ecee78acef66d940811ce5b72ba779b",
+   "locator": "Page 13",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0043-p0015",
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "unit_path": "ingest/SRC-0043/units/p0015.md",
+   "unit_sha256": "53ca7713ef1bb067864a3250f4495b129f271764be9ee098bdc68161d74d0104",
+   "unit_file_sha256": "465bfc1e2e8d6dec5ccd22bcdda6023a1e68df17644c5eb5b39c442d460be208",
+   "locator": "Page 15",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0043-p0016",
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "unit_path": "ingest/SRC-0043/units/p0016.md",
+   "unit_sha256": "b429e64d76f52a8347270a787e39e75f08e7e0aa0fa9c2c46ea98f29a2f1b0c5",
+   "unit_file_sha256": "fc5db98561fc3e03852e14e044849ef4f18f10f4b9e4926833d96b3aeb53891f",
+   "locator": "Page 16",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0043-p0018",
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "unit_path": "ingest/SRC-0043/units/p0018.md",
+   "unit_sha256": "87c28fa9f0036d89f1fa853ef9825fe05897224063b3207f013cc8a15b66ec59",
+   "unit_file_sha256": "27a38b59f1edf8c81569e601bfbdd7c4a91b2909763e593f96584f5cf2791bff",
+   "locator": "Page 18",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0043-p0022",
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "unit_path": "ingest/SRC-0043/units/p0022.md",
+   "unit_sha256": "10c2839dcaef9a7c74c5bc01c91c095b60549df52073ca8ddacd9fa9c7ae253f",
+   "unit_file_sha256": "b5f8b3b470657c98eaf537a7a015590f210c927b15338dfcae8f6e6489dc75cb",
+   "locator": "Page 22",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0043-p0035",
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "unit_path": "ingest/SRC-0043/units/p0035.md",
+   "unit_sha256": "bb8788e4b98857fd2f44b21395e51a8aaac96801951382e173b159978fb90d8e",
+   "unit_file_sha256": "39653650ddd6df4d8b30002799440556d67ffd56899f4600bafb5f9306d9f88b",
+   "locator": "Page 35",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0043-p0036",
+   "source_id": "SRC-0043",
+   "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+   "unit_path": "ingest/SRC-0043/units/p0036.md",
+   "unit_sha256": "6225aade3c5fc0240d67d010e619d798ff4ecc9726c7d55bdfd4c87ca2681de1",
+   "unit_file_sha256": "f49d9e7c4c0590daee01bf083b241f4d5cb65b62e649eade4c978df13ff00533",
+   "locator": "Page 36",
+   "authority": "BINDING",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+     "sha256": "328a3586cb554434815f06efb5b63b25c8d5089180c9b0a29dc4da7fff4c5a10"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0016-p0016",
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "unit_path": "ingest/SRC-0016/units/p0016.md",
+   "unit_sha256": "a3dd1635e3f18cee282ac69e72f3b5ac86ae061c5fe6a4cadee44f677643583d",
+   "unit_file_sha256": "eb58dec6c7fdc18ec3af763c5f1d3facb6bf6c3123f5a6638ab0c2d6eb35a119",
+   "locator": "Page 16",
+   "authority": "GUIDANCE",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+     "sha256": "d3c7a429bf2726ee9a7ef2615c28c4027429824e0c869546f7a2066d2e2f4ab9"
+    }
+   ]
+  },
+  {
+   "evidence_ref": "hr2-src-0016-p0017",
+   "source_id": "SRC-0016",
+   "source_sha256": "298bf8677884b333fae6d5f84aac947f45a59dff6027ca038ba08615092fd82f",
+   "unit_path": "ingest/SRC-0016/units/p0017.md",
+   "unit_sha256": "e126e09180b4fb5d78a64d8cd7b4db5e84008d80e4a0064319480f5927c7e13a",
+   "unit_file_sha256": "b6a67ca90f78ceec1f369e44a82a190d7ce4a3ad2a7dfeb1f25380867a761dcb",
+   "locator": "Page 17",
+   "authority": "GUIDANCE",
+   "jurisdiction": [
+    "EU"
+   ],
+   "valid_from": null,
+   "valid_until": null,
+   "fidelity_inputs": [
+    {
+     "path": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+     "sha256": "d3c7a429bf2726ee9a7ef2615c28c4027429824e0c869546f7a2066d2e2f4ab9"
+    }
+   ]
+  }
+ ],
+ "bindings": [
+  {
+   "note_id": "high-risk-ai-system-classification",
+   "note_sha256": "b0d5f9c9ca11e26e5fa8f0c9baa11a7e815a6551f1fb0e5a69b0cb63337d8161",
+   "section_id": "high-risk-ai-system-classification:1336876a8b3be5de",
+   "section_sha256": "cca6669e60093aed1983adaae819836a497636b003b3284a40669c4350b6c961",
+   "evidence_refs": [
+    "hr2-src-0011-p0179",
+    "hr2-src-0011-p0180",
+    "hr2-src-0043-p0035"
+   ],
+   "modality": "context"
+  },
+  {
+   "note_id": "high-risk-ai-system-classification",
+   "note_sha256": "b0d5f9c9ca11e26e5fa8f0c9baa11a7e815a6551f1fb0e5a69b0cb63337d8161",
+   "section_id": "high-risk-ai-system-classification:899e3553c5406c64",
+   "section_sha256": "52f54060dfdcdb4aad2d361e9921dc532c9ff59bf75990dba4057315a3e07973",
+   "evidence_refs": [
+    "hr2-src-0043-p0035"
+   ],
+   "modality": "obligation"
+  },
+  {
+   "note_id": "high-risk-ai-system-classification",
+   "note_sha256": "b0d5f9c9ca11e26e5fa8f0c9baa11a7e815a6551f1fb0e5a69b0cb63337d8161",
+   "section_id": "high-risk-ai-system-classification:2c6da81ae3c1dce9",
+   "section_sha256": "02e464b722425611cdba77e80c3d870441bcd7c1aeacbaf83320f88590690fb4",
+   "evidence_refs": [
+    "hr2-src-0011-p0179",
+    "hr2-src-0011-p0180",
+    "hr2-src-0043-p0018",
+    "hr2-src-0043-p0016",
+    "hr2-src-0011-p0379",
+    "hr2-src-0011-p0380",
+    "hr2-src-0011-p0381",
+    "hr2-src-0043-p0013",
+    "hr2-src-0043-p0015",
+    "hr2-src-0043-p0036",
+    "hr2-src-0043-p0022",
+    "hr2-src-0043-p0035"
+   ],
+   "modality": "obligation"
+  },
+  {
+   "note_id": "high-risk-ai-system-classification",
+   "note_sha256": "b0d5f9c9ca11e26e5fa8f0c9baa11a7e815a6551f1fb0e5a69b0cb63337d8161",
+   "section_id": "high-risk-ai-system-classification:fd655f923c449ac1",
+   "section_sha256": "8972712acbe7362a1b0449d22a9f345299a90d1a144fae1610de78c81e5ba443",
+   "evidence_refs": [
+    "hr2-src-0011-p0384",
+    "hr2-src-0011-p0385",
+    "hr2-src-0011-p0386",
+    "hr2-src-0011-p0387",
+    "hr2-src-0011-p0388",
+    "hr2-src-0043-p0035"
+   ],
+   "modality": "obligation"
+  },
+  {
+   "note_id": "high-risk-ai-system-classification",
+   "note_sha256": "b0d5f9c9ca11e26e5fa8f0c9baa11a7e815a6551f1fb0e5a69b0cb63337d8161",
+   "section_id": "high-risk-ai-system-classification:e5896d97119ddc84",
+   "section_sha256": "70f1c2488f8daed47bfa001ca99b61b17ba1749dad5216a895242918f9a6ee7b",
+   "evidence_refs": [
+    "hr2-src-0011-p0180",
+    "hr2-src-0011-p0181",
+    "hr2-src-0043-p0035"
+   ],
+   "modality": "obligation"
+  },
+  {
+   "note_id": "high-risk-ai-system-classification",
+   "note_sha256": "b0d5f9c9ca11e26e5fa8f0c9baa11a7e815a6551f1fb0e5a69b0cb63337d8161",
+   "section_id": "high-risk-ai-system-classification:9c59500185105412",
+   "section_sha256": "b0b75173c2051c81bad3bbf202fcf69fda09e141bc2fb0ebcf3f38e8d3a063a8",
+   "evidence_refs": [
+    "hr2-src-0011-p0179",
+    "hr2-src-0011-p0180",
+    "hr2-src-0011-p0181",
+    "hr2-src-0043-p0035",
+    "hr2-src-0016-p0016",
+    "hr2-src-0016-p0017"
+   ],
+   "modality": "recommendation"
+  },
+  {
+   "note_id": "high-risk-ai-system-classification",
+   "note_sha256": "b0d5f9c9ca11e26e5fa8f0c9baa11a7e815a6551f1fb0e5a69b0cb63337d8161",
+   "section_id": "high-risk-ai-system-classification:9080ef80d140a340",
+   "section_sha256": "dc78496873edae21e643688b684670392ed66c0905dbee45581215b9cd6a7ddf",
+   "evidence_refs": [
+    "hr2-src-0043-p0016"
+   ],
+   "modality": "context"
+  }
+ ],
+ "review": {
+  "reviewer_identity": "opencode-pilot2-evidence-review",
+  "reviewed_at": "2026-09-16T04:00:00+00:00",
+  "candidate_sha256": "cd2000c29b0e2978ed5840abf5334e82821c6ccad0783446cfc3b7b83dc6f3f1",
+  "verdict": "EVIDENCE_READY",
+  "findings": [
+   {
+    "severity": "INFO",
+    "code": "RELATED_CONCEPTS_NAVIGATION_ONLY",
+    "detail": "The trimmed related-concepts section contains only existing wikilink navigation items and no substantive claim."
+   },
+   {
+    "severity": "INFO",
+    "code": "NAVIGATION_TRIM_NO_BOUND_SECTION_CHANGED",
+    "bindings_total": 7,
+    "detail": "All bound section hashes remain unchanged; only the overlay note hash was refreshed."
+   },
+   {
+    "severity": "INFO",
+    "code": "EVIDENCE_ITEMS_VERIFIED",
+    "evidence_items_total": 20,
+    "evidence_items_verified": 20
+   },
+   {
+    "severity": "INFO",
+    "code": "SECTION_BINDINGS_VERIFIED",
+    "bindings_total": 7,
+    "bindings_verified": 7,
+    "section_verdicts": [
+     {
+      "section_id": "high-risk-ai-system-classification:1336876a8b3be5de",
+      "verdict": "VERIFIED"
+     },
+     {
+      "section_id": "high-risk-ai-system-classification:899e3553c5406c64",
+      "verdict": "VERIFIED"
+     },
+     {
+      "section_id": "high-risk-ai-system-classification:2c6da81ae3c1dce9",
+      "verdict": "VERIFIED"
+     },
+     {
+      "section_id": "high-risk-ai-system-classification:fd655f923c449ac1",
+      "verdict": "VERIFIED"
+     },
+     {
+      "section_id": "high-risk-ai-system-classification:e5896d97119ddc84",
+      "verdict": "VERIFIED"
+     },
+     {
+      "section_id": "high-risk-ai-system-classification:9c59500185105412",
+      "verdict": "VERIFIED"
+     },
+     {
+      "section_id": "high-risk-ai-system-classification:9080ef80d140a340",
+      "verdict": "VERIFIED"
+     }
+    ]
+   },
+   {
+    "severity": "INFO",
+    "code": "ROUTE_2_AMENDMENT_CORRECTED",
+    "section_id": "high-risk-ai-system-classification:fd655f923c449ac1",
+    "detail": "The corrected Route 2 qualification accurately separates the Annex III entries from the amendment's route application-date provision."
+   },
+   {
+    "severity": "INFO",
+    "code": "GUIDANCE_BOUNDARY_CHECKED",
+    "guidance_evidence_items": 2,
+    "detail": "Guidance-supported interpretation is visibly marked non-binding, and no obligation binding relies solely on GUIDANCE evidence."
+   },
+   {
+    "severity": "WARNING",
+    "code": "LEGAL_CURRENCY_UNKNOWN",
+    "source_id": "SRC-0011",
+    "evidence_items": 11,
+    "detail": "valid_from and valid_until are null; legal currency dates remain unknown and were not verified."
+   },
+   {
+    "severity": "WARNING",
+    "code": "LEGAL_CURRENCY_UNKNOWN",
+    "source_id": "SRC-0043",
+    "evidence_items": 7,
+    "detail": "valid_from and valid_until are null; legal currency dates remain unknown and were not verified."
+   },
+   {
+    "severity": "WARNING",
+    "code": "LEGAL_CURRENCY_UNKNOWN",
+    "source_id": "SRC-0016",
+    "evidence_items": 2,
+    "detail": "valid_from and valid_until are null; guidance currency dates remain unknown and were not verified."
+   },
+   {
+    "severity": "WARNING",
+    "code": "FIDELITY_SCOPE_LIMITED",
+    "fidelity_file": "state/workshop/brain-upgrade/pilot2-legal-fidelity.json",
+    "detail": "Token agreement does not establish layout fidelity or legal correctness for BINDING evidence."
+   },
+   {
+    "severity": "WARNING",
+    "code": "FIDELITY_SCOPE_LIMITED",
+    "fidelity_file": "state/workshop/brain-upgrade/pilot2-guidance-fidelity.json",
+    "detail": "Token agreement does not establish layout fidelity or legal correctness for GUIDANCE evidence."
+   },
+   {
+    "severity": "INFO",
+    "code": "BOUNDED_REVIEW_ONLY",
+    "detail": "Review is limited to the assigned local corpus and does not grant publication approval or broader completeness."
+   }
+  ]
+ }
+}

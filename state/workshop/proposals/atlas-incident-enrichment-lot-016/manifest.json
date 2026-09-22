@@ -1,0 +1,65 @@
+{
+  "candidate_sha256": "c844670bdb8a42561412a9a2328123da4c9c98d84e0482e4a4e707c9b97d4662",
+  "changes": {
+    "ADD": [
+      "atlas-aml-cs0015-compromised-pytorch-dependency-chain",
+      "atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters",
+      "atlas-aml-cs0024-morris-ii-worm-rag-based-attack",
+      "atlas-aml-cs0027-organization-confusion-on-hugging-face",
+      "atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack",
+      "atlas-aml-cs0031-malicious-models-on-hugging-face",
+      "atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio",
+      "atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants",
+      "atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor",
+      "atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill",
+      "atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration",
+      "atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool",
+      "atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration",
+      "atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack",
+      "atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack",
+      "atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt",
+      "atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure",
+      "atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems"
+    ],
+    "NOOP": [
+      "2022-air-canada-chatbot",
+      "2023-chevrolet-of-watsonville"
+    ],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "domain": "AI_SECURITY",
+  "evidence_changes": true,
+  "files": [
+    "Famous AI incidents/atlas-aml-cs0015-compromised-pytorch-dependency-chain.md",
+    "Famous AI incidents/atlas-aml-cs0023-shadowray-hijacking-exposed-ray-clusters.md",
+    "Famous AI incidents/atlas-aml-cs0024-morris-ii-worm-rag-based-attack.md",
+    "Famous AI incidents/atlas-aml-cs0027-organization-confusion-on-hugging-face.md",
+    "Famous AI incidents/atlas-aml-cs0028-ai-model-tampering-via-supply-chain-attack.md",
+    "Famous AI incidents/atlas-aml-cs0031-malicious-models-on-hugging-face.md",
+    "Famous AI incidents/atlas-aml-cs0037-data-exfiltration-via-agent-tools-in-copilot-studio.md",
+    "Famous AI incidents/atlas-aml-cs0041-rules-file-backdoor-supply-chain-attack-on-ai-coding-assistants.md",
+    "Famous AI incidents/atlas-aml-cs0045-data-exfiltration-via-an-mcp-server-used-by-cursor.md",
+    "Famous AI incidents/atlas-aml-cs0049-supply-chain-compromise-via-poisoned-clawdbot-skill.md",
+    "Famous AI incidents/atlas-aml-cs0053-poisoned-postmark-mcp-server-email-exfiltration.md",
+    "Famous AI incidents/atlas-aml-cs0054-data-exfiltration-via-remote-poisoned-mcp-tool.md",
+    "Famous AI incidents/atlas-aml-cs0059-echoleak-zero-click-prompt-injection-targeting-m365-copilot-for-data-exfiltration.md",
+    "Famous AI incidents/atlas-aml-cs0064-poisoned-gguf-templates-inference-time-supply-chain-attack.md",
+    "Famous AI incidents/atlas-aml-cs0065-model-namespace-reuse-supply-chain-attack.md",
+    "Famous AI incidents/atlas-aml-cs0066-zombieagent-data-exfiltration-attack-on-chatgpt.md",
+    "Famous AI incidents/atlas-aml-cs0068-autonomous-openai-evaluation-agents-compromise-hugging-face-infrastructure.md",
+    "Famous AI incidents/atlas-aml-cs0071-multi-agent-framework-compromises-taiwanese-government-systems.md"
+  ],
+  "proposal_id": "atlas-incident-enrichment-lot-016",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "strict",
+  "schema_version": 2,
+  "shards": [
+    "incident-enrichment"
+  ],
+  "status": "INTEGRATED"
+}

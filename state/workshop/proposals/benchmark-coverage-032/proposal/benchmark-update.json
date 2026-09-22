@@ -1,0 +1,142 @@
+{
+  "active_vault_changes": false,
+  "approval_gate": "Human review of this proposal is required before modifying config/brain-evaluation.json. The proposal does not authorize active-vault publication.",
+  "candidate_sha256": "6ca0138a638dd9ddbe120ee3d171b3cf90ae841e96407b697269d29aed4711f2",
+  "changes": [
+    {
+      "language": "en",
+      "pillar": "data-governance-quality",
+      "previous_expected_note_ids": [
+        "data-governance-quality"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-05-en"
+    },
+    {
+      "language": "fr",
+      "pillar": "data-governance-quality",
+      "previous_expected_note_ids": [
+        "data-governance-quality"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-data-quality-and-validation"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-05-fr"
+    },
+    {
+      "language": "en",
+      "pillar": "lifecycle-engineering-change",
+      "previous_expected_note_ids": [
+        "ai-lifecycle-change"
+      ],
+      "proposed_expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-12-en"
+    },
+    {
+      "language": "fr",
+      "pillar": "lifecycle-engineering-change",
+      "previous_expected_note_ids": [
+        "ai-lifecycle-change"
+      ],
+      "proposed_expected_note_ids": [
+        "gov-002-lifecycle-change-reassessment",
+        "ai-literacy-and-change-management"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-12-fr"
+    },
+    {
+      "language": "en",
+      "pillar": "people-ai-literacy-change",
+      "previous_expected_note_ids": [
+        "people-ai-literacy"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-14-en"
+    },
+    {
+      "language": "fr",
+      "pillar": "people-ai-literacy-change",
+      "previous_expected_note_ids": [
+        "people-ai-literacy"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-literacy-and-change-management"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-14-fr"
+    },
+    {
+      "language": "en",
+      "pillar": "sustainability-societal-impact",
+      "previous_expected_note_ids": [
+        "sustainability-societal-impact"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-15-en"
+    },
+    {
+      "language": "fr",
+      "pillar": "sustainability-societal-impact",
+      "previous_expected_note_ids": [
+        "sustainability-societal-impact"
+      ],
+      "proposed_expected_note_ids": [
+        "ai-societal-impact-and-stakeholder-engagement"
+      ],
+      "query_unchanged": true,
+      "reason": "Replace a stale identifier with active catalogue IDs while preserving the scenario intent; multiple targets are allowed where the query spans both lifecycle change knowledge and its operational questionnaire.",
+      "scenario_id": "eval-15-fr"
+    }
+  ],
+  "contract_changes": false,
+  "coverage_register_changes": false,
+  "evidence_changes": false,
+  "expected_effect": {
+    "accepted": false,
+    "complete_suite": true,
+    "negative_count": 15,
+    "negative_pass_count": 15,
+    "note": "Predicted by applying only the proposed expected-ID corrections in memory; no file was changed and unresolved evidence remains unavailable.",
+    "positive_count": 30,
+    "readiness": 0.4,
+    "ready_positive_count": 12,
+    "recall_at_5": 1.0,
+    "scenario_count": 45,
+    "unavailable_positive_count": 18
+  },
+  "proposal_id": "benchmark-coverage-032",
+  "proposal_type": "retrieval-benchmark-configuration",
+  "schema_version": 1,
+  "source_changes": false,
+  "status": "PROPOSAL_READY",
+  "target_file": "config/brain-evaluation.json",
+  "unchanged_invariants": [
+    "45 scenarios remain: 30 positive and 15 negative across 15 pillars.",
+    "Queries and languages remain unchanged; only stale expected identifiers are corrected.",
+    "Negative cases remain unchanged and must continue to pass 15/15.",
+    "No placeholder notes are introduced for missing identifiers.",
+    "Assistance readiness remains fail-closed on reviewed evidence."
+  ]
+}

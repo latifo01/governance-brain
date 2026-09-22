@@ -1,0 +1,226 @@
+{
+  "schema_version": 1,
+  "workstream": "roadmap-parallel-20260919",
+  "stage": "PROVENANCE_AND_ORPHAN_DIAGNOSTIC",
+  "status": "DIAGNOSTIC_READY",
+  "generated_at": "2026-09-19",
+  "inputs": {
+    "brain_report": "state/derived/brain/report.md",
+    "brain_report_sha256": "123c4abbe1fcdcc091aaf4675c792430c93fdf3b88d98d461b4a6137d415f896",
+    "brain_baseline": "state/derived/brain/baseline.json",
+    "brain_baseline_sha256": "3daa1c3abb2c9f7514e660ff93a1b84a9f0e10f15614ce2eee2e26c2f77a5863",
+    "brain_catalogue": "state/derived/brain/catalogue.json",
+    "brain_catalogue_sha256": "993b74c246da7f131ff8ac4988859bda8a69d2ece7ea62c0879ea5c1bebca506",
+    "workshop_validation": "PASS_148_NOTES_ZERO_ERRORS",
+    "brain_validation": "PASS_ZERO_EVIDENCE_FINDINGS"
+  },
+  "metrics": {
+    "notes": 148,
+    "sections": 798,
+    "knowledge_notes_without_incoming_links": 7,
+    "publication_lineage_unresolved": 28,
+    "warnings_total": 35,
+    "active_vault_modified": false,
+    "sources_modified": false,
+    "ingest_modified": false
+  },
+  "publication_lineage_findings": [
+    {
+      "note_id": "ai-model-backtesting",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "ai-model-fairness-and-bias-avoidance",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "red-teaming",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "data-leakage",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "hallucinations",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "mit-ai-risk-initiative",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "toxic-or-biased-outputs",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "digital-omnibus",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "sr-11-7",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "2022-air-canada-chatbot",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "2023-chevrolet-of-watsonville",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "ai-impact-assessment-aiia",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "aiuc-1",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "iso-23894",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "iso-27001",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "iso-31000",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "mitre-atlas",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "nist-ai-rmf",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "cjeu",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "cosai",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "edpb",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "edps",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "european-ai-office-eaio",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "risk-004-model-documentation-completeness",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "risk-006-guardrail-placement",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "risk-007-red-team-remediation",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "risk-009-misinformation-overreliance",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    },
+    {
+      "note_id": "risk-010-sensitive-data-disclosure-surfaces",
+      "status": "HISTORICAL_LINEAGE_REVIEW_REQUIRED",
+      "recommended_action": "resolve exact source/unit/review/approval chain or quarantine from assistance eligibility"
+    }
+  ],
+  "orphan_findings": [
+    {
+      "note_id": "ai-conformity-assessment",
+      "status": "ORPHAN_REVIEW_REQUIRED",
+      "candidate_index_paths": [],
+      "recommended_action": "review semantic inbound link to an existing index or related note; do not create placeholder or automatic link"
+    },
+    {
+      "note_id": "explainability-and-interpretability",
+      "status": "ORPHAN_REVIEW_REQUIRED",
+      "candidate_index_paths": [],
+      "recommended_action": "review semantic inbound link to an existing index or related note; do not create placeholder or automatic link"
+    },
+    {
+      "note_id": "model-and-concept-drift",
+      "status": "ORPHAN_REVIEW_REQUIRED",
+      "candidate_index_paths": [],
+      "recommended_action": "review semantic inbound link to an existing index or related note; do not create placeholder or automatic link"
+    },
+    {
+      "note_id": "open-weight-models",
+      "status": "ORPHAN_REVIEW_REQUIRED",
+      "candidate_index_paths": [],
+      "recommended_action": "review semantic inbound link to an existing index or related note; do not create placeholder or automatic link"
+    },
+    {
+      "note_id": "privacy-preserving-ai",
+      "status": "ORPHAN_REVIEW_REQUIRED",
+      "candidate_index_paths": [],
+      "recommended_action": "review semantic inbound link to an existing index or related note; do not create placeholder or automatic link"
+    },
+    {
+      "note_id": "synthetic-data",
+      "status": "ORPHAN_REVIEW_REQUIRED",
+      "candidate_index_paths": [],
+      "recommended_action": "review semantic inbound link to an existing index or related note; do not create placeholder or automatic link"
+    },
+    {
+      "note_id": "uncertainty-and-calibration",
+      "status": "ORPHAN_REVIEW_REQUIRED",
+      "candidate_index_paths": [],
+      "recommended_action": "review semantic inbound link to an existing index or related note; do not create placeholder or automatic link"
+    }
+  ],
+  "repair_policy": [
+    "Do not rewrite historical receipts merely to remove warnings.",
+    "Use a new hash-bound strict release when a note requires evidence re-publication or a legal/currentness change.",
+    "Use a focused navigation release for semantically justified inbound links only.",
+    "Keep unresolved notes excluded from assistance retrieval until reviewed evidence is resolved.",
+    "Require independent review and human approval for every repair release."
+  ],
+  "success_criteria": [
+    "Every listed lineage finding has a disposition: repaired by new receipt, superseded, or explicitly quarantined.",
+    "Every orphan has a reviewer decision with an existing target or a documented no-link decision.",
+    "No source/, ingest/ or active-vault file is changed by the diagnostic itself.",
+    "A rerun is deterministic and produces no unexplained new warning."
+  ]
+}

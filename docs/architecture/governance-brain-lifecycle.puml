@@ -1,0 +1,113 @@
+@startuml
+skinparam BackgroundColor #0B0F14
+skinparam TitleFontColor #FFFFFF
+skinparam ArrowColor #A7C7FF
+skinparam ActivityBorderColor #7AA2F7
+skinparam ActivityBackgroundColor #18212F
+skinparam ActivityFontColor #F5F7FA
+skinparam PartitionBorderColor #596780
+skinparam PartitionBackgroundColor #111827
+skinparam PartitionFontColor #FFFFFF
+skinparam NoteBackgroundColor #202B3B
+skinparam NoteBorderColor #E0AF68
+skinparam NoteFontColor #FFFFFF
+skinparam DiamondBackgroundColor #26364D
+skinparam DiamondBorderColor #7AA2F7
+skinparam ActivityDiamondBackgroundColor #26364D
+skinparam ActivityDiamondBorderColor #7AA2F7
+skinparam ActivityDiamondFontColor #FFFFFF
+skinparam LegendBackgroundColor #111827
+skinparam LegendBorderColor #596780
+skinparam LegendFontColor #FFFFFF
+skinparam defaultFontName Arial
+skinparam shadowing false
+
+title Governance Brain — evidence-first construction and continuation
+
+legend right
+  |= Colour |= Meaning |
+  |<#18212F>   | deterministic or bounded work |
+  |<#26364D>   | review / routing gate |
+  |<#202B3B>   | invariant or human decision |
+endlegend
+
+start
+
+partition "Immutable corpus" {
+  :New public document arrives;
+  :Assign stable source_id;
+  :Record path + source SHA-256;
+  :Store original under sources/;
+  note right
+    Existing originals are never
+    modified, renamed or deleted.
+  end note
+}
+
+partition "Deterministic ingestion" {
+  :Select format adapter\nPDF / Office / tabular / text / image / structured;
+  :Create document.json, overview.md\nand locator-addressable Markdown units;
+  :Validate schema, source hash, unit hash,\ncoverage and parsing signals;
+  if (Fidelity risk or REVIEW_REQUIRED?) then (yes)
+    :Local page / row / visual comparison;
+  else (no)
+  endif
+}
+
+partition "Evidence roles" {
+  :cdo_program_lead\nselects one bounded need;
+  :source_extractor\nreads assigned validated ingest only;
+  :evidence_auditor\nchecks locator, fidelity, authority,\napplicability, dates and conflicts;
+  if (New evidence, binding claim, legal\ninterpretation or supersession?) then (strict)
+    :Strict evidence lock;
+  else (fast)
+    :Reuse reviewed evidence lock;
+  endif
+}
+
+partition "Knowledge and questions" {
+  :knowledge_architect\nproposes concepts, rules and relations;
+  :questionnaire_curator\nproposes atomic FR/EN questions;
+  :questionnaire_reviewer\nchecks equivalence, topic and dependencies;
+  :domain_builder\nwrites only the assigned future-vault overlay;
+  :Deterministic schema, link, duplicate\nand evidence validation;
+}
+
+partition "Independent gates" {
+  :vault_reviewer / release_reviewer\nreview the complete candidate;
+  if (Ready for human review?) then (yes)
+    :Compute exact candidate SHA-256;
+  else (blocked)
+    :Return findings to the assigned author;
+    stop
+  endif
+  :Human approves that exact hash;
+  note right
+    Tests and agent reviews
+    never imply approval.
+  end note
+}
+
+partition "Published Governance Brain" {
+  :Deterministic atomic integration\ninto brain wiki/;
+  fork
+    :Section catalogue + lexical index;
+  fork again
+    :Evidence index + graph;
+  fork again
+    :Question Registry + Canvas;
+  fork again
+    :OKF and private handoff exports;
+  end fork
+  :gov360 brain context\nreturns bounded cited context;
+  :Governance assistant reasons only\nover eligible retrieved context;
+}
+
+partition "Maintenance and handoff" {
+  :Monitor legal change, supersession,\nincident and lifecycle change;
+  :git_helper prepares manifests, tests\nand the private CDO continuation snapshot;
+  :CDO continues with the same release gates;
+}
+
+stop
+@enduml

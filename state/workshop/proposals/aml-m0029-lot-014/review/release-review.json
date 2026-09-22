@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "proposal_id": "aml-m0029-lot-014",
+  "reviewer_identity": "codex-release-reviewer",
+  "reviewed_at": "2026-09-15T15:42:11+02:00",
+  "candidate_sha256": "c62bf6112e2ad6cdde53bac0b1449042d1df3164e3f0c33ba6f8d6ca0ea73c5a",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [],
+  "checks": {
+    "manifest": "PASS",
+    "evidence_audit": "PASS",
+    "overlay_validation": "PASS",
+    "provenance": "PASS",
+    "authority": "PASS_NON_BINDING_SECURITY_KNOWLEDGE",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "scope": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS",
+    "active_vault_unchanged": "PASS"
+  },
+  "notes": "The candidate adds one stable knowledge note for MITRE ATLAS AML.M0029. Evidence is audited, locators and hashes are present, links resolve to existing concepts, and the note explicitly treats ATLAS as non-binding security guidance. No strict-lane trigger is misclassified; the release is already strict. Human approval remains required."
+}

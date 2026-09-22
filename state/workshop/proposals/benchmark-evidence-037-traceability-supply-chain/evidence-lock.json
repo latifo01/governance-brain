@@ -1,0 +1,32 @@
+{
+  "schema_version": 2,
+  "evidence_refs": [
+    "be037-src-0035-ec-001",
+    "be037-src-0035-ec-002",
+    "be037-src-0035-ec-004",
+    "be037-src-0035-ec-005",
+    "be037-src-0035-ec-006",
+    "be037-src-0035-ec-007",
+    "be037-src-0035-ec-008",
+    "be037-src-0035-ec-010",
+    "be037-src-0035-ec-011",
+    "be037-src-0036-ec-001",
+    "be037-src-0036-ec-002",
+    "be037-src-0036-ec-003",
+    "be037-src-0036-ec-004",
+    "be037-src-0038-ec-001",
+    "be037-src-0038-ec-002",
+    "be037-src-0038-ec-003",
+    "be037-src-0038-ec-004",
+    "be037-src-0038-ec-005",
+    "be037-src-0038-ec-006",
+    "be037-src-0038-ec-007",
+    "be037-src-0046-ec-001"
+  ],
+  "library_receipts": [
+    {
+      "path": "state/workshop/evidence-library/benchmark-evidence-037-traceability-supply-chain.json",
+      "sha256": "c50e75b0b1f493d26cad3cbee800174c9d2b3cfd70e077bcfae6b98c5d14aeda"
+    }
+  ]
+}

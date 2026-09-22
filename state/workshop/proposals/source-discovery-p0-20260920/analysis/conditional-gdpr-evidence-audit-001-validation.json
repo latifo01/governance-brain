@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "proposal_id": "source-discovery-p0-20260920",
+  "review_id": "conditional-gdpr-evidence-audit-001-validation",
+  "status": "PASS",
+  "input_audit_sha256": "c7d4271e63a96fa911ad015a32691be960faa9a79bea3aca93ec62c3194b5378",
+  "checks": {
+    "records_match_input_conditional_rows": true,
+    "all_hashes_present": true,
+    "no_currentness_assertion": true,
+    "no_evidence_resolved": true,
+    "no_publication": true,
+    "no_active_vault_changes": true,
+    "source_and_ingest_unchanged": true
+  },
+  "counts": {
+    "records": 12,
+    "direct_conditional": 7,
+    "adjacent_conditional": 5,
+    "currentness_verified": 0,
+    "evidence_resolved": 0,
+    "publication_eligible": 0
+  },
+  "validation_sha256": "b8b10ddf4b8ccd4fd3992c47928f1e9ea7e9bc2387a17c5afda292580ccdea2d"
+}

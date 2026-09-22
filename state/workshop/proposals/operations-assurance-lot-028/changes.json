@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "proposal_id": "operations-assurance-lot-028",
+  "stage": "KNOWLEDGE_AND_QUESTION_PROPOSAL",
+  "status": "PROPOSAL_READY",
+  "changes": [
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/ai-assurance-and-independent-review.md",
+      "id": "ai-assurance-and-independent-review"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "knowledge",
+      "path": "AI Risk Mitigations/ai-incident-response-resilience.md",
+      "id": "ai-incident-response-resilience"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/assurance/aud-001-independent-ai-assurance.md",
+      "id": "aud-001-independent-ai-assurance"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/assurance/aud-002-assurance-finding-closure.md",
+      "id": "aud-002-assurance-finding-closure"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/operational/ori-001-ai-incident-response-playbook.md",
+      "id": "ori-001-ai-incident-response-playbook"
+    },
+    {
+      "change_type": "ADD",
+      "artifact_type": "question",
+      "path": "questions/operational/ori-002-recovery-validation-and-lessons-learned.md",
+      "id": "ori-002-recovery-validation-and-lessons-learned"
+    }
+  ],
+  "evidence": {
+    "receipt": "state/workshop/evidence-library/operations-assurance-028.json",
+    "evidence_lock_sha256": "b3b9632f055da13e6b8acc8d8601c6e8a71590db3197b63c313ff38c8811a3c9"
+  },
+  "approval": "PENDING"
+}

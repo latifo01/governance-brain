@@ -1,0 +1,83 @@
+{
+  "adapter_id": "structured-data",
+  "adapter_version": "1.1.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "structured_profile",
+      "locator": "/",
+      "metadata": {
+        "encoding": "utf-8-sig",
+        "record_count": 3
+      }
+    }
+  ],
+  "domains": [
+    "AI_SECURITY"
+  ],
+  "inventory": {
+    "metadata": {
+      "encoding": "utf-8-sig",
+      "record_count": 3
+    },
+    "native_unit_count": 3,
+    "normalized_unit_count": 3,
+    "unit_count": 3,
+    "warnings": []
+  },
+  "metrics": {
+    "native_unit_count": 3,
+    "unit_count": 3
+  },
+  "relative_source_paths": [
+    "sources/02_AI_Security_Frameworks/stix-atlas-2026.08.json"
+  ],
+  "schema_version": 1,
+  "source_format": "json",
+  "source_id": "SRC-0046",
+  "source_kind": "dataset",
+  "source_sha256": "6550ac8a7322e2d43d7c6c10234f0f381e74734ac6c734255fb1fc467bf16d7c",
+  "units": [
+    {
+      "content_sha256": "83e528f7923f17777c10270e70cdf372b081435a255ab9df6982e07adf713f94",
+      "file_sha256": "37475c876a963df6ce8aaead189461de4e92a7d9ae2df18848cbb9db486d6988",
+      "filename": "units/key-0001.md",
+      "index": 1,
+      "locator": "/type",
+      "locator_kind": "json_path",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "42e2a12ab07cb26adc0f1c0997cabeb6bdf1f8c73495c51e0b9f4aef2c056523",
+      "file_sha256": "09141426f4e8930dc886dc1fbc7c4bc3b33408f54d9e3571e69fdcd1cd83a4b2",
+      "filename": "units/key-0002.md",
+      "index": 2,
+      "locator": "/id",
+      "locator_kind": "json_path",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "13c6eac080be6463bbeafa9ffd309df83ca5c421052f603bbbb34f8ce96d00ab",
+      "file_sha256": "7b18ef3f2ed64ab84d1204bca642c073f03b8264b4a2fe3bb2f19ab84cbd5241",
+      "filename": "units/key-0003.md",
+      "index": 3,
+      "locator": "/objects",
+      "locator_kind": "json_path",
+      "visual_review": "NONE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 1365170,
+      "native_unit_count": 3,
+      "normalized_unit_count": 3
+    },
+    "valid": true,
+    "warnings": [
+      "key-0003.md exceeds max_markdown_chars because its native unit was not split"
+    ]
+  },
+  "warnings": []
+}

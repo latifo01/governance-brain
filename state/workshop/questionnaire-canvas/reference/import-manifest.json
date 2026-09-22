@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "artifact_id": "risk-analysis-questionnaire-canvas",
+  "filename": "risk-analysis-questionnaire.canvas",
+  "sha256": "e602be42f5828992c1d1f7bae1f31f207527f7a0b82dffc2973a8a55293f7188",
+  "bytes": 6828,
+  "nodes": 21,
+  "edges": 20,
+  "origin": "operator-provided local Canvas",
+  "path_recorded": false,
+  "authority": "EDITORIAL_INPUT",
+  "canonical_questions": false,
+  "published": false
+}

@@ -1,0 +1,28 @@
+{
+  "author_identity": "opencode-domain-builder",
+  "candidate_sha256": "705bc43e8fbd4a2dc86670aa794229ddaa2af50b3265ad8bdff882563b7c8265",
+  "changes": {
+    "ADD": [
+      "atlas-incidents-index"
+    ],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": []
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "description": "Navigation index linking the 18 MITRE ATLAS case-study notes and the mitre-atlas framework note; pure navigation, no knowledge content.",
+  "domain": "AI_SECURITY",
+  "evidence_changes": false,
+  "files": [
+    "indexes/atlas-incidents-index.md"
+  ],
+  "proposal_id": "atlas-navigation-lot-017",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "fast",
+  "schema_version": 3,
+  "shards": [],
+  "status": "INTEGRATED"
+}

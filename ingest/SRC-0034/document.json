@@ -1,0 +1,421 @@
+{
+  "adapter_id": "pdf",
+  "adapter_version": "1.2.0",
+  "data_artifacts": [
+    {
+      "artifact_type": "visual_inventory",
+      "locator": "Document",
+      "metadata": {
+        "candidate_pages": 5,
+        "ocr_candidate_pages": 0
+      }
+    }
+  ],
+  "domains": [
+    "AI_SECURITY",
+    "THIRD_PARTIES_SUPPLY_CHAIN"
+  ],
+  "inventory": {
+    "metadata": {
+      "encrypted": false,
+      "page_count": 37
+    },
+    "native_unit_count": 37,
+    "normalized_unit_count": 37,
+    "warnings": []
+  },
+  "metrics": {
+    "page_count": 37,
+    "unit_count": 37
+  },
+  "relative_source_paths": [
+    "sources/03_CoSAI/CoSAI risks-and-controls-for-the-ai-supply-chain-v1.pdf"
+  ],
+  "schema_version": 1,
+  "source_format": "pdf",
+  "source_id": "SRC-0034",
+  "source_kind": "document",
+  "source_sha256": "b4133f21b4fb1b6ab9bd39962c2aad1b6f3193dfe84a23fcf9a2edb914a11176",
+  "units": [
+    {
+      "content_sha256": "d4b7a11edd18d729189e8ff4fb725753774e7e983e3152a951af02f3578ef17d",
+      "file_sha256": "2bff8de0f8fadc6db0c4c948cccec1484ed9f356898dd8b792cfffafae7ce37a",
+      "filename": "units/p0001.md",
+      "index": 1,
+      "locator": "Page 1",
+      "locator_kind": "page",
+      "visual_review": "NONE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "fced332a0bf2a933ebb5b11d437060a72ea2d769e780f14aab4701c46f39ab67",
+      "file_sha256": "aa1377018c6df097c0548efd2cc3d36fec8363532c65ec250fb4a65f29973236",
+      "filename": "units/p0002.md",
+      "index": 2,
+      "locator": "Page 2",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "815c3458e0564aa5d4bba80cbed4ce302fe94e2e7ce90866909ba79385439a35",
+      "file_sha256": "afc691dd8675e82208ccb5339e92b4495caf66d055d6b572d08433bc82210eb2",
+      "filename": "units/p0003.md",
+      "index": 3,
+      "locator": "Page 3",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "a8fbab132485626395a95bb13e58620d49849ed205d21dea2a06272efc765675",
+      "file_sha256": "546cd111f81f7c51850777b754e7dec905611c4ffc049a2c4b44949b1735887e",
+      "filename": "units/p0004.md",
+      "index": 4,
+      "locator": "Page 4",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "f2f3d81769573e4d13899322c926821ccfa959e5b51a56dac2e14c87e0df3591",
+      "file_sha256": "90234569e8446005e0b980ada26b31e0e90a17c260f60190ebc7daeb0027f055",
+      "filename": "units/p0005.md",
+      "index": 5,
+      "locator": "Page 5",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "fb218e0a75449c3299718ffec8699bcd045e572a32fc5bed229548d790b87780",
+      "file_sha256": "2dcff9af77884c6ee75c3087518affdfb03a2a2545f2c0b468c1a5f52c474448",
+      "filename": "units/p0006.md",
+      "index": 6,
+      "locator": "Page 6",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "21018d2b84c3129d75d570222b76c35a07a5260a96cb5c5970cffca8f8c5d6eb",
+      "file_sha256": "9c4aab7169ee5dd17c0bf25a844881c11516365ffe0e0e1ba6f762521cf89ec9",
+      "filename": "units/p0007.md",
+      "index": 7,
+      "locator": "Page 7",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "1955f1cb513c4e79128751e08e293596af5b939621f28c41e179d738f1f574a2",
+      "file_sha256": "1a6fab531e56efe67b7500d77a12ee60b235fd8024b5059a99b6bf56fdd35f1d",
+      "filename": "units/p0008.md",
+      "index": 8,
+      "locator": "Page 8",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "8b4895d29654502e58fdd37a2ecc670f541b3d120ff5691bbb69c2a0cb020d4a",
+      "file_sha256": "7172dcf97c709e3588837db6b393cda06f089e1d3463922b18f62b9bdae74a59",
+      "filename": "units/p0009.md",
+      "index": 9,
+      "locator": "Page 9",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "58856e48343c7f968e86091e93852b526d08db99aae9e1a6e11639137d860c05",
+      "file_sha256": "621b880b4e48eda5f2706332713f311ce61f4901c97b9ef3f916c6fcf7dd0c54",
+      "filename": "units/p0010.md",
+      "index": 10,
+      "locator": "Page 10",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "9b9b4acde19e73351989eac4bf82e15e0b71fb28fb1be10da70ae79a4f56fd87",
+      "file_sha256": "dd681d3c9efe7d69cc7ea1f5f7f428c38516c02886e2b18d5112fc0e4aa9cb12",
+      "filename": "units/p0011.md",
+      "index": 11,
+      "locator": "Page 11",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "cab68d8f8a7fbdc278fb8b21adf441ef7b217ce96a69f51fae3b93cfdc934875",
+      "file_sha256": "ceff4a5da5c4b9f62fb1bb6a93b2cb8c310caf4748bd1305946859ddb5c2df4a",
+      "filename": "units/p0012.md",
+      "index": 12,
+      "locator": "Page 12",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "1c905ec71f8299549e608fa2bc08fe2bed5bd17417043866b754aebfa7a1b609",
+      "file_sha256": "31ad8701721ddf72cc81c10e0c7888aa5d2eb4c7b135498bc33bcbf7017ccb2c",
+      "filename": "units/p0013.md",
+      "index": 13,
+      "locator": "Page 13",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "f463b7c6e7338790cbfc7564279dbc875383919c5fbc4c9d21f0be142f4903f2",
+      "file_sha256": "657837e3982be64dfb22766b211e5f184adbe1c23bbc19a90eeb07ac266fceed",
+      "filename": "units/p0014.md",
+      "index": 14,
+      "locator": "Page 14",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "e01852a1797313c80e9f146a215e07a151fe56220a6e7c716be506f0bf5617ff",
+      "file_sha256": "ff39e7b9a97034a9f0714ccbbae1b96be0d72f5cd30f9b12ec991a201a06039f",
+      "filename": "units/p0015.md",
+      "index": 15,
+      "locator": "Page 15",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "ab80e2023494e26245e3ec421d8f0bb0157b0b734338718461c450b9229169e4",
+      "file_sha256": "bd307fbce927d079f6377e36b905ff7aec3e0a6efb8684c9834ad384edc4917f",
+      "filename": "units/p0016.md",
+      "index": 16,
+      "locator": "Page 16",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "d9fbcb0f761a22b722c3dd258fb37c3ed41114596b06ffea07cdf2484e246bad",
+      "file_sha256": "d2fa70581fca86342d866407df452c23b797914705db60643abf477601c7c22f",
+      "filename": "units/p0017.md",
+      "index": 17,
+      "locator": "Page 17",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "527cb295e4c4a1fab1266c88924e34277f7e9ff2a65c63c914203cc76dfb3d6a",
+      "file_sha256": "22d8f0937e7aa82cc0a6d012ed89b18388189db3cde9c7e98441a7bb66a09f8c",
+      "filename": "units/p0018.md",
+      "index": 18,
+      "locator": "Page 18",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "5c1eff0a6421aeb8017decfcf540b89636af476c70283fed92a33d5a8a8f9a92",
+      "file_sha256": "e550b40dc2f90686cddf9b83f56d7d284c4d04ace0eed339b472110c8d9d93ba",
+      "filename": "units/p0019.md",
+      "index": 19,
+      "locator": "Page 19",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "20502946553462d829b9c8c0a37bad2d242a8dbc37b3fc9685655437cb6607c2",
+      "file_sha256": "6870427ac476cca4fbf371142a89534544d3a5c3560ce08a404bbb6b30d62bd4",
+      "filename": "units/p0020.md",
+      "index": 20,
+      "locator": "Page 20",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "136016a55a20813c2bae2662d896ae19d26527f8876cac9a0da52da6d569fa3f",
+      "file_sha256": "6d99f37403487b543dd9d2331cc19375b21ae88c34562d5f5dce0c2913acdbb4",
+      "filename": "units/p0021.md",
+      "index": 21,
+      "locator": "Page 21",
+      "locator_kind": "page",
+      "visual_review": "REVIEW_REQUIRED",
+      "warnings": []
+    },
+    {
+      "content_sha256": "3a403ae37c9079f40af673aa77b89d12e8e20348bb62ac0b20d0bbb2e8afef1d",
+      "file_sha256": "b05800bc6cec57a0e5fd142dc925c41e7716f9fb22369f11f52539b1d04bb6cb",
+      "filename": "units/p0022.md",
+      "index": 22,
+      "locator": "Page 22",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "52b1306d3179a9f96f19e45f8244c771904bcbd64538f7ccf1f97cb60ba69b27",
+      "file_sha256": "b60b80be13c207f5ed9655266f854a0ef12a5f9b128033540f0ddf43a9e31c76",
+      "filename": "units/p0023.md",
+      "index": 23,
+      "locator": "Page 23",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "ee3fb22c6cd9af75de79260c14932f0d8ba4c4b866cb647cfb8d8f9542dd9891",
+      "file_sha256": "b3f32add2b054ceaa5720dcdce16e55d1fa9d3a60d94195f690d3bef49f3f0c3",
+      "filename": "units/p0024.md",
+      "index": 24,
+      "locator": "Page 24",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "b023cc6c9feddf914505b3deb4ab4561aca708963bd7396aab98b2baafcea180",
+      "file_sha256": "e97464e7c53ea21a5d96421cbfcf3c2228fadb237588ff4002dc67a5d550987f",
+      "filename": "units/p0025.md",
+      "index": 25,
+      "locator": "Page 25",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "b7352ec63c4baacac8abf8f9c3d76a02900cac3768e09e68e8d969f07746068c",
+      "file_sha256": "f65d100d4346a6859a7340a4a000a4eb5b0c05681a45d5365730170adc29e659",
+      "filename": "units/p0026.md",
+      "index": 26,
+      "locator": "Page 26",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "4b244062db5094a91b0f2b2e8e69fb5b9e00ac009e5429649d90ac88fbd744e7",
+      "file_sha256": "4fb7aad4c472497a02e339e0f3e400432a7bc8ac986a1784aa84102f74dabe34",
+      "filename": "units/p0027.md",
+      "index": 27,
+      "locator": "Page 27",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "c4826619c59f24597d51ddc6aa47459276b32b7a5a12cd25a692a8f001681e78",
+      "file_sha256": "dbb9e2676afaa90d7c01ef736daea9bfc821b5c63be820a8f6840e51b9b6c54f",
+      "filename": "units/p0028.md",
+      "index": 28,
+      "locator": "Page 28",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "13a2d5e358a73d2b2df65cfab17142ffeb0fd5bb513c984fb1cc12a8ef4c7086",
+      "file_sha256": "2910e3941f9fdf0b12662322086eb06f1ce676e80a37ad4bfdf93c89030d32f3",
+      "filename": "units/p0029.md",
+      "index": 29,
+      "locator": "Page 29",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "ad0bf714836bd091d73f9228c5a2e70a9367b59fbcb2fb1c97ac5dea4724a007",
+      "file_sha256": "2569cf08c77360c0b4b40ef5d08bc359ecb2e3b7048af604e1669612d7a68bcb",
+      "filename": "units/p0030.md",
+      "index": 30,
+      "locator": "Page 30",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "15992cae8b7317150959f6322877dbb9d7129c1bd472700ce19de0bf1b9afc27",
+      "file_sha256": "dba222e2f5fe2d25e130f845f7b3f90a0a7e6bccd6041a656ee610d357588494",
+      "filename": "units/p0031.md",
+      "index": 31,
+      "locator": "Page 31",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "3c551e9e5c2f4b1056e6af941f4721ce1c0eb26c1f4bf19c4286d1bebf3405c4",
+      "file_sha256": "93db2c870d8343e01052b18cd3e5cd062b6d48c52284cff745c95e0ba1612133",
+      "filename": "units/p0032.md",
+      "index": 32,
+      "locator": "Page 32",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "3879f09ac6d56cbc4200d86b8815fee7fc164a931d638c6f0f4a4e2c5da8f5a8",
+      "file_sha256": "5af9561d548bb2cdcea94f581d3cd23458d71d083b5a51672c9d3024fd881693",
+      "filename": "units/p0033.md",
+      "index": 33,
+      "locator": "Page 33",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "746e260ef71f1a7f7e2755e7905c84523c6834a304e057a76d0666648a10885d",
+      "file_sha256": "61f3a3e0aa986a7f3ed7a310d18ec97bad3d8eb05dd22e6efa6e31a5fbde0be3",
+      "filename": "units/p0034.md",
+      "index": 34,
+      "locator": "Page 34",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "43d5ba9a9beb631df9990feafdb4975975673727a597e4add8f557c4c2e291bb",
+      "file_sha256": "9c89d8b3749987b30f4301ae6d4b57467132bba4ad183dc9766b5179057fa889",
+      "filename": "units/p0035.md",
+      "index": 35,
+      "locator": "Page 35",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "34f43534c50e6c63e6d12aa5d527806e3f406edc9fd40e098b08ab8fd5ffcb1d",
+      "file_sha256": "01ec607c220b665cc0775b66b814c33ecc1b0346753bde9bf86183e25e2be3fc",
+      "filename": "units/p0036.md",
+      "index": 36,
+      "locator": "Page 36",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    },
+    {
+      "content_sha256": "43bc59539dffd4fb74d96d24f405bd946b44401d0d404bf0443deff18ad9a40b",
+      "file_sha256": "ca9ec6200942f41a9c396241dd409ddbacd7e33c7f1ec08ad9e9b9e053913f5e",
+      "filename": "units/p0037.md",
+      "index": 37,
+      "locator": "Page 37",
+      "locator_kind": "page",
+      "visual_review": "DECORATIVE",
+      "warnings": []
+    }
+  ],
+  "validation": {
+    "metrics": {
+      "markdown_chars": 102680,
+      "native_unit_count": 37,
+      "normalized_unit_count": 37
+    },
+    "valid": true,
+    "warnings": []
+  },
+  "warnings": []
+}

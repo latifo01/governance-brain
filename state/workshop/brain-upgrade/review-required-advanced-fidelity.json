@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "review_kind": "advanced_visual_fidelity_review",
+  "method": "local PyMuPDF 1.28.2 raster render at 2x plus native-text normalization and visual inspection",
+  "reviewer_identity": "codex-review-required-fidelity-auditor",
+  "reviewed_at": "2026-09-19T00:00:00Z",
+  "limitations": [
+    "The review establishes extraction and visual coverage for the selected page only; it does not establish legal currency, authority or applicability.",
+    "The original PDF was read read-only for this local fidelity check; no source text was copied into this receipt."
+  ],
+  "results": [
+    {
+      "source_id": "SRC-0043",
+      "source_sha256": "0bea4d808256b08275777949ba9cb3c70b7d02e4ebb3ac9b205671b1f552d386",
+      "locator": "Page 1",
+      "unit_path": "ingest/SRC-0043/units/p0001.md",
+      "unit_file_sha256": "bdaf1ff9e91628ea34eccb39de0f9ace35eef0c494f07372425c93436e756756",
+      "unit_content_sha256": "13e7a7db10f49fb5de3f0708a42da8e261df0a847704eb67f3be1ed6332297f8",
+      "source_page_count": 41,
+      "extraction_mode": "native",
+      "ocr_used": false,
+      "visual_review": "REVIEWED",
+      "comparison": "equal_after_whitespace_normalization",
+      "normalized_pdf_text_sha256": "39c1775abae99f165eb262b94875fae93fb091238431a8a8907a63a68e12c845",
+      "normalized_unit_text_sha256": "39c1775abae99f165eb262b94875fae93fb091238431a8a8907a63a68e12c845",
+      "visual_render_sha256": "ee8c2cc237098625019ca0a3f5db8692cc6fea8c51e128d09951bc65ff6db51e",
+      "result": "REVIEWED",
+      "visual_findings": "The official-journal cover and recitals are legible in the raster render; the Markdown unit preserves the text-bearing content. Logo, page furniture and typography are treated as decorative presentation rather than additional evidence.",
+      "unresolved": null
+    }
+  ]
+}

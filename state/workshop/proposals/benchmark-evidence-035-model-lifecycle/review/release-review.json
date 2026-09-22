@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-035-model-lifecycle",
+  "reviewer_identity": "codex-benchmark-evidence-035-independent-release-reviewer",
+  "reviewed_at": "2026-09-18T10:24:42+02:00",
+  "candidate_sha256": "8cb6dfe6a40c39989520fc5bc9bf0b6014f8b9c0736d5bb3350c47830ee86730",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_REPRODUCED",
+      "detail": "Deterministic integration preview validates the exact six-file candidate, reports valid=true and would_write=6; no active-vault write was applied.",
+      "candidate_sha256": "8cb6dfe6a40c39989520fc5bc9bf0b6014f8b9c0736d5bb3350c47830ee86730"
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_RESOLVED",
+      "detail": "The evidence lock resolves 73 unique reviewed references through the hash-bound shared receipt; all 24 substantive section bindings reference locked evidence.",
+      "evidence_lock_sha256": "c977292d6e3ac53b9a1b8e01250c0d392f76475111f65e88c5f21091b976afe4"
+    },
+    {
+      "severity": "INFO",
+      "code": "PROVENANCE_VERIFIED",
+      "detail": "The 73 receipt records resolve source_id, source SHA-256, ingest unit path, unit content SHA-256, unit file SHA-256 and stable page locators against the assigned validated Markdown units."
+    },
+    {
+      "severity": "INFO",
+      "code": "UNCERTAIN_EVIDENCE_EXCLUDED",
+      "detail": "All 28 UNCERTAIN candidates are excluded from the evidence lock: 17 SRC-0009 visual-fidelity cases and 11 SRC-0038 image-inspection cases. No future-vault binding relies on them."
+    },
+    {
+      "severity": "INFO",
+      "code": "OVERLAY_SCHEMA_LINKS_VALID",
+      "detail": "The four knowledge updates and two question updates pass deterministic proposal validation; IDs, registered domains, paths and existing Obsidian links are valid."
+    },
+    {
+      "severity": "INFO",
+      "code": "QUESTION_GRAPH_VALIDATED",
+      "detail": "Both questions have stable topics, one boolean intent, equivalent French and English wording, and null dependencies; no duplicate question ID or dependency cycle is introduced."
+    },
+    {
+      "severity": "WARNING",
+      "code": "NON_BINDING_AUTHORITY_SCOPE",
+      "detail": "The release contains research, Commission guidance and voluntary/framework material only. SRC-0018 remains distinct from binding AI Act text; SRC-0036 and SRC-0038 remain bounded supervisory context; SRC-0039 remains voluntary. The notes must not be used alone to assert universal legal obligations."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_PENDING",
+      "detail": "This review establishes readiness only. Human approval must bind the exact candidate SHA-256 before deterministic integration.",
+      "approval_file": "state/workshop/proposals/benchmark-evidence-035-model-lifecycle/review/approval.md"
+    }
+  ],
+  "checks": {
+    "manifest": "PASS_STRICT_EVIDENCE_CHANGES",
+    "evidence_lock": "PASS_73_REFERENCES",
+    "shared_receipt": "PASS_73_RECORDS_24_BINDINGS",
+    "evidence_audit": "PASS_73_VERIFIED_28_EXCLUDED",
+    "fidelity_review": "PASS_73_REVIEWED_RESULTS",
+    "authority_boundary": "PASS_NO_BINDING_SOURCE_OR_CLAIM",
+    "overlay_validation": "PASS_ZERO_ERRORS",
+    "note_schema": "PASS",
+    "links": "PASS",
+    "duplicates": "PASS",
+    "question_bilingual_equivalence": "PASS",
+    "question_dependencies": "PASS_ACYCLIC",
+    "candidate_hash": "PASS",
+    "active_vault_unchanged": "PASS",
+    "sources_unchanged": "PASS",
+    "ingest_unchanged": "PASS"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-gaps-033",
+  "generated_at": "2026-09-17",
+  "gap_families": 9,
+  "blocked_rows": 18,
+  "distinct_target_notes": 15,
+  "source_count": 12,
+  "planned_releases": 4,
+  "strict_releases": 4,
+  "active_vault_changed": false,
+  "sources_changed": false,
+  "ingest_changed": false,
+  "benchmark_config_changed": false
+}

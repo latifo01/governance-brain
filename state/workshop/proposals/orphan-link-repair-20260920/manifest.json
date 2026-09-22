@@ -1,0 +1,34 @@
+{
+  "author_identity": "codex-orphan-link-repair-20260920",
+  "candidate_sha256": "685ae2662fb43c82180e4f2853bf799699fc478f0b38674e76e5cdd1fa16efaf",
+  "changes": {
+    "ADD": [],
+    "NOOP": [],
+    "SUPERSEDE": [],
+    "UPDATE": [
+      "ai-act-index",
+      "risk-index",
+      "data-protection-index"
+    ]
+  },
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "contract_changes": false,
+  "description": "Pure navigation repair: add seven semantically reviewed links to three existing domain indexes. No knowledge claims, evidence bindings, placeholders or source content are introduced.",
+  "domain": "AI",
+  "evidence_changes": false,
+  "files": [
+    "indexes/ai-act-index.md",
+    "indexes/risk-index.md",
+    "indexes/data-protection-index.md"
+  ],
+  "proposal_id": "orphan-link-repair-20260920",
+  "published": true,
+  "requires_proposals": [],
+  "risk_tier": "fast",
+  "schema_version": 3,
+  "shards": [
+    "orphan-link-repair"
+  ],
+  "status": "INTEGRATED"
+}

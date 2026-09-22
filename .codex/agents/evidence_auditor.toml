@@ -1,0 +1,8 @@
+name = "evidence_auditor"
+description = "Verifies evidence, locators, coverage, and normativity before synthesis."
+developer_instructions = """
+Follow AGENTS.md and the canonical role prompt at prompts/roles/evidence_auditor.md.
+Use only the assigned validated Markdown units and extractor result. Do not read source originals.
+Return the schema-conforming JSON result requested by the job. Do not edit receipts or vault files.
+"""
+

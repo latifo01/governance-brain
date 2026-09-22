@@ -1,0 +1,34 @@
+{
+  "candidate_sha256": "f41449735fe6a0bdd300c9dcf805922f12dfdf6779411e1e8bcb5aebf3bb816c",
+  "findings": [
+    {
+      "message": "Independent review performed in split questions (anti-overload approach); all answers returned explicitly by the release-reviewer agent.",
+      "severity": "INFO"
+    },
+    {
+      "message": "All 7 link placements confirmed FIT for their thematic sections (Frameworks, Model controls, Agentic AI controls, Research and organizations, Assessments and rights).",
+      "severity": "INFO"
+    },
+    {
+      "message": "Both updated index files contain no prose lines and no duplicated ids; all 7 targets exist in the vault; link resolution machine-verified by the deterministic preview.",
+      "severity": "INFO"
+    },
+    {
+      "message": "UPDATE-only change of two index files; empty evidence-lock legitimate for pure navigation; no strict triggers.",
+      "severity": "INFO"
+    },
+    {
+      "message": "Overlay construction executed deterministically by the orchestrator (0 LLM calls) after the domain-builder model returned empty responses; author identity recorded as opencode-orchestrator, distinct from the reviewer.",
+      "severity": "WARNING"
+    },
+    {
+      "message": "Review grants no approval; human hash-bound approval remains a separate decision.",
+      "severity": "INFO"
+    }
+  ],
+  "lane": "fast",
+  "release_id": "orphan-navigation-lot-018",
+  "reviewed_at": "2026-09-16T18:20:00Z",
+  "reviewer_identity": "opencode-release-reviewer-20260916-r5",
+  "verdict": "READY_FOR_HUMAN_APPROVAL"
+}

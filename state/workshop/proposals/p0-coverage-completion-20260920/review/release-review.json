@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "candidate_sha256": "62efa5e600896f498e0316f434d0ea544c8bafb8c4e77f67b7471ce9e9b48f7d",
+  "reviewer_identity": "codex-p0-coverage-independent-release-reviewer",
+  "reviewed_at": "2026-09-20T00:00:00+00:00",
+  "verdict": "READY_FOR_HUMAN_APPROVAL",
+  "findings": [
+    {
+      "severity": "INFO",
+      "code": "CANDIDATE_VALID",
+      "detail": "Deterministic proposal validation and integration preview report valid=true for 24 future-vault files."
+    },
+    {
+      "severity": "INFO",
+      "code": "EVIDENCE_LOCK_BOUND",
+      "detail": "Exact evidence lock 4d0ee7c9a750f4b1da819f290f72cd71daa8128d8c494a02667e9d465b49a553 resolves 96 reviewed references."
+    },
+    {
+      "severity": "INFO",
+      "code": "COVERAGE_MAP_COMPLETE",
+      "detail": "The candidate maps all 20 P0 cells to stable future-vault notes or navigation indexes."
+    },
+    {
+      "severity": "INFO",
+      "code": "BILINGUAL_QUESTION_INTENTS_VALID",
+      "detail": "Four proposed questions use one assessable bilingual intent each; the conditional personal-data question depends on core-009-personal-data-involvement."
+    },
+    {
+      "severity": "WARNING",
+      "code": "HUMAN_APPROVAL_REQUIRED",
+      "detail": "The candidate is not published and must be approved against this exact candidate SHA."
+    }
+  ]
+}

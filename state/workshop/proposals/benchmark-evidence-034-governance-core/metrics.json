@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "proposal_id": "benchmark-evidence-034-governance-core",
+  "status": "PROPOSAL_READY",
+  "source_count": 3,
+  "verified_reference_count": 32,
+  "uncertain_candidates_excluded": 1,
+  "target_count": 3,
+  "updated_note_count": 3,
+  "updated_question_count": 2,
+  "updated_knowledge_count": 1,
+  "evidence_binding_count": 12,
+  "authority_counts": {
+    "STANDARD": 1,
+    "GUIDANCE": 1,
+    "FRAMEWORK": 1,
+    "BINDING": 0
+  },
+  "preview_limitations": 1,
+  "active_vault_modified": false,
+  "shared_state_modified": false
+}

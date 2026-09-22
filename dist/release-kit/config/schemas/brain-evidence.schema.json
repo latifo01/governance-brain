@@ -1,0 +1,371 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Governance Brain independently reviewed evidence library receipt (v1 historical; v2 qualification metadata)",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "receipt_id",
+    "author_identity",
+    "evidence",
+    "bindings"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "enum": [
+        1,
+        2
+      ]
+    },
+    "receipt_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]+$"
+    },
+    "author_identity": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/evidence"
+      }
+    },
+    "bindings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/binding"
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reviewer_identity",
+        "reviewed_at",
+        "candidate_sha256",
+        "verdict",
+        "findings"
+      ],
+      "properties": {
+        "reviewer_identity": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewed_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "candidate_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "verdict": {
+          "enum": [
+            "BLOCKED",
+            "EVIDENCE_READY"
+          ]
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "severity",
+              "code"
+            ],
+            "properties": {
+              "severity": {
+                "enum": [
+                  "INFO",
+                  "WARNING",
+                  "ERROR",
+                  "CRITICAL"
+                ]
+              },
+              "code": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": true
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "strings": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "evidence_ref",
+        "source_id",
+        "source_sha256",
+        "unit_path",
+        "unit_sha256",
+        "unit_file_sha256",
+        "locator",
+        "authority",
+        "jurisdiction",
+        "valid_from",
+        "valid_until",
+        "fidelity_inputs"
+      ],
+      "properties": {
+        "evidence_ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_id": {
+          "type": "string",
+          "pattern": "^SRC-[0-9]{4,}$"
+        },
+        "source_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "unit_path": {
+          "type": "string",
+          "pattern": "^ingest/SRC-[0-9]+/units/.+\\.md$"
+        },
+        "unit_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "unit_file_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "locator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "selector": {
+          "type": "string"
+        },
+        "authority": {
+          "enum": [
+            "BINDING",
+            "GUIDANCE",
+            "STANDARD",
+            "FRAMEWORK",
+            "DATASET",
+            "RESEARCH",
+            "UNCLASSIFIED"
+          ]
+        },
+        "jurisdiction": {
+          "$ref": "#/$defs/strings"
+        },
+        "valid_from": {
+          "$ref": "#/$defs/date"
+        },
+        "valid_until": {
+          "$ref": "#/$defs/date"
+        },
+        "fidelity_inputs": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "sha256": {
+                "$ref": "#/$defs/hash"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "document_date": {
+          "$ref": "#/$defs/date"
+        },
+        "applicable_from": {
+          "$ref": "#/$defs/date"
+        },
+        "applicable_until": {
+          "$ref": "#/$defs/date"
+        },
+        "review_expires_at": {
+          "$ref": "#/$defs/date"
+        },
+        "superseded_by": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "revoked": {
+          "type": "boolean"
+        }
+      }
+    },
+    "binding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "note_id",
+        "note_sha256",
+        "section_id",
+        "section_sha256",
+        "evidence_refs",
+        "modality"
+      ],
+      "properties": {
+        "note_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "section_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section_sha256": {
+          "$ref": "#/$defs/hash"
+        },
+        "evidence_refs": {
+          "$ref": "#/$defs/strings"
+        },
+        "modality": {
+          "enum": [
+            "obligation",
+            "prohibition",
+            "recommendation",
+            "expectation",
+            "context",
+            "definition"
+          ]
+        },
+        "applicability": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "conflicts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "limits": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "access_restrictions": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": 1
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "evidence": {
+            "items": {
+              "not": {
+                "anyOf": [
+                  {
+                    "required": [
+                      "document_date"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "applicable_from"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "applicable_until"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "review_expires_at"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "superseded_by"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "revoked"
+                    ]
+                  }
+                ]
+              }
+            }
+          },
+          "bindings": {
+            "items": {
+              "not": {
+                "anyOf": [
+                  {
+                    "required": [
+                      "applicability"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "conflicts"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "limits"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "access_restrictions"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "share": "disabled",
+  "model": "openrouter/deepseek/deepseek-v4-flash-0731",
+  "small_model": "openrouter/mistralai/mistral-small-3.2-24b-instruct",
+  "provider": {
+    "openrouter": {
+      "models": {
+        "openai/gpt-5.6-terra-pro": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny"
+
+            }
+          }
+        },
+        "google/gemini-3.1-pro-preview-customtools": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny",
+              "require_parameters": true
+            }
+          }
+        },
+        "deepseek/deepseek-v4-flash-0731": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny",
+              "require_parameters": true
+            }
+          }
+        },
+        "openai/gpt-5.6-luna-pro": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny",
+              "require_parameters": true
+            }
+          }
+        },
+        "qwen/qwen3-coder-30b-a3b-instruct": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny",
+              "require_parameters": true,
+              "sort": "price"
+            }
+          }
+        },
+        "qwen/qwen3-30b-a3b-instruct-2507": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny",
+              "require_parameters": true,
+              "sort": "price"
+            }
+          }
+        },
+        "mistralai/mistral-small-3.2-24b-instruct": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny",
+              "require_parameters": true,
+              "sort": "price"
+            }
+          }
+        },
+        "google/gemini-2.5-flash-lite": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny",
+              "require_parameters": true,
+              "sort": "price"
+            }
+          }
+        },
+        "openai/gpt-4.1-nano": {
+          "options": {
+            "provider": {
+              "zdr": true,
+              "data_collection": "deny",
+              "require_parameters": true,
+              "sort": "price"
+            }
+          }
+        }
+      }
+    }
+  },
+  "watcher": {
+    "ignore": [
+      ".git/**",
+      ".venv/**",
+      ".pytest_cache/**",
+      ".pytest_tmp/**",
+      "**/__pycache__/**",
+      "sources/**",
+      "ingest/**",
+      "state/runs/**",
+      "state/render_cache/**",
+      "state/watch/**"
+    ]
+  },
+  "agent": {
+    "explore": {
+      "permission": {
+        "read": {
+          "*": "allow",
+          "sources": "deny",
+          "sources/**": "deny"
+        }
+      }
+    },
+    "general": {
+      "permission": {
+        "read": {
+          "*": "allow",
+          "sources": "deny",
+          "sources/**": "deny"
+        }
+      }
+    }
+  },
+  "permission": {
+    "read": {
+      "*": "allow",
+      "sources": "allow",
+      "sources/**": "allow",
+      "ingest": "allow",
+      "ingest/**": "allow",
+      "state": "allow",
+      "state/**": "allow",
+      "brain wiki": "allow",
+      "brain wiki/**": "allow"
+    },
+    "edit": {
+      "*": "allow",
+      "AGENTS.md": "ask",
+      ".codex/**": "ask",
+      ".agents/skills/**": "ask",
+      "prompts/roles/**": "ask",
+      "config/schemas/**": "ask",
+      "domain_packs/**": "ask",
+      "state/**": "ask",
+      "brain wiki/**": "ask",
+      "ingest": "deny",
+      "ingest/**": "deny",
+      "sources": "deny",
+      "sources/**": "deny"
+    },
+    "grep": "allow",
+    "bash": {
+      "*": "ask",
+      "pwd": "allow",
+      "git status *": "allow",
+      "git diff *": "allow",
+      "git rev-parse *": "allow",
+      "git check-ignore *": "allow",
+      "uv run python --version": "allow",
+      "uv run pytest *": "allow",
+      "uv run --offline --no-sync python -m gov360_brain.workshop *": "allow"
+    },
+    "external_directory": "ask",
+    "webfetch": "ask",
+    "websearch": "ask",
+    "skill": "allow",
+    "task": {
+      "*": "ask",
+      "source-extractor": "allow",
+      "evidence-auditor": "allow",
+      "knowledge-architect": "allow",
+      "questionnaire-curator": "allow",
+      "questionnaire-reviewer": "allow",
+      "cdo-program-lead": "allow",
+      "vault-reviewer": "allow",
+      "domain-builder": "allow",
+      "release-reviewer": "allow"
+    }
+  }
+}

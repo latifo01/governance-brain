@@ -1,0 +1,28 @@
+{
+  "schema_version": 3,
+  "proposal_id": "plan-execution-20260921",
+  "status": "DRAFT",
+  "published": false,
+  "domain": "GENERAL",
+  "risk_tier": "strict",
+  "evidence_changes": false,
+  "contract_changes": true,
+  "contains_binding_claims": false,
+  "contains_legal_interpretation": false,
+  "author_identity": "codex-plan-coordinator",
+  "shards": [
+    "u01",
+    "u02",
+    "u03"
+  ],
+  "changes": {
+    "ADD": [],
+    "UPDATE": [],
+    "SUPERSEDE": [],
+    "NOOP": []
+  },
+  "files": [],
+  "requires_proposals": [],
+  "technical_inventory": "technical-inventory.json",
+  "scope": "Technical programme, no active-vault overlay. All business candidates require their own reviewed v3 manifest and exact human approval."
+}
