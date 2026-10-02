@@ -15,6 +15,19 @@ sanitized reconstruction kit. It does not collect project answers, calculate a
 global score or make governance decisions. See `plan.md` for the architecture
 programme and `ROADMAP.md` for reviewed business coverage.
 
+## Documentation and collaboration
+
+- [Documentation index](docs/README.md) — setup, architecture and operating guides.
+- [Contributing](CONTRIBUTING.md), [Code of Conduct](CODE_OF_CONDUCT.md) and
+  [Security policy](SECURITY.md).
+- [GitHub Wiki](https://github.com/latifo01/governance-brain/wiki) — navigation
+  to the repository documentation.
+- [GitHub Releases](https://github.com/latifo01/governance-brain/releases) —
+  published versions and release notes.
+
+See [the GitHub guide](docs/github.md) for Wiki synchronization and release
+preparation.
+
 ## Prerequisites
 
 - Windows 11 with PowerShell 7, Ubuntu/WSL, or another supported Python environment
